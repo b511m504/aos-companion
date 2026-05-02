@@ -1,0 +1,1425 @@
+{
+  "faction": "flesh eater courts",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "ABHORRANT ARCHREGENT",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nABHORRANT ARCHREGENT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant\n\n\n\tPassive\t\t\nMUSICIANS, PLAY!: On the Archregent’s signal, the court musicians strike up an exhilarating tune to which the joyful revellers begin to dance.\n\n\n\nEffect: While you believe this DELUSION, subtract 1 from hit rolls for shooting attacks that target friendly FLESH-EATER COURTS units while they are wholly within 12\" of a friendly FLESH-EATER COURTS HERO.\nKEYWORDS\tDELUSION\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nCOUNTLESS SERVANTS: With a chilling shriek, the Archregent summons some of their most trusted warriors.\n\n\n\nDeclare: Pick a friendly SERFS or KNIGHTS unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+:\n\nIf the target is a SERFS unit, you can return up to 3 slain models to that unit.\nIf the target is a KNIGHTS unit, you can return 1 slain model to that unit.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n6\"\n5\n6+\n2\n6+\nAbhorrant Cardinals seek to spread the glory of Ushoran across every land. Having drunk from the Carrion King’s chalice, they have gained a measure of unwitting control over the delusion, using bloody rites to stoke their flock’s rabid fury.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "Any FLESH-EATER COURTS, 0-1 Royal Attendant"
+      },
+      "abilities_text": "Passive\t\t\nMUSICIANS, PLAY!: On the Archregent’s signal, the court musicians strike up an exhilarating tune to which the joyful revellers begin to dance.\n\n\n\nEffect: While you believe this DELUSION, subtract 1 from hit rolls for shooting attacks that target friendly FLESH-EATER COURTS units while they are wholly within 12\" of a friendly FLESH-EATER COURTS HERO.",
+      "abilities": [
+        {
+          "name": "MUSICIANS, PLAY!",
+          "type": "Passive",
+          "description": "On the Archregent’s signal, the court musicians strike up an exhilarating tune to which the joyful revellers begin to dance.\nEffect: While you believe this DELUSION, subtract 1 from hit rolls for shooting attacks that target friendly FLESH-EATER COURTS units while they are wholly within 12\" of a friendly FLESH-EATER COURTS HERO."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Gory Talons and Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "ABHORRANT CARDINAL",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nABHORRANT CARDINAL\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCursed Crosier\t3\t4+\t3+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Royal Attendant, 0-1 KNIGHTS, Any SERFS, 0-1 BEAST\n\n\n\tPassive\t\t\nINSULAR CONTEMPLATIONS: A Cardinal’s ability to bend reality with their ranting is all the more potent when there are no questioning ‘heretics’ nearby.\n\n\n\nEffect: While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit.\n\n\n\tPassive\t\t\nBANISHING LITURGY: The solemn sacraments of a Cardinal and their faithful congregation can nullify the most hostile magics.\n\n\n\nEffect: While you believe this DELUSION:\nAdd 2 to banishment rolls for friendly FLESH-EATER COURTS units.\nFriendly FLESH-EATER COURTS units have WARD (4+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS.\nKEYWORDS\tDELUSION\n\n\nKEYWORDS\n\tHERO, PRIEST (1), INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\n6+\nFrom ruling their subjects to serving as part of a sprawling, monstrous royal family, abhorrant vampires possess great power amongst the ghoulish courts. Many display a warped honour, hunting enemy champions to tear apart in single combat.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCursed Crosier\t3\t4+\t3+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Royal Attendant, 0-1 KNIGHTS, Any SERFS, 0-1 BEAST",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Royal Attendant, 0-1 KNIGHTS, Any SERFS, 0-1 BEAST"
+      },
+      "abilities_text": "Passive\t\t\nINSULAR CONTEMPLATIONS: A Cardinal’s ability to bend reality with their ranting is all the more potent when there are no questioning ‘heretics’ nearby.\n\n\n\nEffect: While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit.\n\n\n\tPassive\t\t\nBANISHING LITURGY: The solemn sacraments of a Cardinal and their faithful congregation can nullify the most hostile magics.\n\n\n\nEffect: While you believe this DELUSION:\nAdd 2 to banishment rolls for friendly FLESH-EATER COURTS units.\nFriendly FLESH-EATER COURTS units have WARD (4+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS.",
+      "abilities": [
+        {
+          "name": "INSULAR CONTEMPLATIONS",
+          "type": "Passive",
+          "description": "A Cardinal’s ability to bend reality with their ranting is all the more potent when there are no questioning ‘heretics’ nearby.\nEffect: While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit."
+        },
+        {
+          "name": "BANISHING LITURGY",
+          "type": "Passive",
+          "description": "The solemn sacraments of a Cardinal and their faithful congregation can nullify the most hostile magics.\nEffect: While you believe this DELUSION:\nAdd 2 to banishment rolls for friendly FLESH-EATER COURTS units.\nFriendly FLESH-EATER COURTS units have WARD (4+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cursed Crosier",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "ABHORRANT GHOUL KING",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nABHORRANT GHOUL KING\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBloodstained Talons and Fangs\nAnti-HERO (+1 Rend)\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant\n\n\n\tPassive\t\t\nCODE OF HONOUR: Delusions of chivalry and honourable combat swirling, the Ghoul King issues direct challenges to enemy champions.\n\n\n\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly non-UNIQUE FLESH-EATER COURTS HEROES for attacks that target an enemy HERO.\nKEYWORDS\tDELUSION\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for this unit\t\t\nVASSALS, TO ARMS!: Standing tall in the midst of the melee, this regal lord swiftly delivers an impassioned speech that inspires nearby serfs.\n\n\n\nEffect: Pick a friendly SERFS unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n12\"\n7\n5+\n2\n6+\nGorewardens bear the keys to the kingdom and oversee the protection of their liege’s borderlands. Clad in what they perceive to be great finery, they lead flights of bloodthirsty predators to savage unwary intruders.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBloodstained Talons and Fangs\nAnti-HERO (+1 Rend)\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FLESH-EATER COURTS, 0-1 Royal Attendant"
+      },
+      "abilities_text": "Passive\t\t\nCODE OF HONOUR: Delusions of chivalry and honourable combat swirling, the Ghoul King issues direct challenges to enemy champions.\n\n\n\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly non-UNIQUE FLESH-EATER COURTS HEROES for attacks that target an enemy HERO.",
+      "abilities": [
+        {
+          "name": "CODE OF HONOUR",
+          "type": "Passive",
+          "description": "Delusions of chivalry and honourable combat swirling, the Ghoul King issues direct challenges to enemy champions.\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly non-UNIQUE FLESH-EATER COURTS HEROES for attacks that target an enemy HERO."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bloodstained Talons and Fangs Anti-HERO (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-HERO (+1 Rend)"
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "ABHORRANT GOREWARDEN",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nABHORRANT GOREWARDEN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 170\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Royal Attendant, 0-1 SERFS, Any KNIGHTS, 0-1 BEAST\n\n\n\tDeployment Phase\t\t\nLORD OF THE MARCHES: A Gorewarden is responsible for patrolling the borders of their liege’s territory, leading flights of warriors to ambush their enemies.\n\n\n\nDeclare: Pick this unit and up to 2 friendly FLESH-EATER COURTS units in this unit’s regiment that have not been deployed to be the targets.\n\nEffect: Set up the target units in reserve patrolling the borders. They have now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tYour Movement Phase\t\t\nTRESPASSERS!: When intruders are sighted, a Gorewarden and their flock make haste towards them, shrieking bloody murder\n\n\n\nDeclare: Pick this unit if it is patrolling the borders, then pick an enemy unit to be the target.\n\nEffect: Set up this unit more than 6\" from the target and more than 9\" from all other enemy units. Then, set up the units that were patrolling the borders with this unit wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\n\tPassive\t\t\nDEFENDERS OF THE KINGDOM: The Gorewarden and their sworn swords quickly repel any intrusion over the kingdom’s borders.\n\n\n\nEffect: While you believe this DELUSION and this unit is on the battlefield, add 1 to charge rolls for friendly FLESH-EATER COURTS units while they are wholly within 12\" of a friendly FLESH-EATER COURTS HERO. Add 2 to charge rolls instead if they were also set up in the same turn.\n\nWhen using the ‘A Kingdom Deluded’ ability, you can pick this DELUSION even if this unit is patrolling the borders.\nKEYWORDS\tDELUSION\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n7\"\n6\n5+\n2\n6+\nMasters of a kingdom’s knightly echelons, Crypt Haunters are amongst the most physically powerful of an abhorrant’s courtiers. They lead their misbegotten kin in bone-crunching charges and revel in tearing foes limb from bloody limb.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 170\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Royal Attendant, 0-1 SERFS, Any KNIGHTS, 0-1 BEAST\n\n\n\tDeployment Phase\t\t\nLORD OF THE MARCHES: A Gorewarden is responsible for patrolling the borders of their liege’s territory, leading flights of warriors to ambush their enemies.\n\n\n\nDeclare: Pick this unit and up to 2 friendly FLESH-EATER COURTS units in this unit’s regiment that have not been deployed to be the targets.\n\nEffect: Set up the target units in reserve patrolling the borders. They have now been deployed.",
+      "stats": {
+        "unit_size": "1",
+        "points": "170",
+        "base_size": "40mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Gory Talons and Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "CRYPT HAUNTER COURTIER",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT HAUNTER COURTIER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tMassive Bone Club and Rancid Talons\t5\t4+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 SERFS, Any Crypt Horrors, Any Crypt Horrors (2 models), 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tYour Hero Phase\t\t\nBLESSED BLOOD: The blood of their liege grants these Flesh-eaters a supernatural regenerative capacity.\n\n\n\nEffect: Heal (D3) this unit.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nKNIGHTLY EXEMPLAR: Witnessing a Crypt Haunter Courtier’s frenzied, blood-spraying assault sends the warriors in their pack into a murderous frenzy.\n\n\n\nEffect: Pick a friendly Crypt Horrors unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n12\"\n6\n5+\n2\n6+\nCrypt Infernals are terrors of the skies and often lead the bodyguard of an abhorrant monarch. Blessed with leathery wings, they soar upon thermals and keep watch for the enemy - upon sighting them, they let loose a sonic bombardment that blasts the mind.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMassive Bone Club and Rancid Talons\t5\t4+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 SERFS, Any Crypt Horrors, Any Crypt Horrors (2 models), 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 SERFS, Any Crypt Horrors, Any Crypt Horrors (2 models), 0-1 BEAST",
+        "notes": "This HERO can join an eligible regiment as a Royal Attendant."
+      },
+      "abilities_text": "Your Hero Phase\t\t\nBLESSED BLOOD: The blood of their liege grants these Flesh-eaters a supernatural regenerative capacity.\n\n\n\nEffect: Heal (D3) this unit.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nKNIGHTLY EXEMPLAR: Witnessing a Crypt Haunter Courtier’s frenzied, blood-spraying assault sends the warriors in their pack into a murderous frenzy.\n\n\n\nEffect: Pick a friendly Crypt Horrors unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "BLESSED BLOOD",
+          "type": "Other",
+          "description": "The blood of their liege grants these Flesh-eaters a supernatural regenerative capacity.\nEffect: Heal (D3) this unit.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "KNIGHTLY EXEMPLAR",
+          "type": "Reaction",
+          "description": "Witnessing a Crypt Haunter Courtier’s frenzied, blood-spraying assault sends the warriors in their pack into a murderous frenzy.\nEffect: Pick a friendly Crypt Horrors unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Massive Bone Club and Rancid Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "NOBLE"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT INFERNAL COURTIER",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT INFERNAL COURTIER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tPiercing Death Screech\nShoot in Combat\t10\"\t4\t4+\t3+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSkewering Claws\t\t5\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any Crypt Flayers (2 models), 0-1 SERFS, Any Crypt Flayers, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nON WINGED STEEDS\nDeclare: Pick a friendly Crypt Flayers unit that used the ‘To Our Liege!’ ability this turn and is wholly within 9\" of this unit to be the target.\n\nEffect: The target can immediately move D3\" but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nMIND-SHATTERING CACOPHONY: When a Crypt Infernal Courtier directs their retinue to focus their death screams on an enemy, the resulting discordant soundwaves can fell the mightiest of foes.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Death Screech to be the target.\n\nEffect: For the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly Crypt Flayers units for attacks that target that enemy unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY, FLY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\n6+\nGrand Justice Gormayne ensures that the Carrion Kings insane laws are followed and those who transgress are punished. A cunning orator, he spurs his ghoulish jury' into a frothing rage, condemning foes to be bloodily torn apart.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tPiercing Death Screech\nShoot in Combat\t10\"\t4\t4+\t3+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSkewering Claws\t\t5\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any Crypt Flayers (2 models), 0-1 SERFS, Any Crypt Flayers, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "Any Crypt Flayers (2 models), 0-1 SERFS, Any Crypt Flayers, 0-1 BEAST",
+        "notes": "This HERO can join an eligible regiment as a Royal Attendant."
+      },
+      "abilities_text": "Once Per Turn (Army), Your Movement Phase\t\t\nON WINGED STEEDS\nDeclare: Pick a friendly Crypt Flayers unit that used the ‘To Our Liege!’ ability this turn and is wholly within 9\" of this unit to be the target.\n\nEffect: The target can immediately move D3\" but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nMIND-SHATTERING CACOPHONY: When a Crypt Infernal Courtier directs their retinue to focus their death screams on an enemy, the resulting discordant soundwaves can fell the mightiest of foes.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Death Screech to be the target.\n\nEffect: For the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly Crypt Flayers units for attacks that target that enemy unit.",
+      "abilities": [
+        {
+          "name": "ON WINGED STEEDS",
+          "type": "Once Per Turn",
+          "description": "Pick a friendly Crypt Flayers unit that used the ‘To Our Liege!’ ability this turn and is wholly within 9\" of this unit to be the target.\nEffect: The target can immediately move D3\" but cannot end that move in combat."
+        },
+        {
+          "name": "MIND-SHATTERING CACOPHONY",
+          "type": "Once Per Turn",
+          "description": "When a Crypt Infernal Courtier directs their retinue to focus their death screams on an enemy, the resulting discordant soundwaves can fell the mightiest of foes.\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Death Screech to be the target.\nEffect: For the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly Crypt Flayers units for attacks that target that enemy unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Piercing Death Screech",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Skewering Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, FLY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "NOBLE"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "GRAND JUSTICE GORMAYNE",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nGRAND JUSTICE GORMAYNE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGore-streaked Gavel\t4\t4+\t3+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 KNIGHTS, 0-1 BEAST, Any SERFS\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tYour Charge Phase\t\t\nARREST THOSE MISCREANTS!: Should an enemy break Ushoran’s laws, Gormayne is quick to condemn them.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, until the start of your next turn, the target has STRIKE-LAST while it is in combat with any friendly FLESH-EATER COURTS HEROES and any friendly SERFS or KNIGHTS units.\n\n\n\tPassive\t\t\nACCUSATIONS OF REGICIDE: Of the many crimes Gormayne is empowered to punish, few stir his jury to a frenzy more than an attempt to harm the nobility.\n\n\n\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly SERFS and KNIGHTS units while they are wholly within 12\" of any friendly FLESH-EATER COURTS HEROES that had any damage points allocated to them in the same turn.\nKEYWORDS\tDELUSION\n\n\nKEYWORDS\n\tUNIQUE, HERO, INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\n6+\nBeloved by the serf masses and reviled by his fellow abhorrants, Felgryn is an especially beastly example of an already monstrous lineage. It is fitting that this blood-crazed vampire has a particular affinity with wild creatures; these delusion-wracked beasts heed his garbled commands, spying hidden foes and setting on them with flashing talons.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGore-streaked Gavel\t4\t4+\t3+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 KNIGHTS, 0-1 BEAST, Any SERFS\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tYour Charge Phase\t\t\nARREST THOSE MISCREANTS!: Should an enemy break Ushoran’s laws, Gormayne is quick to condemn them.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, until the start of your next turn, the target has STRIKE-LAST while it is in combat with any friendly FLESH-EATER COURTS HEROES and any friendly SERFS or KNIGHTS units.",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 KNIGHTS, 0-1 BEAST, Any SERFS"
+      },
+      "abilities_text": "Passive\t\t\nACCUSATIONS OF REGICIDE: Of the many crimes Gormayne is empowered to punish, few stir his jury to a frenzy more than an attempt to harm the nobility.\n\n\n\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly SERFS and KNIGHTS units while they are wholly within 12\" of any friendly FLESH-EATER COURTS HEROES that had any damage points allocated to them in the same turn.",
+      "abilities": [
+        {
+          "name": "ACCUSATIONS OF REGICIDE",
+          "type": "Passive",
+          "description": "Of the many crimes Gormayne is empowered to punish, few stir his jury to a frenzy more than an attempt to harm the nobility.\nEffect: While you believe this DELUSION, add 1 to the Damage characteristic of melee weapons used by friendly SERFS and KNIGHTS units while they are wholly within 12\" of any friendly FLESH-EATER COURTS HEROES that had any damage points allocated to them in the same turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Gore-streaked Gavel",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "HIGH FALCONER FELGRYN",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nHIGH FALCONER FELGRYN\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tCarrion Flock\nShoot in Combat, Companion\t12\"\t1\t4+\t4+\t-\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFilthy Talons and Fangs\t\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 120\n\nMODEL\tBASE SIZE\nHigh Falconer Felgryn\t32mm\nGrype\t28mm\nCan be reinforced: No\nRegiment Options: 0-1 MONSTER, Any BEAST, Any SERFS\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tYour Hero Phase\t\t\nBE MINE EYES: Felgryn and his favoured ‘falcon’, Grype, are adept at rooting out hidden prey.\n\n\n\nDeclare: This unit’s Grype is a token. If this unit’s Grype is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target.\n\nEffect: Place this unit’s Grype next to the target. If the target is destroyed while this unit’s Grype is next to it, remove this unit’s Grype from the battlefield.\n\n\n\tPassive\t\t\nWINGED RECONNOITRER: The screeches of Felgryn’s twisted ‘falcon’ act as a beacon to other cannibal hunters.\n\n\n\nEffect: While this unit’s Grype is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly SERFS units.\n\n\n\tPassive\t\t\nSIR FELGRYN IS ABROAD!: Felgryn’s roguish example and affinity with animals make him beloved of commonfolk and creature alike, each resisting all the more fiercely when he takes to the field.\n\n\n\nEffect: While you believe this DELUSION, subtract 10 from the control scores of enemy units while they are in combat with any friendly SERFS units or any friendly non-HERO FLESH-EATER COURTS MONSTER or BEAST units.\nKEYWORDS\tDELUSION\n\n\nKEYWORDS\n\tUNIQUE, HERO, INFANTRY, WARD (6+), FLESH‑EATER COURTS\nDEATH, ABHORRANT\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\n6+\nMarrowscroll Heralds are senior delegates of the court, sent to deliver entreaties to the other nations of the realms. In doing so, they spread the curse of Ushoran far and wide, leaving desolation and madness in their wake.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tCarrion Flock\nShoot in Combat, Companion\t12\"\t1\t4+\t4+\t-\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFilthy Talons and Fangs\t\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 120\n\nMODEL\tBASE SIZE\nHigh Falconer Felgryn\t32mm\nGrype\t28mm\nCan be reinforced: No\nRegiment Options: 0-1 MONSTER, Any BEAST, Any SERFS\nNotes: This HERO can join an eligible regiment as a Royal Attendant.",
+      "stats": {
+        "unit_size": "1",
+        "reinforced": "No",
+        "regiment_options": "0-1 MONSTER, Any BEAST, Any SERFS",
+        "notes": "This HERO can join an eligible regiment as a Royal Attendant."
+      },
+      "abilities_text": "Your Hero Phase\t\t\nBE MINE EYES: Felgryn and his favoured ‘falcon’, Grype, are adept at rooting out hidden prey.\n\n\n\nDeclare: This unit’s Grype is a token. If this unit’s Grype is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target.\n\nEffect: Place this unit’s Grype next to the target. If the target is destroyed while this unit’s Grype is next to it, remove this unit’s Grype from the battlefield.\n\n\n\tPassive\t\t\nWINGED RECONNOITRER: The screeches of Felgryn’s twisted ‘falcon’ act as a beacon to other cannibal hunters.\n\n\n\nEffect: While this unit’s Grype is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly SERFS units.\n\n\n\tPassive\t\t\nSIR FELGRYN IS ABROAD!: Felgryn’s roguish example and affinity with animals make him beloved of commonfolk and creature alike, each resisting all the more fiercely when he takes to the field.\n\n\n\nEffect: While you believe this DELUSION, subtract 10 from the control scores of enemy units while they are in combat with any friendly SERFS units or any friendly non-HERO FLESH-EATER COURTS MONSTER or BEAST units.",
+      "abilities": [
+        {
+          "name": "BE MINE EYES",
+          "type": "Other",
+          "description": "Felgryn and his favoured ‘falcon’, Grype, are adept at rooting out hidden prey.\nDeclare: This unit’s Grype is a token. If this unit’s Grype is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target.\nEffect: Place this unit’s Grype next to the target. If the target is destroyed while this unit’s Grype is next to it, remove this unit’s Grype from the battlefield.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "WINGED RECONNOITRER",
+          "type": "Passive",
+          "description": "The screeches of Felgryn’s twisted ‘falcon’ act as a beacon to other cannibal hunters.\nEffect: While this unit’s Grype is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly SERFS units."
+        },
+        {
+          "name": "SIR FELGRYN IS ABROAD!",
+          "type": "Passive",
+          "description": "Felgryn’s roguish example and affinity with animals make him beloved of commonfolk and creature alike, each resisting all the more fiercely when he takes to the field.\nEffect: While you believe this DELUSION, subtract 10 from the control scores of enemy units while they are in combat with any friendly SERFS units or any friendly non-HERO FLESH-EATER COURTS MONSTER or BEAST units."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Carrion Flock ,",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Filthy Talons and Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MARROWSCROLL HERALD",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nMARROWSCROLL HERALD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBone Scythe\t5\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any SERFS, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tOnce Per Turn (Army), Enemy Charge Phase\t\t\nTHE KING’S ENTREATY: The message within the infected bone carried by a Marrowscroll Herald is an entreaty to madness and carnage; to reject it is to rouse the ire of the ghoulish throngs.\n\n\n\nDeclare: Pick a visible enemy unit within 6\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\n\nAccept: The target has the INFECTED keyword for the rest of the battle.\nReject: The target has STRIKE-LAST for the rest of the turn.\n\n\n\tReaction: Opponent declared a command, SPELL ability or PRAYER ability for an INFECTED unit\t\t\nINFECTED: As they start to lose their grip on reality, the infected find tasks that were previously second nature to them increasingly difficult.\n\n\n\nEffect: Roll a dice. On a 5+:\n\n\nIf they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\nIf they declared a SPELL or PRAYER ability, that spell or prayer fails.\n\nThis reaction can be used more than once per phase but only once per command, SPELL ability or PRAYER ability.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\n6+\nViewed with unease even by fellow ghouls, the Royal Decapitators care only for the dealing of death. Dragging huge, tarnished axes behind them, they serve their lieges as gibbering executioners and delight in taking worthy heads.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBone Scythe\t5\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any SERFS, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any SERFS, 0-1 BEAST",
+        "notes": "This HERO can join an eligible regiment as a Royal Attendant."
+      },
+      "abilities_text": "Once Per Turn (Army), Enemy Charge Phase\t\t\nTHE KING’S ENTREATY: The message within the infected bone carried by a Marrowscroll Herald is an entreaty to madness and carnage; to reject it is to rouse the ire of the ghoulish throngs.\n\n\n\nDeclare: Pick a visible enemy unit within 6\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\n\nAccept: The target has the INFECTED keyword for the rest of the battle.\nReject: The target has STRIKE-LAST for the rest of the turn.\n\n\n\tReaction: Opponent declared a command, SPELL ability or PRAYER ability for an INFECTED unit\t\t\nINFECTED: As they start to lose their grip on reality, the infected find tasks that were previously second nature to them increasingly difficult.\n\n\n\nEffect: Roll a dice. On a 5+:\n\n\nIf they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\nIf they declared a SPELL or PRAYER ability, that spell or prayer fails.\n\nThis reaction can be used more than once per phase but only once per command, SPELL ability or PRAYER ability.",
+      "abilities": [
+        {
+          "name": "THE KING’S ENTREATY",
+          "type": "Once Per Turn",
+          "description": "The message within the infected bone carried by a Marrowscroll Herald is an entreaty to madness and carnage; to reject it is to rouse the ire of the ghoulish throngs.\nDeclare: Pick a visible enemy unit within 6\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\nAccept: The target has the INFECTED keyword for the rest of the battle.\nReject: The target has STRIKE-LAST for the rest of the turn."
+        },
+        {
+          "name": "INFECTED",
+          "type": "Reaction",
+          "description": "As they start to lose their grip on reality, the infected find tasks that were previously second nature to them increasingly difficult.\nEffect: Roll a dice. On a 5+:\nIf they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\nIf they declared a SPELL or PRAYER ability, that spell or prayer fails.\nThis reaction can be used more than once per phase but only once per command, SPELL ability or PRAYER ability."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bone Scythe",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "NOBLE"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "ROYAL DECAPITATOR",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nROYAL DECAPITATOR\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tHeadsman’s Axe\t3\t4+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any SERFS, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nEXECUTIONER’S ENTOURAGE: Though Royal Decapitators are often shunned by their fellow ghouls, when the blood starts flying, these sinister figures can attract quite the following.\n\n\n\nEffect: Pick a friendly SERFS unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, the target’s melee weapons have Crit (2 Hits) for the rest of the turn.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nOFF WITH THEIR HEAD!: A Royal Decapitator’s axe hungers to cleave through necks in one fell swing.\n\n\n\nEffect: Immediately after that FIGHT ability has been resolved, pick an enemy INFANTRY HERO in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\n6+\nUtterly deranged, the Abhorrant Ghoul Kings of the Everspring Swathe believe themselves to be good and just rulers of forest kingdoms, rather than the flesh-eating nightmares they truly are. Their cadaverous minions are equally deluded. Such is their devotion to their vampiric master that should the Ghoul King fall they will enter a berserk rage, ripping and tearing those responsible to shreds.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tHeadsman’s Axe\t3\t4+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any SERFS, 0-1 BEAST\nNotes: This HERO can join an eligible regiment as a Royal Attendant.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any SERFS, 0-1 BEAST",
+        "notes": "This HERO can join an eligible regiment as a Royal Attendant."
+      },
+      "abilities_text": "Reaction: You declared a FIGHT ability for this unit\t\t\nEXECUTIONER’S ENTOURAGE: Though Royal Decapitators are often shunned by their fellow ghouls, when the blood starts flying, these sinister figures can attract quite the following.\n\n\n\nEffect: Pick a friendly SERFS unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, the target’s melee weapons have Crit (2 Hits) for the rest of the turn.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nOFF WITH THEIR HEAD!: A Royal Decapitator’s axe hungers to cleave through necks in one fell swing.\n\n\n\nEffect: Immediately after that FIGHT ability has been resolved, pick an enemy INFANTRY HERO in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+      "abilities": [
+        {
+          "name": "S ENTOURAGE",
+          "type": "Reaction",
+          "description": "Though Royal Decapitators are often shunned by their fellow ghouls, when the blood starts flying, these sinister figures can attract quite the following.\nEffect: Pick a friendly SERFS unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, the target’s melee weapons have Crit (2 Hits) for the rest of the turn."
+        },
+        {
+          "name": "OFF WITH THEIR HEAD!",
+          "type": "Reaction",
+          "description": "A Royal Decapitator’s axe hungers to cleave through necks in one fell swing.\nEffect: Immediately after that FIGHT ability has been resolved, pick an enemy INFANTRY HERO in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Headsman’s Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+), NOBLE\nDEATH, FLESH-EATER COURTS",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "NOBLE"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN ABHORRANT GHOUL KING",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nSCOURGE OF GHYRAN ABHORRANT GHOUL KING\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBlood-stained Talons and Fangs\nAnti-HERO (+1 Rend)\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 110\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, Any Flesh-eater Noble\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nTHE KINGS COURT: Ghoul Kings are often surrounded by their personal attendants, courtiers and royal family, who fight passionately to compete for their liege’s approval and whose loyalty fires the blood of their monarch in turn.\n\n\n\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly non-MONSTER FLESH-EATER COURTS HEROES while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly NON-MONSTER FLESH-EATER COURTS HERO wholly within 12\" of this unit, to a maximum of +3.\n\n\n\tPassive\t\t\nLONG LIVE THE KING: The death of a member of the royal family sends shockwaves through the cannibal court, sending them into an impassioned rage.\n\n\n\nEffect: If this unit would be destroyed, before removing it from play, friendly non-UNIQUE FLESH-EATER COURTS units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have Crit (Auto-wound) and score critical hits on unmodied hit rolls of 5+, even if this unit has been destroyed.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\n\n\n\n\t\t\n\t\n12\"\n7\n5+\n2\n6+\nFlying terrors on tattered wings, Abhorrant Gorewardens patrol the mordant kingdoms of Ghyran, seeking intruders or precious relics that their liege might desire. Should they spot such a target they will descend in a screeching dive, reclaiming the lands in the name of their Ghoul King and disembowelling any trespassers with raking talons.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBlood-stained Talons and Fangs\nAnti-HERO (+1 Rend)\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 110\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, Any Flesh-eater Noble\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FLESH-EATER COURTS, Any Flesh-eater Noble",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nTHE KINGS COURT: Ghoul Kings are often surrounded by their personal attendants, courtiers and royal family, who fight passionately to compete for their liege’s approval and whose loyalty fires the blood of their monarch in turn.\n\n\n\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly non-MONSTER FLESH-EATER COURTS HEROES while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly NON-MONSTER FLESH-EATER COURTS HERO wholly within 12\" of this unit, to a maximum of +3.\n\n\n\tPassive\t\t\nLONG LIVE THE KING: The death of a member of the royal family sends shockwaves through the cannibal court, sending them into an impassioned rage.\n\n\n\nEffect: If this unit would be destroyed, before removing it from play, friendly non-UNIQUE FLESH-EATER COURTS units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have Crit (Auto-wound) and score critical hits on unmodied hit rolls of 5+, even if this unit has been destroyed.",
+      "abilities": [
+        {
+          "name": "THE KINGS COURT",
+          "type": "Passive",
+          "description": "Ghoul Kings are often surrounded by their personal attendants, courtiers and royal family, who fight passionately to compete for their liege’s approval and whose loyalty fires the blood of their monarch in turn.\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly non-MONSTER FLESH-EATER COURTS HEROES while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly NON-MONSTER FLESH-EATER COURTS HERO wholly within 12\" of this unit, to a maximum of +3."
+        },
+        {
+          "name": "LONG LIVE THE KING",
+          "type": "Passive",
+          "description": "The death of a member of the royal family sends shockwaves through the cannibal court, sending them into an impassioned rage.\nEffect: If this unit would be destroyed, before removing it from play, friendly non-UNIQUE FLESH-EATER COURTS units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have Crit (Auto-wound) and score critical hits on unmodied hit rolls of 5+, even if this unit has been destroyed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Blood-stained Talons and Fangs Anti-HERO (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-HERO (+1 Rend)"
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "WARD (6+)",
+        "ABHORRANT"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN ABHORRANT GOREWARDEN",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nSCOURGE OF GHYRAN ABHORRANT GOREWARDEN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Flesh-eater Noble, 0-1 SERFS, Any KNIGHTS\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nGLORIOUS CHARGE: The Gorewarden launches into battle alongside their trusted knights.\n\n\n\nEffect: While this unit is within the combat range of a friendly KNIGHTS unit and has charged this turn, this unit has WARD (5+) and its Gory Talons and Fangs have Charge (+1 Damage).\n\n\n\tOnce Per Turn (Army), End of Enemy Turn\t\t\nSWOOPING DESCENT: The Gorewarden takes to the skies, swooping across the battlefield to secure a glorious treasure for the court.\n\n\n\nEffect: Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n\nWholly within 6\" of the edge of the battlefield, or\nWithin 3\" of an objective you do not control.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\nMonster Hero\n\n\n\t\t\n\t\n12\"\n16\n4+\n5\n6+\nTo an abhorrant vampire, their Terrorgheist steed appears as a glorious, white‑feathered lord of the sky. The reality is that these bat-like goliaths are ferocious and foul – traits that they share with their cannibal masters as they descend upon their prey.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGory Talons and Fangs\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Flesh-eater Noble, 0-1 SERFS, Any KNIGHTS\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Flesh-eater Noble, 0-1 SERFS, Any KNIGHTS",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nGLORIOUS CHARGE: The Gorewarden launches into battle alongside their trusted knights.\n\n\n\nEffect: While this unit is within the combat range of a friendly KNIGHTS unit and has charged this turn, this unit has WARD (5+) and its Gory Talons and Fangs have Charge (+1 Damage).\n\n\n\tOnce Per Turn (Army), End of Enemy Turn\t\t\nSWOOPING DESCENT: The Gorewarden takes to the skies, swooping across the battlefield to secure a glorious treasure for the court.\n\n\n\nEffect: Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n\nWholly within 6\" of the edge of the battlefield, or\nWithin 3\" of an objective you do not control.",
+      "abilities": [
+        {
+          "name": "GLORIOUS CHARGE",
+          "type": "Passive",
+          "description": "The Gorewarden launches into battle alongside their trusted knights.\nEffect: While this unit is within the combat range of a friendly KNIGHTS unit and has charged this turn, this unit has WARD (5+) and its Gory Talons and Fangs have Charge (+1 Damage)."
+        },
+        {
+          "name": "End of Enemy Turn SWOOPING DESCENT",
+          "type": "Once Per Turn",
+          "description": "The Gorewarden takes to the skies, swooping across the battlefield to secure a glorious treasure for the court.\nEffect: Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\nWholly within 6\" of the edge of the battlefield, or\nWithin 3\" of an objective you do not control."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Gory Talons and Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\nMonster Hero",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "ABHORRANT"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "NAGASH",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nNAGASH\nSUPREME LORD OF THE UNDEAD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tAlakanash, the Staff of Power\t4\t3+\t3+\t2\tD6\n\tZefet-nebtar, the Mortis Blade\t4\t3+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 830\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 3 from its power level.\n\n\n\tPassive\t\t\nUTTER CONTEMPT: Nagash is disgusted by the rabid mania of the Flesh-eaters, but their usefulness to his goals is beyond doubt.\n\n\n\nEffect: This unit ignores the effects of DELUSION abilities.\n\n\n\tPassive\t\t\nTHE STAFF OF POWER: Alakanash is capped with gems of purest grave-sand.\n\n\n\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHAND OF DUST: Nagash’s touch can turn a foe to a pile of dusty bones in moments.\n\n\n\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\n\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.\nKEYWORDS\tRAMPAGE\n\n\n\tYour Hero Phase\t\t\n7\nINVOCATION OF NAGASH: In a storm of morbid sorcery, Nagash blasts his foes’ souls or re-knits his minions’ bodies.\n\n\n\nDeclare: This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.\n\nEffect: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly DEATH unit, pick 1 of the following effects:\n\nReturn a number of slain models to the target unit with a combined Health characteristic of up to 3.\nThe target has WARD (5+) until the start of your next turn.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nSUPREME LORD OF THE UNDEAD: Nagash is the undisputed master of all undead creatures.\n\n\n\nDeclare: Pick a friendly non-HERO NON-UNIQUE DEATH unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (9), FLY, WARD (5+)\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n10\"\n16\n4+\n5\n5+\nAn ancient and monstrous lord amongst vampires, Ushoran is one of the most dreaded of Nagash’s Mortarch servants. He is a font of cursed madness, escalating the mania of his ghoul servants even as he annihilates foes with talon and gore-splattered sceptre.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAlakanash, the Staff of Power\t4\t3+\t3+\t2\tD6\n\tZefet-nebtar, the Mortis Blade\t4\t3+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 830\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, 0-1 Royal Attendant",
+      "stats": {
+        "unit_size": "1",
+        "points": "830",
+        "base_size": "130mm",
+        "reinforced": "No",
+        "regiment_options": "Any FLESH-EATER COURTS, 0-1 Royal Attendant"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 3 from its power level.\n\n\n\tPassive\t\t\nUTTER CONTEMPT: Nagash is disgusted by the rabid mania of the Flesh-eaters, but their usefulness to his goals is beyond doubt.\n\n\n\nEffect: This unit ignores the effects of DELUSION abilities.\n\n\n\tPassive\t\t\nTHE STAFF OF POWER: Alakanash is capped with gems of purest grave-sand.\n\n\n\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHAND OF DUST: Nagash’s touch can turn a foe to a pile of dusty bones in moments.\n\n\n\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\n\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, subtract 3 from its power level."
+        },
+        {
+          "name": "UTTER CONTEMPT",
+          "type": "Passive",
+          "description": "Nagash is disgusted by the rabid mania of the Flesh-eaters, but their usefulness to his goals is beyond doubt.\nEffect: This unit ignores the effects of DELUSION abilities."
+        },
+        {
+          "name": "THE STAFF OF POWER",
+          "type": "Passive",
+          "description": "Alakanash is capped with gems of purest grave-sand.\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn."
+        },
+        {
+          "name": "End of Any Turn HAND OF DUST",
+          "type": "Once Per Turn",
+          "description": "Nagash’s touch can turn a foe to a pile of dusty bones in moments.\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Alakanash, the Staff of Power",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Zefet-nebtar, the Mortis Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "USHORAN",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nUSHORAN\nMORTARCH OF DELUSION\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSceptre of the Carrion King\t4\t3+\t2+\t2\tD3+3\n\tMonstrous Talons\t8\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 450\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, Any Royal Attendant\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Monstrous Talons is 4.\n\n\n\tPassive\t\t\nTHE ONE TRUE KING: News of Ushoran’s mighty deeds spreads like wildfire through the Flesh‑eater ranks, inspiring his subjects to carry out their duties with greater vigour.\n\n\n\nEffect: While you believe this DELUSION:\n\nAdd 1 to run rolls and charge rolls for friendly FLESH-EATER COURTS units.\nSubtract 1 from run rolls and charge rolls for enemy units.\nThe melee weapons used by friendly SERFS units have Anti-charge (+1 Rend) while they are wholly within friendly territory and did not charge in the same turn.\nKEYWORDS\tDELUSION\n\n\n\tPassive\t\t\nEPICENTRE OF DELUSION: In fleeting moments of near lucidity, Ushoran has a small degree of control over the delusion believed by the cannibal army.\n\n\n\nEffect: Each time you make a delusion roll, you can add 1 to or subtract 1 from the roll.\n\n\n\tYour Hero Phase\t\t\n7\nGLIMPSE OF DELUSION: Ushoran pulls an enemy into his delusion, causing them to see friends as vicious monsters.\n\n\n\nDeclare: Pick a visible enemy model within 18\" of this unit to be the target, pick an enemy unit that is visible to the target and within the target’s combat range to be the victim, then make a casting roll of 2D6. You can only pick the target’s unit to be the victim if that unit has 2 or more models.\n\nEffect: Pick 1 of the target’s melee weapons. Immediately resolve combat attacks for the target made with that weapon against the victim.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSHROUDCAGE FRAGMENT: Madness pulses from the gem in Ushoran’s crown, overwhelming those who draw too close.\n\n\n\nDeclare: Pick up to 3 enemy units in combat with this unit to be the targets.\n\nEffect: Roll a dice for each target. If the roll exceeds the target’s Control characteristic, the target has STRIKE-LAST for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (2), WARD (5+)\nDEATH, FLESH-EATER COURTS, ABHORRANT\nBeast\n\n\n\t\t\n\t\n10\"\n8\n5+\n1\n6+\nVarghulfs are the most degenerate of all Ushoran’s vampiric brood, their bestial nature reflected in their unholy form. Nevertheless, to the ghouls, the Varghulfs are saintly champions indeed, and they follow them to battle with a rapturous joy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSceptre of the Carrion King\t4\t3+\t2+\t2\tD3+3\n\tMonstrous Talons\t8\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 450\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any FLESH-EATER COURTS, Any Royal Attendant",
+      "stats": {
+        "unit_size": "1",
+        "points": "450",
+        "base_size": "130mm",
+        "reinforced": "No",
+        "regiment_options": "Any FLESH-EATER COURTS, Any Royal Attendant"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Monstrous Talons is 4.\n\n\n\tPassive\t\t\nTHE ONE TRUE KING: News of Ushoran’s mighty deeds spreads like wildfire through the Flesh‑eater ranks, inspiring his subjects to carry out their duties with greater vigour.\n\n\n\nEffect: While you believe this DELUSION:\n\nAdd 1 to run rolls and charge rolls for friendly FLESH-EATER COURTS units.\nSubtract 1 from run rolls and charge rolls for enemy units.\nThe melee weapons used by friendly SERFS units have Anti-charge (+1 Rend) while they are wholly within friendly territory and did not charge in the same turn.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Monstrous Talons is 4."
+        },
+        {
+          "name": "THE ONE TRUE KING",
+          "type": "Passive",
+          "description": "News of Ushoran’s mighty deeds spreads like wildfire through the Flesh‑eater ranks, inspiring his subjects to carry out their duties with greater vigour.\nEffect: While you believe this DELUSION:\nAdd 1 to run rolls and charge rolls for friendly FLESH-EATER COURTS units.\nSubtract 1 from run rolls and charge rolls for enemy units.\nThe melee weapons used by friendly SERFS units have Anti-charge (+1 Rend) while they are wholly within friendly territory and did not charge in the same turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Sceptre of the Carrion King",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "+3 Monstrous Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "8",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DELUSION",
+      "keywords": [
+        "DELUSION"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "VARGHULF COURTIER",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nVARGHULF COURTIER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tImmense Claws\nAnti-INFANTRY (+1 Rend)\t7\t4+\t3+\t1\t2\n\tDagger-like Fangs\nAnti-INFANTRY (+1 Rend)\t1\t3+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 60mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tEnd of Any Turn\t\t\nVICTORY FEAST: Varghulf rampages through the enemy’s ranks at will, its wounds sealing with unholy rapidity as it guzzles the flesh of the savaged foe.\n\n\n\nEffect: If any models were slain by this unit this turn:\n\nHeal (D6) this unit.\nIf this unit is in combat, this unit can immediately move 10\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was already in combat with at the start of the move.\nIf this unit is not in combat, this unit can immediately move 10\" but cannot end that move in combat.\n\n\nKEYWORDS\n\tBEAST, WARD (6+)\nDEATH, FLESH-EATER COURTS\nCavalry\n\n\n\t\t\n\t\n12\"\n4\n4+\n1\n6+\nThe grisly cavaliers known as Morbheg Knights are amongst the proudest of a court’s warriors. They bound to battle atop the half-living nightshriekers, hideous spawn of the ur-bat Morbheg.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tImmense Claws\nAnti-INFANTRY (+1 Rend)\t7\t4+\t3+\t1\t2\n\tDagger-like Fangs\nAnti-INFANTRY (+1 Rend)\t1\t3+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 60mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "60mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tEnd of Any Turn\t\t\nVICTORY FEAST: Varghulf rampages through the enemy’s ranks at will, its wounds sealing with unholy rapidity as it guzzles the flesh of the savaged foe.\n\n\n\nEffect: If any models were slain by this unit this turn:\n\nHeal (D6) this unit.\nIf this unit is in combat, this unit can immediately move 10\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was already in combat with at the start of the move.\nIf this unit is not in combat, this unit can immediately move 10\" but cannot end that move in combat.",
+      "abilities": [
+        {
+          "name": "BEAST Effect",
+          "type": "Passive",
+          "description": "This unit has a maximum control score of 1.\n\tEnd of Any Turn\t\t\nVICTORY FEAST: Varghulf rampages through the enemy’s ranks at will, its wounds sealing with unholy rapidity as it guzzles the flesh of the savaged foe.\nEffect: If any models were slain by this unit this turn:\nHeal (D6) this unit.\nIf this unit is in combat, this unit can immediately move 10\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was already in combat with at the start of the move.\nIf this unit is not in combat, this unit can immediately move 10\" but cannot end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Immense Claws Anti-INFANTRY (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "7",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        },
+        {
+          "name": "Dagger-like Fangs Anti-INFANTRY (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        }
+      ],
+      "keywords_text": "BEAST, WARD (6+)\nDEATH, FLESH-EATER COURTS\nCavalry",
+      "keywords": [
+        "BEAST",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "MORBHEG KNIGHTS",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nMORBHEG KNIGHTS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tNightshrieker’s Claws and Teeth\nCompanion\t3\t4+\t3+\t1\t2\n\tGrisly Lance\nCharge (+1 Damage)\t2\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 180\nBase size: 75 × 42mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), End of Enemy Turn\t\t\nPREDATOR KNIGHTS: Though they lack the power of true flight, nightshriekers can leap clean over obstacles and the heads of the foe, allowing the Morbheg Knights to strike and disengage at will.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Inflict D3 mortal damage on the target. Then, this unit can use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\nInfantry\n\n\n\t\t\n\t\n12\"\n4\n5+\n1\n6+\nHaving gorged on the flesh of monsters and the blood of vampires, Crypt Flayers have mutated into winged abominations. Other ghouls exalt them for their boldness and the ‘purity’ of their voices – sonic screeches that can burst eardrums.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tNightshrieker’s Claws and Teeth\nCompanion\t3\t4+\t3+\t1\t2\n\tGrisly Lance\nCharge (+1 Damage)\t2\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 180\nBase size: 75 × 42mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "180",
+        "base_size": "75 × 42mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), End of Enemy Turn\t\t\nPREDATOR KNIGHTS: Though they lack the power of true flight, nightshriekers can leap clean over obstacles and the heads of the foe, allowing the Morbheg Knights to strike and disengage at will.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Inflict D3 mortal damage on the target. Then, this unit can use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability.",
+      "abilities": [
+        {
+          "name": "End of Enemy Turn PREDATOR KNIGHTS",
+          "type": "Once Per Turn",
+          "description": "Though they lack the power of true flight, nightshriekers can leap clean over obstacles and the heads of the foe, allowing the Morbheg Knights to strike and disengage at will.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Inflict D3 mortal damage on the target. Then, this unit can use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Nightshrieker’s Claws and Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Grisly Lance Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\nInfantry",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "WARD (6+)",
+        "KNIGHTS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT FLAYERS",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT FLAYERS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Scream\nShoot in Combat\t10\"\t4\t4+\t3+\t2\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tPiercing Talons\t\t4\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nTO OUR LIEGE!: There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\n\n\n\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\n\n\n\n\t\t\n\t\n12\"\n4\n5+\n1\n6+\nHaving gorged on the flesh of monsters and the blood of vampires, Crypt Flayers have mutated into winged abominations. Other ghouls exalt them for their boldness and the ‘purity’ of their voices – sonic screeches that can burst eardrums.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Scream\nShoot in Combat\t10\"\t4\t4+\t3+\t2\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tPiercing Talons\t\t4\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "160",
+        "base_size": "50mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Movement Phase\t\t\nTO OUR LIEGE!: There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\n\n\n\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "TO OUR LIEGE!",
+          "type": "Once Per Turn",
+          "description": "There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Death Scream",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Piercing Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "FLY",
+        "WARD (6+)",
+        "KNIGHTS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT FLAYERS (",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT FLAYERS (2 MODELS)\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Scream\nShoot in Combat\t10\"\t4\t4+\t3+\t2\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tPiercing Talons\t\t4\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 2      Points: 90\nBase size: 50mm\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Crypt Infernal Courtier in your army. This unit cannot be reinforced.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nTO OUR LIEGE!: There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\n\n\n\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\n\n\n\n\t\t\n\t\n6\"\n1\n6+\n1\n6+\nCrypt Ghouls form the lowly and indentured serfs of an abhorrant's domain. Though they are individually stunted and wild, their madness grants them a fiendish form of courage, and in numbers, they can overwhelm even the mightiest warriors.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Scream\nShoot in Combat\t10\"\t4\t4+\t3+\t2\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tPiercing Talons\t\t4\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 2      Points: 90\nBase size: 50mm\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Crypt Infernal Courtier in your army. This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "2",
+        "points": "90",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "notes": "You can include 1 unit of this type for each Crypt Infernal Courtier in your army. This unit cannot be reinforced."
+      },
+      "abilities_text": "Once Per Turn (Army), Your Movement Phase\t\t\nTO OUR LIEGE!: There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\n\n\n\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "TO OUR LIEGE!",
+          "type": "Once Per Turn",
+          "description": "There are many ghoulish legends of Crypt Flayers winging down to join their lieges upon the battlefield.\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly FLESH-EATER COURTS HERO and more than 9\" from all enemy units."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Death Scream",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Piercing Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "FLY",
+        "WARD (6+)",
+        "KNIGHTS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT GHOULS",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT GHOULS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSharpened Teeth and Filthy Claws\nCrit (Auto-wound)\t2\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 20      Points: 150\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nROYAL APPROVAL: These mordants will always do their utmost to attract the attention of their sovereign.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly NOBLES or ABHORRANTS.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS\n\n\n\n\t\t\n\t\n7\"\n4\n5+\n1\n6+\nCreatures of truly imposing size and might, Crypt Horrors are formidable linebreakers. In their own minds, they are valorous knights, and their hunger to perform worthy deeds under their lord’s gaze drives them into a rabid frenzy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSharpened Teeth and Filthy Claws\nCrit (Auto-wound)\t2\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 20      Points: 150\nBase size: 25mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "20",
+        "points": "150",
+        "base_size": "25mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nROYAL APPROVAL: These mordants will always do their utmost to attract the attention of their sovereign.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly NOBLES or ABHORRANTS.",
+      "abilities": [
+        {
+          "name": "ROYAL APPROVAL",
+          "type": "Passive",
+          "description": "These mordants will always do their utmost to attract the attention of their sovereign.\nEffect: Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly NOBLES or ABHORRANTS."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Sharpened Teeth and Filthy Claws Crit (Auto-wound)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Auto-wound)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "SERFS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT HORRORS",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT HORRORS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tClub and Septic Talons\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t4\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nHOLY BLADES OF BONE: Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\n\n\n\n\t\t\n\t\n7\"\n4\n5+\n1\n6+\nCreatures of truly imposing size and might, Crypt Horrors are formidable linebreakers. In their own minds, they are valorous knights, and their hunger to perform worthy deeds under their lord’s gaze drives them into a rabid frenzy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tClub and Septic Talons\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t4\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "160",
+        "base_size": "50mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nHOLY BLADES OF BONE: Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "HOLY BLADES OF BONE",
+          "type": "Once Per Turn",
+          "description": "Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "and Septic Talons Anti-CAVALRY (+1 Rend), Crit (Auto-wound)",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-CAVALRY (+1 Rend), Crit (Auto-wound)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "KNIGHTS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPT HORRORS (",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPT HORRORS (2 MODELS)\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tClub and Septic Talons\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t4\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 2      Points: 100\nBase size: 50mm\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Crypt Haunter Courtier in your army. This unit cannot be reinforced.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nHOLY BLADES OF BONE: Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS\n\n\n\n\t\t\n\t\n6\"\n1\n6+\n1\n6+\nTo join the Cryptguard, a ghoul must perform some great feat of endurance in the sight of their vampiric liege. Charged with protecting their unholy masters, they wield weapons from the monarch’s armoury – rusted blades inundated with maddening energies.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tClub and Septic Talons\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t4\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 2      Points: 100\nBase size: 50mm\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Crypt Haunter Courtier in your army. This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "2",
+        "points": "100",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "notes": "You can include 1 unit of this type for each Crypt Haunter Courtier in your army. This unit cannot be reinforced."
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nHOLY BLADES OF BONE: Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "HOLY BLADES OF BONE",
+          "type": "Once Per Turn",
+          "description": "Crypt Horrors wield huge, monstrous femurs – as well as other grisly relics – as if they were blessed weapons.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll 2 dice for each model in this unit. Add 2 to each roll if the target is CAVALRY. For each 5+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "and Septic Talons Anti-CAVALRY (+1 Rend), Crit (Auto-wound)",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-CAVALRY (+1 Rend), Crit (Auto-wound)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nDEATH, FLESH-EATER COURTS, KNIGHTS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "KNIGHTS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CRYPTGUARD",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCRYPTGUARD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCursed Weapon\nAnti-charge (+1 Rend), Crit (Auto-wound)\t3\t4+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nROYAL BODYGUARD: In battle, it falls to the tenacious Cryptguard to form a half-living shield for their vampiric overlords.\n\n\n\nEffect: While any friendly non-MONSTER FLESH-EATER COURTS HEROES are wholly within this unit’s combat range, both this unit and those HEROES have WARD (5+).\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nELITE GUARDIANS: The Cryptguard will gladly give their lives to protect their liege from any who might do them harm.\n\n\n\nEffect: If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has STRIKE-FIRST but ward rolls cannot be made for it.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10), WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS\n\n\n\n\t\t\n\t\n6\"\n1\n6+\n1\n6+\nLed by vampiric Flaymasters, the Royal Beastflayers are obsessed with hunting the monsters that lurk throughout the realms. It matters not if their prey are genuine abominations or noble beasts – all make for a fine banquet indeed.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCursed Weapon\nAnti-charge (+1 Rend), Crit (Auto-wound)\t3\t4+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "120",
+        "base_size": "25mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nROYAL BODYGUARD: In battle, it falls to the tenacious Cryptguard to form a half-living shield for their vampiric overlords.\n\n\n\nEffect: While any friendly non-MONSTER FLESH-EATER COURTS HEROES are wholly within this unit’s combat range, both this unit and those HEROES have WARD (5+).\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nELITE GUARDIANS: The Cryptguard will gladly give their lives to protect their liege from any who might do them harm.\n\n\n\nEffect: If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has STRIKE-FIRST but ward rolls cannot be made for it.",
+      "abilities": [
+        {
+          "name": "ROYAL BODYGUARD",
+          "type": "Passive",
+          "description": "In battle, it falls to the tenacious Cryptguard to form a half-living shield for their vampiric overlords.\nEffect: While any friendly non-MONSTER FLESH-EATER COURTS HEROES are wholly within this unit’s combat range, both this unit and those HEROES have WARD (5+)."
+        },
+        {
+          "name": "ELITE GUARDIANS",
+          "type": "Once Per Turn",
+          "description": "The Cryptguard will gladly give their lives to protect their liege from any who might do them harm.\nEffect: If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has STRIKE-FIRST but ward rolls cannot be made for it."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cursed Weapon Anti-charge (+1 Rend), Crit (Auto-wound)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Anti-charge (+1 Rend), Crit (Auto-wound)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10), WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "SERFS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "ROYAL BEASTFLAYERS",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nROYAL BEASTFLAYERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBeastflayer Weapons\nAnti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend)\t3\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 110\n\nMODEL\tBASE SIZE\nRoyal Flaymaster, Beastflayer Baron\t32mm\n2 x Offal Hounds\t40mm\n3 x Ghoul Trackers\t25mm\n3 x Ghoul Gore-Squires\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\n\tPassive\t\t\nHUNTER’S INSTINCTS: Royal Beastflayers believe themselves to be the finest monster-slayers in all the land. Certainly, they possess a knack for hindering and ensnaring their prey before moving in to make the kill.\n\n\n\nEffect: Enemy MONSTERS cannot use RAMPAGE abilities while they are in combat with this unit.\nIn addition, subtract 1 from the Damage characteristic of melee weapons used by enemy MONSTERS and BEAST units while they are in combat with this unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION (1/10), WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS\nMonster\n\n\n\t\t\n\t\n12\"\n14\n4+\n5\n6+\nTerrorgheists are the rotten, reanimated carcasses of ancient chiropteran titans, as bitter and sinister in life as they are in death. Consumed by hunger, their screams blast free of their vile bodies, shredding the very souls of any who hear them.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBeastflayer Weapons\nAnti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend)\t3\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 110\n\nMODEL\tBASE SIZE\nRoyal Flaymaster, Beastflayer Baron\t32mm\n2 x Offal Hounds\t40mm\n3 x Ghoul Trackers\t25mm\n3 x Ghoul Gore-Squires\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "10",
+        "reinforced": "No",
+        "notes": "This unit cannot be reinforced."
+      },
+      "abilities_text": "Passive\t\t\nHUNTER’S INSTINCTS: Royal Beastflayers believe themselves to be the finest monster-slayers in all the land. Certainly, they possess a knack for hindering and ensnaring their prey before moving in to make the kill.\n\n\n\nEffect: Enemy MONSTERS cannot use RAMPAGE abilities while they are in combat with this unit.\nIn addition, subtract 1 from the Damage characteristic of melee weapons used by enemy MONSTERS and BEAST units while they are in combat with this unit.",
+      "abilities": [
+        {
+          "name": "HUNTER’S INSTINCTS",
+          "type": "Passive",
+          "description": "Royal Beastflayers believe themselves to be the finest monster-slayers in all the land. Certainly, they possess a knack for hindering and ensnaring their prey before moving in to make the kill.\nEffect: Enemy MONSTERS cannot use RAMPAGE abilities while they are in combat with this unit.\nIn addition, subtract 1 from the Damage characteristic of melee weapons used by enemy MONSTERS and BEAST units while they are in combat with this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Beastflayer Weapons Anti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Anti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION (1/10), WARD (6+)\nDEATH, FLESH-EATER COURTS, SERFS\nMonster",
+      "keywords": [
+        "INFANTRY",
+        "WARD (6+)",
+        "SERFS"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "ROYAL TERRORGHEIST",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nROYAL TERRORGHEIST\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Shriek\nShoot in Combat, Companion\t10\"\t1\t4+\t2+\t2\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFanged Maw\nCrit (Mortal), Companion\t\t3\t4+\t2+\t2\tD3+3\n\tSkeletal Talons\nCrit (Mortal), Companion\t\t6\t4+\t2+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 230\nBase size: 130mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nNECROMANTIC LIMITS\nEffect: This unit’s Skeletal Talons have a maximum Attacks characteristic of 10.\n\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSHRIEK OF TERROR: The soul-rending shriek of a Terrorgheist is enough to stop a warrior’s heart.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWICKED PREDATOR: In life, Terrorgheists were cruel and spiteful monsters, dark instincts driving them to terrify prey into submission. Little has changed in death.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: For each champion, standard bearer and musician in the target unit, add 1 to the Attacks characteristic of this unit’s Skeletal Talons, to a maximum of 10, for the rest of the phase. Those additional attacks must target that enemy unit.\n\n\nKEYWORDS\n\tMONSTER, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n12\"\n14\n4+\n5\n6+\nA Zombie Dragon forms the crown jewel of any abhorrant’s royal menagerie, though these creatures inspire more revulsion than awe in sane folk. They circle above their prey before arrowing down into battle, a wave of charnel stink and horror stretching out before them.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDeath Shriek\nShoot in Combat, Companion\t10\"\t1\t4+\t2+\t2\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFanged Maw\nCrit (Mortal), Companion\t\t3\t4+\t2+\t2\tD3+3\n\tSkeletal Talons\nCrit (Mortal), Companion\t\t6\t4+\t2+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 230\nBase size: 130mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "230",
+        "base_size": "130mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nNECROMANTIC LIMITS\nEffect: This unit’s Skeletal Talons have a maximum Attacks characteristic of 10.\n\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSHRIEK OF TERROR: The soul-rending shriek of a Terrorgheist is enough to stop a warrior’s heart.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "NECROMANTIC LIMITS Effect",
+          "type": "Passive",
+          "description": "This unit’s Skeletal Talons have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4."
+        },
+        {
+          "name": "SHRIEK OF TERROR",
+          "type": "Once Per Turn",
+          "description": "The soul-rending shriek of a Terrorgheist is enough to stop a warrior’s heart.\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\nEffect: Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Death Shriek ,",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Fanged Maw Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "+3 Skeletal Talons Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "ROYAL ZOMBIE DRAGON",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nROYAL ZOMBIE DRAGON\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBaneful Breath\nShoot in Combat, Companion\t10\"\tD6\t2+\t4+\t1\t3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tDraconic Jaws\nCrit (Auto-wound), Companion\t\t4\t4+\t2+\t2\t4\n\tDraconic Claws\nCrit (Auto-wound), Companion\t\t7\t4+\t2+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 250\nBase size: 130mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nNECROMANTIC LIMITS\nEffect: This unit’s Draconic Claws have a maximum Attacks characteristic of 10.\n\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nON ROTTEN WINGS: Hurling itself skyward, a Zombie Dragon descends on new and tantalising prey.\n\n\n\nEffect: Remove this unit from the battlefield and set up it again on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSOARING TERROR: The Zombie Dragon soars over the enemy warriors, scouring those below with its corrosive breath.\n\n\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER, FLY, WARD (6+)\nDEATH, FLESH-EATER COURTS\nFaction Terrain\n\n\n\t\t\n\t\n-\n10\n4+\n-\nFormed from the bones of those killed by an abhorrant, Charnel Thrones exude madness and necrotic energies. They are seats of power for Archregents and Ghoul Kings, blazing beacons to mordants and structures of abject horror for the enemies of the Flesh-eaters.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBaneful Breath\nShoot in Combat, Companion\t10\"\tD6\t2+\t4+\t1\t3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDraconic Jaws\nCrit (Auto-wound), Companion\t\t4\t4+\t2+\t2\t4\n\tDraconic Claws\nCrit (Auto-wound), Companion\t\t7\t4+\t2+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 250\nBase size: 130mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "250",
+        "base_size": "130mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nNECROMANTIC LIMITS\nEffect: This unit’s Draconic Claws have a maximum Attacks characteristic of 10.\n\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nON ROTTEN WINGS: Hurling itself skyward, a Zombie Dragon descends on new and tantalising prey.\n\n\n\nEffect: Remove this unit from the battlefield and set up it again on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSOARING TERROR: The Zombie Dragon soars over the enemy warriors, scouring those below with its corrosive breath.\n\n\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+      "abilities": [
+        {
+          "name": "NECROMANTIC LIMITS Effect",
+          "type": "Passive",
+          "description": "This unit’s Draconic Claws have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5."
+        },
+        {
+          "name": "ON ROTTEN WINGS",
+          "type": "Once Per Turn",
+          "description": "Hurling itself skyward, a Zombie Dragon descends on new and tantalising prey.\nEffect: Remove this unit from the battlefield and set up it again on the battlefield more than 9\" from all enemy units."
+        },
+        {
+          "name": "SOARING TERROR",
+          "type": "Once Per Turn",
+          "description": "The Zombie Dragon soars over the enemy warriors, scouring those below with its corrosive breath.\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Baneful Breath ,",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "D6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": null
+        },
+        {
+          "name": "Draconic Jaws Crit (Auto-wound),",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "4",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Draconic Claws Crit (Auto-wound),",
+          "type": "melee",
+          "range": null,
+          "attacks": "7",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Auto-wound)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "CHARNEL THRONE",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCHARNEL THRONE\nBATTLE PROFILE\nUnit Size: 1      Points: 10\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable\n\n\n\tYour Hero Phase\t\t\nREIGNING CHAMPION: A trusted member of the court may sit the throne in the absence of their liege-lord, though they must abdicate immediately on their return.\n\n\n\nDeclare: If this terrain feature does not have a Steward, pick a friendly FLESH‐EATER COURTS INFANTRY HERO within 3\" of it and not in combat to be the target.\n\nEffect: Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’).\n\n\n\tYour Movement Phase\t\t\nDUTY CALLS: When duty demands it, an abhorrant monarch or their regent will descend from the throne to take up the sword.\n\n\n\nEffect: If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.\n\n\n\tYour Movement Phase\t\t\nRULER OF ALL THEY SURVEY: A steward may become convinced of their own grandeur and bid troops sally forth in their glorious name.\n\n\n\nDeclare: If this terrain feature has a Steward, pick a visible friendly non-HERO FLESH-EATER COURTS unit that is not in combat to be the target.\n\nEffect: The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move.\n\n\n\tPassive\t\t\nSTEWARD OF THE REALM: Those who sit upon a Charnel Throne rule over all they survey, but they must be wary of foes who would see them violently cast down.\n\n\n\nEffect: While this terrain feature has a Steward:\n\nThe Steward cannot use MOVE abilities.\nInstead of measuring range or visibility to the Steward, measure to this terrain feature instead.\nAll attacks that would target the Steward target this terrain feature instead.\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain.\n\n\nKEYWORDS\n\tFACTION TERRAIN\nDEATH, FLESH-EATER COURTS\nEndless Spell\n\n\n\t\t\n\t\n-\n10\n5+\n8+\n6+\nWith a word of command, the buried dead are brought writhing to the surface. The corpses of those who once served Ushoran rise up from the grave, dragging with them the detritus of forgotten civilisation and clawing at those who draw too near.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "Unit Size: 1      Points: 10\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable",
+      "stats": {
+        "unit_size": "1",
+        "points": "10",
+        "base_size": "Use model"
+      },
+      "abilities_text": "Your Hero Phase\t\t\nREIGNING CHAMPION: A trusted member of the court may sit the throne in the absence of their liege-lord, though they must abdicate immediately on their return.\n\n\n\nDeclare: If this terrain feature does not have a Steward, pick a friendly FLESH‐EATER COURTS INFANTRY HERO within 3\" of it and not in combat to be the target.\n\nEffect: Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’).\n\n\n\tYour Movement Phase\t\t\nDUTY CALLS: When duty demands it, an abhorrant monarch or their regent will descend from the throne to take up the sword.\n\n\n\nEffect: If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.\n\n\n\tYour Movement Phase\t\t\nRULER OF ALL THEY SURVEY: A steward may become convinced of their own grandeur and bid troops sally forth in their glorious name.\n\n\n\nDeclare: If this terrain feature has a Steward, pick a visible friendly non-HERO FLESH-EATER COURTS unit that is not in combat to be the target.\n\nEffect: The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move.\n\n\n\tPassive\t\t\nSTEWARD OF THE REALM: Those who sit upon a Charnel Throne rule over all they survey, but they must be wary of foes who would see them violently cast down.\n\n\n\nEffect: While this terrain feature has a Steward:\n\nThe Steward cannot use MOVE abilities.\nInstead of measuring range or visibility to the Steward, measure to this terrain feature instead.\nAll attacks that would target the Steward target this terrain feature instead.\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain.",
+      "abilities": [
+        {
+          "name": "REIGNING CHAMPION",
+          "type": "Other",
+          "description": "A trusted member of the court may sit the throne in the absence of their liege-lord, though they must abdicate immediately on their return.\nDeclare: If this terrain feature does not have a Steward, pick a friendly FLESH‐EATER COURTS INFANTRY HERO within 3\" of it and not in combat to be the target.\nEffect: Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’).",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "DUTY CALLS",
+          "type": "Other",
+          "description": "When duty demands it, an abhorrant monarch or their regent will descend from the throne to take up the sword.\nEffect: If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.",
+          "phase": "Movement Phase"
+        },
+        {
+          "name": "RULER OF ALL THEY SURVEY",
+          "type": "Other",
+          "description": "A steward may become convinced of their own grandeur and bid troops sally forth in their glorious name.\nDeclare: If this terrain feature has a Steward, pick a visible friendly non-HERO FLESH-EATER COURTS unit that is not in combat to be the target.\nEffect: The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move.",
+          "phase": "Movement Phase"
+        },
+        {
+          "name": "STEWARD OF THE REALM",
+          "type": "Passive",
+          "description": "Those who sit upon a Charnel Throne rule over all they survey, but they must be wary of foes who would see them violently cast down.\nEffect: While this terrain feature has a Steward:\nThe Steward cannot use MOVE abilities.\nInstead of measuring range or visibility to the Steward, measure to this terrain feature instead.\nAll attacks that would target the Steward target this terrain feature instead.\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain."
+        }
+      ],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN\nDEATH, FLESH-EATER COURTS\nEndless Spell\n\n\n\t\t\n\t\n-\n10\n5+\n8+\n6+\nWith a word of command, the buried dead are brought writhing to the surface. The corpses of those who once served Ushoran rise up from the grave, dragging with them the detritus of forgotten civilisation and clawing at those who draw too near.",
+      "keywords": [
+        "FACTION TERRAIN"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CADAVEROUS BARRICADE",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCADAVEROUS BARRICADE\n\tPassive\t\t\nGRASPING HANDS: The animated corpses trapped in a Cadaverous Barricade grab at any living creature that comes too close.\n\n\n\nEffect: Enemy units cannot use RUN or RETREAT abilities while they are within this MANIFESTATION’s combat range.\nIn addition, if an enemy unit is picked to use a MOVE ability while it is within this MANIFESTATION’s combat range, halve that unit’s Move characteristic (rounding up) for the rest of the turn.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nBelieved to be a manifestation of the sacred cup held by Ushoran, this bone-wrought goblet is continually filled with the blood of those slain in its presence. One sip will see minds twist and reality distort, but to refuse to drink is to invoke the ghouls’ wrath.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nBelieved to be a manifestation of the sacred cup held by Ushoran, this bone-wrought goblet is continually filled with the blood of those slain in its presence. One sip will see minds twist and reality distort, but to refuse to drink is to invoke the ghouls’ wrath.",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    },
+    {
+      "name": "CHALICE OF USHORAN",
+      "faction": "flesh eater courts",
+      "warscroll": "•\nFLESH-EATER COURTS WARSCROLL\n•\nCHALICE OF USHORAN\n\tAny Combat Phase\t\t\nDRAUGHTS OF DELUSION: The contents of Ushoran’s chalice will warp the minds of those who drink from it, although to refuse to toast the Summerking risks affronting his subjects.\n\n\n\nDeclare: Pick an enemy unit within 6\" of this MANIFESTATION to be the target.\n\nEffect: Roll a dice. On a 3+, your opponent must pick 1 of the following to apply for the rest of the turn:\n\nDrink Deep from the Chalice: Other than the Companion weapon ability, weapon abilities for attacks made by the target have no effect.\n\nTurn Aside and Suffer the Consequences: Combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nDEATH, FLESH-EATER COURTS\n\n\n\n\t\t\n\t\n12\"\n10\n5+\n7+\n6+\nImparted with grisly vigour by the insane magics of the abhorrants, the undead beasts of a Corpsemare Stampede burst from the blood-soaked ground. Once loosed, they trample across the battlefield with reckless abandon, crushing any foolish enough to be caught in their path.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nDEATH, FLESH-EATER COURTS",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "FLESH-EATER COURTS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "aos-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cap:sync-web": "node scripts/sync-cap-web.mjs",
+    "cap:prepare": "node scripts/sync-cap-web.mjs && npx cap sync",
+    "cap:android": "npm run cap:prepare && npx cap open android",
+    "appflow:prepare": "npm run cap:prepare"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18 <21",
+    "npm": ">=9"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "glob": "^13.0.6",
+    "js-yaml": "^4.1.1",
+    "playwright": "^1.59.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3"
+  }
+}

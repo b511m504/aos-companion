@@ -1,0 +1,1627 @@
+{
+  "faction": "lumineth realm lords",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "LYRIOR UTHRALLE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nLYRIOR UTHRALLE\nWARDEN OF YMETRICA\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDaemonbane\nAnti-DAEMON (+1 Rend), Charge (+1 Damage)\t2\t2+\t3+\t1\t2\n\tLyrior’s Sword\nCharge (+1 Damage), Crit (Mortal)\t5\t2+\t3+\t1\t2\n\tFarael’s Horns and Claws\nCompanion\t4\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 250\nBase size: 90 × 52mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\n\n\n\tPassive\t\t\nCHAMPION OF THE LORD PHOENIX: As a member of Tyrion’s inner circle, Lyrior has led countless armies to victory in the name of the Lord Phoenix and inspires all those around him as a result.\n\n\n\nEffect: While a visible friendly VANARI unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Varinor, Rune of Strength depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Varinor, Rune of Strength depicted on your battle scripture.\n\n\n\tYour Hero Phase\t\t\n5\nFOCUSED FURY: Lyrior channels his anger and the aetherquartz within his master-crafted panoply responds, imbuing him with the speed of Hysh.\n\n\n\nDeclare: Make a casting roll of 2D6. Add 2 to the roll if this unit is in combat.\n\nEffect: This unit has STRIKE-FIRST for the rest of the turn.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tUNIQUE, HERO, WIZARD (1), CAVALRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\n\n\n\n\t\t\n\t\n14\"\n7\n3+\n2\nMounted upon swift lightcoursers, Lord Regents are representatives of Tyrion himself. In battle, they glow with the power of the refined aetherquartz worked into their wargear, bolstering those around them through word and deed alike.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDaemonbane\nAnti-DAEMON (+1 Rend), Charge (+1 Damage)\t2\t2+\t3+\t1\t2\n\tLyrior’s Sword\nCharge (+1 Damage), Crit (Mortal)\t5\t2+\t3+\t1\t2\n\tFarael’s Horns and Claws\nCompanion\t4\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 250\nBase size: 90 × 52mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS",
+      "stats": {
+        "unit_size": "1",
+        "points": "250",
+        "base_size": "90 × 52mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS"
+      },
+      "abilities_text": "Passive\t\t\nCHAMPION OF THE LORD PHOENIX: As a member of Tyrion’s inner circle, Lyrior has led countless armies to victory in the name of the Lord Phoenix and inspires all those around him as a result.\n\n\n\nEffect: While a visible friendly VANARI unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Varinor, Rune of Strength depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Varinor, Rune of Strength depicted on your battle scripture.\n\n\n\tYour Hero Phase\t\t\n5\nFOCUSED FURY: Lyrior channels his anger and the aetherquartz within his master-crafted panoply responds, imbuing him with the speed of Hysh.\n\n\n\nDeclare: Make a casting roll of 2D6. Add 2 to the roll if this unit is in combat.\n\nEffect: This unit has STRIKE-FIRST for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "CHAMPION OF THE LORD PHOENIX",
+          "type": "Passive",
+          "description": "As a member of Tyrion’s inner circle, Lyrior has led countless armies to victory in the name of the Lord Phoenix and inspires all those around him as a result.\nEffect: While a visible friendly VANARI unit is wholly within 12\" of this unit:\nYou are treated as having 1 additional instance of Varinor, Rune of Strength depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Varinor, Rune of Strength depicted on your battle scripture."
+        },
+        {
+          "name": "FOCUSED FURY",
+          "type": "Other",
+          "description": "Lyrior channels his anger and the aetherquartz within his master-crafted panoply responds, imbuing him with the speed of Hysh.\nDeclare: Make a casting roll of 2D6. Add 2 to the roll if this unit is in combat.\nEffect: This unit has STRIKE-FIRST for the rest of the turn.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Daemonbane Anti-DAEMON (+1 Rend), Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-DAEMON (+1 Rend), Crit (Mortal)"
+        },
+        {
+          "name": "Lyrior’s Sword Charge (+1 Damage), Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Farael’s Horns and Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "VANARI LORD REGENT",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI LORD REGENT\nON LIGHTCOURSER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tRegent’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2\n\tLightcourser’s Horns and Claws\nCompanion\t3\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 90 × 52mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, 0-1 Ydrilan Riverblades, Any VANARI\nNotes: Previously Vanari Lord Regent\n\n\n\tPassive\t\t\nLEAD THE CHARGE: Mounted Lord Regents are not passive strategists who command from positions of safety; they are bold tacticians who lead from the front, inspiring courage in those around them.\n\n\n\nEffect: You can re-roll charge rolls for friendly LUMINETH REALM-LORDS units while they are wholly within 6\" of this unit.\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nPUREST AETHERQUARTZ: Lord Regents carry a reserve of fine aetherquartz that burns with the brilliance of Hysh.\n\n\n\nEffect: For the rest of the turn, add 1 to hit rolls for this unit’s attacks and subtract 1 from hit rolls for attacks that target this unit.\n\n\nKEYWORDS\n\tHERO, CAVALRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nInfantry Hero\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\nAlarith Stonemages are experts in the magic of rock and earth, for they have become one with their mountain masters. In battle, they hurl boulders, turn their flesh to impervious stone and even control gravity itself to annihilate their foes.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tRegent’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2\n\tLightcourser’s Horns and Claws\nCompanion\t3\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 90 × 52mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, 0-1 Ydrilan Riverblades, Any VANARI\nNotes: Previously Vanari Lord Regent",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "90 × 52mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, 0-1 Ydrilan Riverblades, Any VANARI",
+        "notes": "Previously Vanari Lord Regent"
+      },
+      "abilities_text": "Passive\t\t\nLEAD THE CHARGE: Mounted Lord Regents are not passive strategists who command from positions of safety; they are bold tacticians who lead from the front, inspiring courage in those around them.\n\n\n\nEffect: You can re-roll charge rolls for friendly LUMINETH REALM-LORDS units while they are wholly within 6\" of this unit.\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nPUREST AETHERQUARTZ: Lord Regents carry a reserve of fine aetherquartz that burns with the brilliance of Hysh.\n\n\n\nEffect: For the rest of the turn, add 1 to hit rolls for this unit’s attacks and subtract 1 from hit rolls for attacks that target this unit.",
+      "abilities": [
+        {
+          "name": "LEAD THE CHARGE",
+          "type": "Passive",
+          "description": "Mounted Lord Regents are not passive strategists who command from positions of safety; they are bold tacticians who lead from the front, inspiring courage in those around them.\nEffect: You can re-roll charge rolls for friendly LUMINETH REALM-LORDS units while they are wholly within 6\" of this unit."
+        },
+        {
+          "name": "PUREST AETHERQUARTZ",
+          "type": "Once Per Battle",
+          "description": "Lord Regents carry a reserve of fine aetherquartz that burns with the brilliance of Hysh.\nEffect: For the rest of the turn, add 1 to hit rolls for this unit’s attacks and subtract 1 from hit rolls for attacks that target this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Regent’s Sword Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Lightcourser’s Horns and Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, CAVALRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nInfantry Hero",
+      "keywords": [
+        "HERO",
+        "CAVALRY",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "ALARITH STONEMAGE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nALARITH STONEMAGE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of the High Peaks\t3\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any ALARITH\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSTRENGTH OF STONE: The Stonemage focuses upon the stoic majesty of their guardian mountain, imbuing a nearby group of Alarith with its immovability and might.\n\n\n\nDeclare: Pick a visible friendly Alarith Stoneguard unit wholly within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn:\n\nAdd 1 to the Rend characteristic of the target’s melee weapons.\nThe target cannot make pile-in moves.\n\n\n\tYour Hero Phase\t\t\n7\nRAISE THE EARTH: With a great rumbling and the grinding of stone upon stone, the caster turns an area of clear ground into a jumble of clefts, scree and jagged terrain that is extremely perilous for warriors to traverse.\n\n\n\nDeclare: Pick an objective within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, each time a non-FLY unit (friendly or enemy) that is contesting the target objective uses a MOVE ability, inflict D6 mortal damage on that unit after that ability has been resolved.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, ALARITH\nORDER, LUMINETH REALM‑LORDS, AELF\n\n\n\n\t\t\n\t\n6\"\n10\n4+\n4\n5+\nThough the young prodigies Ellania and Ellathor may lack experience, they make up for it in raw excellence. These twins have proved themselves champions of the aelven race on multiple occasions, and wielding the gifts of their godly patrons, they are a true force to be reckoned with.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of the High Peaks\t3\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any ALARITH",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any ALARITH"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nSTRENGTH OF STONE: The Stonemage focuses upon the stoic majesty of their guardian mountain, imbuing a nearby group of Alarith with its immovability and might.\n\n\n\nDeclare: Pick a visible friendly Alarith Stoneguard unit wholly within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn:\n\nAdd 1 to the Rend characteristic of the target’s melee weapons.\nThe target cannot make pile-in moves.\n\n\n\tYour Hero Phase\t\t\n7\nRAISE THE EARTH: With a great rumbling and the grinding of stone upon stone, the caster turns an area of clear ground into a jumble of clefts, scree and jagged terrain that is extremely perilous for warriors to traverse.\n\n\n\nDeclare: Pick an objective within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, each time a non-FLY unit (friendly or enemy) that is contesting the target objective uses a MOVE ability, inflict D6 mortal damage on that unit after that ability has been resolved.",
+      "abilities": [
+        {
+          "name": "STRENGTH OF STONE",
+          "type": "Once Per Turn",
+          "description": "The Stonemage focuses upon the stoic majesty of their guardian mountain, imbuing a nearby group of Alarith with its immovability and might.\nDeclare: Pick a visible friendly Alarith Stoneguard unit wholly within 12\" of this unit to be the target.\nEffect: For the rest of the turn:\nAdd 1 to the Rend characteristic of the target’s melee weapons.\nThe target cannot make pile-in moves."
+        },
+        {
+          "name": "RAISE THE EARTH",
+          "type": "Other",
+          "description": "With a great rumbling and the grinding of stone upon stone, the caster turns an area of clear ground into a jumble of clefts, scree and jagged terrain that is extremely perilous for warriors to traverse.\nDeclare: Pick an objective within 18\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Until the start of your next turn, each time a non-FLY unit (friendly or enemy) that is contesting the target objective uses a MOVE ability, inflict D6 mortal damage on that unit after that ability has been resolved.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff of the High Peaks",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "ELLANIA AND ELLATHOR",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nELLANIA AND ELLATHOR\nECLIPSIAN WARSAGES\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBlazing Sunbolt\nCrit (Auto-wound)\t12\"\t3\t3+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tAltairi\t\t5\t2+\t3+\t1\t2\n\tDianaer\t\t2\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 290\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\n\n\n\tYour Hero Phase\t\t\nEQUAL PRODIGIES: On the battlefield, one twin will take the lead to aid their allies while the other stands guard.\n\n\n\nDeclare: Pick whether Ellania will take the lead or Ellathor will take the lead.\n\nEffect: If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has WARD (4+).\n\nIf Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of Altairi.\n\n\n\tEnd of Any Turn\t\t\nSUDDEN TRANSLOCATION: Should Ellathor use Altairi for too long, he will start to be overwhelmed by its arcane power and Ellania will be forced to transport him away from the battle, lest he be transformed into a creature of blazing fury.\n\n\n\nDeclare: This unit can only use this ability if any enemy models were slain this turn by this unit’s combat attacks.\n\nEffect: Heal (D6) this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\n\n\n\tYour Hero Phase\t\t\n8\nTOTAL ECLIPSE: Ellania gestures towards a lunar body and causes a shadow to draw across it, distracting the foe.\n\n\n\nDeclare: Make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, the first time an enemy unit within 18\" of this unit uses a command, unless your opponent spends 1 additional command point, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tUNIQUE, HERO, WIZARD (1), INFANTRY, WARD (5+)\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI, VANARI\n\n\n\n\t\t\n\t\n12\"\n5\n5+\n2\nTrue allies of the Hyshian winds, a Hurakan Windmage travels everywhere upon a loyal zephyr- spirit companion. From here, they encourage their aelementors to follow their aelven disciples and unleash the gale-force wrath of the air against their enemies.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBlazing Sunbolt\nCrit (Auto-wound)\t12\"\t3\t3+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAltairi\t\t5\t2+\t3+\t1\t2\n\tDianaer\t\t2\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 290\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS",
+      "stats": {
+        "unit_size": "1",
+        "points": "290",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS"
+      },
+      "abilities_text": "Your Hero Phase\t\t\nEQUAL PRODIGIES: On the battlefield, one twin will take the lead to aid their allies while the other stands guard.\n\n\n\nDeclare: Pick whether Ellania will take the lead or Ellathor will take the lead.\n\nEffect: If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has WARD (4+).\n\nIf Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of Altairi.\n\n\n\tEnd of Any Turn\t\t\nSUDDEN TRANSLOCATION: Should Ellathor use Altairi for too long, he will start to be overwhelmed by its arcane power and Ellania will be forced to transport him away from the battle, lest he be transformed into a creature of blazing fury.\n\n\n\nDeclare: This unit can only use this ability if any enemy models were slain this turn by this unit’s combat attacks.\n\nEffect: Heal (D6) this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\n\n\n\tYour Hero Phase\t\t\n8\nTOTAL ECLIPSE: Ellania gestures towards a lunar body and causes a shadow to draw across it, distracting the foe.\n\n\n\nDeclare: Make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, the first time an enemy unit within 18\" of this unit uses a command, unless your opponent spends 1 additional command point, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+      "abilities": [
+        {
+          "name": "EQUAL PRODIGIES",
+          "type": "Other",
+          "description": "On the battlefield, one twin will take the lead to aid their allies while the other stands guard.\nDeclare: Pick whether Ellania will take the lead or Ellathor will take the lead.\nEffect: If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has WARD (4+).\nIf Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of Altairi.\n\tEnd of Any Turn\t\t\nSUDDEN TRANSLOCATION: Should Ellathor use Altairi for too long, he will start to be overwhelmed by its arcane power and Ellania will be forced to transport him away from the battle, lest he be transformed into a creature of blazing fury.\nDeclare: This unit can only use this ability if any enemy models were slain this turn by this unit’s combat attacks.\nEffect: Heal (D6) this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "TOTAL ECLIPSE",
+          "type": "Other",
+          "description": "Ellania gestures towards a lunar body and causes a shadow to draw across it, distracting the foe.\nDeclare: Make a casting roll of 2D6.\nEffect: Until the start of your next turn, the first time an enemy unit within 18\" of this unit uses a command, unless your opponent spends 1 additional command point, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Blazing Sunbolt Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Altairi",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Dianaer",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "HURAKAN WINDMAGE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nHURAKAN WINDMAGE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWindblast Vortex\nShoot in Combat\t12\"\t1\t2+\t3+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tAspiragillum\t\t3\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 60 × 35mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any HURAKAN\n\n\n\tOnce Per Battle (Army), Your Movement Phase\t\t\nWINDLEAP: Windmages often accompany Windchargers into battle, allowing the cavalry archers to perform soaring leaps right over the heads of their enemies.\n\n\n\nDeclare: Pick up to 3 friendly HURAKAN unit wholly within 12\" of this unit to be the targets.\n\nEffect: For the rest of the turn, each target can use a RUN ability and still use SHOOT and/or CHARGE abilities later in the turn.\n\n\n\tYour Hero Phase\t\t\n7\nTRANSPORTING VORTEX: The caster calls upon a magnanimous whirlwind to sweep up allies and carry them to safety.\n\n\n\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS unit wholly within 12\" of this unit and not in combat to be the target, then make a casting roll of 2D6.\n\nEffect: Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, FLY\nORDER, LUMINETH REALM‑LORDS, AELF, HURAKAN\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\nWith the stroke of a brush, a Scinari Calligrave can alter reality. The runes they paint upon their enchanted parchments sympathetically appear the battlefield, unleashing the power of the elements.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWindblast Vortex\nShoot in Combat\t12\"\t1\t2+\t3+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAspiragillum\t\t3\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 60 × 35mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any HURAKAN",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "60 × 35mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any HURAKAN"
+      },
+      "abilities_text": "Once Per Battle (Army), Your Movement Phase\t\t\nWINDLEAP: Windmages often accompany Windchargers into battle, allowing the cavalry archers to perform soaring leaps right over the heads of their enemies.\n\n\n\nDeclare: Pick up to 3 friendly HURAKAN unit wholly within 12\" of this unit to be the targets.\n\nEffect: For the rest of the turn, each target can use a RUN ability and still use SHOOT and/or CHARGE abilities later in the turn.\n\n\n\tYour Hero Phase\t\t\n7\nTRANSPORTING VORTEX: The caster calls upon a magnanimous whirlwind to sweep up allies and carry them to safety.\n\n\n\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS unit wholly within 12\" of this unit and not in combat to be the target, then make a casting roll of 2D6.\n\nEffect: Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "WINDLEAP",
+          "type": "Once Per Battle",
+          "description": "Windmages often accompany Windchargers into battle, allowing the cavalry archers to perform soaring leaps right over the heads of their enemies.\nDeclare: Pick up to 3 friendly HURAKAN unit wholly within 12\" of this unit to be the targets.\nEffect: For the rest of the turn, each target can use a RUN ability and still use SHOOT and/or CHARGE abilities later in the turn."
+        },
+        {
+          "name": "TRANSPORTING VORTEX",
+          "type": "Other",
+          "description": "The caster calls upon a magnanimous whirlwind to sweep up allies and carry them to safety.\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS unit wholly within 12\" of this unit and not in combat to be the target, then make a casting roll of 2D6.\nEffect: Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Windblast Vortex",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Aspiragillum",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCINARI CALLIGRAVE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCINARI CALLIGRAVE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCalligrave Blade\t3\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords\n\n\n\tOnce Per Battle (Army), Reaction: You declared the ‘Depict Rune’ ability\t\t\nREALMSCRIBE: Scinari Calligraves are the undisputed masters of the arcane art of tracing runes on the battlefield.\n\n\n\nEffect: Replace 1 instance of a rune on your battle scripture with 1 of the following:\n\nVarinor, Rune of Strength\nYdriliqi, Rune of the River\nAlaithi, Rune of the Mountain\nOreali, Rune of the Wind\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI\n\n\n\n\t\t\n\t\n6\"\n5\n6+\n2\nIt is the noble duty of a Scinari Cathallar to take the spiritual anguish that emanates from their kin and redirect it against their enemies. They are the lone point of darkness in the brilliance of a Lumineth host, capable of wielding despair itself as a weapon.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCalligrave Blade\t3\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords"
+      },
+      "abilities_text": "Once Per Battle (Army), Reaction: You declared the ‘Depict Rune’ ability\t\t\nREALMSCRIBE: Scinari Calligraves are the undisputed masters of the arcane art of tracing runes on the battlefield.\n\n\n\nEffect: Replace 1 instance of a rune on your battle scripture with 1 of the following:\n\nVarinor, Rune of Strength\nYdriliqi, Rune of the River\nAlaithi, Rune of the Mountain\nOreali, Rune of the Wind",
+      "abilities": [
+        {
+          "name": "REALMSCRIBE",
+          "type": "Reaction",
+          "description": "Scinari Calligraves are the undisputed masters of the arcane art of tracing runes on the battlefield.\nEffect: Replace 1 instance of a rune on your battle scripture with 1 of the following:\nVarinor, Rune of Strength\nYdriliqi, Rune of the River\nAlaithi, Rune of the Mountain\nOreali, Rune of the Wind"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Calligrave Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "AELF",
+        "SCINARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "SCINARI CATHALLAR",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCINARI CATHALLAR\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDespairing Touch\t3\t3+\t4+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nDARKNESS OF THE SOUL: Scinari Cathallars wield the negative energy locked in aetherquartz as a weapon, afflicting the enemy with a soul-shrivelling despondency that dulls them to their superiors’ orders.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands until the start of your next turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\nScinari Enlighteners are amongst the pre-eminent battlemages of Lumineth society. They are experts in conjuring blinding light, searing beams and abjurations of banishment, and they use powerful runes to redouble the effects of their spellcraft.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDespairing Touch\t3\t3+\t4+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nDARKNESS OF THE SOUL: Scinari Cathallars wield the negative energy locked in aetherquartz as a weapon, afflicting the enemy with a soul-shrivelling despondency that dulls them to their superiors’ orders.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands until the start of your next turn.",
+      "abilities": [
+        {
+          "name": "DARKNESS OF THE SOUL",
+          "type": "Once Per Turn",
+          "description": "Scinari Cathallars wield the negative energy locked in aetherquartz as a weapon, afflicting the enemy with a soul-shrivelling despondency that dulls them to their superiors’ orders.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, the target cannot use commands until the start of your next turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Despairing Touch",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "AELF",
+        "SCINARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "SCINARI ENLIGHTENER",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCINARI ENLIGHTENER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrescent Staff\nShoot in Combat\t12\"\t3\t3+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tEnlightener Blade\t\t3\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 180\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords\n\n\n\tOnce Per Turn (Army), Reaction: You declared an UNLIMITED SPELL ability for this unit\t\t\nRUNE OF ENTHLAI: The Enlightener draws on the duality of this rune’s power to conjure sorceries with doubled potency.\n\n\n\nEffect: If that spell is successfully cast, roll a dice. On a 4+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of SPELL abilities this unit can use this turn.\n\n\n\tYour Hero Phase\t\t\n7\nCLARITY OF THOUGHT: Meditating upon the purity of Hysh, the Enlightener dispels all doubt and distraction from the minds of allies, granting them clarity of thought and deed that allows them to perceive and avoid the worst attacks of the enemy.\n\n\n\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS INFANTRY unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, attacks that target that friendly unit cannot score critical hits (treat them as regular hits instead).\nKEYWORDS\tSPELL, UNLIMITED\n\n\nKEYWORDS\n\tHERO, WIZARD (2), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\nScinari Loreseekers are Eclipsians, souls with the potential to achieve true harmony between their Teclian and Tyrionic aspects. These warsages find great power in this, and they scour the realms for esoteric knowledge and artefacts that only the Lumineth can be entrusted with.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrescent Staff\nShoot in Combat\t12\"\t3\t3+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tEnlightener Blade\t\t3\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 180\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords",
+      "stats": {
+        "unit_size": "1",
+        "points": "180",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords"
+      },
+      "abilities_text": "Once Per Turn (Army), Reaction: You declared an UNLIMITED SPELL ability for this unit\t\t\nRUNE OF ENTHLAI: The Enlightener draws on the duality of this rune’s power to conjure sorceries with doubled potency.\n\n\n\nEffect: If that spell is successfully cast, roll a dice. On a 4+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of SPELL abilities this unit can use this turn.\n\n\n\tYour Hero Phase\t\t\n7\nCLARITY OF THOUGHT: Meditating upon the purity of Hysh, the Enlightener dispels all doubt and distraction from the minds of allies, granting them clarity of thought and deed that allows them to perceive and avoid the worst attacks of the enemy.\n\n\n\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS INFANTRY unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, attacks that target that friendly unit cannot score critical hits (treat them as regular hits instead).",
+      "abilities": [
+        {
+          "name": "RUNE OF ENTHLAI",
+          "type": "Reaction",
+          "description": "The Enlightener draws on the duality of this rune’s power to conjure sorceries with doubled potency.\nEffect: If that spell is successfully cast, roll a dice. On a 4+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of SPELL abilities this unit can use this turn."
+        },
+        {
+          "name": "CLARITY OF THOUGHT",
+          "type": "Other",
+          "description": "Meditating upon the purity of Hysh, the Enlightener dispels all doubt and distraction from the minds of allies, granting them clarity of thought and deed that allows them to perceive and avoid the worst attacks of the enemy.\nDeclare: Pick a visible friendly LUMINETH REALM-LORDS INFANTRY unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Until the start of your next turn, attacks that target that friendly unit cannot score critical hits (treat them as regular hits instead).",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Crescent Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Enlightener Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL, UNLIMITED",
+      "keywords": [
+        "SPELL",
+        "UNLIMITED"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCINARI LORESEEKER",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCINARI LORESEEKER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tEclipsian Staff\nShoot in Combat\t12\"\t3\t3+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tLoreseeker Blade\nCrit (Mortal)\t\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords\n\n\n\tOnce Per Battle (Army), Deployment Phase\t\t\nINDEPENDENT OPERATIVE: Loreseekers venture deep into unfamiliar lands searching for arcane artefacts and are adept at operating on their own without support.\n\n\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Battle (Army), Your Movement Phase\t\t\nARCANE DISCOVERY: Scinari Loreseekers study all aspects of the realms to uncover hidden founts of power.\n\n\n\nDeclare: Pick a non-FACTION TERRAIN terrain feature within 3\" of this unit to be the target.\n\nEffect: For the rest of the battle, add 1 to casting rolls for units (friendly and enemy) while they are within 3\" of the target.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI\n\n\n\n\t\t\n\t\n6\"\n7\n3+\n2\n4+\nA legendary ancestor of the Lumineth race, the Light of Eltharion is a puissant warrior who has become one with the energies of Hysh. To face him is to face the power of light itself made manifest, and few have survived an encounter with his grim, enchanted blades.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tEclipsian Staff\nShoot in Combat\t12\"\t3\t3+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLoreseeker Blade\nCrit (Mortal)\t\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Ydrilan Riverblades, Any Vanari Auralan Wardens, Any Vanari Bladelords"
+      },
+      "abilities_text": "Once Per Battle (Army), Deployment Phase\t\t\nINDEPENDENT OPERATIVE: Loreseekers venture deep into unfamiliar lands searching for arcane artefacts and are adept at operating on their own without support.\n\n\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Battle (Army), Your Movement Phase\t\t\nARCANE DISCOVERY: Scinari Loreseekers study all aspects of the realms to uncover hidden founts of power.\n\n\n\nDeclare: Pick a non-FACTION TERRAIN terrain feature within 3\" of this unit to be the target.\n\nEffect: For the rest of the battle, add 1 to casting rolls for units (friendly and enemy) while they are within 3\" of the target.",
+      "abilities": [
+        {
+          "name": "INDEPENDENT OPERATIVE",
+          "type": "Once Per Battle",
+          "description": "Loreseekers venture deep into unfamiliar lands searching for arcane artefacts and are adept at operating on their own without support.\nEffect: Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+        },
+        {
+          "name": "ARCANE DISCOVERY",
+          "type": "Once Per Battle",
+          "description": "Scinari Loreseekers study all aspects of the realms to uncover hidden founts of power.\nDeclare: Pick a non-FACTION TERRAIN terrain feature within 3\" of this unit to be the target.\nEffect: For the rest of the battle, add 1 to casting rolls for units (friendly and enemy) while they are within 3\" of the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Eclipsian Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Loreseeker Blade Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, SCINARI",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "AELF",
+        "SCINARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "THE LIGHT OF ELTHARION",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nTHE LIGHT OF ELTHARION\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSearing Darts of Light\nShoot in Combat\t12\"\t3\t2+\t3+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFangsword of Eltharion\nCrit (2 Hits)\t\t5\t2+\t3+\t3\t3\n\tCelennari Blade\nAnti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)\t\t2\t2+\t3+\t1\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 300\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\n\n\n\tPassive\t\t\nSUPREME SWORDMASTER: The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks.\n\n\n\tAny Combat Phase\t\t\nVALOROUS INTERVENTION: The Light of Eltharion manifests alongside his allies in their time of greatest need.\n\n\n\nDeclare: This unit cannot use this ability if it is in combat. Pick a friendly LUMINETH REALM-LORDS unit that is in combat to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat.\n\n\nKEYWORDS\n\tUNIQUE, HERO, INFANTRY, WARD (4+)\nORDER, LUMINETH REALM‑LORDS, AELF\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n5\nOnly the most stoic Vanari warriors will be entrusted to bear one of the sacred banners of Hysh. In battle, they form a locus of surety for the Lumineth phalanxes, channelling the power of their priceless World Banners to inspire their allies.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSearing Darts of Light\nShoot in Combat\t12\"\t3\t2+\t3+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFangsword of Eltharion\nCrit (2 Hits)\t\t5\t2+\t3+\t3\t3\n\tCelennari Blade\nAnti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)\t\t2\t2+\t3+\t1\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 300\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.",
+      "stats": {
+        "unit_size": "1",
+        "points": "300",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS",
+        "notes": "This HERO can join an eligible regiment as a Lumineth Paragon."
+      },
+      "abilities_text": "Passive\t\t\nSUPREME SWORDMASTER: The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks.\n\n\n\tAny Combat Phase\t\t\nVALOROUS INTERVENTION: The Light of Eltharion manifests alongside his allies in their time of greatest need.\n\n\n\nDeclare: This unit cannot use this ability if it is in combat. Pick a friendly LUMINETH REALM-LORDS unit that is in combat to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat.",
+      "abilities": [
+        {
+          "name": "SUPREME SWORDMASTER",
+          "type": "Passive",
+          "description": "The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks.\n\tAny Combat Phase\t\t\nVALOROUS INTERVENTION: The Light of Eltharion manifests alongside his allies in their time of greatest need.\nDeclare: This unit cannot use this ability if it is in combat. Pick a friendly LUMINETH REALM-LORDS unit that is in combat to be the target.\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Searing Darts of Light",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Fangsword of Eltharion Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "3",
+          "damage": "3",
+          "abilities": "Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend), Crit (2 Hits)"
+        },
+        {
+          "name": "Celennari Blade Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": "Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)"
+        }
+      ],
+      "keywords_text": "UNIQUE, HERO, INFANTRY, WARD (4+)\nORDER, LUMINETH REALM‑LORDS, AELF",
+      "keywords": [
+        "UNIQUE",
+        "HERO",
+        "INFANTRY",
+        "WARD (4+)",
+        "AELF"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "VANARI BANNERBLADE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI BANNERBLADE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBannerblade’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\n\n\n\tPassive\t\t\nWORLD BANNER: This mighty standard is replete with symbols of great importance to the Lumineth, filling them with profound resolve and a hope for a brighter future for all the realms.\n\n\n\nEffect: While a visible friendly LUMINETH REALM-LORDS unit is wholly within 12\" of this unit, it can use the ‘Rally’ command even if it is in combat.\n\n\nKEYWORDS\n\tHERO, INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\nAmidst the ranks of the Lumineth infantry, Vanari Lord Regents on foot are a powerful and inspiring presence. Under their astute leadership, Auralan Wardens adopt near-inviolable shieldwalls to impede the enemy, blunting their assault in readiness for a swift counter-attack.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBannerblade’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "Any VANARI",
+        "notes": "This HERO can join an eligible regiment as a Lumineth Paragon."
+      },
+      "abilities_text": "Passive\t\t\nWORLD BANNER: This mighty standard is replete with symbols of great importance to the Lumineth, filling them with profound resolve and a hope for a brighter future for all the realms.\n\n\n\nEffect: While a visible friendly LUMINETH REALM-LORDS unit is wholly within 12\" of this unit, it can use the ‘Rally’ command even if it is in combat.",
+      "abilities": [
+        {
+          "name": "WORLD BANNER",
+          "type": "Passive",
+          "description": "This mighty standard is replete with symbols of great importance to the Lumineth, filling them with profound resolve and a hope for a brighter future for all the realms.\nEffect: While a visible friendly LUMINETH REALM-LORDS unit is wholly within 12\" of this unit, it can use the ‘Rally’ command even if it is in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bannerblade’s Sword Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN THE LIGHT OF ELTHARION",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCOURGE OF GHYRAN THE LIGHT OF ELTHARION\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSearing Darts of Light\t12\"\t3\t2+\t3+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFangsword of Eltharion\nCrit (2 Hits)\t\t5\t2+\t3+\t3\t3\n\tCelennari Blade\nAnti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)\t\t2\t2+\t3+\t1\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 280\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nSUPREME SWORDMASTER: The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.\n\n\n\tReaction: Passive\t\t\nETERNAL LIGHT: Should he be vanquished, such is Eltharion’s mythical resolve that his spirit can re-manifest on the battlefield to fight once more alongside the Lumineth.\n\n\n\nEffect: If this unit is destroyed and if a friendly LUMINETH REALMLORDS WIZARD successfully casts a SUMMON spell, instead of resolving the effect of that SUMMON spell, you can set up a replacement unit for this unit more than 9\" from all enemy units and wholly within 12\" of the unit that used that SUMMON spell. This ability is still in effect even if this unit is not on the battlefield.\n\n\nKEYWORDS\n\tUNIQUE, HERO, INFANTRY, WARD (4+)\nORDER, LUMINETH REALM‑LORDS, AELF\n\n\n\n\t\t\n\t\n6\"\n5\n3+\n5\nBannerblades are the most resolute and unyielding champions of the Vanari, chosen to wield the sacred banners of Hysh. These gleaming pennants are imbued with the radiant glory of the Light Realm, and even the thick canopies of Ghyran cannot mask their glow. Their presence is enough to rally a Lumineth host, whose warriors will risk body and soul to keep the artefact out of enemy hands.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSearing Darts of Light\t12\"\t3\t2+\t3+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFangsword of Eltharion\nCrit (2 Hits)\t\t5\t2+\t3+\t3\t3\n\tCelennari Blade\nAnti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)\t\t2\t2+\t3+\t1\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 280\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "280",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS"
+      },
+      "abilities_text": "Passive\t\t\nSUPREME SWORDMASTER: The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.\n\n\n\tReaction: Passive\t\t\nETERNAL LIGHT: Should he be vanquished, such is Eltharion’s mythical resolve that his spirit can re-manifest on the battlefield to fight once more alongside the Lumineth.\n\n\n\nEffect: If this unit is destroyed and if a friendly LUMINETH REALMLORDS WIZARD successfully casts a SUMMON spell, instead of resolving the effect of that SUMMON spell, you can set up a replacement unit for this unit more than 9\" from all enemy units and wholly within 12\" of the unit that used that SUMMON spell. This ability is still in effect even if this unit is not on the battlefield.",
+      "abilities": [
+        {
+          "name": "SUPREME SWORDMASTER",
+          "type": "Passive",
+          "description": "The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons."
+        },
+        {
+          "name": "ETERNAL LIGHT",
+          "type": "Passive",
+          "description": "Should he be vanquished, such is Eltharion’s mythical resolve that his spirit can re-manifest on the battlefield to fight once more alongside the Lumineth.\nEffect: If this unit is destroyed and if a friendly LUMINETH REALMLORDS WIZARD successfully casts a SUMMON spell, instead of resolving the effect of that SUMMON spell, you can set up a replacement unit for this unit more than 9\" from all enemy units and wholly within 12\" of the unit that used that SUMMON spell. This ability is still in effect even if this unit is not on the battlefield."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Searing Darts of Light",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Fangsword of Eltharion Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "3",
+          "damage": "3",
+          "abilities": "Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend), Crit (2 Hits)"
+        },
+        {
+          "name": "Celennari Blade Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": "Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend)"
+        }
+      ],
+      "keywords_text": "UNIQUE, HERO, INFANTRY, WARD (4+)\nORDER, LUMINETH REALM‑LORDS, AELF",
+      "keywords": [
+        "UNIQUE",
+        "HERO",
+        "INFANTRY",
+        "WARD (4+)",
+        "AELF"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN VANARI BANNERBLADE",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSCOURGE OF GHYRAN VANARI BANNERBLADE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBannerblade’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nDEFEND THE BANNER: While Vanari battle beneath the sacred standard carried by the Bannerblade, their ranks tighten and enemy attacks are deflected with relentless skill and determination.\n\n\n\nEffect: Add 1 to save rolls for friendly VANARI INFANTRY units while they are contesting the same objective as this unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nMonster Hero\n\n\n\t\t\n\t\n10\"\n16\n4+\n10\n5+\nOne of the most powerful sorcerers in all the cosmos, Teclis is rightly known as the Mage God by his worshippers. When his power is joined to that of the Hyshian moon-spirit Celennar, entire armies can be annihilated through his divine spellcraft.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBannerblade’s Sword\nCrit (Mortal)\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI\nNotes: This HERO can join an eligible regiment as a Lumineth Paragon.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "Any VANARI"
+      },
+      "abilities_text": "Passive\t\t\nDEFEND THE BANNER: While Vanari battle beneath the sacred standard carried by the Bannerblade, their ranks tighten and enemy attacks are deflected with relentless skill and determination.\n\n\n\nEffect: Add 1 to save rolls for friendly VANARI INFANTRY units while they are contesting the same objective as this unit.",
+      "abilities": [
+        {
+          "name": "DEFEND THE BANNER",
+          "type": "Passive",
+          "description": "While Vanari battle beneath the sacred standard carried by the Bannerblade, their ranks tighten and enemy attacks are deflected with relentless skill and determination.\nEffect: Add 1 to save rolls for friendly VANARI INFANTRY units while they are contesting the same objective as this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bannerblade’s Sword Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nMonster Hero",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "ARCHMAGE TECLIS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nARCHMAGE TECLIS\nAND CELENNAR, SPIRIT OF HYSH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tLunar Staff\t12\"\t1\t2+\t2+\t2\tD3+3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSword of Teclis\nCrit (Mortal)\t\t2\t3+\t3+\t2\tD3\n\tCelennar’s Moonbright Talons\nCompanion\t\t5\t3+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 640\nBase size: 160mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of Celennar’s Moonbright Talons is 3.\n\n\n\tPassive\t\t\nAURA OF CELENNAR: Those who bathe in the lambent glow of Celennar find themselves lifted to new heights of erudition, and Teclis is no exception.\n\n\n\nEffect: Add 1 to casting rolls and banishment rolls for friendly LUMINETH REALM-LORDS WIZARDS while they are wholly within 12\" of this unit.\n\nIn addition, this unit can use Spell abilities from the Lore of Hysh, the Lore of the Awakened Realms and the warscrolls of all friendly LUMINETH REALM-LORDS WIZARDS on the battlefield.\n\n\n\tOnce Per Turn, Your Hero Phase\t\t\nARCHMAGE: Teclis’s knowledge of magic is such that weaving spells and denying the efforts of enemy mystics comes to him as easily as breathing.\n\n\n\nEffect: Pick 1 of the following:\n\nMagical Supremacy: Instead of making a casting roll for the next SPELL ability used by this unit this turn, you can use a value of 12 for the roll that cannot be modified.\n\nDrain Power: Pick a visible enemy WIZARD or PRIEST within 18\" of this unit to be the target. Subtract 1 from the target’s power level, to a minimum of 0, until the start of your next turn.\n\n\n\tYour Hero Phase\t\t\n7\nTHE LIGHT OF TRUTH: Annihilating beams of white light lance forth from Teclis’s brow, effortlessly scything through the ranks of the foe.\n\n\n\nDeclare: Pick any number of different visible enemy units within 18\" of this unit to be the targets, then make a casting roll of 2D6.\n\nEffect: Inflict D3 mortal damage on each target.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Battle (Army), Start of Battle Round\t\t\nDISCS OF THE AELEMENTIRI: These sacred artefacts are a vital component of the Mage God’s deep connection with the elements of the Hysh-Mhensa. Their innate magic allows Lumineth to draw more readily upon the power of their own runic scriptures.\n\n\n\nDeclare: You cannot use this ability in the first battle round.\n\nEffect: Depict a rune of your choice on your battle scripture.\n\nDesigner’s Note: This allows you to have that rune depicted earlier in the battle scripture for the purposes of other abilities. Do not resolve the effect of the ‘Depict Rune’ ability as part of this ability.\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (4), FLY, WARD (5+)\nORDER, LUMINETH REALM‑LORDS, AELF\n\n\n\n\t\t\n\t\n6\"\n16\n3+\n5\nAvalenor is the eldest and wisest of all Hysh's mountain spirits. He alone chose to stand with the aelves of his own accord. Since then, his twin Firestealer Hammers have never rested in the defence of Hysh and its sibling realms - nor shall they while a single servant of the Dark Gods draws breath.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tLunar Staff\t12\"\t1\t2+\t2+\t2\tD3+3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSword of Teclis\nCrit (Mortal)\t\t2\t3+\t3+\t2\tD3\n\tCelennar’s Moonbright Talons\nCompanion\t\t5\t3+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 640\nBase size: 160mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS",
+      "stats": {
+        "unit_size": "1",
+        "points": "640",
+        "base_size": "160mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Lumineth Paragon, Any LUMINETH REALM-LORDS"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of Celennar’s Moonbright Talons is 3.\n\n\n\tPassive\t\t\nAURA OF CELENNAR: Those who bathe in the lambent glow of Celennar find themselves lifted to new heights of erudition, and Teclis is no exception.\n\n\n\nEffect: Add 1 to casting rolls and banishment rolls for friendly LUMINETH REALM-LORDS WIZARDS while they are wholly within 12\" of this unit.\n\nIn addition, this unit can use Spell abilities from the Lore of Hysh, the Lore of the Awakened Realms and the warscrolls of all friendly LUMINETH REALM-LORDS WIZARDS on the battlefield.\n\n\n\tOnce Per Turn, Your Hero Phase\t\t\nARCHMAGE: Teclis’s knowledge of magic is such that weaving spells and denying the efforts of enemy mystics comes to him as easily as breathing.\n\n\n\nEffect: Pick 1 of the following:\n\nMagical Supremacy: Instead of making a casting roll for the next SPELL ability used by this unit this turn, you can use a value of 12 for the roll that cannot be modified.\n\nDrain Power: Pick a visible enemy WIZARD or PRIEST within 18\" of this unit to be the target. Subtract 1 from the target’s power level, to a minimum of 0, until the start of your next turn.\n\n\n\tYour Hero Phase\t\t\n7\nTHE LIGHT OF TRUTH: Annihilating beams of white light lance forth from Teclis’s brow, effortlessly scything through the ranks of the foe.\n\n\n\nDeclare: Pick any number of different visible enemy units within 18\" of this unit to be the targets, then make a casting roll of 2D6.\n\nEffect: Inflict D3 mortal damage on each target.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of Celennar’s Moonbright Talons is 3."
+        },
+        {
+          "name": "AURA OF CELENNAR",
+          "type": "Passive",
+          "description": "Those who bathe in the lambent glow of Celennar find themselves lifted to new heights of erudition, and Teclis is no exception.\nEffect: Add 1 to casting rolls and banishment rolls for friendly LUMINETH REALM-LORDS WIZARDS while they are wholly within 12\" of this unit.\nIn addition, this unit can use Spell abilities from the Lore of Hysh, the Lore of the Awakened Realms and the warscrolls of all friendly LUMINETH REALM-LORDS WIZARDS on the battlefield."
+        },
+        {
+          "name": "ARCHMAGE",
+          "type": "Once Per Turn",
+          "description": "Teclis’s knowledge of magic is such that weaving spells and denying the efforts of enemy mystics comes to him as easily as breathing.\nEffect: Pick 1 of the following:\nMagical Supremacy: Instead of making a casting roll for the next SPELL ability used by this unit this turn, you can use a value of 12 for the roll that cannot be modified.\nDrain Power: Pick a visible enemy WIZARD or PRIEST within 18\" of this unit to be the target. Subtract 1 from the target’s power level, to a minimum of 0, until the start of your next turn."
+        },
+        {
+          "name": "THE LIGHT OF TRUTH",
+          "type": "Other",
+          "description": "Annihilating beams of white light lance forth from Teclis’s brow, effortlessly scything through the ranks of the foe.\nDeclare: Pick any number of different visible enemy units within 18\" of this unit to be the targets, then make a casting roll of 2D6.\nEffect: Inflict D3 mortal damage on each target.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Lunar Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Sword of Teclis Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Celennar’s Moonbright Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "AVALENOR",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nAVALENOR\nTHE STONEHEART KING\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGeomantic Blast\nShoot in Combat\t12\"\t1\t3+\t2+\t2\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFirestealer Hammers\t\t6\t4+\t2+\t2\t4\nBATTLE PROFILE\nUnit Size: 1      Points: 420\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: Any ALARITH, Any VANARI, 0-1 Lumineth Paragon\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Firestealer Hammers is 4.\n\n\n\tPassive\t\t\nCALL OF THE MOUNTAINS: In the presence of Avalenor, the mountains awaken to give protection to their allies.\n\n\n\nEffect: While a visible friendly ALARITH unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Alaithi, Rune of the Mountain depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tPassive\t\t\nWITH THE FORCE OF A LANDSLIDE: The Alaithi rune imbues mountain spirits with increasing power.\n\n\n\nEffect: Add 1 to the Attacks characteristic of this unit’s Firestealer Hammers for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nUNBREAKABLE BULWARK: Lumineth who fight in Avalenor’s shadow need not fear; as long as he stands, they will come to no harm.\n\n\n\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Roll a dice. On a 3+, for the rest of the turn, while that enemy unit is in combat with this unit, all attacks made by models in that enemy unit within this unit’s combat range must target this unit.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, ALARITH\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n18\"\n10\n4+\n5\n5+\nThe bellicose elementor known as Sevireth is the searing wrath of a desert wind come to life. The sandstorm that whips around him can scour the idols and monuments of his foes clean in moments, while enemies are flayed to the bone - those not struck down by his arrows, that is.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGeomantic Blast\nShoot in Combat\t12\"\t1\t3+\t2+\t2\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFirestealer Hammers\t\t6\t4+\t2+\t2\t4",
+      "battle_profile_text": "Unit Size: 1      Points: 420\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: Any ALARITH, Any VANARI, 0-1 Lumineth Paragon",
+      "stats": {
+        "unit_size": "1",
+        "points": "420",
+        "base_size": "100mm",
+        "reinforced": "No",
+        "regiment_options": "Any ALARITH, Any VANARI, 0-1 Lumineth Paragon"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Firestealer Hammers is 4.\n\n\n\tPassive\t\t\nCALL OF THE MOUNTAINS: In the presence of Avalenor, the mountains awaken to give protection to their allies.\n\n\n\nEffect: While a visible friendly ALARITH unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Alaithi, Rune of the Mountain depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tPassive\t\t\nWITH THE FORCE OF A LANDSLIDE: The Alaithi rune imbues mountain spirits with increasing power.\n\n\n\nEffect: Add 1 to the Attacks characteristic of this unit’s Firestealer Hammers for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nUNBREAKABLE BULWARK: Lumineth who fight in Avalenor’s shadow need not fear; as long as he stands, they will come to no harm.\n\n\n\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Roll a dice. On a 3+, for the rest of the turn, while that enemy unit is in combat with this unit, all attacks made by models in that enemy unit within this unit’s combat range must target this unit.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Firestealer Hammers is 4."
+        },
+        {
+          "name": "CALL OF THE MOUNTAINS",
+          "type": "Passive",
+          "description": "In the presence of Avalenor, the mountains awaken to give protection to their allies.\nEffect: While a visible friendly ALARITH unit is wholly within 12\" of this unit:\nYou are treated as having 1 additional instance of Alaithi, Rune of the Mountain depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Alaithi, Rune of the Mountain depicted on your battle scripture."
+        },
+        {
+          "name": "WITH THE FORCE OF A LANDSLIDE",
+          "type": "Passive",
+          "description": "The Alaithi rune imbues mountain spirits with increasing power.\nEffect: Add 1 to the Attacks characteristic of this unit’s Firestealer Hammers for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture."
+        },
+        {
+          "name": "UNBREAKABLE BULWARK",
+          "type": "Once Per Turn",
+          "description": "Lumineth who fight in Avalenor’s shadow need not fear; as long as he stands, they will come to no harm.\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\nEffect: Roll a dice. On a 3+, for the rest of the turn, while that enemy unit is in combat with this unit, all attacks made by models in that enemy unit within this unit’s combat range must target this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Geomantic Blast",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Firestealer Hammers",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "4",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SEVIRETH",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSEVIRETH\nLORD OF THE SEVENTH WIND\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tEnathrai, the Howling Death\nShoot in Combat\t15\"\t4\t2+\t3+\t3\t3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSwirling Shards\nCrit (Mortal)\t\t6\t2+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 340\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI, Any HURAKAN, 0-1 Lumineth Paragon\n\n\n\tPassive\t\t\nCALL OF THE WINDS: In the presence of Sevireth, the winds awaken to give aid to their allies.\n\n\n\nEffect: While a visible friendly HURAKAN unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Oreali, Rune of the Wind depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Oreali, Rune of the Wind depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nSPIRIT OF THE WIND: A Spirit of the Wind never remains in one place for long.\n\n\n\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat.\nKEYWORDS\tMOVE\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSEARING DESERT WINDS: Sevireth is the lord of burning-hot and parching desert winds. If Sevireth whirls around a foe for long enough, only desiccated corpses are left in his wake.\n\n\n\nDeclare: Pick up to 3 visible enemy units within 6\" of this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll and subtract 1 from wound rolls for the target’s attacks for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, FLY, WARD (5+)\nORDER, LUMINETH REALM‑LORDS, HURAKAN\nCavalry\n\n\n\t\t\n\t\n14\"\n3\n4+\n1\nThere is nowhere to hide from the Windchargers of the Hurakan temple. Their treerunner mounts are capable of deftly navigating the densest terrain to slip past their enemies, while the arrows of the aelves are carried upon loyal winds and almost always find their mark.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tEnathrai, the Howling Death\nShoot in Combat\t15\"\t4\t2+\t3+\t3\t3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSwirling Shards\nCrit (Mortal)\t\t6\t2+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 340\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: Any VANARI, Any HURAKAN, 0-1 Lumineth Paragon",
+      "stats": {
+        "unit_size": "1",
+        "points": "340",
+        "base_size": "60mm",
+        "reinforced": "No",
+        "regiment_options": "Any VANARI, Any HURAKAN, 0-1 Lumineth Paragon"
+      },
+      "abilities_text": "Passive\t\t\nCALL OF THE WINDS: In the presence of Sevireth, the winds awaken to give aid to their allies.\n\n\n\nEffect: While a visible friendly HURAKAN unit is wholly within 12\" of this unit:\n\nYou are treated as having 1 additional instance of Oreali, Rune of the Wind depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Oreali, Rune of the Wind depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nSPIRIT OF THE WIND: A Spirit of the Wind never remains in one place for long.\n\n\n\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat.",
+      "abilities": [
+        {
+          "name": "CALL OF THE WINDS",
+          "type": "Passive",
+          "description": "In the presence of Sevireth, the winds awaken to give aid to their allies.\nEffect: While a visible friendly HURAKAN unit is wholly within 12\" of this unit:\nYou are treated as having 1 additional instance of Oreali, Rune of the Wind depicted on your battle scripture for the purposes of the abilities on that unit’s warscroll.\nIf that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of Oreali, Rune of the Wind depicted on your battle scripture."
+        },
+        {
+          "name": "Any Shooting Phase SPIRIT OF THE WIND",
+          "type": "Once Per Turn",
+          "description": "A Spirit of the Wind never remains in one place for long.\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Enathrai, the Howling Death",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "3",
+          "damage": "3",
+          "abilities": null
+        },
+        {
+          "name": "Swirling Shards Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "MOVE",
+      "keywords": [
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "HURAKAN WINDCHARGERS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nHURAKAN WINDCHARGERS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWindcharger Bow\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t12\"\t3\t3+\t4+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tWindcharger Blade\t\t1\t4+\t4+\t-\t1\n\tTreerunner’s Claws\nCompanion\t\t2\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 160\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nGUIDED BY THE WINDS: The Windchargers’ arrows are lofted by benevolent winds and sped toward to their targets.\n\n\n\nEffect: While you have 2 or more instances of Oreali, Rune of the Wind depicted on your battle scripture, add 6\" to the Range characteristic of this unit’s Windcharger Bows.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, STANDARD BEARER (1/5)\nORDER, LUMINETH REALM‑LORDS, AELF, HURAKAN\n\n\n\n\t\t\n\t\n14\"\n3\n4+\n1\nThe Dawnriders maintain tight formation as they charge into the foe, pennants fluttering proudly as they advance. With lance, blade and dauntless courage, they punch great holes through the enemy’s lines, riding down those who flee before wheeling about to launch another shock assault.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWindcharger Bow\nAnti-CAVALRY (+1 Rend), Crit (Auto-wound)\t12\"\t3\t3+\t4+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWindcharger Blade\t\t1\t4+\t4+\t-\t1\n\tTreerunner’s Claws\nCompanion\t\t2\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 160\nBase size: 60 × 35mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "160",
+        "base_size": "60 × 35mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nGUIDED BY THE WINDS: The Windchargers’ arrows are lofted by benevolent winds and sped toward to their targets.\n\n\n\nEffect: While you have 2 or more instances of Oreali, Rune of the Wind depicted on your battle scripture, add 6\" to the Range characteristic of this unit’s Windcharger Bows.",
+      "abilities": [
+        {
+          "name": "GUIDED BY THE WINDS",
+          "type": "Passive",
+          "description": "The Windchargers’ arrows are lofted by benevolent winds and sped toward to their targets.\nEffect: While you have 2 or more instances of Oreali, Rune of the Wind depicted on your battle scripture, add 6\" to the Range characteristic of this unit’s Windcharger Bows."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Windcharger Bow Anti-CAVALRY (+1 Rend), Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Anti-CAVALRY (+1 Rend), Crit (Auto-wound)"
+        },
+        {
+          "name": "Windcharger Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Treerunner’s Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, STANDARD BEARER (1/5)\nORDER, LUMINETH REALM‑LORDS, AELF, HURAKAN",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "AELF",
+        "HURAKAN"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "VANARI DAWNRIDERS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI DAWNRIDERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDawnrider Lance and Blade\nCharge (+1 Damage), Crit (Mortal)\t2\t3+\t4+\t1\t1\n\tStallions’ Dashing Hooves\nCompanion\t2\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 180\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nDAWNRIDER CHARGE: The Dawnriders speed across the battlefield like the rays of Hysh spilling over the horizon, their sunmetal weapons empowered by the swiftness of their onset.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s Dawnrider Lances and Blades if it charged in the same turn.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, STANDARD BEARER (1/5)\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nInfantry\n\n\n\t\t\n\t\n5\"\n2\n4+\n1\nHaving accepted the mountains as their spiritual guides, the Alarith Stoneguard are granted immense strength and resilience. In battle, their adversaries find them all but impossible to shift, while the blows of their sacred hammers are like an avalanche crashing into the enemy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDawnrider Lance and Blade\nCharge (+1 Damage), Crit (Mortal)\t2\t3+\t4+\t1\t1\n\tStallions’ Dashing Hooves\nCompanion\t2\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 180\nBase size: 60 × 35mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "180",
+        "base_size": "60 × 35mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nDAWNRIDER CHARGE: The Dawnriders speed across the battlefield like the rays of Hysh spilling over the horizon, their sunmetal weapons empowered by the swiftness of their onset.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s Dawnrider Lances and Blades if it charged in the same turn.",
+      "abilities": [
+        {
+          "name": "DAWNRIDER CHARGE",
+          "type": "Passive",
+          "description": "The Dawnriders speed across the battlefield like the rays of Hysh spilling over the horizon, their sunmetal weapons empowered by the swiftness of their onset.\nEffect: Add 1 to the Rend characteristic of this unit’s Dawnrider Lances and Blades if it charged in the same turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Lance and Blade Charge (+1 Damage), Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Stallions’ Dashing Hooves",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, STANDARD BEARER (1/5)\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\nInfantry",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "ALARITH STONEGUARD",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nALARITH STONEGUARD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStoneguard Hammers\t2\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 5      Points: 130\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nFORTITUDE OF THE EARTH: When the Stoneguard adopt this unyielding martial stance, even the most ferocious assaults cannot break them.\n\n\n\nEffect: While you have 2 or more instances of Alaithi, Rune of the Mountain depicted on your battle scripture, this unit’s Save characteristic is 3+.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, STANDARD BEARER (1/5), ALARITH\nORDER, LUMINETH REALM‑LORDS, AELF\n\n\n\n\t\t\n\t\n6\"\n1\n5+\n1\nThe Auralan Sentinels are amongst the finest archers in all the Mortal Realms. Wielding elegant, multi-stringed bows with a deceptively light draw weight for their range, they are able to loose their sunmetal-tipped arrows incredible distances and with great power.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStoneguard Hammers\t2\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 5      Points: 130\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nFORTITUDE OF THE EARTH: When the Stoneguard adopt this unyielding martial stance, even the most ferocious assaults cannot break them.\n\n\n\nEffect: While you have 2 or more instances of Alaithi, Rune of the Mountain depicted on your battle scripture, this unit’s Save characteristic is 3+.",
+      "abilities": [
+        {
+          "name": "FORTITUDE OF THE EARTH",
+          "type": "Passive",
+          "description": "When the Stoneguard adopt this unyielding martial stance, even the most ferocious assaults cannot break them.\nEffect: While you have 2 or more instances of Alaithi, Rune of the Mountain depicted on your battle scripture, this unit’s Save characteristic is 3+."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Stoneguard Hammers",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, STANDARD BEARER (1/5), ALARITH\nORDER, LUMINETH REALM‑LORDS, AELF",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ALARITH",
+        "AELF"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "VANARI AURALAN SENTINELS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI AURALAN SENTINELS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tAuralan Bow\nCrit (Auto-wound)\t18\"\t2\t3+\t4+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSentinel Blade\t\t1\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 140\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tYour Shooting Phase\t\t\nLOFTED SHOTS: To strike a distant target, these warriors point their bows to the sky before launching a volley, the soft sound of their loosed bowstrings like a breath of anticipation before the foe meets their doom..\n\n\n\nEffect: For the rest of the turn, add 6\" to the Range characteristic of this unit’s Auralan Bows but subtract 1 from hit rolls for this unit’s shooting attacks.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\n\n\n\n\t\t\n\t\n6\"\n1\n4+\n1\nAuralan Wardens are the lynchpin of a Lumineth battleline and a mainstay in the hosts of Hysh. Fearlessly do they stare down a charging enemy, waiting until the opportune moment before driving the sunmetal tips of their pikes forward and breaking the enemy advance like an unyielding cliff before a crashing wave.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tAuralan Bow\nCrit (Auto-wound)\t18\"\t2\t3+\t4+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSentinel Blade\t\t1\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 140\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "140",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Your Shooting Phase\t\t\nLOFTED SHOTS: To strike a distant target, these warriors point their bows to the sky before launching a volley, the soft sound of their loosed bowstrings like a breath of anticipation before the foe meets their doom..\n\n\n\nEffect: For the rest of the turn, add 6\" to the Range characteristic of this unit’s Auralan Bows but subtract 1 from hit rolls for this unit’s shooting attacks.",
+      "abilities": [
+        {
+          "name": "LOFTED SHOTS",
+          "type": "Other",
+          "description": "To strike a distant target, these warriors point their bows to the sky before launching a volley, the soft sound of their loosed bowstrings like a breath of anticipation before the foe meets their doom..\nEffect: For the rest of the turn, add 6\" to the Range characteristic of this unit’s Auralan Bows but subtract 1 from hit rolls for this unit’s shooting attacks.",
+          "phase": "Shooting Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Auralan Bow Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Sentinel Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "VANARI AURALAN WARDENS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI AURALAN WARDENS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tWarden Pike and Blade\nAnti-charge (+1 Rend), Crit (Mortal)\t2\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nANTICIPATED STRIKE: When Auralan Wardens stand shoulder to shoulder, they present a bristling wall of pikes to the foe.\n\n\n\nEffect: If this unit has not charged this turn, ignore the effect of the Charge (+1 Damage) ability for combat attacks made by enemy units that target this unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\n\n\n\n\t\t\n\t\n6\"\n2\n4+\n1\nBladelords are the guardians of the Scinari mage-caste. Paragons of the warrior arts of the Vanari, they wield their greatblades with preternatural precision and ease, selflessly defending their charges as they cut their way through the enemy elite.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWarden Pike and Blade\nAnti-charge (+1 Rend), Crit (Mortal)\t2\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nANTICIPATED STRIKE: When Auralan Wardens stand shoulder to shoulder, they present a bristling wall of pikes to the foe.\n\n\n\nEffect: If this unit has not charged this turn, ignore the effect of the Charge (+1 Damage) ability for combat attacks made by enemy units that target this unit.",
+      "abilities": [
+        {
+          "name": "ANTICIPATED STRIKE",
+          "type": "Passive",
+          "description": "When Auralan Wardens stand shoulder to shoulder, they present a bristling wall of pikes to the foe.\nEffect: If this unit has not charged this turn, ignore the effect of the Charge (+1 Damage) ability for combat attacks made by enemy units that target this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Pike and Blade Anti-charge (+1 Rend), Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Anti-charge (+1 Rend), Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "VANARI BLADELORDS",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI BLADELORDS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSunmetal Blade\nCrit (Mortal)\t3\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 150\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nGUARDIANS OF THE SCINARI: It is the duty of the Bladelords to safeguard the Lumineth’s spellcasters, allowing their charges to weave conjurations free from the distraction of physical combat.\n\n\n\nEffect: While any friendly SCINARI HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tPassive\t\t\nMASTERS OF COMBAT: The Bladelords have long meditated upon the rune of Varinor to improve their martial prowess.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s Sunmetal Blades for each instance of Varinor, Rune of Strength depicted on your battle scripture.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI\n\n\n\n\t\t\n\t\n7\"\n1\n5+\n1\nLeaping into battle with acrobatic finesse, Ydrilan Riverblades are swift and aggressive fighters. They attack with a relentless drive, surging forwards into the enemy with flowing lethality akin to the waterways their aelementiri temple has sworn to protect.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSunmetal Blade\nCrit (Mortal)\t3\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 150\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "150",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nGUARDIANS OF THE SCINARI: It is the duty of the Bladelords to safeguard the Lumineth’s spellcasters, allowing their charges to weave conjurations free from the distraction of physical combat.\n\n\n\nEffect: While any friendly SCINARI HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tPassive\t\t\nMASTERS OF COMBAT: The Bladelords have long meditated upon the rune of Varinor to improve their martial prowess.\n\n\n\nEffect: Add 1 to the Rend characteristic of this unit’s Sunmetal Blades for each instance of Varinor, Rune of Strength depicted on your battle scripture.",
+      "abilities": [
+        {
+          "name": "GUARDIANS OF THE SCINARI",
+          "type": "Passive",
+          "description": "It is the duty of the Bladelords to safeguard the Lumineth’s spellcasters, allowing their charges to weave conjurations free from the distraction of physical combat.\nEffect: While any friendly SCINARI HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+)."
+        },
+        {
+          "name": "MASTERS OF COMBAT",
+          "type": "Passive",
+          "description": "The Bladelords have long meditated upon the rune of Varinor to improve their martial prowess.\nEffect: Add 1 to the Rend characteristic of this unit’s Sunmetal Blades for each instance of Varinor, Rune of Strength depicted on your battle scripture."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Sunmetal Blade Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, VANARI",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "AELF",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "YDRILAN RIVERBLADES",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nYDRILAN RIVERBLADES\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tYthara Darts\nShoot in Combat\t10\"\t2\t3+\t4+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tYdrilan Blades\t\t2\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 140\n\nMODEL\tBASE SIZE\nPureflood Seneschal\t32mm\n4 x Crestdancers\t32mm\n5 x Stream-runners\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nTRAVEL THE WATERWAYS: The Ydrilan are able to navigate the realms’ waterways in order to travel as fast as the flow of the rapids.\n\n\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.\n\nIf you picked to depict Ydriliqi, Rune of the River on your battle scripture this battle round, you can instead set up this unit anywherecon the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nRELENTLESS AS THE DRIVING CURRENT: An Ydrilan warrior keeps surging forwards, their movements fluid and bewilderingly fast as they embody the momentum of rushing water.\n\n\n\nEffect: If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, YDRILAN\nMonster\n\n\n\t\t\n\t\n6\"\n14\n3+\n5\nA Spirit of the Mountain is a war-form adopted by the geomantic animus of one of Hysh’s great peaks. The strength of the realm itself is theirs to wield, but though their hammers can crush walls and reduce enemies to bloody smears, it is their wisdom these spirits are most revered for – ponderous as it can be.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tYthara Darts\nShoot in Combat\t10\"\t2\t3+\t4+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tYdrilan Blades\t\t2\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 140\n\nMODEL\tBASE SIZE\nPureflood Seneschal\t32mm\n4 x Crestdancers\t32mm\n5 x Stream-runners\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "10",
+        "reinforced": "No",
+        "notes": "This unit cannot be reinforced."
+      },
+      "abilities_text": "Once Per Turn (Army), Your Movement Phase\t\t\nTRAVEL THE WATERWAYS: The Ydrilan are able to navigate the realms’ waterways in order to travel as fast as the flow of the rapids.\n\n\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.\n\nIf you picked to depict Ydriliqi, Rune of the River on your battle scripture this battle round, you can instead set up this unit anywherecon the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nRELENTLESS AS THE DRIVING CURRENT: An Ydrilan warrior keeps surging forwards, their movements fluid and bewilderingly fast as they embody the momentum of rushing water.\n\n\n\nEffect: If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat.",
+      "abilities": [
+        {
+          "name": "TRAVEL THE WATERWAYS",
+          "type": "Once Per Turn",
+          "description": "The Ydrilan are able to navigate the realms’ waterways in order to travel as fast as the flow of the rapids.\nEffect: Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.\nIf you picked to depict Ydriliqi, Rune of the River on your battle scripture this battle round, you can instead set up this unit anywherecon the battlefield more than 9\" from all enemy units."
+        },
+        {
+          "name": "RELENTLESS AS THE DRIVING CURRENT",
+          "type": "Once Per Turn",
+          "description": "An Ydrilan warrior keeps surging forwards, their movements fluid and bewilderingly fast as they embody the momentum of rushing water.\nEffect: If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ythara Darts",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Ydrilan Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, LUMINETH REALM‑LORDS, AELF, YDRILAN\nMonster",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "AELF",
+        "YDRILAN"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "ALARITH SPIRIT OF THE MOUNTAIN",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nALARITH SPIRIT OF THE MOUNTAIN\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGeomantic Blast\nShoot in Combat\t12\"\t1\t3+\t2+\t2\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStoneheart Worldhammer\t\t4\t4+\t2+\t2\t5\nBATTLE PROFILE\nUnit Size: 1      Points: 340\nBase size: 100mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Stoneheart Worldhammer is 3.\n\n\n\tPassive\t\t\nWITH THE FORCE OF A LANDSLIDE: The Alaithi rune imbues mountain spirits with increasing power.\n\n\n\nEffect: Add 1 to the Attacks characteristic of this unit’s Stoneheart Worldhammer for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nRAIN OF STONE: Boulders crash down from the Spirit of the Mountain, crushing foes under the avalanche.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. Add 2 to the roll if the target charged this turn. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER, ALARITH\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n18\"\n8\n4+\n5\n5+\nWhen roused to wrath, the Spirits of the Wind strike like a cyclone. It is all but impossible to track them as they dart through the air, launching arrow after arrow from their elegant but monstrously powerful bows and slipping away before retribution can land, the wind whistling with their laughter.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGeomantic Blast\nShoot in Combat\t12\"\t1\t3+\t2+\t2\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStoneheart Worldhammer\t\t4\t4+\t2+\t2\t5",
+      "battle_profile_text": "Unit Size: 1      Points: 340\nBase size: 100mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "340",
+        "base_size": "100mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Stoneheart Worldhammer is 3.\n\n\n\tPassive\t\t\nWITH THE FORCE OF A LANDSLIDE: The Alaithi rune imbues mountain spirits with increasing power.\n\n\n\nEffect: Add 1 to the Attacks characteristic of this unit’s Stoneheart Worldhammer for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nRAIN OF STONE: Boulders crash down from the Spirit of the Mountain, crushing foes under the avalanche.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. Add 2 to the roll if the target charged this turn. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Stoneheart Worldhammer is 3."
+        },
+        {
+          "name": "WITH THE FORCE OF A LANDSLIDE",
+          "type": "Passive",
+          "description": "The Alaithi rune imbues mountain spirits with increasing power.\nEffect: Add 1 to the Attacks characteristic of this unit’s Stoneheart Worldhammer for each instance of Alaithi, Rune of the Mountain depicted on your battle scripture."
+        },
+        {
+          "name": "RAIN OF STONE",
+          "type": "Once Per Turn",
+          "description": "Boulders crash down from the Spirit of the Mountain, crushing foes under the avalanche.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a D3. Add 2 to the roll if the target charged this turn. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Geomantic Blast",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Stoneheart Worldhammer",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "5",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "HURAKAN SPIRIT OF THE WIND",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nHURAKAN SPIRIT OF THE WIND\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBow of the Wind’s Vengeance\nAnti-MONSTER (+1 Rend), Shoot in Combat\t15\"\t4\t2+\t3+\t2\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSwirling Shards\nCrit (Mortal)\t\t6\t2+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 270\nBase size: 60mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nHUNTERS OF MAJESTIC BEASTS: With vindictive glee, wind spirits race across the battlefield in pursuit of mighty behemoths, seeking to lay them low with a well-placed shot.\n\n\n\nEffect: The Damage characteristic of this unit’s Bow of the Wind’s Vengeance is 3 for attacks that target MONSTERS.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nSPIRIT OF THE WIND: A Spirit of the Wind never remains in one place for long.\n\n\n\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat.\nKEYWORDS\tMOVE\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nHURRICANE WINDS: The arrows of the Spirits of the Wind are followed by a blast of wind, throwing enemies to the ground.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.\n\nEffect: Roll a dice. On a 3+, the target has STRIKE-LAST for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER, FLY, WARD (5+)\nORDER, LUMINETH REALM‑LORDS, HURAKAN\nWar Machine\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\nThe bolts of a Starshard Ballista are more than capable of piercing the armour of a Chaos Warrior or spearing multiple orruks with a single shot. When needs must, the ballista’s crew can load it with specially enchanted ammunition designed to blind those it does not slay outright.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBow of the Wind’s Vengeance\nAnti-MONSTER (+1 Rend), Shoot in Combat\t15\"\t4\t2+\t3+\t2\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSwirling Shards\nCrit (Mortal)\t\t6\t2+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 270\nBase size: 60mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "270",
+        "base_size": "60mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nHUNTERS OF MAJESTIC BEASTS: With vindictive glee, wind spirits race across the battlefield in pursuit of mighty behemoths, seeking to lay them low with a well-placed shot.\n\n\n\nEffect: The Damage characteristic of this unit’s Bow of the Wind’s Vengeance is 3 for attacks that target MONSTERS.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nSPIRIT OF THE WIND: A Spirit of the Wind never remains in one place for long.\n\n\n\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat.",
+      "abilities": [
+        {
+          "name": "HUNTERS OF MAJESTIC BEASTS",
+          "type": "Passive",
+          "description": "With vindictive glee, wind spirits race across the battlefield in pursuit of mighty behemoths, seeking to lay them low with a well-placed shot.\nEffect: The Damage characteristic of this unit’s Bow of the Wind’s Vengeance is 3 for attacks that target MONSTERS."
+        },
+        {
+          "name": "Any Shooting Phase SPIRIT OF THE WIND",
+          "type": "Once Per Turn",
+          "description": "A Spirit of the Wind never remains in one place for long.\nEffect: If this unit used a SHOOT ability this phase, this unit can move D6\". Add 2 to the roll for each instance of Oreali, Rune of the Wind depicted on your battle scripture. It cannot end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Wind’s Vengeance Anti-MONSTER (+1 Rend),",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": "Anti-MONSTER (+1 Rend)"
+        },
+        {
+          "name": "Swirling Shards Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "MOVE",
+      "keywords": [
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "VANARI STARSHARD BALLISTA",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nVANARI STARSHARD BALLISTA\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStarshard Bolts\nAnti-MONSTER (+1 Rend), Crit (2 Hits)\t24\"\t4\t3+\t3+\t1\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrew’s Arming Swords\t\t2\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 80mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nSCRYHAWKS: The scryhawks that accompany Auralan Sentinels have been trained to circle above distant foes, marking them out as potential targets for Starshard Ballista crews.\n\n\n\nEffect: Add 6\" to the Range characteristic of this unit’s Starshard Bolts while it is wholly within 12\" of any friendly Vanari Auralan Sentinels units.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nBLINDING BOLTS: A Starshard Ballista can be loaded with special bolts that explode with blinding light when they strike a target.\n\n\n\nDeclare: Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target is a MONSTER. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.\n\n\nKEYWORDS\n\tWAR MACHINE\nORDER, LUMINETH REALM‑LORDS, VANARI\nFaction Terrain\n\n\n\t\t\n\t\n-\n12\n3+\n-\nA Shrine Luminor is built upon a realmstone-rich metalith, a floating island in miniature leaden with geomantic energies. From here, a Lumineth mage can channel this elemental power to cleanse the corrupted land as well as bolster their arcane potential.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStarshard Bolts\nAnti-MONSTER (+1 Rend), Crit (2 Hits)\t24\"\t4\t3+\t3+\t1\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCrew’s Arming Swords\t\t2\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 80mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "80mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nSCRYHAWKS: The scryhawks that accompany Auralan Sentinels have been trained to circle above distant foes, marking them out as potential targets for Starshard Ballista crews.\n\n\n\nEffect: Add 6\" to the Range characteristic of this unit’s Starshard Bolts while it is wholly within 12\" of any friendly Vanari Auralan Sentinels units.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nBLINDING BOLTS: A Starshard Ballista can be loaded with special bolts that explode with blinding light when they strike a target.\n\n\n\nDeclare: Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target is a MONSTER. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "SCRYHAWKS",
+          "type": "Passive",
+          "description": "The scryhawks that accompany Auralan Sentinels have been trained to circle above distant foes, marking them out as potential targets for Starshard Ballista crews.\nEffect: Add 6\" to the Range characteristic of this unit’s Starshard Bolts while it is wholly within 12\" of any friendly Vanari Auralan Sentinels units."
+        },
+        {
+          "name": "Any Shooting Phase BLINDING BOLTS",
+          "type": "Once Per Turn",
+          "description": "A Starshard Ballista can be loaded with special bolts that explode with blinding light when they strike a target.\nDeclare: Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.\nEffect: Roll a dice. Add 1 to the roll if the target is a MONSTER. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Starshard Bolts Anti-MONSTER (+1 Rend), Crit (2 Hits)",
+          "type": "ranged",
+          "range": "24\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-MONSTER (+1 Rend), Crit (2 Hits)"
+        },
+        {
+          "name": "Crew’s Arming Swords",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WAR MACHINE\nORDER, LUMINETH REALM‑LORDS, VANARI\nFaction Terrain\n\n\n\t\t\n\t\n-\n12\n3+\n-\nA Shrine Luminor is built upon a realmstone-rich metalith, a floating island in miniature leaden with geomantic energies. From here, a Lumineth mage can channel this elemental power to cleanse the corrupted land as well as bolster their arcane potential.",
+      "keywords": [
+        "WAR MACHINE",
+        "VANARI"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "SHRINE LUMINOR",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nSHRINE LUMINOR\nBATTLE PROFILE\nUnit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable\n\n\n\tOnce Per Turn, Reaction: You declared a SPELL ability for a LUMINETH REALM-LORDS unit wholly within 12\" of this terrain feature\t\t\nCLEANSING RITUALS: These shrines are instrumental to the Lumineth’s efforts in purging Chaos from the Mortal Realms.\n\n\n\nEffect: While this terrain feature has a Shrine Guardian, you can re-roll the casting roll for that spell.\n\n\n\tPassive\t\t\nSHRINE GUARDIAN: Protected from attacks, the Shrine Guardian can move the metalith with but a fleeting thought.\n\n\n\nEffect: While this terrain feature has a Shrine Guardian:\n\nThis terrain feature has a Move characteristic of 6\" and can use non-command non-CHARGE MOVE abilities as if it were a unit. It cannot end a MOVE ability within the combat range of an enemy unit.\nThe Shrine Guardian cannot use MOVE abilities and remains on this terrain feature each time it moves.\nInstead of measuring range and visibility to the Shrine Guardian, measure to this terrain feature instead.\nAll attacks that would target the Shrine Guardian target this terrain feature instead.\n\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain.\n\n\n\tYour Hero Phase\t\t\nENTER THE SHRINE: Worthy Lumineth take up position within a Shrine Luminor to help to cleanse the realms.\n\n\n\nDeclare: If this terrain feature does not have a Shrine Guardian, pick a friendly LUMINETH REALM‐LORDS INFANTRY HERO within 3\" of it and not in combat to be the target.\n\nEffect: Place the target on this terrain feature. The target is now a Shrine Guardian (see ‘Shrine Guardian’).\n\n\n\tYour Movement Phase\t\t\nEXIT THE SHRINE: The Guardian floats down to the battlefield to rejoin the fray.\n\n\n\nEffect: If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.\n\n\nKEYWORDS\n\tFACTION TERRAIN, FLY\nORDER, LUMINETH REALM‑LORDS\nEndless Spell\n\n\n\t\t\n\t\n5\"\n5\n4+\n7+\n6+\nIn moments of peril, Hyshian Twinstones can be conjured from the heart of the Realm of Light and to the battlefield. Here they act as reservoirs of magic, for as one stone is drained of power, the other replenishes, forming a perfect aetheric feedback loop.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "Unit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable",
+      "stats": {
+        "unit_size": "1",
+        "points": "0",
+        "base_size": "Use model"
+      },
+      "abilities_text": "Once Per Turn, Reaction: You declared a SPELL ability for a LUMINETH REALM-LORDS unit wholly within 12\" of this terrain feature\t\t\nCLEANSING RITUALS: These shrines are instrumental to the Lumineth’s efforts in purging Chaos from the Mortal Realms.\n\n\n\nEffect: While this terrain feature has a Shrine Guardian, you can re-roll the casting roll for that spell.\n\n\n\tPassive\t\t\nSHRINE GUARDIAN: Protected from attacks, the Shrine Guardian can move the metalith with but a fleeting thought.\n\n\n\nEffect: While this terrain feature has a Shrine Guardian:\n\nThis terrain feature has a Move characteristic of 6\" and can use non-command non-CHARGE MOVE abilities as if it were a unit. It cannot end a MOVE ability within the combat range of an enemy unit.\nThe Shrine Guardian cannot use MOVE abilities and remains on this terrain feature each time it moves.\nInstead of measuring range and visibility to the Shrine Guardian, measure to this terrain feature instead.\nAll attacks that would target the Shrine Guardian target this terrain feature instead.\n\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain.\n\n\n\tYour Hero Phase\t\t\nENTER THE SHRINE: Worthy Lumineth take up position within a Shrine Luminor to help to cleanse the realms.\n\n\n\nDeclare: If this terrain feature does not have a Shrine Guardian, pick a friendly LUMINETH REALM‐LORDS INFANTRY HERO within 3\" of it and not in combat to be the target.\n\nEffect: Place the target on this terrain feature. The target is now a Shrine Guardian (see ‘Shrine Guardian’).\n\n\n\tYour Movement Phase\t\t\nEXIT THE SHRINE: The Guardian floats down to the battlefield to rejoin the fray.\n\n\n\nEffect: If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.",
+      "abilities": [
+        {
+          "name": "CLEANSING RITUALS",
+          "type": "Reaction",
+          "description": "These shrines are instrumental to the Lumineth’s efforts in purging Chaos from the Mortal Realms.\nEffect: While this terrain feature has a Shrine Guardian, you can re-roll the casting roll for that spell."
+        },
+        {
+          "name": "SHRINE GUARDIAN",
+          "type": "Passive",
+          "description": "Protected from attacks, the Shrine Guardian can move the metalith with but a fleeting thought.\nEffect: While this terrain feature has a Shrine Guardian:\nThis terrain feature has a Move characteristic of 6\" and can use non-command non-CHARGE MOVE abilities as if it were a unit. It cannot end a MOVE ability within the combat range of an enemy unit.\nThe Shrine Guardian cannot use MOVE abilities and remains on this terrain feature each time it moves.\nInstead of measuring range and visibility to the Shrine Guardian, measure to this terrain feature instead.\nAll attacks that would target the Shrine Guardian target this terrain feature instead.\nIf this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain."
+        },
+        {
+          "name": "ENTER THE SHRINE",
+          "type": "Other",
+          "description": "Worthy Lumineth take up position within a Shrine Luminor to help to cleanse the realms.\nDeclare: If this terrain feature does not have a Shrine Guardian, pick a friendly LUMINETH REALM‐LORDS INFANTRY HERO within 3\" of it and not in combat to be the target.\nEffect: Place the target on this terrain feature. The target is now a Shrine Guardian (see ‘Shrine Guardian’).",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "EXIT THE SHRINE",
+          "type": "Other",
+          "description": "The Guardian floats down to the battlefield to rejoin the fray.\nEffect: If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.",
+          "phase": "Movement Phase"
+        }
+      ],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN, FLY\nORDER, LUMINETH REALM‑LORDS\nEndless Spell",
+      "keywords": [
+        "FACTION TERRAIN",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "HYSHIAN TWINSTONES",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nHYSHIAN TWINSTONES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrackling Energy\t2D6\t4+\t4+\t-\t1\n\tPassive\t\t\nRESERVOIR OF POWER: The Twinstones glow brighter with each spell cast, forming a reservoir from which the Lumineth can draw greater power.\n\n\n\nEffect: Each time a unit (friendly or enemy) successfully casts a spell while it is within 12\" of this MANIFESTATION, give this MANIFESTATION 1 arcane charge point.\n\nThis MANIFESTATION can have a maximum of 6 arcane charge points.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SPELL or UNBIND ability for a LUMINETH REALM-LORDS WIZARD within 3\" of this MANIFESTATION\t\t\nRELEASE ARCANE CHARGE: The Lumineth draw out the power absorbed by the twinstones.\n\n\n\nEffect: Add this MANIFESTATION arcane charge points to the casting roll or unbinding roll. Then, reset this MANIFESTATION's arcane charge points to 0.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nOnly in moments of direst need will a Lumineth mage summon a Rune of Petrification. Those who stray too close to this arcane glyph find their flesh slowly transmuting to unfeeling rock, until they are eventually cursed to become inert statues for all time.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCrackling Energy\t2D6\t4+\t4+\t-\t1\n\tPassive\t\t\nRESERVOIR OF POWER: The Twinstones glow brighter with each spell cast, forming a reservoir from which the Lumineth can draw greater power.\n\n\n\nEffect: Each time a unit (friendly or enemy) successfully casts a spell while it is within 12\" of this MANIFESTATION, give this MANIFESTATION 1 arcane charge point.\n\nThis MANIFESTATION can have a maximum of 6 arcane charge points.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SPELL or UNBIND ability for a LUMINETH REALM-LORDS WIZARD within 3\" of this MANIFESTATION\t\t\nRELEASE ARCANE CHARGE: The Lumineth draw out the power absorbed by the twinstones.\n\n\n\nEffect: Add this MANIFESTATION arcane charge points to the casting roll or unbinding roll. Then, reset this MANIFESTATION's arcane charge points to 0.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nOnly in moments of direst need will a Lumineth mage summon a Rune of Petrification. Those who stray too close to this arcane glyph find their flesh slowly transmuting to unfeeling rock, until they are eventually cursed to become inert statues for all time.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "cursed to become inert statues for all time.",
+          "type": "melee",
+          "range": null,
+          "attacks": null,
+          "hit": null,
+          "wound": null,
+          "rend": null,
+          "damage": null,
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nOnly in moments of direst need will a Lumineth mage summon a Rune of Petrification. Those who stray too close to this arcane glyph find their flesh slowly transmuting to unfeeling rock, until they are eventually cursed to become inert statues for all time.",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    },
+    {
+      "name": "RUNE OF PETRIFICATION",
+      "faction": "lumineth realm lords",
+      "warscroll": "•\nLUMINETH REALM-LORDS WARSCROLL\n•\nRUNE OF PETRIFICATION\n\tAny Hero Phase\t\t\nTURN TO STONE: Foes who remain too close to this hovering sigil will find their flesh hardening and turning into stone until they are nothing more than lifelike statues.\n\n\n\nEffect: Roll a D3 for each enemy unit within 6\" of this MANIFESTATION. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll. If an enemy unit has at least 3 mortal damage inflicted on it by this ability this turn, it has STRIKE-LAST for the rest of the turn.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nThe focal point of a Sanctum of Amyntok is the rune Yngra, symbolising both rescue and imprisonment. In battle, these barriers of light energy can be conjured around a mage in need, the arrows and magical bolts of the enemy dissipating harmlessly at the merest touch.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, LUMINETH REALM‑LORDS\n\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nThe focal point of a Sanctum of Amyntok is the rune Yngra, symbolising both rescue and imprisonment. In battle, these barriers of light energy can be conjured around a mage in need, the arrows and magical bolts of the enemy dissipating harmlessly at the merest touch.",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER"
+      ]
+    }
+  ]
+}

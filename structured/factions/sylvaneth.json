@@ -1,0 +1,1382 @@
+{
+  "faction": "sylvaneth",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "KELTHANNOR",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nKELTHANNOR\nTHE FOREST PRINCE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnothi Princeling’s Bow\nCrit (Auto-wound)\t18\"\t3\t3+\t3+\t2\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tHooves and Knuckles\nCharge (+1 Damage)\t\t4\t3+\t3+\t1\t1\n\tYour Hero Phase\t\t\nCLARION OF THE FOREST PRINCE: Kelthannor’s war-horn blasts clear and loud as he controls the battle from afar.\n\n\n\nDeclare: Pick a friendly non-WAR MACHINE unit wholly within 12\" of this unit to be the target.\n\nEffect: The target can move 3\". It can move through and end that move within the combat ranges of enemy units that it was in combat with at the start of that move, but not those of other enemy units. It does not have to end the move in combat.\n\n\n\tAny Shooting Phase\t\t\nDEBILITATING SHOT: Kelthannor sends a steady stream of arrows whipping through the air to both maim and impede his quarry.\n\n\n\nDeclare: Pick an enemy unit that has no more than 1 model and that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn.\n\n\nKEYWORDS\n\tUNIQUE, HERO, CAVALRY\nORDER, SYLVANETH, KURNOTHI\nInfantry Hero\n\n\n\t\t\n\t\n12\"\n6\n4+\n2\nArch-Revenants soar high over the battlefield, borne upon the wings of a companion zephyrspite. Swooping down to strike where the foe is most vulnerable, their majestic glaives weave a dance of death before they take flight once more, seeking out the next target to feel their wrath.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnothi Princeling’s Bow\nCrit (Auto-wound)\t18\"\t3\t3+\t3+\t2\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tHooves and Knuckles\nCharge (+1 Damage)\t\t4\t3+\t3+\t1\t1\n\tYour Hero Phase\t\t\nCLARION OF THE FOREST PRINCE: Kelthannor’s war-horn blasts clear and loud as he controls the battle from afar.\n\n\n\nDeclare: Pick a friendly non-WAR MACHINE unit wholly within 12\" of this unit to be the target.\n\nEffect: The target can move 3\". It can move through and end that move within the combat ranges of enemy units that it was in combat with at the start of that move, but not those of other enemy units. It does not have to end the move in combat.\n\n\n\tAny Shooting Phase\t\t\nDEBILITATING SHOT: Kelthannor sends a steady stream of arrows whipping through the air to both maim and impede his quarry.\n\n\n\nDeclare: Pick an enemy unit that has no more than 1 model and that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn.\n\n\nKEYWORDS\n\tUNIQUE, HERO, CAVALRY\nORDER, SYLVANETH, KURNOTHI\nInfantry Hero\n\n\n\t\t\n\t\n12\"\n6\n4+\n2\nArch-Revenants soar high over the battlefield, borne upon the wings of a companion zephyrspite. Swooping down to strike where the foe is most vulnerable, their majestic glaives weave a dance of death before they take flight once more, seeking out the next target to feel their wrath.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Kurnothi Princeling’s Bow Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Hooves and Knuckles Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "UNIQUE, HERO, CAVALRY\nORDER, SYLVANETH, KURNOTHI\nInfantry Hero",
+      "keywords": [
+        "UNIQUE",
+        "HERO",
+        "CAVALRY",
+        "KURNOTHI"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "ARCH-REVENANT",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nARCH-REVENANT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tArch-Revenant’s Glaive\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH non-MONSTER\nNotes: This HERO can join an eligible regiment as a Forest Sentinel.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nGOSSAMID COMMANDER: The winged Arch-Revenants often go to battle at the head of a flight of Gossamid Archers, who loose coordinated volleys of arrows as their leader plunges into the fight.\n\n\n\nDeclare: If this unit charged this turn, pick a visible friendly Gossamid Archers unit that is not in combat and is wholly within 18\" of this unit to be the target.\n\nEffect: The target can immediately use a SHOOT ability as if it were your shooting phase but all of the attacks made as part of that SHOOT ability must target an enemy unit that is in combat with this unit.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nFIGHT AND FLY: Arch-Revenants have perfected the art of mobile warfare, diving down to slay their targets before swiftly retreating to the skies before the foe can muster a reprisal.\n\n\n\nEffect: If this unit charged this turn, this unit can move up to 2D6\" after that FIGHT ability has been resolved. It cannot end that move in combat.\n\n\nKEYWORDS\n\tHERO, INFANTRY, FLY, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\nMatriarchs of the Sylvaneth's warrior households, the Branchwyches lead their kin to battle with blasts of jade magic and hissing swings of their scythes. These same weapons are used when the fighting is done to harvest the lamentiri of the fallen.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tArch-Revenant’s Glaive\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH non-MONSTER\nNotes: This HERO can join an eligible regiment as a Forest Sentinel.",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "Any SYLVANETH non-MONSTER",
+        "notes": "This HERO can join an eligible regiment as a Forest Sentinel."
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nGOSSAMID COMMANDER: The winged Arch-Revenants often go to battle at the head of a flight of Gossamid Archers, who loose coordinated volleys of arrows as their leader plunges into the fight.\n\n\n\nDeclare: If this unit charged this turn, pick a visible friendly Gossamid Archers unit that is not in combat and is wholly within 18\" of this unit to be the target.\n\nEffect: The target can immediately use a SHOOT ability as if it were your shooting phase but all of the attacks made as part of that SHOOT ability must target an enemy unit that is in combat with this unit.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nFIGHT AND FLY: Arch-Revenants have perfected the art of mobile warfare, diving down to slay their targets before swiftly retreating to the skies before the foe can muster a reprisal.\n\n\n\nEffect: If this unit charged this turn, this unit can move up to 2D6\" after that FIGHT ability has been resolved. It cannot end that move in combat.",
+      "abilities": [
+        {
+          "name": "GOSSAMID COMMANDER",
+          "type": "Once Per Turn",
+          "description": "The winged Arch-Revenants often go to battle at the head of a flight of Gossamid Archers, who loose coordinated volleys of arrows as their leader plunges into the fight.\nDeclare: If this unit charged this turn, pick a visible friendly Gossamid Archers unit that is not in combat and is wholly within 18\" of this unit to be the target.\nEffect: The target can immediately use a SHOOT ability as if it were your shooting phase but all of the attacks made as part of that SHOOT ability must target an enemy unit that is in combat with this unit."
+        },
+        {
+          "name": "FIGHT AND FLY",
+          "type": "Reaction",
+          "description": "Arch-Revenants have perfected the art of mobile warfare, diving down to slay their targets before swiftly retreating to the skies before the foe can muster a reprisal.\nEffect: If this unit charged this turn, this unit can move up to 2D6\" after that FIGHT ability has been resolved. It cannot end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Arch-Revenant’s Glaive",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, FLY, REVENANT\nORDER, SYLVANETH",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "FLY",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "BRANCHWYCH",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nBRANCHWYCH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGreenwood Scythe and Bittergrub\t3\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nSLAY THE TRESPASSERS!: The Branchwych singles out a foe to suffer the full extent of the Sylvaneth’s vengeance.\n\n\n\nDeclare: Pick an enemy unit that is within the creeping overgrowth or that is visible to this unit and within friendly territory to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n4\"\n7\n5+\n2\nGrove Guardians are the keepers of the sacred soulpod groves, fey wardens whose powers of rejuvenation can grant new life to fallen Sylvaneth. In battle, they slay their foes with deft strikes of their sickles or leaf-bladed shears whilst regenerating the life energy of harvested lamentiri within the amniotic pods of their genesis trees.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGreenwood Scythe and Bittergrub\t3\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any INFANTRY"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nSLAY THE TRESPASSERS!: The Branchwych singles out a foe to suffer the full extent of the Sylvaneth’s vengeance.\n\n\n\nDeclare: Pick an enemy unit that is within the creeping overgrowth or that is visible to this unit and within friendly territory to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "SLAY THE TRESPASSERS!",
+          "type": "Once Per Turn",
+          "description": "The Branchwych singles out a foe to suffer the full extent of the Sylvaneth’s vengeance.\nDeclare: Pick an enemy unit that is within the creeping overgrowth or that is visible to this unit and within friendly territory to be the target.\nEffect: Roll a dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Greenwood Scythe and Bittergrub",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nORDER, SYLVANETH",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "GROVE GUARDIAN",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nGROVE GUARDIAN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrove Sickle or Shears\t3\t3+\t4+\t1\tD3\n\tGuardian Spites\nCrit (Mortal), Companion\t6\t4+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 220\nBase size: 90 × 52mm\n\nCan be reinforced: Yes\nRegiment Options: Any SYLVANETH\n\n\n\tPassive\t\t\nSOULSHRIEK: Should a Revenant be slain in their presence, a Grove Guardian can trigger a spiritual backlash through the fallen’s lamentiri fuelled by the collective trauma of generations, stilling the heart of their killer in a sudden burst of soul-shock.\n\n\n\nEffect: Each time a model in a friendly non-HERO REVENANT unit wholly within 12\" of and visible to this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tYour Hero Phase\t\t\n4\nREGENESIS: Freshly grown forest spirits leap from the amniotic pods of the Grove Guardian’s genesis tree, ready to join the Everqueen’s war.\n\n\n\nDeclare: Declare: Pick a friendly SYLVANETH unit that is wholly within the creeping overgrowth or that is visible to and wholly within 12\" of this unit to be the target, then make a chanting roll of D6.\n\nEffect: If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is a REVENANT INFANTRY or Dryads unit, return up to D3 models to that target unit. Otherwise, Heal (3) that target.\nKEYWORDS\tPRAYER\n\n\nKEYWORDS\n\tHERO, PRIEST (2), INFANTRY\nORDER, SYLVANETH, FOREST ELDER\n\n\n\n\t\t\n\t\n6\"\n7\n5+\n2\n6+\nThe Warsong Revenants are few in number, but their influence is far-reaching. Their odd, skirling music causes the lands themselves to come alive, and the harmonies it brings to the spirit-song are a balm to nearby Sylvaneth.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGrove Sickle or Shears\t3\t3+\t4+\t1\tD3\n\tGuardian Spites\nCrit (Mortal), Companion\t6\t4+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 220\nBase size: 90 × 52mm\n\nCan be reinforced: Yes\nRegiment Options: Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "220",
+        "base_size": "90 × 52mm",
+        "reinforced": "Yes",
+        "regiment_options": "Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nSOULSHRIEK: Should a Revenant be slain in their presence, a Grove Guardian can trigger a spiritual backlash through the fallen’s lamentiri fuelled by the collective trauma of generations, stilling the heart of their killer in a sudden burst of soul-shock.\n\n\n\nEffect: Each time a model in a friendly non-HERO REVENANT unit wholly within 12\" of and visible to this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tYour Hero Phase\t\t\n4\nREGENESIS: Freshly grown forest spirits leap from the amniotic pods of the Grove Guardian’s genesis tree, ready to join the Everqueen’s war.\n\n\n\nDeclare: Declare: Pick a friendly SYLVANETH unit that is wholly within the creeping overgrowth or that is visible to and wholly within 12\" of this unit to be the target, then make a chanting roll of D6.\n\nEffect: If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is a REVENANT INFANTRY or Dryads unit, return up to D3 models to that target unit. Otherwise, Heal (3) that target.",
+      "abilities": [
+        {
+          "name": "SOULSHRIEK",
+          "type": "Passive",
+          "description": "Should a Revenant be slain in their presence, a Grove Guardian can trigger a spiritual backlash through the fallen’s lamentiri fuelled by the collective trauma of generations, stilling the heart of their killer in a sudden burst of soul-shock.\nEffect: Each time a model in a friendly non-HERO REVENANT unit wholly within 12\" of and visible to this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved."
+        },
+        {
+          "name": "REGENESIS",
+          "type": "Other",
+          "description": "Freshly grown forest spirits leap from the amniotic pods of the Grove Guardian’s genesis tree, ready to join the Everqueen’s war.\nDeclare: Declare: Pick a friendly SYLVANETH unit that is wholly within the creeping overgrowth or that is visible to and wholly within 12\" of this unit to be the target, then make a chanting roll of D6.\nEffect: If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is a REVENANT INFANTRY or Dryads unit, return up to D3 models to that target unit. Otherwise, Heal (3) that target.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Grove Sickle or Shears",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Guardian Spites Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "PRAYER",
+      "keywords": [
+        "PRAYER"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "WARSONG REVENANT",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nWARSONG REVENANT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpirit Falchion and Spearing Vines\t5\t3+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH\n\n\n\tPassive\t\t\nALARIELLE’S SONG: To the Sylvaneth, the sound that emanates from a Warsong Revenant’s flute is sweet and uplifting. To their foes, it is a sonic assault of devastating potency.\n\n\n\nEffect: Friendly SYLVANETH units have WARD (6+) while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Reaction: You made an unmodified chanting roll of 1 for a SYLVANETH PRIEST wholly within 12\" of this unit\t\t\nROUSING ACCOMPANIMENT: The harmonies played by the Warsong Revenants entwine with and enhance the spirit-song.\n\n\n\nEffect: Re-roll that chanting roll.\n\n\nKEYWORDS\n\tHERO, PRIEST (1), INFANTRY, FLY, WARD (6+), REVENANT\nORDER, SYLVANETH\nMonster Hero\n\n\n\t\t\n\t\n14\"\n16\n4+\n10\n5+\nThe ground shudders beneath the tread of Alarielle’s gargantuan Wardroth Beetle as she leads the Sylvaneth charge. Wherever the goddess’s gaze falls, her foes cower, for there is no mercy in the Everqueen’s heart towards those who despoil her realm.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpirit Falchion and Spearing Vines\t5\t3+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "105 × 70mm",
+        "reinforced": "No",
+        "regiment_options": "Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nALARIELLE’S SONG: To the Sylvaneth, the sound that emanates from a Warsong Revenant’s flute is sweet and uplifting. To their foes, it is a sonic assault of devastating potency.\n\n\n\nEffect: Friendly SYLVANETH units have WARD (6+) while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Reaction: You made an unmodified chanting roll of 1 for a SYLVANETH PRIEST wholly within 12\" of this unit\t\t\nROUSING ACCOMPANIMENT: The harmonies played by the Warsong Revenants entwine with and enhance the spirit-song.\n\n\n\nEffect: Re-roll that chanting roll.",
+      "abilities": [
+        {
+          "name": "ALARIELLE’S SONG",
+          "type": "Passive",
+          "description": "To the Sylvaneth, the sound that emanates from a Warsong Revenant’s flute is sweet and uplifting. To their foes, it is a sonic assault of devastating potency.\nEffect: Friendly SYLVANETH units have WARD (6+) while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit."
+        },
+        {
+          "name": "ROUSING ACCOMPANIMENT",
+          "type": "Reaction",
+          "description": "The harmonies played by the Warsong Revenants entwine with and enhance the spirit-song.\nEffect: Re-roll that chanting roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spirit Falchion and Spearing Vines",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, PRIEST (1), INFANTRY, FLY, WARD (6+), REVENANT\nORDER, SYLVANETH\nMonster Hero",
+      "keywords": [
+        "HERO",
+        "PRIEST (1)",
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "ALARIELLE",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nALARIELLE\nTHE EVERQUEEN\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpear of Kurnoth\t12\"\t1\t2+\t3+\t2\t4\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpear of Kurnoth\nCharge (+1 Damage)\t\t5\t3+\t3+\t2\t2\n\tWardroth Beetle’s Antlers\nCompanion\t\t6\t4+\t2+\t2\t4\nBATTLE PROFILE\nUnit Size: 1      Points: 600\nBase size: 160mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Wardroth Beetle’s Antlers is 4.\n\n\n\tStart of Battle Round\t\t\nSEASONS OF WAR: Alarielle and her children are fundamentally intertwined with the shifting of the seasons, and their abilities and temperaments alter accordingly. It is within the power of the goddess to temporarily manipulate this state of being, should she wish it.\n\n\n\nDeclare: You must use this ability.\n\nEffect: Pick 1 of the following effects to apply for the rest of the battle round. You cannot pick the effect that you picked in the previous battle round.\n\nThe Burgeoning: Each time a friendly Awakened Wyldwood uses the ‘Ever Growing’ ability, you can pick any terrain feature your opponent does not control to be the target rather than the closest.\n\nThe Reaping: Add 1 to casting rolls and chanting rolls for friendly SYLVANETH units while they are wholly within 12\" of this unit.\n\nThe Dwindling: Friendly SYLVANETH units can use CHARGE abilities even if they used a RETREAT ability in the same turn. In addition, no mortal damage is inflicted on those units when they use RETREAT abilities.\n\nEverdusk: Each time you use the ‘Creeping Dread’ ability this battle round, you can pick up to 3 targets instead of 1.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nLIFEBLOOM: Just as the Burgeoning follows Everdusk, the restorative energies of Ghyran heal Alarielle’s wounds with cyclical inevitability.\n\n\n\nEffect: Heal (2D6) this unit.\n\n\n\tYour Hero Phase\t\t\n7\nMETAMORPHOSIS: With a fierce glare, Alarielle’s foes are wracked with creaking contortions as they violently transform into twisted effigies of living wood.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Inflict 2D3 mortal damage on the target. If the target would be destroyed by this spell, before removing any models, pick the closest terrain feature to the target that does not have a friendly overgrown token and give it a friendly overgrown token. If all terrain features on the battlefield already have a friendly overgrown token, inflict D3 mortal damage on each enemy unit within 6\" of the target instead.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Battle, Your Movement Phase\t\t\n2\nTHE GODDESS OF LIFE: So long as Ghyran endures, so will the Everqueen.\n\n\n\nDeclare: This unit can use this ability even if it has been destroyed.\n\nEffect: Set up a replacement unit with 8 damage points allocated to it (ward rolls cannot be made for those damage points) wholly within the creeping overgrowth and more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nLIVING BATTERING RAM: A charging Wardroth Beetle tramples all in its path.\n\n\n\nDeclare: If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.\n\nEffect: Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (3), FLY, WARD (5+)\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n12\"\n14\n3+\n5\nBelthanos is the greatest champion of the Hunter God, Kurnoth, and one of the Sylvaneth’s most fearsome warriors. Riding atop his loyal and deadly Carnelian Greatspite, the First Thorn hunts worthy prey, unleashing thunderous blasts from his Kurnothi war- horn before impaling his quarry with a thrust of his huge glaive.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpear of Kurnoth\t12\"\t1\t2+\t3+\t2\t4",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpear of Kurnoth\nCharge (+1 Damage)\t\t5\t3+\t3+\t2\t2\n\tWardroth Beetle’s Antlers\nCompanion\t\t6\t4+\t2+\t2\t4",
+      "battle_profile_text": "Unit Size: 1      Points: 600\nBase size: 160mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "600",
+        "base_size": "160mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Forest Sentinel, Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Wardroth Beetle’s Antlers is 4.\n\n\n\tStart of Battle Round\t\t\nSEASONS OF WAR: Alarielle and her children are fundamentally intertwined with the shifting of the seasons, and their abilities and temperaments alter accordingly. It is within the power of the goddess to temporarily manipulate this state of being, should she wish it.\n\n\n\nDeclare: You must use this ability.\n\nEffect: Pick 1 of the following effects to apply for the rest of the battle round. You cannot pick the effect that you picked in the previous battle round.\n\nThe Burgeoning: Each time a friendly Awakened Wyldwood uses the ‘Ever Growing’ ability, you can pick any terrain feature your opponent does not control to be the target rather than the closest.\n\nThe Reaping: Add 1 to casting rolls and chanting rolls for friendly SYLVANETH units while they are wholly within 12\" of this unit.\n\nThe Dwindling: Friendly SYLVANETH units can use CHARGE abilities even if they used a RETREAT ability in the same turn. In addition, no mortal damage is inflicted on those units when they use RETREAT abilities.\n\nEverdusk: Each time you use the ‘Creeping Dread’ ability this battle round, you can pick up to 3 targets instead of 1.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nLIFEBLOOM: Just as the Burgeoning follows Everdusk, the restorative energies of Ghyran heal Alarielle’s wounds with cyclical inevitability.\n\n\n\nEffect: Heal (2D6) this unit.\n\n\n\tYour Hero Phase\t\t\n7\nMETAMORPHOSIS: With a fierce glare, Alarielle’s foes are wracked with creaking contortions as they violently transform into twisted effigies of living wood.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Inflict 2D3 mortal damage on the target. If the target would be destroyed by this spell, before removing any models, pick the closest terrain feature to the target that does not have a friendly overgrown token and give it a friendly overgrown token. If all terrain features on the battlefield already have a friendly overgrown token, inflict D3 mortal damage on each enemy unit within 6\" of the target instead.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Wardroth Beetle’s Antlers is 4."
+        },
+        {
+          "name": "SEASONS OF WAR",
+          "type": "Other",
+          "description": "Alarielle and her children are fundamentally intertwined with the shifting of the seasons, and their abilities and temperaments alter accordingly. It is within the power of the goddess to temporarily manipulate this state of being, should she wish it.\nDeclare: You must use this ability.\nEffect: Pick 1 of the following effects to apply for the rest of the battle round. You cannot pick the effect that you picked in the previous battle round.\nThe Burgeoning: Each time a friendly Awakened Wyldwood uses the ‘Ever Growing’ ability, you can pick any terrain feature your opponent does not control to be the target rather than the closest.\nThe Reaping: Add 1 to casting rolls and chanting rolls for friendly SYLVANETH units while they are wholly within 12\" of this unit.\nThe Dwindling: Friendly SYLVANETH units can use CHARGE abilities even if they used a RETREAT ability in the same turn. In addition, no mortal damage is inflicted on those units when they use RETREAT abilities.\nEverdusk: Each time you use the ‘Creeping Dread’ ability this battle round, you can pick up to 3 targets instead of 1."
+        },
+        {
+          "name": "LIFEBLOOM",
+          "type": "Once Per Turn",
+          "description": "Just as the Burgeoning follows Everdusk, the restorative energies of Ghyran heal Alarielle’s wounds with cyclical inevitability.\nEffect: Heal (2D6) this unit."
+        },
+        {
+          "name": "METAMORPHOSIS",
+          "type": "Other",
+          "description": "With a fierce glare, Alarielle’s foes are wracked with creaking contortions as they violently transform into twisted effigies of living wood.\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Inflict 2D3 mortal damage on the target. If the target would be destroyed by this spell, before removing any models, pick the closest terrain feature to the target that does not have a friendly overgrown token and give it a friendly overgrown token. If all terrain features on the battlefield already have a friendly overgrown token, inflict D3 mortal damage on each enemy unit within 6\" of the target instead.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spear of Kurnoth",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "4",
+          "abilities": null
+        },
+        {
+          "name": "Spear of Kurnoth Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Wardroth Beetle’s Antlers",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "4",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "BELTHANOS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nBELTHANOS\nFIRST THORN OF KURNOTH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnoth Glaive\nCharge (+1 Damage)\t5\t3+\t3+\t2\t2\n\tCarnelian Greatspite’s Mandibles\nCompanion\t4\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 290\nBase size: 150 × 95mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite’s Mandibles is 3.\n\n\n\tPassive\t\t\nKURNOTHI WAR-HORN: The sounding of Belthanos’s war-horn brings forth a surging response from the hunt.\n\n\n\nEffect: Add 2\" to the Move characteristic of friendly KURNOTHI units while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHUNTMASTER’S STRIKE: The battlefield is the hunting ground and until his god returns, Belthanos is the prime hunter.\n\n\n\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 6\" from all enemy units and wholly within the creeping overgrowth.\n\n\n\tOnce per Turn (Army), Any Combat Phase\t\t\nRHYTHM OF THE CHASE: Belthanos relentlessly harries his quarry before deftly closing the distance to deliver the killing strike\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll, then you can remove this unit from the battlefield and set it up again within 1\" of the target.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, FLY\nORDER, SYLVANETH, KURNOTHI\n\n\n\n\t\t\n\t\n10\"\n12\n3+\n5\nDrycha Hamadreth keens with hatred as she tears through her enemies like a raging storm. The Queen of the Outcasts fights a never-ending crusade to eradicate those she sees as a threat to her people, leaving a trail of corpses of both friend and foe in her wake.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tKurnoth Glaive\nCharge (+1 Damage)\t5\t3+\t3+\t2\t2\n\tCarnelian Greatspite’s Mandibles\nCompanion\t4\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 290\nBase size: 150 × 95mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "290",
+        "base_size": "150 × 95mm",
+        "reinforced": "No",
+        "regiment_options": "Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite’s Mandibles is 3.\n\n\n\tPassive\t\t\nKURNOTHI WAR-HORN: The sounding of Belthanos’s war-horn brings forth a surging response from the hunt.\n\n\n\nEffect: Add 2\" to the Move characteristic of friendly KURNOTHI units while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHUNTMASTER’S STRIKE: The battlefield is the hunting ground and until his god returns, Belthanos is the prime hunter.\n\n\n\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 6\" from all enemy units and wholly within the creeping overgrowth.\n\n\n\tOnce per Turn (Army), Any Combat Phase\t\t\nRHYTHM OF THE CHASE: Belthanos relentlessly harries his quarry before deftly closing the distance to deliver the killing strike\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll, then you can remove this unit from the battlefield and set it up again within 1\" of the target.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite’s Mandibles is 3."
+        },
+        {
+          "name": "KURNOTHI WAR-HORN",
+          "type": "Passive",
+          "description": "The sounding of Belthanos’s war-horn brings forth a surging response from the hunt.\nEffect: Add 2\" to the Move characteristic of friendly KURNOTHI units while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "End of Any Turn HUNTMASTER’S STRIKE",
+          "type": "Once Per Turn",
+          "description": "The battlefield is the hunting ground and until his god returns, Belthanos is the prime hunter.\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 6\" from all enemy units and wholly within the creeping overgrowth.\n\tOnce per Turn (Army), Any Combat Phase\t\t\nRHYTHM OF THE CHASE: Belthanos relentlessly harries his quarry before deftly closing the distance to deliver the killing strike\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll, then you can remove this unit from the battlefield and set it up again within 1\" of the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kurnoth Glaive Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Carnelian Greatspite’s Mandibles",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "DRYCHA HAMADRETH",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nDRYCHA HAMADRETH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSlashing Talons\nCrit (2 Hits)\t5\t3+\t2+\t2\t2\n\tSwarm of Spites\nCrit (Mortal), Companion\t20\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 250\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH\n\n\n\tPassive\t\t\nTERROR OF THE DEEP WOODS: When faced with Drycha’s fury, even the most seasoned warriors feel like young rabbits frozen beneath the gaze of a hungry wolf.\n\n\n\nEffect: Enemy units cannot use RUN or RETREAT abilities while they are within 9\" of this unit.\n\n\n\tYour Hero Phase\t\t\n7\nENRAGE THE SPITES: Drycha shares a special kinship with the flitting, scuttling lesser spirits of the forest, who are stirred into a frenzy when her ire is raised.\n\n\n\nDeclare: Pick up to 3 enemy units that are visible to and within 12\" of this unit or that are within the creeping overgrowth to be the targets, then make a casting roll of 2D6.\n\nEffect: Inflict D3 mortal damage on each target.\nKEYWORDS\tSPELL\n\n\n\tYour Charge Phase\t\t\nMERCILESS AMBUSH: Despite her size and terrifying presence, Drycha stalks silently through hidden realm-root passageways, emerging without warning to fall upon her prey.\n\n\n\nEffect: If this unit is not in combat and has not used a RUN or RETREAT ability this turn, make a charge roll of 2D6. Then, remove this unit from the battlefield and set it up again within ½\" of an enemy unit and wholly within X\" of a terrain feature that has a friendly overgrown token, where X is equal to the charge roll. If you do so, this unit has charged.\nKEYWORDS\tCORE, MOVE, CHARGE, RAMPAGE\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, WIZARD (1)\nORDER, SYLVANETH, FOREST ELDER\n\n\n\n\t\t\n\t\n6\"\n14\n3+\n5\nA Spirit of Durthu is a walking pillar of oaken barkflesh and fiery, righteous anger. Some amongst them form the personal guard of the Everqueen; others walk abroad to stamp her enemies into the mulch or cut down her foes with scything sweeps of their guardian swords.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSlashing Talons\nCrit (2 Hits)\t5\t3+\t2+\t2\t2\n\tSwarm of Spites\nCrit (Mortal), Companion\t20\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 250\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "250",
+        "base_size": "105 × 70mm",
+        "reinforced": "No",
+        "regiment_options": "Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nTERROR OF THE DEEP WOODS: When faced with Drycha’s fury, even the most seasoned warriors feel like young rabbits frozen beneath the gaze of a hungry wolf.\n\n\n\nEffect: Enemy units cannot use RUN or RETREAT abilities while they are within 9\" of this unit.\n\n\n\tYour Hero Phase\t\t\n7\nENRAGE THE SPITES: Drycha shares a special kinship with the flitting, scuttling lesser spirits of the forest, who are stirred into a frenzy when her ire is raised.\n\n\n\nDeclare: Pick up to 3 enemy units that are visible to and within 12\" of this unit or that are within the creeping overgrowth to be the targets, then make a casting roll of 2D6.\n\nEffect: Inflict D3 mortal damage on each target.",
+      "abilities": [
+        {
+          "name": "TERROR OF THE DEEP WOODS",
+          "type": "Passive",
+          "description": "When faced with Drycha’s fury, even the most seasoned warriors feel like young rabbits frozen beneath the gaze of a hungry wolf.\nEffect: Enemy units cannot use RUN or RETREAT abilities while they are within 9\" of this unit."
+        },
+        {
+          "name": "ENRAGE THE SPITES",
+          "type": "Other",
+          "description": "Drycha shares a special kinship with the flitting, scuttling lesser spirits of the forest, who are stirred into a frenzy when her ire is raised.\nDeclare: Pick up to 3 enemy units that are visible to and within 12\" of this unit or that are within the creeping overgrowth to be the targets, then make a casting roll of 2D6.\nEffect: Inflict D3 mortal damage on each target.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Slashing Talons Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": "Crit (2 Hits), Crit (Mortal)"
+        },
+        {
+          "name": "Swarm of Spites Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "20",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SPIRIT OF DURTHU",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSPIRIT OF DURTHU\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tVerdant Blast\t12\"\t5\t4+\t3+\t1\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tGuardian Sword\nAnti-MONSTER (+1 Rend)\t\t5\t3+\t2+\t2\t4\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 320\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Guardian Sword is 3.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a CHARGE ability for this unit\t\t\nGUARDIAN OF THE GLADES: While they answer to no single glade, the Spirits of Durthu have sworn solemn oaths to safeguard all of Alarielle’s children. In battle, they will stand in defence of the wargrove’s commanders, and their wrath is terrible to behold should those under their protection be imperilled.\n\n\n\nEffect: Add 2 to the charge roll but this unit must end that charge move within ½\" of an enemy unit that is in combat with another friendly SYLVANETH HERO.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nGROUNDSHAKER: The Spirit of Durthu stamps down hard with one of its trunk-like legs, shaking the earth as well as the enemy’s wits.\n\n\n\nDeclare: Pick an enemy non-FLY INFANTRY or CAVALRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target has STRIKE-LAST for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tHERO, MONSTER\nORDER, SYLVANETH, FOREST ELDER\n\n\n\n\t\t\n\t\n6\"\n10\n4+\n5\n5+\nThe Lady of Vines is literally the hand of Alarielle, cut from the goddess’s wrist and then grown into a towering war leader. Her lashing whip-limbs and spear, Kurnotheal’s Wrath, have slain thousands of the Sylvaneth’s foes.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tVerdant Blast\t12\"\t5\t4+\t3+\t1\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGuardian Sword\nAnti-MONSTER (+1 Rend)\t\t5\t3+\t2+\t2\t4\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 320\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "320",
+        "base_size": "105 × 70mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Forest Sentinel, Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Guardian Sword is 3.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a CHARGE ability for this unit\t\t\nGUARDIAN OF THE GLADES: While they answer to no single glade, the Spirits of Durthu have sworn solemn oaths to safeguard all of Alarielle’s children. In battle, they will stand in defence of the wargrove’s commanders, and their wrath is terrible to behold should those under their protection be imperilled.\n\n\n\nEffect: Add 2 to the charge roll but this unit must end that charge move within ½\" of an enemy unit that is in combat with another friendly SYLVANETH HERO.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nGROUNDSHAKER: The Spirit of Durthu stamps down hard with one of its trunk-like legs, shaking the earth as well as the enemy’s wits.\n\n\n\nDeclare: Pick an enemy non-FLY INFANTRY or CAVALRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target has STRIKE-LAST for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Guardian Sword is 3."
+        },
+        {
+          "name": "GUARDIAN OF THE GLADES",
+          "type": "Reaction",
+          "description": "While they answer to no single glade, the Spirits of Durthu have sworn solemn oaths to safeguard all of Alarielle’s children. In battle, they will stand in defence of the wargrove’s commanders, and their wrath is terrible to behold should those under their protection be imperilled.\nEffect: Add 2 to the charge roll but this unit must end that charge move within ½\" of an enemy unit that is in combat with another friendly SYLVANETH HERO."
+        },
+        {
+          "name": "GROUNDSHAKER",
+          "type": "Once Per Turn",
+          "description": "The Spirit of Durthu stamps down hard with one of its trunk-like legs, shaking the earth as well as the enemy’s wits.\nDeclare: Pick an enemy non-FLY INFANTRY or CAVALRY unit in combat with this unit to be the target.\nEffect: Roll a dice. On a 3+, the target has STRIKE-LAST for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Verdant Blast",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Guardian Sword Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "4",
+          "abilities": "Anti-MONSTER (+1 Rend), Crit (Mortal)"
+        },
+        {
+          "name": "Massive Impaling Talons Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "THE LADY OF VINES",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nTHE LADY OF VINES\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnotheal’s Wrath\t12\"\t1\t2+\t2+\t2\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnotheal’s Wrath and Lashing Vines\nCrit (Mortal)\t\t6\t3+\t3+\t2\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 280\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nHAND OF THE EVERQUEEN: Thrusting her tendrils into the ground, the Lady of Vines wields the power she inherited from Alarielle to channel her magic through root and mycelium to reach a distant target.\n\n\n\nDeclare: Pick a terrain feature within 18\" of this unit that has a friendly overgrown token to be the target.\n\nEffect: Measure the range and visibility of the next SPELL ability used by this unit this phase from the target instead of from this unit, and your opponent can measure range and visibility to that terrain feature instead of this unit for the purposes of the ‘Unbind’ ability.\nKEYWORDS\tRAMPAGE\n\n\n\tYour Hero Phase\t\t\n7\nPROTECTION OF THE EVERQUEEN: The Lady of Vines shields her fellow Sylvaneth with the purifying power of her goddess mother.\n\n\n\nDeclare: Make a casting roll of 2D6. Add 1 to the roll if this unit is wholly within the creeping overgrowth.\n\nEffect: Until the start of your next turn, friendly SYLVANETH units have WARD (5+) while they are wholly within 12\" of this unit.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Battle, Any Hero Phase\t\t\nVERDIAN CROWN: The invigorating power of the Everqueen herself radiates from the ornate jade crown borne by the Lady of Vines.\n\n\n\nDeclare: Pick a terrain feature within 18\" of this unit that does not have a friendly overgrown token to be the target.\n\nEffect: Give the target a friendly overgrown token.\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, WIZARD (2), WARD (5+)\nORDER, SYLVANETH, FOREST ELDER\n\n\n\n\t\t\n\t\n6\"\n14\n3+\n5\nThe fury of the forest is roused by the magics of the Treelord Ancients. Amongst the eldest living creatures in the realms, these towering tree spirits are not only fearsome warriors but also potent spell-weavers who can loose the wrath of the wyldwoods.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnotheal’s Wrath\t12\"\t1\t2+\t2+\t2\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tKurnotheal’s Wrath and Lashing Vines\nCrit (Mortal)\t\t6\t3+\t3+\t2\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 280\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "280",
+        "base_size": "80mm",
+        "reinforced": "No",
+        "regiment_options": "Any SYLVANETH"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Hero Phase\t\t\nHAND OF THE EVERQUEEN: Thrusting her tendrils into the ground, the Lady of Vines wields the power she inherited from Alarielle to channel her magic through root and mycelium to reach a distant target.\n\n\n\nDeclare: Pick a terrain feature within 18\" of this unit that has a friendly overgrown token to be the target.\n\nEffect: Measure the range and visibility of the next SPELL ability used by this unit this phase from the target instead of from this unit, and your opponent can measure range and visibility to that terrain feature instead of this unit for the purposes of the ‘Unbind’ ability.",
+      "abilities": [
+        {
+          "name": "HAND OF THE EVERQUEEN",
+          "type": "Once Per Turn",
+          "description": "Thrusting her tendrils into the ground, the Lady of Vines wields the power she inherited from Alarielle to channel her magic through root and mycelium to reach a distant target.\nDeclare: Pick a terrain feature within 18\" of this unit that has a friendly overgrown token to be the target.\nEffect: Measure the range and visibility of the next SPELL ability used by this unit this phase from the target instead of from this unit, and your opponent can measure range and visibility to that terrain feature instead of this unit for the purposes of the ‘Unbind’ ability."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kurnotheal’s Wrath",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Kurnotheal’s Wrath and Lashing Vines Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "TREELORD ANCIENT",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nTREELORD ANCIENT\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDoom Tendril Staff\t18\"\t4\t4+\t2+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSweeping Blows\nAnti-charge (+1 Rend)\t\t5\t4+\t2+\t1\t2\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 280\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nAWAKENING SLUMBERING SPIRITS: As the Sylvaneth reclaim parts of the realms, the spirit-song calls out to tree spirits that are deep in slumber to rejoin the glades.\n\n\n\nDeclare: Pick a visible terrain feature that has a friendly overgrown token and is within 12\" of this unit. Then, pick a friendly non-UNIQUE KURNOTHI or Treelord unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with 1 model from the target unit wholly within 6\" of that terrain feature and more than 9\" from all enemy units. Then, remove the friendly overgrown token from that terrain feature. If the target was a Treelord, allocate 10 damage points to the replacement unit (ward rolls cannot be made for those damage points).\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nELDEST OF ELDERS: The Treelord Ancient imparts its ancient wisdom through the spirit-song to the members of its circle, enlightening them on how best to deal with these particular enemies of the forest.\n\n\n\nDeclare: Pick each friendly FOREST ELDER within this unit’s combat range to be the targets.\n\nEffect: Roll a dice for each target. On a 3+, add 1 to hit rolls for that target’s combat attacks until the start of your next turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tHERO, MONSTER, WIZARD (2)\nORDER, SYLVANETH, FOREST ELDER\n\n\n\n\t\t\n\t\n10\"\n12\n3+\n5\nGhyran’s most ruthless and cruel-hearted defender, the feared Drycha Hamadreth is as much a living hive as a true forest spirit. When her home realm is threatened, Drycha’s spite-swarms become more furious and potent than ever, impeding their advance and rendering them staggering and helpless in the face of a Sylvaneth attack.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDoom Tendril Staff\t18\"\t4\t4+\t2+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSweeping Blows\nAnti-charge (+1 Rend)\t\t5\t4+\t2+\t1\t2\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 280\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH",
+      "stats": {
+        "unit_size": "1",
+        "points": "280",
+        "base_size": "105 × 70mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Forest Sentinel, Any SYLVANETH"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nAWAKENING SLUMBERING SPIRITS: As the Sylvaneth reclaim parts of the realms, the spirit-song calls out to tree spirits that are deep in slumber to rejoin the glades.\n\n\n\nDeclare: Pick a visible terrain feature that has a friendly overgrown token and is within 12\" of this unit. Then, pick a friendly non-UNIQUE KURNOTHI or Treelord unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with 1 model from the target unit wholly within 6\" of that terrain feature and more than 9\" from all enemy units. Then, remove the friendly overgrown token from that terrain feature. If the target was a Treelord, allocate 10 damage points to the replacement unit (ward rolls cannot be made for those damage points).\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nELDEST OF ELDERS: The Treelord Ancient imparts its ancient wisdom through the spirit-song to the members of its circle, enlightening them on how best to deal with these particular enemies of the forest.\n\n\n\nDeclare: Pick each friendly FOREST ELDER within this unit’s combat range to be the targets.\n\nEffect: Roll a dice for each target. On a 3+, add 1 to hit rolls for that target’s combat attacks until the start of your next turn.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3."
+        },
+        {
+          "name": "AWAKENING SLUMBERING SPIRITS",
+          "type": "Once Per Turn",
+          "description": "As the Sylvaneth reclaim parts of the realms, the spirit-song calls out to tree spirits that are deep in slumber to rejoin the glades.\nDeclare: Pick a visible terrain feature that has a friendly overgrown token and is within 12\" of this unit. Then, pick a friendly non-UNIQUE KURNOTHI or Treelord unit that has been destroyed to be the target.\nEffect: Set up a replacement unit with 1 model from the target unit wholly within 6\" of that terrain feature and more than 9\" from all enemy units. Then, remove the friendly overgrown token from that terrain feature. If the target was a Treelord, allocate 10 damage points to the replacement unit (ward rolls cannot be made for those damage points)."
+        },
+        {
+          "name": "ELDEST OF ELDERS",
+          "type": "Once Per Turn",
+          "description": "The Treelord Ancient imparts its ancient wisdom through the spirit-song to the members of its circle, enlightening them on how best to deal with these particular enemies of the forest.\nDeclare: Pick each friendly FOREST ELDER within this unit’s combat range to be the targets.\nEffect: Roll a dice for each target. On a 3+, add 1 to hit rolls for that target’s combat attacks until the start of your next turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Doom Tendril Staff",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Sweeping Blows Anti-charge (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-charge (+1 Rend), Crit (Mortal)"
+        },
+        {
+          "name": "Massive Impaling Talons Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCOURGE OF GHYRAN DRYCHA HAMADRETH",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSCOURGE OF GHYRAN DRYCHA HAMADRETH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSlashing Talons\nCrit (2 Hits)\t10\t3+\t2+\t2\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 300\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nSTRENGTH FROM SPITE: Having absorbed the dark and bitter energies permeating the cursed earth of the Hamadrithil, Drycha’s talons easily shred defences both mundane and magical.\n\n\n\nEffect: Ward rolls cannot be made for damage points inflicted by this unit’s attacks.\n\n\n\tYour Hero Phase\t\t\n6\nTWISTED SPIRIT-SONG: Disharmonious and laced with anger, Drycha’s spirit-song fills her allies with rage.\n\n\n\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks, including those made with Companion weapons.\n\nIn addition, if the target is non-KURNOTHI, add 1 to the Attacks characteristics of the target’s melee weapons.\nKEYWORDS\tSPELL\n\n\n\tReaction: Opponent declared a CHARGE ability for a unit within 18\" of this unit\t\t\nVICIOUS SPITESWARMS: Swarms of Flitterfuries and Squirmlings pour forth from the hives within Drycha’s towering barkflesh form.\n\n\n\nEffect: Your opponent must pick 1 of the following:\n\nAvoid the Swarm: Subtract D3 from the charge roll. In addition, if your opponent re-rolls that charge roll, subtract D3 from that roll.\n\nCharge Through the Swarm: Subtract 1 from hit rolls for that unit’s attacks for the rest of the turn, and add 1 to hit rolls for attacks that target that unit for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tUNIQUE, HERO, MONSTER, WIZARD (1)\nORDER, SYLVANETH\nCavalry\n\n\n\t\t\n\t\n12\"\n5\n4+\n2\nIt is the duty of the Revenant Seekers to extract the lamentiri of Sylvaneth who fall in battle and return them to the soulpod groves. The wickedly sharp sickles they wield for this purpose are equally useful for severing the mortal threads of those who would endanger the remains of their slain kin.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSlashing Talons\nCrit (2 Hits)\t10\t3+\t2+\t2\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 300\nBase size: 105 × 70mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Forest Sentinel, Any SYLVANETH\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "300",
+        "base_size": "105 × 70mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Forest Sentinel, Any SYLVANETH",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nSTRENGTH FROM SPITE: Having absorbed the dark and bitter energies permeating the cursed earth of the Hamadrithil, Drycha’s talons easily shred defences both mundane and magical.\n\n\n\nEffect: Ward rolls cannot be made for damage points inflicted by this unit’s attacks.\n\n\n\tYour Hero Phase\t\t\n6\nTWISTED SPIRIT-SONG: Disharmonious and laced with anger, Drycha’s spirit-song fills her allies with rage.\n\n\n\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks, including those made with Companion weapons.\n\nIn addition, if the target is non-KURNOTHI, add 1 to the Attacks characteristics of the target’s melee weapons.",
+      "abilities": [
+        {
+          "name": "STRENGTH FROM SPITE",
+          "type": "Passive",
+          "description": "Having absorbed the dark and bitter energies permeating the cursed earth of the Hamadrithil, Drycha’s talons easily shred defences both mundane and magical.\nEffect: Ward rolls cannot be made for damage points inflicted by this unit’s attacks."
+        },
+        {
+          "name": "TWISTED SPIRIT-SONG",
+          "type": "Other",
+          "description": "Disharmonious and laced with anger, Drycha’s spirit-song fills her allies with rage.\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\nEffect: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks, including those made with Companion weapons.\nIn addition, if the target is non-KURNOTHI, add 1 to the Attacks characteristics of the target’s melee weapons.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Slashing Talons Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "10",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "REVENANT SEEKERS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nREVENANT SEEKERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSeeker’s Sickle\nCrit (Mortal)\t3\t3+\t4+\t1\t1\n\tDragonspite’s Mandibles\nCompanion\t3\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 180\nBase size: 60mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nDEAFENING DRONE: Revenant Seekers circle over the melee, cutting throats and piercing skulls with swipes of their sickles. The buzzing roar of their dragonspites’ wings soon disorientate enemies who engage them in protracted combat.\n\n\n\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n12\"\n5\n4+\n2\nThe Spiterider Lancers are Alarielle's elite cavalry. Mounted on agile dragonspites whose bodies thrum with life magic, they deftly swoop and whirl above the battlefield before suddenly diving into a charge, striking the enemy lines with shocking force.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSeeker’s Sickle\nCrit (Mortal)\t3\t3+\t4+\t1\t1\n\tDragonspite’s Mandibles\nCompanion\t3\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 180\nBase size: 60mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "180",
+        "base_size": "60mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nDEAFENING DRONE: Revenant Seekers circle over the melee, cutting throats and piercing skulls with swipes of their sickles. The buzzing roar of their dragonspites’ wings soon disorientate enemies who engage them in protracted combat.\n\n\n\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "FOREST FIGHTERS",
+          "type": "Passive",
+          "description": "These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\nEffect: This unit has a coherency range of 2\"."
+        },
+        {
+          "name": "DEAFENING DRONE",
+          "type": "Once Per Turn",
+          "description": "Revenant Seekers circle over the melee, cutting throats and piercing skulls with swipes of their sickles. The buzzing roar of their dragonspites’ wings soon disorientate enemies who engage them in protracted combat.\nDeclare: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.\nEffect: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Seeker’s Sickle Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Dragonspite’s Mandibles",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, REVENANT\nORDER, SYLVANETH",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "SPITERIDER LANCERS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSPITERIDER LANCERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiterider Lance\nCharge (+1 Damage), Crit (2 Hits)\t3\t3+\t4+\t1\t1\n\tDragonspite’s Mandibles\nCompanion\t3\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 220\nBase size: 60mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nSTRIKE AND FADE: Spiterider Lancers seek to avoid drawn-out combat, preferring instead to launch blistering attacks from cover and annihilating their target in a furious charge, before disengaging and seeking a fresh direction from which to attack.\n\n\n\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 9\" from all enemy units and wholly within the creeping overgrowth.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n12\"\n5\n4+\n2\nRiding atop fierce dragonspites and armed with sickles that can slice through ironoak bark, Revenant Seekers have the dangerous task of recovering lamentiri from fallen Sylvaneth. Tragically, when war comes to Ghyran, these soul-seeds are in plentiful number; in desperate times, their innate magic can be channelled by the Revenant Seekers to aid nearby Sylvaneth.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpiterider Lance\nCharge (+1 Damage), Crit (2 Hits)\t3\t3+\t4+\t1\t1\n\tDragonspite’s Mandibles\nCompanion\t3\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 220\nBase size: 60mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "220",
+        "base_size": "60mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nSTRIKE AND FADE: Spiterider Lancers seek to avoid drawn-out combat, preferring instead to launch blistering attacks from cover and annihilating their target in a furious charge, before disengaging and seeking a fresh direction from which to attack.\n\n\n\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 9\" from all enemy units and wholly within the creeping overgrowth.",
+      "abilities": [
+        {
+          "name": "FOREST FIGHTERS",
+          "type": "Passive",
+          "description": "These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\nEffect: This unit has a coherency range of 2\"."
+        },
+        {
+          "name": "End of Any Turn STRIKE AND FADE",
+          "type": "Once Per Turn",
+          "description": "Spiterider Lancers seek to avoid drawn-out combat, preferring instead to launch blistering attacks from cover and annihilating their target in a furious charge, before disengaging and seeking a fresh direction from which to attack.\nEffect: If this unit charged this turn, remove it from the battlefield and set it up again more than 9\" from all enemy units and wholly within the creeping overgrowth."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spiterider Lance Charge (+1 Damage), Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Dragonspite’s Mandibles",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY, REVENANT\nORDER, SYLVANETH",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN REVENANT SEEKERS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSCOURGE OF GHYRAN REVENANT SEEKERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tScourge Sickle\nCrit (Mortal)\t3\t3+\t4+\t1\t2\n\tSharpened Mandibles\nCharge (+1 Damage), Companion\t3\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 240\nBase size: 60mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to navigate the dense terrain of their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nLAMENTIRI LIFE ENERGIES: The lamentiri recovered by Revenant Seekers from fallen Sylvaneth have powerful mystical properties that can be harnessed to benefit others of their kind.\n\n\n\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target has WARD (5+) for the rest of the turn.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY\nORDER, SYLVANETH\nInfantry\n\n\n\t\t\n\t\n6\"\n1\n5+\n1\nSinging a song of slaughter, Dryads stride from the deepwoods to fall upon those who would defile the Sylvaneth’s soulpod groves. With vicious talons, these forest spirits rip and impale, dancing lithely between their enemies even as they tear them apart.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tScourge Sickle\nCrit (Mortal)\t3\t3+\t4+\t1\t2\n\tSharpened Mandibles\nCharge (+1 Damage), Companion\t3\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 240\nBase size: 60mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "3",
+        "points": "240",
+        "base_size": "60mm",
+        "reinforced": "Yes",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to navigate the dense terrain of their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nLAMENTIRI LIFE ENERGIES: The lamentiri recovered by Revenant Seekers from fallen Sylvaneth have powerful mystical properties that can be harnessed to benefit others of their kind.\n\n\n\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target has WARD (5+) for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "FOREST FIGHTERS",
+          "type": "Passive",
+          "description": "These warriors fight in loosely scattered formations, the better to navigate the dense terrain of their arboreal domains.\nEffect: This unit has a coherency range of 2\"."
+        },
+        {
+          "name": "LAMENTIRI LIFE ENERGIES",
+          "type": "Once Per Turn",
+          "description": "The lamentiri recovered by Revenant Seekers from fallen Sylvaneth have powerful mystical properties that can be harnessed to benefit others of their kind.\nDeclare: Pick a visible friendly SYLVANETH unit wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, the target has WARD (5+) for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Scourge Sickle Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Sharpened Mandibles Charge (+1 Damage),",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/3), STANDARD BEARER (1/3), FLY\nORDER, SYLVANETH\nInfantry",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "DRYADS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nDRYADS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tWracking Talons\t2\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nONE WITH THE FOREST: Dryads seamlessly blend in with the surrounding foliage; in overgrown environments, the attacks of their opponents are as likely to strike unfeeling wood as they are the Sylvaneth themselves.\n\n\n\nEffect: Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within the creeping overgrowth.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n12\"\n2\n5+\n1\nGossamid Archers are afforded the power of flight by the zephyrspites that clasp their torsos. A gruesome fate awaits any struck by the shafts of these skirmishers, for the arrowheads contain voracious grubs that devour the target from within.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWracking Talons\t2\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nONE WITH THE FOREST: Dryads seamlessly blend in with the surrounding foliage; in overgrown environments, the attacks of their opponents are as likely to strike unfeeling wood as they are the Sylvaneth themselves.\n\n\n\nEffect: Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within the creeping overgrowth.",
+      "abilities": [
+        {
+          "name": "ONE WITH THE FOREST",
+          "type": "Passive",
+          "description": "Dryads seamlessly blend in with the surrounding foliage; in overgrown environments, the attacks of their opponents are as likely to strike unfeeling wood as they are the Sylvaneth themselves.\nEffect: Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within the creeping overgrowth."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Wracking Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, SYLVANETH",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "GOSSAMID ARCHERS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nGOSSAMID ARCHERS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGossamid Bow\nCrit (Auto-wound), Shoot in Combat\t12\"\t2\t3+\t4+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tCruel Talons\t\t1\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tReaction: You declared a SHOOT ability for this unit\t\t\nZEPHYRSPITES: These symbiotic winged spites offer their hosts unparalleled manoeuvrability, allowing them to swiftly reposition after loosing a deadly volley.\n\n\n\nEffect: After that SHOOT ability has been resolved, this unit can move up to D6\". It cannot move into combat during any part of that move.\nKEYWORDS\tMOVE\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, FLY, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\nSome Kurnoth Hunters are armed with towering bows, each the size of the mobile artillery pieces of other races. Drawn by the great strength of their wielders, the huge shafts loosed by these weapons can be fired across awesome distances, skewering clutches of lesser foes and slaying the enemy’s elite with relentless precision.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGossamid Bow\nCrit (Auto-wound), Shoot in Combat\t12\"\t2\t3+\t4+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCruel Talons\t\t1\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nFOREST FIGHTERS: These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\n\n\n\nEffect: This unit has a coherency range of 2\".\n\n\n\tReaction: You declared a SHOOT ability for this unit\t\t\nZEPHYRSPITES: These symbiotic winged spites offer their hosts unparalleled manoeuvrability, allowing them to swiftly reposition after loosing a deadly volley.\n\n\n\nEffect: After that SHOOT ability has been resolved, this unit can move up to D6\". It cannot move into combat during any part of that move.",
+      "abilities": [
+        {
+          "name": "FOREST FIGHTERS",
+          "type": "Passive",
+          "description": "These warriors fight in loosely scattered formations, the better to take advantage of the terrain in their arboreal domains.\nEffect: This unit has a coherency range of 2\"."
+        },
+        {
+          "name": "ZEPHYRSPITES",
+          "type": "Reaction",
+          "description": "These symbiotic winged spites offer their hosts unparalleled manoeuvrability, allowing them to swiftly reposition after loosing a deadly volley.\nEffect: After that SHOOT ability has been resolved, this unit can move up to D6\". It cannot move into combat during any part of that move."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Gossamid Bow Crit (Auto-wound),",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Cruel Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MOVE",
+      "keywords": [
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "KURNOTH HUNTERS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nKURNOTH HUNTERS\nWITH GREATBOWS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnoth Greatbow\nAnti-CAVALRY (+1 Rend)\t18\"\t2\t3+\t3+\t1\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tVicious Claws\t\t3\t3+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 200\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nHUNTER’S ENDURANCE: As the spirit-song intensifies and the magic of life surges across the battlefield, Kurnoth Hunters are gripped with a sacred fervour of the chase that sees them shrug off wounds.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nSTEADY AIM: Bow-wielding Kurnoth Hunters are those of their kind who exhibit particular focus and patience. They take the time to carefully aim and line up a target before unleashing their arrows with deadly precision.\n\n\n\nEffect: If this unit has not used a MOVE ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nORDER, SYLVANETH, KURNOTHI\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\nThe greatscythe is the weapon chosen by Kurnoth Hunters who show cool implacability and a desire to reap the greatest tally of kills. With a single sweep, these forest spirits can carve through multiple footsoldiers, and with their polearms’ hooked blades, they can drag cavalrymen from their saddles before ruthlessly dispatching them as they sprawl in the gore-sprayed undergrowth.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tKurnoth Greatbow\nAnti-CAVALRY (+1 Rend)\t18\"\t2\t3+\t3+\t1\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tVicious Claws\t\t3\t3+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 200\nBase size: 50mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "200",
+        "base_size": "50mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nHUNTER’S ENDURANCE: As the spirit-song intensifies and the magic of life surges across the battlefield, Kurnoth Hunters are gripped with a sacred fervour of the chase that sees them shrug off wounds.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nSTEADY AIM: Bow-wielding Kurnoth Hunters are those of their kind who exhibit particular focus and patience. They take the time to carefully aim and line up a target before unleashing their arrows with deadly precision.\n\n\n\nEffect: If this unit has not used a MOVE ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "HUNTER’S ENDURANCE",
+          "type": "Passive",
+          "description": "As the spirit-song intensifies and the magic of life surges across the battlefield, Kurnoth Hunters are gripped with a sacred fervour of the chase that sees them shrug off wounds.\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth."
+        },
+        {
+          "name": "STEADY AIM",
+          "type": "Once Per Turn",
+          "description": "Bow-wielding Kurnoth Hunters are those of their kind who exhibit particular focus and patience. They take the time to carefully aim and line up a target before unleashing their arrows with deadly precision.\nEffect: If this unit has not used a MOVE ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kurnoth Greatbow Anti-CAVALRY (+1 Rend)",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-CAVALRY (+1 Rend)"
+        },
+        {
+          "name": "Vicious Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nORDER, SYLVANETH, KURNOTHI",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "KURNOTHI"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "SPITE-REVENANTS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSPITE-REVENANTS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCruel Talons and Fangs\nCrit (Mortal)\t3\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 80\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nSHADOWCREEP: Spite-Revenants have an affinity with the oppressive dark of the deepwood. They are able to dissolve into the shadows at will, creeping along the spirit paths before emerging once more where the enemy least expect it.\n\n\n\nEffect: If this unit is wholly within the creeping overgrowth, remove this unit from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units. Then, add 1 to charge rolls for this unit for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n6\"\n2\n5+\n1\nThe Twistweald were once Sylvaneth like any other. Now their bodies are grown over with parasitic plants and fungi that choke their bark and muddy their minds. They wander in a state of pain-induced frenzy, attacking with lashing thorned roots and clouds of vicious spites until their enemies are shredded into pulp.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCruel Talons and Fangs\nCrit (Mortal)\t3\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 80\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "80",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Movement Phase\t\t\nSHADOWCREEP: Spite-Revenants have an affinity with the oppressive dark of the deepwood. They are able to dissolve into the shadows at will, creeping along the spirit paths before emerging once more where the enemy least expect it.\n\n\n\nEffect: If this unit is wholly within the creeping overgrowth, remove this unit from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units. Then, add 1 to charge rolls for this unit for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "SHADOWCREEP",
+          "type": "Once Per Turn",
+          "description": "Spite-Revenants have an affinity with the oppressive dark of the deepwood. They are able to dissolve into the shadows at will, creeping along the spirit paths before emerging once more where the enemy least expect it.\nEffect: If this unit is wholly within the creeping overgrowth, remove this unit from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units. Then, add 1 to charge rolls for this unit for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cruel Talons and Fangs Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, REVENANT\nORDER, SYLVANETH",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "THE TWISTWEALD",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nTHE TWISTWEALD\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tVoracious Swarm\nShoot in Combat\t10\"\t6\t3+\t4+\t1\t1\n\tWarden’s Bow\t18\"\t2\t3+\t4+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tTwistroot Weapons\t\t3\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 8      Points: 120\n\nMODEL\tBASE SIZE\n1x Swarmsage\t40mm\n2x Twistroot Warden, 1x Twistroot Revenant\t32mm\n3x Twistroot Dryads\t28.5mm\n0-1 Twistroot Revenant\t32mm\nOR\t\n0-1 Twistroot Spite-Revenant\t40mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with Twistroot Weapons.\n\nThe champion is a Swarmsage and is also armed with a Voracious Swarm.\n2/8 models are Twistroot Wardens.\n1/2 Twistroot Wardens can also be armed with a Warden’s Bow.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nLATCHING PARASPITES: The Twistweald are riddled with horrific parasitic plants and fungi that latch onto others nearby, draining them of their vitality.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: The target has the INFESTED keyword for the rest of the battle. INFESTED enemy units cannot move more than 6\" when using non-CHARGE MOVE abilities.\n\n\n\tPassive\t\t\nPAIN-INDUCED FRENZY: The pain caused by the Twistweald’s parasitic infestations reaches its zenith when their thoughts turn to imminent murder-making, driving them into an agonised fury.\n\n\n\nEffect: This unit’s melee weapons have Crit (2 Hits) if it charged in the same turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, REVENANT\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n6\"\n2\n5+\n1\nTree-Revenants move with flowing grace, flickering along the spirit paths to carve their way through the enemy’s ranks. Their highly ritualised martial customs and the memories of war they inherit from past generations of Sylvaneth through their lamentiri lend them a skill in combat that few enemies can match.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tVoracious Swarm\nShoot in Combat\t10\"\t6\t3+\t4+\t1\t1\n\tWarden’s Bow\t18\"\t2\t3+\t4+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tTwistroot Weapons\t\t3\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 8      Points: 120\n\nMODEL\tBASE SIZE\n1x Swarmsage\t40mm\n2x Twistroot Warden, 1x Twistroot Revenant\t32mm\n3x Twistroot Dryads\t28.5mm\n0-1 Twistroot Revenant\t32mm\nOR\t\n0-1 Twistroot Spite-Revenant\t40mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with Twistroot Weapons.\n\nThe champion is a Swarmsage and is also armed with a Voracious Swarm.\n2/8 models are Twistroot Wardens.\n1/2 Twistroot Wardens can also be armed with a Warden’s Bow.",
+      "stats": {
+        "unit_size": "8",
+        "reinforced": "No"
+      },
+      "abilities_text": "Once Per Turn (Army), End of Any Turn\t\t\nLATCHING PARASPITES: The Twistweald are riddled with horrific parasitic plants and fungi that latch onto others nearby, draining them of their vitality.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: The target has the INFESTED keyword for the rest of the battle. INFESTED enemy units cannot move more than 6\" when using non-CHARGE MOVE abilities.\n\n\n\tPassive\t\t\nPAIN-INDUCED FRENZY: The pain caused by the Twistweald’s parasitic infestations reaches its zenith when their thoughts turn to imminent murder-making, driving them into an agonised fury.\n\n\n\nEffect: This unit’s melee weapons have Crit (2 Hits) if it charged in the same turn.",
+      "abilities": [
+        {
+          "name": "End of Any Turn LATCHING PARASPITES",
+          "type": "Once Per Turn",
+          "description": "The Twistweald are riddled with horrific parasitic plants and fungi that latch onto others nearby, draining them of their vitality.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: The target has the INFESTED keyword for the rest of the battle. INFESTED enemy units cannot move more than 6\" when using non-CHARGE MOVE abilities."
+        },
+        {
+          "name": "PAIN-INDUCED FRENZY",
+          "type": "Passive",
+          "description": "The pain caused by the Twistweald’s parasitic infestations reaches its zenith when their thoughts turn to imminent murder-making, driving them into an agonised fury.\nEffect: This unit’s melee weapons have Crit (2 Hits) if it charged in the same turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Voracious Swarm",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Warden’s Bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Twistroot Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, REVENANT\nORDER, SYLVANETH",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "TREE-REVENANTS",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nTREE-REVENANTS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tRevenant Blade\t3\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nWARRIORS OF THE WOODS: The Tree-Revenants comprise the formal warrior class of the Sylvaneth. It is their duty to engage and hold the enemy’s battleline, and it is one they perform with exceptional ability. Once they have the foe’s measure, they become even more dangerous, overwhelming their opponents with their relentless martial skill.\n\n\n\nEffect: While this unit is in combat and has not charged this turn, add 1 to the Damage characteristic of this unit’s melee weapons.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5), REVENANT\nORDER, SYLVANETH\nMonster\n\n\n\t\t\n\t\n6\"\n14\n3+\n5\nTreelords bear down on the enemy with earth- shaking strides, ignoring the feeble attempts of the enemy to slow their advance. Lashing vines shoot forth from their open talons to rend and ensnare, while every swing of their huge talons slaughters another swathe of foes.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tRevenant Blade\t3\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nWARRIORS OF THE WOODS: The Tree-Revenants comprise the formal warrior class of the Sylvaneth. It is their duty to engage and hold the enemy’s battleline, and it is one they perform with exceptional ability. Once they have the foe’s measure, they become even more dangerous, overwhelming their opponents with their relentless martial skill.\n\n\n\nEffect: While this unit is in combat and has not charged this turn, add 1 to the Damage characteristic of this unit’s melee weapons.",
+      "abilities": [
+        {
+          "name": "WARRIORS OF THE WOODS",
+          "type": "Passive",
+          "description": "The Tree-Revenants comprise the formal warrior class of the Sylvaneth. It is their duty to engage and hold the enemy’s battleline, and it is one they perform with exceptional ability. Once they have the foe’s measure, they become even more dangerous, overwhelming their opponents with their relentless martial skill.\nEffect: While this unit is in combat and has not charged this turn, add 1 to the Damage characteristic of this unit’s melee weapons."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Revenant Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5), REVENANT\nORDER, SYLVANETH\nMonster",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "REVENANT"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "TREELORD",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nTREELORD\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStrangleroots\nShoot in Combat\t10\"\t3\t3+\t2+\t1\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSweeping Blows\nAnti-charge (+1 Rend)\t\t5\t4+\t2+\t1\t2\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 260\nBase size: 105 × 70mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nLASH AND TANGLE: The whipping tendrils that shoot from the Treelord’s palm ensnare enemies and keep them at bay with their frantic thrashing.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Strangleroots to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target is within the creeping overgrowth. On a 3+, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSTRANGLING GRASP: The Treelord’s tendrils coil around a chosen foe, crushing the life out of them.\n\n\n\nDeclare: Pick a visible enemy unit within 10\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER\nORDER, SYLVANETH, FOREST ELDER\nFaction Terrain\n\n\n\t\t\n\t\n-\n8\n4+\n-\nWhen the wyldwoods of the Sylvaneth stir, enemies of the natural order must be on their guard. The spirits that dwell within these ancient groves are roused to terrible fury by intrusions into their domain, and they will take every chance to prey upon those foolish enough to stray beneath their shadowed boughs.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStrangleroots\nShoot in Combat\t10\"\t3\t3+\t2+\t1\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSweeping Blows\nAnti-charge (+1 Rend)\t\t5\t4+\t2+\t1\t2\n\tMassive Impaling Talons\nCrit (Mortal)\t\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 260\nBase size: 105 × 70mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "260",
+        "base_size": "105 × 70mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nLASH AND TANGLE: The whipping tendrils that shoot from the Treelord’s palm ensnare enemies and keep them at bay with their frantic thrashing.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Strangleroots to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target is within the creeping overgrowth. On a 3+, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSTRANGLING GRASP: The Treelord’s tendrils coil around a chosen foe, crushing the life out of them.\n\n\n\nDeclare: Pick a visible enemy unit within 10\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3."
+        },
+        {
+          "name": "Any Shooting Phase LASH AND TANGLE",
+          "type": "Once Per Turn",
+          "description": "The whipping tendrils that shoot from the Treelord’s palm ensnare enemies and keep them at bay with their frantic thrashing.\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Strangleroots to be the target.\nEffect: Roll a dice. Add 1 to the roll if the target is within the creeping overgrowth. On a 3+, subtract 1 from hit rolls for the target’s attacks until the start of your next turn."
+        },
+        {
+          "name": "STRANGLING GRASP",
+          "type": "Once Per Turn",
+          "description": "The Treelord’s tendrils coil around a chosen foe, crushing the life out of them.\nDeclare: Pick a visible enemy unit within 10\" of this unit to be the target.\nEffect: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Strangleroots",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Sweeping Blows Anti-charge (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-charge (+1 Rend), Crit (Mortal)"
+        },
+        {
+          "name": "Massive Impaling Talons Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "AWAKENED WYLDWOOD",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nAWAKENED WYLDWOOD\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable, Obscuring\n\nDesigner’s Note: For rules purposes, an Awakened Wyldwood is a single tree miniature with a crescent-shaped base.\n\n\n\tPassive\t\t\nBUDDING FORESTS: Once awakened, a wyldwood will rapidly grow into an entire forest in a matter of days, should the Sylvaneth successfully repel those who would threaten its flourishing.\n\n\n\nEffect: When this terrain feature is set up, give it a friendly overgrown token.\n\n\n\tOnce Per Battle Round, Start of Battle Round\t\t\nEVER GROWING: A wyldwood roused by the Sylvaneth will spread its roots deep, inundating its surroundings with life.\n\n\n\nDeclare: Pick the closest terrain feature to this terrain feature that does not have a friendly overgrown token to be the target.\n\nEffect: If the target is not controlled by your opponent, give the target a friendly overgrown token.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nVENGEFUL FOREST SPIRITS: The spirits within a Sylvaneth wyldwood are easily angered by trespassers into their domain.\n\n\n\nDeclare: Pick each enemy unit within 3\" of this terrain feature to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n\nKEYWORDS\n\tFACTION TERRAIN\nORDER, SYLVANETH\nEndless Spell\n\n\n\t\t\n\t\n8\"\n7\n4+\n7+\n6+\nGladewyrms are ferocious subterranean creatures formed from concentrated life magic, used by the Sylvaneth to protect the realmroots from eldritch invaders. When called upon, they leave their patrols along the spirit paths and erupt from the earth to aid their summoners.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN\nORDER, SYLVANETH\nEndless Spell",
+      "keywords": [
+        "FACTION TERRAIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    },
+    {
+      "name": "GLADEWYRM",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nGLADEWYRM\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFearsome Mandibles and Bladed Carapace\nAnti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend)\t6\t4+\t2+\t1\tD3\n\tPassive\t\t\nFEED ON ELDRITCH ENERGY: As predators of preternatural threats, Gladewyrms readily devour the energies that the enemy draws upon to fuel their spells and rituals.\n\n\n\nEffect: Subtract 1 from casting rolls, unbinding rolls, chanting rolls and banishment rolls for enemy units while they are in combat with this MANIFESTATION.\n\n\n\tYour Movement Phase\t\t\nELDRITCH HUNTERS: Gladewyrms are magical creatures, and their prey of choice is similarly arcane in nature. During battle, they burrow beneath the surface, reemerging to devour spellcasters and other mystics, whom they sense with greater clarity than other beings.\n\n\n\nEffect: If this MANIFESTATION is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy non-WIZARD non-PRIEST units and more than 3\" from all enemy WIZARDS and enemy PRIESTS.\nKEYWORDS\tCORE\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nWith a humming chant, those versed in the magic of Ghyran can summon a Spiteswarm Hive. As enemies cautiously approach the comb, the air thrums angrily before the inhabiting spites buzz forth, their swarms swirling around the foe, crawling between gaps in armour to burrow into eyes, chew through jugulars and clog screaming throats.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFearsome Mandibles and Bladed Carapace\nAnti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend)\t6\t4+\t2+\t1\tD3\n\tPassive\t\t\nFEED ON ELDRITCH ENERGY: As predators of preternatural threats, Gladewyrms readily devour the energies that the enemy draws upon to fuel their spells and rituals.\n\n\n\nEffect: Subtract 1 from casting rolls, unbinding rolls, chanting rolls and banishment rolls for enemy units while they are in combat with this MANIFESTATION.\n\n\n\tYour Movement Phase\t\t\nELDRITCH HUNTERS: Gladewyrms are magical creatures, and their prey of choice is similarly arcane in nature. During battle, they burrow beneath the surface, reemerging to devour spellcasters and other mystics, whom they sense with greater clarity than other beings.\n\n\n\nEffect: If this MANIFESTATION is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy non-WIZARD non-PRIEST units and more than 3\" from all enemy WIZARDS and enemy PRIESTS.\nKEYWORDS\tCORE\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nWith a humming chant, those versed in the magic of Ghyran can summon a Spiteswarm Hive. As enemies cautiously approach the comb, the air thrums angrily before the inhabiting spites buzz forth, their swarms swirling around the foe, crawling between gaps in armour to burrow into eyes, chew through jugulars and clog screaming throats.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Bladed Carapace Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend)"
+        }
+      ],
+      "keywords_text": "CORE",
+      "keywords": [
+        "CORE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SPITESWARM HIVE",
+      "faction": "sylvaneth",
+      "warscroll": "•\nSYLVANETH WARSCROLL\n•\nSPITESWARM HIVE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiteswarm\nCrit (2 Hits)\t18\"\t5\t4+\t3+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiteswarm\nCrit (2 Hits)\t\t10\t4+\t3+\t1\t1\n\tYour Shooting Phase\t\t\nANGER THE HIVE: As enemies draw closer to the hive, the spites attack with heightened ferocity to protect their home.\n\n\n\nEffect: If this MANIFESTATION was not set up this turn, add 10 to the Attacks characteristic of this MANIFESTATION’s ranged weapons for the rest of the phase, but all of the shooting attacks it makes this phase must target an enemy unit within 9\" of it.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n8\"\n8\n4+\n7+\n6+\nAlso known as the Drifting Death or the Creeping Willow, the Vengeful Skullroot is a manifestation of a forest’s fury. Black-hearted and hateful, these arcane plants can be summoned by Sylvaneth versed in magic. As the tree stalks across the battlefield, its tentacle-like roots bludgeon, crush and strangle all they pass over.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiteswarm\nCrit (2 Hits)\t18\"\t5\t4+\t3+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpiteswarm\nCrit (2 Hits)\t\t10\t4+\t3+\t1\t1\n\tYour Shooting Phase\t\t\nANGER THE HIVE: As enemies draw closer to the hive, the spites attack with heightened ferocity to protect their home.\n\n\n\nEffect: If this MANIFESTATION was not set up this turn, add 10 to the Attacks characteristic of this MANIFESTATION’s ranged weapons for the rest of the phase, but all of the shooting attacks it makes this phase must target an enemy unit within 9\" of it.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, SYLVANETH\n\n\n\n\t\t\n\t\n8\"\n8\n4+\n7+\n6+\nAlso known as the Drifting Death or the Creeping Willow, the Vengeful Skullroot is a manifestation of a forest’s fury. Black-hearted and hateful, these arcane plants can be summoned by Sylvaneth versed in magic. As the tree stalks across the battlefield, its tentacle-like roots bludgeon, crush and strangle all they pass over.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Spiteswarm Crit (2 Hits)",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Spiteswarm Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "10",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nORDER, SYLVANETH",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "SYLVANETH"
+      ]
+    }
+  ]
+}

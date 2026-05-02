@@ -1,0 +1,2092 @@
+{
+  "faction": "gloomspite gitz",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "DROGGZ DA SUNCHOMPA",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nDROGGZ DA SUNCHOMPA\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDa Metal Toof\nCrit (Mortal)\t5\t3+\t4+\t1\t2\n\tJaggedsnarl’s Jaws\nCompanion\t4\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Top Dog, 0-1 MOONCLAN, 0-1 TROGGOTH, Any GITMOB\n\n\n\tPassive\t\t\nDA FRAZZLEFANGZ: Glareface Frazzlegit’s reflected gaze angrily beams out from Droggz’s flashy back-banner, blinding nearby enemies so he can crack their skulls while they can’t see.\n\n\n\nEffect: While an enemy unit is within 6\" of this unit:\n\nSubtract 1 from hit rolls for that enemy unit’s attacks.\nThat enemy unit cannot use the ‘All-out Attack’ command.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for a unit wholly within 9\" of this unit\t\t\nTIME TA SCARPER: Droggz knows exactly when to get his gitz out of a sticky situation so that they can come back for ‘anuvver go’ once the odds are in their favour again.\n\n\n\nEffect: Roll a dice. On a 4+, the unit using that FIGHT ability can move 2D6\" after that FIGHT ability has been resolved. It can move through the combat ranges of any enemy units but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for this unit\t\t\nRIP ’EM TA BITS: Whether inspired by the Grand Snarlboss’s cruel example or just worried what will happen if they don’t follow suit, the Gitmobs join Droggz in tearing into the foe.\n\n\n\nEffect: Pick a friendly GITMOB unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.\n\n\nKEYWORDS\n\tUNIQUE, HERO, CAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\nD6+6\"\n6\n5+\n5\nMany Loonbosses take squigs as mounts or pets and have their choice of prime specimens, among them the Giant Cave Squigs. Such bossgrots are often found at the head of a Squigalanche, and while it might be an exaggeration to say that they intentionally ‘lead’ their fellows anywhere, their force of personality is enough to draw squig-mounted gitz to their side from miles around.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDa Metal Toof\nCrit (Mortal)\t5\t3+\t4+\t1\t2\n\tJaggedsnarl’s Jaws\nCompanion\t4\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Top Dog, 0-1 MOONCLAN, 0-1 TROGGOTH, Any GITMOB",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "60mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Top Dog, 0-1 MOONCLAN, 0-1 TROGGOTH, Any GITMOB"
+      },
+      "abilities_text": "Passive\t\t\nDA FRAZZLEFANGZ: Glareface Frazzlegit’s reflected gaze angrily beams out from Droggz’s flashy back-banner, blinding nearby enemies so he can crack their skulls while they can’t see.\n\n\n\nEffect: While an enemy unit is within 6\" of this unit:\n\nSubtract 1 from hit rolls for that enemy unit’s attacks.\nThat enemy unit cannot use the ‘All-out Attack’ command.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for a unit wholly within 9\" of this unit\t\t\nTIME TA SCARPER: Droggz knows exactly when to get his gitz out of a sticky situation so that they can come back for ‘anuvver go’ once the odds are in their favour again.\n\n\n\nEffect: Roll a dice. On a 4+, the unit using that FIGHT ability can move 2D6\" after that FIGHT ability has been resolved. It can move through the combat ranges of any enemy units but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for this unit\t\t\nRIP ’EM TA BITS: Whether inspired by the Grand Snarlboss’s cruel example or just worried what will happen if they don’t follow suit, the Gitmobs join Droggz in tearing into the foe.\n\n\n\nEffect: Pick a friendly GITMOB unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.",
+      "abilities": [
+        {
+          "name": "DA FRAZZLEFANGZ",
+          "type": "Passive",
+          "description": "Glareface Frazzlegit’s reflected gaze angrily beams out from Droggz’s flashy back-banner, blinding nearby enemies so he can crack their skulls while they can’t see.\nEffect: While an enemy unit is within 6\" of this unit:\nSubtract 1 from hit rolls for that enemy unit’s attacks.\nThat enemy unit cannot use the ‘All-out Attack’ command."
+        },
+        {
+          "name": "TIME TA SCARPER",
+          "type": "Reaction",
+          "description": "Droggz knows exactly when to get his gitz out of a sticky situation so that they can come back for ‘anuvver go’ once the odds are in their favour again.\nEffect: Roll a dice. On a 4+, the unit using that FIGHT ability can move 2D6\" after that FIGHT ability has been resolved. It can move through the combat ranges of any enemy units but cannot end that move in combat."
+        },
+        {
+          "name": "EM TA BITS",
+          "type": "Reaction",
+          "description": "Whether inspired by the Grand Snarlboss’s cruel example or just worried what will happen if they don’t follow suit, the Gitmobs join Droggz in tearing into the foe.\nEffect: Pick a friendly GITMOB unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Da Metal Toof Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Jaggedsnarl’s Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "UNIQUE, HERO, CAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\nD6+6\"\n6\n5+\n5\nMany Loonbosses take squigs as mounts or pets and have their choice of prime specimens, among them the Giant Cave Squigs. Such bossgrots are often found at the head of a Squigalanche, and while it might be an exaggeration to say that they intentionally ‘lead’ their fellows anywhere, their force of personality is enough to draw squig-mounted gitz to their side from miles around.",
+      "keywords": [
+        "UNIQUE",
+        "HERO",
+        "CAVALRY",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "LOONBOSS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nLOONBOSS\nON GIANT CAVE SQUIG\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoon-cutta or Loonboss Stabba\nCharge (+1 Damage)\t5\t4+\t4+\t1\t2\n\tMassive Fang-filled Gob\nCompanion\t4\t4+\t3+\t2\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 80\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nLET’S GET BOUNCIN’!: As their Giant Cave Squig leaps and bounds towards the enemy lines, the Loonboss signals the command for other squig-riders to join the fight and get stabbin’!\n\n\n\nEffect: Pick a friendly non-HERO MOONCLAN CAVALRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.\n\n\nKEYWORDS\n\tHERO, CAVALRY, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\n\n\n\n\t\t\n\t\n12\"\n5\n5+\n2\nSnarlbosses are the leaders of the Gitmobs. They prove their right to lead by somehow convincing an Alpha Snarlfang to carry them into battle – usually by demonstrating that they are much sneakier and meaner than their prospective mount. Doing so also means that the other Snarlfangs of their pack will follow their lead as they run rings around the enemy, filling them full of arrows before dashing in to finish the job when the smell of weakness is in the air.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMoon-cutta or Loonboss Stabba\nCharge (+1 Damage)\t5\t4+\t4+\t1\t2\n\tMassive Fang-filled Gob\nCompanion\t4\t4+\t3+\t2\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 80\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.",
+      "stats": {
+        "unit_size": "1",
+        "points": "80",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Moonclan Agitator, Any MOONCLAN",
+        "notes": "This HERO can join an eligible regiment as a Moonclan Agitator."
+      },
+      "abilities_text": "Reaction: You declared a FIGHT ability for this unit\t\t\nLET’S GET BOUNCIN’!: As their Giant Cave Squig leaps and bounds towards the enemy lines, the Loonboss signals the command for other squig-riders to join the fight and get stabbin’!\n\n\n\nEffect: Pick a friendly non-HERO MOONCLAN CAVALRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.",
+      "abilities": [
+        {
+          "name": "Reaction",
+          "type": "Reaction",
+          "description": "You declared a FIGHT ability for this unit\t\t\nLET’S GET BOUNCIN’!: As their Giant Cave Squig leaps and bounds towards the enemy lines, the Loonboss signals the command for other squig-riders to join the fight and get stabbin’!\nEffect: Pick a friendly non-HERO MOONCLAN CAVALRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Moon-cutta or Loonboss Stabba Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Massive Fang-filled Gob",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, CAVALRY, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN",
+      "keywords": [
+        "HERO",
+        "CAVALRY",
+        "FLY",
+        "SQUIG",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SNARLBOSS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSNARLBOSS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBoss Loppa\t5\t4+\t4+\t1\t2\n\tSnarlfang’s Slavering Jaws\nCompanion\t2\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: Use model\n\nCan be reinforced: No\nRegiment Options: Any GITMOB\nNotes: This HERO can join an eligible regiment as a Top Dog.\n\n\n\tPassive\t\t\nBOSS SNARLFANG: Like their riders, Snarlfangs follow the lead of the strongest and meanest of their number. When their Alpha scents prey, the grots can do little to restrain their loping chase.\n\n\n\nEffect: Add 2 to charge rolls for friendly GITMOB CAVALRY units while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nVICIOUS SNARLS AND GREAT HOWLS: The lupine language of the Snarlfang Alpha drives their pack into a frenzy.\n\n\n\nDeclare: If this unit charged this turn, pick this unit and up to 2 friendly GITMOB CAVALRY units within this unit’s combat range to be the targets.\n\nEffect: For the rest of the turn, add 1 to the Attacks characteristic of the targets’ Companion melee weapons.\n\n\nKEYWORDS\n\tHERO, CAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\nInfantry Hero\n\n\n\t\t\n\t\n5\"\n5\n6+\n2\nCave-Shamans fuel their magic with the Deffcap, a highly hallucinogenic mushroom that grows inside the shaman until it bursts out of their cranium. As the willing host of such a fungus, they are capable of casting far more potent spells, for the mushroom appears to draw power from the Bad Moon itself.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBoss Loppa\t5\t4+\t4+\t1\t2\n\tSnarlfang’s Slavering Jaws\nCompanion\t2\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: Use model\n\nCan be reinforced: No\nRegiment Options: Any GITMOB\nNotes: This HERO can join an eligible regiment as a Top Dog.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "Use model",
+        "reinforced": "No",
+        "regiment_options": "Any GITMOB",
+        "notes": "This HERO can join an eligible regiment as a Top Dog."
+      },
+      "abilities_text": "Passive\t\t\nBOSS SNARLFANG: Like their riders, Snarlfangs follow the lead of the strongest and meanest of their number. When their Alpha scents prey, the grots can do little to restrain their loping chase.\n\n\n\nEffect: Add 2 to charge rolls for friendly GITMOB CAVALRY units while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nVICIOUS SNARLS AND GREAT HOWLS: The lupine language of the Snarlfang Alpha drives their pack into a frenzy.\n\n\n\nDeclare: If this unit charged this turn, pick this unit and up to 2 friendly GITMOB CAVALRY units within this unit’s combat range to be the targets.\n\nEffect: For the rest of the turn, add 1 to the Attacks characteristic of the targets’ Companion melee weapons.",
+      "abilities": [
+        {
+          "name": "BOSS SNARLFANG",
+          "type": "Passive",
+          "description": "Like their riders, Snarlfangs follow the lead of the strongest and meanest of their number. When their Alpha scents prey, the grots can do little to restrain their loping chase.\nEffect: Add 2 to charge rolls for friendly GITMOB CAVALRY units while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "VICIOUS SNARLS AND GREAT HOWLS",
+          "type": "Once Per Turn",
+          "description": "The lupine language of the Snarlfang Alpha drives their pack into a frenzy.\nDeclare: If this unit charged this turn, pick this unit and up to 2 friendly GITMOB CAVALRY units within this unit’s combat range to be the targets.\nEffect: For the rest of the turn, add 1 to the Attacks characteristic of the targets’ Companion melee weapons."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Boss Loppa",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Snarlfang’s Slavering Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, CAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\nInfantry Hero",
+      "keywords": [
+        "HERO",
+        "CAVALRY",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "FUNGOID CAVE-SHAMAN",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nFUNGOID CAVE-SHAMAN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoon-sickle\t3\t4+\t4+\t1\t2\n\tSpore Squig’s Vicious Teeth\nCompanion\t2\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nDEFFCAP MUSHROOM: The Fungoid Cave-Shamans claim that eating Deffcaps allows them to commune with those who have passed on to the ‘Great Green’. Though such is debatable, the mushroom’s effect on the shaman’s spellcasting abilities is beyond doubt.\n\n\n\nEffect: Add 1 to this unit’s power level for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\nLoonbosses are the warlords of the Moonclan skraps. They relish a fight, and the weapons they wield are laden with so many spiteful enchantments that they can carve clean through steel plate. However, Loonbosses never fight fair. Ducking and weaving around their enemies, they hurl mobs of cackling grots at them to wear them down before finishing them off with a slice to the throat or a blow between the shoulder blades.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMoon-sickle\t3\t4+\t4+\t1\t2\n\tSpore Squig’s Vicious Teeth\nCompanion\t2\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Moonclan Agitator, Any MOONCLAN"
+      },
+      "abilities_text": "Once Per Battle, Your Hero Phase\t\t\nDEFFCAP MUSHROOM: The Fungoid Cave-Shamans claim that eating Deffcaps allows them to commune with those who have passed on to the ‘Great Green’. Though such is debatable, the mushroom’s effect on the shaman’s spellcasting abilities is beyond doubt.\n\n\n\nEffect: Add 1 to this unit’s power level for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "DEFFCAP MUSHROOM",
+          "type": "Once Per Battle",
+          "description": "The Fungoid Cave-Shamans claim that eating Deffcaps allows them to commune with those who have passed on to the ‘Great Green’. Though such is debatable, the mushroom’s effect on the shaman’s spellcasting abilities is beyond doubt.\nEffect: Add 1 to this unit’s power level for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Moon-sickle",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Spore Squig’s Vicious Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "RABBLE-ROWZA",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nRABBLE-ROWZA\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBat Squigs\nCrit (Auto-wound)\t12\"\t3\t4+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoon-sickle and Basha\t\t5\t4+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 MONSTER, Any MOONCLAN INFANTRY\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.\n\n\n\tDeployment Phase\t\t\nSECRET TUNNELS: Rabble-Rowzas have a knack for locating hidden passages through the depths.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve in a secret tunnel. It has now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tYour Movement Phase\t\t\nEMERGE FROM THE DEPTHS: The Rabble-Rowza emerges from a little-known tunnel network beneath the battlefield, ready to stir up trouble.\n\n\n\nDeclare: Pick this unit if it is in a secret tunnel.\n\nEffect: Set up this unit anywhere on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\n’NEH NEH NA-NEH NEH! CAN’T CATCH ME!’: With an infuriating taunt, the Rabble-Rowza riles up a lumbering beast, sending it into a blood-mad frenzy. A cunning trick, as long as the Rabble-Rowza isn’t close enough to get caught!\n\n\n\nDeclare: Pick a visible friendly MONSTER or BEAST unit to be the target.\n\nEffect: For the rest of the turn, the target can use CHARGE abilities even if it used a RUN ability in the same turn, but each time it uses a MOVE ability, it must end the move closer to this unit. In addition, for the rest of the turn, the first time the target ends a move within this unit’s combat range, inflict D6 mortal damage on this unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n5\"\n6\n6+\n2\n4+\nSkragrott carved his way into history when he defeated the orruks of Ayadah at the head of hundreds of thousands of grots. He attributes his success to the Bad Moon, which he claims once spoke to him as he slept. When Skragrott awoke, a fungal crown was deeply rooted upon his brow, and a stave capped with a Badloon Bossfungus lay at his side. This was seen as proof by all the Moonclans of his right to rule and a conduit through which he could channel their sinister god’s power.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tBat Squigs\nCrit (Auto-wound)\t12\"\t3\t4+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMoon-sickle and Basha\t\t5\t4+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 MONSTER, Any MOONCLAN INFANTRY\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.\n\n\n\tDeployment Phase\t\t\nSECRET TUNNELS: Rabble-Rowzas have a knack for locating hidden passages through the depths.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve in a secret tunnel. It has now been deployed.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 MONSTER, Any MOONCLAN INFANTRY"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Bat Squigs Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Moon-sickle and Basha",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SKRAGROTT",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSKRAGROTT\nTHE LOONKING\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDa Moon Onna Stikk\t4\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 200\nBase size: 60 × 35mm\n\nCan be reinforced: No\nRegiment Options: Any GLOOMSPITE GITZ, 0-1 Moonclan Agitator, 0-1 Top Dog\n\n\n\tOnce Per Battle (Army), Reaction: You declared the ‘The Faces of the Bad Moon’ ability\t\t\nTHE LOONKING’S ENTREATY: The captive seers and prophets of Skragrott’s asylum can sometimes predict when the Bad Moon will accelerate or slow in its erratic orbits of the Mortal Realms. Skragrott uses this information to convince his followers that the Bad Moon listens when he entreats it to halt or move to a specific location.\n\n\n\nEffect: The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence.\n\n\n\tYour Hero Phase\t\t\n7\nFANGZ OF DA BAD MOON: As Skragrott tells it, a single shrieked invocation from him – arms raised high into the air – can compel the Bad Moon to belch a rain of fiendishly accurate loonstone fangz over the enemy.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Roll a number of dice equal to the unmodified casting roll. For each 3+, inflict 1 mortal damage on the target.\nKEYWORDS\tSPELL\n\n\n\tReaction: You declared the ‘Redeploy’ command for a friendly MOONCLAN unit wholly within 12\" of this unit\t\t\nBABBLING WAND: This jabbering wand, said to be topped with the skull of the great prophet Kaloth, channels the voices of Skragrott’s imprisoned scryers through clacking teeth.\n\n\n\nEffect: Each time a friendly MOONCLAN unit wholly within 12\" of this unit uses the ‘Redeploy’ command, no command points are spent.\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, WIZARD (2), INFANTRY, WARD (4+)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n5\"\n4\n6+\n2\nSquigbosses command their fungal herds through the offering of prized mushrooms and occasional jabbings from their squig-krooks. Most are accompanied by loyal Gnasha-squigs, who gleefully chomp at anything that gets too close.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDa Moon Onna Stikk\t4\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 200\nBase size: 60 × 35mm\n\nCan be reinforced: No\nRegiment Options: Any GLOOMSPITE GITZ, 0-1 Moonclan Agitator, 0-1 Top Dog",
+      "stats": {
+        "unit_size": "1",
+        "points": "200",
+        "base_size": "60 × 35mm",
+        "reinforced": "No",
+        "regiment_options": "Any GLOOMSPITE GITZ, 0-1 Moonclan Agitator, 0-1 Top Dog"
+      },
+      "abilities_text": "Once Per Battle (Army), Reaction: You declared the ‘The Faces of the Bad Moon’ ability\t\t\nTHE LOONKING’S ENTREATY: The captive seers and prophets of Skragrott’s asylum can sometimes predict when the Bad Moon will accelerate or slow in its erratic orbits of the Mortal Realms. Skragrott uses this information to convince his followers that the Bad Moon listens when he entreats it to halt or move to a specific location.\n\n\n\nEffect: The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence.\n\n\n\tYour Hero Phase\t\t\n7\nFANGZ OF DA BAD MOON: As Skragrott tells it, a single shrieked invocation from him – arms raised high into the air – can compel the Bad Moon to belch a rain of fiendishly accurate loonstone fangz over the enemy.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Roll a number of dice equal to the unmodified casting roll. For each 3+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "S ENTREATY",
+          "type": "Reaction",
+          "description": "The captive seers and prophets of Skragrott’s asylum can sometimes predict when the Bad Moon will accelerate or slow in its erratic orbits of the Mortal Realms. Skragrott uses this information to convince his followers that the Bad Moon listens when he entreats it to halt or move to a specific location.\nEffect: The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence."
+        },
+        {
+          "name": "FANGZ OF DA BAD MOON",
+          "type": "Other",
+          "description": "As Skragrott tells it, a single shrieked invocation from him – arms raised high into the air – can compel the Bad Moon to belch a rain of fiendishly accurate loonstone fangz over the enemy.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Roll a number of dice equal to the unmodified casting roll. For each 3+, inflict 1 mortal damage on the target.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Da Moon Onna Stikk",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SQUIGBOSS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSQUIGBOSS\nWITH GNASHA-SQUIG\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSquig-krook\t5\t4+\t4+\t-\t2\n\tFang-filled Gob\nCompanion\t2\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nFEEDIN’ TIME: Squigbosses possess a deep knowledge of all types of fungi and bring the most potent kinds into battle to feed to their squigs.\n\n\n\nDeclare: Pick a friendly SQUIG unit within this unit’s combat range to be the target.\n\nEffect: Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nCrimson Deffcap: Add 3\" to the target’s Move characteristic.\n\nYellow Lurka: The target’s Fang-filled Gobs, Huge Fang-filled Gobs or Massive Fang-filled Gobs have Crit (Mortal).\n\n\nKEYWORDS\n\tHERO, INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\n\n\n\n\t\t\n\t\n6\"\n4\n6+\n2\n6+\nVeins thick with venom, Webspinner Shamans live in vivid waking visions through which they interpret the Spider God’s will. They are blessed by their arachnid deity, protected and sorcerously empowered by its sinister touch.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSquig-krook\t5\t4+\t4+\t-\t2\n\tFang-filled Gob\nCompanion\t2\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Moonclan Agitator, Any MOONCLAN\nNotes: This HERO can join an eligible regiment as a Moonclan Agitator.",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Moonclan Agitator, Any MOONCLAN",
+        "notes": "This HERO can join an eligible regiment as a Moonclan Agitator."
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nFEEDIN’ TIME: Squigbosses possess a deep knowledge of all types of fungi and bring the most potent kinds into battle to feed to their squigs.\n\n\n\nDeclare: Pick a friendly SQUIG unit within this unit’s combat range to be the target.\n\nEffect: Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n\nCrimson Deffcap: Add 3\" to the target’s Move characteristic.\n\nYellow Lurka: The target’s Fang-filled Gobs, Huge Fang-filled Gobs or Massive Fang-filled Gobs have Crit (Mortal).",
+      "abilities": [
+        {
+          "name": "FEEDIN’ TIME",
+          "type": "Once Per Turn",
+          "description": "Squigbosses possess a deep knowledge of all types of fungi and bring the most potent kinds into battle to feed to their squigs.\nDeclare: Pick a friendly SQUIG unit within this unit’s combat range to be the target.\nEffect: Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\nCrimson Deffcap: Add 3\" to the target’s Move characteristic.\nYellow Lurka: The target’s Fang-filled Gobs, Huge Fang-filled Gobs or Massive Fang-filled Gobs have Crit (Mortal)."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Squig-krook",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Fang-filled Gob",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "SQUIG",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "WEBSPINNER SHAMAN",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nWEBSPINNER SHAMAN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpider God Staff\nCrit (Mortal)\t3\t4+\t5+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 25mm\n\nCan be reinforced: No\nRegiment Options: Any SPIDERFANG\n\n\n\tYour Hero Phase\t\t\n6\nSPEED OF THE SPIDER GOD: With a shriek, the shaman calls upon the Spider God to imbue its worshippers with preternatural speed.\n\n\n\nDeclare: Pick a visible friendly SPIDERFANG unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: The target can use a RUN ability this turn and still use SHOOT and/or CHARGE abilities later in the turn.\nKEYWORDS\tSPELL\n\n\n\tYour Hero Phase\t\t\nWEB SLINGSHOT: The Webspinner Shaman conjures a sheet of webbing that they then use to launch themselves across the battlefield.\n\n\n\nDeclare: Pick a friendly SPIDERFANG unit or terrain feature within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ, SPIDERFANG\nMonster Hero\n\n\n\t\t\n\t\n6\"\n12\n4+\n5\nDankhold Troggbosses are ancient creatures that sometimes wake from their subterranean slumbers and go on the rampage. Though potent forces of destruction in their own right, Troggbosses also inspire any lesser troggoths fighting in their shadow.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpider God Staff\nCrit (Mortal)\t3\t4+\t5+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 25mm\n\nCan be reinforced: No\nRegiment Options: Any SPIDERFANG",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "25mm",
+        "reinforced": "No",
+        "regiment_options": "Any SPIDERFANG"
+      },
+      "abilities_text": "Your Hero Phase\t\t\n6\nSPEED OF THE SPIDER GOD: With a shriek, the shaman calls upon the Spider God to imbue its worshippers with preternatural speed.\n\n\n\nDeclare: Pick a visible friendly SPIDERFANG unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: The target can use a RUN ability this turn and still use SHOOT and/or CHARGE abilities later in the turn.",
+      "abilities": [
+        {
+          "name": "SPEED OF THE SPIDER GOD",
+          "type": "Other",
+          "description": "With a shriek, the shaman calls upon the Spider God to imbue its worshippers with preternatural speed.\nDeclare: Pick a visible friendly SPIDERFANG unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: The target can use a RUN ability this turn and still use SHOOT and/or CHARGE abilities later in the turn.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spider God Staff Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "DANKHOLD TROGGBOSS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nDANKHOLD TROGGBOSS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBoulder Club\t5\t4+\t2+\t2\tD6\nBATTLE PROFILE\nUnit Size: 1      Points: 220\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: Any TROGGOTH\nNotes: This HERO can join Trugg’s regiment.\n\n\n\tStart of Any Turn\t\t\nGREATER REGENERATION: As it gets to eat all the best mushrooms, a Troggboss’s regenerative capacity is more pronounced than that of the average troggoth.\n\n\n\nEffect: Heal (D6) this unit.\n\n\n\tReaction: Opponent declared a SPELL ability\t\t\nMAGICAL RESISTANCE: The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\n\n\n\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSHEPHERD OF DESTRUCTION: The Dankhold Troggboss bellows so loudly that the beasts of its herd come dangerously close to actually focusing their brutish efforts.\n\n\n\nEffect: Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tHERO, MONSTER\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH\n\n\n\n\t\t\n\t\n10\"\n18\n4+\n15\n5+\nA roaring, trampling god of earthquakes and wanton destruction, Kragnos is known as the End of Empires. Already a natural disaster made manifest, his rampages are further augmented by his legendary armaments. The shield Tuskbreaker is said to have been cast aside by Gorkamorka himself; the spells of enemy mages break instantly upon its surface, supposedly due to the residual divine essence that suffuses it. The Dread Mace, Kragnos’s massive studded club, is powerful enough to shatter walls of solid rock. Legends say that he retrieved the weapon’s head from an ancient geomantic nexus, and that it is infused with Ghur’s own destructive animus.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBoulder Club\t5\t4+\t2+\t2\tD6",
+      "battle_profile_text": "Unit Size: 1      Points: 220\nBase size: 60mm\n\nCan be reinforced: No\nRegiment Options: Any TROGGOTH\nNotes: This HERO can join Trugg’s regiment.\n\n\n\tStart of Any Turn\t\t\nGREATER REGENERATION: As it gets to eat all the best mushrooms, a Troggboss’s regenerative capacity is more pronounced than that of the average troggoth.\n\n\n\nEffect: Heal (D6) this unit.",
+      "stats": {
+        "unit_size": "1",
+        "points": "220",
+        "base_size": "60mm",
+        "reinforced": "No",
+        "regiment_options": "Any TROGGOTH"
+      },
+      "abilities_text": "Reaction: Opponent declared a SPELL ability\t\t\nMAGICAL RESISTANCE: The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\n\n\n\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSHEPHERD OF DESTRUCTION: The Dankhold Troggboss bellows so loudly that the beasts of its herd come dangerously close to actually focusing their brutish efforts.\n\n\n\nEffect: Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.",
+      "abilities": [
+        {
+          "name": "MAGICAL RESISTANCE",
+          "type": "Reaction",
+          "description": "The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
+        },
+        {
+          "name": "SHEPHERD OF DESTRUCTION",
+          "type": "Once Per Turn",
+          "description": "The Dankhold Troggboss bellows so loudly that the beasts of its herd come dangerously close to actually focusing their brutish efforts.\nEffect: Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Boulder Club",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "KRAGNOS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nKRAGNOS\nTHE END OF EMPIRES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tThe Dread Mace\t6\t3+\t2+\t3\t4\n\tTuskbreaker\nCrit (2 Hits)\t3\t4+\t2+\t2\tD3\n\tHooves of Wrack and Ruin\t6\t3+\t2+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 580\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any GLOOMSPITE GITZ, 0-1 Top Dog, 0-1 Moonclan Agitator\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nRAMPAGING DESTRUCTION: Kragnos rampages through the press of his foes, his hooves flattening all in his path.\n\n\n\nEffect: If this unit charged this phase, pick 1 of the following effects:\n\nRoll a dice for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nPick an enemy MONSTER in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).\nKEYWORDS\tRAMPAGE\n\n\n\tYour Charge Phase\t\t\nTHE END OF EMPIRES: Where Kragnos goes, the hordes of Destruction follow.\n\n\n\nEffect: For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly DESTRUCTION units while they are wholly within 12\" of this unit, to a maximum of 3.\n\n\n\tReaction: Opponent declared a SPELL ability\t\t\nTHE SHIELD INVIOLATE: Tuskbreaker has the power to guard Kragnos against even the most potent magical force.\n\n\n\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per SPELL ability.\n\n\n\tPassive\t\t\nAVATAR OF DESTRUCTION: Kragnos is the embodiment of Ghur’s relentless ferocity. No single strike can lay him low.\n\n\n\nEffect: If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WARD (5+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\nD6+8\"\n14\n5+\n5\nIt takes a particularly deranged loon to lead the charge whilst clinging on to a pair of giant squigs, but some Loonbosses – along with their most bonkers cronies – are only too eager to do so. Mangler Squigs are living wrecking balls, and though only the most tenacious grots could hope to survive the ride, those who succeed revel in the spectacular violence they inflict as they crash into the melee, cackling in wicked glee as severed body parts, arcs of gore and screaming victims fly through the air all around them.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tThe Dread Mace\t6\t3+\t2+\t3\t4\n\tTuskbreaker\nCrit (2 Hits)\t3\t4+\t2+\t2\tD3\n\tHooves of Wrack and Ruin\t6\t3+\t2+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 580\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: Any GLOOMSPITE GITZ, 0-1 Top Dog, 0-1 Moonclan Agitator",
+      "stats": {
+        "unit_size": "1",
+        "points": "580",
+        "base_size": "130mm",
+        "reinforced": "No",
+        "regiment_options": "Any GLOOMSPITE GITZ, 0-1 Top Dog, 0-1 Moonclan Agitator"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nRAMPAGING DESTRUCTION: Kragnos rampages through the press of his foes, his hooves flattening all in his path.\n\n\n\nEffect: If this unit charged this phase, pick 1 of the following effects:\n\nRoll a dice for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nPick an enemy MONSTER in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10."
+        },
+        {
+          "name": "Any Charge Phase RAMPAGING DESTRUCTION",
+          "type": "Once Per Turn",
+          "description": "Kragnos rampages through the press of his foes, his hooves flattening all in his path.\nEffect: If this unit charged this phase, pick 1 of the following effects:\nRoll a dice for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nPick an enemy MONSTER in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6)."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "The Dread Mace",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "3",
+          "damage": "4",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Tuskbreaker Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Hooves of Wrack and Ruin",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "TRUGG",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nTRUGG\nTHE TROGGOTH KING\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tIronshell Club\t4\t3+\t2+\t3\t4\n\tMighty Antlers\t2\t4+\t2+\t2\tD3+3\nBATTLE PROFILE\nUnit Size: 1      Points: 360\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Dankhold Troggboss, Any GLOOMSPITE GITZ\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, when it uses the ‘Malfunctioning Leystone’ ability, roll 1 dice instead of 3.\n\n\n\tYour Hero Phase\t\t\nMALFUNCTIONING LEYSTONE: Trugg can unwittingly channel powerful magic through the contraption on his back.\n\n\n\nEffect: Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n\n2 - Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n3 - Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n4 - Glyph of Hysh: This unit can use UNBIND abilities as if it had WIZARD (1).\n\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n6 - Glyph of Chamon: This unit has WARD (5+).\n\n\n\tStart of Any Turn\t\t\nGREATER REGENERATION: After centuries spent bathing in the focused healing energies of Ghyran, Trugg is almost impossible to kill, even by troggoth standards.\n\n\n\nEffect: Heal (D6) this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nCRUSHING GRIP: The vice-like grasp of Trugg can squeeze the life out of all but the largest opponent.\n\n\n\nDeclare: Pick an enemy unit within 1\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH\n\n\n\n\t\t\n\t\n10\"\n16\n4+\n5\nEspecially old and malevolent Arachnarok Spiders often bear a Webspinner Shaman and their mob of hangers-on into battle. The shaman draws power from their howdah’s catchweb spidershrine to boost their ability to weave spells.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tIronshell Club\t4\t3+\t2+\t3\t4\n\tMighty Antlers\t2\t4+\t2+\t2\tD3+3",
+      "battle_profile_text": "Unit Size: 1      Points: 360\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Dankhold Troggboss, Any GLOOMSPITE GITZ",
+      "stats": {
+        "unit_size": "1",
+        "points": "360",
+        "base_size": "100mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Dankhold Troggboss, Any GLOOMSPITE GITZ"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, when it uses the ‘Malfunctioning Leystone’ ability, roll 1 dice instead of 3.\n\n\n\tYour Hero Phase\t\t\nMALFUNCTIONING LEYSTONE: Trugg can unwittingly channel powerful magic through the contraption on his back.\n\n\n\nEffect: Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n\n2 - Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n3 - Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n4 - Glyph of Hysh: This unit can use UNBIND abilities as if it had WIZARD (1).\n\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly TROGGOTH units while they are wholly within 12\" of this unit.\n\n6 - Glyph of Chamon: This unit has WARD (5+).\n\n\n\tStart of Any Turn\t\t\nGREATER REGENERATION: After centuries spent bathing in the focused healing energies of Ghyran, Trugg is almost impossible to kill, even by troggoth standards.\n\n\n\nEffect: Heal (D6) this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nCRUSHING GRIP: The vice-like grasp of Trugg can squeeze the life out of all but the largest opponent.\n\n\n\nDeclare: Pick an enemy unit within 1\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, when it uses the ‘Malfunctioning Leystone’ ability, roll 1 dice instead of 3."
+        },
+        {
+          "name": "MALFUNCTIONING LEYSTONE",
+          "type": "Other",
+          "description": "Trugg can unwittingly channel powerful magic through the contraption on his back.\nEffect: Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n1 - Glyph of Shyish: Inflict D3 mortal damage on this unit.\n2 - Glyph of Ghur: Add 1 to the Attacks characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n3 - Glyph of Aqshy: Add 1 to the Rend characteristic of melee weapons used by friendly TROGGOTH units while they are wholly within 12\" of this unit.\n4 - Glyph of Hysh: This unit can use UNBIND abilities as if it had WIZARD (1).\n5 - Glyph of Ulgu: Subtract 1 from hit rolls for shooting attacks that target friendly TROGGOTH units while they are wholly within 12\" of this unit.\n6 - Glyph of Chamon: This unit has WARD (5+).\n\tStart of Any Turn\t\t\nGREATER REGENERATION: After centuries spent bathing in the focused healing energies of Ghyran, Trugg is almost impossible to kill, even by troggoth standards.\nEffect: Heal (D6) this unit.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "CRUSHING GRIP",
+          "type": "Once Per Turn",
+          "description": "The vice-like grasp of Trugg can squeeze the life out of all but the largest opponent.\nDeclare: Pick an enemy unit within 1\" of this unit to be the target.\nEffect: Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ironshell Club",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "3",
+          "damage": "4",
+          "abilities": null
+        },
+        {
+          "name": "Mighty Antlers",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "FRAZZLEGIT SHAMAN",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nFRAZZLEGIT SHAMAN\nON WAR-WHEELA\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tWheela Slicers\t3\t4+\t4+\t-\t1\n\tSnarlfang’s Frothing Jaws\nCompanion\t6\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: Any GITMOB\n\n\n\tPassive\t\t\nGIMME ALL DA LIGHT: As a Frazzlegit Shaman absorbs the ambient light around them, the surrounding area becomes dark and dank – perfect for the Gitmobs to hide in.\n\n\n\nEffect: Friendly GITMOB units that are not Frazzlegit Shamans on War-Wheelas cannot be targeted by shooting attacks while they are wholly within 6\" of this unit.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nFRAZZLEMIST: Snaking plumes of sparking, crackling smoke issue forth from the shaman’s staff, spiralling across the battlefield in search of lungs to scorch and eyes to burn.\n\n\n\nDeclare: Pick up to 3 visible enemy units within 9\" of this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n\nKEYWORDS\n\tHERO, WAR MACHINE, WIZARD (1)\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\n12\"\n9\n4+\n2\nThe Snarlbosses of the biggest Gitmobs prefer being carried on an ostentatious War-Wheela to riding on wolfback, allowing them to concentrate on bashing the heads of the enemy rather than steering. Though all Gitmob chariots are capable of inflicting horrendous damage on the charge, those of the Snarlbosses do so in style, their paths of destruction marked by scorchmarks left by the flames that jet from the jars fitted to the back of their ride.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWheela Slicers\t3\t4+\t4+\t-\t1\n\tSnarlfang’s Frothing Jaws\nCompanion\t6\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: Any GITMOB",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "120 × 92mm",
+        "reinforced": "No",
+        "regiment_options": "Any GITMOB"
+      },
+      "abilities_text": "Passive\t\t\nGIMME ALL DA LIGHT: As a Frazzlegit Shaman absorbs the ambient light around them, the surrounding area becomes dark and dank – perfect for the Gitmobs to hide in.\n\n\n\nEffect: Friendly GITMOB units that are not Frazzlegit Shamans on War-Wheelas cannot be targeted by shooting attacks while they are wholly within 6\" of this unit.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nFRAZZLEMIST: Snaking plumes of sparking, crackling smoke issue forth from the shaman’s staff, spiralling across the battlefield in search of lungs to scorch and eyes to burn.\n\n\n\nDeclare: Pick up to 3 visible enemy units within 9\" of this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "abilities": [
+        {
+          "name": "GIMME ALL DA LIGHT",
+          "type": "Passive",
+          "description": "As a Frazzlegit Shaman absorbs the ambient light around them, the surrounding area becomes dark and dank – perfect for the Gitmobs to hide in.\nEffect: Friendly GITMOB units that are not Frazzlegit Shamans on War-Wheelas cannot be targeted by shooting attacks while they are wholly within 6\" of this unit."
+        },
+        {
+          "name": "FRAZZLEMIST",
+          "type": "Once Per Turn",
+          "description": "Snaking plumes of sparking, crackling smoke issue forth from the shaman’s staff, spiralling across the battlefield in search of lungs to scorch and eyes to burn.\nDeclare: Pick up to 3 visible enemy units within 9\" of this unit to be the targets.\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Wheela Slicers",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Snarlfang’s Frothing Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WAR MACHINE, WIZARD (1)\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB",
+      "keywords": [
+        "HERO",
+        "WAR MACHINE",
+        "WIZARD (1)",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SQUIG HERD",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSQUIG HERD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1\n\tSquig Prodder\t2\t5+\t5+\t-\t1\nBATTLE PROFILE\nUnit Size: 12      Points: 100\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\nEach model in this unit is armed with a Fang-filled Gob.\n\n1/6 models is a Squig Herder and is armed with a Squig Prodder instead of a Fang-filled Gob.\n\n\n\tYour Hero Phase\t\t\nHERDING SQUIGS: While they have a thankless and frankly dangerous job, Squig Herders do their best to keep their frenzied squigs together as a rough pack.\n\n\n\nEffect: Roll a dice for each Squig Herder in this unit. For each 2+, you can return D3 slain Cave Squigs to this unit. For each 1, 1 Squig Herder in this unit is slain.\n\n\n\tPassive\t\t\nSQUIGS GONE WILD: Squigs don’t always know when they’re dead…\n\n\n\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\nKEYWORDS\n\tBEAST\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\nCavalry\n\n\n\t\t\n\t\nD6+6\"\n2\n5+\n1\nShould a squig rider actually survive a battle or two, it will immediately go to their head. Cladding themselves in crude armour complete with crescent-shaped helms, these swaggering show-offs form into elite mobs who refer to themselves as Boingrot Bounderz.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1\n\tSquig Prodder\t2\t5+\t5+\t-\t1",
+      "battle_profile_text": "Unit Size: 12      Points: 100\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\nEach model in this unit is armed with a Fang-filled Gob.\n\n1/6 models is a Squig Herder and is armed with a Squig Prodder instead of a Fang-filled Gob.",
+      "stats": {
+        "unit_size": "12",
+        "points": "100",
+        "base_size": "25mm"
+      },
+      "abilities_text": "Your Hero Phase\t\t\nHERDING SQUIGS: While they have a thankless and frankly dangerous job, Squig Herders do their best to keep their frenzied squigs together as a rough pack.\n\n\n\nEffect: Roll a dice for each Squig Herder in this unit. For each 2+, you can return D3 slain Cave Squigs to this unit. For each 1, 1 Squig Herder in this unit is slain.\n\n\n\tPassive\t\t\nSQUIGS GONE WILD: Squigs don’t always know when they’re dead…\n\n\n\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.",
+      "abilities": [
+        {
+          "name": "HERDING SQUIGS",
+          "type": "Other",
+          "description": "While they have a thankless and frankly dangerous job, Squig Herders do their best to keep their frenzied squigs together as a rough pack.\nEffect: Roll a dice for each Squig Herder in this unit. For each 2+, you can return D3 slain Cave Squigs to this unit. For each 1, 1 Squig Herder in this unit is slain.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "SQUIGS GONE WILD",
+          "type": "Passive",
+          "description": "Squigs don’t always know when they’re dead…\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved."
+        },
+        {
+          "name": "BEAST Effect",
+          "type": "Passive",
+          "description": "This unit has a maximum control score of 1."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fang-filled Gob",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Squig Prodder",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "BEAST\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\nCavalry\n\n\n\t\t\n\t\nD6+6\"\n2\n5+\n1\nShould a squig rider actually survive a battle or two, it will immediately go to their head. Cladding themselves in crude armour complete with crescent-shaped helms, these swaggering show-offs form into elite mobs who refer to themselves as Boingrot Bounderz.",
+      "keywords": [
+        "BEAST",
+        "SQUIG",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "BOINGROT BOUNDERZ",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nBOINGROT BOUNDERZ\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tPokin’ Lance\nCharge (+1 Damage)\t3\t4+\t4+\t1\t1\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tAny Charge Phase\t\t\nBOING! SMASH!: Mobs of Boingrot Bounderz smash into their enemies like toothy meteors.\n\n\n\nDeclare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.\n\nEffect: Roll a dice for each model in this unit. For each 4+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\n\n\n\n\t\t\n\t\n12\"\n2\n5+\n1\nThe riders of the Gitmobs move in packs, some crashing into the enemy lines with blinding momentum while others pick off choice targets on the flanks with arrows fired on the move. Their great manoeuvrability makes these grots and their Snarlfang allies nigh impossible to pin down.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tPokin’ Lance\nCharge (+1 Damage)\t3\t4+\t4+\t1\t1\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 120\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tAny Charge Phase\t\t\nBOING! SMASH!: Mobs of Boingrot Bounderz smash into their enemies like toothy meteors.\n\n\n\nDeclare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.\n\nEffect: Roll a dice for each model in this unit. For each 4+, inflict 1 mortal damage on the target.",
+      "stats": {
+        "unit_size": "5",
+        "points": "120",
+        "base_size": "32mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Pokin’ Lance Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Fang-filled Gob",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "SQUIG",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SNARLFANG RIDERS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSNARLFANG RIDERS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStabbin’ Stikka\t\t2\t4+\t5+\t-\t1\n\tSnarlfang’s Slavering Jaws\nCompanion\t\t2\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Enemy Movement Phase\t\t\nCAN’T CATCH US: Snarlfang Riders encircle the enemy, keeping their distance and filling their targets with arrows before they finally close in for the kill.\n\n\n\nEffect: If this unit is not in combat, this unit can move D6\". It cannot end that move in combat.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5)\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\n12\"\n3\n4+\n1\nGiant Snarlfangs are, as the name suggests, particularly large and impressive specimens of their kind. So big are they that a pair of grots can ride a single such beast into battle, each rider guarding one of their mount’s flanks with jabs from their ‘skewas’, freeing up the Snarlfang to tear into enemies directly in front at its leisure.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStabbin’ Stikka\t\t2\t4+\t5+\t-\t1\n\tSnarlfang’s Slavering Jaws\nCompanion\t\t2\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 60 × 35mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "60 × 35mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Enemy Movement Phase\t\t\nCAN’T CATCH US: Snarlfang Riders encircle the enemy, keeping their distance and filling their targets with arrows before they finally close in for the kill.\n\n\n\nEffect: If this unit is not in combat, this unit can move D6\". It cannot end that move in combat.",
+      "abilities": [
+        {
+          "name": "CAN’T CATCH US",
+          "type": "Once Per Turn",
+          "description": "Snarlfang Riders encircle the enemy, keeping their distance and filling their targets with arrows before they finally close in for the kill.\nEffect: If this unit is not in combat, this unit can move D6\". It cannot end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Grot Bow",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Stabbin’ Stikka",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Snarlfang’s Slavering Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5)\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SNARLPACK CAVALRY",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSNARLPACK CAVALRY\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tPointy Skewas\nCharge (+1 Damage)\t4\t4+\t5+\t-\t1\n\tGiant Snarlfang’s Jaws\nCompanion\t3\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 110\nBase size: 75 × 42mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nMARKIN’ TERRITORY: Giant Snarlfangs are extremely territorial and will ferociously attack trespassers on land marked with their scent.\n\n\n\nEffect: If this unit charged this turn, add 5 to its control score for the rest of the turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nFRAZZLEBURNED SCRAP: After the boss, Snarlpack Cavalry often get first dibs on loot, and they have an eye for the scrap and wotsits with the best light-absorbing properties. In battle, they have learned how to unleash these energies from their weapons at just the right moment, dazzling the enemy as their charge hits home.\n\n\n\nEffect: If this unit charged this turn, it has has STRIKE-FIRST for the rest of the turn.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\n10\"\n2\n5+\n2\nSkittermobs of Spider Riders stream across the battlefield, pouring through, over and around even the densest terrain or most formidable fortifications. They encircle their foes, pelting them with poisoned arrows and jabbing them with crooked spears.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tPointy Skewas\nCharge (+1 Damage)\t4\t4+\t5+\t-\t1\n\tGiant Snarlfang’s Jaws\nCompanion\t3\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 110\nBase size: 75 × 42mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "110",
+        "base_size": "75 × 42mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nMARKIN’ TERRITORY: Giant Snarlfangs are extremely territorial and will ferociously attack trespassers on land marked with their scent.\n\n\n\nEffect: If this unit charged this turn, add 5 to its control score for the rest of the turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nFRAZZLEBURNED SCRAP: After the boss, Snarlpack Cavalry often get first dibs on loot, and they have an eye for the scrap and wotsits with the best light-absorbing properties. In battle, they have learned how to unleash these energies from their weapons at just the right moment, dazzling the enemy as their charge hits home.\n\n\n\nEffect: If this unit charged this turn, it has has STRIKE-FIRST for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "MARKIN’ TERRITORY",
+          "type": "Passive",
+          "description": "Giant Snarlfangs are extremely territorial and will ferociously attack trespassers on land marked with their scent.\nEffect: If this unit charged this turn, add 5 to its control score for the rest of the turn."
+        },
+        {
+          "name": "FRAZZLEBURNED SCRAP",
+          "type": "Once Per Turn",
+          "description": "After the boss, Snarlpack Cavalry often get first dibs on loot, and they have an eye for the scrap and wotsits with the best light-absorbing properties. In battle, they have learned how to unleash these energies from their weapons at just the right moment, dazzling the enemy as their charge hits home.\nEffect: If this unit charged this turn, it has has STRIKE-FIRST for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Pointy Skewas Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Giant Snarlfang’s Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SPIDER RIDERS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSPIDER RIDERS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpider-bow\t18\"\t2\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrooked Spear\t\t2\t4+\t5+\t-\t1\n\tSpider Fangs\nCrit (Mortal), Companion\t\t2\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5)\nDESTRUCTION, GLOOMSPITE GITZ, SPIDERFANG\n\n\n\n\t\t\n\t\nD6+8\"\n2\n6+\n1\nSquig Hoppers bounce madly into battle, wreaking havoc on anything they collide with. Each ill-tempered squig has a cackling grot clinging to its back, who flails wildly at nearby enemies as they try vainly to steer their weird steed.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpider-bow\t18\"\t2\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCrooked Spear\t\t2\t4+\t5+\t-\t1\n\tSpider Fangs\nCrit (Mortal), Companion\t\t2\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 60 × 35mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "60 × 35mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.",
+      "abilities": [
+        {
+          "name": "WALL CRAWLER",
+          "type": "Passive",
+          "description": "The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\nEffect: This unit can pass across terrain features as if it had FLY."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spider-bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Crooked Spear",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Spider Fangs Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, MUSICIAN (1/5), STANDARD BEARER (1/5)\nDESTRUCTION, GLOOMSPITE GITZ, SPIDERFANG\n\n\n\n\t\t\n\t\nD6+8\"\n2\n6+\n1\nSquig Hoppers bounce madly into battle, wreaking havoc on anything they collide with. Each ill-tempered squig has a cackling grot clinging to its back, who flails wildly at nearby enemies as they try vainly to steer their weird steed.",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "SPIDERFANG"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SQUIG HOPPERS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSQUIG HOPPERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSlitta\t2\t4+\t5+\t-\t1\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 160\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tAny Movement Phase\t\t\nBOING! BOING! BOING!: Squig Hoppers can cause considerable damage simply by bouncing on top of their foes as they make their way across the battlefield.\n\n\n\nDeclare: Pick an enemy unit that this unit passed across this phase to be the target.\n\nEffect: Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\n\n\n\n\t\t\n\t\n12\"\n2\n5+\n1\nThose lucky grots of a Snarlboss’s retinue are often hand-picked from the least cowardly of the pack. They ride close to their leader and fend off attackers with stikkas and bows. These canny and adaptable fighters are a cut above the rest of their wolf-riding kin, and they possess an excellent sense for danger. Unfortunately for Wolfgit Retinues, they are often seen by their Snarlboss as potential rivals. Should they get too big for their boots, the boss is close enough to dispose of them at the drop of his fancy hat.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSlitta\t2\t4+\t5+\t-\t1\n\tFang-filled Gob\nCompanion\t3\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 160\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tAny Movement Phase\t\t\nBOING! BOING! BOING!: Squig Hoppers can cause considerable damage simply by bouncing on top of their foes as they make their way across the battlefield.\n\n\n\nDeclare: Pick an enemy unit that this unit passed across this phase to be the target.\n\nEffect: Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target.",
+      "stats": {
+        "unit_size": "10",
+        "points": "160",
+        "base_size": "32mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Slitta",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Fang-filled Gob",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "SQUIG",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "WOLFGIT RETINUE",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nWOLFGIT RETINUE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStabbin’ Stikka\t\t2\t4+\t5+\t-\t1\n\tSnarlfang’s Slavering Jaws\nCompanion\t\t2\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 2      Points: 70\nBase size: Use model\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Snarlboss in your army. This unit cannot be reinforced.\n\n\n1 model is armed with a Grot Bow and Snarlfang’s Slavering Jaws, and 1 model is armed with a Stabbin’ Stikka and Snarlfang’s Slavering Jaws.\n\n\n\tPassive\t\t\nI GOT DIS, BOSS: Wolfgitz look out for their Snarlboss in battle, if only because it makes knifin’ him later easier once he’s let his guard down.\n\n\n\nEffect: While a friendly Snarlboss is within this unit’s combat range, both this unit and that Snarlboss have WARD (5+).\n\n\nKEYWORDS\n\tCAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\nInfantry\n\n\n\t\t\n\t\n6\"\n5\n5+\n2\nThese slime-slick beasties stink worse than a plague pit full of incontinent Nurglings. They throw up jetting streams of viciously corrosive vomit, softening their prey up – quite literally – before tearing into them with wicked talons and tusks.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStabbin’ Stikka\t\t2\t4+\t5+\t-\t1\n\tSnarlfang’s Slavering Jaws\nCompanion\t\t2\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 2      Points: 70\nBase size: Use model\n\nCan be reinforced: No\nNotes: You can include 1 unit of this type for each Snarlboss in your army. This unit cannot be reinforced.\n\n\n1 model is armed with a Grot Bow and Snarlfang’s Slavering Jaws, and 1 model is armed with a Stabbin’ Stikka and Snarlfang’s Slavering Jaws.",
+      "stats": {
+        "unit_size": "2",
+        "points": "70",
+        "base_size": "Use model",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nI GOT DIS, BOSS: Wolfgitz look out for their Snarlboss in battle, if only because it makes knifin’ him later easier once he’s let his guard down.\n\n\n\nEffect: While a friendly Snarlboss is within this unit’s combat range, both this unit and that Snarlboss have WARD (5+).",
+      "abilities": [
+        {
+          "name": "I GOT DIS, BOSS",
+          "type": "Passive",
+          "description": "Wolfgitz look out for their Snarlboss in battle, if only because it makes knifin’ him later easier once he’s let his guard down.\nEffect: While a friendly Snarlboss is within this unit’s combat range, both this unit and that Snarlboss have WARD (5+)."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Grot Bow",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Stabbin’ Stikka",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Snarlfang’s Slavering Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\nInfantry",
+      "keywords": [
+        "CAVALRY",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "FELLWATER TROGGOTHS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nFELLWATER TROGGOTHS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tNoxious Vomit\nShoot in Combat\t6\"\tD3\t2+\t3+\t2\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiked Club\t\t4\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.\n\n\n\tPassive\t\t\nNOXIOUS VOMIT: The bilious digestive fluids chucked up by a Fellwater Troggoth can swiftly corrode even sigmarite plate.\n\n\n\nEffect: If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\n\nWhile a unit is drenched in vomit:\n\nSubtract 1 from save rolls for that unit.\nIgnore positive modifiers to save rolls for that unit.\n\n\nKEYWORDS\n\tINFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH\n\n\n\n\t\t\n\t\n5\"\n3\n6+\n2\nAny bossgrot of sufficient power and renown is sure to have at least one Gobbapalooza roaming around their lurklair. This cackling gang of loon-priests and petty shamans is a motley gathering of wise-grots, each employing a different set of superstitions, practices and volatile fungus brews that either bolster their fellow gitz with all sorts of bizarre effects or cause mayhem amongst the ranks of the enemy.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tNoxious Vomit\nShoot in Combat\t6\"\tD3\t2+\t3+\t2\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpiked Club\t\t4\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 160\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.",
+      "stats": {
+        "unit_size": "3",
+        "points": "160",
+        "base_size": "50mm"
+      },
+      "abilities_text": "Passive\t\t\nNOXIOUS VOMIT: The bilious digestive fluids chucked up by a Fellwater Troggoth can swiftly corrode even sigmarite plate.\n\n\n\nEffect: If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\n\nWhile a unit is drenched in vomit:\n\nSubtract 1 from save rolls for that unit.\nIgnore positive modifiers to save rolls for that unit.",
+      "abilities": [
+        {
+          "name": "NOXIOUS VOMIT",
+          "type": "Passive",
+          "description": "The bilious digestive fluids chucked up by a Fellwater Troggoth can swiftly corrode even sigmarite plate.\nEffect: If any damage points are allocated to an enemy unit by attacks made with this unit’s Noxious Vomit, that unit is drenched in vomit until the start of your next turn.\nWhile a unit is drenched in vomit:\nSubtract 1 from save rolls for that unit.\nIgnore positive modifiers to save rolls for that unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Noxious Vomit",
+          "type": "ranged",
+          "range": "6\"",
+          "attacks": "D3",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Spiked Club",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH",
+      "keywords": [
+        "INFANTRY",
+        "TROGGOTH"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "GOBBAPALOOZA",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nGOBBAPALOOZA\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff, Stikka or Jaggedy Blade\t1\t4+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 5      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\n\tPassive\t\t\nHALLUCINOGENIC FUNGUS BREWS: Gobbapalooza shamans drink hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses, the effects start to wear off.\n\n\n\nEffect: In the first battle round, this unit has WARD (4+). In the second battle round, this unit has WARD (5+). In the third and subsequent battle rounds, this unit has WARD (6+).\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nGOBBAPALOOZA KNOW-WOTZ: From casting petty spells to scaring the other grots with bizarre performances, the Gobbapalooza is always up to something.\n\n\n\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\n\nGlareface Dance: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\n\nNasty Poisons: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to the Rend characteristic of that unit’s weapons until the start of your next turn.\n\nMesmerise: Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands.\n\n\nKEYWORDS\n\tWIZARD (1), INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nArmed with massive wrecking balls attached to lengths of chain, Loonsmasha Fanatics are driven loopy with fungus brew then unleashed upon the enemy in a whirling storm. Though they inevitably come to a violent demise, they are sure to cause blood carnage first.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff, Stikka or Jaggedy Blade\t1\t4+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 5      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nNotes: This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "5",
+        "points": "150",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "notes": "This unit cannot be reinforced."
+      },
+      "abilities_text": "Passive\t\t\nHALLUCINOGENIC FUNGUS BREWS: Gobbapalooza shamans drink hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses, the effects start to wear off.\n\n\n\nEffect: In the first battle round, this unit has WARD (4+). In the second battle round, this unit has WARD (5+). In the third and subsequent battle rounds, this unit has WARD (6+).\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nGOBBAPALOOZA KNOW-WOTZ: From casting petty spells to scaring the other grots with bizarre performances, the Gobbapalooza is always up to something.\n\n\n\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\n\nGlareface Dance: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\n\nNasty Poisons: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to the Rend characteristic of that unit’s weapons until the start of your next turn.\n\nMesmerise: Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands.",
+      "abilities": [
+        {
+          "name": "HALLUCINOGENIC FUNGUS BREWS",
+          "type": "Passive",
+          "description": "Gobbapalooza shamans drink hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses, the effects start to wear off.\nEffect: In the first battle round, this unit has WARD (4+). In the second battle round, this unit has WARD (5+). In the third and subsequent battle rounds, this unit has WARD (6+)."
+        },
+        {
+          "name": "GOBBAPALOOZA KNOW-WOTZ",
+          "type": "Once Per Turn",
+          "description": "From casting petty spells to scaring the other grots with bizarre performances, the Gobbapalooza is always up to something.\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\nGlareface Dance: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\nNasty Poisons: Pick a friendly GLOOMSPITE GITZ unit within this unit’s combat range. Add 1 to the Rend characteristic of that unit’s weapons until the start of your next turn.\nMesmerise: Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff, Stikka or Jaggedy Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WIZARD (1), INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nArmed with massive wrecking balls attached to lengths of chain, Loonsmasha Fanatics are driven loopy with fungus brew then unleashed upon the enemy in a whirling storm. Though they inevitably come to a violent demise, they are sure to cause blood carnage first.",
+      "keywords": [
+        "WIZARD (1)",
+        "INFANTRY",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "LOONSMASHA FANATICS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nLOONSMASHA FANATICS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBall and Chain\tD6\t4+\t3+\t2\tD3\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tDeployment Phase\t\t\nHIDDEN LOONS: Gibbering and bound, Loonsmasha Fanatics are dragged or carried along by the general mass of grots until the time arrives to unrestrain them and pray to the Bad Moon that they head in the right direction.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve hidden among the mobs. It has now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tAny Movement Phase\t\t\nRELEASE THE FANATICS!: As the enemy approaches, the Loonsmashas are unleashed.\n\n\n\nDeclare: Pick this unit if it is hidden among the mobs. Then, pick a friendly Moonclan Shootas or Moonclan Stabbas unit that has 10 or more models to be the target.\n\nEffect: Set up this unit anywhere on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.\n\n\n\tPassive\t\t\nWHIRLING DEATH: One might as well try to catch a cannonball as to get the jump on a spinning Fanatic.\n\n\n\nEffect: This unit has STRIKE-FIRST.\n\n\nKEYWORDS\n\tINFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n5\"\n1\n6+\n1\nMoonclan Shootas gather in sizeable skulkmobs that rain black-fletched arrows upon the enemy. They pincushion their victims with sheer weight of fire, before surrounding any survivors and stabbing them viciously to death with spare arrows or clobbering them repeatedly with their knobbly bows.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBall and Chain\tD6\t4+\t3+\t2\tD3",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tDeployment Phase\t\t\nHIDDEN LOONS: Gibbering and bound, Loonsmasha Fanatics are dragged or carried along by the general mass of grots until the time arrives to unrestrain them and pray to the Bad Moon that they head in the right direction.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve hidden among the mobs. It has now been deployed.",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Ball and Chain",
+          "type": "melee",
+          "range": null,
+          "attacks": "D6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY\n\n\n\tAny Movement Phase\t\t\nRELEASE THE FANATICS!: As the enemy approaches, the Loonsmashas are unleashed.",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MOONCLAN SHOOTAS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nMOONCLAN SHOOTAS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoonclan Bow\t18\"\t2\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoonclan Bow\t\t1\t4+\t5+\t-\t1\nBATTLE PROFILE\nUnit Size: 20      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nNETTERS: Moonclan grots use throwing nets to capture Cave Squigs and entangle their foes.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/20), STANDARD BEARER (1/20)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n5\"\n1\n5+\n1\nMoonclan Stabbas form ragged ranks that advance upon the foe with gongs clanging and banners waving. Eyes bulging with the madness of the Gloomspite, they pour over the enemy lines and stab wildly at everything in their path.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tMoonclan Bow\t18\"\t2\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMoonclan Bow\t\t1\t4+\t5+\t-\t1",
+      "battle_profile_text": "Unit Size: 20      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nNETTERS: Moonclan grots use throwing nets to capture Cave Squigs and entangle their foes.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "stats": {
+        "unit_size": "20",
+        "points": "120",
+        "base_size": "25mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Moonclan Bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Moonclan Bow",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/20), STANDARD BEARER (1/20)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "MOONCLAN STABBAS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nMOONCLAN STABBAS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStabba\t2\t4+\t5+\t-\t1\nBATTLE PROFILE\nUnit Size: 20      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nNETTERS: Moonclan grots use throwing nets to capture Cave Squigs and entangle their foes.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/20), STANDARD BEARER (1/20)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n6\"\n5\n4+\n2\n5+\nRockgut Troggoths have stony hides that are proof against blade, bolt and magical blast alike. Their lumpen claws pass through stone as though it were water, allowing them to scoop up huge clubs and throwing boulders at will. Subtle they are not.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStabba\t2\t4+\t5+\t-\t1",
+      "battle_profile_text": "Unit Size: 20      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nNETTERS: Moonclan grots use throwing nets to capture Cave Squigs and entangle their foes.\n\n\n\nDeclare: Pick an enemy INFANTRY unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "stats": {
+        "unit_size": "20",
+        "points": "110",
+        "base_size": "25mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Stabba",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/20), STANDARD BEARER (1/20)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "ROCKGUT TROGGOTHS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nROCKGUT TROGGOTHS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThrowin’ Boulders\t10\"\t1\t5+\t2+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStone Maul or Craggy Hands\t\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 3      Points: 180\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.\n\n\nKEYWORDS\n\tINFANTRY, WARD (5+)\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH\n\n\n\n\t\t\n\t\n5\"\n2\n6+\n1\n5+\nIt is the job of the Sneaky Snufflers to collect Looncaps and return them to the shamans, who use them as ingredients for magical potions. They are aided by Snufflesquigs, whose pronounced olfactory organs are highly attuned to different fungi. As battle rages, these grots harvest choice Looncaps with their trusty sickles, hurling bundles of the frenzy-inducing mushrooms over to their mates.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThrowin’ Boulders\t10\"\t1\t5+\t2+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStone Maul or Craggy Hands\t\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 3      Points: 180\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.",
+      "stats": {
+        "unit_size": "3",
+        "points": "180",
+        "base_size": "50mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Throwin’ Boulders",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "1",
+          "hit": "5+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Stone Maul or Craggy Hands",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, WARD (5+)\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH",
+      "keywords": [
+        "INFANTRY",
+        "WARD (5+)",
+        "TROGGOTH"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SNEAKY SNUFFLERS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSNEAKY SNUFFLERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLoonfungus Sickle\t3\t4+\t4+\t-\t1\n\tSnufflesquig’s Gnashers\nCompanion\t2\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 6      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nLOONCAP MUSHROOMS: Looncaps that sprout beneath the Bad Moon’s glare are harvested by Sneaky Snufflers and have an intoxicating effect on any grots that ingest them. Sometimes a particularly potent fungus is found – and that’s when the real carnage starts…\n\n\n\nDeclare: If this unit is not in combat, pick a friendly MOONCLAN unit wholly within 12\" of it and visible to it to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the face of the Bad Moon is Cacklin’ this turn. On a 3+, the target has WARD (5+) until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.\n\n\nKEYWORDS\n\tINFANTRY, WARD (5+)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nSporesplatta Fanatics careen towards the foe swinging Thwackwheezer Puffshrooms. The billowing clouds of spores spewed out by these fungi veil the grot hordes from sight, invigorating the followers of the Bad Moon whilst choking and blinding the foe.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLoonfungus Sickle\t3\t4+\t4+\t-\t1\n\tSnufflesquig’s Gnashers\nCompanion\t2\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 6      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "6",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nLOONCAP MUSHROOMS: Looncaps that sprout beneath the Bad Moon’s glare are harvested by Sneaky Snufflers and have an intoxicating effect on any grots that ingest them. Sometimes a particularly potent fungus is found – and that’s when the real carnage starts…\n\n\n\nDeclare: If this unit is not in combat, pick a friendly MOONCLAN unit wholly within 12\" of it and visible to it to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the face of the Bad Moon is Cacklin’ this turn. On a 3+, the target has WARD (5+) until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
+      "abilities": [
+        {
+          "name": "LOONCAP MUSHROOMS",
+          "type": "Once Per Turn",
+          "description": "Looncaps that sprout beneath the Bad Moon’s glare are harvested by Sneaky Snufflers and have an intoxicating effect on any grots that ingest them. Sometimes a particularly potent fungus is found – and that’s when the real carnage starts…\nDeclare: If this unit is not in combat, pick a friendly MOONCLAN unit wholly within 12\" of it and visible to it to be the target.\nEffect: Roll a dice. Add 1 to the roll if the face of the Bad Moon is Cacklin’ this turn. On a 3+, the target has WARD (5+) until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Loonfungus Sickle",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Snufflesquig’s Gnashers",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, WARD (5+)\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nSporesplatta Fanatics careen towards the foe swinging Thwackwheezer Puffshrooms. The billowing clouds of spores spewed out by these fungi veil the grot hordes from sight, invigorating the followers of the Bad Moon whilst choking and blinding the foe.",
+      "keywords": [
+        "INFANTRY",
+        "WARD (5+)",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SPORESPLATTA FANATICS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSPORESPLATTA FANATICS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpore-ball and Chain\tD3\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 5      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tDeployment Phase\t\t\nA PROD IN THE RIGHT DIRECTION: As battle begins, grots like to give the Sporesplattas a helpful prod towards the enemy.\n\n\n\nEffect: This unit can use the ‘Normal Move’ ability as if it were your movement phase.\n\n\n\tPassive\t\t\nPUFFSHROOM FRENZY: Puffshroom spore-clouds send the followers of the Bad Moon into a violent frenzy while choking and blinding enemies caught within them.\n\n\n\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly MOONCLAN units while they are wholly within 12\" of this unit.\n\nSubtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.\n\n\nKEYWORDS\n\tINFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nArmed with massive wrecking balls attached to lengths of chain, Loonsmasha Fanatics are driven loopy with fungus brew then unleashed upon the enemy in a whirling storm. Though they inevitably come to a violent demise, they are sure to cause blood carnage first.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpore-ball and Chain\tD3\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 5      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tDeployment Phase\t\t\nA PROD IN THE RIGHT DIRECTION: As battle begins, grots like to give the Sporesplattas a helpful prod towards the enemy.\n\n\n\nEffect: This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "stats": {
+        "unit_size": "5",
+        "points": "90",
+        "base_size": "32mm"
+      },
+      "abilities_text": "Passive\t\t\nPUFFSHROOM FRENZY: Puffshroom spore-clouds send the followers of the Bad Moon into a violent frenzy while choking and blinding enemies caught within them.\n\n\n\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly MOONCLAN units while they are wholly within 12\" of this unit.\n\nSubtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "abilities": [
+        {
+          "name": "PUFFSHROOM FRENZY",
+          "type": "Passive",
+          "description": "Puffshroom spore-clouds send the followers of the Bad Moon into a violent frenzy while choking and blinding enemies caught within them.\nEffect: Add 1 to the Attacks characteristic of melee weapons used by other friendly MOONCLAN units while they are wholly within 12\" of this unit.\nSubtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spore-ball and Chain",
+          "type": "melee",
+          "range": null,
+          "attacks": "D3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nArmed with massive wrecking balls attached to lengths of chain, Loonsmasha Fanatics are driven loopy with fungus brew then unleashed upon the enemy in a whirling storm. Though they inevitably come to a violent demise, they are sure to cause blood carnage first.",
+      "keywords": [
+        "INFANTRY",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN LOONSMASHA FANATICS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSCOURGE OF GHYRAN LOONSMASHA FANATICS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBall and Chain\t3\t4+\t3+\t2\tD3\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tDeployment Phase\t\t\nLOST IN THE HORDE: Gibbering and bound, Loonsmasha Fanatics are dragged or carried along by the general mass of grots until the time arrives to unrestrain them and pray to the Bad Moon that they head in the right direction.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve lost in the horde. This unit has now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nWHIRLING DESTRUCTION: Fanatics are hurled out of Moonclan units, swiftly spinning up into living tornadoes that cause absolute carnage as they careen through the enemy ranks.\n\n\n\nDeclare: Pick this unit if it is lost in the horde.\n\nEffect: Set up this unit anywhere on the battlefield wholly within 3\" of a friendly Moonclan Stabbas or Moonclan Shootas unit. Then, this unit can move 2D6\". It can pass through enemy models and their combat ranges and can end that move in combat. Then, roll a dice for each enemy unit in combat with this unit or that this unit passed across as part of that move. Inflict an amount of mortal damage on that unit equal to the roll. If this unit ended that move in combat, it has charged.\nKEYWORDS\tCORE, MOVE, CHARGE\n\n\nKEYWORDS\n\tINFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\n\n\n\n\t\t\n\t\n2D6\"\n1\n6+\n1\nFilled to the brim with lethal mushrooms of all kinds, the jungles of the Everspring Swathe are a haven for the insane grots known as Sporesplatta Fanatics. These ’shroom-addled maniacs swing their fungal weapons in wild circles, splattering their foes with noxious spores that leave them dazed, sickened and choked with toxins.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBall and Chain\t3\t4+\t3+\t2\tD3",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tDeployment Phase\t\t\nLOST IN THE HORDE: Gibbering and bound, Loonsmasha Fanatics are dragged or carried along by the general mass of grots until the time arrives to unrestrain them and pray to the Bad Moon that they head in the right direction.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve lost in the horde. This unit has now been deployed.",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Ball and Chain",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCOURGE OF GHYRAN SPORESPLATTA FANATICS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSCOURGE OF GHYRAN SPORESPLATTA FANATICS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpore-ball and Chain\t2\t3+\t4+\t1\tD3\nBATTLE PROFILE\nUnit Size: 5      Points: 80\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nCHOKING SPORE-CLOUDS: Those not of Gittish kind who inhale too many Puffshroom spores are wracked by violent coughing fits as their bodies rebel against the sudden fungal invasion.\n\n\n\nEffect: Subtract 1 from the Attacks characteristic of weapons used by enemy units while they are in combat with this unit.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nSPINNING LOONS: Though they swing bizarre fungi rather than iron wrecking balls, Sporeplattas are still given a wide berth by those around them as they wildy spin amidst the melee.\n\n\n\nEffect: If this unit was not set up this phase, this unit can move 2D6\". It can move through the combat ranges of enemy units and can finish that move in combat.\n\n\nKEYWORDS\n\tINFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\nMonster\n\n\n\t\t\n\t\n10\"\n16\n4+\n5\nSome Arachnarok Spiders bear howdahs upon their backs that have flinger catapults built into them. Operated by a cackling grot crew, these weapons lob tumbling masses of envenomed webbing that slam down to entangle and poison the enemy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpore-ball and Chain\t2\t3+\t4+\t1\tD3",
+      "battle_profile_text": "Unit Size: 5      Points: 80\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "5",
+        "points": "80",
+        "base_size": "32mm",
+        "reinforced": "Yes",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nCHOKING SPORE-CLOUDS: Those not of Gittish kind who inhale too many Puffshroom spores are wracked by violent coughing fits as their bodies rebel against the sudden fungal invasion.\n\n\n\nEffect: Subtract 1 from the Attacks characteristic of weapons used by enemy units while they are in combat with this unit.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nSPINNING LOONS: Though they swing bizarre fungi rather than iron wrecking balls, Sporeplattas are still given a wide berth by those around them as they wildy spin amidst the melee.\n\n\n\nEffect: If this unit was not set up this phase, this unit can move 2D6\". It can move through the combat ranges of enemy units and can finish that move in combat.",
+      "abilities": [
+        {
+          "name": "CHOKING SPORE-CLOUDS",
+          "type": "Passive",
+          "description": "Those not of Gittish kind who inhale too many Puffshroom spores are wracked by violent coughing fits as their bodies rebel against the sudden fungal invasion.\nEffect: Subtract 1 from the Attacks characteristic of weapons used by enemy units while they are in combat with this unit."
+        },
+        {
+          "name": "End of Any Turn SPINNING LOONS",
+          "type": "Once Per Turn",
+          "description": "Though they swing bizarre fungi rather than iron wrecking balls, Sporeplattas are still given a wide berth by those around them as they wildy spin amidst the melee.\nEffect: If this unit was not set up this phase, this unit can move 2D6\". It can move through the combat ranges of enemy units and can finish that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spore-ball and Chain",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY\nDESTRUCTION, GLOOMSPITE GITZ, MOONCLAN\nMonster",
+      "keywords": [
+        "INFANTRY",
+        "MOONCLAN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "ARACHNAROK SPIDER",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nARACHNAROK SPIDER\nWITH FLINGER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlinger\nCrit (2 Hits)\t24\"\tD3\t4+\t3+\t-\t1\n\tSpider-bows\t18\"\t10\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tCrooked Spears\t\t10\t5+\t4+\t-\t1\n\tMonstrous Spider Fangs\nCrit (Mortal), Companion\t\t4\t3+\t2+\t1\t3\n\tChitinous Legs\nCompanion\t\t8\t4+\t2+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 230\nBase size: 160mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.\n\n\n\tPassive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.\n\n\n\tPassive\t\t\nFLINGER: This crude catapult hurls a heavy ball of corded spider-silk at the enemy, engulfing victims in a mass of sticky webbing.\n\n\n\nEffect: If any attacks made with this unit’s Flinger score a hit, after the SHOOT ability has been resolved, roll a dice. On a 2+, halve the Move characteristic of the target unit until the start of your next turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nBEAST-BINDING WEBBING: As enemy beasts attempt to close the distance with an Arachnarok, they become tangled in its webbing.\n\n\n\nDeclare: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s Companion weapons for the rest of the turn.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER\nDESTRUCTION, GLOOMSPITE GITZ, ARACHNAROK, SPIDERFANG\n\n\n\n\t\t\n\t\n10\"\n16\n4+\n10\nVast arachnid predators possessed of a malevolent sentience, Arachnarok Spiders stalk into battle carrying rickety howdahs full of shrieking Spiderfang grots, who worship the creatures as the progeny of their eight-legged god.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlinger\nCrit (2 Hits)\t24\"\tD3\t4+\t3+\t-\t1\n\tSpider-bows\t18\"\t10\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCrooked Spears\t\t10\t5+\t4+\t-\t1\n\tMonstrous Spider Fangs\nCrit (Mortal), Companion\t\t4\t3+\t2+\t1\t3\n\tChitinous Legs\nCompanion\t\t8\t4+\t2+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 230\nBase size: 160mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "230",
+        "base_size": "160mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6.\n\n\n\tPassive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.\n\n\n\tPassive\t\t\nFLINGER: This crude catapult hurls a heavy ball of corded spider-silk at the enemy, engulfing victims in a mass of sticky webbing.\n\n\n\nEffect: If any attacks made with this unit’s Flinger score a hit, after the SHOOT ability has been resolved, roll a dice. On a 2+, halve the Move characteristic of the target unit until the start of your next turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nBEAST-BINDING WEBBING: As enemy beasts attempt to close the distance with an Arachnarok, they become tangled in its webbing.\n\n\n\nDeclare: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s Companion weapons for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Chitinous Legs is 6."
+        },
+        {
+          "name": "WALL CRAWLER",
+          "type": "Passive",
+          "description": "The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\nEffect: This unit can pass across terrain features as if it had FLY."
+        },
+        {
+          "name": "FLINGER",
+          "type": "Passive",
+          "description": "This crude catapult hurls a heavy ball of corded spider-silk at the enemy, engulfing victims in a mass of sticky webbing.\nEffect: If any attacks made with this unit’s Flinger score a hit, after the SHOOT ability has been resolved, roll a dice. On a 2+, halve the Move characteristic of the target unit until the start of your next turn."
+        },
+        {
+          "name": "BEAST-BINDING WEBBING",
+          "type": "Once Per Turn",
+          "description": "As enemy beasts attempt to close the distance with an Arachnarok, they become tangled in its webbing.\nDeclare: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.\nEffect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s Companion weapons for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Flinger Crit (2 Hits)",
+          "type": "ranged",
+          "range": "24\"",
+          "attacks": "D3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Spider-bows",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "10",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Crooked Spears",
+          "type": "melee",
+          "range": null,
+          "attacks": "10",
+          "hit": "5+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Monstrous Spider Fangs Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Chitinous Legs",
+          "type": "melee",
+          "range": null,
+          "attacks": "8",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "DANKHOLD TROGGOTH",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nDANKHOLD TROGGOTH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tColossal Boulder Club\t4\t4+\t2+\t2\tD3+3\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 60mm\n\nCan be reinforced: No\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.\n\n\n\tReaction: Opponent declared a SPELL ability\t\t\nMAGICAL RESISTANCE: The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\n\n\n\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWADE AND SMASH: The Dankhold Troggoth rampages through the enemy lines, swinging its enormous club back and forth and sending enemies flying in all directions.\n\n\n\nEffect: This unit can move 6\" but must end that move in combat. Then, roll a D3 for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER\nDESTRUCTION, GLOOMSPITE GITZ, TROGGOTH\n\n\n\n\t\t\n\t\nD6+8\"\n14\n5+\n5\nSome particularly brave and idiotic grots undertake the insane task of lashing two huge Cave Squigs together to form the living wrecking balls known as Manglers. Pushing and pulling against one another constantly as their riders desperately try to point them in the right direction, these conjoined titans can lay waste to entire sections of a battleline – though whether it belongs to the enemy or their own forces hardly concerns the squigs.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tColossal Boulder Club\t4\t4+\t2+\t2\tD3+3",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 60mm\n\nCan be reinforced: No\n\n\n\tStart of Any Turn\t\t\nREGENERATION: Troggoths are able to regrow injured flesh almost as quickly as it is harmed.\n\n\n\nEffect: Heal (D3) this unit.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "60mm"
+      },
+      "abilities_text": "Reaction: Opponent declared a SPELL ability\t\t\nMAGICAL RESISTANCE: The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\n\n\n\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWADE AND SMASH: The Dankhold Troggoth rampages through the enemy lines, swinging its enormous club back and forth and sending enemies flying in all directions.\n\n\n\nEffect: This unit can move 6\" but must end that move in combat. Then, roll a D3 for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "abilities": [
+        {
+          "name": "MAGICAL RESISTANCE",
+          "type": "Reaction",
+          "description": "The realmstone-infused mushrooms that Dankhold Troggoths consume make them naturally resistant to the effects of magic.\nEffect: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
+        },
+        {
+          "name": "WADE AND SMASH",
+          "type": "Once Per Turn",
+          "description": "The Dankhold Troggoth rampages through the enemy lines, swinging its enormous club back and forth and sending enemies flying in all directions.\nEffect: This unit can move 6\" but must end that move in combat. Then, roll a D3 for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Colossal Boulder Club",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MANGLER SQUIGS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nMANGLER SQUIGS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBashin’ Stikks\t4\t4+\t5+\t-\t1\n\tHuge Fang-filled Gobs\nCompanion\t4\t4+\t2+\t1\tD6\n\tBalls and Chains\nCompanion\t4\t4+\t4+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 80mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nSQUIG RAGE: As Mangler Squigs are wounded in battle, they become even more irate and violent.\n\n\n\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6.\n\n\n\tPassive\t\t\nWATCH OUT!: Mangler Squigs are capable of great destruction even in their wildly bouncing death throes.\n\n\n\nEffect: If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nGIANT BOING!: The Mangler Squigs use their momentum to spring up into the air, crashing into the enemy lines beyond.\n\n\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 3D6\" but must end that move in combat.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER, FLY\nDESTRUCTION, GLOOMSPITE GITZ, SQUIG, MOONCLAN\n\n\n\n\t\t\n\t\n10\"\n13\n4+\n5\nCreeping out from their web-wreathed Shyishan lairs, Skitterstrand Arachnaroks burst through temporary realmgates to snatch up their prey, biting off heads, injecting paralysing venom and dragging choice victims away into the darkness.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBashin’ Stikks\t4\t4+\t5+\t-\t1\n\tHuge Fang-filled Gobs\nCompanion\t4\t4+\t2+\t1\tD6\n\tBalls and Chains\nCompanion\t4\t4+\t4+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 80mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "80mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nSQUIG RAGE: As Mangler Squigs are wounded in battle, they become even more irate and violent.\n\n\n\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6.\n\n\n\tPassive\t\t\nWATCH OUT!: Mangler Squigs are capable of great destruction even in their wildly bouncing death throes.\n\n\n\nEffect: If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nGIANT BOING!: The Mangler Squigs use their momentum to spring up into the air, crashing into the enemy lines beyond.\n\n\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 3D6\" but must end that move in combat.",
+      "abilities": [
+        {
+          "name": "SQUIG RAGE",
+          "type": "Passive",
+          "description": "As Mangler Squigs are wounded in battle, they become even more irate and violent.\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Huge Fang-filled Gobs is 6."
+        },
+        {
+          "name": "WATCH OUT!",
+          "type": "Passive",
+          "description": "Mangler Squigs are capable of great destruction even in their wildly bouncing death throes.\nEffect: If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit."
+        },
+        {
+          "name": "Any Charge Phase GIANT BOING!",
+          "type": "Once Per Turn",
+          "description": "The Mangler Squigs use their momentum to spring up into the air, crashing into the enemy lines beyond.\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 3D6\" but must end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Bashin’ Stikks",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Huge Fang-filled Gobs",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Balls and Chains",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SKITTERSTRAND ARACHNAROK",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSKITTERSTRAND ARACHNAROK\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tMonstrous Spider Fangs\nCrit (Mortal), Companion\t4\t3+\t2+\t1\t3\n\tChitinous Legs\nCompanion\t8\t4+\t2+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 190\nBase size: 160mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.\n\n\n\tDeployment Phase\t\t\nREALMWEB LURKER: Skitterstrand Arachnaroks stalk their prey through the arcane paths that connect the realms.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve skittering through tunnels in reality. It has now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tAny Movement Phase\t\t\nAMBUSH FROM BEYOND: Legs first, then bulbous body, the Skitterstrand drags itself out of a tear in reality.\n\n\n\nDeclare: Pick this unit if it is skittering through tunnels in reality.\n\nEffect: Set up this unit anywhere on the battlefield more than 9\" from all enemy units.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nSCUTTLING TERROR: The Arachnarok uses its terrifying speed to its advantage, scuttling over and sinking its fangs into the enemy before they have a chance to react.\n\n\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can pass through models in enemy INFANTRY units, but it must end that move in combat.\n\nThen, pick an enemy INFANTRY unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tMONSTER\nDESTRUCTION, GLOOMSPITE GITZ, ARACHNAROK, SPIDERFANG\nWar Machine\n\n\n\t\t\n\t\n5\"\n12\n4+\n2\nOnly the grots could don bomb-strapped hats, launch themselves into battle via catapult and still expect to have a chance of surviving the ordeal. Of course, this is rarely the case, but the carnage they cause upon ‘landing’ is so fantastic that there are always more who prefer taking the risk to displeasing the boss.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMonstrous Spider Fangs\nCrit (Mortal), Companion\t4\t3+\t2+\t1\t3\n\tChitinous Legs\nCompanion\t8\t4+\t2+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 190\nBase size: 160mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "190",
+        "base_size": "160mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nWALL CRAWLER: The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\n\n\n\nEffect: This unit can pass across terrain features as if it had FLY.\n\n\n\tDeployment Phase\t\t\nREALMWEB LURKER: Skitterstrand Arachnaroks stalk their prey through the arcane paths that connect the realms.\n\n\n\nDeclare: Pick this unit if it has not been deployed.\n\nEffect: Set up this unit in reserve skittering through tunnels in reality. It has now been deployed.",
+      "abilities": [
+        {
+          "name": "WALL CRAWLER",
+          "type": "Passive",
+          "description": "The Spiderfang’s arachnid allies can skitter up and down vertical surfaces as if they were flat ground.\nEffect: This unit can pass across terrain features as if it had FLY.\n\tDeployment Phase\t\t\nREALMWEB LURKER: Skitterstrand Arachnaroks stalk their prey through the arcane paths that connect the realms.\nDeclare: Pick this unit if it has not been deployed.\nEffect: Set up this unit in reserve skittering through tunnels in reality. It has now been deployed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Monstrous Spider Fangs Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Chitinous Legs",
+          "type": "melee",
+          "range": null,
+          "attacks": "8",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY\n\n\n\tAny Movement Phase\t\t\nAMBUSH FROM BEYOND: Legs first, then bulbous body, the Skitterstrand drags itself out of a tear in reality.",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "DOOM DIVER CATAPULT",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nDOOM DIVER CATAPULT\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDoom Diver\t24\"\t4\t4+\t3+\t3\t3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tCatapult Crew Tools\t\t2\t5+\t6+\t-\t1\n\tSlicers and Krag‑smasha’s Paws\nCompanion\t\t6\t4+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 160\nBase size: 170 × 105mm\n\nCan be reinforced: No\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nSHODDY WING-LIKE GIZMOS: With a bit of frantic flapping and ‘leanin’ into da wind’, Doom Divers can attempt to correct their trajectory mid-flight, though doing so slows their momentum somewhat.\n\n\n\nEffect: You can re-roll hit rolls for this unit’s shooting attacks this turn, but for each hit roll that is re-rolled, subtract 1 from the Rend characteristic of this unit’s Doom Diver for the rest of the turn.\n\n\nKEYWORDS\n\tWAR MACHINE\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\n\n\n\n\t\t\n\t\n12\"\n6\n4+\n2\nThe Sunsteala Wheelas favoured by the Gitmobs are built with lightweight wicker frames, allowing them to close down on the foe quickly and hit hard before deftly weaving out of combat. Their drivers favour stikkas and bows, weapons perfect for sneaky strikes from a reasonably safe distance.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDoom Diver\t24\"\t4\t4+\t3+\t3\t3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCatapult Crew Tools\t\t2\t5+\t6+\t-\t1\n\tSlicers and Krag‑smasha’s Paws\nCompanion\t\t6\t4+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 160\nBase size: 170 × 105mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "160",
+        "base_size": "170 × 105mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Shooting Phase\t\t\nSHODDY WING-LIKE GIZMOS: With a bit of frantic flapping and ‘leanin’ into da wind’, Doom Divers can attempt to correct their trajectory mid-flight, though doing so slows their momentum somewhat.\n\n\n\nEffect: You can re-roll hit rolls for this unit’s shooting attacks this turn, but for each hit roll that is re-rolled, subtract 1 from the Rend characteristic of this unit’s Doom Diver for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "Any Shooting Phase SHODDY WING-LIKE GIZMOS",
+          "type": "Once Per Turn",
+          "description": "With a bit of frantic flapping and ‘leanin’ into da wind’, Doom Divers can attempt to correct their trajectory mid-flight, though doing so slows their momentum somewhat.\nEffect: You can re-roll hit rolls for this unit’s shooting attacks this turn, but for each hit roll that is re-rolled, subtract 1 from the Rend characteristic of this unit’s Doom Diver for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Doom Diver",
+          "type": "ranged",
+          "range": "24\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "3",
+          "damage": "3",
+          "abilities": null
+        },
+        {
+          "name": "Catapult Crew Tools",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "6+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Slicers and Krag‑smasha’s Paws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WAR MACHINE\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB",
+      "keywords": [
+        "WAR MACHINE",
+        "GITMOB"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SUNSTEALA WHEELAS",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSUNSTEALA WHEELAS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tWheela Slicers and Stabbin’ Stikka\t\t4\t4+\t4+\t-\t1\n\tSnarlfangs’ Frothing Jaws\nCompanion\t\t6\t4+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 2      Points: 130\nBase size: 105 × 70mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Any Movement Phase\t\t\nCAREENING DESTRUCTION: Hurtling across the battlefield at death-defying speed, Sunsteala Wheelas careen straight through their enemies leaving behind trails of devastation.\n\n\n\nEffect: If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy INFANTRY or CAVALRY unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target. Add 1 to the amount of mortal damage inflicted for each model in this unit\n\nDesigner’s Note: This unit can use this ability even if it is in combat.\nKEYWORDS\tCORE, MOVE\n\n\nKEYWORDS\n\tWAR MACHINE, CHAMPION\nDESTRUCTION, GLOOMSPITE GITZ, GITMOB\nFaction Terrain\n\n\n\t\t\n\t\n-\n14\n4+\n-\nWhere the Fangz of the Bad Moon fall, they smash down upon the landscape causing untold devastation. Then come the Gloomspite hordes, creeping from below to hew these loonstone outcroppings into grotesque shrinelairs that soon become encrusted with fungi and imbued with the sinister energies of their progenitor rock.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGrot Bow\t15\"\t2\t4+\t5+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWheela Slicers and Stabbin’ Stikka\t\t4\t4+\t4+\t-\t1\n\tSnarlfangs’ Frothing Jaws\nCompanion\t\t6\t4+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 2      Points: 130\nBase size: 105 × 70mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "2",
+        "points": "130",
+        "base_size": "105 × 70mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Movement Phase\t\t\nCAREENING DESTRUCTION: Hurtling across the battlefield at death-defying speed, Sunsteala Wheelas careen straight through their enemies leaving behind trails of devastation.\n\n\n\nEffect: If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy INFANTRY or CAVALRY unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target. Add 1 to the amount of mortal damage inflicted for each model in this unit\n\nDesigner’s Note: This unit can use this ability even if it is in combat.",
+      "abilities": [
+        {
+          "name": "Any Movement Phase CAREENING DESTRUCTION",
+          "type": "Once Per Turn",
+          "description": "Hurtling across the battlefield at death-defying speed, Sunsteala Wheelas careen straight through their enemies leaving behind trails of devastation.\nEffect: If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy INFANTRY or CAVALRY unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target. Add 1 to the amount of mortal damage inflicted for each model in this unit\nDesigner’s Note: This unit can use this ability even if it is in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Grot Bow",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Wheela Slicers and Stabbin’ Stikka",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Snarlfangs’ Frothing Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, MOVE",
+      "keywords": [
+        "CORE",
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "BAD MOON LOONSHRINE",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nBAD MOON LOONSHRINE\nBATTLE PROFILE\nUnit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2): Cover, Impassable\n\n\n\tOnce Per Turn (Army), End of Your Turn\t\t\n1\nMOONCLAN LAIRS: The Gloomspite Gitz use Moonclan-dug tunnels to reach nearby Loonshrines. In battle, reinforcements emerge from these echoing subterranean passages.\n\n\n\nDeclare: Pick a friendly non-HERO non-MONSTER non-WAR MACHINE GLOOMSPITE GITZ unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.\n\n\nKEYWORDS\n\tFACTION TERRAIN\nDESTRUCTION, GLOOMSPITE GITZ\nEndless Spell\n\n\n\t\t\n\t\n12\"\n6\n6+\n7+\n6+\nThe Malevolent Moon is conjured when a shaman raises high a carved loonstone simulacrum of the Bad Moon and jabbers the right words. The statue swells into a cackling, glowing abomination that sweeps across the battlefield wreaking havoc.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "Unit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2): Cover, Impassable",
+      "stats": {
+        "unit_size": "1",
+        "points": "0",
+        "base_size": "Use model"
+      },
+      "abilities_text": "Once Per Turn (Army), End of Your Turn\t\t\n1\nMOONCLAN LAIRS: The Gloomspite Gitz use Moonclan-dug tunnels to reach nearby Loonshrines. In battle, reinforcements emerge from these echoing subterranean passages.\n\n\n\nDeclare: Pick a friendly non-HERO non-MONSTER non-WAR MACHINE GLOOMSPITE GITZ unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "End of Your Turn 1 MOONCLAN LAIRS",
+          "type": "Once Per Turn",
+          "description": "The Gloomspite Gitz use Moonclan-dug tunnels to reach nearby Loonshrines. In battle, reinforcements emerge from these echoing subterranean passages.\nDeclare: Pick a friendly non-HERO non-MONSTER non-WAR MACHINE GLOOMSPITE GITZ unit that has been destroyed to be the target.\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units."
+        }
+      ],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN\nDESTRUCTION, GLOOMSPITE GITZ\nEndless Spell",
+      "keywords": [
+        "FACTION TERRAIN"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "MALEVOLENT MOON",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nMALEVOLENT MOON\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLunarock Slam\t1\t4+\t3+\t-\tD3\n\tPassive\t\t\nLURID LIGHT: To the maniacal grots of the Gloomspite Gitz, one cackling lunar entity streaking through the sky is much like another.\n\n\n\nEffect: While friendly GLOOMSPITE GITZ units are wholly within 12\" of this MANIFESTATION they are affected by all four faces of the Bad Moon (Grinnin’, Scowlin’, Sulkin’ and Cacklin’).\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nMork’s Mighty Mushroom begins as a single spore plucked from between the caster’s filthy toes. By the time it is flung at the foe, it has swollen into a fully grown mushroom, and within moments it blooms into something huge and unutterably foul.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLunarock Slam\t1\t4+\t3+\t-\tD3\n\tPassive\t\t\nLURID LIGHT: To the maniacal grots of the Gloomspite Gitz, one cackling lunar entity streaking through the sky is much like another.\n\n\n\nEffect: While friendly GLOOMSPITE GITZ units are wholly within 12\" of this MANIFESTATION they are affected by all four faces of the Bad Moon (Grinnin’, Scowlin’, Sulkin’ and Cacklin’).\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nMork’s Mighty Mushroom begins as a single spore plucked from between the caster’s filthy toes. By the time it is flung at the foe, it has swollen into a fully grown mushroom, and within moments it blooms into something huge and unutterably foul.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Lunarock Slam",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n-\n6\n6+\n7+\n6+\nMork’s Mighty Mushroom begins as a single spore plucked from between the caster’s filthy toes. By the time it is flung at the foe, it has swollen into a fully grown mushroom, and within moments it blooms into something huge and unutterably foul.",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "MORK’S MIGHTY MUSHROOM",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nMORK’S MIGHTY MUSHROOM\n\tAny Shooting Phase\t\t\nMUTATING SPORES: The spores ejected by Mork’s Mighty Mushroom cause those they touch to burst in a profusion of gruesome fungal growths.\n\n\n\nDeclare: Pick up to 3 enemy units within 6\" of this MANIFESTATION to be the targets.\n\nEffect: For each target, roll a number of dice equal to the number of models in that unit that are within 6\" of this MANIFESTATION. For each 5+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n6\"\n6\n5+\n7+\n6+\nScrapskuttle’s Arachnacauldron fumes with sorcerous energies, and a shaman who drinks of its foul fluids feels magical knowledge burn through their brain. Yet the cauldron squeals always with idiot hunger, and there is a price to be paid for the arcane power it bestows",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    },
+    {
+      "name": "SCRAPSKUTTLE’S ARACHNACAULDRON",
+      "faction": "gloomspite gitz",
+      "warscroll": "•\nGLOOMSPITE GITZ WARSCROLL\n•\nSCRAPSKUTTLE’S ARACHNACAULDRON\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpider Legs\t2\t4+\t3+\t-\t2\n\tYour Hero Phase\t\t\nBLESSINGS OF THE CAULDRON: Scrapskuttle’s Arachnacauldron grants great arcane power to the one brave or mad enough to call upon its aid.\n\n\n\nDeclare: Pick a friendly GLOOMSPITE GITZ WIZARD within 1\" of this MANIFESTATION to be the target.\n\nEffect: Add 1 to the target’s power level until the start of your next turn.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n8\"\n6\n6+\n7+\n6+\nFirst comes a weird whispering, a rising scrape and skitter like a wind through dry leaves. Then the Scuttletide spills out onto the battlefield, sorcerous spiders by the thousand squeezing from cracks in the ground and surging from shadows and undergrowth to overrun and frenziedly bite everything in their path.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpider Legs\t2\t4+\t3+\t-\t2\n\tYour Hero Phase\t\t\nBLESSINGS OF THE CAULDRON: Scrapskuttle’s Arachnacauldron grants great arcane power to the one brave or mad enough to call upon its aid.\n\n\n\nDeclare: Pick a friendly GLOOMSPITE GITZ WIZARD within 1\" of this MANIFESTATION to be the target.\n\nEffect: Add 1 to the target’s power level until the start of your next turn.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ\n\n\n\n\t\t\n\t\n8\"\n6\n6+\n7+\n6+\nFirst comes a weird whispering, a rising scrape and skitter like a wind through dry leaves. Then the Scuttletide spills out onto the battlefield, sorcerous spiders by the thousand squeezing from cracks in the ground and surging from shadows and undergrowth to overrun and frenziedly bite everything in their path.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Spider Legs",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nDESTRUCTION, GLOOMSPITE GITZ",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DESTRUCTION",
+        "GLOOMSPITE GITZ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "faction": "fyreslayers",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "AURIC FLAMEKEEPER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC FLAMEKEEPER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBrazier Axe\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 80\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nMASTERFLAME RUNE: A Flamekeeper’s sacred symbol of office can harness the power within ur-gold runes of fallen warriors to bestow blessings of Grimnir upon their brethren.\n\n\n\nDeclare: If any friendly units have been destroyed during the battle, pick a friendly FYRESLAYERS INFANTRY unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll is equal to or less than the number of FYRESLAYERS units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\nGrimnir’s Grit: The target has WARD (5+).\n\nGrimnir’s Resolve: Add 2 to charge rolls for the target.\n\nGrimnir’s Vengeance: Add 1 to the Damage characteristic of the target’s melee weapons.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nGlorious lodge leaders and warriors both, the Auric Runefathers take to battle with the fury of Grimnir burning in their very veins. So fearsome are these grizzled and venerable kings that enemies have been known to flee rather than trade blows with a Runefather’s greataxe. Each one carries a mountain of responsibility upon their broad shoulders, ensuring their lodge receives a steady flow of ur-gold through which it can release the essence of their dead god. A Runefather’s rule is measured by foes they have defeated and ur gold gathered during their reign. Many of the riches and artefacts they accrue are sealed in vaults to which they alone bear the key. As a leader that has proven themselves the most worthy Runeson of their many siblings and who has won glory a hundred times over, Runefathers are formidable warlords, their battle-lust tempered with experience. The lordly presence of a Runefather, surrounded by the bravest and most capable warriors of the lodge, inspires the warbands of the fyrd to fight even harder. Only the commands of a Runefather can halt the wild fury of Berzerkers and boost the morale of their warriors even in the most gruelling battles of attrition.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBrazier Axe\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 80\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "80",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FYRESLAYERS"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nMASTERFLAME RUNE: A Flamekeeper’s sacred symbol of office can harness the power within ur-gold runes of fallen warriors to bestow blessings of Grimnir upon their brethren.\n\n\n\nDeclare: If any friendly units have been destroyed during the battle, pick a friendly FYRESLAYERS INFANTRY unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. If the roll is equal to or less than the number of FYRESLAYERS units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\nGrimnir’s Grit: The target has WARD (5+).\n\nGrimnir’s Resolve: Add 2 to charge rolls for the target.\n\nGrimnir’s Vengeance: Add 1 to the Damage characteristic of the target’s melee weapons.",
+      "abilities": [
+        {
+          "name": "MASTERFLAME RUNE",
+          "type": "Once Per Turn",
+          "description": "A Flamekeeper’s sacred symbol of office can harness the power within ur-gold runes of fallen warriors to bestow blessings of Grimnir upon their brethren.\nDeclare: If any friendly units have been destroyed during the battle, pick a friendly FYRESLAYERS INFANTRY unit wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. If the roll is equal to or less than the number of FYRESLAYERS units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\nGrimnir’s Grit: The target has WARD (5+).\nGrimnir’s Resolve: Add 2 to charge rolls for the target.\nGrimnir’s Vengeance: Add 1 to the Damage characteristic of the target’s melee weapons."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Brazier Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "AURIC RUNEFATHER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC RUNEFATHER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLatchkey Grandaxe\t4\t3+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\n\n\n\tOnce Per Battle (Army), Deployment Phase\t\t\nROYAL RETINUE: Auric Runefathers go to battle flanked by the most skilled warriors in the lodge, who are sworn to protect him from harm.\n\n\n\nDeclare: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit within this unit’s combat range to be the royal retinue.\n\nEffect: For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has WARD (4+).\n\n\n\tEnd of Any Turn\t\t\nCOMMANDING PRESENCE: The presence of a Runefather in the Fyreslayer battleline bolsters the warriors’ already considerable will, ensuring that the doughty duardin will hold their ground and slog it out with any foe.\n\n\n\nEffect: Add the current battle round number to the control scores of friendly FYRESLAYERS INFANTRY units wholly within 12\" of this unit for the rest of the turn.\n\n\nKEYWORDS\n\tWARMASTER, HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nAuric Runemasters are revered high priests of a lodge’s Zharrgrim. It is they who craft the ur-gold runes that are hammered into Fyreslayer flesh, granting the bearer a sliver of the power of Grimnir. Auric Runemasters are attuned to their deity like no other and their ability to detect deposits of ur-gold is unmatched. Unlike a Runesmiter, a Runemaster has tempered their fiery nature and draws upon their connection to Grimnir’s divine power to offer invaluable counsel to their Runefather. Not even the most rash of lodge leaders would make decisions on matters of ur-gold or war without first consulting their Runemaster. The role of spiritual advisor, however, does not mean that a Runemaster is a peaceful individual. Rather, they are able to think with a rational head while channelling emotions into manifestations of blazing magmic energy. Each Runemaster carries a brazier-staff lit by the flames of his magmahold’s master forge. By slamming the base of their staff upon the ground, the battlefield cracks asunder and magma surges up to consume the foe. The Runemaster can also conjure walls of white-hot incandescence from the molten depths to block the advance of invaders.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLatchkey Grandaxe\t4\t3+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Grimnir’s Chosen, Any FYRESLAYERS"
+      },
+      "abilities_text": "Once Per Battle (Army), Deployment Phase\t\t\nROYAL RETINUE: Auric Runefathers go to battle flanked by the most skilled warriors in the lodge, who are sworn to protect him from harm.\n\n\n\nDeclare: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit within this unit’s combat range to be the royal retinue.\n\nEffect: For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has WARD (4+).\n\n\n\tEnd of Any Turn\t\t\nCOMMANDING PRESENCE: The presence of a Runefather in the Fyreslayer battleline bolsters the warriors’ already considerable will, ensuring that the doughty duardin will hold their ground and slog it out with any foe.\n\n\n\nEffect: Add the current battle round number to the control scores of friendly FYRESLAYERS INFANTRY units wholly within 12\" of this unit for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "ROYAL RETINUE",
+          "type": "Once Per Battle",
+          "description": "Auric Runefathers go to battle flanked by the most skilled warriors in the lodge, who are sworn to protect him from harm.\nDeclare: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit within this unit’s combat range to be the royal retinue.\nEffect: For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has WARD (4+).\n\tEnd of Any Turn\t\t\nCOMMANDING PRESENCE: The presence of a Runefather in the Fyreslayer battleline bolsters the warriors’ already considerable will, ensuring that the doughty duardin will hold their ground and slog it out with any foe.\nEffect: Add the current battle round number to the control scores of friendly FYRESLAYERS INFANTRY units wholly within 12\" of this unit for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Latchkey Grandaxe",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WARMASTER, HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "WARMASTER",
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "AURIC RUNEMASTER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC RUNEMASTER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBrazier Staff\t3\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 180\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\n\n\n\tPassive\t\t\nHIGH PRIEST OF THE ZHARRGRIM: The Zharrgrim order of every Fyreslayer lodge is led by an Auric Runemaster, a revered individual attuned to their deity like no other.\n\n\n\nEffect: Each time a PRAYER chanted by this unit is answered, this unit gains a magmic power token.\n\n\n\tReaction: You declared an Ur-gold Rune ability\t\t\nMASTER OF THE RUNES: Drawing upon the divine power released by sacred battle, Runemasters are able to awaken the full potential of their ur-gold runes.\n\n\n\nEffect: Remove 3 of this unit’s magmic power tokens. If you do so, apply the effect below that corresponds to the UR-GOLD RUNE ability that was used:\n\nRune of Fury: For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly FYRESLAYERS units while they have STRIKE-FIRST.\n\nRune of Fiery Determination: Add 1 to save rolls for friendly FYRESLAYERS units for the rest of the battle round.\n\nRune of Relentless Zeal: Add 1 to run rolls and charge rolls for friendly FYRESLAYERS units for the rest of the battle round.\n\nRune of Searing Heat: Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\n\nRune of Farsight: Increase the range of the ‘Rune of Farsight’ ability to 16\".\n\n\nKEYWORDS\n\tHERO, PRIEST (2), INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nThe prayers of an Auric Runesmiter are a war cry and their blessings are blazing coronas of flame. Within the thick of the fighting, their chants become burning energy made manifest, for battle is the domain of their ancestral god Grimnir. These members of the Zharrgrim priesthood are responsible for accruing ur-gold, and will take to the fore of battle to deliver their sermons to the warriors fighting to retrieve it. With shouted tales of ancestral heroics, their own battle-joy swells until divine energy sparks out from them in waves. Any warriors around the Runesmiters are inspired by their rumbling chants, filling them with vigour and righteous fury. This causes their ur-gold runes to blaze and sparkle as Grimnir’s essence responds in kind, filling their bearers with fell-handed power. The Runesmiters have a deep knowledge of metal and rock thanks to their affinity with their holy fires. As a result, many have developed other, more elemental powers. They can control magmic forces, summon cinderstorms, and even cloak the claws of Magmadroths in flame. Most crucially, they can command the tide of battle by melting through solid rock and boring temporary tunnels for their Fyreslayer kin to charge through, allowing them to strike from an unexpected quarter.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBrazier Staff\t3\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 180\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "180",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Grimnir’s Chosen, Any FYRESLAYERS"
+      },
+      "abilities_text": "Passive\t\t\nHIGH PRIEST OF THE ZHARRGRIM: The Zharrgrim order of every Fyreslayer lodge is led by an Auric Runemaster, a revered individual attuned to their deity like no other.\n\n\n\nEffect: Each time a PRAYER chanted by this unit is answered, this unit gains a magmic power token.\n\n\n\tReaction: You declared an Ur-gold Rune ability\t\t\nMASTER OF THE RUNES: Drawing upon the divine power released by sacred battle, Runemasters are able to awaken the full potential of their ur-gold runes.\n\n\n\nEffect: Remove 3 of this unit’s magmic power tokens. If you do so, apply the effect below that corresponds to the UR-GOLD RUNE ability that was used:\n\nRune of Fury: For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly FYRESLAYERS units while they have STRIKE-FIRST.\n\nRune of Fiery Determination: Add 1 to save rolls for friendly FYRESLAYERS units for the rest of the battle round.\n\nRune of Relentless Zeal: Add 1 to run rolls and charge rolls for friendly FYRESLAYERS units for the rest of the battle round.\n\nRune of Searing Heat: Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\n\nRune of Farsight: Increase the range of the ‘Rune of Farsight’ ability to 16\".",
+      "abilities": [
+        {
+          "name": "HIGH PRIEST OF THE ZHARRGRIM",
+          "type": "Passive",
+          "description": "The Zharrgrim order of every Fyreslayer lodge is led by an Auric Runemaster, a revered individual attuned to their deity like no other.\nEffect: Each time a PRAYER chanted by this unit is answered, this unit gains a magmic power token."
+        },
+        {
+          "name": "MASTER OF THE RUNES",
+          "type": "Reaction",
+          "description": "Drawing upon the divine power released by sacred battle, Runemasters are able to awaken the full potential of their ur-gold runes.\nEffect: Remove 3 of this unit’s magmic power tokens. If you do so, apply the effect below that corresponds to the UR-GOLD RUNE ability that was used:\nRune of Fury: For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly FYRESLAYERS units while they have STRIKE-FIRST.\nRune of Fiery Determination: Add 1 to save rolls for friendly FYRESLAYERS units for the rest of the battle round.\nRune of Relentless Zeal: Add 1 to run rolls and charge rolls for friendly FYRESLAYERS units for the rest of the battle round.\nRune of Searing Heat: Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\nRune of Farsight: Increase the range of the ‘Rune of Farsight’ ability to 16\"."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Brazier Staff",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, PRIEST (2), INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "HERO",
+        "PRIEST (2)",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "AURIC RUNESMITER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC RUNESMITER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLatch-axe\t4\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\n\n\n\tDeployment Phase\t\t\nMAGMIC TUNNELLING: A Runesmiter standing upon stone can command the rock to allow them passage.\n\n\n\nDeclare: Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.\n\nEffect: Set up those units in reserve underground. They have now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tYour Hero Phase\t\t\nEMERGENCE: The ground opens up to reveal the Runesmiter and their entourage.\n\n\n\nDeclare: Pick this unit if it is underground.\n\nEffect: Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up underground with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tHERO, PRIEST (1), INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nThe fury of youth blazes in the blood of the Auric Runesons. Fyreslayer tradition maintains that when a Runefather perishes, the most capable of his offspring will inherit rulership of the lodge. An Auric Runeson must prove their worth constantly if they wish to outshine their many siblings. This ruthless hunger for glory leads them to recklessly seek out the part of the battlefield where the fighting is thickest – and their eagerness for the most challenging fights often leads them to plunge into danger with a fearlessness remarkable even for Fyreslayers. Seeking to forge their own legend, many Auric Runesons will strike out alone with a band of their closest followers. On their travels they will earn great bounties of ur-gold and hunt down the most ferocious monsters to slay, often returning to their Runefather with severed heads or stripped hides to display as trophies. Each is trained from youth with the artefact weapons of their ancestors, making each a powerhouse in their own right that will only grow more devastating with age and experience. It is an honour to bear these weapons, and Runesons vie to be worthy of their legendary names.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLatch-axe\t4\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\n\n\n\tDeployment Phase\t\t\nMAGMIC TUNNELLING: A Runesmiter standing upon stone can command the rock to allow them passage.\n\n\n\nDeclare: Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.\n\nEffect: Set up those units in reserve underground. They have now been deployed.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Latch-axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "DEPLOY",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "AURIC RUNESON",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC RUNESON\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tAncestral Weapons\nAnti-MONSTER (+1 Rend)\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 90\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Grimnir’s Chosen.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nDAUNTLESS ASSAULT: Eager to prove themselves in battle, Auric Runesons are at their best leading from the front lines alongside their allies.\n\n\n\nEffect: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.\n\n\n\tPassive\t\t\nFEARLESS CHARGE: Fearless and bold, Auric Runesons show their devotion to Grimnir with daring assaults and furious charges.\n\n\n\nEffect: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly FYRESLAYERS INFANTRY units while they are wholly within 18\" of this unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n5\n6+\nAncestral reverence is at the centre of duardin culture, and the Fyreslayers are no different. It is the sacred task of the Battlesmith to rouse their kin, both around the fire and in the heat of battle, by chanting the great sagas of their forebears. In turn, the fyrds fight ever harder, forging their own legends for the Battlesmith to observe and record. Of course, to inspire the front lines in such a way demands incredible fighting prowess of the Battlesmiths. Each is handpicked by a lodge’s Runefather from amidst its finest forge workers, ensuring they possess immense strength and a knack for slicing up foes with a fyresteel axe. They are expected to strike their own icons of Grimnir to hold aloft in battle, and the sight of such fearsome totems stoke the inner flames of all Fyreslayers and rally them around it with renewed strength. Any warriors within earshot of a Battlesmith booming legends of old finds themselves rekindled in spirit, their ur-gold runes blazing with Grimnir’s power.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAncestral Weapons\nAnti-MONSTER (+1 Rend)\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 90\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Grimnir’s Chosen.",
+      "stats": {
+        "unit_size": "1",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Grimnir’s Chosen, Any FYRESLAYERS",
+        "notes": "This HERO can join an eligible regiment as Grimnir’s Chosen."
+      },
+      "abilities_text": "Reaction: You declared a FIGHT ability for this unit\t\t\nDAUNTLESS ASSAULT: Eager to prove themselves in battle, Auric Runesons are at their best leading from the front lines alongside their allies.\n\n\n\nEffect: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved.\n\n\n\tPassive\t\t\nFEARLESS CHARGE: Fearless and bold, Auric Runesons show their devotion to Grimnir with daring assaults and furious charges.\n\n\n\nEffect: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly FYRESLAYERS INFANTRY units while they are wholly within 18\" of this unit.",
+      "abilities": [
+        {
+          "name": "DAUNTLESS ASSAULT",
+          "type": "Reaction",
+          "description": "Eager to prove themselves in battle, Auric Runesons are at their best leading from the front lines alongside their allies.\nEffect: Pick a friendly non-HERO FYRESLAYERS INFANTRY unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved."
+        },
+        {
+          "name": "FEARLESS CHARGE",
+          "type": "Passive",
+          "description": "Fearless and bold, Auric Runesons show their devotion to Grimnir with daring assaults and furious charges.\nEffect: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly FYRESLAYERS INFANTRY units while they are wholly within 18\" of this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ancestral Weapons Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-MONSTER (+1 Rend)"
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "BATTLESMITH",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nBATTLESMITH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tAncestral Battle-axe\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.\n\n\n\tPassive\t\t\nICON OF GRIMNIR: The Battlesmith raises their icon of Grimnir and recounts tales of past glories, inspiring their allies and setting their ur-gold runes ablaze so that they might fight until the bitter end.\n\n\n\nEffect: Ignore negative modifiers to the control scores of friendly FYRESLAYERS units while they are wholly within 12\" of this unit.\n\n\n\tPassive\t\t\nBARD OF THE LODGE: Standing defiant in front of the enemy, a Battlesmith recites tales of the lodge’s glorious history, rallying the warriors around them.\n\n\n\nEffect: If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nHacking through foes in an arc of fire and splattering blood, the Doomseekers fight with no regard for their own safety. These reckless warriors have sworn the barazakdum, or doom-oath in the Azyrite tongue, and have departed in search of a death worthy of legend. Each Doomseeker will make this vow for a different reason. Some will do so to restore their honour after breaking a vow or failing in their duty. A Doomseeker will take on any foe, no matter how outmatched they might be. Their life no longer holds any value other than to die a meaningful death, so these warriors will slash and maim until their last breath rattles in their lungs. Before setting off from their lodge for the last time, a Doomseeker will forge themselves a final weapon using the ever-burning flames of their master forge. This creates a weapon that is eternally wreathed in that flame, allowing one final connection between a Doomseeker and their estranged kin. They also carry a runic war-iron in their off hand that absorbs slivers of their rampant energy as they fight, allowing them to become more powerful even as they sustain wounds that should weaken them. When the war-iron glows white-hot, as if fresh from the forge-fire, a Doomseeker is surely at their most dangerous.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAncestral Battle-axe\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FYRESLAYERS",
+        "notes": "This HERO regiment as can join an eligible Grimnir’s Chosen."
+      },
+      "abilities_text": "Passive\t\t\nICON OF GRIMNIR: The Battlesmith raises their icon of Grimnir and recounts tales of past glories, inspiring their allies and setting their ur-gold runes ablaze so that they might fight until the bitter end.\n\n\n\nEffect: Ignore negative modifiers to the control scores of friendly FYRESLAYERS units while they are wholly within 12\" of this unit.\n\n\n\tPassive\t\t\nBARD OF THE LODGE: Standing defiant in front of the enemy, a Battlesmith recites tales of the lodge’s glorious history, rallying the warriors around them.\n\n\n\nEffect: If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "abilities": [
+        {
+          "name": "ICON OF GRIMNIR",
+          "type": "Passive",
+          "description": "The Battlesmith raises their icon of Grimnir and recounts tales of past glories, inspiring their allies and setting their ur-gold runes ablaze so that they might fight until the bitter end.\nEffect: Ignore negative modifiers to the control scores of friendly FYRESLAYERS units while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "BARD OF THE LODGE",
+          "type": "Passive",
+          "description": "Standing defiant in front of the enemy, a Battlesmith recites tales of the lodge’s glorious history, rallying the warriors around them.\nEffect: If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ancestral Battle-axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "DOOMSEEKER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nDOOMSEEKER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDoomseeker Weapons\t5\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 80\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.\n\n\n\tDeployment Phase\t\t\nOATHBOUND: A Doomseeker chooses their quarry and shouts a vow to Grimnir that they will either destroy the enemy or die trying.\n\n\n\nDeclare: Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.\n\nEffect: Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry.\nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved.\n\n\n\tPassive\t\t\nRUNIC POWER: As a Doomseeker gets closer to their fate, they call upon the power of their many ur-gold runes, ensuring either their victory or that they go down in a final blaze of glory.\n\n\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n6\n5+\n2\n6+\nTo be a Grimhold Exile is to become an orphan of war, the last survivor of a magmahold that has fallen to ruin. Whilst many Fyreslayers would break upon the advent of such tragedy, these Exiles are souls of a rarer breed: duardin whose resolve cannot be broken no matter the unthinkable grief they have suffered. They are not deathseekers, but agents of retribution, determined to ensure the legacy of their people survives. When battle is joined, Grimhold Exiles transform into roaring agents of vengeance, with each blow from their hammers carrying Grimnir’s own blazing wrath. An Exile’s hammers are imbued with a portion of the Zharrkhul – the legendary Master Flame, ignited during the ancestor-god’s violent demise, that burns at the heart of each magmahold. Along with the ur-gold runes they stamp into their bodies, the Master Flame is the closest connection Grimnir’s cult have to their fallen deity. Some Grimhold Exiles seek to one day found a new magmahold, using the fragment of the Zharrkhul they carry to light the forge temple at such a stronghold’s heart. All Grimhold Exiles swiftly grow into formidable warriors – their ur-gold runes seem to blaze all the brighter, as if the deepest reserves of power locked within are coaxed out by the glow of the Master Flame.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDoomseeker Weapons\t5\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 80\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.\n\n\n\tDeployment Phase\t\t\nOATHBOUND: A Doomseeker chooses their quarry and shouts a vow to Grimnir that they will either destroy the enemy or die trying.\n\n\n\nDeclare: Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.\n\nEffect: Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry.\nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved.",
+      "stats": {
+        "unit_size": "1",
+        "points": "80",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FYRESLAYERS"
+      },
+      "abilities_text": "Passive\t\t\nRUNIC POWER: As a Doomseeker gets closer to their fate, they call upon the power of their many ur-gold runes, ensuring either their victory or that they go down in a final blaze of glory.\n\n\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.",
+      "abilities": [
+        {
+          "name": "RUNIC POWER",
+          "type": "Passive",
+          "description": "As a Doomseeker gets closer to their fate, they call upon the power of their many ur-gold runes, ensuring either their victory or that they go down in a final blaze of glory.\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Doomseeker Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "GRIMHOLD EXILE",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nGRIMHOLD EXILE\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFyre-rune Hammers\t5\t3+\t3+\t2\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 90\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.\n\n\n\tOnce Per Battle, Any Combat Phase\t\t\nLAST OF THE LODGE-FIRE: In desperate need, a Grimhold Exile can draw upon the embers of the Zharrkhul by striking their hammer-faces together, setting a powerful foe ablaze with the flames of Grimnir’s wrath.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target.\nKEYWORDS\tCORE, ATTACK, FIGHT\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nHONOUR TO GRIMNIR!: Grimhold Exiles exhort their fellow duardin to fight with the vigour of their fallen god.\n\n\n\nDeclare: Pick up to 3 friendly FYRESLAYERS INFANTRY units wholly within 12\" of this unit to be the targets.\n\nEffect: You can re-roll charge rolls for the targets for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n5\n5+\n2\n6+\nA Grimwrath Berzerker is the greatest warrior of their lodge, a surly champion touched by the volatile battle-fury of Grimnir. Wielding a two handed fyrestorm greataxe, these grizzled duardin cut a swathe of ruin through their foes, spitting insults and blood-curdling threats all the while. These truculent warriors are solitary in nature, eschewing the camaraderie of their kin and refusing to answer to anyone but the lodge’s Runefather. This may be due to the source of their power – dozens of ur-gold runes are embedded into their bodies, imbuing them with the strength of an inferno and the divine rage of Grimnir himself. Most Fyreslayers cannot bear more than a few ur-gold runes at a time, and only the few that survive and overcome the gruelling, often lethal, Tests of Wrath are said to have the soul of a Grimwrath. The only place they truly feel at peace is in the heart of battle, entering a state of such focused fury that their greataxe becomes a fiery blur of motion.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFyre-rune Hammers\t5\t3+\t3+\t2\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 90\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO regiment as can join an eligible Grimnir’s Chosen.",
+      "stats": {
+        "unit_size": "1",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FYRESLAYERS",
+        "notes": "This HERO regiment as can join an eligible Grimnir’s Chosen."
+      },
+      "abilities_text": "Once Per Battle, Any Combat Phase\t\t\nLAST OF THE LODGE-FIRE: In desperate need, a Grimhold Exile can draw upon the embers of the Zharrkhul by striking their hammer-faces together, setting a powerful foe ablaze with the flames of Grimnir’s wrath.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "LAST OF THE LODGE-FIRE",
+          "type": "Once Per Battle",
+          "description": "In desperate need, a Grimhold Exile can draw upon the embers of the Zharrkhul by striking their hammer-faces together, setting a powerful foe ablaze with the flames of Grimnir’s wrath.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fyre-rune Hammers",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, ATTACK, FIGHT",
+      "keywords": [
+        "CORE",
+        "ATTACK",
+        "FIGHT"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "GRIMWRATH BERZERKER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nGRIMWRATH BERZERKER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFyrestorm Greataxe\t5\t3+\t3+\t2\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Grimnir’s Chosen.\n\n\n\tDeployment Phase\t\t\nGRIMWRATH OATHS: Before battle, each Grimwrath Berzerker swears a sacred oath to Grimnir that they will fulfil a certain deed in his honour that day.\n\n\n\nEffect: Pick 1 of the following oaths for this unit to swear:\n\n‘I will guard them with my life!’: While this unit is wholly within 6\" of another friendly FYRESLAYERS HERO:\n\n\nAdd 1 to hit rolls for this unit’s attacks.\n\n\nAdd 1 to ward rolls for this unit.\n\nIf a friendly FYRESLAYERS HERO wholly within 6\" of this unit is destroyed, this effect no longer applies.\n\n‘I will not be stopped!’: Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies.\n\n\n\tOnce Per Battle, Any Combat Phase\t\t\nBATTLE-FURY: Hewing left and right with their greataxe, a Grimwrath Berzerker enters a state of singleminded frenzy.\n\n\n\nEffect: If this unit is in combat, it can use 2 FIGHT abilities this phase. After the first is used, however, this unit has STRIKE-LAST for the rest of the phase.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\nMonster Hero\n\n\n\t\t\n\t\n10\"\n14\n4+\n5\n6+\nGlorious lodge leaders and warriors both, the Auric Runefathers take to battle with the fury of Grimnir burning in their very veins. So fearsome are these grizzled and venerable kings that enemies have been known to flee rather than trade blows with a Runefather’s greataxe. Each one carries a mountain of responsibility upon their broad shoulders, ensuring their lodge receives a steady flow of ur-gold through which it can release the essence of their dead god. A Runefather’s rule is measured by foes they have defeated and ur gold gathered during their reign. Many of the riches and artefacts they accrue are sealed in vaults to which they alone bear the key. Particularly storied Runefathers sometimes ride to battle on the backs of fire-breathing Magmadroths. These great salamanders are the descendants of Vulcatrix, the beast that died in battle with Grimnir centuries before. It is said only those who possess exceptional will and prowess can tame these creatures. Those that ride to war atop a Magmadroth command all attention on the battlefield and can single-handedly break apart enemy flanks with sheets of flame and arcing blows – even the superheated blood of the Magmadroth is a volatile threat should the enemy’s blades cut deep.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFyrestorm Greataxe\t5\t3+\t3+\t2\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Grimnir’s Chosen.\n\n\n\tDeployment Phase\t\t\nGRIMWRATH OATHS: Before battle, each Grimwrath Berzerker swears a sacred oath to Grimnir that they will fulfil a certain deed in his honour that day.\n\n\n\nEffect: Pick 1 of the following oaths for this unit to swear:\n\n‘I will guard them with my life!’: While this unit is wholly within 6\" of another friendly FYRESLAYERS HERO:\n\n\nAdd 1 to hit rolls for this unit’s attacks.\n\n\nAdd 1 to ward rolls for this unit.\n\nIf a friendly FYRESLAYERS HERO wholly within 6\" of this unit is destroyed, this effect no longer applies.\n\n‘I will not be stopped!’: Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies.",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any FYRESLAYERS"
+      },
+      "abilities_text": "Once Per Battle, Any Combat Phase\t\t\nBATTLE-FURY: Hewing left and right with their greataxe, a Grimwrath Berzerker enters a state of singleminded frenzy.\n\n\n\nEffect: If this unit is in combat, it can use 2 FIGHT abilities this phase. After the first is used, however, this unit has STRIKE-LAST for the rest of the phase.",
+      "abilities": [
+        {
+          "name": "BATTLE-FURY",
+          "type": "Once Per Battle",
+          "description": "Hewing left and right with their greataxe, a Grimwrath Berzerker enters a state of singleminded frenzy.\nEffect: If this unit is in combat, it can use 2 FIGHT abilities this phase. After the first is used, however, this unit has STRIKE-LAST for the rest of the phase."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fyrestorm Greataxe",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\nMonster Hero",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN AURIC RUNESON",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nSCOURGE OF GHYRAN AURIC RUNESON\nON MAGMADROTH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tRoaring Fyrestream\nAnti-INFANTRY (+1 Rend), Companion\t10\"\t4\t3+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tAncestral Weapons\nAnti-MONSTER (+1 Rend)\t\t5\t3+\t3+\t1\t2\n\tMagmadroth’s Claws and Horns\nCompanion\t\t6\t4+\t2+\t1\t2\n\tMagmadroth’s Blazing Maw\nCompanion\t\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 340\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Vulcatrix’s Chosen.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4.\n\n\n\tOnce Per Battle, Deployment Phase\t\t\nFIRE, BLOOD AND VENGEANCE: Should their sire be imperilled, an Auric Runeson will fly into a berserk rage. Their mount echoes their fury, for the Magmadroth’s own progenitor is likely to be in just as much danger.\n\n\n\nDeclare: Pick a friendly Auric Runefather on Magmadroth on the battlefield to be the target.\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons, including Companion weapons, while the target is in combat, damaged or destroyed.\n\n\n\tPassive\t\t\nVOLCANIC BLOOD: Born of fire and flame, Magmadroths pulse with the throbbing heat of the volcanic caverns in which they make their fyrenests.\n\n\n\nEffect: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nCALAMITOUS CRASH: The Magmadroth raises its forelegs and brings them smashing down, causing a rippling eruption of earth and flame that sends lesser foes tumbling into magma-filled lacerations in the ground.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKEYWORDS\tRAMPAGE\n\n\nKEYWORDS\n\tHERO, MONSTER, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN, MAGMADROTH\nInfantry\n\n\n\t\t\n\t\n4\"\n2\n6+\n1\n6+\nThe warriors of the Auric Hearthguard are renowned for their steadfast bravery – holding ground no matter how dire the circumstances and facing even certain doom without abandoning their duty. They are tasked with guarding the forge-temple of their magmahold where ur-gold is stored and runes are forged. The absolute importance of this sacred site leads the Zharrgrim priesthood to handpick its guardians from the hold’s ranks, chosen for their implacability as much as their martial prowess. Small groups of them will often fight as bodyguards to the Zharrgrim priests, allowing their wards to safely retrieve more ur-gold deposits. Of course, warriors of the Auric Hearthguard are as fiery and belligerent as any of their kin. However, they channel their battle-fury not into wild swings and reckless charges but into focusing the flaming devastation of their favoured weapon: the magmapike. These ornate hand-cannons spew a ceaseless barrage of superheated lava at their target, each blazing missile capable of melting through plate armour and igniting hair and flesh. Should any foes survive this ferocious hail of magma and engage the Auric Hearthguard in combat, they will be quickly dispatched with the blades affixed to the edges and hafts of these formidable weapons.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tRoaring Fyrestream\nAnti-INFANTRY (+1 Rend), Companion\t10\"\t4\t3+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAncestral Weapons\nAnti-MONSTER (+1 Rend)\t\t5\t3+\t3+\t1\t2\n\tMagmadroth’s Claws and Horns\nCompanion\t\t6\t4+\t2+\t1\t2\n\tMagmadroth’s Blazing Maw\nCompanion\t\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 340\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Grimnir’s Chosen, Any FYRESLAYERS\nNotes: This HERO can join an eligible regiment as Vulcatrix’s Chosen.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "340",
+        "base_size": "120 × 92mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Grimnir’s Chosen, Any FYRESLAYERS"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4.\n\n\n\tOnce Per Battle, Deployment Phase\t\t\nFIRE, BLOOD AND VENGEANCE: Should their sire be imperilled, an Auric Runeson will fly into a berserk rage. Their mount echoes their fury, for the Magmadroth’s own progenitor is likely to be in just as much danger.\n\n\n\nDeclare: Pick a friendly Auric Runefather on Magmadroth on the battlefield to be the target.\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons, including Companion weapons, while the target is in combat, damaged or destroyed.\n\n\n\tPassive\t\t\nVOLCANIC BLOOD: Born of fire and flame, Magmadroths pulse with the throbbing heat of the volcanic caverns in which they make their fyrenests.\n\n\n\nEffect: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nCALAMITOUS CRASH: The Magmadroth raises its forelegs and brings them smashing down, causing a rippling eruption of earth and flame that sends lesser foes tumbling into magma-filled lacerations in the ground.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth’s Claws and Horns is 4."
+        },
+        {
+          "name": "FIRE, BLOOD AND VENGEANCE",
+          "type": "Once Per Battle",
+          "description": "Should their sire be imperilled, an Auric Runeson will fly into a berserk rage. Their mount echoes their fury, for the Magmadroth’s own progenitor is likely to be in just as much danger.\nDeclare: Pick a friendly Auric Runefather on Magmadroth on the battlefield to be the target.\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons, including Companion weapons, while the target is in combat, damaged or destroyed."
+        },
+        {
+          "name": "VOLCANIC BLOOD",
+          "type": "Passive",
+          "description": "Born of fire and flame, Magmadroths pulse with the throbbing heat of the volcanic caverns in which they make their fyrenests.\nEffect: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved."
+        },
+        {
+          "name": "CALAMITOUS CRASH",
+          "type": "Once Per Turn",
+          "description": "The Magmadroth raises its forelegs and brings them smashing down, causing a rippling eruption of earth and flame that sends lesser foes tumbling into magma-filled lacerations in the ground.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Roaring Fyrestream Anti-INFANTRY (+1 Rend),",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        },
+        {
+          "name": "Ancestral Weapons Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Anti-MONSTER (+1 Rend)"
+        },
+        {
+          "name": "Magmadroth’s Claws and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Magmadroth’s Blazing Maw",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "AURIC HEARTHGUARD",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nAURIC HEARTHGUARD\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tMagmapike\nShoot in Combat\t12\"\t2\t4+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tMagmapike\t\t1\t3+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nMOLTEN ROCKBOLTS: Enemies struck by magmapike bolts find their movements become increasingly sluggish as the burning rock cools and rapidly solidifies on their armour and flesh.\n\n\n\nEffect: Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n2\n6+\n1\n6+\nThe most skilled warriors of a magmahold are granted a place within the Hearthguard Berzerkers. These elite warriors are bodyguards to the royal family – the Auric Runefather and his Runesons. Hearthguard Berzerkers wield two-handed weapons, the better to keep the enemy at a distance from their ward. The deadly Berzerker broadaxe is a mighty weapon capable of splitting an ogor in two, while the flamestrike poleaxe features both a cleaving blade and a fiery brazier attached to the haft by a heavy chain. Those deemed skilled enough warriors to join the Hearthguard Berzerkers are first invited to partake in ceremonial battles. Known as the Trials of Grimfyre, they involve the slaying of a gauntlet of beasts and monsters. Those who survive are allowed to pledge their oath of service, and in return are gifted their fireblessed weapon from the Runefather himself. The trials are a reflection of the challenges that await these warriors, for they must be prepared to lay down their lives unquestioningly for their lieges every time the Fyreslayers march to battle.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tMagmapike\nShoot in Combat\t12\"\t2\t4+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMagmapike\t\t1\t3+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nMOLTEN ROCKBOLTS: Enemies struck by magmapike bolts find their movements become increasingly sluggish as the burning rock cools and rapidly solidifies on their armour and flesh.\n\n\n\nEffect: Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half.",
+      "abilities": [
+        {
+          "name": "MOLTEN ROCKBOLTS",
+          "type": "Passive",
+          "description": "Enemies struck by magmapike bolts find their movements become increasingly sluggish as the burning rock cools and rapidly solidifies on their armour and flesh.\nEffect: Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Magmapike",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Magmapike",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "HEARTHGUARD BERZERKER",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nHEARTHGUARD BERZERKER\nWITH BERZERKER BROADAXES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tBerzerker Broadaxe\t2\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nDUTY UNTO DEATH: Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\n\n\n\nEffect: While any friendly FYRESLAYERS INFANTRY HEROes are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tPassive\t\t\nFIRES OF VENGEANCE: Should one of the elders of the lodge be harmed while under the protection of Hearthguard Berzerkers, they are sent into such a vengeful rage that they become nigh unstoppable.\n\n\n\nEffect: While this unit is within the combat ranges of any damaged friendly FYRESLAYERS HEROES, add 1 to the Attacks characteristic of this unit’s melee weapons.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n2\n6+\n1\n6+\nThe most skilled warriors of a magmahold are granted a place within the Hearthguard Berzerkers. These elite warriors are bodyguards to the royal family – the Auric Runefather and his Runesons. Hearthguard Berzerkers wield two-handed weapons, the better to keep the enemy at a distance from their ward. The deadly Berzerker broadaxe is a mighty weapon capable of splitting an ogor in two, while the flamestrike poleaxe features both a cleaving blade and a fiery brazier attached to the haft by a heavy chain. Those deemed skilled enough warriors to join the Hearthguard Berzerkers are first invited to partake in ceremonial battles. Known as the Trials of Grimfyre, they involve the slaying of a gauntlet of beasts and monsters. Those who survive are allowed to pledge their oath of service, and in return are gifted their fireblessed weapon from the Runefather himself. The trials are a reflection of the challenges that await these warriors, for they must be prepared to lay down their lives unquestioningly for their lieges every time the Fyreslayers march to battle.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBerzerker Broadaxe\t2\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nDUTY UNTO DEATH: Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\n\n\n\nEffect: While any friendly FYRESLAYERS INFANTRY HEROes are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tPassive\t\t\nFIRES OF VENGEANCE: Should one of the elders of the lodge be harmed while under the protection of Hearthguard Berzerkers, they are sent into such a vengeful rage that they become nigh unstoppable.\n\n\n\nEffect: While this unit is within the combat ranges of any damaged friendly FYRESLAYERS HEROES, add 1 to the Attacks characteristic of this unit’s melee weapons.",
+      "abilities": [
+        {
+          "name": "DUTY UNTO DEATH",
+          "type": "Passive",
+          "description": "Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\nEffect: While any friendly FYRESLAYERS INFANTRY HEROes are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+)."
+        },
+        {
+          "name": "FIRES OF VENGEANCE",
+          "type": "Passive",
+          "description": "Should one of the elders of the lodge be harmed while under the protection of Hearthguard Berzerkers, they are sent into such a vengeful rage that they become nigh unstoppable.\nEffect: While this unit is within the combat ranges of any damaged friendly FYRESLAYERS HEROES, add 1 to the Attacks characteristic of this unit’s melee weapons."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Berzerker Broadaxe",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "HEARTHGUARD BERZERKERS",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nHEARTHGUARD BERZERKERS\nWITH FLAMESTRIKE POLEAXES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlamestrike Poleaxe\nCrit (Mortal)\t2\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nDUTY UNTO DEATH: Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\n\n\n\nEffect: While any friendly FYRESLAYERS INFANTRY HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tEnd of Any Turn\t\t\nSMOULDERING BRAZIERS: With each swing of a flamestrike poleaxe, the brazier chained to it arcs towards the foe, sparks and fire trailing in its wake.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n2\n5+\n1\n6+\nAt the fore of the Fyreslayer fyrds come the Vulkite Berzerkers, doughty warriors that form the heart of their army. Wielding fyresteel axes and war-picks, they hurl themselves into the thick of combat, roaring and laughing as they hew their enemies apart. Even when they are riddled with arrows and bleeding from half a dozen grievous wounds, the Vulkite Berzerkers will fight on, the light of Grimnir in their eyes and wide smiles upon their blood-spattered faces. The secret to these warriors’ terrifying resilience and battle-rage comes from the ur-gold runes that are ritually embedded in their flesh. These allow each Berzerker to channel the fury of Grimnir himself, augmenting the duardin’s physical prowess and resolve. When the latent power within these runes is fuelled by the rites of the Zharrgrim priests, the bearer’s martial skill reaches near supernatural levels. Many Vulkite Berzerkers wield weapons in each hand, the better to overwhelm their foes with a flurry of attacks. Others choose to bear war picks and bladed slingshields, the latter of which can be hurled as deadly missiles to catch unwary foes off guard.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFlamestrike Poleaxe\nCrit (Mortal)\t2\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 5      Points: 110\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nDUTY UNTO DEATH: Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\n\n\n\nEffect: While any friendly FYRESLAYERS INFANTRY HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\n\n\tEnd of Any Turn\t\t\nSMOULDERING BRAZIERS: With each swing of a flamestrike poleaxe, the brazier chained to it arcs towards the foe, sparks and fire trailing in its wake.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "abilities": [
+        {
+          "name": "DUTY UNTO DEATH",
+          "type": "Passive",
+          "description": "Hearthguard Berzerkers are sworn to protect their lodge and its masters until their dying breath.\nEffect: While any friendly FYRESLAYERS INFANTRY HEROES are wholly within this unit’s combat range, both this unit and those friendly units have WARD (5+).\n\tEnd of Any Turn\t\t\nSMOULDERING BRAZIERS: With each swing of a flamestrike poleaxe, the brazier chained to it arcs towards the foe, sparks and fire trailing in its wake.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Flamestrike Poleaxe Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "VULKITE BERZERKERS",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nVULKITE BERZERKERS\nWITH BLADED SLINGSHIELDS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFyresteel Weapons\t2\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 140\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nBERSERK FURY: No Fyreslayer will easily accept death’s embrace while their kin are still fighting.\n\n\n\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/10), WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\n\n\n\n\t\t\n\t\n4\"\n2\n6+\n1\n6+\nAt the fore of the Fyreslayer fyrds come the Vulkite Berzerkers, doughty warriors that form the heart of their army. Wielding fyresteel axes and war-picks, they hurl themselves into the thick of combat, roaring and laughing as they hew their enemies apart. Even when they are riddled with arrows and bleeding from half a dozen grievous wounds, the Vulkite Berzerkers will fight on, the light of Grimnir in their eyes and wide smiles upon their blood-spattered faces. The secret to these warriors’ terrifying resilience and battle-rage comes from the ur-gold runes that are ritually embedded in their flesh. These allow each Berzerker to channel the fury of Grimnir himself, augmenting a duardin’s physical prowess and resolve. When the latent power within these runes is fuelled by the rites of the Zharrgrim priests, the bearer’s martial skill reaches near supernatural levels. Many Vulkite Berzerkers wield weapons in each hand, the better to overwhelm their foes with a flurry of attacks. When they plunge deep into the fray, these warriors become a whirlwind of blades, arcing, spinning and hacking to send the limbs of their foes flying left and right.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFyresteel Weapons\t2\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 140\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "140",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nBERSERK FURY: No Fyreslayer will easily accept death’s embrace while their kin are still fighting.\n\n\n\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved.",
+      "abilities": [
+        {
+          "name": "BERSERK FURY",
+          "type": "Passive",
+          "description": "No Fyreslayer will easily accept death’s embrace while their kin are still fighting.\nEffect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the FIGHT ability has been resolved."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Fyresteel Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/10), WARD (6+)\nORDER, FYRESLAYERS, DUARDIN",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "VULKYN FLAMESEEKERS",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nVULKYN FLAMESEEKERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tVulkyn Weapons\nAnti-MONSTER (+1 Rend)\t3\t3+\t3+\t1\t1\n\tEmberteeth\nCrit (Mortal), Companion\t1\t3+\t3+\t-\t2\nBATTLE PROFILE\nUnit Size: 9      Points: 160\n\nMODEL\tBASE SIZE\nKyndledroth, Drothmaster, Drothblood Thane and Vulkyn Runefather\t32mm\n5 x Scalebreakers\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with Vulkyn Weapons.\n\n1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.\nThe champion is a Vulkyn Runefather and cannot replace their weapons.\n\n\n\tAny Combat Phase\t\t\nDROTHMASTERS: Vulkyn Flameseekers are skilled at dominating monstrous wild beasts.\n\n\n\nDeclare: Pick an enemy MONSTER in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s Companion melee weapons for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION (1/9), WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\nFaction Terrain\n\n\n\t\t\n\t\n-\n8\n3+\n0\n6+\nTotems in Grimnir or Vulcatrix’s image have long been raised during battle to instil courage in warriors and empower the runes embedded in their flesh. The Magmic Battleforge does this on a much larger scale. Formed in moments from molten blood of the land, the Battleforge is a manifestation of Grimnir’s fury fused with the white-hot fires of Vulcatrix. It takes the form of the duardin ancestor-god, burning bright with Aqshian flames, and inspires all Fyreslayers who look upon it. This mystic furnace can be summoned to a battlefield, where its elemental heat can ignite ur-gold runes and stoke the powers of the Zharrgrim. Drawing upon the powerful elemental energies burning within the Magmic Battleforge, a Zharrgrim priest casts clouds of cinders adrift on the air, imbuing those of their sacred order with power afresh. In times of need, a Zharrgrim priest may expend all of the Battleforge’s power, igniting the ur gold runes of their Fyreslayer kin and infusing the warriors with supernatural strength.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tVulkyn Weapons\nAnti-MONSTER (+1 Rend)\t3\t3+\t3+\t1\t1\n\tEmberteeth\nCrit (Mortal), Companion\t1\t3+\t3+\t-\t2",
+      "battle_profile_text": "Unit Size: 9      Points: 160\n\nMODEL\tBASE SIZE\nKyndledroth, Drothmaster, Drothblood Thane and Vulkyn Runefather\t32mm\n5 x Scalebreakers\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with Vulkyn Weapons.\n\n1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.\nThe champion is a Vulkyn Runefather and cannot replace their weapons.\n\n\n\tAny Combat Phase\t\t\nDROTHMASTERS: Vulkyn Flameseekers are skilled at dominating monstrous wild beasts.\n\n\n\nDeclare: Pick an enemy MONSTER in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s Companion melee weapons for the rest of the turn.",
+      "stats": {
+        "unit_size": "9",
+        "reinforced": "No"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Vulkyn Weapons Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Anti-MONSTER (+1 Rend), Crit (Mortal)"
+        },
+        {
+          "name": "Emberteeth Crit (Mortal),",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION (1/9), WARD (6+)\nORDER, FYRESLAYERS, DUARDIN\nFaction Terrain\n\n\n\t\t\n\t\n-\n8\n3+\n0\n6+\nTotems in Grimnir or Vulcatrix’s image have long been raised during battle to instil courage in warriors and empower the runes embedded in their flesh. The Magmic Battleforge does this on a much larger scale. Formed in moments from molten blood of the land, the Battleforge is a manifestation of Grimnir’s fury fused with the white-hot fires of Vulcatrix. It takes the form of the duardin ancestor-god, burning bright with Aqshian flames, and inspires all Fyreslayers who look upon it. This mystic furnace can be summoned to a battlefield, where its elemental heat can ignite ur-gold runes and stoke the powers of the Zharrgrim. Drawing upon the powerful elemental energies burning within the Magmic Battleforge, a Zharrgrim priest casts clouds of cinders adrift on the air, imbuing those of their sacred order with power afresh. In times of need, a Zharrgrim priest may expend all of the Battleforge’s power, igniting the ur gold runes of their Fyreslayer kin and infusing the warriors with supernatural strength.",
+      "keywords": [
+        "INFANTRY",
+        "WARD (6+)",
+        "DUARDIN"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "MAGMIC BATTLEFORGE",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nMAGMIC BATTLEFORGE\nBATTLE PROFILE\nUnit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable, Obscuring\n\n\n\tOnce Per Battle (Army), Your Hero Phase\t\t\nSPENDING THE FORGE: In times of need, a Zharrgrim priest may expend all of the Magmic Battleforge’s power, igniting the ur-gold runes of their Fyreslayer kin and infusing the warriors with strength.\n\n\n\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to expend the power of the forge.\n\nEffect: Heal (D3) each friendly FYRESLAYERS unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ ability for the rest of the battle.\n\n\n\tStart of Any Turn\t\t\nMOLTEN BLESSING: Drawing upon the powerful elemental energies of the Magmic Battleforge, a Zharrgrim priest casts clouds of cinders into the air, imbuing those of their sacred order with burning power.\n\n\n\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to be the target.\n\nEffect: Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had WIZARD (1).\n\n\nKEYWORDS\n\tFACTION TERRAIN, WARD (6+)\nORDER, FYRESLAYERS\nManifestation\n\n\n\t\t\n\t\n8\"\n10\n5+\n7+\n6+\nAt the peak of battle, if foes threaten to overwhelm the fyrd and the duardin are severely outnumbered, a Zharrgrim priest will begin a guttural chant with devastating results. This is the summons for a Molten Infernoth, an elemental manifestation that personifies the blazing wrath of Vulcatrix. As the war-chant grows in fury, this fiery avatar will come bursting out of the realm’s crust in a magmic swell of rock and flame. This ferocious entity lumbers across the battlefield, wading through solid earth as if it were water and leaving a glowing, igneous wake. It blasts enemies with raging torrents of lava that can immolate front lines in an instant. Its likeness to the ur‑droth godbeast Vulcatrix inspires all Fyreslayers that look upon it, causing them to fight ever harder, not wanting to shame Grimnir’s memory by appearing weak in the face of his killer. This elemental manifestation will stop at nothing to vanquish the Fyreslayer’s foes. As soon as the immediate threats are dealt with, it will melt its way across the battlefield in an unstoppable search for its next prey.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "Unit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Impassable, Obscuring",
+      "stats": {
+        "unit_size": "1",
+        "points": "0",
+        "base_size": "Use model"
+      },
+      "abilities_text": "Once Per Battle (Army), Your Hero Phase\t\t\nSPENDING THE FORGE: In times of need, a Zharrgrim priest may expend all of the Magmic Battleforge’s power, igniting the ur-gold runes of their Fyreslayer kin and infusing the warriors with strength.\n\n\n\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to expend the power of the forge.\n\nEffect: Heal (D3) each friendly FYRESLAYERS unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ ability for the rest of the battle.\n\n\n\tStart of Any Turn\t\t\nMOLTEN BLESSING: Drawing upon the powerful elemental energies of the Magmic Battleforge, a Zharrgrim priest casts clouds of cinders into the air, imbuing those of their sacred order with burning power.\n\n\n\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to be the target.\n\nEffect: Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had WIZARD (1).",
+      "abilities": [
+        {
+          "name": "SPENDING THE FORGE",
+          "type": "Once Per Battle",
+          "description": "In times of need, a Zharrgrim priest may expend all of the Magmic Battleforge’s power, igniting the ur-gold runes of their Fyreslayer kin and infusing the warriors with strength.\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to expend the power of the forge.\nEffect: Heal (D3) each friendly FYRESLAYERS unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ ability for the rest of the battle.\n\tStart of Any Turn\t\t\nMOLTEN BLESSING: Drawing upon the powerful elemental energies of the Magmic Battleforge, a Zharrgrim priest casts clouds of cinders into the air, imbuing those of their sacred order with burning power.\nDeclare: Pick a friendly FYRESLAYERS PRIEST within this terrain feature’s combat range to be the target.\nEffect: Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had WIZARD (1)."
+        }
+      ],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN, WARD (6+)\nORDER, FYRESLAYERS\nManifestation",
+      "keywords": [
+        "FACTION TERRAIN",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "MOLTEN INFERNOTH",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nMOLTEN INFERNOTH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tRaging Torrents of Lava\nShoot in Combat\t8\"\t2\t4+\t3+\t2\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tMolten Claws\nCrit (Mortal)\t\t6\t4+\t2+\t1\tD3\n\tEnd of Any Turn\t\t\nFLAMESCARRED: Those wounded by a Molten Infernoth are left scorched and writhing in pain.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this MANIFESTATION’s attacks to be the target.\n\nEffect: Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn.\n\n\nKEYWORDS\n\tMANIFESTATION, INVOCATION, FLY, WARD (6+)\nORDER, FYRESLAYERS\n\n\n\n\t\t\n\t\n-\n8\n3+\n7+\n6+\nBy calling upon the blazing heat of the realms beneath their feet, the Zharrgrim priests manipulate the battlefield in their allies’ favour. At a roared command, a Runic Fyrewall can be raised from the fiery chasms far beneath their soot-stained feet. These walls are formed of magma and gold that permanently lick with flames, suffused with the passionate energy of their summoner’s prayer. Glinting with runes, this scintillating barrier bars the enemy’s path and protects the flanks of the Fyreslayers’ fyrds as they press ever forward. The leaping flames of a Runic Fyrewall act as a barrier that only creatures born offire can pass. The advancing fyrd can clamber through them unharmed, a flame of newfound vigour lighting within them as they do so. The Runic Fyrewall’s flames resonate with the ur-gold runes embedded in nearby Fyreslayers as well, causing them to ignite and blaze with power.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tRaging Torrents of Lava\nShoot in Combat\t8\"\t2\t4+\t3+\t2\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMolten Claws\nCrit (Mortal)\t\t6\t4+\t2+\t1\tD3\n\tEnd of Any Turn\t\t\nFLAMESCARRED: Those wounded by a Molten Infernoth are left scorched and writhing in pain.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this MANIFESTATION’s attacks to be the target.\n\nEffect: Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn.\n\n\nKEYWORDS\n\tMANIFESTATION, INVOCATION, FLY, WARD (6+)\nORDER, FYRESLAYERS\n\n\n\n\t\t\n\t\n-\n8\n3+\n7+\n6+\nBy calling upon the blazing heat of the realms beneath their feet, the Zharrgrim priests manipulate the battlefield in their allies’ favour. At a roared command, a Runic Fyrewall can be raised from the fiery chasms far beneath their soot-stained feet. These walls are formed of magma and gold that permanently lick with flames, suffused with the passionate energy of their summoner’s prayer. Glinting with runes, this scintillating barrier bars the enemy’s path and protects the flanks of the Fyreslayers’ fyrds as they press ever forward. The leaping flames of a Runic Fyrewall act as a barrier that only creatures born offire can pass. The advancing fyrd can clamber through them unharmed, a flame of newfound vigour lighting within them as they do so. The Runic Fyrewall’s flames resonate with the ur-gold runes embedded in nearby Fyreslayers as well, causing them to ignite and blaze with power.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Raging Torrents of Lava",
+          "type": "ranged",
+          "range": "8\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Molten Claws Crit (Mortal)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "MANIFESTATION, INVOCATION, FLY, WARD (6+)\nORDER, FYRESLAYERS\n\n\n\n\t\t\n\t\n-\n8\n3+\n7+\n6+\nBy calling upon the blazing heat of the realms beneath their feet, the Zharrgrim priests manipulate the battlefield in their allies’ favour. At a roared command, a Runic Fyrewall can be raised from the fiery chasms far beneath their soot-stained feet. These walls are formed of magma and gold that permanently lick with flames, suffused with the passionate energy of their summoner’s prayer. Glinting with runes, this scintillating barrier bars the enemy’s path and protects the flanks of the Fyreslayers’ fyrds as they press ever forward. The leaping flames of a Runic Fyrewall act as a barrier that only creatures born offire can pass. The advancing fyrd can clamber through them unharmed, a flame of newfound vigour lighting within them as they do so. The Runic Fyrewall’s flames resonate with the ur-gold runes embedded in nearby Fyreslayers as well, causing them to ignite and blaze with power.",
+      "keywords": [
+        "MANIFESTATION",
+        "INVOCATION",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    },
+    {
+      "name": "RUNIC FYREWALL",
+      "faction": "fyreslayers",
+      "warscroll": "•\nFYRESLAYERS WARSCROLL\n•\nRUNIC FYREWALL\n\tEnemy Movement Phase\t\t\nROARING RUNE-FIRE: The leaping flames of a Runic Fyrewall act as a barrier that only creatures born of fire can pass.\n\n\n\nDeclare: Pick up to 3 enemy units within 6\" of this MANIFESTATION to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+:\n\nInflict an amount of mortal damage on the target equal to the roll.\n\n\nSubtract 3 from the target’s control score for the rest of the turn.\n\n\nKEYWORDS\n\tMANIFESTATION, INVOCATION, WARD (6+)\nORDER, FYRESLAYERS\n\n\n\n\t\t\n\t\n-\n5\n6+\n7+\n6+\nBy concentrating their magmic powers, a Zharrgrim priest can summon forth fiery heat from the bowels of the realm. As energy bubbles up to the surface, the battlefield cracks like an eggshell. From its depths shoots an angry geyser of flame, punching its way forth into the sky. As earthquakes rock the battlefield, the foe quickly finds themselves bombarded with molten death. Once the smoke clears, ash and melted corpses of the enemy flanks are all that remain. The fyrds are then free to cut into their foes’ main forces, rushing them from multiple angles and hacking them down with blazing fyresteel weapons. In Aqshy, where fire churns under the surface of even the coldest tundras, the earth-wounds caused by Zharrgron Flame-spitters do not always close. More lava rushes forth, forming new hotspots of volcanic activity that can continue to bubble away for years. The greatest Aqshian battlefields are often pocked with magmic wounds that evidence the Fyreslayers’ past conquests.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, INVOCATION, WARD (6+)\nORDER, FYRESLAYERS\n\n\n\n\t\t\n\t\n-\n5\n6+\n7+\n6+\nBy concentrating their magmic powers, a Zharrgrim priest can summon forth fiery heat from the bowels of the realm. As energy bubbles up to the surface, the battlefield cracks like an eggshell. From its depths shoots an angry geyser of flame, punching its way forth into the sky. As earthquakes rock the battlefield, the foe quickly finds themselves bombarded with molten death. Once the smoke clears, ash and melted corpses of the enemy flanks are all that remain. The fyrds are then free to cut into their foes’ main forces, rushing them from multiple angles and hacking them down with blazing fyresteel weapons. In Aqshy, where fire churns under the surface of even the coldest tundras, the earth-wounds caused by Zharrgron Flame-spitters do not always close. More lava rushes forth, forming new hotspots of volcanic activity that can continue to bubble away for years. The greatest Aqshian battlefields are often pocked with magmic wounds that evidence the Fyreslayers’ past conquests.",
+      "keywords": [
+        "MANIFESTATION",
+        "INVOCATION",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "ORDER",
+        "FYRESLAYERS"
+      ]
+    }
+  ]
+}

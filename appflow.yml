@@ -1,0 +1,12 @@
+# Ionic Appflow: native build prep (see also dashboard Web / custom build steps).
+# Use Node 18 (see .nvmrc) and Environment "Package Manager: npm" in Appflow.
+version: 1
+applications:
+  - app_id: aos-companion
+    platforms:
+      android:
+        build:
+          stack: capacitor
+          commands:
+            - npm ci
+            - npm run appflow:prepare

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "cities of sigmar",
+    "slug": "cities-of-sigmar",
+    "units": 1
+  },
+  {
+    "name": "idoneth deepkin",
+    "slug": "idoneth-deepkin",
+    "units": 21
+  },
+  {
+    "name": "sons of behemat",
+    "slug": "sons-of-behemat",
+    "units": 8
+  },
+  {
+    "name": "lumineth realm lords",
+    "slug": "lumineth-realm-lords",
+    "units": 29
+  },
+  {
+    "name": "kharadron overlords",
+    "slug": "kharadron-overlords",
+    "units": 20
+  },
+  {
+    "name": "sylvaneth",
+    "slug": "sylvaneth",
+    "units": 25
+  },
+  {
+    "name": "ossiarch bonereapers",
+    "slug": "ossiarch-bonereapers",
+    "units": 28
+  },
+  {
+    "name": "daughters of khaine",
+    "slug": "daughters-of-khaine",
+    "units": 22
+  },
+  {
+    "name": "stormcast eternals",
+    "slug": "stormcast-eternals",
+    "units": 73
+  },
+  {
+    "name": "flesh eater courts",
+    "slug": "flesh-eater-courts",
+    "units": 28
+  },
+  {
+    "name": "maggotkin of nurgle",
+    "slug": "maggotkin-of-nurgle",
+    "units": 33
+  },
+  {
+    "name": "gloomspite gitz",
+    "slug": "gloomspite-gitz",
+    "units": 39
+  },
+  {
+    "name": "fyreslayers",
+    "slug": "fyreslayers",
+    "units": 18
+  },
+  {
+    "name": "disciples of tzeentch",
+    "slug": "disciples-of-tzeentch",
+    "units": 29
+  }
+]

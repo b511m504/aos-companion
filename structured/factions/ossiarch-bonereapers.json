@@ -1,0 +1,1460 @@
+{
+  "faction": "ossiarch bonereapers",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "ARCH-KAVALOS ZANDTOS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nARCH-KAVALOS ZANDTOS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tThe Dark Lance\nCharge (+1 Damage)\t5\t3+\t3+\t2\t2\n\tKavalos Steed’s Hooves, Teeth and Barbed Tails\nCompanion\t4\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 220\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.\n\n\n\tOnce Per Battle, Any Combat Phase\t\t\nUNSTOPPABLE CHARGE: Where Zandtos drives his attack home, enemy formations crumble and counter-attacks stall.\n\n\n\nDeclare: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.\n\nEffect: The targets have STRIKE-LAST for the rest of the turn.\n\n\n\tAny Combat Phase\t\t\nSTILL THEIR BREATH!: Such is Zandtos’s disdain for those who trespass in Shyish that those who fight beside him come to share it.\n\n\n\nDeclare: Pick a friendly non-HERO OSSIARCH BONEREAPERS CAVALRY unit wholly within 12\" of this unit to be the target.\n\nEffect: Spend 1 relentless discipline point. If this unit is in combat, no relentless discipline points are spent. The target’s melee weapons have Charge (+1 Damage) for the rest of the turn.\nKEYWORDS\tRELENTLESS DISCIPLINE\n\n\nKEYWORDS\n\tUNIQUE, HERO, CAVALRY, WARD (6+), RELENTLESS DISCIPLINE (7)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n7\n3+\n2\n6+\n6\nA Liege-Kavalos is a cavalry commander of uncanny skill and resilience. With a harsh order, they can drive their Bonereapers to redouble their attack, hacking into the enemy ranks even as they fell dangerous foes with their commander's blade.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tThe Dark Lance\nCharge (+1 Damage)\t5\t3+\t3+\t2\t2\n\tKavalos Steed’s Hooves, Teeth and Barbed Tails\nCompanion\t4\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 220\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.",
+      "stats": {
+        "unit_size": "1",
+        "points": "220",
+        "base_size": "80mm",
+        "reinforced": "No",
+        "regiment_options": "Any OSSIARCH BONEREAPERS",
+        "notes": "This HERO can join an eligible regiment as a Legion Subcommander."
+      },
+      "abilities_text": "Once Per Battle, Any Combat Phase\t\t\nUNSTOPPABLE CHARGE: Where Zandtos drives his attack home, enemy formations crumble and counter-attacks stall.\n\n\n\nDeclare: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.\n\nEffect: The targets have STRIKE-LAST for the rest of the turn.\n\n\n\tAny Combat Phase\t\t\nSTILL THEIR BREATH!: Such is Zandtos’s disdain for those who trespass in Shyish that those who fight beside him come to share it.\n\n\n\nDeclare: Pick a friendly non-HERO OSSIARCH BONEREAPERS CAVALRY unit wholly within 12\" of this unit to be the target.\n\nEffect: Spend 1 relentless discipline point. If this unit is in combat, no relentless discipline points are spent. The target’s melee weapons have Charge (+1 Damage) for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "UNSTOPPABLE CHARGE",
+          "type": "Once Per Battle",
+          "description": "Where Zandtos drives his attack home, enemy formations crumble and counter-attacks stall.\nDeclare: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.\nEffect: The targets have STRIKE-LAST for the rest of the turn.\n\tAny Combat Phase\t\t\nSTILL THEIR BREATH!: Such is Zandtos’s disdain for those who trespass in Shyish that those who fight beside him come to share it.\nDeclare: Pick a friendly non-HERO OSSIARCH BONEREAPERS CAVALRY unit wholly within 12\" of this unit to be the target.\nEffect: Spend 1 relentless discipline point. If this unit is in combat, no relentless discipline points are spent. The target’s melee weapons have Charge (+1 Damage) for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "The Dark Lance Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RELENTLESS DISCIPLINE",
+      "keywords": [
+        "RELENTLESS DISCIPLINE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "LIEGE-KAVALOS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nLIEGE-KAVALOS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCommander’s Blade\nCharge (+1 Damage)\t5\t3+\t4+\t1\t2\n\tKavalos Steed’s Hooves, Teeth and Barbed Tails\nCompanion\t4\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 180\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.\n\n\n\tReaction: You declared a FIGHT ability for this unit\t\t\nMASTER OF CAVALRY: A Liege‑Kavalos rides at the very tip of the cavalry spearhead, driving deep into the enemy’s vitals and smashing open a breach for their Deathriders to exploit.\n\n\n\nEffect: Pick a friendly Kavalos Deathriders unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.\n\n\n\tPassive\t\t\nDEATHRIDER COMMANDER: A Liege-Kavalos's force of will drives the undead cavalry they command onwards without pause.\n\n\n\nEffect: This unit and visible friendly Kavalos Deathriders units wholly within 12\" of this unit can move 12\" instead of 10\" when they use the ‘Deathrider Wedge’ ability.\n\n\nKEYWORDS\n\tHERO, CAVALRY, WARD (6+), RELENTLESS DISCIPLINE (6)\nDEATH, OSSIARCH BONEREAPERS\nInfantry Hero\n\n\n\t\t\n\t\n4\"\n20\n3+\n10\n6+\n10\nOrpheon Katakros is an immortal demigod of war. A military genius, he is a consummate commander; in conjunction with his trusted retainers, he bolsters the Ossiarch legions with iron resolve, surging physical power and uncanny insight.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCommander’s Blade\nCharge (+1 Damage)\t5\t3+\t4+\t1\t2\n\tKavalos Steed’s Hooves, Teeth and Barbed Tails\nCompanion\t4\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 180\nBase size: 80mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.",
+      "stats": {
+        "unit_size": "1",
+        "points": "180",
+        "base_size": "80mm",
+        "reinforced": "No",
+        "regiment_options": "Any OSSIARCH BONEREAPERS",
+        "notes": "This HERO can join an eligible regiment as a Legion Subcommander."
+      },
+      "abilities_text": "Reaction: You declared a FIGHT ability for this unit\t\t\nMASTER OF CAVALRY: A Liege‑Kavalos rides at the very tip of the cavalry spearhead, driving deep into the enemy’s vitals and smashing open a breach for their Deathriders to exploit.\n\n\n\nEffect: Pick a friendly Kavalos Deathriders unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.\n\n\n\tPassive\t\t\nDEATHRIDER COMMANDER: A Liege-Kavalos's force of will drives the undead cavalry they command onwards without pause.\n\n\n\nEffect: This unit and visible friendly Kavalos Deathriders units wholly within 12\" of this unit can move 12\" instead of 10\" when they use the ‘Deathrider Wedge’ ability.",
+      "abilities": [
+        {
+          "name": "MASTER OF CAVALRY",
+          "type": "Reaction",
+          "description": "A Liege‑Kavalos rides at the very tip of the cavalry spearhead, driving deep into the enemy’s vitals and smashing open a breach for their Deathriders to exploit.\nEffect: Pick a friendly Kavalos Deathriders unit that has not used a FIGHT ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s combat attacks for the rest of the turn."
+        },
+        {
+          "name": "DEATHRIDER COMMANDER",
+          "type": "Passive",
+          "description": "A Liege-Kavalos's force of will drives the undead cavalry they command onwards without pause.\nEffect: This unit and visible friendly Kavalos Deathriders units wholly within 12\" of this unit can move 12\" instead of 10\" when they use the ‘Deathrider Wedge’ ability."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Commander’s Blade Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, CAVALRY, WARD (6+), RELENTLESS DISCIPLINE (6)\nDEATH, OSSIARCH BONEREAPERS\nInfantry Hero",
+      "keywords": [
+        "HERO",
+        "CAVALRY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (6)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "KATAKROS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nKATAKROS\nMORTARCH OF THE NECROPOLIS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tInda-Khaat\nCrit (2 Hits)\t3\t3+\t3+\t2\t3\n\tThe Shield Immortis\t3\t3+\t3+\t2\t2\n\tRetinue Blades\t10\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 500\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the number after its RELENTLESS DISCIPLINE keyword is 4.\n\n\n\tPassive\t\t\nMORTARCH OF THE NECROPOLIS: As master of the Ossiarchs, Katakros instils in his legions the insatiable will to conquer and extend his dominion.\n\n\n\nEffect: Add 3 to the control scores of visible friendly OSSIARCH BONEREAPERS units that have used any RELENTLESS DISCIPLINE abilities this turn.\n\n\n\tAny Combat Phase\t\t\nSUPREME LORD OF THE BONEREAPER LEGIONS: An Ossiarch force personally led by Katakros is said to be worth ten identical forces led by his generals.\n\n\n\nDeclare: If this unit is not in combat, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit that is in combat and has not used a RELENTLESS DISCIPLINE ability this phase to be the target.\n\nEffect: Spend a number of relentless discipline points equal to the target’s Health characteristic. If the target is reinforced and has more than half of its starting models, spend an additional relentless discipline point. The target can use 2 FIGHT abilities this phase. After the first is used, however, the target has STRIKE-LAST for the rest of the turn. In addition, the target cannot use RELENTLESS DISCIPLINE abilities for the rest of the phase.\n\n\n\tOnce Per Battle, Start of Any Turn\t\t\nYOU DARE?!: Katakros narrows his focus to personally deal with a more immediate threat.\n\n\n\nDeclare: This unit can only use this ability if at least half of the units from your starting army have been destroyed.\n\nEffect: For the rest of the battle round:\n\nAdd 5 to the Attacks characteristic of this unit’s Inda-Khaat.\nAdd 3 to the Attacks characteristic of this unit’s The Shield Immortis.\nThis unit cannot use the ’Supreme Lord of the Bonereaper Legions’ ability.\n\n\n\tAny Hero Phase\t\t\nAVIARCH SPYMASTER: The Aviarch Spymaster can use their spy network to disrupt the plans of Katakros’s enemies.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (10)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n3+\n2\n6+\n5\nThe infantry field officers of the Ossiarch legions, Liege-Morteks often fight among Mortek troops, improving their efficiency and cohesion in battle. With but a gesture, they can unleash devastating assaults that send their foes reeling.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tInda-Khaat\nCrit (2 Hits)\t3\t3+\t3+\t2\t3\n\tThe Shield Immortis\t3\t3+\t3+\t2\t2\n\tRetinue Blades\t10\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 500\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "500",
+        "base_size": "120 × 92mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the number after its RELENTLESS DISCIPLINE keyword is 4.\n\n\n\tPassive\t\t\nMORTARCH OF THE NECROPOLIS: As master of the Ossiarchs, Katakros instils in his legions the insatiable will to conquer and extend his dominion.\n\n\n\nEffect: Add 3 to the control scores of visible friendly OSSIARCH BONEREAPERS units that have used any RELENTLESS DISCIPLINE abilities this turn.\n\n\n\tAny Combat Phase\t\t\nSUPREME LORD OF THE BONEREAPER LEGIONS: An Ossiarch force personally led by Katakros is said to be worth ten identical forces led by his generals.\n\n\n\nDeclare: If this unit is not in combat, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit that is in combat and has not used a RELENTLESS DISCIPLINE ability this phase to be the target.\n\nEffect: Spend a number of relentless discipline points equal to the target’s Health characteristic. If the target is reinforced and has more than half of its starting models, spend an additional relentless discipline point. The target can use 2 FIGHT abilities this phase. After the first is used, however, the target has STRIKE-LAST for the rest of the turn. In addition, the target cannot use RELENTLESS DISCIPLINE abilities for the rest of the phase.\n\n\n\tOnce Per Battle, Start of Any Turn\t\t\nYOU DARE?!: Katakros narrows his focus to personally deal with a more immediate threat.\n\n\n\nDeclare: This unit can only use this ability if at least half of the units from your starting army have been destroyed.\n\nEffect: For the rest of the battle round:\n\nAdd 5 to the Attacks characteristic of this unit’s Inda-Khaat.\nAdd 3 to the Attacks characteristic of this unit’s The Shield Immortis.\nThis unit cannot use the ’Supreme Lord of the Bonereaper Legions’ ability.\n\n\n\tAny Hero Phase\t\t\nAVIARCH SPYMASTER: The Aviarch Spymaster can use their spy network to disrupt the plans of Katakros’s enemies.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the number after its RELENTLESS DISCIPLINE keyword is 4."
+        },
+        {
+          "name": "MORTARCH OF THE NECROPOLIS",
+          "type": "Passive",
+          "description": "As master of the Ossiarchs, Katakros instils in his legions the insatiable will to conquer and extend his dominion.\nEffect: Add 3 to the control scores of visible friendly OSSIARCH BONEREAPERS units that have used any RELENTLESS DISCIPLINE abilities this turn.\n\tAny Combat Phase\t\t\nSUPREME LORD OF THE BONEREAPER LEGIONS: An Ossiarch force personally led by Katakros is said to be worth ten identical forces led by his generals.\nDeclare: If this unit is not in combat, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit that is in combat and has not used a RELENTLESS DISCIPLINE ability this phase to be the target.\nEffect: Spend a number of relentless discipline points equal to the target’s Health characteristic. If the target is reinforced and has more than half of its starting models, spend an additional relentless discipline point. The target can use 2 FIGHT abilities this phase. After the first is used, however, the target has STRIKE-LAST for the rest of the turn. In addition, the target cannot use RELENTLESS DISCIPLINE abilities for the rest of the phase."
+        },
+        {
+          "name": "Start of Any Turn YOU DARE?!",
+          "type": "Once Per Battle",
+          "description": "Katakros narrows his focus to personally deal with a more immediate threat.\nDeclare: This unit can only use this ability if at least half of the units from your starting army have been destroyed.\nEffect: For the rest of the battle round:\nAdd 5 to the Attacks characteristic of this unit’s Inda-Khaat.\nAdd 3 to the Attacks characteristic of this unit’s The Shield Immortis.\nThis unit cannot use the ’Supreme Lord of the Bonereaper Legions’ ability.\n\tAny Hero Phase\t\t\nAVIARCH SPYMASTER: The Aviarch Spymaster can use their spy network to disrupt the plans of Katakros’s enemies.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Inda-Khaat Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "The Shield Immortis",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Retinue Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "10",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WARMASTER, UNIQUE, HERO, INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (10)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "WARMASTER",
+        "UNIQUE",
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (10)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "LIEGE-MORTEK",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nLIEGE-MORTEK\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCommander’s Weapon\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a FIGHT ability for this unit\t\t\nCLINICAL EFFICIENCY: With a sharp gesture, the Liege-Mortek orders his cohorts to unleash a deadly assault.\n\n\n\nEffect: Pick a visible friendly Mortek Guard, Mortek Triaxes or Mortek Crawler unit that has not used an ATTACK ability this phase and is wholly within 12\" of this unit to be the target. Immediately after the FIGHT ability used by this unit has been resolved, the target can be picked to use either a SHOOT ability as if it were your shooting phase or a FIGHT ability. If it is picked to do so:\n\nAdd 1 to hit rolls for the target’s attacks for the rest of the turn.\nThe target’s ranged weapons (if any) have Shoot in Combat for the rest of the turn.\nIf the target uses a SHOOT ability and is not in combat, all of its shooting attacks must target units in combat with this unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (5)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\n2\nThe Boneshaper's art is that of creation, not destruction. Though their ossified talons can rake through flesh, they focus their efforts on regenerating the Ossiarch regiments around them, creating new constructs from shattered remains.",
+      "ranged_weapons_text": "(if any) have Shoot in Combat for the rest of the turn.\nIf the target uses a SHOOT ability and is not in combat, all of its shooting attacks must target units in combat with this unit.\n\n\nKEYWORDS\n\tHERO, INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (5)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\n2\nThe Boneshaper's art is that of creation, not destruction. Though their ossified talons can rake through flesh, they focus their efforts on regenerating the Ossiarch regiments around them, creating new constructs from shattered remains.",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCommander’s Weapon\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS\nNotes: This HERO can join an eligible regiment as a Legion Subcommander.",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any OSSIARCH BONEREAPERS",
+        "notes": "This HERO can join an eligible regiment as a Legion Subcommander."
+      },
+      "abilities_text": "Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit\t\t\nCLINICAL EFFICIENCY: With a sharp gesture, the Liege-Mortek orders his cohorts to unleash a deadly assault.\n\n\n\nEffect: Pick a visible friendly Mortek Guard, Mortek Triaxes or Mortek Crawler unit that has not used an ATTACK ability this phase and is wholly within 12\" of this unit to be the target. Immediately after the FIGHT ability used by this unit has been resolved, the target can be picked to use either a SHOOT ability as if it were your shooting phase or a FIGHT ability. If it is picked to do so:\n\nAdd 1 to hit rolls for the target’s attacks for the rest of the turn.\nThe target’s ranged weapons (if any) have Shoot in Combat for the rest of the turn.\nIf the target uses a SHOOT ability and is not in combat, all of its shooting attacks must target units in combat with this unit.",
+      "abilities": [
+        {
+          "name": "CLINICAL EFFICIENCY",
+          "type": "Reaction",
+          "description": "With a sharp gesture, the Liege-Mortek orders his cohorts to unleash a deadly assault.\nEffect: Pick a visible friendly Mortek Guard, Mortek Triaxes or Mortek Crawler unit that has not used an ATTACK ability this phase and is wholly within 12\" of this unit to be the target. Immediately after the FIGHT ability used by this unit has been resolved, the target can be picked to use either a SHOOT ability as if it were your shooting phase or a FIGHT ability. If it is picked to do so:\nAdd 1 to hit rolls for the target’s attacks for the rest of the turn.\nThe target’s ranged weapons (if any) have Shoot in Combat for the rest of the turn.\nIf the target uses a SHOOT ability and is not in combat, all of its shooting attacks must target units in combat with this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "around them, creating new constructs from shattered remains.",
+          "type": "ranged",
+          "range": null,
+          "attacks": null,
+          "hit": null,
+          "wound": null,
+          "rend": null,
+          "damage": null,
+          "abilities": null
+        },
+        {
+          "name": "Commander’s Weapon",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (5)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "HERO",
+        "INFANTRY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (5)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTISAN BONESHAPER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTISAN BONESHAPER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\t3\t4+\t4+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester\n\n\n\tYour Hero Phase\t\t\n1\nBONESHAPER: The Boneshaper uses their arcane arts to form shattered bones into new Ossiarch constructs.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard or Mortek Triaxes unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and not in combat.\n\n\n\tPassive\t\t\nLEGION QUARTERMASTER: Though not quartermasters in the traditional sense, Boneshapers are without peer when it comes to reassembling their line warriors from splintered remains.\n\n\n\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\n2\nMortisan Ossifectors are dedicated to fashioning the greatest warriors of the Bonereaper hosts. Even in the midst of battle, they can be found developing their craft to enhance their lethal potential.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\t3\t4+\t4+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any INFANTRY, 0-1 Gothizzar Harvester"
+      },
+      "abilities_text": "Your Hero Phase\t\t\n1\nBONESHAPER: The Boneshaper uses their arcane arts to form shattered bones into new Ossiarch constructs.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard or Mortek Triaxes unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and not in combat.\n\n\n\tPassive\t\t\nLEGION QUARTERMASTER: Though not quartermasters in the traditional sense, Boneshapers are without peer when it comes to reassembling their line warriors from splintered remains.\n\n\n\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "abilities": [
+        {
+          "name": "BONESHAPER",
+          "type": "Other",
+          "description": "The Boneshaper uses their arcane arts to form shattered bones into new Ossiarch constructs.\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard or Mortek Triaxes unit that has been destroyed to be the target.\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and not in combat.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "LEGION QUARTERMASTER",
+          "type": "Passive",
+          "description": "Though not quartermasters in the traditional sense, Boneshapers are without peer when it comes to reassembling their line warriors from splintered remains.\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ossified Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (2)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTISAN OSSIFECTOR",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTISAN OSSIFECTOR\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\t3\t4+\t4+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 110\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Gothizzar Harvester, 0-1 Mortek Crawler, Any INFANTRY\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nREFINED CREATIONS: Ossifectors are always looking to improve upon their work, wielding necrotic sorcery to augment their creations in battle.\n\n\n\nDeclare: Pick a visible friendly Mortek Crawler, Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, FLY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n6\"\n6\n4+\n2\n6+\n2\nCaptive souls are fodder for the most gifted of the Mortisan spirit-crafters. Borne to war upon thrones of bodily remains with their own vicious animus, the Soulmasons focus the animating energies of necromancy into their Bonereaper creations.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\t3\t4+\t4+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 110\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Gothizzar Harvester, 0-1 Mortek Crawler, Any INFANTRY",
+      "stats": {
+        "unit_size": "1",
+        "points": "110",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Gothizzar Harvester, 0-1 Mortek Crawler, Any INFANTRY"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Hero Phase\t\t\nREFINED CREATIONS: Ossifectors are always looking to improve upon their work, wielding necrotic sorcery to augment their creations in battle.\n\n\n\nDeclare: Pick a visible friendly Mortek Crawler, Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn.",
+      "abilities": [
+        {
+          "name": "REFINED CREATIONS",
+          "type": "Once Per Turn",
+          "description": "Ossifectors are always looking to improve upon their work, wielding necrotic sorcery to augment their creations in battle.\nDeclare: Pick a visible friendly Mortek Crawler, Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ossified Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, FLY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (2)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTISAN SOULMASON",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTISAN SOULMASON\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoulmason’s Staff\t3\t4+\t4+\t-\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Gothizzar Harvester, Any INFANTRY\n\n\n\tYour Hero Phase\t\t\n7\nSOUL-GUIDE: The Soulmason empowers and focuses the souls that animate a nearby regiment of Ossiarch warriors.\n\n\n\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6.\n\nEffect: The target has STRIKE-FIRST for the rest of the turn.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tHERO, WIZARD (2), INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\n2\nThe Soulreapers are the more destructive members of the Mortisan order. It is their role to cut the souls from the enemy with their magical scythes, using the harvested spirits to sap their enemies' strength or fuel a burst of deathly energy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSoulmason’s Staff\t3\t4+\t4+\t-\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Gothizzar Harvester, Any INFANTRY",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Gothizzar Harvester, Any INFANTRY"
+      },
+      "abilities_text": "Your Hero Phase\t\t\n7\nSOUL-GUIDE: The Soulmason empowers and focuses the souls that animate a nearby regiment of Ossiarch warriors.\n\n\n\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6.\n\nEffect: The target has STRIKE-FIRST for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "SOUL-GUIDE",
+          "type": "Other",
+          "description": "The Soulmason empowers and focuses the souls that animate a nearby regiment of Ossiarch warriors.\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6.\nEffect: The target has STRIKE-FIRST for the rest of the turn.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Soulmason’s Staff",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MORTISAN SOULREAPER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTISAN SOULREAPER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoulreaper Scythe\nCrit (2 Hits)\t4\t3+\t4+\t2\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester\n\n\n\tPassive\t\t\nSOULREAPER: The mere presence of a Soulreaper will sap a foe’s strength, leaving them weak and vulnerable.\n\n\n\nEffect: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nNECROTIC BLAST: The Soulreaper sends a surge of deathly energy across the battlefield that can see nearby foes wracked with soul deep agony.\n\n\n\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. After this ability has been resolved, you gain a number of relentless discipline points equal to the number of total damage points allocated by this ability this turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, FLY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\n2\nIt is Vokmortian's task to oversee the harvesting of bones for the Ossiarch legions, a duty he undertakes with ruthless, calculating precision. Those who think to defy the will of the Great Necromancer are reminded of the folly of this course by the severed, wailing heads hanging from Vokmortian's staff.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSoulreaper Scythe\nCrit (2 Hits)\t4\t3+\t4+\t2\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any INFANTRY, 0-1 Gothizzar Harvester"
+      },
+      "abilities_text": "Passive\t\t\nSOULREAPER: The mere presence of a Soulreaper will sap a foe’s strength, leaving them weak and vulnerable.\n\n\n\nEffect: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nNECROTIC BLAST: The Soulreaper sends a surge of deathly energy across the battlefield that can see nearby foes wracked with soul deep agony.\n\n\n\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. After this ability has been resolved, you gain a number of relentless discipline points equal to the number of total damage points allocated by this ability this turn.",
+      "abilities": [
+        {
+          "name": "SOULREAPER",
+          "type": "Passive",
+          "description": "The mere presence of a Soulreaper will sap a foe’s strength, leaving them weak and vulnerable.\nEffect: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit."
+        },
+        {
+          "name": "NECROTIC BLAST",
+          "type": "Once Per Turn",
+          "description": "The Soulreaper sends a surge of deathly energy across the battlefield that can see nearby foes wracked with soul deep agony.\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. After this ability has been resolved, you gain a number of relentless discipline points equal to the number of total damage points allocated by this ability this turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Soulreaper Scythe Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "D3",
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, FLY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "RELENTLESS DISCIPLINE (2)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "VOKMORTIAN",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nVOKMORTIAN\nMASTER OF THE BONE-TITHE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGaze of Death\t12\"\t1\t3+\t2+\t1\tD6\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Retribution\t\t3\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS, 0-1 Legion Subcommander\n\n\n\tEnemy Hero Phase\t\t\n1\nVOICE OF NAGASH: The sheer force of Vokmortian’s oratory fills even the boldest commanders with doubt.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\n\nEffect: The target cannot be picked to be the target of or be affected by any non-CORE abilities used by other enemy units for the rest of the turn.\n\n\n\tYour Hero Phase\t\t\n6\nMORTAL CONTRACT: Vokmortian binds an enemy to a deadly mystical contract.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, each time the target is picked to use a CORE ability, roll a D3 as a reaction. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that CORE ability.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tUNIQUE, HERO, WIZARD (2), INFANTRY, WARD (6+), RELENTLESS DISCIPLINE (2)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n5\n4+\n2\n6+\nMasters of necro-crafting techniques, Mortisan Boneshapers weave osseous matter into new war-constructs and use it to repair damage inflicted upon their Mortek warriors. Without the Boneshapers, the Ossiarchs’ attritional wars in the Jade Kingdoms would have long since faltered. The greatest of their number can cause entire shattered regiments of Ossiarch infantry to rise again, ready to renew their grinding war against the living.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tGaze of Death\t12\"\t1\t3+\t2+\t1\tD6",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Retribution\t\t3\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any OSSIARCH BONEREAPERS, 0-1 Legion Subcommander\n\n\n\tEnemy Hero Phase\t\t\n1\nVOICE OF NAGASH: The sheer force of Vokmortian’s oratory fills even the boldest commanders with doubt.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\n\nEffect: The target cannot be picked to be the target of or be affected by any non-CORE abilities used by other enemy units for the rest of the turn.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "40mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Your Hero Phase\t\t\n6\nMORTAL CONTRACT: Vokmortian binds an enemy to a deadly mystical contract.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, each time the target is picked to use a CORE ability, roll a D3 as a reaction. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that CORE ability.",
+      "abilities": [
+        {
+          "name": "MORTAL CONTRACT",
+          "type": "Other",
+          "description": "Vokmortian binds an enemy to a deadly mystical contract.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Until the start of your next turn, each time the target is picked to use a CORE ability, roll a D3 as a reaction. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that CORE ability.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Gaze of Death",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Staff of Retribution",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCOURGE OF GHYRAN MORTISAN BONESHAPER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nSCOURGE OF GHYRAN MORTISAN BONESHAPER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\nCrit (2 Hits)\t3\t4+\t4+\t-\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nLEGION QUARTERMASTER: Though hardly quartermasters in the traditional sense, the Boneshapers of the Ossiarch legions are without peer when it comes to re-assembling their line warriors from shattered remains.\n\n\n\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\n\tYour Hero Phase\t\t\n1\nBONESHAPER: When osseous matter and the souls of the slain are in ample supply, the Boneshapers can restore raise entire formations of Mortek Guard mid-battle.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS, MORTISAN\nMonster Hero\n\n\n\t\t\n\t\n12\"\n14\n3+\n5\n6+\n3\nArkhan is a master of necromantic magic and the most trusted servant of Nagash. Roiling clouds of deathly magic swirl about the skeletal form of the Mortarch of Sacrament as he rides to war upon his dread abyssal Razarak.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tOssified Talons\nCrit (2 Hits)\t3\t4+\t4+\t-\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 100\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any INFANTRY, 0-1 Gothizzar Harvester\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any INFANTRY, 0-1 Gothizzar Harvester",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nLEGION QUARTERMASTER: Though hardly quartermasters in the traditional sense, the Boneshapers of the Ossiarch legions are without peer when it comes to re-assembling their line warriors from shattered remains.\n\n\n\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\n\tYour Hero Phase\t\t\n1\nBONESHAPER: When osseous matter and the souls of the slain are in ample supply, the Boneshapers can restore raise entire formations of Mortek Guard mid-battle.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "LEGION QUARTERMASTER",
+          "type": "Passive",
+          "description": "Though hardly quartermasters in the traditional sense, the Boneshapers of the Ossiarch legions are without peer when it comes to re-assembling their line warriors from shattered remains.\nEffect: Each time a friendly non-HERO OSSIARCH BONEREAPERS unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+        },
+        {
+          "name": "BONESHAPER",
+          "type": "Other",
+          "description": "When osseous matter and the souls of the slain are in ample supply, the Boneshapers can restore raise entire formations of Mortek Guard mid-battle.\nDeclare: If this unit is not in combat, pick a friendly Mortek Guard unit that has been destroyed to be the target.\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Ossified Talons Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS, MORTISAN\nMonster Hero",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "WARD (6+)",
+        "MORTISAN"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "ARKHAN THE BLACK",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nARKHAN THE BLACK\nMORTARCH OF SACRAMENT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tZefet-kar and Khenash-an\t4\t3+\t4+\t1\tD3\n\tRazarak’s Ebon Claws\nCompanion\t5\t4+\t2+\t3\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 440\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of Razarak’s Ebon Claws is 3.\n\n\n\tPassive\t\t\nTHE STAFF OF SPIRITS: Khenash-an, the Staff of Spirits, grants Arkhan the power to absorb the souls of his foes.\n\n\n\nEffect: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit after that SPELL ability has been resolved.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nTHE DOOM OF TRAITORS: The dread abyssal Razarak bears Arkhan into battle, seeking out those who have stoked the ire of the Great Necromancer.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Roll a D3. Add 1 to the roll if the target is a WIZARD or PRIEST. On a 2+, add an amount equal to the roll to the Attacks characteristic of this unit’s Razarak’s Ebon Claws for the rest of the phase, but while this unit is in combat with the target, all attacks made with that weapon this phase must target that enemy unit.\n\nDesigner’s Note: If the target is a WIZARD or PRIEST, this ability cannot fail; however, you still need to roll to determine the number of extra attacks it generates.\nKEYWORDS\tRAMPAGE\n\n\n\tOnce Per Turn, Reaction: Opponent declared a SPELL ability for a unit within 18\" of this unit\t\t\nMORTARCH OF SACRAMENT: Arkhan the Black is the master of the Null Myriad and privy to some of the most powerful mystical secrets in existence.\n\n\n\nEffect: Roll 2D6. If the roll exceeds the casting roll for the spell, then the spell is unbound, its effect is not resolved and that SPELL ability cannot be used by enemy units until the start of your next turn.\n\n\n\tYour Hero Phase\t\t\n7\nCURSE OF YEARS: Tracing a spiteful gesture in the air, Arkhan curses the enemy to age at an incredible rate.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Roll 10 dice. For each 6:\n\nGive the target 1 necrotic withering point.\nRoll an extra dice.\n\nFor each 5+ on those extra dice, repeat the above bullet points, Then, do the same for each 4+ and then each 3+. Finally, for each 2+, give the target 1 necrotic withering point (do not roll any extra dice).\n\nAfter a roll, if the target has 8 or more necrotic withering points, it is automatically destroyed. Otherwise, after the last roll, inflict an amount of mortal damage on the target equal to the number of necrotic withering points it has. Then, those necrotic withering points are lost.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (3), FLY, WARD (6+), RELENTLESS DISCIPLINE (3)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n18\n3+\n10\n5+\n3\nAll living beings dread the name of Nagash, the God of Undeath. Cruel and tyrannical, the overlord of Shyish intends to conquer the Mortal Realms and transform them into a lifeless Necrotopia, in which not a speck of dust moves unless it is by his will.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tZefet-kar and Khenash-an\t4\t3+\t4+\t1\tD3\n\tRazarak’s Ebon Claws\nCompanion\t5\t4+\t2+\t3\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 440\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "440",
+        "base_size": "120 × 92mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, the Attacks characteristic of Razarak’s Ebon Claws is 3.\n\n\n\tPassive\t\t\nTHE STAFF OF SPIRITS: Khenash-an, the Staff of Spirits, grants Arkhan the power to absorb the souls of his foes.\n\n\n\nEffect: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit after that SPELL ability has been resolved.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nTHE DOOM OF TRAITORS: The dread abyssal Razarak bears Arkhan into battle, seeking out those who have stoked the ire of the Great Necromancer.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Roll a D3. Add 1 to the roll if the target is a WIZARD or PRIEST. On a 2+, add an amount equal to the roll to the Attacks characteristic of this unit’s Razarak’s Ebon Claws for the rest of the phase, but while this unit is in combat with the target, all attacks made with that weapon this phase must target that enemy unit.\n\nDesigner’s Note: If the target is a WIZARD or PRIEST, this ability cannot fail; however, you still need to roll to determine the number of extra attacks it generates.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, the Attacks characteristic of Razarak’s Ebon Claws is 3."
+        },
+        {
+          "name": "THE STAFF OF SPIRITS",
+          "type": "Passive",
+          "description": "Khenash-an, the Staff of Spirits, grants Arkhan the power to absorb the souls of his foes.\nEffect: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit after that SPELL ability has been resolved."
+        },
+        {
+          "name": "THE DOOM OF TRAITORS",
+          "type": "Once Per Turn",
+          "description": "The dread abyssal Razarak bears Arkhan into battle, seeking out those who have stoked the ire of the Great Necromancer.\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the target.\nEffect: Roll a D3. Add 1 to the roll if the target is a WIZARD or PRIEST. On a 2+, add an amount equal to the roll to the Attacks characteristic of this unit’s Razarak’s Ebon Claws for the rest of the phase, but while this unit is in combat with the target, all attacks made with that weapon this phase must target that enemy unit.\nDesigner’s Note: If the target is a WIZARD or PRIEST, this ability cannot fail; however, you still need to roll to determine the number of extra attacks it generates."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Zefet-kar and Khenash-an",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Razarak’s Ebon Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "3",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "NAGASH",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nNAGASH\nSUPREME LORD OF THE UNDEAD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tAlakanash, the Staff of Power\t4\t3+\t3+\t2\tD6\n\tZefet-nebtar, the Mortis Blade\t4\t3+\t3+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 830\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 3 from its power level.\n\n\n\tPassive\t\t\nTHE STAFF OF POWER: Alakanash is capped with gems of purest grave-sand.\n\n\n\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHAND OF DUST: Nagash’s touch can turn a foe to a pile of dusty bones in moments.\n\n\n\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\n\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.\nKEYWORDS\tRAMPAGE\n\n\n\tYour Hero Phase\t\t\n7\nINVOCATION OF NAGASH: In a storm of morbid sorcery, Nagash blasts his foes’ souls or re-knits his minions’ bodies.\n\n\n\nDeclare: This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.\n\nEffect: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly DEATH unit, pick 1 of the following effects:\n\nReturn a number of slain models to the target unit with a combined Health characteristic of up to 3.\nThe target has WARD (5+) until the start of your next turn.\nKEYWORDS\tSPELL\n\n\n\tOnce Per Battle, Your Hero Phase\t\t\nSUPREME LORD OF THE UNDEAD: Nagash is the undisputed master of all undead creatures.\n\n\n\nDeclare: Pick a friendly non-HERO non-UNIQUE DEATH unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (9), FLY, WARD (5+), RELENTLESS DISCIPLINE (3)\nDEATH, OSSIARCH BONEREAPERS\nWar Machine Hero\n\n\n\t\t\n\t\n10\"\n12\n3+\n2\n6+\n6\nA Liege-Kavalos atop a War Chariot leads their fellow charioteers into battle, guiding them in defensive manoeuvres that allow them to skilfully evade the foe. Keen is their knowledge of this kind of warfare, and their command of these war engines is absolute.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAlakanash, the Staff of Power\t4\t3+\t3+\t2\tD6\n\tZefet-nebtar, the Mortis Blade\t4\t3+\t3+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 830\nBase size: 130mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS",
+      "stats": {
+        "unit_size": "1",
+        "points": "830",
+        "base_size": "130mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Legion Subcommander, Any OSSIARCH BONEREAPERS"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 3 from its power level.\n\n\n\tPassive\t\t\nTHE STAFF OF POWER: Alakanash is capped with gems of purest grave-sand.\n\n\n\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nHAND OF DUST: Nagash’s touch can turn a foe to a pile of dusty bones in moments.\n\n\n\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\n\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, subtract 3 from its power level."
+        },
+        {
+          "name": "THE STAFF OF POWER",
+          "type": "Passive",
+          "description": "Alakanash is capped with gems of purest grave-sand.\nEffect: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn."
+        },
+        {
+          "name": "End of Any Turn HAND OF DUST",
+          "type": "Once Per Turn",
+          "description": "Nagash’s touch can turn a foe to a pile of dusty bones in moments.\nDeclare: Pick a visible enemy HERO or MONSTER in combat with this unit to be the target.\nEffect: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Alakanash, the Staff of Power",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D6",
+          "abilities": null
+        },
+        {
+          "name": "Zefet-nebtar, the Mortis Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "RAMPAGE",
+      "keywords": [
+        "RAMPAGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "TERATIC COHORT",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nTERATIC COHORT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCohort Weapons\t2\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 8      Points: 90\n\nMODEL\tBASE SIZE\nKavalos Centari\t60 × 35mm\n2 × Mortek Cykloptians\t32mm\n5 × Teratic Prowlers and Aviarch Harpies\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tDeployment Phase\t\t\nHUNTERS UNLEASHED: Unable to hold back any longer, these feral constructs rush forward to engage their prey.\n\n\n\nEffect: This unit can use the ‘Normal Move’ ability as if it were your movement phase.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nBONE-DEEP SAVAGERY: The impure materials used in the creation of the Teratic Cohort has lent them an innate savagery that is all but impossible to truly control in the heat of battle.\n\n\n\nEffect: This unit can move 3\". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat.\n\n\nKEYWORDS\n\tBEAST, CHAMPION (1/8), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nCavalry\n\n\n\t\t\n\t\n10\"\n3\n4+\n1\n6+\nThe heavy cavalry of the Bonereaper legions, the Kavalos Deathriders are expert riders mounted on macabre armoured steeds. They clatter into the foe in a wedge formation, breaking battlelines with every ferocious charge.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCohort Weapons\t2\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 8      Points: 90\n\nMODEL\tBASE SIZE\nKavalos Centari\t60 × 35mm\n2 × Mortek Cykloptians\t32mm\n5 × Teratic Prowlers and Aviarch Harpies\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.",
+      "stats": {
+        "unit_size": "8",
+        "reinforced": "No",
+        "notes": "This unit cannot be reinforced."
+      },
+      "abilities_text": "Passive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tDeployment Phase\t\t\nHUNTERS UNLEASHED: Unable to hold back any longer, these feral constructs rush forward to engage their prey.\n\n\n\nEffect: This unit can use the ‘Normal Move’ ability as if it were your movement phase.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nBONE-DEEP SAVAGERY: The impure materials used in the creation of the Teratic Cohort has lent them an innate savagery that is all but impossible to truly control in the heat of battle.\n\n\n\nEffect: This unit can move 3\". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat.",
+      "abilities": [
+        {
+          "name": "BEAST Effect",
+          "type": "Passive",
+          "description": "This unit has a maximum control score of 1.\n\tDeployment Phase\t\t\nHUNTERS UNLEASHED: Unable to hold back any longer, these feral constructs rush forward to engage their prey.\nEffect: This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+        },
+        {
+          "name": "BONE-DEEP SAVAGERY",
+          "type": "Once Per Turn",
+          "description": "The impure materials used in the creation of the Teratic Cohort has lent them an innate savagery that is all but impossible to truly control in the heat of battle.\nEffect: This unit can move 3\". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cohort Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "BEAST, CHAMPION (1/8), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nCavalry",
+      "keywords": [
+        "BEAST",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "KAVALOS DEATHRIDERS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nKAVALOS DEATHRIDERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tKavalos Blades\t3\t3+\t4+\t1\t1\n\tKavalos Steed’s Hooves and Teeth\nCompanion\t2\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 150\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nDEATHRIDER WEDGE: The Kavalos Deathriders plunge through the enemy ranks, slashing as they quickly disengage before a reeling enemy can mount a defence.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly Liege-Kavalos within this unit’s combat range to be the friendly target.\n\nEffect: Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10\". They can move through the combat ranges of enemy units but cannot end that move in combat.\nKEYWORDS\tCORE, ATTACK, FIGHT\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, STANDARD BEARER (1/5), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nInfantry\n\n\n\t\t\n\t\n5\"\n4\n3+\n1\n6+\nTowering over the rank-and-file Bonereapers, the Immortis Guard form a tough physical bulwark around the leaders of the Ossiarch cohorts. Those who come too close are hurled back by shields then swiftly impaled on spiked halberds.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tKavalos Blades\t3\t3+\t4+\t1\t1\n\tKavalos Steed’s Hooves and Teeth\nCompanion\t2\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 150\nBase size: 60 × 35mm\n\nCan be reinforced: Yes\n\n\n\tAny Combat Phase\t\t\nDEATHRIDER WEDGE: The Kavalos Deathriders plunge through the enemy ranks, slashing as they quickly disengage before a reeling enemy can mount a defence.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly Liege-Kavalos within this unit’s combat range to be the friendly target.\n\nEffect: Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10\". They can move through the combat ranges of enemy units but cannot end that move in combat.",
+      "stats": {
+        "unit_size": "5",
+        "points": "150",
+        "base_size": "60 × 35mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Kavalos Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Kavalos Steed’s Hooves and Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, ATTACK, FIGHT",
+      "keywords": [
+        "CORE",
+        "ATTACK",
+        "FIGHT"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "IMMORTIS GUARD",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nIMMORTIS GUARD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tDread Halberd\t3\t3+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 170\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nIMMORTAL BULWARK: As the immovable shieldwall of the Ossiarch legions, the Immortis Guard can stand fast against any foe, no matter how vicious or savage.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit and that charged this turn to be the target.\n\nEffect: Other than the Companion weapon ability, weapon abilities for the target’s combat attacks have no effect for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n6\n3+\n2\n6+\nThe Morghast Archai were crafted by Nagash himself to act as both personal guard and executioners. They soar into battle like omens of death, ignoring the feeble strikes and missiles that deflect off their soul-forged armour.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tDread Halberd\t3\t3+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 170\nBase size: 50mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "170",
+        "base_size": "50mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nIMMORTAL BULWARK: As the immovable shieldwall of the Ossiarch legions, the Immortis Guard can stand fast against any foe, no matter how vicious or savage.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit and that charged this turn to be the target.\n\nEffect: Other than the Companion weapon ability, weapon abilities for the target’s combat attacks have no effect for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "IMMORTAL BULWARK",
+          "type": "Once Per Turn",
+          "description": "As the immovable shieldwall of the Ossiarch legions, the Immortis Guard can stand fast against any foe, no matter how vicious or savage.\nDeclare: Pick an enemy unit in combat with this unit and that charged this turn to be the target.\nEffect: Other than the Companion weapon ability, weapon abilities for the target’s combat attacks have no effect for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Dread Halberd",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORGHAST ARCHAI",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORGHAST ARCHAI\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpirit Weapons\nCrit (2 Hits), Anti-MONSTER (+1 Rend)\t3\t3+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 2      Points: 260\nBase size: 60mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nEBON-WROUGHT ARMOUR: The Morghast’s armour is threaded with spells that protect them against arcane assault.\n\n\n\nEffect: This unit has WARD (3+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nDISCHARGE ARMOUR: The Morghast releases the arcane energy in their armour to overpower nearby magic users.\n\n\n\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS WIZARD wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to casting rolls for the target for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n6\n4+\n2\n6+\nMorghast Harbingers are used as swift-striking shock troops in the Ossiarch legions, darting in with terrifying speed for such monstrous creatures. They descend from the skies like macabre angels then butcher the foe with their darksome blades.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpirit Weapons\nCrit (2 Hits), Anti-MONSTER (+1 Rend)\t3\t3+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 2      Points: 260\nBase size: 60mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "2",
+        "points": "260",
+        "base_size": "60mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nEBON-WROUGHT ARMOUR: The Morghast’s armour is threaded with spells that protect them against arcane assault.\n\n\n\nEffect: This unit has WARD (3+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nDISCHARGE ARMOUR: The Morghast releases the arcane energy in their armour to overpower nearby magic users.\n\n\n\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS WIZARD wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, add 1 to casting rolls for the target for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "EBON-WROUGHT ARMOUR",
+          "type": "Passive",
+          "description": "The Morghast’s armour is threaded with spells that protect them against arcane assault.\nEffect: This unit has WARD (3+) against damage points inflicted by SPELL abilities, PRAYER abilities and abilities used by MANIFESTATIONS."
+        },
+        {
+          "name": "DISCHARGE ARMOUR",
+          "type": "Once Per Turn",
+          "description": "The Morghast releases the arcane energy in their armour to overpower nearby magic users.\nDeclare: Pick a visible friendly OSSIARCH BONEREAPERS WIZARD wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, add 1 to casting rolls for the target for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spirit Weapons Crit (2 Hits), Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Anti-MONSTER (+1 Rend), Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "INFANTRY, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORGHAST HARBINGERS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORGHAST HARBINGERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpirit Weapons\nCrit (2 Hits), Anti-MONSTER (+1 Rend)\t3\t3+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 2      Points: 250\nBase size: 60mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nHARBINGERS OF DEATH: Morghast Harbingers hurl themselves at the foe with unbridled ferocity.\n\n\n\nEffect: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.\n\n\nKEYWORDS\n\tINFANTRY, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n4\"\n1\n4+\n1\n6+\nThe Mortek Guard are soul-constructs created to dominate the battlefield. Disciplined, dispassionate and armed with life-draining nadirite weapons, they grind the enemy to dust beneath their relentless march.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpirit Weapons\nCrit (2 Hits), Anti-MONSTER (+1 Rend)\t3\t3+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 2      Points: 250\nBase size: 60mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "2",
+        "points": "250",
+        "base_size": "60mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nHARBINGERS OF DEATH: Morghast Harbingers hurl themselves at the foe with unbridled ferocity.\n\n\n\nEffect: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "abilities": [
+        {
+          "name": "HARBINGERS OF DEATH",
+          "type": "Passive",
+          "description": "Morghast Harbingers hurl themselves at the foe with unbridled ferocity.\nEffect: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Spirit Weapons Crit (2 Hits), Anti-MONSTER (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": "Anti-MONSTER (+1 Rend), Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "INFANTRY, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTEK GUARD",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTEK GUARD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tNadirite Weapons\nAnti-CAVALRY (+1 Rend)\t2\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Phase (Army), Reaction: Opponent declared an ATTACK ability that targeted a visible OSSIARCH BONEREAPERS unit within this unit’s combat range\t\t\nSHIELDS OF THE LEGION: The Mortek Guard are the backbone of the Ossiarch legions, preventing enemy assaults from finding purchase wherever their nadirite shields are raised in tireless defence.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks made as part of that ATTACK ability that target that friendly unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, STANDARD BEARER (1/10), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n4\"\n1\n5+\n1\n6+\nUnleashing death from afar, Mortek Triaxes rain down volleys of nadirite shafts upon their foes. These triple-eyed archers wreathe their arrowheads in flaming soul-essence, invoking unnatural horror in their victims.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tNadirite Weapons\nAnti-CAVALRY (+1 Rend)\t2\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Phase (Army),",
+      "stats": {
+        "unit_size": "10",
+        "points": "110",
+        "base_size": "25mm"
+      },
+      "abilities_text": "Reaction: Opponent declared an ATTACK ability that targeted a visible OSSIARCH BONEREAPERS unit within this unit’s combat range\t\t\nSHIELDS OF THE LEGION: The Mortek Guard are the backbone of the Ossiarch legions, preventing enemy assaults from finding purchase wherever their nadirite shields are raised in tireless defence.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks made as part of that ATTACK ability that target that friendly unit.",
+      "abilities": [
+        {
+          "name": "SHIELDS OF THE LEGION",
+          "type": "Reaction",
+          "description": "The Mortek Guard are the backbone of the Ossiarch legions, preventing enemy assaults from finding purchase wherever their nadirite shields are raised in tireless defence.\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks made as part of that ATTACK ability that target that friendly unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Nadirite Weapons Anti-CAVALRY (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Anti-CAVALRY (+1 Rend)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, STANDARD BEARER (1/10), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTEK TRIAXES",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTEK TRIAXES\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tOsseous Bow\t18\"\t2\t3+\t4+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tNadirite Dagger\t\t1\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 140\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nBALEFIRE BRAZIERS: These cauldrons are filled with tormented, blazing soul-matter with which the Triaxes augment their ammunition.\n\n\n\nEffect: This unit’s Balefire Braziers are tokens. There are 2 Balefire Braziers for every 10 models in this unit. After setting up this unit on the battlefield for the first time, place its Balefire Braziers next to it.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SHOOT ability for this unit\t\t\nCURSED FLAMES: As the Mortek Triaxes set foes ablaze, the tortured flames seek out other souls, and the panic spreads...\n\n\n\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit and this unit has any Balefire Braziers next to it, place 1 of those Balefire Braziers next to that enemy unit.\n\n\n\tPassive\t\t\nATAVISTIC NIGHTMARES: The trauma of the burning soul-essence is so horrifying that those who witness it are paralysed by dread.\n\n\n\nEffect: While any of this unit’s Balefire Braziers are next to an enemy unit, subtract 3 from the control scores of enemy units within that enemy unit’s combat range.\n\nIf an ability would heal or return slain models to an enemy unit while any of this unit’s Balefire Braziers are next to it, that ability does not heal or return any slain models to it. Instead, place those Balefire Braziers next to this unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n6\"\n2\n5+\n1\n6+\nDread assassins of forbidding aspect, Mortis Reapers slip behind enemy lines to target vulnerable leaders. Enshrouded in a shimmering heat haze and bearing deadly necrocaches, none can escape the dreaded bone-tithe they are sent to collect.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tOsseous Bow\t18\"\t2\t3+\t4+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tNadirite Dagger\t\t1\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 140\nBase size: 25mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "140",
+        "base_size": "25mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nBALEFIRE BRAZIERS: These cauldrons are filled with tormented, blazing soul-matter with which the Triaxes augment their ammunition.\n\n\n\nEffect: This unit’s Balefire Braziers are tokens. There are 2 Balefire Braziers for every 10 models in this unit. After setting up this unit on the battlefield for the first time, place its Balefire Braziers next to it.\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SHOOT ability for this unit\t\t\nCURSED FLAMES: As the Mortek Triaxes set foes ablaze, the tortured flames seek out other souls, and the panic spreads...\n\n\n\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit and this unit has any Balefire Braziers next to it, place 1 of those Balefire Braziers next to that enemy unit.\n\n\n\tPassive\t\t\nATAVISTIC NIGHTMARES: The trauma of the burning soul-essence is so horrifying that those who witness it are paralysed by dread.\n\n\n\nEffect: While any of this unit’s Balefire Braziers are next to an enemy unit, subtract 3 from the control scores of enemy units within that enemy unit’s combat range.\n\nIf an ability would heal or return slain models to an enemy unit while any of this unit’s Balefire Braziers are next to it, that ability does not heal or return any slain models to it. Instead, place those Balefire Braziers next to this unit.",
+      "abilities": [
+        {
+          "name": "BALEFIRE BRAZIERS",
+          "type": "Passive",
+          "description": "These cauldrons are filled with tormented, blazing soul-matter with which the Triaxes augment their ammunition.\nEffect: This unit’s Balefire Braziers are tokens. There are 2 Balefire Braziers for every 10 models in this unit. After setting up this unit on the battlefield for the first time, place its Balefire Braziers next to it."
+        },
+        {
+          "name": "CURSED FLAMES",
+          "type": "Reaction",
+          "description": "As the Mortek Triaxes set foes ablaze, the tortured flames seek out other souls, and the panic spreads...\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit and this unit has any Balefire Braziers next to it, place 1 of those Balefire Braziers next to that enemy unit."
+        },
+        {
+          "name": "ATAVISTIC NIGHTMARES",
+          "type": "Passive",
+          "description": "The trauma of the burning soul-essence is so horrifying that those who witness it are paralysed by dread.\nEffect: While any of this unit’s Balefire Braziers are next to an enemy unit, subtract 3 from the control scores of enemy units within that enemy unit’s combat range.\nIf an ability would heal or return slain models to an enemy unit while any of this unit’s Balefire Braziers are next to it, that ability does not heal or return any slain models to it. Instead, place those Balefire Braziers next to this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Osseous Bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Nadirite Dagger",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "MORTIS REAPERS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTIS REAPERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tReaper’s Blades\nAnti-HERO (+1 Rend)\t3\t3+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 5      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nNECROCACHES: The Mortis Reapers hurl their necrocaches to the ground, releasing the flesh-withering grave-sand contained within and vanishing in the resulting cloud like phantoms.\n\n\n\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". It can move through the combat ranges of enemy units but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Any Movement Phase\t\t\nNO ESCAPING THE TITHE: The Mortis Reapers are utterly unrelenting in their pursuit of those who would dare attempt to shirk the bone-tithe.\n\n\n\nDeclare: If there are no enemy units within 6\" of this unit, pick a terrain feature within 3\" of this unit to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n7\"\n4\n4+\n1\n6+\nFour-armed horrors that possess ferocious killing prowess, Necropolis Stalkers leap and spin into battle with terrifying speed, laying waste to hordes of foes in the blink of an eye.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tReaper’s Blades\nAnti-HERO (+1 Rend)\t3\t3+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 5      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "5",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), End of Any Turn\t\t\nNECROCACHES: The Mortis Reapers hurl their necrocaches to the ground, releasing the flesh-withering grave-sand contained within and vanishing in the resulting cloud like phantoms.\n\n\n\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". It can move through the combat ranges of enemy units but cannot end that move in combat.\n\n\n\tOnce Per Turn (Army), Any Movement Phase\t\t\nNO ESCAPING THE TITHE: The Mortis Reapers are utterly unrelenting in their pursuit of those who would dare attempt to shirk the bone-tithe.\n\n\n\nDeclare: If there are no enemy units within 6\" of this unit, pick a terrain feature within 3\" of this unit to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "End of Any Turn NECROCACHES",
+          "type": "Once Per Turn",
+          "description": "The Mortis Reapers hurl their necrocaches to the ground, releasing the flesh-withering grave-sand contained within and vanishing in the resulting cloud like phantoms.\nDeclare: Pick each enemy unit in combat with this unit to be the targets.\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". It can move through the combat ranges of enemy units but cannot end that move in combat."
+        },
+        {
+          "name": "Any Movement Phase NO ESCAPING THE TITHE",
+          "type": "Once Per Turn",
+          "description": "The Mortis Reapers are utterly unrelenting in their pursuit of those who would dare attempt to shirk the bone-tithe.\nDeclare: If there are no enemy units within 6\" of this unit, pick a terrain feature within 3\" of this unit to be the target.\nEffect: Remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Reaper’s Blades Anti-HERO (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Anti-HERO (+1 Rend)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "NECROPOLIS STALKERS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nNECROPOLIS STALKERS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStalker Blades\t4\t3+\t3+\t2\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 140\nBase size: 50mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nFOURFOLD SLAYERS: Stalkers lethally wade into the fray, their fourfold quadrarch masks allowing them to attack from several directions at once and annihilate even massed opponents with chilling indifference.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If this unit has 3 or more models, inflict 1 mortal damage on the target for each 5+ instead.\n\n\nKEYWORDS\n\tINFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n4\"\n1\n4+\n1\n6+\nThe backbone of the Ossiarch legions are the Mortek Guard, undead imbued with martial skill blended from the spiritual essence of slain warriors and armed with soul-draining nadirite weapons. They are as proficient on the open field as they are when defending against a Ghyranite ambush. Whenever the great war-constructs and commanders of the Bonereapers are threatened, these unflinching warriors will close ranks and surround their ward with an impenetrable shieldwall.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStalker Blades\t4\t3+\t3+\t2\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 140\nBase size: 50mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "140",
+        "base_size": "50mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nFOURFOLD SLAYERS: Stalkers lethally wade into the fray, their fourfold quadrarch masks allowing them to attack from several directions at once and annihilate even massed opponents with chilling indifference.\n\n\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If this unit has 3 or more models, inflict 1 mortal damage on the target for each 5+ instead.",
+      "abilities": [
+        {
+          "name": "FOURFOLD SLAYERS",
+          "type": "Once Per Turn",
+          "description": "Stalkers lethally wade into the fray, their fourfold quadrarch masks allowing them to attack from several directions at once and annihilate even massed opponents with chilling indifference.\nDeclare: Pick an enemy unit in combat with this unit to be the target.\nEffect: Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If this unit has 3 or more models, inflict 1 mortal damage on the target for each 5+ instead."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Stalker Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "INFANTRY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN MORTEK GUARD",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nSCOURGE OF GHYRAN MORTEK GUARD\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tNadirite Blade or Spear\nAnti-CAVALRY (+1 Rend), Crit (2 Hits)\t2\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tOnce Per Phase (Army), Reaction: A friendly OSSIARCH BONEREAPERS WAR MACHINE, MONSTER or MORTISAN unit within this unit’s combat range was targeted by an ATTACK ability\t\t\nSHIELDS OF THE LEGION: Mortek Guard are the mainstay of the Ossiarch legions, repelling attacks on more valuable constructs wherever their nadirite shields are raised in defence.\n\n\n\nEffect: For the rest of the phase, subtract 1 from the Rend characteristic of weapons used for attacks that target that friendly unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, STANDARD BEARER (1/10), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nWar Machine\n\n\n\t\t\n\t\n6\"\n10\n4+\n5\n6+\nThe Gothizzar Harvester collects the remains of the slain, stripping them of flesh and storing them in a gaping cage of bone on its back. It bludgeons and cleaves those in reach of its primary arms even as its secondary limbs gather the dead.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tNadirite Blade or Spear\nAnti-CAVALRY (+1 Rend), Crit (2 Hits)\t2\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 110\nBase size: 25mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tOnce Per Phase (Army),",
+      "stats": {
+        "unit_size": "10",
+        "points": "110",
+        "base_size": "25mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Reaction: A friendly OSSIARCH BONEREAPERS WAR MACHINE, MONSTER or MORTISAN unit within this unit’s combat range was targeted by an ATTACK ability\t\t\nSHIELDS OF THE LEGION: Mortek Guard are the mainstay of the Ossiarch legions, repelling attacks on more valuable constructs wherever their nadirite shields are raised in defence.\n\n\n\nEffect: For the rest of the phase, subtract 1 from the Rend characteristic of weapons used for attacks that target that friendly unit.",
+      "abilities": [
+        {
+          "name": "SHIELDS OF THE LEGION",
+          "type": "Reaction",
+          "description": "Mortek Guard are the mainstay of the Ossiarch legions, repelling attacks on more valuable constructs wherever their nadirite shields are raised in defence.\nEffect: For the rest of the phase, subtract 1 from the Rend characteristic of weapons used for attacks that target that friendly unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "or Spear Anti-CAVALRY (+1 Rend), Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Anti-CAVALRY (+1 Rend), Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, STANDARD BEARER (1/10), WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nWar Machine",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "GOTHIZZAR HARVESTER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nGOTHIZZAR HARVESTER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoulcrusher Weapons\t6\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 200\nBase size: 105 × 70mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBONE CAGE: Tasked with collecting and flensing the corpses of the recently slain, Gothizzar Harvesters carry their osseous bounty inside the cages on their backs.\n\n\n\nEffect: This unit is either full or empty. It starts the battle full.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nBONE HARVEST: As a Gothizzar Harvester fights, its vestigial appendages ceaselessly work to amass a grisly stockpile of bones.\n\n\n\nEffect: Roll a dice for each enemy unit that has been destroyed this battle. Add 1 to each roll if this unit used a FIGHT ability this turn. If any of the rolls are a 4+, this unit is full.\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nREPAIR CONSTRUCT: The Harvester uses a portion of its morbid crop to restore the forms of fellow Ossiarchs.\n\n\n\nDeclare: If this unit is full, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit to be the target.\n\nEffect: Return 1 slain model to the target unit. If the target has a Health characteristic of 1 return 3 slain models to it instead. Then, this unit is empty.\n\n\nKEYWORDS\n\tWAR MACHINE, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n10\n3+\n2\n6+\nThe Kavalos War Chariot is a devastating weapon in the arsenal of the Ossiarch Bonereapers. Pulled by a pair of osseous steed-constructs, the charioteers either smash their way through enemy formations or else harry foes from a distance with loosed arrows and hurled javelins.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSoulcrusher Weapons\t6\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 200\nBase size: 105 × 70mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "200",
+        "base_size": "105 × 70mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBONE CAGE: Tasked with collecting and flensing the corpses of the recently slain, Gothizzar Harvesters carry their osseous bounty inside the cages on their backs.\n\n\n\nEffect: This unit is either full or empty. It starts the battle full.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nBONE HARVEST: As a Gothizzar Harvester fights, its vestigial appendages ceaselessly work to amass a grisly stockpile of bones.\n\n\n\nEffect: Roll a dice for each enemy unit that has been destroyed this battle. Add 1 to each roll if this unit used a FIGHT ability this turn. If any of the rolls are a 4+, this unit is full.\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nREPAIR CONSTRUCT: The Harvester uses a portion of its morbid crop to restore the forms of fellow Ossiarchs.\n\n\n\nDeclare: If this unit is full, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit to be the target.\n\nEffect: Return 1 slain model to the target unit. If the target has a Health characteristic of 1 return 3 slain models to it instead. Then, this unit is empty.",
+      "abilities": [
+        {
+          "name": "BONE CAGE",
+          "type": "Passive",
+          "description": "Tasked with collecting and flensing the corpses of the recently slain, Gothizzar Harvesters carry their osseous bounty inside the cages on their backs.\nEffect: This unit is either full or empty. It starts the battle full."
+        },
+        {
+          "name": "End of Any Turn BONE HARVEST",
+          "type": "Once Per Turn",
+          "description": "As a Gothizzar Harvester fights, its vestigial appendages ceaselessly work to amass a grisly stockpile of bones.\nEffect: Roll a dice for each enemy unit that has been destroyed this battle. Add 1 to each roll if this unit used a FIGHT ability this turn. If any of the rolls are a 4+, this unit is full."
+        },
+        {
+          "name": "REPAIR CONSTRUCT",
+          "type": "Once Per Turn",
+          "description": "The Harvester uses a portion of its morbid crop to restore the forms of fellow Ossiarchs.\nDeclare: If this unit is full, pick a visible friendly OSSIARCH BONEREAPERS unit wholly within 12\" of this unit to be the target.\nEffect: Return 1 slain model to the target unit. If the target has a Health characteristic of 1 return 3 slain models to it instead. Then, this unit is empty."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Soulcrusher Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WAR MACHINE, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "WAR MACHINE",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "KAVALOS WAR CHARIOT",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nKAVALOS WAR CHARIOT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCharioteers’ Weapons\t4\t3+\t4+\t1\t1\n\tChariot Steeds’ Fangs and Claws\nCompanion\t6\t5+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 170\nBase size: 120 × 92mm\n\nCan be reinforced: No\n\n\n\tAny Combat Phase\t\t\nSCYTHING ASSAULT: The War Chariot's incredible momentum sees it crash straight through the enemy front lines with shocking force.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Inflict D3 mortal damage on the target. Then, you can remove this unit from the battlefield and set it up again within 1\" of the target.\nKEYWORDS\tCORE, ATTACK, FIGHT\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nPINNING ATTACKS: Whether by javelin, arrow or sheer terror, the victims of the Kavalos War Chariot find themselves rooted in place.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+:\n\nInflict 1 mortal damage on the target.\nThe target cannot make pile-in moves for the rest of the turn.\n\n\nKEYWORDS\n\tWAR MACHINE, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n5\"\n12\n4+\n5\n6+\nAn unliving artillery piece that moves with centipedal ripples as it creeps towards the perfect vantage point, the Mortek Crawler is a dread catapult that can fire a variety of unnatural ammunition types, each imbued with fiendish concentrations of deathly energy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCharioteers’ Weapons\t4\t3+\t4+\t1\t1\n\tChariot Steeds’ Fangs and Claws\nCompanion\t6\t5+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 170\nBase size: 120 × 92mm\n\nCan be reinforced: No\n\n\n\tAny Combat Phase\t\t\nSCYTHING ASSAULT: The War Chariot's incredible momentum sees it crash straight through the enemy front lines with shocking force.\n\n\n\nDeclare: If this unit charged this turn, pick an enemy unit in combat with it to be the target.\n\nEffect: Inflict D3 mortal damage on the target. Then, you can remove this unit from the battlefield and set it up again within 1\" of the target.",
+      "stats": {
+        "unit_size": "1",
+        "points": "170",
+        "base_size": "120 × 92mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Charioteers’ Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Chariot Steeds’ Fangs and Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, ATTACK, FIGHT",
+      "keywords": [
+        "CORE",
+        "ATTACK",
+        "FIGHT"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MORTEK CRAWLER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nMORTEK CRAWLER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDread Catapult\nCrit (2 Hits)\t24\"\t4\t4+\t2+\t1\tD3+2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tAttendants’ Crawler Tools\t\t6\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 250\nBase size: 170 × 105mm\n\nCan be reinforced: No\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SHOOT ability for this unit\t\t\nDEATHLY BARRAGE: The grisly ammunition of a Mortek Crawler can leave even the most stoic souls staggering.\n\n\n\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawlers picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has STRIKE-LAST for the rest of the turn.\n\n\n\tOnce Per Turn {Army), Your Shooting Phase\t\t\nCURSED STELE: As these carven polyhedrons obliterate the foe, rendering their remains unusable, the ever-practical Ossiarchs have begun to use this ammunition to breach enemy fortifications instead.\n\n\n\nEffect: For the rest of the turn:\n\nThis unit’s ranged weapons have Anti-FACTION TERRAIN (+1 Rend).\nAdd 1 to the Damage characteristic of this unit’s ranged weapons for attacks that target faction terrain features.\n\n\nKEYWORDS\n\tWAR MACHINE, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nFaction Terrain\n\n\n\t\t\n\t\n-\n13\n4+\n-\nThe Ossiarch tithemasters often demand their grisly bounty be left at designated nexuses of power, the soul energy and raw bone of these sites evoking a repellent aura of death. Should any transgressors attempt to interfere with the Bone-tithe Nexus, the statue at its heart will unleash its deadly blade.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tDread Catapult\nCrit (2 Hits)\t24\"\t4\t4+\t2+\t1\tD3+2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAttendants’ Crawler Tools\t\t6\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 250\nBase size: 170 × 105mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "250",
+        "base_size": "170 × 105mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Once Per Turn (Army), Reaction: You declared a SHOOT ability for this unit\t\t\nDEATHLY BARRAGE: The grisly ammunition of a Mortek Crawler can leave even the most stoic souls staggering.\n\n\n\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawlers picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has STRIKE-LAST for the rest of the turn.\n\n\n\tOnce Per Turn {Army), Your Shooting Phase\t\t\nCURSED STELE: As these carven polyhedrons obliterate the foe, rendering their remains unusable, the ever-practical Ossiarchs have begun to use this ammunition to breach enemy fortifications instead.\n\n\n\nEffect: For the rest of the turn:\n\nThis unit’s ranged weapons have Anti-FACTION TERRAIN (+1 Rend).\nAdd 1 to the Damage characteristic of this unit’s ranged weapons for attacks that target faction terrain features.",
+      "abilities": [
+        {
+          "name": "DEATHLY BARRAGE",
+          "type": "Reaction",
+          "description": "The grisly ammunition of a Mortek Crawler can leave even the most stoic souls staggering.\nEffect: After that SHOOT ability has been resolved, if all of this unit’s attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawlers picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has STRIKE-LAST for the rest of the turn."
+        },
+        {
+          "name": "CURSED STELE",
+          "type": "Other",
+          "description": "As these carven polyhedrons obliterate the foe, rendering their remains unusable, the ever-practical Ossiarchs have begun to use this ammunition to breach enemy fortifications instead.\nEffect: For the rest of the turn:\nThis unit’s ranged weapons have Anti-FACTION TERRAIN (+1 Rend).\nAdd 1 to the Damage characteristic of this unit’s ranged weapons for attacks that target faction terrain features.",
+          "phase": "Shooting Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Dread Catapult Crit (2 Hits)",
+          "type": "ranged",
+          "range": "24\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (2 Hits)"
+        },
+        {
+          "name": "Attendants’ Crawler Tools",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WAR MACHINE, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\nFaction Terrain\n\n\n\t\t\n\t\n-\n13\n4+\n-\nThe Ossiarch tithemasters often demand their grisly bounty be left at designated nexuses of power, the soul energy and raw bone of these sites evoking a repellent aura of death. Should any transgressors attempt to interfere with the Bone-tithe Nexus, the statue at its heart will unleash its deadly blade.",
+      "keywords": [
+        "WAR MACHINE",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "BONE-TITHE NEXUS",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nBONE-TITHE NEXUS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tAlmighty Obsidian Blade\t2\t4+\t2+\t2\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable\n\n\n\tPassive\t\t\nDEADLY AURA: Wreathed in baleful death magic that induces a draining sense of dread, these forbidding edifices steadily repel outsiders.\n\n\n\nEffect: Enemy units cannot be set up within X\" of this terrain feature, where X is determined by the current battle round, as follows:\n\n\nBattle Round\tX\n1\t9\"\n2\t12\"\n3\t15\"\n4\t18\"\n5\t21\"\n\n\nKEYWORDS\n\tFACTION TERRAIN\nDEATH, OSSIARCH BONEREAPERS\nEndless Spell\n\n\n\t\t\n\t\n8\"\n7\n5+\n7+\n6+\nThe Bone-tithe Shrieker is a four-headed, all-seeing monstrosity conjured to hunt down those who would escape the Ossiarch tithe. When it locates its quarry, it will give vent to an awful, mind-chilling scream that dulls the wits and shivers the bones of those living creatures nearby, making them easy prey for the Ossiarchs themselves.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tAlmighty Obsidian Blade\t2\t4+\t2+\t2\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 0\nBase size: Use model\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable",
+      "stats": {
+        "unit_size": "1",
+        "points": "0",
+        "base_size": "Use model"
+      },
+      "abilities_text": "Passive\t\t\nDEADLY AURA: Wreathed in baleful death magic that induces a draining sense of dread, these forbidding edifices steadily repel outsiders.\n\n\n\nEffect: Enemy units cannot be set up within X\" of this terrain feature, where X is determined by the current battle round, as follows:\n\n\nBattle Round\tX\n1\t9\"\n2\t12\"\n3\t15\"\n4\t18\"\n5\t21\"",
+      "abilities": [
+        {
+          "name": "DEADLY AURA",
+          "type": "Passive",
+          "description": "Wreathed in baleful death magic that induces a draining sense of dread, these forbidding edifices steadily repel outsiders.\nEffect: Enemy units cannot be set up within X\" of this terrain feature, where X is determined by the current battle round, as follows:\nBattle Round\tX\n1\t9\"\n2\t12\"\n3\t15\"\n4\t18\"\n5\t21\""
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Almighty Obsidian Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "FACTION TERRAIN\nDEATH, OSSIARCH BONEREAPERS\nEndless Spell",
+      "keywords": [
+        "FACTION TERRAIN"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "BONE-TITHE SHRIEKER",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nBONE-TITHE SHRIEKER\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoul-rending Shriek\nShoot in Combat\t12\"\t4\t3+\t4+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoul-rending Shriek\t\t4\t3+\t4+\t1\tD3\n\tPassive\t\t\nNO ESCAPE: There is no hope for the enemy when a Bone-tithe Shrieker is nearby.\n\n\n\nEffect: Subtract 1 from ward rolls for enemy units while they are within 12\" of this MANIFESTATION.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n8\"\n7\n5+\n7+\n6+\nThe Nightmare Predator is a looming conjuration of Shyishan magic that takes the form of a disturbing terror. It floats eerily through the air towards its master's chosen prey, lacerating the flesh of its screaming victims with claws the size of sickles before stripping them to the bone.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tSoul-rending Shriek\nShoot in Combat\t12\"\t4\t3+\t4+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSoul-rending Shriek\t\t4\t3+\t4+\t1\tD3\n\tPassive\t\t\nNO ESCAPE: There is no hope for the enemy when a Bone-tithe Shrieker is nearby.\n\n\n\nEffect: Subtract 1 from ward rolls for enemy units while they are within 12\" of this MANIFESTATION.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n8\"\n7\n5+\n7+\n6+\nThe Nightmare Predator is a looming conjuration of Shyishan magic that takes the form of a disturbing terror. It floats eerily through the air towards its master's chosen prey, lacerating the flesh of its screaming victims with claws the size of sickles before stripping them to the bone.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Soul-rending Shriek",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Soul-rending Shriek",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    },
+    {
+      "name": "NIGHTMARE PREDATOR",
+      "faction": "ossiarch bonereapers",
+      "warscroll": "•\nOSSIARCH BONEREAPERS WARSCROLL\n•\nNIGHTMARE PREDATOR\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLacerating Claws\t6\t4+\t2+\t2\t2\n\tEnd of Any Turn\t\t\nDEATH INCARNATE: Even when destroyed, the nightmare predator reforms to continue tormenting its enemies.\n\n\n\nEffect: If this MANIFESTATION was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. Add 1 to the roll if any enemy models were slain by this MANIFESTATION’s combat attacks this turn. On a 4+, set up this MANIFESTATION again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units. That unit has summoned that MANIFESTATION.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n7\n5+\n7+\n6+\nThe Soulstealer Carrion is a soul-linked construct that soars from its caster's spread fingertips to take wing above the battlefield. Its caster can see through the avian conjuration's eyes; when it perceives spiritual energy unclaimed, it will swoop down to capture it.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLacerating Claws\t6\t4+\t2+\t2\t2\n\tEnd of Any Turn\t\t\nDEATH INCARNATE: Even when destroyed, the nightmare predator reforms to continue tormenting its enemies.\n\n\n\nEffect: If this MANIFESTATION was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. Add 1 to the roll if any enemy models were slain by this MANIFESTATION’s combat attacks this turn. On a 4+, set up this MANIFESTATION again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units. That unit has summoned that MANIFESTATION.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS\n\n\n\n\t\t\n\t\n10\"\n7\n5+\n7+\n6+\nThe Soulstealer Carrion is a soul-linked construct that soars from its caster's spread fingertips to take wing above the battlefield. Its caster can see through the avian conjuration's eyes; when it perceives spiritual energy unclaimed, it will swoop down to capture it.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Lacerating Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nDEATH, OSSIARCH BONEREAPERS",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "DEATH",
+        "OSSIARCH BONEREAPERS"
+      ]
+    }
+  ]
+}

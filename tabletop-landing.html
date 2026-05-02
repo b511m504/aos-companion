@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabletop Companion</title>
+  <style>
+    :root {
+      --bg: #0e1014;
+      --surface: #161a22;
+      --border: #2c3340;
+      --text: #eef1f7;
+      --muted: #98a2b3;
+      --heading: #ffffff;
+      --accent: #6b9fff;
+      --accent-muted: rgba(107, 159, 255, 0.22);
+      --tag-bg: #252d3d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 1.25rem 2.5rem;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 640px;
+    }
+
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.65rem;
+      font-weight: 800;
+      color: var(--heading);
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+
+    .sub {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .steps {
+      margin: 0 0 1.5rem;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .steps li {
+      counter-increment: step;
+      margin-bottom: 0.5rem;
+      padding-left: 2rem;
+      position: relative;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1.35rem;
+      height: 1.35rem;
+      border-radius: 999px;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      margin: 0 0 0.75rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .sys-row,
+    .mode-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    @media (min-width: 480px) {
+
+      .sys-row,
+      .mode-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+
+    .sys-btn,
+    .mode-btn {
+      font: inherit;
+      flex: 1;
+      min-width: 0;
+      min-height: 52px;
+      padding: 0.65rem 1rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, color 0.2s, opacity 0.2s;
+      text-align: center;
+    }
+
+    .sys-btn:hover:not(:disabled),
+    .mode-btn:hover {
+      border-color: #4a5568;
+      background: #1c2230;
+    }
+
+    .sys-btn[aria-pressed="true"],
+    .mode-btn[aria-pressed="true"] {
+      background: var(--accent-muted);
+      border-color: var(--accent);
+      color: var(--heading);
+    }
+
+    .sys-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .faction-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .faction-card {
+      display: block;
+      width: 100%;
+      text-align: left;
+      min-height: 56px;
+      padding: 1rem 1.15rem;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--tag-bg);
+      color: var(--text);
+      font: inherit;
+      font-weight: 600;
+      font-size: 1.02rem;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .faction-card:hover:not(:disabled) {
+      border-color: #4a5568;
+      background: #222833;
+    }
+
+    .faction-card[aria-pressed="true"] {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(107, 159, 255, 0.25);
+      background: rgba(107, 159, 255, 0.08);
+    }
+
+    .faction-card:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .faction-card .meta {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    .import-wrap textarea {
+      width: 100%;
+      min-height: 120px;
+      resize: vertical;
+      padding: 0.65rem 0.85rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font: inherit;
+      font-size: 0.95rem;
+    }
+
+    .hint {
+      margin-top: 0.45rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .msg {
+      padding: 0.65rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .start-wrap {
+      margin-top: 0.5rem;
+    }
+
+    #startBtn {
+      width: 100%;
+      min-height: 56px;
+      font: inherit;
+      font-size: 1.05rem;
+      font-weight: 700;
+      border-radius: 12px;
+      border: 1px solid var(--accent);
+      background: var(--accent-muted);
+      color: var(--heading);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    #startBtn:hover {
+      background: rgba(107, 159, 255, 0.32);
+    }
+
+    #startBtn:active {
+      transform: scale(0.99);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Tabletop Companion</h1>
+    <p class="sub">Pick a rules system, faction, and optional list export — then open the game screen.</p>
+
+    <ol class="steps">
+      <li>Select system</li>
+      <li>Select faction</li>
+      <li>Import list</li>
+      <li>Start game</li>
+    </ol>
+
+    <section aria-labelledby="sys-heading">
+      <h2 id="sys-heading">1. Select system</h2>
+      <div class="sys-row" id="systemRow" role="group" aria-label="Rules system"></div>
+    </section>
+
+    <section id="aosExtras" hidden aria-labelledby="mode-heading">
+      <h2 id="mode-heading">Game mode (AoS)</h2>
+      <div class="mode-row" id="modeRow" role="group" aria-label="Game mode"></div>
+    </section>
+
+    <section aria-labelledby="faction-heading">
+      <h2 id="faction-heading">2. Select faction</h2>
+      <div id="factionMsg" class="msg" hidden></div>
+      <div class="faction-grid" id="factionGrid"></div>
+    </section>
+
+    <section aria-labelledby="import-heading">
+      <h2 id="import-heading">3. Import list</h2>
+      <div class="import-wrap">
+        <textarea id="armyPaste" placeholder="Paste app army export (optional). Applied on the game screen."></textarea>
+        <p class="hint">Leave blank to browse the full faction pack.</p>
+      </div>
+    </section>
+
+    <div class="start-wrap">
+      <button type="button" id="startBtn">4. Start game</button>
+    </div>
+  </div>
+
+  <script>
+    const TABLETOP_SYSTEMS = [
+      { id: "aos", name: "Age of Sigmar" },
+      { id: "40k", name: "Warhammer 40,000 (soon)", disabled: true }
+    ]
+
+    const GAME_MODES = ["Matched Play", "Narrative", "Open Play"]
+
+    const state = {
+      systemId: "aos",
+      gameMode: GAME_MODES[0],
+      factionSlug: "",
+      factions: []
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement("div")
+      d.textContent = s
+      return d.innerHTML
+    }
+
+    function escapeAttr(s) {
+      return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;")
+    }
+
+    function setFactionMessage(text, hidden) {
+      const el = document.getElementById("factionMsg")
+      if (!el) return
+      el.textContent = text
+      el.hidden = !!hidden
+    }
+
+    function renderSystems() {
+      const row = document.getElementById("systemRow")
+      row.innerHTML = TABLETOP_SYSTEMS.map(
+        s => `
+        <button type="button" class="sys-btn" data-sys="${escapeAttr(s.id)}" aria-pressed="${s.id === state.systemId ? "true" : "false"}" ${s.disabled ? "disabled" : ""}>
+          ${escapeHtml(s.name)}
+        </button>`
+      ).join("")
+      row.querySelectorAll(".sys-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          if (btn.disabled) return
+          state.systemId = btn.getAttribute("data-sys") || "aos"
+          row.querySelectorAll(".sys-btn").forEach(b => {
+            b.setAttribute("aria-pressed", b.getAttribute("data-sys") === state.systemId ? "true" : "false")
+          })
+          syncAosExtras()
+          void loadFactionsForSystem()
+        })
+      })
+    }
+
+    function syncAosExtras() {
+      const aos = document.getElementById("aosExtras")
+      if (!aos) return
+      aos.hidden = state.systemId !== "aos"
+    }
+
+    function renderModes() {
+      const row = document.getElementById("modeRow")
+      row.innerHTML = GAME_MODES.map(
+        m => `
+        <button type="button" class="mode-btn" data-mode="${escapeAttr(m)}" aria-pressed="${m === state.gameMode ? "true" : "false"}">
+          ${escapeHtml(m)}
+        </button>`
+      ).join("")
+      row.querySelectorAll(".mode-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          state.gameMode = btn.getAttribute("data-mode") || GAME_MODES[0]
+          row.querySelectorAll(".mode-btn").forEach(b => {
+            b.setAttribute("aria-pressed", b.getAttribute("data-mode") === state.gameMode ? "true" : "false")
+          })
+        })
+      })
+    }
+
+    function renderFactions() {
+      const grid = document.getElementById("factionGrid")
+      if (state.systemId !== "aos") {
+        grid.innerHTML = ""
+        setFactionMessage("Faction pickers for this system are not wired yet.", false)
+        return
+      }
+      if (!state.factions.length) {
+        grid.innerHTML = ""
+        setFactionMessage("No factions loaded. Run the pipeline or check manifest.json.", false)
+        return
+      }
+      setFactionMessage("", true)
+      grid.innerHTML = state.factions
+        .slice()
+        .sort((a, b) => String(a.name).localeCompare(String(b.name)))
+        .map(
+          f => `
+        <button type="button" class="faction-card" data-slug="${escapeAttr(f.slug)}" aria-pressed="false">
+          ${escapeHtml(f.name)}
+          <span class="meta">${escapeHtml(f.slug)} · ${f.units} units</span>
+        </button>`
+        )
+        .join("")
+      grid.querySelectorAll(".faction-card").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const slugAttr = btn.getAttribute("data-slug") || ""
+          const faction = state.factions.find(x => x.slug === slugAttr)
+          state.factionSlug = faction ? faction.slug : ""
+          grid.querySelectorAll(".faction-card").forEach(b => {
+            b.setAttribute("aria-pressed", b.getAttribute("data-slug") === state.factionSlug ? "true" : "false")
+          })
+        })
+      })
+    }
+
+    async function loadFactionsForSystem() {
+      state.factionSlug = ""
+      state.factions = []
+      if (state.systemId !== "aos") {
+        renderFactions()
+        return
+      }
+      setFactionMessage("Loading factions…", false)
+      try {
+        const res = await fetch("./structured/factions/manifest.json")
+        if (!res.ok) throw new Error("manifest fetch failed")
+        const data = await res.json()
+        if (!Array.isArray(data)) throw new Error("manifest not array")
+        state.factions = data
+          .filter(x => x && typeof x.slug === "string" && x.slug.trim())
+          .map(x => ({
+            name: String(x.name || x.slug),
+            slug: String(x.slug).trim(),
+            units: typeof x.units === "number" ? x.units : 0
+          }))
+        setFactionMessage("", true)
+      } catch {
+        state.factions = []
+        setFactionMessage("Could not load structured/factions/manifest.json", false)
+      }
+      renderFactions()
+    }
+
+    document.getElementById("startBtn").addEventListener("click", () => {
+      if (state.systemId !== "aos") {
+        alert("This system is not available yet.")
+        return
+      }
+      const slugOk = state.factions.some(f => f.slug === state.factionSlug)
+      if (!slugOk || !state.factionSlug) {
+        alert("Select a faction")
+        return
+      }
+      const listText = document.getElementById("armyPaste").value || ""
+
+      localStorage.setItem("aos_import_list", listText)
+      localStorage.setItem("aos_last_faction", state.factionSlug)
+      localStorage.setItem("aos_last_mode", state.gameMode)
+
+      window.location.href =
+        `index.html?faction=${encodeURIComponent(state.factionSlug)}&mode=${encodeURIComponent(state.gameMode)}`
+    })
+
+    renderSystems()
+    renderModes()
+    syncAosExtras()
+    void loadFactionsForSystem()
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "phases": [
+    "Hero Phase",
+    "Movement Phase",
+    "Shooting Phase",
+    "Charge Phase",
+    "Combat Phase"
+  ]
+}

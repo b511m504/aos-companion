@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AoS Companion</string>
+    <string name="title_activity_main">AoS Companion</string>
+    <string name="package_name">com.aos.app</string>
+    <string name="custom_url_scheme">com.aos.app</string>
+</resources>

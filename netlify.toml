@@ -1,0 +1,5 @@
+# Serve real files first; unmatched routes fall back to index.html (SPA + /unit/<slug> deep links).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

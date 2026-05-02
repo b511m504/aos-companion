@@ -1,0 +1,22 @@
+{
+  "faction": "cities of sigmar",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "Cities of Sigmar – Warscrolls",
+      "faction": "cities of sigmar",
+      "warscroll": "•",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "",
+      "keywords": [],
+      "faction_keywords": []
+    }
+  ]
+}

@@ -1,0 +1,1583 @@
+{
+  "faction": "disciples of tzeentch",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "name": "GAUNT SUMMONER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nGAUNT SUMMONER\nON DISC OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tChangestaff\nCrit (Mortal)\t12\"\t3\t4+\t3+\t1\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tWarptongue Blade\t\t3\t3+\t3+\t1\t2\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 210\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH\n\n\n\tPassive\t\t\nMASTERS OF THE SILVER TOWERS: Gaunt Summoners are attuned to the esoteric magic of the Argent Shards and can call upon their power to violently repulse charging foes.\n\n\n\nEffect: Enemy units cannot end a charge move within 1/2\" of a friendly Argent Shard that is wholly within 12\" of this unit and was set up on the battlefield in the same turn.\n\n\n\tOnce Per Battle (Army), Start of Any Turn\t\t\nALL BELONGS TO TZEENTCH: The Gaunt Summoners have spent centuries remaking reality in their master’s image.\n\n\n\nDeclare: Pick an objective you do not control and that you controlled earlier in the battle to be the target.\n\nEffect: You control the target objective.\n\n\n\tYour Hero Phase\t\t\n7\nARCANE IMPRISONMENT: Gaunt Summoners delight in banishing foes to their Silver Towers.\n\n\n\nDeclare: Pick an enemy HERO in combat with this unit to be the target, then make a casting roll of 2D6.\n\nEffect: If the unmodified casting roll exceeds the target’s Health characteristic, it is automatically destroyed and cannot be replaced for the rest of the battle.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tHERO, WIZARD (2), CAVALRY, FLY, WARD (5+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n14\"\n7\n4+\n2\nMagisters are powerful sorcerers in service to Tzeentch. Filled with eldritch energies as they ride their Disc of Tzeentch, they unleash a magical onslaught to annihilate the foe, channelling the surging energies of change in order to redouble their own warriors’ attacks.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tChangestaff\nCrit (Mortal)\t12\"\t3\t4+\t3+\t1\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWarptongue Blade\t\t3\t3+\t3+\t1\t2\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 210\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH",
+      "stats": {
+        "unit_size": "1",
+        "points": "210",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH"
+      },
+      "abilities_text": "Passive\t\t\nMASTERS OF THE SILVER TOWERS: Gaunt Summoners are attuned to the esoteric magic of the Argent Shards and can call upon their power to violently repulse charging foes.\n\n\n\nEffect: Enemy units cannot end a charge move within 1/2\" of a friendly Argent Shard that is wholly within 12\" of this unit and was set up on the battlefield in the same turn.\n\n\n\tOnce Per Battle (Army), Start of Any Turn\t\t\nALL BELONGS TO TZEENTCH: The Gaunt Summoners have spent centuries remaking reality in their master’s image.\n\n\n\nDeclare: Pick an objective you do not control and that you controlled earlier in the battle to be the target.\n\nEffect: You control the target objective.\n\n\n\tYour Hero Phase\t\t\n7\nARCANE IMPRISONMENT: Gaunt Summoners delight in banishing foes to their Silver Towers.\n\n\n\nDeclare: Pick an enemy HERO in combat with this unit to be the target, then make a casting roll of 2D6.\n\nEffect: If the unmodified casting roll exceeds the target’s Health characteristic, it is automatically destroyed and cannot be replaced for the rest of the battle.",
+      "abilities": [
+        {
+          "name": "MASTERS OF THE SILVER TOWERS",
+          "type": "Passive",
+          "description": "Gaunt Summoners are attuned to the esoteric magic of the Argent Shards and can call upon their power to violently repulse charging foes.\nEffect: Enemy units cannot end a charge move within 1/2\" of a friendly Argent Shard that is wholly within 12\" of this unit and was set up on the battlefield in the same turn."
+        },
+        {
+          "name": "Start of Any Turn ALL BELONGS TO TZEENTCH",
+          "type": "Once Per Battle",
+          "description": "The Gaunt Summoners have spent centuries remaking reality in their master’s image.\nDeclare: Pick an objective you do not control and that you controlled earlier in the battle to be the target.\nEffect: You control the target objective."
+        },
+        {
+          "name": "ARCANE IMPRISONMENT",
+          "type": "Other",
+          "description": "Gaunt Summoners delight in banishing foes to their Silver Towers.\nDeclare: Pick an enemy HERO in combat with this unit to be the target, then make a casting roll of 2D6.\nEffect: If the unmodified casting roll exceeds the target’s Health characteristic, it is automatically destroyed and cannot be replaced for the rest of the battle.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Changestaff Crit (Mortal)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": "Crit (Mortal)"
+        },
+        {
+          "name": "Warptongue Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Disc’s Teeth and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "MAGISTER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nMAGISTER\nON DISC OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Runestaff\t18\"\t1\t3+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tWarpsteel Sword\t\t3\t3+\t4+\t-\t2\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE, 0-1 Arcanite Cabalist\n\n\n\tOnce Per Turn (Army), Reaction: You declared a SPELL ability for a WIZARD within 30\" of this unit and the casting roll equalled or exceeded the spell’s casting value and that spell has not been unbound\t\t\nSPELLMASTER: Tzeentch’s foremost mortal disciples are masters of magic, capable of absorbing powerful arcana to fuel their own spells.\n\n\n\nEffect: Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved.\n\nIf the spell is unbound, add 1 to casting rolls for this unit for the rest of the phase.\nKEYWORDS\tUNBIND\n\n\n\tPassive\t\t\nFATES CONVERGE: As the paths of Tzeentch’s endless plots cross, the Magister imbues their warriors with a sense of destiny.\n\n\n\nEffect: While you have 6 or more fate points, add 1 to the Attacks characteristic of melee weapons used by friendly ARCANITE units while they are wholly within 12\" of this unit.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), CAVALRY, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n14\"\n6\n5+\n2\nTzaangor Shamans are the most powerful of their bestial kind. Born amongst dark omens, they are favoured by the Architect of Fate and granted a daemonic Disc to raise them above their kin. They combine savage strength with instinctive magical prowess, a combination that few can resist.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Runestaff\t18\"\t1\t3+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tWarpsteel Sword\t\t3\t3+\t4+\t-\t2\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE, 0-1 Arcanite Cabalist",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "Any ARCANITE, 0-1 Arcanite Cabalist"
+      },
+      "abilities_text": "Once Per Turn (Army), Reaction: You declared a SPELL ability for a WIZARD within 30\" of this unit and the casting roll equalled or exceeded the spell’s casting value and that spell has not been unbound\t\t\nSPELLMASTER: Tzeentch’s foremost mortal disciples are masters of magic, capable of absorbing powerful arcana to fuel their own spells.\n\n\n\nEffect: Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved.\n\nIf the spell is unbound, add 1 to casting rolls for this unit for the rest of the phase.",
+      "abilities": [
+        {
+          "name": "SPELLMASTER",
+          "type": "Reaction",
+          "description": "Tzeentch’s foremost mortal disciples are masters of magic, capable of absorbing powerful arcana to fuel their own spells.\nEffect: Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved.\nIf the spell is unbound, add 1 to casting rolls for this unit for the rest of the phase."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Tzeentchian Runestaff",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Warpsteel Sword",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Disc’s Teeth and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "UNBIND",
+      "keywords": [
+        "UNBIND"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "TZAANGOR SHAMAN",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTZAANGOR SHAMAN\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3\n\tDisc’s Teeth and Horns\nCompanion\t2\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Arcanite Cabalist, Any ARCANITE\n\n\n\tYour Hero Phase\t\t\nAVIAN SWIFTNESS: The Shaman invests nearby allies with avian speed, allowing them to close with the foe in moments.\n\n\n\nDeclare: Pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, until the start of your next turn, the target can use CHARGE abilities even if it used a RUN ability in the same turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWIT OF BEASTS: The Shaman curses the enemy with an atavistic madness, causing them to see themselves as the beasts they ride – or as the beast within.\n\n\n\nDeclare: Pick a visible enemy MONSTER or CAVALRY unit within 6\" of this unit to be the target.\n\nEffect: The target’s melee weapons have the Companion weapon ability for the rest of the turn.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), CAVALRY, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\nInfantry Hero\n\n\n\t\t\n\t\n5\"\n5\n6+\n2\n6+\nLoping into battle on foot, the sour-tempered Heralds known as Changecasters act as Tzeentch’s infantry generals, browbeating lesser entities into line. Their mere presence seems to strengthen nearby daemons’ connection to reality, while their powers of transmutation melt enemy blades and guns to bubbling liquid.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3\n\tDisc’s Teeth and Horns\nCompanion\t2\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Arcanite Cabalist, Any ARCANITE",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Arcanite Cabalist, Any ARCANITE"
+      },
+      "abilities_text": "Your Hero Phase\t\t\nAVIAN SWIFTNESS: The Shaman invests nearby allies with avian speed, allowing them to close with the foe in moments.\n\n\n\nDeclare: Pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, until the start of your next turn, the target can use CHARGE abilities even if it used a RUN ability in the same turn.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWIT OF BEASTS: The Shaman curses the enemy with an atavistic madness, causing them to see themselves as the beasts they ride – or as the beast within.\n\n\n\nDeclare: Pick a visible enemy MONSTER or CAVALRY unit within 6\" of this unit to be the target.\n\nEffect: The target’s melee weapons have the Companion weapon ability for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "AVIAN SWIFTNESS",
+          "type": "Other",
+          "description": "The Shaman invests nearby allies with avian speed, allowing them to close with the foe in moments.\nDeclare: Pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, until the start of your next turn, the target can use CHARGE abilities even if it used a RUN ability in the same turn.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "WIT OF BEASTS",
+          "type": "Once Per Turn",
+          "description": "The Shaman curses the enemy with an atavistic madness, causing them to see themselves as the beasts they ride – or as the beast within.\nDeclare: Pick a visible enemy MONSTER or CAVALRY unit within 6\" of this unit to be the target.\nEffect: The target’s melee weapons have the Companion weapon ability for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff of Change and Ritual Dagger",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Disc’s Teeth and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), CAVALRY, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\nInfantry Hero",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "CAVALRY",
+        "FLY",
+        "ARCANITE",
+        "WARFLOCK"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "CHANGECASTER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nCHANGECASTER\nHERALD OF TZEENTCH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any DAEMON\nNotes: This HERO can join an eligible regiment as a Tzeentchian Deceiver.\n\n\n\tPassive\t\t\nLOCUS OF COMMAND: Granted a fraction of Tzeentch’s authority, Changecasters anchor the battleline with their stern presence.\n\n\n\nEffect: Each time a friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nWEAPON CURSE: The Changecaster's strange powers of mutation warp and dull enemy weapons, rendering them near useless.\n\n\n\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target was set up this turn. On a 3+, until the start of your next turn, other than the Companion weapon ability, weapon abilities for attacks that target that unit have no effect.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n5\"\n6\n3+\n2\nA Curseling is a potent warrior-mage imbued with daemonic power through a conjoined, spell-moulding Tretchlet. They love nothing more than overwhelming their foes with an arcane onslaught, melting their armour to liquid before dealing a killing blow.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: Any DAEMON\nNotes: This HERO can join an eligible regiment as a Tzeentchian Deceiver.",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "Any DAEMON",
+        "notes": "This HERO can join an eligible regiment as a Tzeentchian Deceiver."
+      },
+      "abilities_text": "Passive\t\t\nLOCUS OF COMMAND: Granted a fraction of Tzeentch’s authority, Changecasters anchor the battleline with their stern presence.\n\n\n\nEffect: Each time a friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n\n\n\tOnce Per Turn (Army), Your Hero Phase\t\t\nWEAPON CURSE: The Changecaster's strange powers of mutation warp and dull enemy weapons, rendering them near useless.\n\n\n\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. Add 1 to the roll if the target was set up this turn. On a 3+, until the start of your next turn, other than the Companion weapon ability, weapon abilities for attacks that target that unit have no effect.",
+      "abilities": [
+        {
+          "name": "LOCUS OF COMMAND",
+          "type": "Passive",
+          "description": "Granted a fraction of Tzeentch’s authority, Changecasters anchor the battleline with their stern presence.\nEffect: Each time a friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+        },
+        {
+          "name": "WEAPON CURSE",
+          "type": "Once Per Turn",
+          "description": "The Changecaster's strange powers of mutation warp and dull enemy weapons, rendering them near useless.\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH DAEMON unit wholly within 12\" of this unit to be the target.\nEffect: Roll a dice. Add 1 to the roll if the target was set up this turn. On a 3+, until the start of your next turn, other than the Companion weapon ability, weapon abilities for attacks that target that unit have no effect."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff of Change and Ritual Dagger",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "CURSELING",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nCURSELING\nEYE OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tHurled Arcane Energy\t18\"\tD6\t3+\t3+\t1\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Tzeentch and Blazing Sword\t\t5\t3+\t4+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Chaos Spawn of Tzeentch, Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.\n\n\n\tOnce Per Turn (Army), Any Combat Phase\t\t\nWITH SPELL AND SWORD: The Curseling casts deadly spells even in the midst of blade-on-blade combat.\n\n\n\nEffect: If this unit is in combat, it can use a non-SUMMON SPELL ability as if it were your hero phase, as if that ability had the UNLIMITED keyword and as if this unit had not cast any spells this turn.\n\n\n\tYour Hero Phase\t\t\n6\nARMOUR-BANE CURSE: The Tretchlet mutters an arcane hex, transforming the enemy’s armour into a molten, dripping ruin.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: Subtract 1 from save rolls for combat attacks that target that unit until the start of your next turn.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tHERO, WIZARD (2), INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n5\"\n6\n4+\n2\nThe military masterminds of the Arcanite cults, Fatemasters are charismatic firebrands who weave plots and illusions to ensure their enemies’ annihilation. Their cursed glaive carves through flesh and metal with unnatural ease, while a loyal Twistwing familiar provides them with an unimpeded view of the battlefield.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tHurled Arcane Energy\t18\"\tD6\t3+\t3+\t1\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Tzeentch and Blazing Sword\t\t5\t3+\t4+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 32mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Chaos Spawn of Tzeentch, Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "32mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Chaos Spawn of Tzeentch, Any ARCANITE",
+        "notes": "This HERO can join an eligible regiment as an Arcanite Cabalist."
+      },
+      "abilities_text": "Once Per Turn (Army), Any Combat Phase\t\t\nWITH SPELL AND SWORD: The Curseling casts deadly spells even in the midst of blade-on-blade combat.\n\n\n\nEffect: If this unit is in combat, it can use a non-SUMMON SPELL ability as if it were your hero phase, as if that ability had the UNLIMITED keyword and as if this unit had not cast any spells this turn.\n\n\n\tYour Hero Phase\t\t\n6\nARMOUR-BANE CURSE: The Tretchlet mutters an arcane hex, transforming the enemy’s armour into a molten, dripping ruin.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: Subtract 1 from save rolls for combat attacks that target that unit until the start of your next turn.",
+      "abilities": [
+        {
+          "name": "WITH SPELL AND SWORD",
+          "type": "Once Per Turn",
+          "description": "The Curseling casts deadly spells even in the midst of blade-on-blade combat.\nEffect: If this unit is in combat, it can use a non-SUMMON SPELL ability as if it were your hero phase, as if that ability had the UNLIMITED keyword and as if this unit had not cast any spells this turn."
+        },
+        {
+          "name": "ARMOUR-BANE CURSE",
+          "type": "Other",
+          "description": "The Tretchlet mutters an arcane hex, transforming the enemy’s armour into a molten, dripping ruin.\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target. Then, make a casting roll of 2D6.\nEffect: Subtract 1 from save rolls for combat attacks that target that unit until the start of your next turn.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Hurled Arcane Energy",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "D6",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Staff of Tzeentch and Blazing Sword",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "FATEMASTER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nFATEMASTER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCursewrought Glaive\t4\t3+\t4+\t2\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 150\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Chaos Spawn of Tzeentch, Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.\n\n\n\tOnce Per Turn (Army), Enemy Hero Phase\t\t\n2\nLONG IN THE PLANNING: Carefully prepared deceptions and illusions pave the way for a merciless Arcanite assault.\n\n\n\nDeclare: Spend 2 fate points. Then, pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn, the first time an enemy unit ends a charge move within 3\" of the target, you can remove the target from the battlefield and set it up in reserve masked by illusion.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nBOUND RETINUE: The Fatemaster’s Twistwing relays the locations of favoured followers, and when the uprising breaks out, it is these chosen blades who form an honour guard for their master.\n\n\n\nDeclare: This unit can only use this ability if it is masked by illusion. Pick up to 1 other friendly unit that is masked by illusion to be the target.\n\nEffect: Set up this unit on the battlefield more than 9\" from all enemy units. Then, set up the target wholly within 6\" of this unit and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n5\"\n5\n5+\n2\n5+\nTo the daemonic Gaunt Summoners, reality is but a plaything to be mutilated and twisted according to the desires of Almighty Tzeentch. Gazing into infinity with myriad glistening eyes, these lords of the Silver Towers devastate the enemy with their master spellcraft.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCursewrought Glaive\t4\t3+\t4+\t2\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 150\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Chaos Spawn of Tzeentch, Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.",
+      "stats": {
+        "unit_size": "1",
+        "points": "150",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Chaos Spawn of Tzeentch, Any ARCANITE",
+        "notes": "This HERO can join an eligible regiment as an Arcanite Cabalist."
+      },
+      "abilities_text": "Once Per Turn (Army), Enemy Hero Phase\t\t\n2\nLONG IN THE PLANNING: Carefully prepared deceptions and illusions pave the way for a merciless Arcanite assault.\n\n\n\nDeclare: Spend 2 fate points. Then, pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn, the first time an enemy unit ends a charge move within 3\" of the target, you can remove the target from the battlefield and set it up in reserve masked by illusion.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\nBOUND RETINUE: The Fatemaster’s Twistwing relays the locations of favoured followers, and when the uprising breaks out, it is these chosen blades who form an honour guard for their master.\n\n\n\nDeclare: This unit can only use this ability if it is masked by illusion. Pick up to 1 other friendly unit that is masked by illusion to be the target.\n\nEffect: Set up this unit on the battlefield more than 9\" from all enemy units. Then, set up the target wholly within 6\" of this unit and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "LONG IN THE PLANNING",
+          "type": "Once Per Turn",
+          "description": "Carefully prepared deceptions and illusions pave the way for a merciless Arcanite assault.\nDeclare: Spend 2 fate points. Then, pick a visible friendly ARCANITE unit wholly within 12\" of this unit to be the target.\nEffect: For the rest of the turn, the first time an enemy unit ends a charge move within 3\" of the target, you can remove the target from the battlefield and set it up in reserve masked by illusion."
+        },
+        {
+          "name": "BOUND RETINUE",
+          "type": "Once Per Turn",
+          "description": "The Fatemaster’s Twistwing relays the locations of favoured followers, and when the uprising breaks out, it is these chosen blades who form an honour guard for their master.\nDeclare: This unit can only use this ability if it is masked by illusion. Pick up to 1 other friendly unit that is masked by illusion to be the target.\nEffect: Set up this unit on the battlefield more than 9\" from all enemy units. Then, set up the target wholly within 6\" of this unit and more than 9\" from all enemy units."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cursewrought Glaive",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WIZARD (1), INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE",
+      "keywords": [
+        "HERO",
+        "WIZARD (1)",
+        "INFANTRY",
+        "ARCANITE"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "OGROID THAUMATURGE",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nOGROID THAUMATURGE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThaumaturge Staff\nShoot in Combat\t12\"\t3\t3+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tGreat Horns and Cloven Hooves\nCharge (+1 Damage)\t\t6\t4+\t2+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 130\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.\n\n\n\tReaction: Opponent declared a SPELL ability for a unit within 30\" of this unit\t\t\nTHAUMATURGE HUNGER: The ogroid senses the coalescence of arcane motes and charges forth in search of this brewing power.\n\n\n\nEffect: This unit can move 6\". It can move into combat and must end that move closer to the caster. If this unit was in combat at the start of the move, it must end that move in combat.\nKEYWORDS\tMOVE\n\n\n\tEnd of Any Turn\t\t\nARCANE ABSORPTION: Ogroid Thaumaturges feast upon the eldritch power of those they slay.\n\n\n\nEffect: If any damage points were allocated to an enemy WIZARD or PRIEST by this unit’s attacks this turn and that enemy unit has been destroyed:\n\nHeal (7) this unit.\nAdd 1 to this unit’s power level for the rest of the battle.\n\nThis unit can be affected by this ability multiple times and the effects are cumulative.\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n5\"\n6\n5+\n2\n5+\nA master of illusionary disguise, the Changeling hides amongst its quarry, sowing confusion amongst their ranks. Upon throwing aside its fleshly masquerade, the Changeling uses sorcery and its Trickster’s Staff to openly blast its foes.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThaumaturge Staff\nShoot in Combat\t12\"\t3\t3+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGreat Horns and Cloven Hooves\nCharge (+1 Damage)\t\t6\t4+\t2+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 130\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.",
+      "stats": {
+        "unit_size": "1",
+        "points": "130",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "Any ARCANITE",
+        "notes": "This HERO can join an eligible regiment as an Arcanite Cabalist."
+      },
+      "abilities_text": "Reaction: Opponent declared a SPELL ability for a unit within 30\" of this unit\t\t\nTHAUMATURGE HUNGER: The ogroid senses the coalescence of arcane motes and charges forth in search of this brewing power.\n\n\n\nEffect: This unit can move 6\". It can move into combat and must end that move closer to the caster. If this unit was in combat at the start of the move, it must end that move in combat.",
+      "abilities": [
+        {
+          "name": "THAUMATURGE HUNGER",
+          "type": "Reaction",
+          "description": "The ogroid senses the coalescence of arcane motes and charges forth in search of this brewing power.\nEffect: This unit can move 6\". It can move into combat and must end that move closer to the caster. If this unit was in combat at the start of the move, it must end that move in combat."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Thaumaturge Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Great Horns and Cloven Hooves Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MOVE\n\n\n\tEnd of Any Turn\t\t\nARCANE ABSORPTION: Ogroid Thaumaturges feast upon the eldritch power of those they slay.",
+      "keywords": [
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "THE CHANGELING",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTHE CHANGELING\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tThe Trickster’s Staff\t3\t3+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 1      Points: 170\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any DAEMON\nNotes: This HERO can join an eligible regiment as a Tzeentchian Deceiver.\n\n\n\tPassive\t\t\nPUCKISH MISDIRECTION: The Changeling uses illusion and misdirection to mask the movements of its accomplices.\n\n\n\nEffect: While they are wholly within 12\" of this unit, friendly DISCIPLES OF TZEENTCH units can use the ‘Redeploy’ command even if they were set up in the same turn.\n\n\n\tYour Hero Phase\t\t\nARCH-DECEIVER: None can detect the veil of the Changeling. Assuming the form of an ally, it sows arcane discord before vanishing.\n\n\n\nDeclare: This unit can only use this ability if it is masked by illusion. Pick a model in a friendly DISCIPLES OF TZEENTCH unit to be the target.\n\nEffect: This unit can immediately use a SPELL ability. When it does so, measure the range and visibility of that SPELL ability from the target. The target is treated as the caster for the purpose of other abilities such as ‘Unbind’.\n\n\n\tYour Hero Phase\t\t\n7\nWHISPERS OF TREACHERY: The Changeling spreads thoughts of betrayal amongst the enemy, inciting a bitter spree of bloodshed.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tUNIQUE, HERO, WIZARD (2), INFANTRY, WARD (5+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n6\"\n8\n5+\n2\nAn Ogroid Thaumaturge is a hulking brute whose size and terrible strength belies a masterful grasp of sorcery. Amongst the Arcanite Cults of the Jade Kingdoms, they are worshipped as living idols – a status they are all too willing to exploit. Their eldritch wards draw upon the souls of nearby cultists, immolating the weak whilst protecting the ogroid from harm.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tThe Trickster’s Staff\t3\t3+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 1      Points: 170\nBase size: 40mm\n\nCan be reinforced: No\nRegiment Options: Any DAEMON\nNotes: This HERO can join an eligible regiment as a Tzeentchian Deceiver.",
+      "stats": {
+        "unit_size": "1",
+        "points": "170",
+        "base_size": "40mm",
+        "reinforced": "No",
+        "regiment_options": "Any DAEMON",
+        "notes": "This HERO can join an eligible regiment as a Tzeentchian Deceiver."
+      },
+      "abilities_text": "Passive\t\t\nPUCKISH MISDIRECTION: The Changeling uses illusion and misdirection to mask the movements of its accomplices.\n\n\n\nEffect: While they are wholly within 12\" of this unit, friendly DISCIPLES OF TZEENTCH units can use the ‘Redeploy’ command even if they were set up in the same turn.\n\n\n\tYour Hero Phase\t\t\nARCH-DECEIVER: None can detect the veil of the Changeling. Assuming the form of an ally, it sows arcane discord before vanishing.\n\n\n\nDeclare: This unit can only use this ability if it is masked by illusion. Pick a model in a friendly DISCIPLES OF TZEENTCH unit to be the target.\n\nEffect: This unit can immediately use a SPELL ability. When it does so, measure the range and visibility of that SPELL ability from the target. The target is treated as the caster for the purpose of other abilities such as ‘Unbind’.\n\n\n\tYour Hero Phase\t\t\n7\nWHISPERS OF TREACHERY: The Changeling spreads thoughts of betrayal amongst the enemy, inciting a bitter spree of bloodshed.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "PUCKISH MISDIRECTION",
+          "type": "Passive",
+          "description": "The Changeling uses illusion and misdirection to mask the movements of its accomplices.\nEffect: While they are wholly within 12\" of this unit, friendly DISCIPLES OF TZEENTCH units can use the ‘Redeploy’ command even if they were set up in the same turn."
+        },
+        {
+          "name": "ARCH-DECEIVER",
+          "type": "Other",
+          "description": "None can detect the veil of the Changeling. Assuming the form of an ally, it sows arcane discord before vanishing.\nDeclare: This unit can only use this ability if it is masked by illusion. Pick a model in a friendly DISCIPLES OF TZEENTCH unit to be the target.\nEffect: This unit can immediately use a SPELL ability. When it does so, measure the range and visibility of that SPELL ability from the target. The target is treated as the caster for the purpose of other abilities such as ‘Unbind’.",
+          "phase": "Hero Phase"
+        },
+        {
+          "name": "WHISPERS OF TREACHERY",
+          "type": "Other",
+          "description": "The Changeling spreads thoughts of betrayal amongst the enemy, inciting a bitter spree of bloodshed.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "The Trickster’s Staff",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCOURGE OF GHYRAN OGROID THAUMATURGE",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nSCOURGE OF GHYRAN OGROID THAUMATURGE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThaumaturge Staff\t12\"\t3\t3+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tGreat Horns and Cloven Hooves\nCharge (+1 Damage)\t\t6\t4+\t2+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nSOUL-DEEP DEVOTION: Thaumaturges surround themselves with staunchly faithful cultists who are willing to sacrifice their souls in the defence of their sorcerous idol.\n\n\n\nEffect: While this unit is within a friendly non-HERO ARCANITE unit’s combat range:\n\nThis unit has WARD (4+).\nEach time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-HERO ARCANITE unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nWRATH OF THE THAUMATURGE: With a sweep of its staff, the Thaumaturge steps into a rift to the Crystal Labyrinth, only to re-emerge in the midst of foes who have had the temerity to assault its devotees.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly ARCANITE unit in combat to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat. This unit has charged.\nKEYWORDS\tCORE, CHARGE\n\n\nKEYWORDS\n\tHERO, WIZARD (1), INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\nMonster Hero\n\n\n\t\t\n\t\n12\"\n16\n5+\n5\n5+\nKairos Fateweaver can see the past and the future, and he uses this ability to twist destiny to suit his own malevolent purposes. The twin‑headed terror is a master of magic known as the Oracle of Tzeentch – wherever he goes, change is sure to follow.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tThaumaturge Staff\t12\"\t3\t3+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tGreat Horns and Cloven Hooves\nCharge (+1 Damage)\t\t6\t4+\t2+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 50mm\n\nCan be reinforced: No\nRegiment Options: Any ARCANITE\nNotes: This HERO can join an eligible regiment as an Arcanite Cabalist.\nThis unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "50mm",
+        "reinforced": "No",
+        "regiment_options": "Any ARCANITE"
+      },
+      "abilities_text": "Passive\t\t\nSOUL-DEEP DEVOTION: Thaumaturges surround themselves with staunchly faithful cultists who are willing to sacrifice their souls in the defence of their sorcerous idol.\n\n\n\nEffect: While this unit is within a friendly non-HERO ARCANITE unit’s combat range:\n\nThis unit has WARD (4+).\nEach time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-HERO ARCANITE unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nWRATH OF THE THAUMATURGE: With a sweep of its staff, the Thaumaturge steps into a rift to the Crystal Labyrinth, only to re-emerge in the midst of foes who have had the temerity to assault its devotees.\n\n\n\nDeclare: If this unit is not in combat, pick a friendly ARCANITE unit in combat to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat. This unit has charged.",
+      "abilities": [
+        {
+          "name": "SOUL-DEEP DEVOTION",
+          "type": "Passive",
+          "description": "Thaumaturges surround themselves with staunchly faithful cultists who are willing to sacrifice their souls in the defence of their sorcerous idol.\nEffect: While this unit is within a friendly non-HERO ARCANITE unit’s combat range:\nThis unit has WARD (4+).\nEach time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-HERO ARCANITE unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+        },
+        {
+          "name": "Any Charge Phase WRATH OF THE THAUMATURGE",
+          "type": "Once Per Turn",
+          "description": "With a sweep of its staff, the Thaumaturge steps into a rift to the Crystal Labyrinth, only to re-emerge in the midst of foes who have had the temerity to assault its devotees.\nDeclare: If this unit is not in combat, pick a friendly ARCANITE unit in combat to be the target.\nEffect: Remove this unit from the battlefield and set it up again within 1\" of the target and in combat. This unit has charged."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Thaumaturge Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Great Horns and Cloven Hooves Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, CHARGE",
+      "keywords": [
+        "CORE",
+        "CHARGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "KAIROS FATEWEAVER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nKAIROS FATEWEAVER\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Tomorrow\t4\t3+\t2+\t1\tD3\n\tCurved Beaks\t5\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 1      Points: 400\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 1 from its power level.\n\n\n\tPassive\t\t\nMASTER OF DESTINY: Kairos sees both past and future, granting him unchecked power of the fate of his victims.\n\n\n\nEffect: If this unit has not already engineered the outcome this battle round, instead of making a casting roll, unbinding roll, banishment roll, hit roll, wound roll or save roll for a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit, this unit can engineer the outcome.\n\nIf the roll would have been a D6 roll, you can use a value of 6 for it that cannot be modified. If the roll would have been a 2D6 roll, you can use a value of 9 for it that cannot be modified.\n\n\n\tPassive\t\t\nMASTERY OF MAGIC: To master the arcane is to embody Tzeentch’s designs.\n\n\n\nEffect: When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6.\n\n\n\tPassive\t\t\nBEACON OF SORCERY: Spreading his arms, Kairos saturates the area with magic.\n\n\n\nEffect: Add 1 to casting rolls and unbinding rolls for friendly DISCIPLES OF TZEENTCH WIZARDS while they are wholly within 12\" of this unit.\n\nIn addition, if a friendly DISCIPLES OF TZEENTCH WIZARD wholly within 12\" of this unit unbinds a spell, no command points are spent for that WIZARD to use the ‘Magical Intervention’ command in that phase.\n\n\n\tYour Hero Phase\t\t\n8\nFATEFUL REVERSE: Tzeentch’s oracle invades his enemies’ minds with false visions of victory, causing them to charge willingly to their doom.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn:\n\nIf the target charged in the same turn, friendly DISCIPLES OF TZEENTCH units in combat with the target have STRIKE-FIRST.\nThe target’s weapons cannot be affected by the Charge (+1 Damage) weapon ability.\nKEYWORDS\tSPELL\n\n\nKEYWORDS\n\tWARMASTER, UNIQUE, HERO, MONSTER, WIZARD (3), FLY, WARD (5+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n12\"\n14\n5+\n5\n5+\nThe greatest of Tzeentch’s daemons, the Lords of Change shimmer with raw magic. With a flick of their claws, they can hurl foes into the nightmarish Realm of Chaos, blast enemies with wyrdfire or drive them insane with illusions and reality-warping spells.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Tomorrow\t4\t3+\t2+\t1\tD3\n\tCurved Beaks\t5\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 1      Points: 400\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist",
+      "stats": {
+        "unit_size": "1",
+        "points": "400",
+        "base_size": "100mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 1 from its power level.\n\n\n\tPassive\t\t\nMASTER OF DESTINY: Kairos sees both past and future, granting him unchecked power of the fate of his victims.\n\n\n\nEffect: If this unit has not already engineered the outcome this battle round, instead of making a casting roll, unbinding roll, banishment roll, hit roll, wound roll or save roll for a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit, this unit can engineer the outcome.\n\nIf the roll would have been a D6 roll, you can use a value of 6 for it that cannot be modified. If the roll would have been a 2D6 roll, you can use a value of 9 for it that cannot be modified.\n\n\n\tPassive\t\t\nMASTERY OF MAGIC: To master the arcane is to embody Tzeentch’s designs.\n\n\n\nEffect: When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6.\n\n\n\tPassive\t\t\nBEACON OF SORCERY: Spreading his arms, Kairos saturates the area with magic.\n\n\n\nEffect: Add 1 to casting rolls and unbinding rolls for friendly DISCIPLES OF TZEENTCH WIZARDS while they are wholly within 12\" of this unit.\n\nIn addition, if a friendly DISCIPLES OF TZEENTCH WIZARD wholly within 12\" of this unit unbinds a spell, no command points are spent for that WIZARD to use the ‘Magical Intervention’ command in that phase.\n\n\n\tYour Hero Phase\t\t\n8\nFATEFUL REVERSE: Tzeentch’s oracle invades his enemies’ minds with false visions of victory, causing them to charge willingly to their doom.\n\n\n\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\n\nEffect: Until the start of your next turn:\n\nIf the target charged in the same turn, friendly DISCIPLES OF TZEENTCH units in combat with the target have STRIKE-FIRST.\nThe target’s weapons cannot be affected by the Charge (+1 Damage) weapon ability.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, subtract 1 from its power level."
+        },
+        {
+          "name": "MASTER OF DESTINY",
+          "type": "Passive",
+          "description": "Kairos sees both past and future, granting him unchecked power of the fate of his victims.\nEffect: If this unit has not already engineered the outcome this battle round, instead of making a casting roll, unbinding roll, banishment roll, hit roll, wound roll or save roll for a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit, this unit can engineer the outcome.\nIf the roll would have been a D6 roll, you can use a value of 6 for it that cannot be modified. If the roll would have been a 2D6 roll, you can use a value of 9 for it that cannot be modified."
+        },
+        {
+          "name": "MASTERY OF MAGIC",
+          "type": "Passive",
+          "description": "To master the arcane is to embody Tzeentch’s designs.\nEffect: When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6."
+        },
+        {
+          "name": "BEACON OF SORCERY",
+          "type": "Passive",
+          "description": "Spreading his arms, Kairos saturates the area with magic.\nEffect: Add 1 to casting rolls and unbinding rolls for friendly DISCIPLES OF TZEENTCH WIZARDS while they are wholly within 12\" of this unit.\nIn addition, if a friendly DISCIPLES OF TZEENTCH WIZARD wholly within 12\" of this unit unbinds a spell, no command points are spent for that WIZARD to use the ‘Magical Intervention’ command in that phase."
+        },
+        {
+          "name": "FATEFUL REVERSE",
+          "type": "Other",
+          "description": "Tzeentch’s oracle invades his enemies’ minds with false visions of victory, causing them to charge willingly to their doom.\nDeclare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.\nEffect: Until the start of your next turn:\nIf the target charged in the same turn, friendly DISCIPLES OF TZEENTCH units in combat with the target have STRIKE-FIRST.\nThe target’s weapons cannot be affected by the Charge (+1 Damage) weapon ability.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff of Tomorrow",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Curved Beaks",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "LORD OF CHANGE",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nLORD OF CHANGE\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStorm of Wyrdfire\nCrit (Auto-wound)\t18\"\t5\t3+\t3+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tEldritch Weapons\t\t6\t4+\t3+\t1\t3\nBATTLE PROFILE\nUnit Size: 1      Points: 380\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist\n\n\n\tPassive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 1 from its power level.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\n1\nSUMMON DAEMONS OF TZEENTCH: To challenge the fractal plans of the Architect of Fate is to face strange daemons born from chaotic sorcery itself.\n\n\n\nDeclare: Pick a friendly non-HERO DISCIPLES OF TZEENTCH DAEMON unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\n\tYour Hero Phase\t\t\n6\nTEMPORAL MANIPULATION: Lords of Change can alter the very flow of time, calling minions to their side in the blink of an eye.\n\n\n\nDeclare: Pick another visible friendly DISCIPLES OF TZEENTCH unit that was not set up this turn and that is wholly within 18\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: The target can use the ‘Normal Move’ ability as if it were your movement phase, but it must end that move closer to this unit.\nKEYWORDS\tSPELL\n\n\n\tPassive\t\t\nLOCUS OF IMPOSSIBILITY: The aura of maddening instability surrounding Tzeentch’s greatest daemons fuels their own power whilst ensuring that foes can scarcely land a telling blow.\n\n\n\nEffect: Add 1 to casting rolls for this unit. In addition, subtract 1 from hit rolls for attacks that target friendly DISCIPLES OF TZEENTCH DAEMON units while they are wholly within 12\" of this unit.\n\n\nKEYWORDS\n\tHERO, MONSTER, WIZARD (3), FLY, WARD (5+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nWar Machine Hero\n\n\n\t\t\n\t\n12\"\n10\n5+\n2\n6+\nTrailing flames and maniacal laughter, a Fateskimmer streaks across the skies on a Burning Chariot, the Screamers at the vehicle’s fore biting their prey as they speed by. This Herald of Tzeentch delights in spreading the sorcerous inferno of the Change God far and wide, and nearby daemons are swept up in its gleeful wake.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tStorm of Wyrdfire\nCrit (Auto-wound)\t18\"\t5\t3+\t3+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tEldritch Weapons\t\t6\t4+\t3+\t1\t3",
+      "battle_profile_text": "Unit Size: 1      Points: 380\nBase size: 100mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist",
+      "stats": {
+        "unit_size": "1",
+        "points": "380",
+        "base_size": "100mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Tzeentchian Deceiver, Any DISCIPLES OF TZEENTCH, 0-1 Arcanite Cabalist"
+      },
+      "abilities_text": "Passive\t\t\nBATTLE DAMAGED\nEffect: While this unit has 10 or more damage points, subtract 1 from its power level.\n\n\n\tOnce Per Turn (Army), Your Movement Phase\t\t\n1\nSUMMON DAEMONS OF TZEENTCH: To challenge the fractal plans of the Architect of Fate is to face strange daemons born from chaotic sorcery itself.\n\n\n\nDeclare: Pick a friendly non-HERO DISCIPLES OF TZEENTCH DAEMON unit that has been destroyed to be the target.\n\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.\n\n\n\tYour Hero Phase\t\t\n6\nTEMPORAL MANIPULATION: Lords of Change can alter the very flow of time, calling minions to their side in the blink of an eye.\n\n\n\nDeclare: Pick another visible friendly DISCIPLES OF TZEENTCH unit that was not set up this turn and that is wholly within 18\" of this unit to be the target. Then, make a casting roll of 2D6.\n\nEffect: The target can use the ‘Normal Move’ ability as if it were your movement phase, but it must end that move closer to this unit.",
+      "abilities": [
+        {
+          "name": "BATTLE DAMAGED Effect",
+          "type": "Passive",
+          "description": "While this unit has 10 or more damage points, subtract 1 from its power level."
+        },
+        {
+          "name": "SUMMON DAEMONS OF TZEENTCH",
+          "type": "Once Per Turn",
+          "description": "To challenge the fractal plans of the Architect of Fate is to face strange daemons born from chaotic sorcery itself.\nDeclare: Pick a friendly non-HERO DISCIPLES OF TZEENTCH DAEMON unit that has been destroyed to be the target.\nEffect: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."
+        },
+        {
+          "name": "TEMPORAL MANIPULATION",
+          "type": "Other",
+          "description": "Lords of Change can alter the very flow of time, calling minions to their side in the blink of an eye.\nDeclare: Pick another visible friendly DISCIPLES OF TZEENTCH unit that was not set up this turn and that is wholly within 18\" of this unit to be the target. Then, make a casting roll of 2D6.\nEffect: The target can use the ‘Normal Move’ ability as if it were your movement phase, but it must end that move closer to this unit.",
+          "phase": "Hero Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Storm of Wyrdfire Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Eldritch Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "SPELL",
+      "keywords": [
+        "SPELL"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "FATESKIMMER",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nFATESKIMMER\nHERALD OF TZEENTCH ON BURNING CHARIOT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3\n\tScreamers’ Lamprey Bites\nCharge (+1 Damage), Companion\t6\t4+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 140\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DAEMON\n\n\n\tPassive\t\t\nSPREAD THE INFERNO: The Fateskimmer’s fiery determination to burn reality to ashes incites nearby daemons to a murderous frenzy.\n\n\n\nEffect: Companion weapons used by friendly DISCIPLES OF TZEENTCH units have Crit (2 Hits) while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nFUEL FOR THE FLAMES: Even the blazing ruin of its own kind serves a Fateskimmer’s ends, each death fuelling the spreading fires.\n\n\n\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit to be the target.\n\nEffect: If the target is destroyed this turn, before removing it from play, gain 1 fate point.\n\n\nKEYWORDS\n\tHERO, WAR MACHINE, WIZARD (1), FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nBeast\n\n\n\t\t\n\t\n2D6\"\n5\n5+\n1\nTzeentch Chaos Spawn are, if anything, even more horrifically mutated than others of their kind. Altered at the whim of the Change God, they tear their prey limb from limb with their freakish array of claws, tentacles and hooked appendages.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tStaff of Change and Ritual Dagger\t3\t4+\t3+\t1\tD3\n\tScreamers’ Lamprey Bites\nCharge (+1 Damage), Companion\t6\t4+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 140\nBase size: 120 × 92mm\n\nCan be reinforced: No\nRegiment Options: 0-1 Tzeentchian Deceiver, Any DAEMON",
+      "stats": {
+        "unit_size": "1",
+        "points": "140",
+        "base_size": "120 × 92mm",
+        "reinforced": "No",
+        "regiment_options": "0-1 Tzeentchian Deceiver, Any DAEMON"
+      },
+      "abilities_text": "Passive\t\t\nSPREAD THE INFERNO: The Fateskimmer’s fiery determination to burn reality to ashes incites nearby daemons to a murderous frenzy.\n\n\n\nEffect: Companion weapons used by friendly DISCIPLES OF TZEENTCH units have Crit (2 Hits) while they are wholly within 12\" of this unit.\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nFUEL FOR THE FLAMES: Even the blazing ruin of its own kind serves a Fateskimmer’s ends, each death fuelling the spreading fires.\n\n\n\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit to be the target.\n\nEffect: If the target is destroyed this turn, before removing it from play, gain 1 fate point.",
+      "abilities": [
+        {
+          "name": "SPREAD THE INFERNO",
+          "type": "Passive",
+          "description": "The Fateskimmer’s fiery determination to burn reality to ashes incites nearby daemons to a murderous frenzy.\nEffect: Companion weapons used by friendly DISCIPLES OF TZEENTCH units have Crit (2 Hits) while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "FUEL FOR THE FLAMES",
+          "type": "Once Per Turn",
+          "description": "Even the blazing ruin of its own kind serves a Fateskimmer’s ends, each death fuelling the spreading fires.\nDeclare: Pick a visible friendly DISCIPLES OF TZEENTCH unit wholly within 12\" of this unit to be the target.\nEffect: If the target is destroyed this turn, before removing it from play, gain 1 fate point."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Staff of Change and Ritual Dagger",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        },
+        {
+          "name": "Screamers’ Lamprey Bites Charge (+1 Damage),",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "HERO, WAR MACHINE, WIZARD (1), FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nBeast\n\n\n\t\t\n\t\n2D6\"\n5\n5+\n1\nTzeentch Chaos Spawn are, if anything, even more horrifically mutated than others of their kind. Altered at the whim of the Change God, they tear their prey limb from limb with their freakish array of claws, tentacles and hooked appendages.",
+      "keywords": [
+        "HERO",
+        "WAR MACHINE",
+        "WIZARD (1)",
+        "FLY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "CHAOS SPAWN OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nCHAOS SPAWN OF TZEENTCH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tFreakish Mutations\nCrit (2 Hits), Companion\t2D6\t5+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 60\nBase size: 50mm\n\nCan be reinforced: No\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tDeployment Phase\t\t\nA TWISTED FATE: For some, their destiny is to become a mewling abomination – they just do not know it yet.\n\n\n\nDeclare: This unit must be deployed using this ability\n\nEffect: Set up this unit in reserve masked by illusion. It has now been deployed.\nKEYWORDS\tDEPLOY\n\n\n\tPassive\t\t\nWAVES OF MUTATION: There is no limit to Tzeentch’s appetite for change.\n\n\n\nEffect: Each time this unit or the replacement of this unit is destroyed, set up a replacement unit in reserve masked by illusion. Each friendly Chaos Spawn of Tzeentch unit can be replaced any number of times.\n\n\nKEYWORDS\n\tBEAST\nCHAOS, DISCIPLES OF TZEENTCH\n\n\n\n\t\t\n\t\n14\"\n3\n5+\n1\n6+\nSpeeding blurs that leave shimmering trails of change-magic in the air, Screamers streak across the skies with a wailing cry. They slash those foes they pass with razor-sharp horns and fins, and they have a particular taste for enemy spells and conjurations.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFreakish Mutations\nCrit (2 Hits), Companion\t2D6\t5+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 60\nBase size: 50mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "60",
+        "base_size": "50mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tDeployment Phase\t\t\nA TWISTED FATE: For some, their destiny is to become a mewling abomination – they just do not know it yet.\n\n\n\nDeclare: This unit must be deployed using this ability\n\nEffect: Set up this unit in reserve masked by illusion. It has now been deployed.",
+      "abilities": [
+        {
+          "name": "BEAST Effect",
+          "type": "Passive",
+          "description": "This unit has a maximum control score of 1.\n\tDeployment Phase\t\t\nA TWISTED FATE: For some, their destiny is to become a mewling abomination – they just do not know it yet.\nDeclare: This unit must be deployed using this ability\nEffect: Set up this unit in reserve masked by illusion. It has now been deployed."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "(2 Hits), 2D6 5+ 4+ - 1",
+          "type": "melee",
+          "range": null,
+          "attacks": null,
+          "hit": null,
+          "wound": null,
+          "rend": null,
+          "damage": null,
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "DEPLOY",
+      "keywords": [
+        "DEPLOY"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "SCREAMERS OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nSCREAMERS OF TZEENTCH\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tLamprey Bite\nCharge (+1 Damage), Companion\t3\t4+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nDRAWN TO MAGIC: These eldritch creatures like to feast upon arcane manifestations, which they hungrily pursue on sight.\n\n\n\nDeclare: If this unit is not in combat, pick an enemy MANIFESTATION to be the target. Then, make a charge roll of 3D6.\n\nEffect: This unit can move a distance up to the value of the charge roll. It can move through the combat ranges of enemy units and must end that move within 1/2\" of the target. If it does so, this unit has charged.\n\nThen, if this unit charged this turn, inflict D3 mortal damage on each enemy MANIFESTATION in combat with this unit.\nKEYWORDS\tCORE, MOVE, CHARGE\n\n\nKEYWORDS\n\tBEAST, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nCavalry\n\n\n\t\t\n\t\n14\"\n4\n4+\n1\nTzaangor Enlightened are arrogant creatures, for they can see the lessons of the past as easily as mortals see daylight. They gleefully exploit their prey’s weaknesses in battle, unnerving them with an uncanny understanding of their strategies before moving in to capitalise with a killing blow.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tLamprey Bite\nCharge (+1 Damage), Companion\t3\t4+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nBEAST\nEffect: This unit has a maximum control score of 1.\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nDRAWN TO MAGIC: These eldritch creatures like to feast upon arcane manifestations, which they hungrily pursue on sight.\n\n\n\nDeclare: If this unit is not in combat, pick an enemy MANIFESTATION to be the target. Then, make a charge roll of 3D6.\n\nEffect: This unit can move a distance up to the value of the charge roll. It can move through the combat ranges of enemy units and must end that move within 1/2\" of the target. If it does so, this unit has charged.\n\nThen, if this unit charged this turn, inflict D3 mortal damage on each enemy MANIFESTATION in combat with this unit.",
+      "abilities": [
+        {
+          "name": "BEAST Effect",
+          "type": "Passive",
+          "description": "This unit has a maximum control score of 1."
+        },
+        {
+          "name": "Any Charge Phase DRAWN TO MAGIC",
+          "type": "Once Per Turn",
+          "description": "These eldritch creatures like to feast upon arcane manifestations, which they hungrily pursue on sight.\nDeclare: If this unit is not in combat, pick an enemy MANIFESTATION to be the target. Then, make a charge roll of 3D6.\nEffect: This unit can move a distance up to the value of the charge roll. It can move through the combat ranges of enemy units and must end that move within 1/2\" of the target. If it does so, this unit has charged.\nThen, if this unit charged this turn, inflict D3 mortal damage on each enemy MANIFESTATION in combat with this unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Lamprey Bite Charge (+1 Damage),",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CORE, MOVE, CHARGE",
+      "keywords": [
+        "CORE",
+        "MOVE",
+        "CHARGE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "TZAANGOR ENLIGHTENED",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTZAANGOR ENLIGHTENED\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Spear and Vicious Beak\nCharge (+1 Damage)\t3\t4+\t3+\t1\t2\n\tDisc’s Teeth and Horns\nCompanion\t2\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 3      Points: 200\nBase size: 40mm\n\nCan be reinforced: Yes\nNotes: Previously Tzaangor Enlightened on Discs of Tzeentch.\n\n\n\tAny Combat Phase\t\t\nALL TOO PREDICTABLE: The Enlightened are able to glimpse snapshots of their enemy’s past battles, giving them a vital edge in combat.\n\n\n\nEffect: If this unit charged this turn, pick 1 of the following effects to apply for the rest of the turn:\n\nThis unit’s Tzeentchian Spear and Vicious Beak has Crit (2 Hits).\nAdd 1 to the Rend characteristic of this unit’s Tzeentchian Spear and Vicious Beak.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\n\n\n\n\t\t\n\t\n14\"\n4\n4+\n1\nTzaangor Skyfires soar across the battlefield, raining death upon the foe. Able to catch glimpses of the future, the Skyfires send their Arrows of Fate on baffling trajectories, striking their target’s most vulnerable weak spots with confounding accuracy.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Spear and Vicious Beak\nCharge (+1 Damage)\t3\t4+\t3+\t1\t2\n\tDisc’s Teeth and Horns\nCompanion\t2\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 3      Points: 200\nBase size: 40mm\n\nCan be reinforced: Yes\nNotes: Previously Tzaangor Enlightened on Discs of Tzeentch.\n\n\n\tAny Combat Phase\t\t\nALL TOO PREDICTABLE: The Enlightened are able to glimpse snapshots of their enemy’s past battles, giving them a vital edge in combat.\n\n\n\nEffect: If this unit charged this turn, pick 1 of the following effects to apply for the rest of the turn:\n\nThis unit’s Tzeentchian Spear and Vicious Beak has Crit (2 Hits).\nAdd 1 to the Rend characteristic of this unit’s Tzeentchian Spear and Vicious Beak.",
+      "stats": {
+        "unit_size": "3",
+        "points": "200",
+        "base_size": "40mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Tzeentchian Spear and Vicious Beak Charge (+1 Damage)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Disc’s Teeth and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "ARCANITE",
+        "WARFLOCK"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "TZAANGOR SKYFIRES",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTZAANGOR SKYFIRES\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArrow of Fate\t18\"\t2\t4+\t3+\t1\t2\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tBow Stave and Vicious Beak\t\t1\t4+\t3+\t-\t1\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3\nBATTLE PROFILE\nUnit Size: 3      Points: 160\nBase size: 40mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nGUIDED BY THE FUTURE: The attacks of these warriors are directed by glimpses of the future.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s shooting attacks.\n\n\n\tYour Shooting Phase\t\t\nDESTINED QUARRY: Skyfires often select a target to utterly obliterate and erase from the tapestry of fate.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it by this unit’s attacks this phase to be the target.\n\nEffect: Add 1 to hit rolls for combat attacks made by friendly WARFLOCK units that target that enemy unit for the rest of the turn.\n\n\nKEYWORDS\n\tCAVALRY, CHAMPION, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\nInfantry\n\n\n\t\t\n\t\n6\"\n1\n6+\n1\n6+\nBlue Horrors are grumbling daemons that despise existence and all who dwell within it, and they delight in burning it down. If they are destroyed, they transform into bounding Brimstone Horrors that continue to attack with mindless spite.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArrow of Fate\t18\"\t2\t4+\t3+\t1\t2",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tBow Stave and Vicious Beak\t\t1\t4+\t3+\t-\t1\n\tDisc’s Teeth and Horns\nCompanion\t\t2\t4+\t3+\t1\tD3",
+      "battle_profile_text": "Unit Size: 3      Points: 160\nBase size: 40mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "160",
+        "base_size": "40mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nGUIDED BY THE FUTURE: The attacks of these warriors are directed by glimpses of the future.\n\n\n\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s shooting attacks.\n\n\n\tYour Shooting Phase\t\t\nDESTINED QUARRY: Skyfires often select a target to utterly obliterate and erase from the tapestry of fate.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it by this unit’s attacks this phase to be the target.\n\nEffect: Add 1 to hit rolls for combat attacks made by friendly WARFLOCK units that target that enemy unit for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "GUIDED BY THE FUTURE",
+          "type": "Passive",
+          "description": "The attacks of these warriors are directed by glimpses of the future.\nEffect: Ignore negative modifiers to hit rolls and wound rolls for this unit’s shooting attacks."
+        },
+        {
+          "name": "DESTINED QUARRY",
+          "type": "Other",
+          "description": "Skyfires often select a target to utterly obliterate and erase from the tapestry of fate.\nDeclare: Pick an enemy unit that had any damage points allocated to it by this unit’s attacks this phase to be the target.\nEffect: Add 1 to hit rolls for combat attacks made by friendly WARFLOCK units that target that enemy unit for the rest of the turn.",
+          "phase": "Shooting Phase"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Arrow of Fate",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        },
+        {
+          "name": "Bow Stave and Vicious Beak",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Disc’s Teeth and Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CAVALRY, CHAMPION, FLY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\nInfantry",
+      "keywords": [
+        "CAVALRY",
+        "CHAMPION",
+        "FLY",
+        "ARCANITE",
+        "WARFLOCK"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "BLUE HORRORS AND BRIMSTONE HORRORS",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nBLUE HORRORS AND BRIMSTONE HORRORS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArcane Flames\nCrit (Auto-wound)\t12\"\t2\t4+\t4+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tSpiteful Talons\t\t2\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\nThis unit starts the battle with 10 Blue Horror models or, if it is a reinforced unit, 20 Blue Horror models.\nBrimstone Horrors models can be added to this unit using the ‘Split Again’ ability.\n\n\n\tEnd of Any Turn\t\t\nSPLIT AGAIN: Should a Blue Horror meet its end at the hands of the enemy, it is capable of splitting itself into two lesser daemons.\n\n\n\nEffect: Roll a dice for each Blue Horror model in this unit that is slain. On a 3+, you can add 1 Brimstone Horrors model to this unit.\n\nDesigner’s Note: You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.\n\nModels that have been slain and returned to this unit do not count as being slain for the purposes of this ability.\n\n\nKEYWORDS\n\tINFANTRY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n9\"\n5\n5+\n1\n6+\nAn Exalted Flamer can project gouts of multicoloured flame, turning entire enemy units into piles of blackened bones. The shifting wyrdflame seems to have a mind of its own, forming hideous faces and ominous sigils with its tongues of fire.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArcane Flames\nCrit (Auto-wound)\t12\"\t2\t4+\t4+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSpiteful Talons\t\t2\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 120\nBase size: 25mm\n\nCan be reinforced: Yes\n\n\nThis unit starts the battle with 10 Blue Horror models or, if it is a reinforced unit, 20 Blue Horror models.\nBrimstone Horrors models can be added to this unit using the ‘Split Again’ ability.\n\n\n\tEnd of Any Turn\t\t\nSPLIT AGAIN: Should a Blue Horror meet its end at the hands of the enemy, it is capable of splitting itself into two lesser daemons.\n\n\n\nEffect: Roll a dice for each Blue Horror model in this unit that is slain. On a 3+, you can add 1 Brimstone Horrors model to this unit.\n\nDesigner’s Note: You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.\n\nModels that have been slain and returned to this unit do not count as being slain for the purposes of this ability.",
+      "stats": {
+        "unit_size": "10",
+        "points": "120",
+        "base_size": "25mm"
+      },
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "Arcane Flames Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Spiteful Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON",
+      "keywords": [
+        "INFANTRY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "EXALTED FLAMER OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nEXALTED FLAMER OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWyrdflame Blast\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t16\"\t4\t2+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws\t\t3\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 110\nBase size: 75 × 42mm\n\nCan be reinforced: No\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nHEART OF THE INFERNO: The Exalted Flamer causes the fires of its lesser kin to reach truly horrific levels of intensity.\n\n\n\nDeclare: Pick up to 2 visible friendly Flamers of Tzeentch units wholly within 12\" of this unit to be the targets.\n\nEffect: Add 1 to wound rolls for the targets’ shooting attacks for the rest of the turn.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nUNNATURAL HEAT: An Exalted Flamer’s streams of warping fire melt armour to slag and devour defensive wards.\n\n\n\nDeclare: Pick an enemy unit that was targeted by this unit’s shooting attacks this phase to be the target.\n\nEffect: Roll a dice. Add the number of damage points allocated to the target this phase by this unit’s shooting attacks to the roll. On a 5+, subtract 1 from save rolls for the target for the rest of the turn.\n\n\nKEYWORDS\n\tINFANTRY, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n9\"\n2\n5+\n1\n6+\nBounding in a disturbing fashion, Flamers of Tzeentch spring towards the foe spouting the warpfires of Chaos. No natural flames, these conjurations twist and warp the victim’s flesh, unable to be quenched by either water or magical means as they eat through everything they touch.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWyrdflame Blast\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t16\"\t4\t2+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws\t\t3\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 110\nBase size: 75 × 42mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "110",
+        "base_size": "75 × 42mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Once Per Turn (Army), Your Shooting Phase\t\t\nHEART OF THE INFERNO: The Exalted Flamer causes the fires of its lesser kin to reach truly horrific levels of intensity.\n\n\n\nDeclare: Pick up to 2 visible friendly Flamers of Tzeentch units wholly within 12\" of this unit to be the targets.\n\nEffect: Add 1 to wound rolls for the targets’ shooting attacks for the rest of the turn.\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nUNNATURAL HEAT: An Exalted Flamer’s streams of warping fire melt armour to slag and devour defensive wards.\n\n\n\nDeclare: Pick an enemy unit that was targeted by this unit’s shooting attacks this phase to be the target.\n\nEffect: Roll a dice. Add the number of damage points allocated to the target this phase by this unit’s shooting attacks to the roll. On a 5+, subtract 1 from save rolls for the target for the rest of the turn.",
+      "abilities": [
+        {
+          "name": "HEART OF THE INFERNO",
+          "type": "Once Per Turn",
+          "description": "The Exalted Flamer causes the fires of its lesser kin to reach truly horrific levels of intensity.\nDeclare: Pick up to 2 visible friendly Flamers of Tzeentch units wholly within 12\" of this unit to be the targets.\nEffect: Add 1 to wound rolls for the targets’ shooting attacks for the rest of the turn."
+        },
+        {
+          "name": "Any Shooting Phase UNNATURAL HEAT",
+          "type": "Once Per Turn",
+          "description": "An Exalted Flamer’s streams of warping fire melt armour to slag and devour defensive wards.\nDeclare: Pick an enemy unit that was targeted by this unit’s shooting attacks this phase to be the target.\nEffect: Roll a dice. Add the number of damage points allocated to the target this phase by this unit’s shooting attacks to the roll. On a 5+, subtract 1 from save rolls for the target for the rest of the turn."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Wyrdflame Blast Anti-INFANTRY (+1 Rend),",
+          "type": "ranged",
+          "range": "16\"",
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        },
+        {
+          "name": "Flaming Maws",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON",
+      "keywords": [
+        "INFANTRY",
+        "FLY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "FLAMERS OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nFLAMERS OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWarping Flames\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t12\"\t3\t2+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws\t\t3\t3+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 3      Points: 130\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Any Shooting Phase\t\t\nCAPRICIOUS WYRDFLAME: The mutagenic fires expelled by Flamers are most drawn to those already ablaze with the potential for change.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.\n\nEffect: The target has the BURNING keyword for the rest of the battle.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nLINGERING BURNS: Wyrdflame clings to the enemy, near impossible to quench as it agonisingly devours their bodies and souls.\n\n\n\nDeclare: This unit can use this ability even if it has been destroyed. Pick any number of BURNING enemy units to be the targets.\n\nEffect: Roll a D3 for each target. On a 1, the target no longer has the BURNING keyword. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n5\"\n1\n4+\n1\nCursed artificers skilled in stonecraft, the Jade Obelisk are acutely aware of their finite time as living flesh. They are single-minded in their purpose to desecrate the idols of false gods before their mortal bodies succumb to inevitable petrification.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWarping Flames\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t12\"\t3\t2+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws\t\t3\t3+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 3      Points: 130\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "3",
+        "points": "130",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Shooting Phase\t\t\nCAPRICIOUS WYRDFLAME: The mutagenic fires expelled by Flamers are most drawn to those already ablaze with the potential for change.\n\n\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.\n\nEffect: The target has the BURNING keyword for the rest of the battle.\n\n\n\tOnce Per Turn (Army), End of Any Turn\t\t\nLINGERING BURNS: Wyrdflame clings to the enemy, near impossible to quench as it agonisingly devours their bodies and souls.\n\n\n\nDeclare: This unit can use this ability even if it has been destroyed. Pick any number of BURNING enemy units to be the targets.\n\nEffect: Roll a D3 for each target. On a 1, the target no longer has the BURNING keyword. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "abilities": [
+        {
+          "name": "Any Shooting Phase CAPRICIOUS WYRDFLAME",
+          "type": "Once Per Turn",
+          "description": "The mutagenic fires expelled by Flamers are most drawn to those already ablaze with the potential for change.\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.\nEffect: The target has the BURNING keyword for the rest of the battle."
+        },
+        {
+          "name": "End of Any Turn LINGERING BURNS",
+          "type": "Once Per Turn",
+          "description": "Wyrdflame clings to the enemy, near impossible to quench as it agonisingly devours their bodies and souls.\nDeclare: This unit can use this ability even if it has been destroyed. Pick any number of BURNING enemy units to be the targets.\nEffect: Roll a D3 for each target. On a 1, the target no longer has the BURNING keyword. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Warping Flames Anti-INFANTRY (+1 Rend),",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        },
+        {
+          "name": "Flaming Maws",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "FLY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "JADE OBELISK",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nJADE OBELISK\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tMason’s Tools\nAnti-FACTION TERRAIN (+1 Rend)\t2\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 9      Points: 100\n\nMODEL\tBASE SIZE\n5 x Desecrators, Nephrite Priestess, Obelisk Bearer\t32mm\n5 x Idolarc, Defacers\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with Passive Mason’s Tools.\n\n4/9 models can carry an Antithete Bow.\nThe champion cannot carry an Antithete Bow.\n\n\n\tPassive\t\t\nIDOLARC: Fashioned from crystal and given life by dark ritual, Idolarcs are the messengers of the Speaker in the Stone.\n\n\n\nEffect: This unit’s Idolarc is a token. After setting up this unit on the battlefield for the first time, place its Idolarc next to it.\n\n\n\tPassive\t\t\nSILVER MONOLITHS: The Jade Obelisk draw power from Argent Shards to augment their defence, seeing them as sacred monuments to their deity’s glory.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within 12\" of a friendly Argent Shard.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nCHOSEN BY THE STONE: The Jade Obelisk loose a cursed arrow at a chosen foe, marking them out to the Idolarc as a potential sacrifice to the Speaker in the Stone that must be detained.\n\n\n\nDeclare: If this unit has any models carrying an Antithete Bow, pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, place the Idolarcs of all other friendly Jade Obelisk units next to their respective units. Then, place this unit’s Idolarc next to the target.\n\nWhile a friendly Idolarc is next to an enemy unit, subtract 1\" from that enemy unit’s Move characteristic for each fate point you have. This ability cannot reduce an enemy unit’s Move characteristic below half its unmodified value.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION (1/9)\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n5\"\n1\n5+\n1\nKairic Acolytes are the chosen human cultists of Tzeentch. Each has sworn their immortal soul to the Architect of Fate in exchange for the promise of power. In death or in life, they serve their master’s constantly changing agenda.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tMason’s Tools\nAnti-FACTION TERRAIN (+1 Rend)\t2\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 9      Points: 100\n\nMODEL\tBASE SIZE\n5 x Desecrators, Nephrite Priestess, Obelisk Bearer\t32mm\n5 x Idolarc, Defacers\t28.5mm\nCan be reinforced: No\nNotes: This unit cannot be reinforced.\n\n\nEach model in this unit is armed with",
+      "stats": {
+        "unit_size": "9",
+        "reinforced": "No"
+      },
+      "abilities_text": "Passive Mason’s Tools.\n\n4/9 models can carry an Antithete Bow.\nThe champion cannot carry an Antithete Bow.\n\n\n\tPassive\t\t\nIDOLARC: Fashioned from crystal and given life by dark ritual, Idolarcs are the messengers of the Speaker in the Stone.\n\n\n\nEffect: This unit’s Idolarc is a token. After setting up this unit on the battlefield for the first time, place its Idolarc next to it.\n\n\n\tPassive\t\t\nSILVER MONOLITHS: The Jade Obelisk draw power from Argent Shards to augment their defence, seeing them as sacred monuments to their deity’s glory.\n\n\n\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within 12\" of a friendly Argent Shard.\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nCHOSEN BY THE STONE: The Jade Obelisk loose a cursed arrow at a chosen foe, marking them out to the Idolarc as a potential sacrifice to the Speaker in the Stone that must be detained.\n\n\n\nDeclare: If this unit has any models carrying an Antithete Bow, pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, place the Idolarcs of all other friendly Jade Obelisk units next to their respective units. Then, place this unit’s Idolarc next to the target.\n\nWhile a friendly Idolarc is next to an enemy unit, subtract 1\" from that enemy unit’s Move characteristic for each fate point you have. This ability cannot reduce an enemy unit’s Move characteristic below half its unmodified value.",
+      "abilities": [
+        {
+          "name": "IDOLARC",
+          "type": "Passive",
+          "description": "Fashioned from crystal and given life by dark ritual, Idolarcs are the messengers of the Speaker in the Stone.\nEffect: This unit’s Idolarc is a token. After setting up this unit on the battlefield for the first time, place its Idolarc next to it."
+        },
+        {
+          "name": "SILVER MONOLITHS",
+          "type": "Passive",
+          "description": "The Jade Obelisk draw power from Argent Shards to augment their defence, seeing them as sacred monuments to their deity’s glory.\nEffect: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within 12\" of a friendly Argent Shard."
+        },
+        {
+          "name": "CHOSEN BY THE STONE",
+          "type": "Once Per Turn",
+          "description": "The Jade Obelisk loose a cursed arrow at a chosen foe, marking them out to the Idolarc as a potential sacrifice to the Speaker in the Stone that must be detained.\nDeclare: If this unit has any models carrying an Antithete Bow, pick a visible enemy unit within 18\" of this unit to be the target.\nEffect: Roll a dice. On a 3+, place the Idolarcs of all other friendly Jade Obelisk units next to their respective units. Then, place this unit’s Idolarc next to the target.\nWhile a friendly Idolarc is next to an enemy unit, subtract 1\" from that enemy unit’s Move characteristic for each fate point you have. This ability cannot reduce an enemy unit’s Move characteristic below half its unmodified value."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Mason’s Tools Anti-FACTION TERRAIN (+1 Rend)",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION (1/9)\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE",
+      "keywords": [
+        "INFANTRY",
+        "ARCANITE"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "KAIRIC ACOLYTES",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nKAIRIC ACOLYTES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tKairic Blades\t2\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tOnce Per Turn (Army), Enemy Movement Phase\t\t\nDRIVEN BY DESTINY: Willing pawns in the Change God’s schemes, Kairic Acolytes are driven by the winds of fate to wherever they can cause the most bloodshed and confusion.\n\n\n\nEffect: If this unit is more than 6\" from all enemy units, it can move X\", where X is the number of fate points you have. It cannot move into combat during any part of that move.\nKEYWORDS\tMOVE\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\n\n\n\n\t\t\n\t\n6\"\n2\n5+\n1\n6+\nGibbering and warbling, the luminescent Pink Horrors whirl and flail, generating raw magic that can manifest as blasts of unnatural fire that scour the enemy. Should they be slain, Pink Horrors can split in twain to form two lesser incarnations.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tKairic Blades\t2\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 90\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "90",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Once Per Turn (Army), Enemy Movement Phase\t\t\nDRIVEN BY DESTINY: Willing pawns in the Change God’s schemes, Kairic Acolytes are driven by the winds of fate to wherever they can cause the most bloodshed and confusion.\n\n\n\nEffect: If this unit is more than 6\" from all enemy units, it can move X\", where X is the number of fate points you have. It cannot move into combat during any part of that move.",
+      "abilities": [
+        {
+          "name": "DRIVEN BY DESTINY",
+          "type": "Once Per Turn",
+          "description": "Willing pawns in the Change God’s schemes, Kairic Acolytes are driven by the winds of fate to wherever they can cause the most bloodshed and confusion.\nEffect: If this unit is more than 6\" from all enemy units, it can move X\", where X is the number of fate points you have. It cannot move into combat during any part of that move."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Kairic Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "MOVE",
+      "keywords": [
+        "MOVE"
+      ],
+      "faction_keywords": []
+    },
+    {
+      "name": "PINK HORRORS",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nPINK HORRORS\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArcane Flames\nCrit (Auto-wound)\t12\"\t2\t4+\t4+\t-\t1\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tTaloned Hands\t\t2\t4+\t4+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 170\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nLUNATIC DEMISE: Should a Pink Horror be slain, it is capable of bursting into two smaller daemons or else detonating in a blast of wyrdflame.\n\n\n\nEffect: Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects:\n\nSplit: Pick a visible friendly Blue Horrors and Brimstone Horrors unit within 12\" of this unit. Return up to 2 slain Blue Horror models to that unit.\n\nPetty Vengeance: Pick an enemy unit in combat with this unit to be the target, then roll a dice. On a 5+, inflict 1 mortal damage on the target.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10), WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\n\n\n\n\t\t\n\t\n6\"\n3\n4+\n1\nTzaangor Enlightened are arrogant creatures, for they can see the lessons of the past as easily as mortals see daylight. They gleefully caw out the past mistakes of their enemies, unnerving them before moving in to capitalise with each blow",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tArcane Flames\nCrit (Auto-wound)\t12\"\t2\t4+\t4+\t-\t1",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tTaloned Hands\t\t2\t4+\t4+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 170\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "170",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nLUNATIC DEMISE: Should a Pink Horror be slain, it is capable of bursting into two smaller daemons or else detonating in a blast of wyrdflame.\n\n\n\nEffect: Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects:\n\nSplit: Pick a visible friendly Blue Horrors and Brimstone Horrors unit within 12\" of this unit. Return up to 2 slain Blue Horror models to that unit.\n\nPetty Vengeance: Pick an enemy unit in combat with this unit to be the target, then roll a dice. On a 5+, inflict 1 mortal damage on the target.",
+      "abilities": [
+        {
+          "name": "LUNATIC DEMISE",
+          "type": "Passive",
+          "description": "Should a Pink Horror be slain, it is capable of bursting into two smaller daemons or else detonating in a blast of wyrdflame.\nEffect: Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects:\nSplit: Pick a visible friendly Blue Horrors and Brimstone Horrors unit within 12\" of this unit. Return up to 2 slain Blue Horror models to that unit.\nPetty Vengeance: Pick an enemy unit in combat with this unit to be the target, then roll a dice. On a 5+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Arcane Flames Crit (Auto-wound)",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Taloned Hands",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10), WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "TZAANGOR ENLIGHTENED ON FOOT",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTZAANGOR ENLIGHTENED ON FOOT\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Spear and Vicious Beak\t2\t4+\t3+\t1\t2\nBATTLE PROFILE\nUnit Size: 3      Points: 110\nBase size: 40mm\n\nCan be reinforced: Yes\nNotes: Previously Tzaangor Enlightened.\nThis unit will move to Warhammer Legends on 1 June 2027\n\n\n\tPassive\t\t\nVICIOUS PROTECTORS: As the fiercest of their kind, Tzaangor Enlightened are often tasked with protecting the leaders of the Arcanite Cults. Not only do they excel at slaying those who threaten their charges, but the disturbingly insightful taunts they constantly crow fill their foes with doubt, robbing their strikes of conviction.\n\n\n\nEffect: While there is a visible friendly ARCANITE HERO within this unit’s combat range:\n\nSubtract 1 from hit rolls for combat attacks that target that friendly ARCANITE HERO.\nAdd 1 to hit rolls for this unit’s combat attacks.\n\n\nKEYWORDS\n\tCHAMPION, INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\n\n\n\n\t\t\n\t\n6\"\n2\n5+\n1\nTzaangors are savage, avian beastmen dedicated to Tzeentch and gifted with his dark blessings. Eager to impress their duplicitous god, the Tzaangors fight with lunatic energies, hoping to earn further gifts of change.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tTzeentchian Spear and Vicious Beak\t2\t4+\t3+\t1\t2",
+      "battle_profile_text": "Unit Size: 3      Points: 110\nBase size: 40mm\n\nCan be reinforced: Yes\nNotes: Previously Tzaangor Enlightened.\nThis unit will move to Warhammer Legends on 1 June 2027",
+      "stats": {
+        "unit_size": "3",
+        "points": "110",
+        "base_size": "40mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nVICIOUS PROTECTORS: As the fiercest of their kind, Tzaangor Enlightened are often tasked with protecting the leaders of the Arcanite Cults. Not only do they excel at slaying those who threaten their charges, but the disturbingly insightful taunts they constantly crow fill their foes with doubt, robbing their strikes of conviction.\n\n\n\nEffect: While there is a visible friendly ARCANITE HERO within this unit’s combat range:\n\nSubtract 1 from hit rolls for combat attacks that target that friendly ARCANITE HERO.\nAdd 1 to hit rolls for this unit’s combat attacks.",
+      "abilities": [
+        {
+          "name": "VICIOUS PROTECTORS",
+          "type": "Passive",
+          "description": "As the fiercest of their kind, Tzaangor Enlightened are often tasked with protecting the leaders of the Arcanite Cults. Not only do they excel at slaying those who threaten their charges, but the disturbingly insightful taunts they constantly crow fill their foes with doubt, robbing their strikes of conviction.\nEffect: While there is a visible friendly ARCANITE HERO within this unit’s combat range:\nSubtract 1 from hit rolls for combat attacks that target that friendly ARCANITE HERO.\nAdd 1 to hit rolls for this unit’s combat attacks."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Tzeentchian Spear and Vicious Beak",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "CHAMPION, INFANTRY\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK",
+      "keywords": [
+        "CHAMPION",
+        "INFANTRY",
+        "ARCANITE",
+        "WARFLOCK"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "TZAANGORS",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nTZAANGORS\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSavage Blades and Vicious Beak\nCrit (2 Hits)\t3\t4+\t3+\t1\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 170\nBase size: 32mm\n\nCan be reinforced: Yes\n\n\n\tPassive\t\t\nELDRITCH RAIDERS: Tzaangors plunge into enemy lands, desperately seeking the arcane trinkets and treasures they crave – as well as victims to be transformed in their own bird-like image.\n\n\n\nEffect: Add 1 to wound rolls for this unit’s attacks while it is wholly within enemy territory.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10)\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK\n\n\n\n\t\t\n\t\n5\"\n1\n5+\n1\nKairic Acolytes are the Change God’s most numerous mortal servants, and thousands of them exist secretly in cities such as Hammerhal Ghyra and Greywater Fastness. Though only human, they use arcane craft to swell their muscles and ignite their blades with sorcerous flames. Such rituals turn them into fearsome killers, and they leap into battle screaming praise to Tzeentch.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSavage Blades and Vicious Beak\nCrit (2 Hits)\t3\t4+\t3+\t1\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 170\nBase size: 32mm\n\nCan be reinforced: Yes",
+      "stats": {
+        "unit_size": "10",
+        "points": "170",
+        "base_size": "32mm",
+        "reinforced": "Yes"
+      },
+      "abilities_text": "Passive\t\t\nELDRITCH RAIDERS: Tzaangors plunge into enemy lands, desperately seeking the arcane trinkets and treasures they crave – as well as victims to be transformed in their own bird-like image.\n\n\n\nEffect: Add 1 to wound rolls for this unit’s attacks while it is wholly within enemy territory.",
+      "abilities": [
+        {
+          "name": "ELDRITCH RAIDERS",
+          "type": "Passive",
+          "description": "Tzaangors plunge into enemy lands, desperately seeking the arcane trinkets and treasures they crave – as well as victims to be transformed in their own bird-like image.\nEffect: Add 1 to wound rolls for this unit’s attacks while it is wholly within enemy territory."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Savage Blades and Vicious Beak Crit (2 Hits)",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": "Crit (2 Hits)"
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION, MUSICIAN (1/10), STANDARD BEARER (1/10)\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE, WARFLOCK",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ARCANITE",
+        "WARFLOCK"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "SCOURGE OF GHYRAN KAIRIC ACOLYTES",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nSCOURGE OF GHYRAN KAIRIC ACOLYTES\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tCursed Blades and Glaives\t2\t4+\t3+\t-\t1\nBATTLE PROFILE\nUnit Size: 10      Points: 100\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.\n\n\n\tPassive\t\t\nEMPOWERED BY MAGIC: Kairic Acolytes absorb power from roving arcane manifestations to strengthen their own bodies.\n\n\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any MANIFESTATIONS (friendly or enemy).\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nVULCHARC: Some Kairic Acolytes train to see through the eyes of Vulcharcs, Tzeentch-touched avians that feed upon magic. These birds are often dispatched by their handlers to spy out a foe’s weaknesses, secrets that are duly shared with their fellow cultists to give them the advantage once battle is joined.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly Kairic Acolytes units for attacks that target that enemy unit.\n\n\nKEYWORDS\n\tINFANTRY, CHAMPION\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\nWar Machine\n\n\n\t\t\n\t\n12\"\n8\n5+\n2\n6+\nDrawn through the skies by a pair of Screamers, a Burning Chariot rides upon a wave of multicoloured flames that scorch all in its wake, while the Exalted Flamer that writhes and twists upon its back breathes out sheets of unnatural, billowing fire.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tCursed Blades and Glaives\t2\t4+\t3+\t-\t1",
+      "battle_profile_text": "Unit Size: 10      Points: 100\nBase size: 32mm\n\nCan be reinforced: Yes\nNotes: This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack.",
+      "stats": {
+        "unit_size": "10",
+        "points": "100",
+        "base_size": "32mm",
+        "reinforced": "Yes",
+        "notes": "This unit is legal for Matched Play for battles fought using the General’s Handbook 2025-26 battlepack."
+      },
+      "abilities_text": "Passive\t\t\nEMPOWERED BY MAGIC: Kairic Acolytes absorb power from roving arcane manifestations to strengthen their own bodies.\n\n\n\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any MANIFESTATIONS (friendly or enemy).\n\n\n\tOnce Per Turn (Army), Your Shooting Phase\t\t\nVULCHARC: Some Kairic Acolytes train to see through the eyes of Vulcharcs, Tzeentch-touched avians that feed upon magic. These birds are often dispatched by their handlers to spy out a foe’s weaknesses, secrets that are duly shared with their fellow cultists to give them the advantage once battle is joined.\n\n\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly Kairic Acolytes units for attacks that target that enemy unit.",
+      "abilities": [
+        {
+          "name": "EMPOWERED BY MAGIC",
+          "type": "Passive",
+          "description": "Kairic Acolytes absorb power from roving arcane manifestations to strengthen their own bodies.\nEffect: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any MANIFESTATIONS (friendly or enemy)."
+        },
+        {
+          "name": "VULCHARC",
+          "type": "Once Per Turn",
+          "description": "Some Kairic Acolytes train to see through the eyes of Vulcharcs, Tzeentch-touched avians that feed upon magic. These birds are often dispatched by their handlers to spy out a foe’s weaknesses, secrets that are duly shared with their fellow cultists to give them the advantage once battle is joined.\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\nEffect: For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly Kairic Acolytes units for attacks that target that enemy unit."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Cursed Blades and Glaives",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "INFANTRY, CHAMPION\nCHAOS, DISCIPLES OF TZEENTCH, ARCANITE\nWar Machine",
+      "keywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ARCANITE"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "BURNING CHARIOT OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nBURNING CHARIOT OF TZEENTCH\n\tRANGED WEAPONS\tRng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWyrdflame Blast\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t16\"\t4\t2+\t4+\t-\tD3\n\tMELEE WEAPONS\t\tAtk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws and Blue Horrors’ Jabs\t\t6\t4+\t3+\t-\t1\n\tScreamers’ Lamprey Bites\nCharge (+1 Damage), Companion\t\t6\t4+\t4+\t1\t1\nBATTLE PROFILE\nUnit Size: 1      Points: 120\nBase size: 120 × 92mm\n\nCan be reinforced: No\n\n\n\tOnce Per Turn (Army), Any Charge Phase\t\t\nFIERY DEATH FROM ABOVE: The Burning Chariot barges through enemy lines, spreading flaming ruin in its wake.\n\n\n\nDeclare: If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.\n\nEffect: Effect: Roll a D3. On a 1, gain 1 fate point. On a 2+:\n\nInflict an amount of mortal damage on the target equal to the roll.\nThis unit can immediately use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability.\n\n\nKEYWORDS\n\tWAR MACHINE, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nFaction Terrain\n\n\n\t\t\n\t\n-\n6\n4+\n-\n6+\nTwin splinters of sorcerous crystal chipped from the daemonic core of a Silver Tower, Argent Shards radiate the madness and mutative corruption of Tzeentch. Sorcerers of the Change God can draw from this potent font to fuel their spells. If one of these profane monuments is sundered it will split in two, ensuring that its reign of anarchy continues apace.",
+      "ranged_weapons_text": "Rng\tAtk\tHit\tWnd\tRnd\tDmg\n\tWyrdflame Blast\nAnti-INFANTRY (+1 Rend), Shoot in Combat\t16\"\t4\t2+\t4+\t-\tD3",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tFlaming Maws and Blue Horrors’ Jabs\t\t6\t4+\t3+\t-\t1\n\tScreamers’ Lamprey Bites\nCharge (+1 Damage), Companion\t\t6\t4+\t4+\t1\t1",
+      "battle_profile_text": "Unit Size: 1      Points: 120\nBase size: 120 × 92mm\n\nCan be reinforced: No",
+      "stats": {
+        "unit_size": "1",
+        "points": "120",
+        "base_size": "120 × 92mm",
+        "reinforced": "No"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Charge Phase\t\t\nFIERY DEATH FROM ABOVE: The Burning Chariot barges through enemy lines, spreading flaming ruin in its wake.\n\n\n\nDeclare: If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.\n\nEffect: Effect: Roll a D3. On a 1, gain 1 fate point. On a 2+:\n\nInflict an amount of mortal damage on the target equal to the roll.\nThis unit can immediately use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability.",
+      "abilities": [
+        {
+          "name": "Any Charge Phase FIERY DEATH FROM ABOVE",
+          "type": "Once Per Turn",
+          "description": "The Burning Chariot barges through enemy lines, spreading flaming ruin in its wake.\nDeclare: If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.\nEffect: Effect: Roll a D3. On a 1, gain 1 fate point. On a 2+:\nInflict an amount of mortal damage on the target equal to the roll.\nThis unit can immediately use a RETREAT ability as if it were your movement phase. No mortal damage is inflicted on this unit by that RETREAT ability."
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Wyrdflame Blast Anti-INFANTRY (+1 Rend),",
+          "type": "ranged",
+          "range": "16\"",
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "abilities": "Anti-INFANTRY (+1 Rend)"
+        },
+        {
+          "name": "Flaming Maws and Blue Horrors’ Jabs",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "abilities": null
+        },
+        {
+          "name": "Screamers’ Lamprey Bites Charge (+1 Damage),",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "abilities": null
+        }
+      ],
+      "keywords_text": "WAR MACHINE, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH, DAEMON\nFaction Terrain\n\n\n\t\t\n\t\n-\n6\n4+\n-\n6+\nTwin splinters of sorcerous crystal chipped from the daemonic core of a Silver Tower, Argent Shards radiate the madness and mutative corruption of Tzeentch. Sorcerers of the Change God can draw from this potent font to fuel their spells. If one of these profane monuments is sundered it will split in two, ensuring that its reign of anarchy continues apace.",
+      "keywords": [
+        "WAR MACHINE",
+        "FLY",
+        "WARD (6+)",
+        "DAEMON"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "ARGENT SHARD",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nARGENT SHARD\nBATTLE PROFILE\nUnit Size: 1      Points: 0\nBase size: 80mm\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\nCover, Impassable\n\n\n\tOnce Per Turn (Army), Any Hero Phase\t\t\nMAGICAL FOCUS: The Argent Shards act as channelling foci through which Tzeentch’s spellcasters can launch their devastating arcane bombardments.\n\n\n\nEffect: The next time a friendly DISCIPLES OF TZEENTCH unit uses a SPELL ability this phase, when picking targets for that spell, you can measure range and visibility from this terrain feature instead of from the caster, and your opponent can measure range and visibility to this terrain feature instead of to the caster for the purposes of the ‘Unbind’ ability.\n\n\n\tOnce Per Turn (Army), Any Movement Phase\t\t\nSORCEROUS DUPLICATION: Argent Shards do not obey the laws of reality. They can phase into and out of existence and split apart into two identical copies.\n\n\n\nEffect: Pick 1 of the following effects:\n\nIf there is only 1 friendly Argent Shard on the battlefield, set up another Argent Shard wholly within 12\" of this terrain feature, more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.\nRemove this terrain feature from the battlefield and set it up again on the battlefield more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.\n\n\nKEYWORDS\n\tFACTION TERRAIN, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH\nEndless Spell\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nDrizzling ectoplasm and daemonic fire, the conjured sigil of Tzeentch is so redolent with mutative energies that it can transform those around it into a thousand fleshy forms. To stand close by is to risk horrific transmogrification - though in the final reckoning of battle, some of these mutations are as much a blessing as they are a curse.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "Unit Size: 1      Points: 0\nBase size: 80mm\n\nCan be reinforced: No\n\n\nThe following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\nCover, Impassable",
+      "stats": {
+        "unit_size": "1",
+        "points": "0",
+        "base_size": "80mm"
+      },
+      "abilities_text": "Once Per Turn (Army), Any Hero Phase\t\t\nMAGICAL FOCUS: The Argent Shards act as channelling foci through which Tzeentch’s spellcasters can launch their devastating arcane bombardments.\n\n\n\nEffect: The next time a friendly DISCIPLES OF TZEENTCH unit uses a SPELL ability this phase, when picking targets for that spell, you can measure range and visibility from this terrain feature instead of from the caster, and your opponent can measure range and visibility to this terrain feature instead of to the caster for the purposes of the ‘Unbind’ ability.\n\n\n\tOnce Per Turn (Army), Any Movement Phase\t\t\nSORCEROUS DUPLICATION: Argent Shards do not obey the laws of reality. They can phase into and out of existence and split apart into two identical copies.\n\n\n\nEffect: Pick 1 of the following effects:\n\nIf there is only 1 friendly Argent Shard on the battlefield, set up another Argent Shard wholly within 12\" of this terrain feature, more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.\nRemove this terrain feature from the battlefield and set it up again on the battlefield more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.",
+      "abilities": [
+        {
+          "name": "MAGICAL FOCUS",
+          "type": "Once Per Turn",
+          "description": "The Argent Shards act as channelling foci through which Tzeentch’s spellcasters can launch their devastating arcane bombardments.\nEffect: The next time a friendly DISCIPLES OF TZEENTCH unit uses a SPELL ability this phase, when picking targets for that spell, you can measure range and visibility from this terrain feature instead of from the caster, and your opponent can measure range and visibility to this terrain feature instead of to the caster for the purposes of the ‘Unbind’ ability."
+        },
+        {
+          "name": "Any Movement Phase SORCEROUS DUPLICATION",
+          "type": "Once Per Turn",
+          "description": "Argent Shards do not obey the laws of reality. They can phase into and out of existence and split apart into two identical copies.\nEffect: Pick 1 of the following effects:\nIf there is only 1 friendly Argent Shard on the battlefield, set up another Argent Shard wholly within 12\" of this terrain feature, more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.\nRemove this terrain feature from the battlefield and set it up again on the battlefield more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units."
+        }
+      ],
+      "weapons": [],
+      "keywords_text": "FACTION TERRAIN, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH\nEndless Spell\n\n\n\t\t\n\t\n-\n6\n4+\n7+\n6+\nDrizzling ectoplasm and daemonic fire, the conjured sigil of Tzeentch is so redolent with mutative energies that it can transform those around it into a thousand fleshy forms. To stand close by is to risk horrific transmogrification - though in the final reckoning of battle, some of these mutations are as much a blessing as they are a curse.",
+      "keywords": [
+        "FACTION TERRAIN",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "BURNING SIGIL OF TZEENTCH",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nBURNING SIGIL OF TZEENTCH\n\tAny Hero Phase\t\t\nRADIANT TRANSMOGRIFICATION: The Burning Sigil channels the energies of the Impossible Fortress; with each pulse comes a handful of blessings and curses as fickle as the bastion’s master.\n\n\n\nDeclare: This MANIFESTATION must use this ability in each hero phase. Pick each unit (friendly and enemy) within 9\" of this MANIFESTATION to be the targets.\n\nEffect: Roll 2 dice, pick either result, then apply the corresponding effect for the rest of the turn:\n1: No effect.\n2-3: Heal (D3) each friendly DISCIPLES OF TZEENTCH target. Inflict D3 mortal damage on each enemy target.\n4: Friendly DISCIPLES OF TZEENTCH targets can use CHARGE abilities even if they used a RUN ability in the same turn. Enemy targets cannot use RUN abilities.\n5: Add 1 to hit rolls for attacks made by friendly DISCIPLES OF TZEENTCH targets. Subtract 1 from hit rolls for attacks made by enemy targets.\n6: Add 1 to wound rolls for attacks made by friendly DISCIPLES OF TZEENTCH targets. Subtract 1 from wound rolls for attacks made by enemy targets.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH\n\n\n\n\t\t\n\t\n9\"\n8\n5+\n7+\n6+\nThe twin-headed monstrosity known as the Daemonic Simulacrum is not a true daemon but a living mirage, a manifestation of the duplicity and cunning of the Lords of Change that guide their Arcanite puppets to war. Though ephemeral, when these illusory creatures bite, they can tear away the minds of the foe to leave them drooling imbeciles.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    },
+    {
+      "name": "DAEMONIC SIMULACRUM",
+      "faction": "disciples of tzeentch",
+      "warscroll": "•\nDISCIPLES OF TZEENTCH WARSCROLL\n•\nDAEMONIC SIMULACRUM\n\tMELEE WEAPONS\tAtk\tHit\tWnd\tRnd\tDmg\n\tSnapping Jaws\nAnti-WIZARD (+1 Rend), Crit (Mortal)\t2D6\t4+\t3+\t1\t1\n\tPassive\t\t\nJAWS OF FATE: The more potent the aura of Tzeentchian magic, the more terrifyingly corporeal the Simulacrum’s teeth become.\n\n\n\nEffect: Add 2 to the Attacks characteristic of this unit’s Snapping Jaws for each fate point you have.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH\n\n\n\n\t\t\n\t\n4\"\n5\n6+\n7+\n6+\nBy conjuring a Tome of Eyes, a spellcaster can read knowledge inscribed by daemonic forces as the Tome examines their essence in turn. Tzeentch’s sorcerers can invoke a dizzying variety of dangerous and devious magic by reading from the Tome’s smouldering pages, though they do so at the risk of their immortal soul.",
+      "ranged_weapons_text": "",
+      "melee_weapons_text": "Atk\tHit\tWnd\tRnd\tDmg\n\tSnapping Jaws\nAnti-WIZARD (+1 Rend), Crit (Mortal)\t2D6\t4+\t3+\t1\t1\n\tPassive\t\t\nJAWS OF FATE: The more potent the aura of Tzeentchian magic, the more terrifyingly corporeal the Simulacrum’s teeth become.\n\n\n\nEffect: Add 2 to the Attacks characteristic of this unit’s Snapping Jaws for each fate point you have.\n\n\nKEYWORDS\n\tMANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH\n\n\n\n\t\t\n\t\n4\"\n5\n6+\n7+\n6+\nBy conjuring a Tome of Eyes, a spellcaster can read knowledge inscribed by daemonic forces as the Tome examines their essence in turn. Tzeentch’s sorcerers can invoke a dizzying variety of dangerous and devious magic by reading from the Tome’s smouldering pages, though they do so at the risk of their immortal soul.",
+      "battle_profile_text": "",
+      "stats": {},
+      "abilities_text": "",
+      "abilities": [],
+      "weapons": [
+        {
+          "name": "so at the risk of their immortal soul.",
+          "type": "melee",
+          "range": null,
+          "attacks": null,
+          "hit": null,
+          "wound": null,
+          "rend": null,
+          "damage": null,
+          "abilities": "Anti-WIZARD (+1 Rend), Crit (Mortal)"
+        }
+      ],
+      "keywords_text": "MANIFESTATION, ENDLESS SPELL, FLY, WARD (6+)\nCHAOS, DISCIPLES OF TZEENTCH",
+      "keywords": [
+        "MANIFESTATION",
+        "ENDLESS SPELL",
+        "FLY",
+        "WARD (6+)"
+      ],
+      "faction_keywords": [
+        "CHAOS",
+        "DISCIPLES OF TZEENTCH"
+      ]
+    }
+  ]
+}
