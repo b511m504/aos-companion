@@ -2170,6 +2170,11 @@
   </div>
 
   <script>
+    console.log("APP START")
+    window.onerror = function (msg, src, line, col, err) {
+      console.log("GLOBAL ERROR", msg, src, line)
+    }
+
     document.addEventListener(
       "click",
       e => {
@@ -2235,7 +2240,9 @@
         if (e.target.closest("#nfcPauseScanBtn")) {
           state.nfcAutoScanEnabled = false
           try {
-            localStorage.setItem("aos_nfc_autoscan", "0")
+            if (canPersistLocalStorageSet("aos_nfc_autoscan")) {
+              localStorage.setItem("aos_nfc_autoscan", "0")
+            }
           } catch (_) {}
           stopGameNfcScan()
           updateNfcScanControls()
@@ -2245,7 +2252,9 @@
         if (e.target.closest("#nfcEnableScanBtn")) {
           state.nfcAutoScanEnabled = true
           try {
-            localStorage.setItem("aos_nfc_autoscan", "1")
+            if (canPersistLocalStorageSet("aos_nfc_autoscan")) {
+              localStorage.setItem("aos_nfc_autoscan", "1")
+            }
           } catch (_) {}
           updateNfcScanControls()
           void ensureGameNfcScan()
@@ -2355,6 +2364,8 @@
       assignFactionSlug: "",
       assigningUnitSlug: null,
       assignWritePhase: "idle",
+      /** Set only during assign NFC write, immediately before tag overwrite confirm */
+      pendingTagWrite: null,
       assignWriteErrorDetail: "",
       /** Background Web NFC scan while in HQ game mode */
       nfcAutoScanEnabled: true,
@@ -2363,7 +2374,9 @@
       /** Fast-tap suppression between physical scans */
       lastScanTs: 0,
       /** Unit list card highlighted after NFC scan (game list) */
-      nfcActiveSlug: null
+      nfcActiveSlug: null,
+      /** False until first finishFactionLoad completes — blocks persistence & confirm UI during boot */
+      bootComplete: false
     }
 
     ;(function syncPathnameUnitPending() {
@@ -2411,8 +2424,18 @@
       return out
     }
 
+    function canPersistLocalStorageSet(key) {
+      if (!state.bootComplete) {
+        console.log("WRITE BLOCKED (boot incomplete)", "localStorage.setItem", key)
+        return false
+      }
+      console.log("STORAGE WRITE", "localStorage.setItem", key)
+      return true
+    }
+
     function saveState() {
       try {
+        if (!canPersistLocalStorageSet("aos_state")) return
         const params = new URLSearchParams(location.search)
         const factionSlug = params.get("faction") || "daughters-of-khaine"
 
@@ -2462,6 +2485,7 @@
     }
 
     function clearSavedState() {
+      console.log("STORAGE REMOVE", "aos_state", "clearSavedState")
       localStorage.removeItem("aos_state")
     }
 
@@ -2571,6 +2595,55 @@
       })
     }
 
+    /**
+     * Apply pasted army list text. Overwrite confirmation runs here only (explicit user / pending replace).
+     * @param {string} text
+     * @param {{ allowInitMerge?: boolean }} [opts] — if true (cold path), never prompt; skip apply if army already exists
+     */
+    async function importData(text, opts = {}) {
+      const allowInitMerge = !!opts.allowInitMerge
+      console.log("IMPORT TRIGGERED")
+      const trimmed = (text || "").trim()
+      if (!trimmed) return
+
+      const collapsed = importArmy(trimmed)
+      const hasExistingArmy =
+        !!state.gameStarted && Array.isArray(state.armyList) && state.armyList.length > 0
+
+      if (hasExistingArmy) {
+        if (allowInitMerge) {
+          return
+        }
+        console.log("OVERWRITE TRIGGERED")
+        const ok = await showNfcConfirmModal("Replace existing imported army list?")
+        if (!ok) return
+      }
+
+      state.armyList = buildArmyList(collapsed)
+      state.gameStarted = true
+      document.body.classList.add("game-mode")
+
+      try {
+        console.log("STORAGE REMOVE", "aos_import_list", "after army import")
+        localStorage.removeItem("aos_import_list")
+      } catch (_) {}
+
+      state.selectedUnit = null
+      ensureDefaultSelectedUnit()
+      refreshList()
+      renderUnitPanel()
+    }
+
+    async function tryConsumePendingArmyImportFromStorage() {
+      try {
+        const raw = localStorage.getItem("aos_import_list")
+        if (!raw || !raw.trim()) return
+        await importData(raw, { allowInitMerge: true })
+      } catch (e) {
+        console.warn("Pending army import failed", e)
+      }
+    }
+
     /** Abilities visible for the selected battle phase (always Passives & Reactions). */
     function abilitiesForCurrentPhase(unit) {
       const abilities = Array.isArray(unit.abilities) ? unit.abilities : []
@@ -2611,7 +2684,9 @@
 
     function cacheFactionJson(factionSlug, data) {
       try {
-        localStorage.setItem(factionCacheKey(factionSlug), JSON.stringify(data))
+        const key = factionCacheKey(factionSlug)
+        if (!canPersistLocalStorageSet(key)) return
+        localStorage.setItem(key, JSON.stringify(data))
       } catch (e) {
         console.warn("Faction cache write failed", e)
       }
@@ -2703,7 +2778,12 @@
       const slug = unit.slug || slugify(unit.name)
       if (slug) {
         try {
-          sessionStorage.setItem("aos_preload_unit_slug", slug)
+          if (!state.bootComplete) {
+            console.log("WRITE BLOCKED (boot incomplete)", "sessionStorage.setItem", "aos_preload_unit_slug")
+          } else {
+            console.log("STORAGE WRITE", "sessionStorage.setItem", "aos_preload_unit_slug")
+            sessionStorage.setItem("aos_preload_unit_slug", slug)
+          }
         } catch (_) {}
       }
       try {
@@ -2824,6 +2904,7 @@
 
     function saveNfcAssignments(all) {
       try {
+        if (!canPersistLocalStorageSet(NFC_ASSIGN_STORAGE_KEY)) return
         localStorage.setItem(NFC_ASSIGN_STORAGE_KEY, JSON.stringify(all))
       } catch (e) {
         console.warn("saveNfcAssignments failed", e)
@@ -3284,6 +3365,17 @@
     }
 
     function showNfcConfirmModal(message) {
+      console.log("🚨 CONFIRM MODAL CALLED", message)
+      console.trace("MODAL TRACE")
+      if (!state.bootComplete) {
+        console.log("CONFIRM MODAL BLOCKED (boot incomplete)", message)
+        return Promise.resolve(false)
+      }
+      console.log("CONFIRM MODAL CALLED", {
+        appMode: state.appMode,
+        phase: state.assignWritePhase,
+        pending: state.pendingTagWrite
+      })
       return new Promise(resolve => {
         const el = document.getElementById("nfcConfirmModal")
         const msg = document.getElementById("nfcConfirmModalMsg")
@@ -3316,12 +3408,43 @@
 
     async function maybeConfirmTagOverwrite(tagId, slug) {
       if (!tagId || !slug) return true
+      if (
+        state.appMode !== "assign" ||
+        state.assignWritePhase !== "writing" ||
+        !state.pendingTagWrite ||
+        state.pendingTagWrite.tagId !== tagId ||
+        String(state.pendingTagWrite.slug) !== String(slug)
+      ) {
+        return true
+      }
       const all = loadNfcAssignments()
       const row = all[tagId]
       if (!row || typeof row !== "object") return true
       const existing = String(row.slug || "")
       if (!existing || existing === String(slug)) return true
+      console.log("OVERWRITE TRIGGERED (NFC)")
       return showNfcConfirmModal("Overwrite existing tag assignment?")
+    }
+
+    function hideAllModals() {
+      showNfcWriteModal(false)
+      if (nfcWriteModalCloseTimer) {
+        clearTimeout(nfcWriteModalCloseTimer)
+        nfcWriteModalCloseTimer = null
+      }
+      hideNfcActionBar()
+      const confirmEl = document.getElementById("nfcConfirmModal")
+      if (confirmEl) {
+        confirmEl.hidden = true
+        confirmEl.setAttribute("aria-hidden", "true")
+      }
+      if (nfcConfirmResolver) {
+        const r = nfcConfirmResolver
+        nfcConfirmResolver = null
+        r(false)
+      }
+      const toast = document.getElementById("nfcToast")
+      if (toast) toast.hidden = true
     }
 
     function updateNfcScanControls() {
@@ -3409,38 +3532,49 @@
       return true
     }
 
-    async function ensureCapacitorAppPlugin() {
-      if (!window.Capacitor?.isNativePlatform?.()) return null
-      if (window.AoSCapApp?.App) return window.AoSCapApp.App
-      await new Promise((resolve, reject) => {
+    function ensureCapacitorAppPlugin() {
+      if (!window.Capacitor?.isNativePlatform?.()) return Promise.resolve(null)
+      if (window.AoSCapApp?.App) return Promise.resolve(window.AoSCapApp.App)
+      return new Promise((resolve, reject) => {
         const s = document.createElement("script")
         s.src = "./capacitor-app-iife.js"
-        s.onload = () => resolve()
+        s.onload = () => resolve(window.AoSCapApp?.App ?? null)
         s.onerror = () => reject(new Error("capacitor-app-iife.js failed to load"))
         document.head.appendChild(s)
       })
-      return window.AoSCapApp?.App ?? null
     }
 
-    async function setupCapacitorDeepLinks() {
-      const App = await ensureCapacitorAppPlugin()
-      if (!App) return
-      try {
-        const { url } = await App.getLaunchUrl()
-        if (url) applyCapacitorDeepLinkFromUrlString(url)
-      } catch (_) {}
-      try {
-        await App.addListener("appUrlOpen", data => {
-          if (!data?.url) return
-          const prevFaction =
-            new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
-          applyCapacitorDeepLinkFromUrlString(data.url)
-          const nextFaction =
-            new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
-          if (nextFaction !== prevFaction) void load()
-          else applyDeepLinkFromRoute()
-        })
-      } catch (_) {}
+    /**
+     * Capacitor App plugin is not a Promise — only call .getLaunchUrl() / .addListener() on it,
+     * never await the plugin object itself.
+     */
+    function setupCapacitorDeepLinks() {
+      return ensureCapacitorAppPlugin().then(capApp => {
+        if (!capApp) return
+        capApp
+          .getLaunchUrl()
+          .then(res => {
+            const url = res && res.url
+            if (url) applyCapacitorDeepLinkFromUrlString(url)
+          })
+          .catch(() => {})
+
+        try {
+          const listenerPromise = capApp.addListener("appUrlOpen", data => {
+            if (!data?.url) return
+            const prevFaction =
+              new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+            applyCapacitorDeepLinkFromUrlString(data.url)
+            const nextFaction =
+              new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+            if (nextFaction !== prevFaction) void load()
+            else applyDeepLinkFromRoute()
+          })
+          if (listenerPromise != null && typeof listenerPromise.then === "function") {
+            listenerPromise.catch(() => {})
+          }
+        } catch (_) {}
+      })
     }
 
     function findUnitByRouteId(unitId) {
@@ -4488,7 +4622,10 @@
         return
       }
 
-      if (!(await maybeConfirmTagOverwrite(tagId, payload.slug))) {
+      state.pendingTagWrite = { tagId, slug: payload.slug }
+      const proceed = await maybeConfirmTagOverwrite(tagId, payload.slug)
+      state.pendingTagWrite = null
+      if (!proceed) {
         state.assignWritePhase = "ready"
         state.assignWriteErrorDetail = ""
         showNfcWriteModal(false)
@@ -4784,13 +4921,7 @@
       if (!paste || !importBtn || !clearBtn) return
 
       importBtn.addEventListener("click", () => {
-        const text = paste.value || ""
-        state.armyList = buildArmyList(importArmy(text))
-        state.gameStarted = true
-        document.body.classList.add("game-mode")
-        state.selectedUnit = null
-        ensureDefaultSelectedUnit()
-        refreshList()
+        void importData(paste.value || "", { allowInitMerge: false })
       })
 
       clearBtn.addEventListener("click", () => {
@@ -5074,13 +5205,14 @@
       }
     }
 
-    function finishFactionLoad(data, factionSlug, signal) {
+    async function finishFactionLoad(data, factionSlug, signal) {
       if (signal.aborted) return
       if (!data || !Array.isArray(data.units)) {
         console.warn("Invalid data:", data)
         state.factionLoading = false
         state.pendingNfcSlug = null
         showError("Faction not found")
+        state.bootComplete = true
         return
       }
 
@@ -5093,14 +5225,10 @@
       assignSlugs(state.allUnits)
       initUnitTracking(state.allUnits)
 
-      const imported = localStorage.getItem("aos_import_list")
-      if (imported && imported.trim().length > 0) {
-        const parsed = importArmy(imported)
-        state.armyList = buildArmyList(parsed)
-        state.gameStarted = true
-        localStorage.removeItem("aos_import_list")
-      } else {
+      const hadPendingImport = !!(localStorage.getItem("aos_import_list") || "").trim()
+      if (!hadPendingImport) {
         state.gameStarted = false
+        state.armyList = null
       }
       document.body.classList.toggle("game-mode", !!state.gameStarted)
 
@@ -5187,6 +5315,11 @@
         }
       }
 
+      await tryConsumePendingArmyImportFromStorage()
+      document.body.classList.toggle("game-mode", !!state.gameStarted)
+
+      state.bootComplete = true
+
       renderRoot()
       clearError()
     }
@@ -5212,7 +5345,7 @@
       if (fastData?.units?.length) {
         state.factionLoading = false
         state.pendingNfcSlug = null
-        finishFactionLoad(fastData, factionSlug, signal)
+        await finishFactionLoad(fastData, factionSlug, signal)
         if (signal.aborted) return
         revalidateFactionJson(factionSlug)
         return
@@ -5237,9 +5370,9 @@
 
         if (signal.aborted) return
 
-        cacheFactionJson(factionSlug, data)
         setFactionMemory(factionSlug, data, "network")
-        finishFactionLoad(data, factionSlug, signal)
+        await finishFactionLoad(data, factionSlug, signal)
+        cacheFactionJson(factionSlug, data)
       } catch (e) {
         if (e.name === "AbortError" || signal.aborted) return
         state.factionLoading = false
@@ -5248,13 +5381,14 @@
         if (cached && Array.isArray(cached.units) && cached.units.length) {
           console.warn("Using cached faction data for:", factionSlug)
           setFactionMemory(factionSlug, cached, "localStorage")
-          finishFactionLoad(cached, factionSlug, signal)
+          await finishFactionLoad(cached, factionSlug, signal)
           return
         }
         console.warn("Faction load failed:", factionSlug)
         console.error(e)
         renderUnitPanel()
         showError("Faction not found")
+        state.bootComplete = true
       }
     }
 
@@ -5267,7 +5401,9 @@
     }
 
     async function bootViewer() {
-      await setupCapacitorDeepLinks()
+      try {
+        await setupCapacitorDeepLinks()
+      } catch (_) {}
       warmFactionMemoryFromCache()
       registerServiceWorker()
       try {
@@ -5321,7 +5457,17 @@
       }
     }
 
+    function initApp() {
+      console.log("INIT")
+      state.bootComplete = false
+      state.appMode = "home"
+      state.assignWritePhase = null
+      state.pendingTagWrite = null
+      hideAllModals()
+    }
+
     function runBootViewer() {
+      initApp()
       try {
         verifyShellDom()
         void bootViewer().catch(err => {
