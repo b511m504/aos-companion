@@ -455,6 +455,34 @@
       transition: opacity 0.28s ease, transform 0.12s ease, border-color 0.25s ease, box-shadow 0.12s ease, background 0.25s ease;
     }
 
+    .card.unit-card {
+      transition: transform 180ms ease, opacity 150ms ease, box-shadow 180ms ease;
+    }
+
+    @keyframes cardPop {
+      0% {
+        transform: scale(1) translateY(0);
+      }
+      60% {
+        transform: scale(1.08) translateY(-12px);
+      }
+      100% {
+        transform: scale(1.05) translateY(-10px);
+      }
+    }
+
+    .card.unit-card.unit-card--active {
+      transform: scale(1.05) translateY(-10px);
+      z-index: 20;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+      outline: 2px solid #4ade80;
+      animation: cardPop 200ms ease forwards;
+    }
+
+    .card.unit-card.unit-card--dimmed {
+      opacity: 0.35;
+    }
+
     .card:hover:not(.selected) {
       transform: translateY(-2px);
       box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
@@ -1653,6 +1681,51 @@
       max-width: 420px;
     }
 
+    .assign-nfc-status--writing {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .assign-nfc-spinner {
+      width: 1.1rem;
+      height: 1.1rem;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: assignNfcSpin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes assignNfcSpin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .assign-nfc-qr-wrap {
+      max-width: 520px;
+      margin: 0 auto 1.25rem;
+      padding: 1rem;
+      border-radius: 12px;
+      border: 1px dashed var(--border);
+      text-align: center;
+      background: var(--label-bg);
+    }
+
+    .assign-nfc-qr-hint {
+      margin: 0 0 0.75rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    .assign-nfc-qr-wrap img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+
     .assign-unit-grid {
       display: flex;
       flex-direction: column;
@@ -1754,6 +1827,116 @@
 
     .game-mode-nav {
       margin-bottom: 0.65rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .nfc-write-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 10050;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      pointer-events: none;
+    }
+
+    .nfc-write-modal:not([hidden]) {
+      pointer-events: auto;
+    }
+
+    .nfc-write-modal__backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
+    }
+
+    .nfc-write-modal__panel {
+      position: relative;
+      max-width: 340px;
+      width: 100%;
+      padding: 1.35rem 1.5rem;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+      text-align: center;
+    }
+
+    .nfc-write-modal__msg {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--heading);
+      line-height: 1.45;
+    }
+
+    #nfcOverlay.nfc-overlay--read-flash {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+      transition: outline-color 0.15s ease;
+    }
+
+    .nfc-confirm-actions {
+      display: flex;
+      gap: 0.65rem;
+      justify-content: center;
+      margin-top: 1.1rem;
+      flex-wrap: wrap;
+    }
+
+    .nfc-toast {
+      position: fixed;
+      left: 50%;
+      bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px));
+      transform: translateX(-50%);
+      z-index: 10060;
+      max-width: min(90vw, 360px);
+      padding: 0.65rem 1.1rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--heading);
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+      pointer-events: none;
+    }
+
+    #nfcActionBar {
+      position: fixed;
+      left: 50%;
+      bottom: calc(5.25rem + env(safe-area-inset-bottom, 0px));
+      z-index: 10058;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      max-width: min(92vw, 420px);
+      padding: 0.65rem 1rem;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+      transform: translateX(-50%) translateY(130%);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 240ms ease, opacity 200ms ease;
+    }
+
+    #nfcActionBar.nfc-action-bar--visible {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #nfcActionBar .header-btn {
+      min-height: 44px;
     }
   </style>
 </head>
@@ -1804,8 +1987,12 @@
         </div>
       </div>
       <div id="assignUnitList" class="assign-unit-grid"></div>
-      <p id="assignNfcStatus" class="assign-nfc-status" hidden role="status" aria-live="polite"></p>
+      <p id="assignNfcStatus" class="assign-nfc-status" role="status" aria-live="polite"></p>
       <button type="button" class="header-btn" id="writeNfcBtn" disabled>Write to NFC</button>
+      <div id="assignNfcQrWrap" class="assign-nfc-qr-wrap" hidden>
+        <p class="assign-nfc-qr-hint">This browser has no Web NFC — URL copied; scan QR as fallback.</p>
+        <img id="assignNfcQrImg" alt="Unit URL QR code" width="160" height="160" decoding="async" />
+      </div>
       <button type="button" class="header-btn assign-back-bottom" id="assignBackHomeBtn">Back to Home</button>
     </div>
   </div>
@@ -1821,6 +2008,10 @@
       <header>
         <div class="game-mode-nav">
           <button type="button" class="header-btn nav-home-btn" id="gameNavHomeBtn" aria-label="Back to home">← Home</button>
+          <button type="button" class="header-btn" id="nfcPauseScanBtn" hidden title="Stop listening for tags">
+            Pause NFC scan
+          </button>
+          <button type="button" class="header-btn" id="nfcEnableScanBtn" hidden>Enable NFC scan</button>
         </div>
     <h1 id="pageTitle">AoS units — viewer</h1>
     <div class="phase-bar">
@@ -1953,6 +2144,31 @@
     </div>
   </div>
 
+  <div id="nfcWriteModal" class="nfc-write-modal" hidden aria-hidden="true" role="alertdialog" aria-live="assertive" aria-labelledby="nfcWriteModalMsg">
+    <div class="nfc-write-modal__backdrop"></div>
+    <div class="nfc-write-modal__panel">
+      <p id="nfcWriteModalMsg" class="nfc-write-modal__msg"></p>
+    </div>
+  </div>
+
+  <div id="nfcConfirmModal" class="nfc-write-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="nfcConfirmModalMsg">
+    <div class="nfc-write-modal__backdrop"></div>
+    <div class="nfc-write-modal__panel">
+      <p id="nfcConfirmModalMsg" class="nfc-write-modal__msg"></p>
+      <div class="nfc-confirm-actions">
+        <button type="button" class="header-btn" id="nfcConfirmCancel">Cancel</button>
+        <button type="button" class="header-btn" id="nfcConfirmOk">Overwrite</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="nfcToast" class="nfc-toast" hidden role="status" aria-live="polite"></div>
+
+  <div id="nfcActionBar" class="nfc-action-bar" hidden role="toolbar" aria-label="NFC unit actions">
+    <button type="button" class="header-btn" id="nfcExpandBtn">Expand</button>
+    <button type="button" class="header-btn" id="nfcPutBackBtn">Put Back</button>
+  </div>
+
   <script>
     document.addEventListener(
       "click",
@@ -2016,6 +2232,26 @@
           return
         }
 
+        if (e.target.closest("#nfcPauseScanBtn")) {
+          state.nfcAutoScanEnabled = false
+          try {
+            localStorage.setItem("aos_nfc_autoscan", "0")
+          } catch (_) {}
+          stopGameNfcScan()
+          updateNfcScanControls()
+          return
+        }
+
+        if (e.target.closest("#nfcEnableScanBtn")) {
+          state.nfcAutoScanEnabled = true
+          try {
+            localStorage.setItem("aos_nfc_autoscan", "1")
+          } catch (_) {}
+          updateNfcScanControls()
+          void ensureGameNfcScan()
+          return
+        }
+
         if (
           e.target.closest("#gameNavHomeBtn") ||
           e.target.closest("#setupNavHomeBtn") ||
@@ -2039,6 +2275,21 @@
 
     /** Cached `./structured/factions/manifest.json` for setup + assign dropdowns */
     let factionManifestCache = null
+
+    /** Game-mode NFC tap listener (Web NFC scan) */
+    let nfcGameReader = null
+    let nfcScanAbort = null
+    let lastNfcDuplicateSlug = ""
+    let lastNfcDuplicateSlugAt = 0
+    let nfcWriteModalCloseTimer = null
+    let nfcConfirmResolver = null
+    let nfcOverlayContentRaf = null
+    let nfcActionBarShowTimer = null
+
+    const DEBUG =
+      typeof location !== "undefined" &&
+      (new URLSearchParams(location.search).get("nfcdebug") === "1" ||
+        (typeof localStorage !== "undefined" && localStorage.getItem("aos_nfc_debug") === "1"))
 
     const COMMANDS = {
       "Hero Phase": ["Inspiring Presence", "Rally"],
@@ -2104,7 +2355,15 @@
       assignFactionSlug: "",
       assigningUnitSlug: null,
       assignWritePhase: "idle",
-      assignWriteErrorDetail: ""
+      assignWriteErrorDetail: "",
+      /** Background Web NFC scan while in HQ game mode */
+      nfcAutoScanEnabled: true,
+      /** Ignore game scan handling until this timestamp (valid read lock) */
+      nfcScanLockUntil: 0,
+      /** Fast-tap suppression between physical scans */
+      lastScanTs: 0,
+      /** Unit list card highlighted after NFC scan (game list) */
+      nfcActiveSlug: null
     }
 
     ;(function syncPathnameUnitPending() {
@@ -2438,11 +2697,17 @@
       return !!id
     }
 
-    /** Bonus hook for future per-unit lazy loads; records last touched slug. */
+    /** Warms template HTML + optional session hint for NFC / list. */
     function preloadUnitData(unit) {
-      if (!unit?.slug) return
+      if (!unit) return
+      const slug = unit.slug || slugify(unit.name)
+      if (slug) {
+        try {
+          sessionStorage.setItem("aos_preload_unit_slug", slug)
+        } catch (_) {}
+      }
       try {
-        sessionStorage.setItem("aos_preload_unit_slug", unit.slug)
+        void buildPhaseRelevantUnitInnerHtml(unit, false)
       } catch (_) {}
     }
 
@@ -2511,6 +2776,560 @@
     function buildTagUrlForSlug(slug) {
       if (!slug) return ""
       return `${getNfcBaseUrl()}/unit/${encodeURIComponent(slug)}`
+    }
+
+    const NFC_ASSIGN_STORAGE_KEY = "aos_nfc_assignments"
+    const NFC_SLUG_SUPPRESS_MS = 1500
+
+    function normalizeTagId(id) {
+      if (id == null || id === "") return ""
+      return String(id)
+        .toUpperCase()
+        .replace(/[^A-F0-9]/g, "")
+    }
+
+    /** Physical tag key normalized; `pending:<slug>` unchanged */
+    function normalizeNfcStorageKey(tagId) {
+      if (!tagId) return ""
+      const s = String(tagId)
+      if (s.startsWith("pending:")) return s
+      return normalizeTagId(s)
+    }
+
+    function loadNfcAssignments() {
+      try {
+        const raw = localStorage.getItem(NFC_ASSIGN_STORAGE_KEY)
+        if (!raw) return {}
+        const o = JSON.parse(raw)
+        if (!o || typeof o !== "object") return {}
+        const out = {}
+        for (const [k, v] of Object.entries(o)) {
+          if (!v || typeof v !== "object") continue
+          const nk = normalizeNfcStorageKey(k)
+          if (!nk) continue
+          if (nk.startsWith("pending:")) {
+            out[nk] = v
+            continue
+          }
+          const prev = out[nk]
+          const tsPrev = prev && typeof prev === "object" ? prev.ts || 0 : 0
+          const tsNew = v.ts || 0
+          if (!prev || tsNew >= tsPrev) out[nk] = v
+        }
+        return out
+      } catch {
+        return {}
+      }
+    }
+
+    function saveNfcAssignments(all) {
+      try {
+        localStorage.setItem(NFC_ASSIGN_STORAGE_KEY, JSON.stringify(all))
+      } catch (e) {
+        console.warn("saveNfcAssignments failed", e)
+      }
+    }
+
+    function nfcSerialToTagId(serial) {
+      let hex = ""
+      if (serial == null || serial === "") return ""
+      if (typeof serial === "string") hex = serial
+      else {
+        try {
+          const u8 = new Uint8Array(serial)
+          hex = [...u8].map(b => b.toString(16).padStart(2, "0")).join("")
+        } catch {
+          return ""
+        }
+      }
+      return normalizeTagId(hex)
+    }
+
+    function upsertNfcAssignment(tagId, row) {
+      const key = normalizeNfcStorageKey(tagId)
+      if (!key) return false
+      const all = loadNfcAssignments()
+      const prev = all[key]
+      let reassigned = false
+      if (prev && typeof prev === "object" && prev.slug != null && String(prev.slug) !== String(row.slug || "")) {
+        reassigned = true
+        console.info(`[AoS NFC] Reassigned tag ${key} from ${prev.slug} to ${row.slug}`)
+      }
+      all[key] = {
+        slug: String(row.slug || ""),
+        name: String(row.name || ""),
+        faction: String(row.faction || ""),
+        ts: typeof row.ts === "number" ? row.ts : Date.now()
+      }
+      saveNfcAssignments(all)
+      return reassigned
+    }
+
+    function removePendingNfcAssignmentForSlug(slug) {
+      if (!slug) return
+      const key = `pending:${slug}`
+      const all = loadNfcAssignments()
+      if (all[key]) {
+        delete all[key]
+        saveNfcAssignments(all)
+      }
+    }
+
+    function reverseSlugToTagId(slug) {
+      if (!slug) return null
+      const all = loadNfcAssignments()
+      for (const tagId of Object.keys(all)) {
+        if (tagId.startsWith("pending:")) continue
+        const row = all[tagId]
+        if (row && typeof row === "object" && row.slug === slug) return tagId
+      }
+      return null
+    }
+
+    function parseNfcRecordJson(record) {
+      if (!record || !record.data) return null
+      const rt = record.recordType
+      if (rt === "mime") {
+        const mt = String(record.mediaType || "").toLowerCase()
+        if (mt && !mt.includes("json") && mt !== "application/json") return null
+      } else if (rt !== "json") {
+        return null
+      }
+      try {
+        const raw = new TextDecoder().decode(record.data)
+        if (!raw || !raw.trim()) return null
+        const obj = JSON.parse(raw)
+        if (!obj || typeof obj !== "object") return null
+        if (obj.type !== "aos-unit") return null
+        if (obj.slug == null || String(obj.slug).trim() === "") return null
+        obj.slug = String(obj.slug)
+        return obj
+      } catch (e) {
+        if (DEBUG) console.warn("[AoS NFC] JSON record parse failed", e)
+        return null
+      }
+    }
+
+    function parseNfcRecordUrl(record) {
+      if (!record || record.recordType !== "url") return null
+      try {
+        let s = ""
+        if (record.url) s = String(record.url)
+        else if (record.data) s = new TextDecoder().decode(record.data)
+        else return null
+        const m = String(s).match(/\/unit\/([^/?#]+)/)
+        if (!m) return null
+        try {
+          return decodeURIComponent(m[1])
+        } catch {
+          return m[1]
+        }
+      } catch {
+        return null
+      }
+    }
+
+    function shouldSuppressDuplicateNfcSlug(slug) {
+      const now = Date.now()
+      if (
+        slug === lastNfcDuplicateSlug &&
+        now - lastNfcDuplicateSlugAt < NFC_SLUG_SUPPRESS_MS
+      ) {
+        return true
+      }
+      lastNfcDuplicateSlug = slug
+      lastNfcDuplicateSlugAt = now
+      return false
+    }
+
+    function showNfcActionBar(slug) {
+      const bar = document.getElementById("nfcActionBar")
+      if (!bar) return
+      if (nfcActionBarShowTimer) {
+        clearTimeout(nfcActionBarShowTimer)
+        nfcActionBarShowTimer = null
+      }
+      bar.dataset.slug = slug
+      bar.hidden = true
+      bar.classList.remove("nfc-action-bar--visible")
+      nfcActionBarShowTimer = setTimeout(() => {
+        nfcActionBarShowTimer = null
+        bar.hidden = false
+        requestAnimationFrame(() => bar.classList.add("nfc-action-bar--visible"))
+      }, 100)
+    }
+
+    function hideNfcActionBar() {
+      const bar = document.getElementById("nfcActionBar")
+      if (nfcActionBarShowTimer) {
+        clearTimeout(nfcActionBarShowTimer)
+        nfcActionBarShowTimer = null
+      }
+      if (!bar) return
+      bar.classList.remove("nfc-action-bar--visible")
+      bar.hidden = true
+      delete bar.dataset.slug
+    }
+
+    function resetNfcSelection() {
+      const cards = document.querySelectorAll("#list > article.card.unit-card[data-unit-slug]")
+      cards.forEach(el => {
+        el.classList.remove("unit-card--active", "unit-card--dimmed", "unit-card--returning")
+      })
+      state.nfcActiveSlug = null
+      hideNfcActionBar()
+    }
+
+    function popOutUnitCard(slug) {
+      if (!slug) return
+      const slugStr = String(slug)
+      const list = document.getElementById("list")
+      if (!list) return
+
+      const safe =
+        typeof CSS !== "undefined" && CSS.escape ? CSS.escape(slugStr) : slugStr.replace(/"/g, '\\"')
+      const cards = list.querySelectorAll(":scope > article.card.unit-card[data-unit-slug]")
+      const active = list.querySelector(`:scope > article.card.unit-card[data-unit-slug="${safe}"]`)
+
+      if (!cards.length || !active) return
+
+      cards.forEach(el => {
+        el.classList.remove("unit-card--active", "unit-card--dimmed", "unit-card--returning")
+      })
+
+      cards.forEach(el => {
+        if (el === active) el.classList.add("unit-card--active")
+        else el.classList.add("unit-card--dimmed")
+      })
+
+      state.nfcActiveSlug = slugStr
+      active.scrollIntoView({ behavior: "smooth", block: "center" })
+      showNfcActionBar(slugStr)
+    }
+
+    function handleNfcUnitScan(data) {
+      if (!data || data.type !== "aos-unit" || data.slug == null) return
+      const slug = String(data.slug)
+      if (DEBUG) console.log("NFC READ:", data)
+      if (shouldSuppressDuplicateNfcSlug(slug)) return
+      state.lastScanTs = Date.now()
+      state.nfcScanLockUntil = state.lastScanTs + 1200
+      const unit = state.allUnits.find(
+        u =>
+          (u.slug && String(u.slug) === slug) ||
+          slugify(u.name) === slug ||
+          slugify(u.name) === slugify(slug)
+      )
+      if (unit) {
+        preloadUnitData(unit)
+        const cardSlug = unit.slug != null ? String(unit.slug) : slugFromName(unit.name)
+        if (state.nfcActiveSlug) {
+          resetNfcSelection()
+        }
+        popOutUnitCard(cardSlug)
+      } else openNfcOverlayUnknown(slug)
+    }
+
+    function onNfcReading(event) {
+      if (state.appMode !== "game") return
+
+      const records = event.message && event.message.records ? [...event.message.records] : []
+      if (records.length === 0) {
+        showNfcToast("Empty tag")
+        state.lastScanTs = Date.now()
+        return
+      }
+
+      const now = Date.now()
+      if (state.lastScanTs && now - state.lastScanTs < 800) return
+      if (now < state.nfcScanLockUntil) return
+
+      const tagId = nfcSerialToTagId(event.serialNumber)
+      if (DEBUG && tagId) console.log("TAG ID:", tagId)
+
+      try {
+        for (const record of records) {
+          const parsed = parseNfcRecordJson(record)
+          if (parsed) {
+            if (tagId) {
+              removePendingNfcAssignmentForSlug(parsed.slug)
+              upsertNfcAssignment(tagId, {
+                slug: parsed.slug,
+                name: parsed.name,
+                faction: parsed.faction
+              })
+            }
+            handleNfcUnitScan(parsed)
+            return
+          }
+        }
+        for (const record of records) {
+          const urlSlug = parseNfcRecordUrl(record)
+          if (urlSlug) {
+            handleNfcUnitScan({
+              type: "aos-unit",
+              slug: urlSlug,
+              name: "",
+              faction: ""
+            })
+            return
+          }
+        }
+      } catch (e) {
+        console.warn("NFC reading handler failed", e)
+      }
+    }
+
+    function stopGameNfcScan() {
+      if (nfcScanAbort) {
+        try {
+          nfcScanAbort.abort()
+        } catch (_) {}
+        nfcScanAbort = null
+      }
+      nfcGameReader = null
+    }
+
+    async function ensureGameNfcScan() {
+      try {
+        if (!("NDEFReader" in window)) return
+        if (state.appMode !== "game") return
+        if (!state.nfcAutoScanEnabled) return
+        if (nfcGameReader && nfcScanAbort && !nfcScanAbort.signal.aborted) return
+
+        stopGameNfcScan()
+
+        const ndef = new NDEFReader()
+        nfcGameReader = ndef
+        const ac = new AbortController()
+        nfcScanAbort = ac
+
+        ndef.addEventListener("reading", onNfcReading)
+        ndef.addEventListener("readingerror", () => {})
+
+        if (DEBUG) console.log("NFC scan: starting (game mode)")
+
+        await ndef.scan({ signal: ac.signal })
+      } catch (e) {
+        if (e && e.name !== "AbortError") console.warn("NFC scan failed:", e)
+        if (nfcGameReader) {
+          nfcGameReader = null
+          nfcScanAbort = null
+        }
+      }
+    }
+
+    async function writeAosPayloadToNfc(ndef, payload) {
+      const jsonStr = JSON.stringify(payload)
+      const buf = new TextEncoder().encode(jsonStr)
+      try {
+        await ndef.write({
+          records: [
+            {
+              recordType: "mime",
+              mediaType: "application/json",
+              data: buf
+            }
+          ]
+        })
+        return
+      } catch (e1) {
+        try {
+          await ndef.write({
+            records: [{ recordType: "json", data: buf }]
+          })
+          return
+        } catch (e2) {
+          throw e2 || e1
+        }
+      }
+    }
+
+    function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms))
+    }
+
+    async function writeWithTimeout(fn, timeoutMs) {
+      return Promise.race([
+        fn(),
+        new Promise((_, rej) =>
+          setTimeout(() => rej(new Error("NFC write timeout")), timeoutMs)
+        )
+      ])
+    }
+
+    async function writePayloadToTagWithRetry(payload, attempts = 2) {
+      const timeoutMs = 2800
+      let lastErr
+      for (let attempt = 0; attempt <= attempts; attempt++) {
+        try {
+          await writeWithTimeout(async () => {
+            const ndef = new NDEFReader()
+            await writeAosPayloadToNfc(ndef, payload)
+          }, timeoutMs)
+          return
+        } catch (e) {
+          lastErr = e
+          if (attempt < attempts) await delay(300)
+        }
+      }
+      throw lastErr
+    }
+
+    function showNfcWriteModal(visible, message) {
+      const el = document.getElementById("nfcWriteModal")
+      const msg = document.getElementById("nfcWriteModalMsg")
+      if (!el || !msg) return
+      if (nfcWriteModalCloseTimer) {
+        clearTimeout(nfcWriteModalCloseTimer)
+        nfcWriteModalCloseTimer = null
+      }
+      if (visible) {
+        if (message != null) msg.textContent = message
+        el.hidden = false
+        el.setAttribute("aria-hidden", "false")
+      } else {
+        el.hidden = true
+        el.setAttribute("aria-hidden", "true")
+      }
+    }
+
+    function scheduleHideNfcWriteModal(ms) {
+      if (nfcWriteModalCloseTimer) clearTimeout(nfcWriteModalCloseTimer)
+      nfcWriteModalCloseTimer = setTimeout(() => {
+        showNfcWriteModal(false)
+        nfcWriteModalCloseTimer = null
+      }, ms)
+    }
+
+    let nfcToastTimer = null
+    function showNfcToast(message, ms = 2200) {
+      const el = document.getElementById("nfcToast")
+      if (!el) return
+      if (nfcToastTimer) clearTimeout(nfcToastTimer)
+      el.textContent = message
+      el.hidden = false
+      nfcToastTimer = setTimeout(() => {
+        el.hidden = true
+        nfcToastTimer = null
+      }, ms)
+    }
+
+    function scheduleNfcOverlayContentRender() {
+      if (!state.nfcOverlay.visible) return
+      if (nfcOverlayContentRaf != null) return
+      nfcOverlayContentRaf = requestAnimationFrame(() => {
+        nfcOverlayContentRaf = null
+        if (state.nfcOverlay.visible) renderNfcOverlayContent()
+      })
+    }
+
+    function readFirstTagIdFromScan(timeoutMs = 3000) {
+      if (!("NDEFReader" in window)) return Promise.resolve("")
+      return new Promise(resolve => {
+        const ac = new AbortController()
+        let settled = false
+        const finish = id => {
+          if (settled) return
+          settled = true
+          clearTimeout(tm)
+          try {
+            ac.abort()
+          } catch (_) {}
+          resolve(id || "")
+        }
+        const tm = setTimeout(() => finish(""), timeoutMs)
+        const ndef = new NDEFReader()
+        const onRead = ev => {
+          ndef.removeEventListener("reading", onRead)
+          finish(nfcSerialToTagId(ev.serialNumber))
+        }
+        ndef.addEventListener("reading", onRead)
+        ndef.scan({ signal: ac.signal }).catch(() => {
+          if (!settled) finish("")
+        })
+      })
+    }
+
+    function verifyNfcWriteReadBack(expectedSlug, timeoutMs = 1500) {
+      if (!("NDEFReader" in window) || !expectedSlug) return Promise.resolve(true)
+      return new Promise(resolve => {
+        const ac = new AbortController()
+        let settled = false
+        const finish = ok => {
+          if (settled) return
+          settled = true
+          clearTimeout(to)
+          try {
+            ac.abort()
+          } catch (_) {}
+          resolve(ok)
+        }
+        const to = setTimeout(() => finish(false), timeoutMs)
+        const ndef = new NDEFReader()
+        ndef.addEventListener("reading", ev => {
+          const recs = ev.message && ev.message.records ? [...ev.message.records] : []
+          for (const rec of recs) {
+            const p = parseNfcRecordJson(rec)
+            if (p && String(p.slug) === String(expectedSlug)) {
+              finish(true)
+              return
+            }
+          }
+        })
+        ndef.scan({ signal: ac.signal }).catch(() => {
+          if (!settled) finish(false)
+        })
+      })
+    }
+
+    function showNfcConfirmModal(message) {
+      return new Promise(resolve => {
+        const el = document.getElementById("nfcConfirmModal")
+        const msg = document.getElementById("nfcConfirmModalMsg")
+        if (!el || !msg) {
+          resolve(false)
+          return
+        }
+        if (nfcConfirmResolver) {
+          const prev = nfcConfirmResolver
+          nfcConfirmResolver = null
+          prev(false)
+        }
+        nfcConfirmResolver = resolve
+        msg.textContent = message
+        el.hidden = false
+        el.setAttribute("aria-hidden", "false")
+      })
+    }
+
+    function resolveNfcConfirm(ok) {
+      const el = document.getElementById("nfcConfirmModal")
+      if (el) {
+        el.hidden = true
+        el.setAttribute("aria-hidden", "true")
+      }
+      const r = nfcConfirmResolver
+      nfcConfirmResolver = null
+      if (r) r(!!ok)
+    }
+
+    async function maybeConfirmTagOverwrite(tagId, slug) {
+      if (!tagId || !slug) return true
+      const all = loadNfcAssignments()
+      const row = all[tagId]
+      if (!row || typeof row !== "object") return true
+      const existing = String(row.slug || "")
+      if (!existing || existing === String(slug)) return true
+      return showNfcConfirmModal("Overwrite existing tag assignment?")
+    }
+
+    function updateNfcScanControls() {
+      const en = document.getElementById("nfcEnableScanBtn")
+      const pause = document.getElementById("nfcPauseScanBtn")
+      const eligible = "NDEFReader" in window && state.appMode === "game"
+      if (en) en.hidden = !eligible || state.nfcAutoScanEnabled
+      if (pause) pause.hidden = !eligible || !state.nfcAutoScanEnabled
     }
 
     function parseDeepLinkParts() {
@@ -3222,7 +4041,7 @@
       const selCls = isSelected ? " selected" : ""
 
       return `
-        <article class="card ${mode}${usedCls}${foughtCls}${selCls}" data-unit-key="${escAttr(keyEnc)}" data-slug="${escAttr(slug)}">
+        <article class="card unit-card ${mode}${usedCls}${foughtCls}${selCls}" data-unit-key="${escAttr(keyEnc)}" data-slug="${escAttr(slug)}" data-unit-slug="${escAttr(slug)}">
           <div class="card-summary">
             <div class="card-summary-head">
               <div>
@@ -3492,8 +4311,13 @@
       if (state.appMode === "home") renderHomeScreen()
       else if (state.appMode === "setup") void renderSetupScreen()
       else if (state.appMode === "game") renderGameScreen()
-      else if (state.appMode === "assign") void renderAssignScreen()
-      if (state.nfcOverlay.visible) renderNfcOverlayContent()
+      else       if (state.appMode === "assign") void renderAssignScreen()
+      if (state.nfcOverlay.visible) scheduleNfcOverlayContentRender()
+
+      if (state.appMode === "game") void ensureGameNfcScan()
+      else stopGameNfcScan()
+
+      updateNfcScanControls()
     }
 
     function renderHomeScreen() {
@@ -3504,6 +4328,13 @@
       refreshList()
       const pt = document.getElementById("pageTitle")
       if (pt && pt.textContent.trim()) document.title = pt.textContent.trim()
+      updateNfcScanControls()
+      try {
+        const visible = filterUnits()
+        for (let i = 0; i < Math.min(5, visible.length); i++) {
+          preloadUnitData(visible[i])
+        }
+      } catch (_) {}
     }
 
     async function renderAssignScreen() {
@@ -3536,8 +4367,11 @@
         if (statusEl) {
           statusEl.hidden = true
           statusEl.textContent = ""
+          statusEl.classList.remove("assign-nfc-status--writing")
         }
         if (writeBtn) writeBtn.disabled = true
+        const qw = document.getElementById("assignNfcQrWrap")
+        if (qw) qw.hidden = true
         return
       }
 
@@ -3554,65 +4388,141 @@
           !state.assigningUnitSlug || state.assignWritePhase === "writing"
       }
 
+      const qrWrap = document.getElementById("assignNfcQrWrap")
+      const qrImg = document.getElementById("assignNfcQrImg")
+
       if (statusEl) {
+        statusEl.classList.remove("assign-nfc-status--writing")
         const phase = state.assignWritePhase
-        if (phase === "idle" && !state.assigningUnitSlug) {
-          statusEl.hidden = true
-          statusEl.textContent = ""
-        } else if (phase === "writing") {
+        if (phase === "writing") {
           statusEl.hidden = false
-          statusEl.textContent = "Writing..."
+          statusEl.classList.add("assign-nfc-status--writing")
+          statusEl.innerHTML =
+            '<span class="assign-nfc-spinner" aria-hidden="true"></span><span>Writing… Keep tag in place</span>'
         } else if (phase === "success") {
           statusEl.hidden = false
-          statusEl.textContent = "Success"
+          statusEl.textContent = "Tag written ✓"
         } else if (phase === "error") {
           statusEl.hidden = false
-          statusEl.textContent = state.assignWriteErrorDetail
-            ? `Error: ${state.assignWriteErrorDetail}`
-            : "Error"
-        } else if (phase === "ready" || state.assigningUnitSlug) {
+          statusEl.textContent = "Write failed. Try again"
+        } else if (phase === "ready" && state.assigningUnitSlug) {
           statusEl.hidden = false
-          statusEl.textContent = "Ready to write"
+          statusEl.textContent = "Hold tag to phone"
+        } else if (phase === "idle" && !state.assigningUnitSlug) {
+          statusEl.hidden = false
+          statusEl.textContent = "Select a unit"
+        } else if (state.assigningUnitSlug) {
+          statusEl.hidden = false
+          statusEl.textContent = "Hold tag to phone"
         } else {
-          statusEl.hidden = true
-          statusEl.textContent = ""
+          statusEl.hidden = false
+          statusEl.textContent = "Select a unit"
+        }
+      }
+
+      if (qrWrap && qrImg) {
+        const showQr =
+          !("NDEFReader" in window) && !!state.assigningUnitSlug && state.allUnits.length > 0
+        if (showQr) {
+          qrWrap.hidden = false
+          const u = buildTagUrlForSlug(state.assigningUnitSlug)
+          qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(u)}`
+        } else {
+          qrWrap.hidden = true
         }
       }
     }
 
     async function performAssignNfcWrite() {
       const slug = state.assigningUnitSlug
-      const statusEl = document.getElementById("assignNfcStatus")
-      const writeBtn = document.getElementById("writeNfcBtn")
-      if (!slug || !statusEl) return
+      if (!slug || state.assignWritePhase === "writing") return
 
-      const url = `${getNfcBaseUrl()}/unit/${encodeURIComponent(slug)}`
-      state.assignWritePhase = "writing"
-      state.assignWriteErrorDetail = ""
-      if (writeBtn) writeBtn.disabled = true
-      if (statusEl) {
-        statusEl.hidden = false
-        statusEl.textContent = "Writing..."
+      const unit = findUnitByRouteId(slug)
+      if (!unit) {
+        state.assignWritePhase = "error"
+        state.assignWriteErrorDetail = "pick a valid unit"
+        await renderAssignScreen()
+        return
       }
 
-      try {
-        if (!("NDEFReader" in window)) {
-          await navigator.clipboard.writeText(url)
+      const payload = {
+        type: "aos-unit",
+        slug: unit.slug || slugify(unit.name),
+        name: unit.name || "",
+        faction: unit.faction || ""
+      }
+      const fallbackUrl = buildTagUrlForSlug(payload.slug)
+
+      state.assignWritePhase = "writing"
+      state.assignWriteErrorDetail = ""
+      await renderAssignScreen()
+
+      if (!("NDEFReader" in window)) {
+        showNfcWriteModal(true, "Hold tag to phone")
+        await delay(80)
+        try {
+          await navigator.clipboard.writeText(fallbackUrl)
+          const r = upsertNfcAssignment(`pending:${payload.slug}`, payload)
+          showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
           state.assignWritePhase = "success"
+          scheduleHideNfcWriteModal(1200)
+        } catch (_) {
+          showNfcWriteModal(true, "Write failed. Try again")
+          state.assignWritePhase = "error"
+          scheduleHideNfcWriteModal(2200)
+        }
+        await renderAssignScreen()
+        return
+      }
+
+      showNfcWriteModal(true, "Hold tag near phone")
+      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))
+
+      const tagId = await readFirstTagIdFromScan(3000)
+      if (!tagId) {
+        state.assignWritePhase = "error"
+        state.assignWriteErrorDetail = "no tag detected"
+        showNfcWriteModal(true, "No tag detected. Try again")
+        scheduleHideNfcWriteModal(2200)
+        await renderAssignScreen()
+        return
+      }
+
+      if (!(await maybeConfirmTagOverwrite(tagId, payload.slug))) {
+        state.assignWritePhase = "ready"
+        state.assignWriteErrorDetail = ""
+        showNfcWriteModal(false)
+        await renderAssignScreen()
+        return
+      }
+
+      showNfcWriteModal(true, "Writing… Keep tag in place")
+
+      try {
+        if (DEBUG) console.log("NFC WRITE:", payload)
+        await writePayloadToTagWithRetry(payload, 2)
+        showNfcWriteModal(true, "Verifying…")
+        const verified = await verifyNfcWriteReadBack(payload.slug, 1500)
+        if (!verified) {
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail = "verify failed"
+          showNfcWriteModal(true, "Write may have failed")
+          scheduleHideNfcWriteModal(3200)
           await renderAssignScreen()
           return
         }
-        const ndef = new NDEFReader()
-        await ndef.write({
-          records: [{ recordType: "url", data: url }]
-        })
+        const r = upsertNfcAssignment(`pending:${payload.slug}`, payload)
+        showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
         state.assignWritePhase = "success"
+        scheduleHideNfcWriteModal(1200)
       } catch (e) {
         state.assignWritePhase = "error"
         state.assignWriteErrorDetail =
           e && e.name === "AbortError" ? "cancelled" : (e && e.message) || String(e)
+        showNfcWriteModal(true, "Write failed. Try again")
+        scheduleHideNfcWriteModal(2200)
         try {
-          await navigator.clipboard.writeText(url)
+          await navigator.clipboard.writeText(fallbackUrl)
         } catch (_) {}
       }
       await renderAssignScreen()
@@ -3671,6 +4581,8 @@
 
     function refreshList() {
       if (state.appMode !== "game") return
+      hideNfcActionBar()
+      state.nfcActiveSlug = null
       const el = document.getElementById("error")
       if (state.allUnits && state.allUnits.length > 0) {
         if (el) {
@@ -3695,7 +4607,7 @@
       updatePhaseDisplay()
       renderUnitPanel()
       renderNfcExportTable()
-      if (state.nfcOverlay.visible) renderNfcOverlayContent()
+      if (state.nfcOverlay.visible) scheduleNfcOverlayContentRender()
     }
 
     function setupPhaseSelect() {
@@ -4006,6 +4918,16 @@
     }
 
     function flashNfcOverlayFeedback() {
+      try {
+        if (navigator.vibrate) navigator.vibrate(15)
+      } catch (_) {}
+      const root = document.getElementById("nfcOverlay")
+      if (root) {
+        root.classList.remove("nfc-overlay--read-flash")
+        void root.offsetWidth
+        root.classList.add("nfc-overlay--read-flash")
+        setTimeout(() => root.classList.remove("nfc-overlay--read-flash"), 650)
+      }
       const sheet = document.getElementById("nfcOverlaySheet")
       if (sheet) {
         sheet.classList.remove("unit-panel--nfc-flash")
@@ -4015,10 +4937,11 @@
       }
       const badge = document.getElementById("nfcSelectedBadge")
       if (badge) {
+        badge.textContent = "NFC detected"
         badge.hidden = false
         setTimeout(() => {
           badge.hidden = true
-        }, 1000)
+        }, 1200)
       }
     }
 
@@ -4029,7 +4952,7 @@
       state.nfcOverlay.unknownSlug = null
       state.nfcOverlay.expanded = false
       closeNfcFullSheetUi()
-      renderNfcOverlayContent()
+      scheduleNfcOverlayContentRender()
       showNfcOverlayDom()
       flashNfcOverlayFeedback()
     }
@@ -4040,12 +4963,16 @@
       state.nfcOverlay.unknownSlug = slug || ""
       state.nfcOverlay.expanded = false
       closeNfcFullSheetUi()
-      renderNfcOverlayContent()
+      scheduleNfcOverlayContentRender()
       showNfcOverlayDom()
       flashNfcOverlayFeedback()
     }
 
     function closeNfcOverlay() {
+      if (nfcOverlayContentRaf != null) {
+        cancelAnimationFrame(nfcOverlayContentRaf)
+        nfcOverlayContentRaf = null
+      }
       state.nfcOverlay.visible = false
       state.nfcOverlay.unit = null
       state.nfcOverlay.unknownSlug = null
@@ -4073,6 +5000,29 @@
       state.nfcOverlay.expanded = false
       const full = document.getElementById("nfcOverlayFullSheet")
       if (full) full.hidden = true
+    }
+
+    function setupNfcConfirmUi() {
+      document.getElementById("nfcConfirmOk")?.addEventListener("click", () => resolveNfcConfirm(true))
+      document.getElementById("nfcConfirmCancel")?.addEventListener("click", () => resolveNfcConfirm(false))
+    }
+
+    function setupNfcActionBar() {
+      document.getElementById("nfcExpandBtn")?.addEventListener("click", () => {
+        const bar = document.getElementById("nfcActionBar")
+        const slug = bar && bar.dataset ? bar.dataset.slug : ""
+        if (!slug) return
+        const unit = state.allUnits.find(
+          u =>
+            (u.slug && String(u.slug) === slug) ||
+            slugify(u.name) === slug ||
+            slugify(u.name) === slugify(slug)
+        )
+        if (unit) openNfcOverlay(unit)
+      })
+      document.getElementById("nfcPutBackBtn")?.addEventListener("click", () => {
+        resetNfcSelection()
+      })
     }
 
     function setupNfcOverlayUi() {
@@ -4202,6 +5152,8 @@
         setupMobilePhaseSync()
         setupNfcExport()
         setupNfcOverlayUi()
+        setupNfcConfirmUi()
+        setupNfcActionBar()
         window.addEventListener("hashchange", () => applyDeepLinkFromRoute())
 
         document.getElementById("assignFactionSelect")?.addEventListener("change", e => {
@@ -4318,6 +5270,9 @@
       await setupCapacitorDeepLinks()
       warmFactionMemoryFromCache()
       registerServiceWorker()
+      try {
+        if (localStorage.getItem("aos_nfc_autoscan") === "0") state.nfcAutoScanEnabled = false
+      } catch (_) {}
       const qsFaction = new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
       state.assignFactionSlug = qsFaction
       state.sessionFactionSlug = qsFaction
@@ -4354,6 +5309,15 @@
       ]
       for (const [name, sel] of required) {
         if (!document.getElementById(name)) console.error("Missing DOM:", name, sel)
+      }
+    }
+
+    window.__dumpNfcAssignments = function __dumpNfcAssignments() {
+      try {
+        return JSON.parse(JSON.stringify(loadNfcAssignments()))
+      } catch (e) {
+        console.warn("__dumpNfcAssignments failed", e)
+        return {}
       }
     }
 
