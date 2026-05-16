@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "killteam",
+    "factionId": "veteran_guardsmen"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "vg_cadia_breachers",
+      "name": "Cadia Breachers",
+      "factionId": "veteran_guardsmen",
+      "description": "Standard breach & clear — seven operatives.",
+      "units": [
+        { "id": "vg1-o01", "name": "Sergeant \"Iron\"" },
+        { "id": "vg1-o02", "name": "Trooper Brinn" },
+        { "id": "vg1-o03", "name": "Trooper Mako" },
+        { "id": "vg1-o04", "name": "Gunner Vex" },
+        { "id": "vg1-o05", "name": "Medic Kell" },
+        { "id": "vg1-o06", "name": "Demo Trooper" },
+        { "id": "vg1-o07", "name": "Sniper Post" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "vg_krieg_engineers",
+      "name": "Krieg Engineers",
+      "factionId": "veteran_guardsmen",
+      "description": "Elite specialists — fewer bodies, more gear.",
+      "units": [
+        { "id": "vg2-o01", "name": "Engineer Prime" },
+        { "id": "vg2-o02", "name": "Breacher with Melta" },
+        { "id": "vg2-o03", "name": "Breacher with Flamer" },
+        { "id": "vg2-o04", "name": "Comms Relay" },
+        { "id": "vg2-o05", "name": "Hardened Gunner" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "vg_screening_line",
+      "name": "Screening Line",
+      "factionId": "veteran_guardsmen",
+      "description": "Bodies on objectives — ten‑operative wall.",
+      "units": [
+        { "id": "vg3-o01", "name": "Corporal" },
+        { "id": "vg3-o02", "name": "Rifleman" },
+        { "id": "vg3-o03", "name": "Rifleman" },
+        { "id": "vg3-o04", "name": "Rifleman" },
+        { "id": "vg3-o05", "name": "Grenadier" },
+        { "id": "vg3-o06", "name": "Grenadier" },
+        { "id": "vg3-o07", "name": "Melta Gunner" },
+        { "id": "vg3-o08", "name": "Plasma Gunner" },
+        { "id": "vg3-o09", "name": "Comms" },
+        { "id": "vg3-o10", "name": "Hardened Trooper" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kt-veteran-stress",
+      "name": "Kill Team stress (package)",
+      "factionId": "veteran_guardsmen",
+      "description": "Mirrors packages/kill_team — activation and overwatch chains.",
+      "units": [
+        { "id": "kt-veteran-01", "name": "Trooper Veteran", "tags": ["operative", "ally"] },
+        { "id": "kt-gunner-01", "name": "Gunner", "tags": ["operative", "ally"] },
+        { "id": "kt-enemy-01", "name": "Brood Warrior", "tags": ["operative", "enemy"] }
+      ]
+    }
+  ]
+}

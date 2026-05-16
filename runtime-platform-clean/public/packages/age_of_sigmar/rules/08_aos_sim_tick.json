@@ -1,0 +1,17 @@
+{
+  "id": "aos_sim_tick",
+  "trigger": "simulation.tick",
+  "priority": 1,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "aos-endless-01",
+      "key": "cooldown",
+      "delta": 1
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "systemId": "generic",
+  "name": "Armor Column Escort",
+  "units": [
+    { "id": "apc1", "name": "Lead APC", "wounds": 12, "entityType": "VEHICLE" },
+    { "id": "ifv1", "name": "Fire Support IFV", "wounds": 14, "entityType": "VEHICLE" },
+    { "id": "trk1", "name": "Supply Truck", "wounds": 8, "entityType": "VEHICLE" },
+    { "id": "esc1", "name": "Escort Squad", "wounds": 10, "entityType": "UNIT" }
+  ]
+}

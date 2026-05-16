@@ -1,0 +1,23 @@
+{
+  "id": "crypt_trap_triggered",
+  "trigger": "trap.triggered",
+  "priority": 16,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "crypt-hero-01",
+      "status": "poisoned"
+    },
+    {
+      "type": "emit_event",
+      "event": "status.applied",
+      "payload": {
+        "entityId": "crypt-hero-01"
+      }
+    }
+  ]
+}

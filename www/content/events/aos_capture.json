@@ -1,0 +1,10 @@
+{
+  "id": "capture_objective",
+  "trigger": "nfc.scan",
+  "appliesToSystems": ["aos"],
+  "conditions": [{ "type": "entity_has_tag", "tag": "objective" }],
+  "actions": [
+    { "type": "set_state", "target": "objective_01", "key": "owner", "value": "player1" },
+    { "type": "show_message", "text": "Objective captured" }
+  ]
+}

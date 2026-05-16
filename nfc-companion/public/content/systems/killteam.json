@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "killteam",
+  "name": "Kill Team",
+  "version": "1.0",
+  "description": "Skirmish strike teams — dummy operatives for tag linking practice.",
+  "factionsPath": "factions/killteam.json"
+}

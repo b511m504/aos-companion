@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "warhammer40k_skeleton",
+  "templates": [
+    {
+      "id": "sk_w40ks_00",
+      "name": "unit 0",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_w40ks_01",
+      "name": "objective 1",
+      "tags": [
+        "skeleton",
+        "objective"
+      ]
+    },
+    {
+      "id": "sk_w40ks_02",
+      "name": "character 2",
+      "tags": [
+        "skeleton",
+        "character"
+      ]
+    },
+    {
+      "id": "sk_w40ks_03",
+      "name": "transport 3",
+      "tags": [
+        "skeleton",
+        "transport"
+      ]
+    },
+    {
+      "id": "sk_w40ks_04",
+      "name": "unit 4",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_w40ks_05",
+      "name": "objective 5",
+      "tags": [
+        "skeleton",
+        "objective"
+      ]
+    },
+    {
+      "id": "sk_w40ks_06",
+      "name": "character 6",
+      "tags": [
+        "skeleton",
+        "character"
+      ]
+    },
+    {
+      "id": "sk_w40ks_07",
+      "name": "transport 7",
+      "tags": [
+        "skeleton",
+        "transport"
+      ]
+    },
+    {
+      "id": "sk_w40ks_08",
+      "name": "unit 8",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_w40ks_09",
+      "name": "objective 9",
+      "tags": [
+        "skeleton",
+        "objective"
+      ]
+    },
+    {
+      "id": "sk_w40ks_10",
+      "name": "character 10",
+      "tags": [
+        "skeleton",
+        "character"
+      ]
+    },
+    {
+      "id": "sk_w40ks_11",
+      "name": "transport 11",
+      "tags": [
+        "skeleton",
+        "transport"
+      ]
+    }
+  ]
+}

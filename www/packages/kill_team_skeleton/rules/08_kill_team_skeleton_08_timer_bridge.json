@@ -1,0 +1,16 @@
+{
+  "id": "kill_team_skeleton_08_timer_bridge",
+  "trigger": "timer.fire",
+  "priority": 25,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "timer_tick",
+      "payload": {}
+    }
+  ]
+}

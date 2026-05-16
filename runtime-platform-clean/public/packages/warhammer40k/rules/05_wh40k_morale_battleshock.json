@@ -1,0 +1,16 @@
+{
+  "id": "wh40k_morale_battleshock",
+  "trigger": "morale.tested",
+  "priority": 12,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "triggering_entity",
+      "status": "battle_shocked"
+    }
+  ]
+}

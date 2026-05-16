@@ -22,7 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- Open custom-scheme + matching https links in the WebView (NFC, App Links). Host/path: edit to match your deployed tag URLs. -->
+            <!-- High-priority NFC: route physical tags into this activity so the OS Tag / "Empty tag" viewer does not win (foreground dispatch still applies when the app is already open). -->
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <meta-data
+                    android:name="android.nfc.action.TECH_DISCOVERED"
+                    android:resource="@xml/nfc_tech_filter" />
+            </intent-filter>
+
+            <!-- Deep links / custom URL scheme only. -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -48,5 +61,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.NFC" />
 
-    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
 </manifest>

@@ -1,0 +1,55 @@
+{
+  "id": "twist_placeholders",
+  "type": "twist",
+  "name": "Spearhead Twist (placeholders)",
+  "cards": [
+    {
+      "id": "twist_01",
+      "title": "Sudden Tempest",
+      "description": "Lightning shears the mid-board — each player discards the lowest priority token unless they hold a garrison.",
+      "flavor": "Lightning tears across the battlefield.",
+      "type": "twist",
+      "tag": "objective"
+    },
+    {
+      "id": "twist_02",
+      "title": "Shifting Glyphs",
+      "description": "Objective values rotate clockwise; players may pivot one unit 3\" after rolling off.",
+      "flavor": "The ground hums with geomantic static.",
+      "type": "twist",
+      "tag": "objective"
+    },
+    {
+      "id": "twist_03",
+      "title": "Aetheric Shear",
+      "description": "Ranged attacks made from outside 12\" treat cover as one step worse this round.",
+      "flavor": "The air sparkles; shots drag and twist.",
+      "type": "twist",
+      "tag": "defensive"
+    },
+    {
+      "id": "twist_04",
+      "title": "Feral Echoes",
+      "description": "The first charge declared each phase gains +1\" to roll if it targets a unit on an objective.",
+      "flavor": "Howling winds memorise old charges and replay them.",
+      "type": "twist",
+      "tag": "offensive"
+    },
+    {
+      "id": "twist_05",
+      "title": "Brazen Onslaught",
+      "description": "Warscroll Command abilities cost 0 CP this hero phase, but each may only be used on a 3+ roll.",
+      "flavor": "Order surges, yet demands its toll in risk.",
+      "type": "twist",
+      "tag": "support"
+    },
+    {
+      "id": "twist_06",
+      "title": "Dustfall Mirage",
+      "description": "Units wholly within 6\" of a terrain feature cannot be selected for strike-first effects this combat phase.",
+      "flavor": "Every silhouette doubles until the haze passes.",
+      "type": "twist",
+      "tag": "reaction"
+    }
+  ]
+}

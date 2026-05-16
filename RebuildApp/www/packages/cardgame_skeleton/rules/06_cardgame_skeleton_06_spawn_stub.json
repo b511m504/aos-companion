@@ -1,0 +1,21 @@
+{
+  "id": "cardgame_skeleton_06_spawn_stub",
+  "trigger": "simulation.tick",
+  "priority": 20,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [
+    {
+      "type": "random_below",
+      "threshold": 1
+    }
+  ],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "entity_spawned",
+      "payload": {}
+    }
+  ]
+}

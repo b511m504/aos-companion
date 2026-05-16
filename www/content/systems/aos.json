@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "aos",
+  "name": "Age of Sigmar",
+  "version": "1.0",
+  "description": "Fantasy mass battle — dummy lists for tag linking practice.",
+  "factionsPath": "factions/aos.json"
+}

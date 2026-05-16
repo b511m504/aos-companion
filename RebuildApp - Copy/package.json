@@ -1,0 +1,30 @@
+{
+  "name": "rebuildapp",
+  "version": "0.9.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./scripts/write-build-info.mjs && vite build",
+    "preview": "vite preview",
+    "cap:copy": "npx cap copy",
+    "cap:open": "npx cap open android",
+    "cap:sync": "npx cap sync",
+    "cap:prepare": "npm run build && npx cap sync",
+    "android:ship": "npm run build && npx cap sync android",
+    "cap:android:packaged": "npm run build && npx cap sync android && npx cap run android",
+    "android:packaged:clean": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/android-packaged-rebuild.ps1",
+    "android:packaged:clean:run": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/android-packaged-rebuild.ps1 -Run",
+    "test:runtime:determinism": "node ./scripts/runtime-determinism-check.mjs",
+    "test:runtime:regression": "node ./scripts/runtime-regression-suite.mjs",
+    "verify:integration": "node ./scripts/verify-integration-pass.mjs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.1",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/core": "^8.3.1"
+  }
+}

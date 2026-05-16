@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "packageId": "legends_rpg_skeleton",
+  "kind": "jsonRoster",
+  "rootPath": "lists.0",
+  "listIdField": "id",
+  "listNameField": "name",
+  "factionIdField": "factionId",
+  "unitsPath": "units",
+  "unitIdField": "id",
+  "unitNameField": "name",
+  "unitTagsField": "tags",
+  "unitTemplateField": "templateId",
+  "unitTypeField": "entityType",
+  "unitStateField": "runtime",
+  "defaultEntityType": "generic",
+  "unitRelationshipsField": "canonicalRelationships"
+}

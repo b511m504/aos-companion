@@ -1,0 +1,18 @@
+{
+  "id": "aos_ward_save",
+  "trigger": "ward.save",
+  "priority": 14,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "summon.unit",
+      "payload": {
+        "entityId": "aos-endless-01"
+      }
+    }
+  ]
+}

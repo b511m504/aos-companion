@@ -1,0 +1,46 @@
+---
+description: NFC pipeline authority, queue, suspend, and persistence rules for RebuildApp
+alwaysApply: true
+---
+
+# NFC extension (RebuildApp)
+
+Full detail: `docs/NFC_EXTENSION.md`.
+
+## Authority
+
+- **Store** owns assignments, runtime tag meaning, conflicts, persistence interpretation, and gameplay updates.
+- **nfcController** only: FIFO **queue**, **suspend** gating (`updateSuspendState`), bridge **lifecycle**, **routing** scans to store-backed commits — never a second store or persistence layer.
+
+## Queue
+
+- Normalized assignable scans must go through **enqueue → ordered drain**; meaning resolves against **current** store/selection at **processing** time.
+- Do **not** mutate gameplay state directly in bridge callbacks; do **not** bypass the queue for “fast paths”; do **not** lock assignment intent at enqueue time.
+
+## Suspend
+
+- Central gate: **`updateSuspendState`** (`restoreInProgress`, `conflictBlocking`). New pause/modal flows extend here — no parallel pause systems.
+
+## Persistence
+
+- **`SESSION_SNAPSHOT_SCHEMA_VERSION`**: bump on incompatible changes; migrate or safely degrade; never silently reinterpret old blobs.
+
+## Transactional scans
+
+- Each queued scan carries **`transactionId`**, **`queueSequence`**, **`receivedAt`**, **`sourcePath`** (see `docs/NFC_RUNTIME_PIPELINE.md`). **`interceptScan(tagId, envelope)`** must use the envelope for context — do not read stale globals for scan meaning.
+- **Test injection** (same path as native): **`globalThis.__SPEARHEAD_TEST_SCAN__(uid, options)`** only; never wire UI directly to bridge listeners.
+
+## Runtime state machine
+
+- Authoritative gameplay transitions from scans: **`buildRuntimeResolveTagAction`** → **`store.dispatchRuntimeAction`** (guards, journal, invariants). Do **not** call **`resolveRuntimeTag`** from UI/features — use **`dispatchRuntimeAction`** or extend the reducer with a new **`RUNTIME_ACTION_TYPES`** case.
+- **Replay**: **`globalThis.__SPEARHEAD_RUNTIME_REPLAY__(events)`** for deterministic regression harnesses.
+- **Selectors boundary**: UI reads runtime projections from `src/runtime/selectors/*`; avoid duplicating derived runtime shape in store.
+- **Domain ownership**: each domain under `src/runtime/domains/*` owns handlers, guards, invariants, selectors, replay expectations, snapshot serialization, and recovery hooks.
+
+## Recovery
+
+- **`globalThis.__SPEARHEAD_RESTART_NFC_BRIDGE__()`** for WebView-tier recovery; prefer targeted fixes over NFC pipeline refactors.
+
+## When to change core NFC
+
+- Only with a **reproducible** failure and logs showing a **concrete** path; otherwise logging and small guards only.

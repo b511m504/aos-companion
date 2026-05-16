@@ -1,0 +1,8 @@
+{
+  "id": "aos_stormcast",
+  "version": "0.1.0",
+  "name": "Stormcast Test Package",
+  "entityFiles": ["entities.json"],
+  "actionFiles": ["actions.json"],
+  "mappingFiles": ["mappings.json"]
+}

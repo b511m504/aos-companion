@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.776Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "stg_faction",
+  "listId": "stg-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:90:20:48:50:68",
+      "entityId": "sk_stg_00",
+      "displayName": "territory 0",
+      "entityType": "territory",
+      "assignedAt": "2026-05-14T22:11:25.776Z",
+      "factionId": "stg_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "strategy_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:91:23:48:51:69",
+      "entityId": "sk_stg_01",
+      "displayName": "resource 1",
+      "entityType": "resource",
+      "assignedAt": "2026-05-14T22:11:25.776Z",
+      "factionId": "stg_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "strategy_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:92:26:48:52:6A",
+      "entityId": "sk_stg_02",
+      "displayName": "unit 2",
+      "entityType": "unit",
+      "assignedAt": "2026-05-14T22:11:25.776Z",
+      "factionId": "stg_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "strategy_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:93:29:48:53:6B",
+      "entityId": "sk_stg_03",
+      "displayName": "territory 3",
+      "entityType": "territory",
+      "assignedAt": "2026-05-14T22:11:25.776Z",
+      "factionId": "stg_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "strategy_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:94:2C:48:54:6C",
+      "entityId": "sk_stg_04",
+      "displayName": "resource 4",
+      "entityType": "resource",
+      "assignedAt": "2026-05-14T22:11:25.776Z",
+      "factionId": "stg_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "strategy_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

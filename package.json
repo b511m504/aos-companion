@@ -5,10 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "gen:packages": "node scripts/gen-nfc-packages.mjs",
+    "app:dev": "npm run sync:nfc-packages && npm --prefix nfc-companion run dev",
+    "app:install": "npm --prefix nfc-companion install",
     "cap:sync-web": "node scripts/sync-cap-web.mjs",
     "cap:prepare": "node scripts/sync-cap-web.mjs && npx cap sync",
     "cap:android": "npm run cap:prepare && npx cap open android",
-    "appflow:prepare": "npm run cap:prepare"
+    "appflow:prepare": "npm run cap:prepare",
+    "stress:packages": "node stress-tests/validate-package-rules.mjs && node stress-tests/runtime-limits-sanity.mjs && node stress-tests/seeded-rng-determinism.mjs && node stress-tests/manifest-capabilities.mjs",
+    "stress:sim": "node stress-tests/sim-cli.mjs",
+    "sim:nfc": "npm --prefix nfc-companion run sim --",
+    "mock:gen": "node tools/mock-package-generator/generate.mjs",
+    "certify:package": "node tools/package-certification/certify.mjs",
+    "stress:soak": "node stress-tests/soak/soak-simulation.mjs"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,16 @@
+{
+  "id": "wh40k_transport_disembark",
+  "trigger": "transport.disembark",
+  "priority": 17,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "toggle_state",
+      "target": "wh40k-rhino-01",
+      "key": "activated"
+    }
+  ]
+}

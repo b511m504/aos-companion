@@ -1,0 +1,18 @@
+{
+  "id": "crypt_monster_spawned",
+  "trigger": "monster.spawned",
+  "priority": 14,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "loot.found",
+      "payload": {
+        "entityId": "crypt-chest-01"
+      }
+    }
+  ]
+}

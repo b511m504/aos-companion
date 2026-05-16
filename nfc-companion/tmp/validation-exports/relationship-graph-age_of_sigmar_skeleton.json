@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "packageId": "age_of_sigmar_skeleton",
+  "edges": [
+    {
+      "id": "rel_aoss_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_00",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_06",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_12",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_18",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_24",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_inv_30",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_aoss_30",
+      "toInstanceId": "sk_aoss_item_hub"
+    },
+    {
+      "id": "rel_aoss_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_04",
+      "toInstanceId": "sk_aoss_03"
+    },
+    {
+      "id": "rel_aoss_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_08",
+      "toInstanceId": "sk_aoss_07"
+    },
+    {
+      "id": "rel_aoss_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_12",
+      "toInstanceId": "sk_aoss_11"
+    },
+    {
+      "id": "rel_aoss_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_16",
+      "toInstanceId": "sk_aoss_15"
+    },
+    {
+      "id": "rel_aoss_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_20",
+      "toInstanceId": "sk_aoss_19"
+    },
+    {
+      "id": "rel_aoss_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_24",
+      "toInstanceId": "sk_aoss_23"
+    },
+    {
+      "id": "rel_aoss_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_28",
+      "toInstanceId": "sk_aoss_27"
+    },
+    {
+      "id": "rel_aoss_party_32",
+      "kind": "party_member",
+      "fromInstanceId": "sk_aoss_32",
+      "toInstanceId": "sk_aoss_31"
+    },
+    {
+      "id": "rel_aoss_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_aoss_07",
+      "toInstanceId": "sk_aoss_05"
+    },
+    {
+      "id": "rel_aoss_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_aoss_14",
+      "toInstanceId": "sk_aoss_12"
+    },
+    {
+      "id": "rel_aoss_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_aoss_21",
+      "toInstanceId": "sk_aoss_19"
+    },
+    {
+      "id": "rel_aoss_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_aoss_28",
+      "toInstanceId": "sk_aoss_26"
+    },
+    {
+      "id": "rel_aoss_tr_35",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_aoss_35",
+      "toInstanceId": "sk_aoss_33"
+    }
+  ]
+}

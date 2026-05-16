@@ -1,0 +1,24 @@
+{
+  "id": "wh40k_transport_embark",
+  "trigger": "transport.embark",
+  "priority": 18,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "set_state",
+      "target": "wh40k-rhino-01",
+      "key": "activated",
+      "value": true
+    },
+    {
+      "type": "emit_event",
+      "event": "transport.disembark",
+      "payload": {
+        "entityId": "wh40k-rhino-01"
+      }
+    }
+  ]
+}

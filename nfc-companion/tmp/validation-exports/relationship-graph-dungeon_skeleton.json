@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "packageId": "dungeon_skeleton",
+  "edges": [
+    {
+      "id": "rel_dng_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_00",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_06",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_12",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_18",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_24",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_inv_30",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_dng_30",
+      "toInstanceId": "sk_dng_item_hub"
+    },
+    {
+      "id": "rel_dng_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_04",
+      "toInstanceId": "sk_dng_03"
+    },
+    {
+      "id": "rel_dng_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_08",
+      "toInstanceId": "sk_dng_07"
+    },
+    {
+      "id": "rel_dng_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_12",
+      "toInstanceId": "sk_dng_11"
+    },
+    {
+      "id": "rel_dng_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_16",
+      "toInstanceId": "sk_dng_15"
+    },
+    {
+      "id": "rel_dng_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_20",
+      "toInstanceId": "sk_dng_19"
+    },
+    {
+      "id": "rel_dng_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_24",
+      "toInstanceId": "sk_dng_23"
+    },
+    {
+      "id": "rel_dng_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_28",
+      "toInstanceId": "sk_dng_27"
+    },
+    {
+      "id": "rel_dng_party_32",
+      "kind": "party_member",
+      "fromInstanceId": "sk_dng_32",
+      "toInstanceId": "sk_dng_31"
+    },
+    {
+      "id": "rel_dng_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_dng_07",
+      "toInstanceId": "sk_dng_05"
+    },
+    {
+      "id": "rel_dng_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_dng_14",
+      "toInstanceId": "sk_dng_12"
+    },
+    {
+      "id": "rel_dng_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_dng_21",
+      "toInstanceId": "sk_dng_19"
+    },
+    {
+      "id": "rel_dng_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_dng_28",
+      "toInstanceId": "sk_dng_26"
+    }
+  ]
+}

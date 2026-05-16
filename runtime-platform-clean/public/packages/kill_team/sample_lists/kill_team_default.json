@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "killteam",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "kt-veteran-stress",
+      "name": "Veteran Guard Stress",
+      "factionId": "veteran_guardsmen",
+      "description": "Alternating activations, overwatch, AP — rapid queue churn.",
+      "units": [
+        {
+          "id": "kt-veteran-01",
+          "name": "Trooper Veteran",
+          "tags": [
+            "operative",
+            "ally"
+          ]
+        },
+        {
+          "id": "kt-gunner-01",
+          "name": "Gunner",
+          "tags": [
+            "operative",
+            "ally"
+          ]
+        },
+        {
+          "id": "kt-enemy-01",
+          "name": "Brood Warrior",
+          "tags": [
+            "operative",
+            "enemy"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "skeleton_lab",
+  "name": "Skeleton lab (mock packages)",
+  "version": "1.0",
+  "description": "Lightweight deterministic packages for import, NFC, replay, and simulation coverage — not gameplay-accurate.",
+  "factionsPath": "factions/skeleton_lab.json"
+}

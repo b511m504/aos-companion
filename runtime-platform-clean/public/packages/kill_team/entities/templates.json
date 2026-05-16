@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "packageId": "kill_team",
+  "templates": [
+    {
+      "id": "kt-veteran-01",
+      "name": "Trooper Veteran",
+      "tags": [
+        "operative",
+        "ally"
+      ]
+    },
+    {
+      "id": "kt-gunner-01",
+      "name": "Gunner",
+      "tags": [
+        "operative",
+        "ally"
+      ]
+    },
+    {
+      "id": "kt-enemy-01",
+      "name": "Brood Warrior",
+      "tags": [
+        "operative",
+        "enemy"
+      ]
+    }
+  ]
+}

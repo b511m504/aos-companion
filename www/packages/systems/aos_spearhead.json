@@ -1,0 +1,211 @@
+{
+  "id": "aos_spearhead",
+  "name": "Age of Sigmar — Spearhead",
+  "version": 2,
+  "battlepackRef": {
+    "id": "fire_and_jade",
+    "path": "./packages/battlepacks/fire_and_jade.json"
+  },
+  "metadata": {
+    "runtimeTags": ["offensive", "defensive", "reaction", "support", "objective"],
+    "spearheadRulesRef": "GH26 Spearhead — narrative placeholders",
+    "debugLabels": {
+      "assistMode": "single_player_assist",
+      "engineProfile": "spearhead-v2"
+    }
+  },
+  "runtimeScreens": {
+    "priorityRoll": "priority",
+    "drawTwistCard": "twist",
+    "drawBattleTacticCard": "battle_tactic",
+    "heroPhase": "hero",
+    "movementPhase": "movement",
+    "shootingPhase": "shooting",
+    "chargePhase": "charge",
+    "combatPhase": "combat",
+    "endPhase": "end_phase"
+  },
+  "cardDecks": {
+    "twist": {
+      "path": "./packages/spearhead/cards/twist_placeholders.json",
+      "description": "Twist deck placeholders — fetch at runtime / battle setup."
+    },
+    "battleTactic": {
+      "path": "./packages/spearhead/cards/battle_tactic_placeholders.json",
+      "description": "Battle tactic placeholders — fetch at runtime / hero sequencing."
+    }
+  },
+  "reactiveEvents": {
+    "assistTriggers": [
+      "enemyAttackDeclared",
+      "enemyChargeDeclared",
+      "saveRollFailed",
+      "woundAssigned",
+      "damageApplied",
+      "phaseStart",
+      "phaseEnd"
+    ]
+  },
+  "phases": [
+    { "id": "start", "label": "Start of Round", "turn": "both" },
+    { "id": "priority", "label": "Priority & Twist", "turn": "both" },
+    { "id": "hero", "label": "Hero Phase", "turn": "active" },
+    { "id": "movement", "label": "Movement Phase", "turn": "active" },
+    { "id": "shooting", "label": "Shooting Phase", "turn": "active" },
+    { "id": "charge", "label": "Charge Phase", "turn": "active" },
+    { "id": "combat", "label": "Combat Phase", "turn": "active" },
+    { "id": "end_phase", "label": "End Phase", "turn": "both" }
+  ],
+  "ui": {
+    "accent": "stormcast",
+    "cardStyle": "order",
+    "icon": "stormcast",
+    "components": ["phaseBar", "unitList", "popup", "roundTracker", "nextUnit"],
+    "activationMode": "phase",
+    "unitPopup": {
+      "compact": true,
+      "showAbilities": true,
+      "showWeapons": ["Shooting", "Combat"]
+    }
+  },
+  "rules": {
+    "cp": {
+      "start": 0,
+      "perRound": 1,
+      "resetEachRound": true
+    },
+    "spearhead": {
+      "maxUnits": 4,
+      "maxPoints": 1000
+    }
+  },
+  "wounds": {
+    "enabled": true,
+    "perModel": false,
+    "trackOverkill": false
+  },
+  "listBuilder": {
+    "validation": {
+      "requireNonEmptyList": true,
+      "maxUnits": 4,
+      "maxDuplicatesPerUnitId": 1
+    },
+    "nfc": {
+      "confirmWhenTagHasPayload": true,
+      "autoOverwriteAssignedTags": false
+    }
+  },
+  "engineAbilities": [
+    {
+      "id": "spearhead_combat_control_aura",
+      "priority": 100,
+      "trigger": {
+        "event": "phaseStart",
+        "whenPhase": "combat"
+      },
+      "condition": {},
+      "effects": [
+        {
+          "type": "modifyStat",
+          "target": "allAllies",
+          "stat": "control",
+          "delta": 1,
+          "stack": "refresh",
+          "expiresAt": "combat",
+          "effectId": "spearhead_combat_control_aura::control"
+        }
+      ]
+    },
+    {
+      "id": "assist_prompt_save_after_enemy_attack",
+      "priority": 85,
+      "trigger": { "event": "enemyAttackDeclared" },
+      "condition": {},
+      "effects": [
+        {
+          "type": "betaPrompt",
+          "promptType": "save",
+          "promptKind": "save",
+          "title": "Roll saves",
+          "description": "Enter failed saves on your units, then apply damage when ready."
+        }
+      ]
+    },
+    {
+      "id": "assist_prompt_charge_reaction",
+      "priority": 85,
+      "trigger": { "event": "enemyChargeDeclared" },
+      "condition": {},
+      "effects": [
+        {
+          "type": "betaPrompt",
+          "promptType": "reaction",
+          "title": "Charge reactions",
+          "description": "Counter-charge, redeploy, or other reactions before resolving charges."
+        }
+      ]
+    },
+    {
+      "id": "assist_prompt_save_failed_followup",
+      "priority": 70,
+      "trigger": { "event": "saveRollFailed" },
+      "condition": {},
+      "effects": [
+        {
+          "type": "betaPrompt",
+          "promptType": "reaction",
+          "title": "Save failed — layers",
+          "description": "Consider wards, damage prevention, or reactive saves."
+        }
+      ]
+    },
+    {
+      "id": "assist_prompt_wound_assigned",
+      "priority": 65,
+      "trigger": { "event": "woundAssigned" },
+      "condition": {},
+      "effects": [
+        {
+          "type": "betaPrompt",
+          "promptType": "sequence",
+          "title": "Wounds assigned",
+          "description": "Resolve triggered abilities or sequencing before the next attack."
+        }
+      ]
+    },
+    {
+      "id": "spearhead_system_defensive_fallback",
+      "priority": 55,
+      "trigger": { "event": "enemyAttackDeclared" },
+      "condition": { "phase": { "is": "shooting" } },
+      "effects": [
+        {
+          "type": "betaPrompt",
+          "promptType": "reaction",
+          "title": "Shooting defensive window",
+          "description": "Apply cover, mystic shielding, or CP rerolls before resolving rolls."
+        }
+      ]
+    }
+  ],
+  "factions": {
+    "stormcast": {
+      "name": "Stormcast Eternals",
+      "units": [],
+      "abilities": []
+    }
+  },
+  "units": {
+    "registry": "factionPackage"
+  },
+  "phaseVocab": {
+    "start": ["setup", "begin", "start of round"],
+    "priority": ["priority", "twist", "priority roll"],
+    "hero": ["command", "hero"],
+    "movement": ["move", "advance"],
+    "shooting": ["shoot", "ranged", "missile", "shooting"],
+    "charge": ["charge"],
+    "combat": ["fight", "melee", "strike", "combat"],
+    "end_phase": ["wrap", "end", "battleshock", "end phase"]
+  }
+}

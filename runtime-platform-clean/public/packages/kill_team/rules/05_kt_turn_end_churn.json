@@ -1,0 +1,25 @@
+{
+  "id": "kt_turn_end_churn",
+  "trigger": "turn.end",
+  "priority": 3,
+  "appliesToSystems": [
+    "killteam"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "operative.activated",
+      "payload": {
+        "entityId": "kt-gunner-01"
+      }
+    },
+    {
+      "type": "emit_event",
+      "event": "operative.activated",
+      "payload": {
+        "entityId": "kt-veteran-01"
+      }
+    }
+  ]
+}

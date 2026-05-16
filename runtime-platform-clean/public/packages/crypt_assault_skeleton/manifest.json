@@ -1,0 +1,27 @@
+{
+  "packageId": "crypt_assault_skeleton",
+  "name": "Skeleton: Crypt Assault",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "skeleton_lab",
+  "contentVersion": "1.0.0-skeleton",
+  "entityTypes": [
+    "room",
+    "monster",
+    "loot",
+    "door",
+    "trap"
+  ],
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 28,
+    "maxEmitsPerRootDispatch": 8000,
+    "maxSpawnedEntitiesPerTick": 400,
+    "maxQueueLength": 20000
+  },
+  "importAdapters": {
+    "jsonRoster": "imports/jsonRosterAdapter.json"
+  }
+}

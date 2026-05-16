@@ -1,0 +1,8 @@
+{
+  "systemId": "crypt_assault",
+  "schemaVersion": 1,
+  "translations": {
+    "unit.damaged": "Wound allocated",
+    "simulation.tick": "Simulation tick"
+  }
+}

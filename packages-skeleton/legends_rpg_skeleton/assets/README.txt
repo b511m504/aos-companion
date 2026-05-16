@@ -1,0 +1,1 @@
+"Skeleton assets placeholder — replace with art/audio as needed.\n"

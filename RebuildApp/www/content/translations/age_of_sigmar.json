@@ -1,0 +1,8 @@
+{
+  "systemId": "age_of_sigmar",
+  "schemaVersion": 1,
+  "translations": {
+    "unit.damaged": "Wound allocated",
+    "simulation.tick": "Simulation tick"
+  }
+}

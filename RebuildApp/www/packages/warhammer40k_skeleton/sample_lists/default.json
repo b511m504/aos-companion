@@ -1,0 +1,1093 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "w40ks-default",
+      "name": "warhammer40k_skeleton default roster",
+      "factionId": "w40ks_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_w40ks_00",
+          "name": "unit 0",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_01",
+          "name": "objective 1",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_02",
+          "name": "character 2",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_03",
+          "name": "transport 3",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_04",
+          "name": "unit 4",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_05",
+          "name": "objective 5",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_06",
+          "name": "character 6",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_07",
+          "name": "transport 7",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_w40ks_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_08",
+          "name": "unit 8",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_09",
+          "name": "objective 9",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_10",
+          "name": "character 10",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_11",
+          "name": "transport 11",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_12",
+          "name": "unit 12",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_11"
+            },
+            {
+              "id": "rel_w40ks_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_13",
+          "name": "objective 13",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_14",
+          "name": "character 14",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_w40ks_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_15",
+          "name": "transport 15",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_16",
+          "name": "unit 16",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_17",
+          "name": "objective 17",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_18",
+          "name": "character 18",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_19",
+          "name": "transport 19",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_20",
+          "name": "unit 20",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_21",
+          "name": "objective 21",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_w40ks_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_22",
+          "name": "character 22",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_23",
+          "name": "transport 23",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_24",
+          "name": "unit 24",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_23"
+            },
+            {
+              "id": "rel_w40ks_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_25",
+          "name": "objective 25",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_26",
+          "name": "character 26",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_27",
+          "name": "transport 27",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_28",
+          "name": "unit 28",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_28",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_27"
+            },
+            {
+              "id": "rel_w40ks_tr_28",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_w40ks_26"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_29",
+          "name": "objective 29",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_30",
+          "name": "character 30",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_inv_30",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_31",
+          "name": "transport 31",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_32",
+          "name": "unit 32",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_32",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_31"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_33",
+          "name": "objective 33",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_34",
+          "name": "character 34",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_35",
+          "name": "transport 35",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_tr_35",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_w40ks_33"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_36",
+          "name": "unit 36",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_w40ks_party_36",
+              "kind": "party_member",
+              "toInstanceId": "sk_w40ks_35"
+            },
+            {
+              "id": "rel_w40ks_inv_36",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_w40ks_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_w40ks_37",
+          "name": "objective 37",
+          "tags": [
+            "skeleton",
+            "objective"
+          ],
+          "entityType": "objective",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_38",
+          "name": "character 38",
+          "tags": [
+            "skeleton",
+            "character"
+          ],
+          "entityType": "character",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_39",
+          "name": "transport 39",
+          "tags": [
+            "skeleton",
+            "transport"
+          ],
+          "entityType": "transport",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_w40ks_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "warhammer40k_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

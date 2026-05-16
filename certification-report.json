@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-14T23:47:19.809Z",
+  "certification": {
+    "skeletonPackages": 9,
+    "perPackage": [
+      {
+        "packageId": "warhammer40k_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "age_of_sigmar_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "kill_team_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "crypt_assault_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "legends_rpg_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "boardgame_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "cardgame_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "dungeon_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      },
+      {
+        "packageId": "strategy_skeleton",
+        "importOk": true,
+        "graphOk": true,
+        "nfcOk": true,
+        "simOk": true,
+        "snapshotOk": true,
+        "replayOk": true
+      }
+    ],
+    "mockWorkbench": {
+      "tmpDir": "nfc-companion\\tmp\\mock-bench-1778802318652",
+      "generateStressExitCode": 0,
+      "generateMalformedExitCode": 0,
+      "stressRulesWritten": true,
+      "malformedRulesWritten": true,
+      "importStress": {
+        "ok": true,
+        "entityCount": 120,
+        "errors": []
+      },
+      "mockSim": {
+        "skipped": false,
+        "haltedReason": "max_turns",
+        "eventsProcessed": 4742,
+        "maxQueueDepthObserved": 25,
+        "fifoQueueSanity": true
+      },
+      "note": "Malformed generator output may still emit parseable rules; engine strictValidation=false in this suite."
+    }
+  },
+  "failures": []
+}

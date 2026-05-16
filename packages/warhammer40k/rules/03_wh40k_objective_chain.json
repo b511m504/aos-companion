@@ -1,0 +1,24 @@
+{
+  "id": "wh40k_objective_chain",
+  "trigger": "objective.scored",
+  "priority": 20,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "wh40k-obj-01",
+      "key": "resource",
+      "delta": 1
+    },
+    {
+      "type": "emit_event",
+      "event": "timer.fire",
+      "payload": {
+        "entityId": "wh40k-obj-01"
+      }
+    }
+  ]
+}

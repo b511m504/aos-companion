@@ -1,0 +1,359 @@
+[
+  {
+    "id": "mock_rule_0",
+    "trigger": "timer.fire",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 0"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_1",
+    "trigger": "unit.damaged",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 1"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_2",
+    "trigger": "turn.end",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 2"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_3",
+    "trigger": "rng.table",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_4",
+    "trigger": "ai.tick",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_5",
+    "trigger": "action.spent",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 5"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_6",
+    "trigger": "ai.tick",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_7",
+    "trigger": "turn.start",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_8",
+    "trigger": "ai.tick",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_9",
+    "trigger": "action.spent",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 9"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_10",
+    "trigger": "timer.fire",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 10"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_11",
+    "trigger": "simulation.tick",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 11"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_12",
+    "trigger": "simulation.tick",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 12"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_13",
+    "trigger": "turn.start",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_14",
+    "trigger": "rng.table",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_15",
+    "trigger": "turn.start",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_16",
+    "trigger": "ai.tick",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 16"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_17",
+    "trigger": "simulation.tick",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "turn.start",
+        "payload": {
+          "mockDepth": 2,
+          "seq": 17
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_18",
+    "trigger": "simulation.tick",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "not_a_real_event",
+        "payload": {}
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_19",
+    "trigger": "turn.start",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockDepth": 4,
+          "seq": 19
+        }
+      }
+    ]
+  }
+]

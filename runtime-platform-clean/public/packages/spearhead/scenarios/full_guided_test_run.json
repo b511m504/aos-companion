@@ -1,0 +1,304 @@
+{
+  "id": "full_guided_test_run",
+  "name": "Stormcast Guided Runtime Test",
+  "runtimeSessionId": "default_spearhead",
+  "faction": "stormcast",
+  "listId": "stormcast_test_list",
+  "battlepack": "fire_and_jade",
+  "steps": [
+    {
+      "id": "session_load",
+      "screen": "session",
+      "title": "Load runtime session",
+      "instructions": [
+        "From Home, open Guided Test Run",
+        "Confirm runtime session default_spearhead is selected",
+        "Tap Load session (or use registry)"
+      ],
+      "expectedEvents": ["runtime_session_loaded", "scenario_loaded"]
+    },
+    {
+      "id": "runtime_session_validate",
+      "screen": "session",
+      "title": "Validate session wiring",
+      "instructions": [
+        "Confirm battlepack id shows fire_and_jade",
+        "Confirm allowed factions include stormcast"
+      ],
+      "expectedEvents": ["WORKFLOW_STAGE", "session_loaded"]
+    },
+    {
+      "id": "list_import_army",
+      "screen": "army",
+      "title": "Import Spearhead list",
+      "instructions": [
+        "Go to Army screen",
+        "Tap Load default list (stormcast_test_list)",
+        "Confirm units appear and validation passes"
+      ],
+      "expectedEvents": ["LIST_IMPORTED", "list_imported"]
+    },
+    {
+      "id": "prebattle_auto_verify",
+      "screen": "army",
+      "title": "Prebattle auto-apply (list JSON)",
+      "instructions": [
+        "Confirm list baked battleTrait / enhancement / formation applied",
+        "Check banner prebattle line shows trait · enh · form · auto"
+      ],
+      "expectedEvents": ["prebattle_choice_auto_applied"]
+    },
+    {
+      "id": "nfc_assign_fresh",
+      "screen": "nfc_assignment",
+      "title": "NFC — assign fresh tag",
+      "instructions": [
+        "Navigate to NFC Assignment",
+        "Select first pending unit row",
+        "Arm write and provision a physical tag",
+        "Complete write success"
+      ],
+      "expectedEvents": ["entity_assigned", "write_success"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "nfc_overwrite_path",
+      "screen": "nfc_assignment",
+      "title": "NFC — overwrite existing tag",
+      "instructions": [
+        "Select a different pending unit",
+        "Scan a tag that already holds another entity",
+        "Review overwrite card — tap Overwrite to confirm",
+        "Optional: cancel once to see overwrite_cancelled in traces"
+      ],
+      "expectedEvents": ["overwrite_detected", "overwrite_confirmed"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "nfc_tap_runtime_focus",
+      "screen": "battle_runtime",
+      "title": "NFC — runtime tap & entity focus",
+      "instructions": [
+        "After battle starts, scan an assigned tag",
+        "Verify selected entity updates (banner / chips)",
+        "Open contextual prompts if engine fires"
+      ],
+      "expectedEvents": ["entity_runtime_selected", "nfc_runtime_focus"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "ready_check_gate",
+      "screen": "ready_check",
+      "title": "Ready checklist",
+      "instructions": [
+        "Finish any remaining NFC assignments",
+        "Navigate to Ready Check",
+        "Confirm all gates green",
+        "Tap Start battle (enters prebattle / deployment flow)"
+      ],
+      "expectedEvents": ["ready_check", "enter_post_ready_flow"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "deployment_setup",
+      "screen": "deployment_setup",
+      "title": "Deployment setup",
+      "instructions": [
+        "Review roster / objectives / reminders",
+        "Copy Prebattle Debug if needed",
+        "Tap Begin Battle — you drive timing, not autoplay"
+      ],
+      "expectedEvents": ["deployment_ready", "battle_runtime_started"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "battle_intro_priority",
+      "screen": "battle_runtime",
+      "phase": "Hero Phase",
+      "battleStep": "priority_roll",
+      "title": "Battle intro — priority",
+      "instructions": [
+        "Confirm battle runtime heading shows proactive assist",
+        "Use Next battle step or advance until Priority roll step",
+        "Manually roll priority on the table — app tracks step only"
+      ],
+      "expectedEvents": ["BATTLE_STEP"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "twist_draw",
+      "screen": "battle_runtime",
+      "battleStep": "twist_card",
+      "title": "Twist card",
+      "instructions": [
+        "Advance battle step to twist_card",
+        "Draw twist physically — log mentally via notes"
+      ],
+      "expectedEvents": ["BATTLE_STEP"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "battle_tactic_draw",
+      "screen": "battle_runtime",
+      "battleStep": "battle_tactic_card",
+      "title": "Battle tactic card",
+      "instructions": [
+        "Advance to battle tactic step",
+        "Draw tactic card per battlepack flow"
+      ],
+      "expectedEvents": ["BATTLE_STEP"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "hero_phase_player",
+      "screen": "battle_runtime",
+      "phase": "Hero Phase",
+      "turnOwner": "player",
+      "title": "Hero phase — your turn",
+      "instructions": [
+        "Keep Your Turn selected",
+        "Select roster entities via chips",
+        "Advance phase when hero actions complete"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "movement_phase",
+      "screen": "battle_runtime",
+      "phase": "Movement Phase",
+      "title": "Movement phase",
+      "instructions": [
+        "Tap Next phase until Movement",
+        "Move models on table — app stays assist-only"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "shooting_phase",
+      "screen": "battle_runtime",
+      "phase": "Shooting Phase",
+      "title": "Shooting phase",
+      "instructions": [
+        "Resolve shooting on table",
+        "Use engine prompts if abilities fire"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "charge_phase",
+      "screen": "battle_runtime",
+      "phase": "Charge Phase",
+      "title": "Charge phase",
+      "instructions": [
+        "Declare charges physically",
+        "Use Enemy charge declared assist when testing reactions"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "combat_phase",
+      "screen": "battle_runtime",
+      "phase": "Combat Phase",
+      "title": "Combat phase — proactive",
+      "instructions": [
+        "Fight on table",
+        "Advance battle step / phase as needed"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "opponent_shooting_reactive",
+      "screen": "battle_runtime",
+      "phase": "Shooting Phase",
+      "turnOwner": "opponent",
+      "title": "Opponent shooting — reactive",
+      "instructions": [
+        "Switch to Opponent Turn",
+        "Tap Liberators / NFC if testing saves",
+        "Use Roll save / failed saves and defensive prompts"
+      ],
+      "expectedEvents": ["save_roll_failed", "save_prompt_opened", "reaction_prompt_created"],
+      "expectedPrompts": ["save"]
+    },
+    {
+      "id": "opponent_combat_reactive",
+      "screen": "battle_runtime",
+      "phase": "Combat Phase",
+      "turnOwner": "opponent",
+      "title": "Opponent combat — reactions",
+      "instructions": [
+        "Stay in Opponent Turn — Combat",
+        "Tap Enemy attack declared",
+        "Apply damage with Apply damage control",
+        "Confirm Shield Wall or reaction prompts appear"
+      ],
+      "expectedEvents": ["enemy_attack_declared", "reaction_prompt_created", "wound_assignment_started"],
+      "expectedPrompts": ["Shield Wall"]
+    },
+    {
+      "id": "save_and_wound_flow",
+      "screen": "battle_runtime",
+      "phase": "Combat Phase",
+      "turnOwner": "opponent",
+      "title": "Saves & wound assignment",
+      "instructions": [
+        "Use Save sequencing and Apply damage",
+        "Watch wound_assignment_started trace when starting allocation"
+      ],
+      "expectedEvents": ["wound_assignment_started", "save_roll_failed"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "counter_abilities",
+      "screen": "battle_runtime",
+      "phase": "Combat Phase",
+      "title": "Counter abilities",
+      "instructions": [
+        "Tap Use reaction / reactive ability buttons",
+        "Confirm counter_ability_used appears in traces when logging path fires"
+      ],
+      "expectedEvents": ["counter_ability_used"],
+      "expectedPrompts": []
+    },
+    {
+      "id": "round_summary",
+      "screen": "battle_runtime",
+      "title": "Round summary",
+      "instructions": [
+        "Review VP / battle step in assist panel",
+        "Advance battle round / steps per scenario on table"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "debug_replay_validation",
+      "screen": "debug_replay",
+      "title": "Debug / replay validation",
+      "instructions": [
+        "Open Debug / Replay screen",
+        "Filter traces by entity or event type",
+        "Export debug snapshot — compare to step checkpoints"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    },
+    {
+      "id": "end_guided_run",
+      "screen": "debug_replay",
+      "title": "End guided test run",
+      "instructions": [
+        "Copy final step debug",
+        "Clear scenario or reset runtime if starting over",
+        "Certification complete — file issues from checkpoints"
+      ],
+      "expectedEvents": [],
+      "expectedPrompts": []
+    }
+  ]
+}

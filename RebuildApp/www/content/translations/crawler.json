@@ -1,0 +1,12 @@
+{
+  "systemId": "crawler",
+  "schemaVersion": 1,
+  "translations": {
+    "health": "vitality",
+    "resource": "energy",
+    "event": "room event",
+    "activation": "activation",
+    "status": "modifiers",
+    "entity": "hero"
+  }
+}

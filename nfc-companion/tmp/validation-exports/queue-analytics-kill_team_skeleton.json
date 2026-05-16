@@ -1,0 +1,29 @@
+{
+  "metrics": {
+    "eventsProcessed": 7821,
+    "actionsExecuted": 7953,
+    "mutationsApplied": 232,
+    "warningsGenerated": 0,
+    "dedupeSkips": 0,
+    "queueDepthSum": 289242,
+    "queueDepthSamples": 7821,
+    "maxQueueDepthObserved": 90,
+    "maxChainDepthReached": 2,
+    "ruleCandidatesEvaluated": 5874,
+    "rulesPassedAllConditions": 5874,
+    "conditionEvaluations": 4536,
+    "followUpsEnqueued": 7521,
+    "dispatchWallMsSum": 0,
+    "dispatchWallSamples": 7821
+  },
+  "vizSummary": {
+    "samples": 7821,
+    "maxQueueDepthSampled": 89,
+    "maxChainDepthSampled": 2,
+    "eventAmplificationFactor": 0.962,
+    "emitsPerDispatchEstimate": 0.9616417337936325
+  },
+  "fifo": {
+    "ok": true
+  }
+}

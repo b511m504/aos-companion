@@ -1,0 +1,17 @@
+{
+  "id": "age_of_sigmar_skeleton_09_nfc_scan_pulse",
+  "trigger": "nfc.scan",
+  "priority": 15,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "triggering_entity",
+      "key": "resource",
+      "delta": 1
+    }
+  ]
+}

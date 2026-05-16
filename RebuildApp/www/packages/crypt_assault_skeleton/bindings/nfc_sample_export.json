@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.741Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "cryp_faction",
+  "listId": "cryp-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:40:20:43:50:63",
+      "entityId": "sk_cryp_00",
+      "displayName": "room 0",
+      "entityType": "room",
+      "assignedAt": "2026-05-14T22:11:25.741Z",
+      "factionId": "cryp_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "crypt_assault_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:41:23:43:51:64",
+      "entityId": "sk_cryp_01",
+      "displayName": "monster 1",
+      "entityType": "monster",
+      "assignedAt": "2026-05-14T22:11:25.741Z",
+      "factionId": "cryp_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "crypt_assault_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:42:26:43:52:65",
+      "entityId": "sk_cryp_02",
+      "displayName": "loot 2",
+      "entityType": "loot",
+      "assignedAt": "2026-05-14T22:11:25.741Z",
+      "factionId": "cryp_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "crypt_assault_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:43:29:43:53:66",
+      "entityId": "sk_cryp_03",
+      "displayName": "door 3",
+      "entityType": "door",
+      "assignedAt": "2026-05-14T22:11:25.741Z",
+      "factionId": "cryp_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "crypt_assault_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:44:2C:43:54:67",
+      "entityId": "sk_cryp_04",
+      "displayName": "trap 4",
+      "entityType": "trap",
+      "assignedAt": "2026-05-14T22:11:25.741Z",
+      "factionId": "cryp_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "crypt_assault_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

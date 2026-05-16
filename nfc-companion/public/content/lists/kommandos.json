@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "killteam",
+    "factionId": "kommandos"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "kom_sneaky_squad",
+      "name": "Da Sneaky Squad",
+      "factionId": "kommandos",
+      "description": "Small mob — quick to link end‑to‑end.",
+      "units": [
+        { "id": "ko1-u01", "name": "Boss Nob" },
+        { "id": "ko1-u02", "name": "Kommando Boy" },
+        { "id": "ko1-u03", "name": "Kommando Boy" },
+        { "id": "ko1-u04", "name": "Burna Boy" },
+        { "id": "ko1-u05", "name": "Rokkit Boy" },
+        { "id": "ko1-u06", "name": "Grot" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kom_kill_team_full",
+      "name": "Kommando Kill Team",
+      "factionId": "kommandos",
+      "description": "Full roster — nine greenskins.",
+      "units": [
+        { "id": "ko2-u01", "name": "Nob on Smasha Squig" },
+        { "id": "ko2-u02", "name": "Kommando Boy" },
+        { "id": "ko2-u03", "name": "Kommando Boy" },
+        { "id": "ko2-u04", "name": "Kommando Boy" },
+        { "id": "ko2-u05", "name": "Bomb Squig" },
+        { "id": "ko2-u06", "name": "Breacha Boy" },
+        { "id": "ko2-u07", "name": "Slugga Boy" },
+        { "id": "ko2-u08", "name": "Grot" },
+        { "id": "ko2-u09", "name": "Grot" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kom_speed_freebooterz",
+      "name": "Speed Freebooterz",
+      "factionId": "kommandos",
+      "description": "Fast ladz — elite‑leaning five.",
+      "units": [
+        { "id": "ko3-u01", "name": "Big Mek" },
+        { "id": "ko3-u02", "name": "Nob with Klaw" },
+        { "id": "ko3-u03", "name": "Kommando Boy" },
+        { "id": "ko3-u04", "name": "Kommando Boy" },
+        { "id": "ko3-u05", "name": "Bomb Squig" }
+      ]
+    }
+  ]
+}

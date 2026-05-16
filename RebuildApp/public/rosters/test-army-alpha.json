@@ -1,0 +1,8 @@
+{
+  "systemId": "generic",
+  "name": "Test Army Alpha",
+  "units": [
+    { "id": "unit_001", "name": "Liberators", "wounds": 10 },
+    { "id": "unit_002", "name": "Vindictors", "wounds": 5 }
+  ]
+}

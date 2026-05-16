@@ -1,0 +1,1411 @@
+[
+  {
+    "id": "mock_rule_0",
+    "trigger": "turn.start",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_1",
+    "trigger": "unit.damaged",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 1"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_2",
+    "trigger": "simulation.tick",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 2"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_3",
+    "trigger": "rng.table",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 3"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_4",
+    "trigger": "unit.damaged",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "simulation.tick",
+        "payload": {
+          "mockDepth": 1,
+          "seq": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_5",
+    "trigger": "simulation.tick",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 5"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_6",
+    "trigger": "unit.damaged",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 6"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_7",
+    "trigger": "unit.damaged",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 7"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_8",
+    "trigger": "turn.start",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 8"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_9",
+    "trigger": "turn.start",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 9"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_10",
+    "trigger": "ai.tick",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 10"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_11",
+    "trigger": "unit.damaged",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 11"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_12",
+    "trigger": "turn.end",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 12"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_13",
+    "trigger": "unit.damaged",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_14",
+    "trigger": "action.spent",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 14"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_15",
+    "trigger": "turn.start",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 15"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_16",
+    "trigger": "rng.table",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 16"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_17",
+    "trigger": "rng.table",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "turn.start",
+        "payload": {
+          "mockDepth": 2,
+          "seq": 17
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_18",
+    "trigger": "ai.tick",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 18"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_19",
+    "trigger": "rng.table",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 19"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_20",
+    "trigger": "turn.start",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 20"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_21",
+    "trigger": "simulation.tick",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 21"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_22",
+    "trigger": "turn.start",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 22"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_23",
+    "trigger": "ai.tick",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 23"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_24",
+    "trigger": "action.spent",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 24"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_25",
+    "trigger": "rng.table",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 25"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_26",
+    "trigger": "rng.table",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 26
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_27",
+    "trigger": "turn.end",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 27"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_28",
+    "trigger": "timer.fire",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 28"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_29",
+    "trigger": "simulation.tick",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 29"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_30",
+    "trigger": "turn.start",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "simulation.tick",
+        "payload": {
+          "mockDepth": 3,
+          "seq": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_31",
+    "trigger": "action.spent",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 31"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_32",
+    "trigger": "simulation.tick",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 32"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_33",
+    "trigger": "action.spent",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "unit.damaged",
+        "payload": {
+          "mockDepth": 2,
+          "seq": 33
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_34",
+    "trigger": "unit.damaged",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 34"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_35",
+    "trigger": "turn.end",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 35"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_36",
+    "trigger": "ai.tick",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 36"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_37",
+    "trigger": "action.spent",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 37"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_38",
+    "trigger": "timer.fire",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 38"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_39",
+    "trigger": "timer.fire",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 39
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_40",
+    "trigger": "rng.table",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 40"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_41",
+    "trigger": "timer.fire",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 41"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_42",
+    "trigger": "timer.fire",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 42"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_43",
+    "trigger": "ai.tick",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 43"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_44",
+    "trigger": "action.spent",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "simulation.tick",
+        "payload": {
+          "mockDepth": 1,
+          "seq": 44
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_45",
+    "trigger": "action.spent",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 45"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_46",
+    "trigger": "turn.end",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 46"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_47",
+    "trigger": "turn.start",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 47"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_48",
+    "trigger": "simulation.tick",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 48"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_49",
+    "trigger": "unit.damaged",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 49"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_50",
+    "trigger": "action.spent",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 50"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_51",
+    "trigger": "turn.start",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 51"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_52",
+    "trigger": "turn.end",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 52
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_53",
+    "trigger": "unit.damaged",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 53"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_54",
+    "trigger": "timer.fire",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 54"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_55",
+    "trigger": "simulation.tick",
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "ai.tick",
+        "payload": {
+          "mockDepth": 4,
+          "seq": 55
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_56",
+    "trigger": "turn.start",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 56"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_57",
+    "trigger": "turn.start",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 57"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_58",
+    "trigger": "rng.table",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 58"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_59",
+    "trigger": "unit.damaged",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 59"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_60",
+    "trigger": "rng.table",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 60"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_61",
+    "trigger": "turn.end",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 61"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_62",
+    "trigger": "simulation.tick",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "unit.damaged",
+        "payload": {
+          "mockDepth": 3,
+          "seq": 62
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_63",
+    "trigger": "ai.tick",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 63"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_64",
+    "trigger": "simulation.tick",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 64"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_65",
+    "trigger": "action.spent",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_66",
+    "trigger": "action.spent",
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 66"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_67",
+    "trigger": "ai.tick",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 67"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_68",
+    "trigger": "turn.end",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 68"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_69",
+    "trigger": "unit.damaged",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 69"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_70",
+    "trigger": "ai.tick",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 70"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_71",
+    "trigger": "unit.damaged",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 71"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_72",
+    "trigger": "timer.fire",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 72"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_73",
+    "trigger": "timer.fire",
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 73"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_74",
+    "trigger": "ai.tick",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 74"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_75",
+    "trigger": "ai.tick",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 75"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_76",
+    "trigger": "turn.end",
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 76"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_77",
+    "trigger": "ai.tick",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 77"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_78",
+    "trigger": "ai.tick",
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "emit_event",
+        "event": "timer.fire",
+        "payload": {
+          "mockTimer": 78
+        }
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_79",
+    "trigger": "rng.table",
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 79"
+      }
+    ]
+  }
+]

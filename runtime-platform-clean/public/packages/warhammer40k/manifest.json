@@ -1,0 +1,15 @@
+{
+  "packageId": "warhammer40k",
+  "name": "Warhammer 40,000",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "wh40k",
+  "contentVersion": "1.0.0",
+  "entityTypes": [
+    "unit",
+    "character",
+    "vehicle",
+    "transport",
+    "objective"
+  ]
+}

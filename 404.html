@@ -49,6 +49,7 @@
       font-size: 17px;
       line-height: 1.5;
       min-height: 100vh;
+      position: relative;
     }
 
     .app {
@@ -1226,14 +1227,6 @@
       overflow: hidden;
     }
 
-    #homeScreen,
-    #setupScreen,
-    #gameScreen,
-    #assignScreen {
-      position: relative;
-      z-index: 1;
-    }
-
     /* NFC overlay: never intercept clicks unless .active (see closeNfcOverlay / showNfcOverlayDom) */
     #nfcOverlay.nfc-overlay-root {
       position: fixed;
@@ -1364,6 +1357,242 @@
       line-height: 1.2;
     }
 
+    /* NFC compact popup: phase-first, minimal cognitive load */
+    .nfc-popup-compact {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .nfc-popup-phase-label {
+      margin: 0;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    .nfc-popup-faction {
+      margin: -0.35rem 0 0;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .nfc-popup-section--primary {
+      margin: 0;
+    }
+
+    .nfc-popup-section-title {
+      margin: 0 0 0.45rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .nfc-popup-ability-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .nfc-popup-ability {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.35rem 0.5rem;
+    }
+
+    .nfc-popup-ability--high .nfc-popup-ability-name {
+      font-size: 1.14rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .nfc-popup-ability--medium .nfc-popup-ability-name {
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--heading);
+    }
+
+    .nfc-popup-ability--low .nfc-popup-ability-name {
+      font-size: 1.02rem;
+      font-weight: 600;
+      color: var(--text);
+      opacity: 0.55;
+    }
+
+    .nfc-popup-ability-name {
+      line-height: 1.25;
+    }
+
+    .nfc-popup-ability-hint {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .nfc-popup-activated {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin: 0 0 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .nfc-popup-dimmed {
+      opacity: 0.4;
+    }
+
+    .game-system-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 0.35rem 0 0;
+    }
+
+    #systemIndicator.system-indicator {
+      font-size: 12px;
+      font-weight: bold;
+      opacity: 0.7;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 0;
+    }
+
+    .reset-activations-btn {
+      font-size: 11px;
+      font-weight: 600;
+      opacity: 0.55;
+      padding: 0.15rem 0.45rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      line-height: 1.2;
+    }
+
+    .reset-activations-btn:hover {
+      opacity: 0.85;
+      color: var(--text);
+    }
+
+    .next-unit-btn {
+      font-size: 11px;
+      font-weight: 600;
+      opacity: 0.55;
+      padding: 0.15rem 0.45rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      line-height: 1.2;
+    }
+
+    .next-unit-btn:hover {
+      opacity: 0.85;
+      color: var(--text);
+    }
+
+    .round-counter,
+    .cp-inline {
+      font-size: 11px;
+      font-weight: 700;
+      opacity: 0.65;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    .nfc-scan-hint {
+      font-size: 10px;
+      opacity: 0.48;
+      color: var(--muted);
+      flex-basis: 100%;
+      margin-top: 0.15rem;
+    }
+
+    .system-indicator--aos {
+      color: #d4af37;
+    }
+
+    .system-indicator--skirmish {
+      color: #6b9fff;
+    }
+
+    .system-indicator--activation {
+      color: #4ecf8e;
+    }
+
+    .nfc-popup-weapons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .nfc-popup-weapon {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+      font-size: 1.02rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .nfc-popup-weapon-name {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .nfc-popup-weapon-meta {
+      flex-shrink: 0;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .nfc-popup-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem 0.65rem;
+      padding-top: 0.35rem;
+      margin-top: 0.15rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .nfc-popup-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.25rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .nfc-popup-stat-k {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .nfc-popup-stat-v {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .nfc-popup-empty {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
     .nfc-overlay-fullsheet {
       position: absolute;
       inset: 0;
@@ -1471,13 +1700,19 @@
     }
 
     .mode-screen {
+      position: absolute;
+      inset: 0;
       display: none;
       min-height: 100vh;
       box-sizing: border-box;
+      pointer-events: none;
+      z-index: 1;
     }
 
     .mode-screen.active {
       display: flex;
+      pointer-events: auto;
+      z-index: 8;
     }
 
     #gameScreen.active {
@@ -1590,6 +1825,20 @@
       color: var(--text);
     }
 
+    .setup-army-paste {
+      width: 100%;
+      box-sizing: border-box;
+      font: inherit;
+      padding: 0.75rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      resize: vertical;
+      min-height: 140px;
+      line-height: 1.45;
+    }
+
     .setup-start-match {
       width: 100%;
       margin-top: 1.75rem;
@@ -1668,6 +1917,17 @@
     #writeNfcBtn:disabled {
       opacity: 0.45;
       cursor: not-allowed;
+    }
+
+    .assign-nfc-mode-banner {
+      margin: 0 0 0.75rem;
+      padding: 0.65rem 1rem;
+      border-radius: 12px;
+      border: 1px solid var(--accent);
+      background: var(--accent-muted);
+      color: var(--heading);
+      font-weight: 700;
+      text-align: center;
     }
 
     .assign-nfc-status {
@@ -1833,6 +2093,12 @@
       gap: 0.5rem;
     }
 
+    /* Legacy NFC status overlay — must never intercept clicks when hidden */
+    #nfcWriteModal[hidden] {
+      display: none !important;
+      pointer-events: none !important;
+    }
+
     .nfc-write-modal {
       position: fixed;
       inset: 0;
@@ -1889,6 +2155,54 @@
       flex-wrap: wrap;
     }
 
+    /**
+     * Global confirm modal: host is never a hit target — only .modal-overlay receives input.
+     * (Avoids :not(:empty) on the host, which can mis-fire and block the whole app.)
+     */
+    #modal-root {
+      position: fixed;
+      inset: 0;
+      z-index: 10070;
+      pointer-events: none;
+    }
+
+    #modal-root .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      pointer-events: auto;
+    }
+
+    #modal-root .modal-panel {
+      position: relative;
+      max-width: 340px;
+      width: 100%;
+      padding: 1.35rem 1.5rem;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+      text-align: center;
+      pointer-events: auto;
+    }
+
+    #modal-root .modal-msg {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--heading);
+      line-height: 1.45;
+    }
+
+    body.global-modal-open {
+      overflow: hidden;
+    }
+
     .nfc-toast {
       position: fixed;
       left: 50%;
@@ -1905,6 +2219,73 @@
       font-size: 0.95rem;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
       pointer-events: none;
+    }
+
+    /* NFC write-mode debug overlay: root passes clicks through; card captures for button */
+    #nfcDebugPanelRoot {
+      position: fixed;
+      top: calc(0.45rem + env(safe-area-inset-top, 0px));
+      right: calc(0.45rem + env(safe-area-inset-right, 0px));
+      z-index: 10072;
+      max-width: min(92vw, 300px);
+      pointer-events: none;
+    }
+
+    #nfcDebugPanelRoot[hidden] {
+      display: none !important;
+    }
+
+    .nfc-debug-card {
+      pointer-events: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      line-height: 1.4;
+      padding: 10px 11px;
+      border-radius: 10px;
+      background: rgba(18, 20, 26, 0.86);
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.5);
+    }
+
+    .nfc-debug-title {
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #f8fafc;
+      letter-spacing: 0.02em;
+    }
+
+    .nfc-debug-line--ok {
+      color: #4ade80;
+    }
+
+    .nfc-debug-line--err {
+      color: #f87171;
+    }
+
+    .nfc-debug-line--warn {
+      color: #facc15;
+    }
+
+    .nfc-debug-line--dim {
+      color: #94a3b8;
+    }
+
+    .nfc-debug-force {
+      margin-top: 8px;
+      width: 100%;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 7px 8px;
+      border-radius: 6px;
+      border: 1px solid #facc15;
+      background: rgba(250, 204, 21, 0.12);
+      color: #fef08a;
+    }
+
+    .nfc-debug-force:active {
+      opacity: 0.88;
     }
 
     #nfcActionBar {
@@ -1964,7 +2345,9 @@
       </select>
       <label class="setup-label" for="setupFactionSelect">Faction</label>
       <select id="setupFactionSelect" aria-label="Faction warscrolls"></select>
-      <button type="button" class="home-btn setup-start-match" id="startMatchBtn">Start Match</button>
+      <label class="setup-label" for="setupArmyPaste">Army list</label>
+      <textarea id="setupArmyPaste" class="setup-army-paste" rows="8" placeholder="Paste AoS app army export text here…"></textarea>
+      <button type="button" class="home-btn setup-start-match" id="startMatchBtn">Start Game</button>
     </div>
   </div>
 
@@ -1986,11 +2369,12 @@
           <select id="assignFactionSelect" aria-label="Faction warscrolls"></select>
         </div>
       </div>
+      <p id="nfcAssignModeBanner" class="assign-nfc-mode-banner" hidden aria-live="polite"></p>
       <div id="assignUnitList" class="assign-unit-grid"></div>
       <p id="assignNfcStatus" class="assign-nfc-status" role="status" aria-live="polite"></p>
       <button type="button" class="header-btn" id="writeNfcBtn" disabled>Write to NFC</button>
       <div id="assignNfcQrWrap" class="assign-nfc-qr-wrap" hidden>
-        <p class="assign-nfc-qr-hint">This browser has no Web NFC — URL copied; scan QR as fallback.</p>
+        <p class="assign-nfc-qr-hint">Native NFC unavailable — URL copied; scan QR as fallback.</p>
         <img id="assignNfcQrImg" alt="Unit URL QR code" width="160" height="160" decoding="async" />
       </div>
       <button type="button" class="header-btn assign-back-bottom" id="assignBackHomeBtn">Back to Home</button>
@@ -2014,6 +2398,17 @@
           <button type="button" class="header-btn" id="nfcEnableScanBtn" hidden>Enable NFC scan</button>
         </div>
     <h1 id="pageTitle">AoS units — viewer</h1>
+    <div class="game-system-row" aria-label="Game system">
+      <div id="systemIndicator" class="system-indicator" aria-live="polite"></div>
+      <span id="roundCounter" class="round-counter" aria-live="polite">R1</span>
+      <button type="button" id="nextRoundBtn" class="next-unit-btn" title="Next round — reset activations and CP">Round+</button>
+      <span id="cpDisplay" class="cp-inline" aria-live="polite">CP: 0</span>
+      <button type="button" id="cpMinus" class="next-unit-btn" title="Spend 1 command point">−</button>
+      <button type="button" id="cpPlus" class="next-unit-btn" title="Gain 1 command point">+</button>
+      <button type="button" id="nextUnitBtn" class="next-unit-btn" title="Open next unactivated unit">Next</button>
+      <button type="button" id="resetActivationsBtn" class="reset-activations-btn" title="Reset unit activations">Reset</button>
+      <span id="nfcScanHint" class="nfc-scan-hint" aria-live="polite"></span>
+    </div>
     <div class="phase-bar">
       <span id="phaseCurrentLabel" aria-live="polite">Turn 1 · Hero Phase</span>
       <label class="desktop-phase-select">
@@ -2024,6 +2419,7 @@
           <option>Shooting Phase</option>
           <option>Charge Phase</option>
           <option>Combat Phase</option>
+          <option>Battleshock Phase</option>
         </select>
       </label>
       <button type="button" id="nextPhaseBtn" class="header-btn" title="Advance to the next phase (wraps to next turn after Combat)">
@@ -2087,7 +2483,7 @@
         <div id="list"></div>
       </main>
       <div id="cpPanel" role="region" aria-label="Command points">
-        <span id="cpValue">CP: 1</span>
+        <span id="cpValue">CP: 0</span>
         <button type="button" id="cmdToggle" aria-expanded="false" aria-controls="cmdSheet" title="Battle tactics & commands for this phase">
           Commands
         </button>
@@ -2151,29 +2547,54 @@
     </div>
   </div>
 
-  <div id="nfcConfirmModal" class="nfc-write-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="nfcConfirmModalMsg">
-    <div class="nfc-write-modal__backdrop"></div>
-    <div class="nfc-write-modal__panel">
-      <p id="nfcConfirmModalMsg" class="nfc-write-modal__msg"></p>
-      <div class="nfc-confirm-actions">
-        <button type="button" class="header-btn" id="nfcConfirmCancel">Cancel</button>
-        <button type="button" class="header-btn" id="nfcConfirmOk">Overwrite</button>
-      </div>
-    </div>
-  </div>
+  <div id="modal-root" aria-hidden="true"></div>
 
   <div id="nfcToast" class="nfc-toast" hidden role="status" aria-live="polite"></div>
+
+  <div id="nfcDebugPanelRoot" hidden aria-hidden="true">
+    <div class="nfc-debug-card">
+      <div class="nfc-debug-title">NFC debug</div>
+      <div id="nfcDebugBody"></div>
+      <button type="button" class="nfc-debug-force" id="nfcDebugForceBtn">FORCE SCAN RESTART</button>
+    </div>
+  </div>
 
   <div id="nfcActionBar" class="nfc-action-bar" hidden role="toolbar" aria-label="NFC unit actions">
     <button type="button" class="header-btn" id="nfcExpandBtn">Expand</button>
     <button type="button" class="header-btn" id="nfcPutBackBtn">Put Back</button>
   </div>
 
+  <script src="./capacitor-nfc-iife.js"></script>
   <script>
-    console.log("APP START")
-    window.onerror = function (msg, src, line, col, err) {
-      console.log("GLOBAL ERROR", msg, src, line)
+    console.log("APP_VERSION: CLEAN_BUILD_V2")
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        regs.forEach(r => {
+          void r.unregister()
+        })
+      })
     }
+    window.addEventListener("error", e => {
+      console.error("RUNTIME ERROR:", e.message, e.filename, e.lineno)
+    })
+    window.addEventListener("unhandledrejection", e => {
+      console.error("UNHANDLED PROMISE:", e.reason)
+    })
+
+    window.nfcDebug = {
+      enabled: false,
+      scanning: false,
+      writing: false,
+      lastEvent: "",
+      lastTagId: "",
+      lastError: "",
+      lastTimestamp: ""
+    }
+
+    setTimeout(() => {
+      const el = document.elementFromPoint(100, 100)
+      console.log("TOP ELEMENT (debug):", el)
+    }, 1000)
 
     document.addEventListener(
       "click",
@@ -2198,20 +2619,15 @@
           return
         }
 
-        const assignUnitBtn = e.target.closest("button[data-unit-slug]")
-        if (assignUnitBtn && state.appMode === "assign") {
+        const assignUnitBtn = e.target.closest("button.assign-unit-btn[data-unit-slug]")
+        if (assignUnitBtn && state.appMode === "assign" && !assignUnitBtn.closest("#list")) {
           const slug = assignUnitBtn.getAttribute("data-unit-slug")
-          if (slug) {
-            state.assigningUnitSlug = slug
-            state.assignWritePhase = "ready"
-            state.assignWriteErrorDetail = ""
-            renderAssignScreen()
-          }
+          if (slug) onAssignUnit(slug)
           return
         }
 
         if (e.target.closest("#writeNfcBtn")) {
-          void performAssignNfcWrite()
+          onWriteNfcClick()
           return
         }
 
@@ -2232,6 +2648,7 @@
           state.assignWriteErrorDetail = ""
           state.assignFactionSlug =
             new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+          state.nfcAssignActive = true
           state.appMode = "assign"
           renderRoot()
           return
@@ -2274,24 +2691,322 @@
       false
     )
 
-    const PHASES = [
-      "Hero Phase",
-      "Movement Phase",
-      "Shooting Phase",
-      "Charge Phase",
-      "Combat Phase"
-    ]
+    /**
+     * Tabletop engine: phases, vocabulary → regex, hints, signals — extensible per game system.
+     * AoS default profile loads from `./packages/systems/aos.json`; embedded `SYSTEM_CONFIG` is fallback.
+     */
+    const SYSTEM_CONFIG = {
+      aos: {
+        id: "aos",
+        phases: [
+          "Hero Phase",
+          "Movement Phase",
+          "Shooting Phase",
+          "Charge Phase",
+          "Combat Phase",
+          "Battleshock Phase"
+        ],
+        ui: {
+          showCP: true,
+          showRound: true,
+          showNextUnit: true,
+          activationMode: "phase",
+          unitPopup: {
+            compact: true,
+            showAbilities: true,
+            showWeapons: ["Shooting", "Combat"]
+          }
+        },
+        rules: {
+          cp: {
+            start: 0,
+            perRound: 1,
+            resetEachRound: true
+          }
+        },
+        phaseVocab: {
+          "Hero Phase": ["rally", "inspiring", "command", "cp", "hero"],
+          "Movement Phase": ["move", "run", "advance", "redeploy", "teleport", "retreat"],
+          "Shooting Phase": ["shoot", "ranged", "missile", "volley"],
+          "Charge Phase": ["charge", "charge roll"],
+          "Combat Phase": ["fight", "melee", "pile-in", "strike"],
+          "Battleshock Phase": ["battleshock", "morale", "flee", "leadership"]
+        },
+        abilityOverrides: {},
+        hintMap: {
+          command: "CMD",
+          reaction: "REACT",
+          defensive: "DEF",
+          movement: "MOVE",
+          shooting: "SHOOT",
+          charge: "CHG",
+          combat: "MELEE",
+          battleshock: "BS",
+          passive: "PASS"
+        },
+        /** String patterns compiled to RegExp on init (`compileSignalPatterns`). */
+        signals: {
+          cpSpend: "all-?out|command\\s+points?|\\bcp\\b",
+          rally: "rally|inspiring|inspiring\\s+presence",
+          redeploy: "redeploy",
+          defensive: "ward|bodyguard|shield|defensive|save\\s+\\+",
+          movementBlob: "\\bmove\\b|run|advance|teleport|redeploy|retreat|fall back",
+          shootingBlob: "shoot|missile|shooting|volley|ranged|bolt",
+          chargeBlob: "\\bcharge\\b|charge roll|declare charges",
+          combatBlob: "fight|strike|melee|pile-in|allocated attack",
+          battleshockBlob: "battleshock|morale|broken|flee|leadership"
+        },
+        /** When no warscroll abilities match the phase — actionable reminders only (not rules text). */
+        fallbackActions: {
+          "Movement Phase": [
+            { name: "Move", priority: "medium", hintKey: "movement" },
+            { name: "Run", priority: "medium", hintKey: "movement" },
+            { name: "Retreat", priority: "medium", hintKey: "movement" }
+          ],
+          "Combat Phase": [
+            { name: "Pile-in", priority: "medium", hintKey: "combat" },
+            { name: "Attack", priority: "high", hintKey: "combat" }
+          ],
+          "Battleshock Phase": [{ name: "Take battleshock test", priority: "high", hintKey: "battleshock" }]
+        },
+        /** Compact popup: phase label → `ranged` | `melee` (omit phase for no weapons shown). */
+        compactWeaponPhases: {
+          "Shooting Phase": "ranged",
+          "Combat Phase": "melee"
+        }
+      },
+
+      /** Portable engine smoke-test: unrelated phases/vocabulary (dev console: `setSystem("skirmish")`). */
+      skirmish: {
+        phases: ["Prep Phase", "Move Phase", "Attack Phase", "Resolve Phase"],
+        phaseVocab: {
+          "Prep Phase": ["prepare", "buff", "setup", "ready"],
+          "Move Phase": ["move", "dash", "sprint", "advance", "retreat"],
+          "Attack Phase": ["attack", "shoot", "strike", "fire", "melee"],
+          "Resolve Phase": ["resolve", "damage", "heal", "status", "morale"]
+        },
+        hintMap: {
+          command: "CMD",
+          reaction: "REACT",
+          buff: "BUFF",
+          movement: "MOVE",
+          attack: "ATK",
+          defense: "DEF",
+          status: "STAT",
+          passive: "PASS"
+        },
+        fallbackActions: {
+          "Prep Phase": [{ name: "Prepare unit", priority: "medium" }],
+          "Move Phase": [
+            { name: "Move", priority: "medium" },
+            { name: "Dash", priority: "low" }
+          ],
+          "Attack Phase": [{ name: "Attack", priority: "high" }],
+          "Resolve Phase": [{ name: "Resolve effects", priority: "medium" }]
+        },
+        compactWeaponPhases: {
+          "Attack Phase": "all"
+        },
+        abilityOverrides: {}
+      },
+
+      /** Activation-style play: one pseudo-phase only (`setSystem("activation")`). */
+      activation: {
+        phases: ["Activation"],
+        phaseVocab: {
+          "Activation": [
+            "move", "attack", "shoot", "charge", "use", "ability",
+            "action", "activate", "perform"
+          ]
+        },
+        hintMap: {
+          action: "ACT",
+          attack: "ATK",
+          movement: "MOVE",
+          defense: "DEF",
+          reaction: "REACT",
+          passive: "PASS"
+        },
+        fallbackActions: {
+          "Activation": [
+            { name: "Move", priority: "medium" },
+            { name: "Attack", priority: "high" },
+            { name: "Use ability", priority: "medium" }
+          ]
+        },
+        compactWeaponPhases: {
+          "Activation": "all"
+        },
+        abilityOverrides: {}
+      }
+    }
+
+    /** Faction packages: slug maps to `./structured/factions/{slug}.json` (units loaded at runtime). */
+    const FACTION_CONFIG = {
+      gloomspite: {
+        id: "gloomspite-gitz",
+        name: "Gloomspite Gitz",
+        slug: "gloomspite-gitz"
+      }
+    }
+
+    function resolveFactionProfile(slug) {
+      const s = slug || ""
+      if (FACTION_CONFIG.gloomspite && FACTION_CONFIG.gloomspite.slug === s) {
+        return {
+          id: FACTION_CONFIG.gloomspite.id,
+          name: FACTION_CONFIG.gloomspite.name,
+          slug: s
+        }
+      }
+      const m = (factionManifestCache || []).find(x => (x.slug || "") === s)
+      return { id: s, name: (m && m.name) || s, slug: s }
+    }
+
+    function currentSystem() {
+      return state.system || SYSTEM_CONFIG.aos
+    }
+
+    /** True if phase label matches a config token (e.g. "Combat" ↔ "Combat Phase"). */
+    function phaseLabelMatchesWeaponToken(phaseName, token) {
+      const full = String(phaseName).toLowerCase()
+      const short = full.replace(/\s*phase\s*$/i, "").trim()
+      const t = String(token || "")
+        .trim()
+        .toLowerCase()
+      if (!t) return false
+      return full.includes(t) || short.includes(t) || t.includes(short)
+    }
+
+    const PACKAGE_BASE = "./packages/"
+    const FACTION_SLUG_TO_PACKAGE = {
+      "gloomspite-gitz": "gloomspite"
+    }
+
+    function validateSystemPackage(sys) {
+      if (!sys || typeof sys !== "object") return false
+      if (!Array.isArray(sys.phases)) return false
+      if (!sys.ui || typeof sys.ui !== "object") return false
+      return true
+    }
+
+    function validateFactionPackage(pkg) {
+      if (!pkg || typeof pkg !== "object") return false
+      if (!pkg.id) return false
+      if (!pkg.data) return false
+      return true
+    }
+
+    /** Merge JSON package `ui.components` into legacy visibility flags used by the engine. */
+    function normalizeLoadedSystem(pkg) {
+      if (!pkg || typeof pkg !== "object") return SYSTEM_CONFIG.aos
+      const ui = { ...(pkg.ui || {}) }
+      if (Array.isArray(ui.components)) {
+        const c = ui.components
+        ui.showCP = c.includes("cpTracker")
+        ui.showRound = c.includes("roundTracker")
+        ui.showNextUnit = c.includes("nextUnit")
+      }
+      return { ...pkg, ui }
+    }
+
+    async function loadSystemPackage(systemId) {
+      const fallback = SYSTEM_CONFIG[systemId] || SYSTEM_CONFIG.aos
+      let res
+      try {
+        res = await fetch(`${PACKAGE_BASE}systems/${systemId}.json`)
+      } catch (e) {
+        console.warn("System package fetch failed:", systemId, e)
+        return fallback
+      }
+      if (!res.ok) {
+        console.warn("System package HTTP error:", systemId, res.status)
+        return fallback
+      }
+      let data
+      try {
+        data = await res.json()
+      } catch (e) {
+        console.warn("System package JSON parse failed:", systemId, e)
+        return fallback
+      }
+      if (!validateSystemPackage(data)) {
+        console.warn("Invalid system package:", systemId)
+        return fallback
+      }
+      return normalizeLoadedSystem(data)
+    }
+
+    async function loadFactionPackage(packageStem, signal) {
+      let res
+      try {
+        res = await fetch(`${PACKAGE_BASE}factions/${packageStem}.json`, signal ? { signal } : {})
+      } catch (e) {
+        console.warn("Faction package fetch failed:", packageStem, e)
+        return null
+      }
+      if (!res.ok) {
+        console.warn("Faction package HTTP error:", packageStem, res.status)
+        return null
+      }
+      let data
+      try {
+        data = await res.json()
+      } catch (e) {
+        console.warn("Faction package JSON parse failed:", packageStem, e)
+        return null
+      }
+      if (!validateFactionPackage(data)) {
+        console.warn("Invalid faction package:", packageStem)
+        return null
+      }
+      return data
+    }
+
+    /**
+     * Loads faction metadata + warscroll JSON from package `data` URL (no duplicated units in package files).
+     */
+    async function loadFaction(factionRef, signal) {
+      const stem = FACTION_SLUG_TO_PACKAGE[factionRef] || factionRef
+      let pkg = null
+      try {
+        pkg = await loadFactionPackage(stem, signal)
+      } catch (_) {
+        if (stem !== factionRef) {
+          try {
+            pkg = await loadFactionPackage(factionRef, signal)
+          } catch (_) {}
+        }
+      }
+      if (!pkg) {
+        pkg = {
+          id: factionRef,
+          name: factionRef,
+          system: state.game || "aos",
+          data: `./structured/factions/${factionRef}.json`
+        }
+      }
+      const rel = pkg.data || `./structured/factions/${factionRef}.json`
+      const dataUrl = new URL(rel, window.location.href).href
+      const res = await fetch(dataUrl, signal ? { signal } : {})
+      if (!res.ok) throw new Error(`Faction data fetch ${rel}: HTTP ${res.status}`)
+      const raw = await res.json()
+      return { profile: pkg, raw }
+    }
+
+    let PHASES = []
 
     /** Cached `./structured/factions/manifest.json` for setup + assign dropdowns */
     let factionManifestCache = null
 
-    /** Game-mode NFC tap listener (Web NFC scan) */
-    let nfcGameReader = null
-    let nfcScanAbort = null
-    let lastNfcDuplicateSlug = ""
-    let lastNfcDuplicateSlugAt = 0
+    /** Native NFC (@exxili/capacitor-nfc): single NFC.onRead registration via initNfcListener(). */
+    let nfcListenerInitialized = false
+    let nativeNfcUnsubRead = null
+    let nativeNfcUnsubError = null
+    let nfcWriteNoTagWatchTimer = null
     let nfcWriteModalCloseTimer = null
-    let nfcConfirmResolver = null
+    /** Promise bridge for openConfirmModalAsync only — not UI state. */
+    let _modalAwaitResolve = null
     let nfcOverlayContentRaf = null
     let nfcActionBarShowTimer = null
 
@@ -2305,7 +3020,8 @@
       "Movement Phase": ["Redeploy (Reaction)"],
       "Shooting Phase": ["All-out Attack"],
       "Charge Phase": [],
-      "Combat Phase": ["All-out Attack", "All-out Defense"]
+      "Combat Phase": ["All-out Attack", "All-out Defense"],
+      "Battleshock Phase": []
     }
 
     const PHASE_STAT_MAP = {
@@ -2333,10 +3049,12 @@
       faction: "",
       expandedKeys: new Set(),
       compactScan: false,
-      phase: "Hero Phase",
+      phase: SYSTEM_CONFIG.aos.phases[0],
       turn: 1,
+      /** Manual battle round (Round+); distinct from phase-track `turn` unless synced elsewhere. */
+      round: 1,
       unitState: {},
-      cp: 1,
+      cp: 0,
       selectedUnit: null,
       armyList: null,
       gameStarted: false,
@@ -2357,6 +3075,10 @@
       appMode: "home",
       /** Game system id (extensible; default AoS) */
       game: "aos",
+      /** Active `SYSTEM_CONFIG` entry — phases, UI visibility, CP rules. */
+      system: null,
+      /** Selected faction package metadata (`FACTION_CONFIG` + manifest); not the list filter. */
+      factionProfile: null,
       /** Faction JSON slug last chosen in setup / assign (parallel to ?faction=) */
       sessionFactionSlug: "",
       /** Assign flow */
@@ -2366,8 +3088,10 @@
       assignWritePhase: "idle",
       /** Set only during assign NFC write, immediately before tag overwrite confirm */
       pendingTagWrite: null,
+      /** True only while army import is showing overwrite confirm */
+      importInProgress: false,
       assignWriteErrorDetail: "",
-      /** Background Web NFC scan while in HQ game mode */
+      /** Background native NFC scan while in HQ game mode */
       nfcAutoScanEnabled: true,
       /** Ignore game scan handling until this timestamp (valid read lock) */
       nfcScanLockUntil: 0,
@@ -2375,8 +3099,226 @@
       lastScanTs: 0,
       /** Unit list card highlighted after NFC scan (game list) */
       nfcActiveSlug: null,
+      /** Mirrors #search; list filtering reads this only (no DOM in filter logic). */
+      searchQuery: "",
       /** False until first finishFactionLoad completes — blocks persistence & confirm UI during boot */
-      bootComplete: false
+      bootComplete: false,
+      /** Global modal (list-independent); renderModal() paints #modal-root. */
+      modal: null,
+      /** True while NFC assignment screen is the intended assign flow (drives listActionCardTap branch). */
+      nfcAssignActive: false,
+      /** NFC: flow write=assignment only, read=gameplay only; onWriteNfcClick → startWriteScan. */
+      nfc: {
+        flow: "idle",
+        mode: "idle",
+        pendingUnitSlug: null,
+        isScanning: false,
+        isListening: false,
+        /** Native: startScan/listeners active (not gated by app mode or NFC flow). */
+        nativeScanSessionActive: false,
+        lastTagId: null,
+        lastScanAt: 0,
+        /** READ path: minimum gap between handled reading events (storm guard). */
+        lastReadingThrottleAt: 0,
+        /** Native write: true after Write tap until tag handled or cancelled. */
+        writeAwaitingTag: false,
+        /** True while handleWriteFlow is executing (assignment NFC write). */
+        nfcWriteFlowBusy: false
+      },
+      /** Mirror of persisted assignments tagId → unit slug (see rebuildNfcAssignmentsMirror). */
+      nfcAssignments: {},
+      /** When true and NFC flow is write, floating NFC debug panel is shown (set from console). */
+      debugNfc: false,
+      /** NFC unit popup overlay (gameplay): mirrors #nfcOverlay unit sheet; no routing. */
+      ui: {
+        activeUnitPopup: null,
+        popupExpanded: false
+      },
+      /** slug/id → "activated" after NFC popup open (cleared on phase / session boundaries). */
+      unitActivation: {},
+      /** Compiled from `state.system.phaseVocab` — phase label → global RegExp. */
+      phasePatterns: {},
+      /** Compiled from `state.system.signals` — named detection regexes. */
+      engineSignals: {}
+    }
+
+    function escapeRegExpToken(s) {
+      return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    }
+
+    function compilePhasePatterns(system) {
+      const out = {}
+      const voc = system.phaseVocab || {}
+      for (const label of system.phases || []) {
+        const words = voc[label]
+        if (!words || !words.length) {
+          out[label] = /(?!.)/
+          continue
+        }
+        const inner = words.map(w => `\\b${escapeRegExpToken(String(w).trim())}\\b`).join("|")
+        try {
+          out[label] = new RegExp(inner, "i")
+        } catch (_) {
+          out[label] = /(?!.)/
+        }
+      }
+      state.phasePatterns = out
+      return out
+    }
+
+    function compileSignalPatterns(system) {
+      const out = {}
+      const sig = system.signals || {}
+      for (const [key, patternStr] of Object.entries(sig)) {
+        try {
+          out[key] = new RegExp(patternStr, "i")
+        } catch (e) {
+          console.warn("Invalid engine signal pattern:", key, e)
+        }
+      }
+      state.engineSignals = out
+      return out
+    }
+
+    state.system = SYSTEM_CONFIG.aos
+    PHASES.length = 0
+    PHASES.push(...state.system.phases)
+    compilePhasePatterns(state.system)
+    compileSignalPatterns(state.system)
+
+    /**
+     * Swap active rules profile + compiled patterns (drops unknown phases from persisted state).
+     * Also refreshes phase `<select>` options so UI tracks `PHASES`.
+     */
+    async function setActiveSystem(key) {
+      let next = null
+      try {
+        next = normalizeLoadedSystem(await loadSystemPackage(key))
+      } catch (_) {
+        next = SYSTEM_CONFIG[key]
+      }
+      if (!next || !Array.isArray(next.phases)) return
+
+      state.system = next || SYSTEM_CONFIG.aos
+
+      PHASES.length = 0
+      PHASES.push(...state.system.phases)
+
+      compilePhasePatterns(state.system)
+      compileSignalPatterns(state.system)
+
+      state.phase = PHASES.includes(state.phase) ? state.phase : PHASES[0]
+      state.game = key
+      resetActivations()
+
+      const desktop = document.getElementById("phaseSelect")
+      if (desktop) {
+        desktop.innerHTML = PHASES.map(p => `<option value="${escAttr(p)}">${esc(p)}</option>`).join("")
+        if ([...desktop.options].some(o => o.value === state.phase)) desktop.value = state.phase
+        else {
+          state.phase = PHASES[0]
+          desktop.value = state.phase
+        }
+      }
+      populateMobilePhaseSelect()
+      updatePhaseDisplay()
+      refreshList()
+      saveState()
+
+      console.log("Switched system:", key)
+
+      if (state.appMode === "game") applyGameScreenUiFromSystem()
+
+      render()
+    }
+
+    window.setSystem = setActiveSystem
+
+    function getActiveSystemName() {
+      const id = state.system && state.system.id
+      if (id) return id
+      if (state.game) return state.game
+      return "aos"
+    }
+
+    function unitActivationKey(unit) {
+      if (!unit) return ""
+      if (unit.slug != null && String(unit.slug).trim() !== "") return String(unit.slug).trim()
+      if (unit.id != null && String(unit.id).trim() !== "") return String(unit.id).trim()
+      return stableUnitSlug(unit)
+    }
+
+    function isUnitActivated(unit) {
+      const key = unitActivationKey(unit)
+      if (!key) return false
+      return state.unitActivation[key] === "activated"
+    }
+
+    function resetActivations() {
+      state.unitActivation = {}
+    }
+
+    function toggleUnitActivation(unit) {
+      const key = unitActivationKey(unit)
+      if (!key) return
+      if (state.unitActivation[key]) {
+        delete state.unitActivation[key]
+      } else {
+        state.unitActivation[key] = "activated"
+      }
+    }
+
+    /** Long-press on list cards: suppress the following expand click. */
+    let listLongPressTimer = null
+    let listLongPressSuppressCard = false
+
+    function formatScanHintDisplay(hintKey, system) {
+      if (hintKey == null || hintKey === "") return ""
+      const m = (system && system.hintMap) || {}
+      const k = String(hintKey).trim()
+      if (m[k]) return m[k]
+      if (/^[A-Za-z0-9+\-]{1,6}$/.test(k)) return k.toUpperCase()
+      return ""
+    }
+
+    /** Incremental list projection: slug → card article (stable identity). */
+    const dom = {
+      listEl: null,
+      cardMap: new Map()
+    }
+
+    /** List lives under #gameScreen only — scope queries so game UI never targets a stray node. */
+    function getGameListContainer() {
+      const gs = document.getElementById("gameScreen")
+      return (gs && gs.querySelector("#list")) || document.getElementById("list")
+    }
+
+    function ensureDomList() {
+      dom.listEl = getGameListContainer()
+      return dom.listEl
+    }
+
+    /**
+     * LOGIC — pure helpers (no DOM). Pass all inputs explicitly.
+     */
+    const logic = {
+      abilitiesForPhase(unit, phaseLabel) {
+        const abilities = Array.isArray(unit.abilities) ? unit.abilities : []
+        const isSinglePhase = PHASES.length === 1
+        const act = currentSystem().ui && currentSystem().ui.activationMode
+        if (act === "activation") {
+          return abilities
+        }
+        if (isSinglePhase) {
+          return abilities
+        }
+        return abilities.filter(a => {
+          if (!a) return false
+          const t = a.type || ""
+          if (t === "Passive" || t === "Reaction") return true
+          return (a.phase || "") === phaseLabel
+        })
+      }
     }
 
     ;(function syncPathnameUnitPending() {
@@ -2394,6 +3336,163 @@
     let factionLoadAbortController = null
     /** Prevent duplicate listeners if load() ever runs more than once per page. */
     let viewerEventsBound = false
+
+    let listClickLock = false
+
+    function withClickLock(fn) {
+      if (listClickLock) return
+      listClickLock = true
+      try {
+        fn()
+      } finally {
+        requestAnimationFrame(() => {
+          listClickLock = false
+        })
+      }
+    }
+
+    function listActionMarkAbilityUsed(slug, abilityName) {
+      if (!slug || !abilityName) return
+      markAbilityUsed(slug, abilityName)
+      refreshList()
+      saveState()
+    }
+
+    function listActionToggleUnitActivated(slug) {
+      if (!slug) return
+      toggleUnitActivated(slug)
+      refreshList()
+      saveState()
+    }
+
+    function listActionToggleUnitFought(slug) {
+      if (!slug) return
+      const s = getUnitTracking(slug)
+      s.fought = !s.fought
+      refreshList()
+      saveState()
+    }
+
+    function listActionCardTap(cardEl) {
+      const slug = cardEl.dataset.unitSlug || cardEl.getAttribute("data-unit-slug")
+      if (!slug || !String(slug).trim()) {
+        console.warn("Missing slug on card", cardEl)
+        return
+      }
+
+      if (state.nfcAssignActive && state.appMode === "assign") {
+        onAssignUnit(slug)
+        return
+      }
+
+      const unit = state.allUnits.find(u => stableUnitSlug(u) === slug)
+      if (!unit) {
+        console.warn("No unit for card slug", slug)
+        return
+      }
+
+      preloadUnitData(unit)
+      state.selectedUnit = unit
+      state.routeUnknownSlug = null
+      state.nfcActiveSlug = null
+      syncUrlToSelection(unit)
+      renderUnitPanel()
+
+      const rawKey = cardEl.getAttribute("data-unit-key")
+      if (!rawKey) {
+        refreshList()
+        return
+      }
+      let key
+      try {
+        key = decodeURIComponent(rawKey)
+      } catch {
+        refreshList()
+        return
+      }
+
+      let opened = false
+      if (state.expandedKeys.has(key)) {
+        state.expandedKeys.delete(key)
+      } else {
+        state.expandedKeys.add(key)
+        opened = true
+      }
+
+      refreshList()
+      if (opened) {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => scrollAndHighlightUnit(slug))
+        })
+      }
+    }
+
+    function handleListClick(e) {
+      if (!e.target || !e.currentTarget.contains(e.target)) return
+      if (state.modal && state.modal.type) return
+
+      const listRoot = e.currentTarget
+      const actBtn = e.target.closest("button.unit-activate-btn")
+      const foughtBtn = e.target.closest("button.unit-fought-btn")
+      const abilityEl = e.target.closest(".ability[data-ability-name]")
+      /** Card root only — inner `.ability` nodes also carry `data-unit-slug` for ability taps. */
+      const cardEl = e.target.closest("article[data-unit-slug]")
+
+      const slugForDebug =
+        cardEl &&
+        (cardEl.dataset.unitSlug || cardEl.dataset.slug || cardEl.getAttribute("data-slug"))
+      if (DEBUG) {
+        console.debug("LIST CLICK", {
+          slug: slugForDebug || null,
+          abilityKey: abilityEl ? abilityEl.dataset.abilityKey || null : null,
+          abilityName: abilityEl ? abilityEl.dataset.abilityName || null : null,
+          target: e.target
+        })
+      }
+
+      if (actBtn && listRoot.contains(actBtn)) {
+        e.stopPropagation()
+        const slug = actBtn.getAttribute("data-slug")
+        if (!slug) return
+        withClickLock(() => listActionToggleUnitActivated(slug))
+        return
+      }
+
+      if (foughtBtn && listRoot.contains(foughtBtn)) {
+        e.stopPropagation()
+        const slug = foughtBtn.getAttribute("data-slug") || foughtBtn.dataset.slug
+        if (!slug) return
+        withClickLock(() => listActionToggleUnitFought(slug))
+        return
+      }
+
+      if (abilityEl && listRoot.contains(abilityEl)) {
+        e.stopPropagation()
+        const slug = abilityEl.getAttribute("data-unit-slug") || abilityEl.dataset.unitSlug
+        const aname = abilityEl.getAttribute("data-ability-name") || abilityEl.dataset.abilityName
+        const aKey = abilityEl.dataset.abilityKey || ""
+        if (!slug || !aname) return
+        if (!aKey && DEBUG) console.warn("ability tap missing data-ability-key", abilityEl)
+        withClickLock(() => listActionMarkAbilityUsed(slug, aname))
+        return
+      }
+
+      if (cardEl && listRoot.contains(cardEl)) {
+        if (listLongPressSuppressCard) {
+          listLongPressSuppressCard = false
+          return
+        }
+        const slug = cardEl.dataset.unitSlug || cardEl.getAttribute("data-unit-slug")
+        if (!slug || !String(slug).trim()) {
+          console.warn("Missing slug on card", cardEl)
+          return
+        }
+        withClickLock(() => listActionCardTap(cardEl))
+        return
+      }
+
+      if (DEBUG) console.warn("UNHANDLED LIST CLICK:", e.target)
+    }
 
     function serializeUnitState(unitState) {
       const out = {}
@@ -2437,12 +3536,13 @@
       try {
         if (!canPersistLocalStorageSet("aos_state")) return
         const params = new URLSearchParams(location.search)
-        const factionSlug = params.get("faction") || "daughters-of-khaine"
+        const factionSlug = params.get("faction") || FACTION_CONFIG.gloomspite.slug
 
         const data = {
           faction: factionSlug,
           phase: state.phase,
           turn: state.turn,
+          round: state.round,
           cp: state.cp,
           unitState: serializeUnitState(state.unitState)
         }
@@ -2462,11 +3562,13 @@
         if (!saved || typeof saved !== "object") return
 
         const params = new URLSearchParams(location.search)
-        const factionSlug = params.get("faction") || "daughters-of-khaine"
+        const factionSlug = params.get("faction") || FACTION_CONFIG.gloomspite.slug
         if (saved.faction != null && saved.faction !== factionSlug) return
 
         if (typeof saved.phase === "string" && PHASES.includes(saved.phase)) state.phase = saved.phase
         if (typeof saved.turn === "number" && saved.turn >= 1) state.turn = saved.turn
+        if (typeof saved.round === "number" && saved.round >= 1) state.round = saved.round
+        else if (typeof saved.turn === "number" && saved.turn >= 1) state.round = saved.turn
         if (typeof saved.cp === "number" && saved.cp >= 0) state.cp = saved.cp
 
         if (saved.unitState && state.unitState && typeof state.unitState === "object") {
@@ -2492,6 +3594,18 @@
     function updateCPDisplay() {
       const el = document.getElementById("cpValue")
       if (el) el.textContent = `CP: ${state.cp}`
+      const inline = document.getElementById("cpDisplay")
+      if (inline) inline.textContent = `CP: ${state.cp}`
+    }
+
+    function syncGameSystemRowUi() {
+      const rc = document.getElementById("roundCounter")
+      if (rc) rc.textContent = `R${state.round}`
+      updateCPDisplay()
+      const hint = document.getElementById("nfcScanHint")
+      if (hint) {
+        hint.textContent = state.appMode === "game" && isNativeNfcAvailable() ? "Tap unit to scan" : ""
+      }
     }
 
     function setupCPPanel() {
@@ -2615,13 +3729,18 @@
           return
         }
         console.log("OVERWRITE TRIGGERED")
-        const ok = await showNfcConfirmModal("Replace existing imported army list?")
+        state.importInProgress = true
+        let ok = false
+        try {
+          ok = await openConfirmModalAsync("Replace existing imported army list?")
+        } finally {
+          state.importInProgress = false
+        }
         if (!ok) return
       }
 
       state.armyList = buildArmyList(collapsed)
       state.gameStarted = true
-      document.body.classList.add("game-mode")
 
       try {
         console.log("STORAGE REMOVE", "aos_import_list", "after army import")
@@ -2630,8 +3749,7 @@
 
       state.selectedUnit = null
       ensureDefaultSelectedUnit()
-      refreshList()
-      renderUnitPanel()
+      await startGame()
     }
 
     async function tryConsumePendingArmyImportFromStorage() {
@@ -2644,15 +3762,388 @@
       }
     }
 
-    /** Abilities visible for the selected battle phase (always Passives & Reactions). */
-    function abilitiesForCurrentPhase(unit) {
-      const abilities = Array.isArray(unit.abilities) ? unit.abilities : []
-      return abilities.filter(a => {
-        if (!a) return false
-        const t = a.type || ""
-        if (t === "Passive" || t === "Reaction") return true
-        return (a.phase || "") === state.phase
-      })
+    /**
+     * Maps a raw warscroll ability to a compact scan row (NFC popup, at-a-glance).
+     * @returns {{ name: string, priority: "high"|"medium"|"low", hint: string }}
+     */
+    function abilityScanEntry(ability, phaseLabel) {
+      const system = currentSystem()
+      const patterns = state.phasePatterns || {}
+      const eng = state.engineSignals || {}
+
+      function bumpPriority(p) {
+        if (p === "low") return "medium"
+        if (p === "medium") return "high"
+        return p
+      }
+
+      function dropPriority(p) {
+        if (p === "high") return "medium"
+        if (p === "medium") return "low"
+        return p
+      }
+
+      function clampPriority(p) {
+        return p === "high" || p === "medium" || p === "low" ? p : "medium"
+      }
+
+      const name = String((ability && ability.name) || "(unnamed)")
+      const nameL = name.toLowerCase()
+      const desc = String((ability && ability.description) || "").toLowerCase()
+      const typ = String((ability && ability.type) || "").toLowerCase()
+      const blob = `${nameL} ${desc}`
+      const PL = String(phaseLabel || "")
+      const jsonPhase = String((ability && ability.phase) || "").trim()
+      const isSinglePhase = PHASES.length === 1
+
+      let priority = "medium"
+      let hintKey = ""
+
+      if (typ.includes("reaction")) {
+        priority = "high"
+        hintKey = "reaction"
+      } else if (typ.includes("passive")) {
+        priority = "low"
+        hintKey = "passive"
+      }
+
+      const overrides = system.abilityOverrides || {}
+      const on = ability && ability.name && overrides[ability.name.trim()]
+      if (on) {
+        if (on.priority) priority = clampPriority(on.priority)
+        if (on.hint != null && String(on.hint).trim() !== "") hintKey = String(on.hint).trim()
+      } else {
+        if (eng.cpSpend && eng.cpSpend.test(blob) && !typ.includes("passive")) {
+          priority = bumpPriority(priority)
+          if (!hintKey || hintKey === "passive") hintKey = "command"
+        }
+        if (eng.rally && eng.rally.test(blob)) {
+          priority = bumpPriority(priority)
+          if (!hintKey || hintKey === "passive") hintKey = "command"
+        }
+        if (eng.redeploy && eng.redeploy.test(blob) && typ.includes("reaction")) {
+          priority = "high"
+          hintKey = "reaction"
+        }
+        if (eng.defensive && eng.defensive.test(blob) && (!hintKey || hintKey === "passive")) {
+          hintKey = "defensive"
+        }
+        if (!hintKey || hintKey === "passive") {
+          if (eng.movementBlob && eng.movementBlob.test(blob)) hintKey = hintKey || "movement"
+          else if (eng.shootingBlob && eng.shootingBlob.test(blob)) hintKey = hintKey || "shooting"
+          else if (eng.chargeBlob && eng.chargeBlob.test(blob)) hintKey = hintKey || "charge"
+          else if (eng.combatBlob && eng.combatBlob.test(blob)) hintKey = hintKey || "combat"
+        }
+        if (PL.includes("Battleshock") && eng.battleshockBlob && eng.battleshockBlob.test(blob)) {
+          priority = bumpPriority(priority)
+          if (!hintKey || hintKey === "passive") hintKey = "battleshock"
+        }
+      }
+
+      const phases = system.phases || []
+      const phasePatternHits = phases.filter(pl => patterns[pl] && patterns[pl].test(blob))
+      const isMultiPhase = phasePatternHits.length > 1
+      const matchesCurrentPhase = !!(PL && patterns[PL] && patterns[PL].test(blob))
+      const matchesElsewhere = phases.some(pl => pl !== PL && patterns[pl] && patterns[pl].test(blob))
+
+      if (!isSinglePhase && jsonPhase && PL && jsonPhase !== PL) {
+        priority = dropPriority(priority)
+      }
+
+      if (PL && matchesCurrentPhase) {
+        priority = bumpPriority(priority)
+      }
+
+      if (!isSinglePhase && PL && !isMultiPhase && matchesElsewhere && !matchesCurrentPhase) {
+        priority = dropPriority(priority)
+      }
+
+      if (typ.includes("passive") && priority === "high") {
+        priority = "medium"
+      }
+
+      priority = clampPriority(priority)
+
+      const hint = formatScanHintDisplay(hintKey, system)
+      return { name, priority, hint }
+    }
+
+    /**
+     * Phase abilities as scannable entries: name, priority, short hint (no full descriptions).
+     * For raw ability objects use `logic.abilitiesForPhase(unit, phaseLabel)`.
+     */
+    function abilitiesForCurrentPhase(unit, phaseLabel) {
+      const ph = phaseLabel !== undefined && phaseLabel !== null ? phaseLabel : state.phase
+      const sys = currentSystem()
+      const act = sys.ui && sys.ui.activationMode
+      const isSinglePhase = PHASES.length === 1
+      if (act === "activation" || isSinglePhase) {
+        const abilities = Array.isArray(unit && unit.abilities) ? unit.abilities : []
+        return abilities.map(a => abilityScanEntry(a, ph))
+      }
+      return logic.abilitiesForPhase(unit, ph).map(a => abilityScanEntry(a, ph))
+    }
+
+    function getCoreStats(unit) {
+      if (!unit || typeof unit !== "object") return {}
+      return {
+        Move: getStat(unit, ["move", "movement", "m"]),
+        Save: getStat(unit, ["save", "sv"]),
+        Health: getStat(unit, ["wounds", "health", "hp", "w"]),
+        Control: getStat(unit, ["control", "oc"])
+      }
+    }
+
+    function findUnitFromSlug(slug) {
+      if (!slug || !state.allUnits) return null
+      const normalized = String(slug).toLowerCase().trim()
+      const unit = state.allUnits.find(u => String(u.slug || "").toLowerCase() === normalized)
+      if (!unit) {
+        console.warn("Unit not found in roster:", slug)
+        console.log(
+          "Available slugs:",
+          state.allUnits.map(u => u.slug).filter(Boolean)
+        )
+      }
+      return unit || null
+    }
+
+    /**
+     * Resolve NFC tag → full warscroll row from `state.allUnits` only (never partial/stripped objects).
+     */
+    function getUnitFromTag(tag) {
+      if (!tag) return null
+
+      if (tag.slug) {
+        const unit = findUnitFromSlug(tag.slug)
+        if (unit) return unit
+      }
+
+      const records = tag.message && tag.message.records ? [...tag.message.records] : []
+      const tagId = normalizeTagId(tag.serialNumber || tag.id)
+
+      for (const record of records) {
+        const parsed = parseNfcRecordJson(record)
+        if (!parsed || parsed.slug == null || String(parsed.slug).trim() === "") continue
+        const typ = parsed.type
+        if (typ != null && typ !== "aos-unit" && typ !== "unit") continue
+        const u = findUnitFromSlug(String(parsed.slug))
+        if (u) return u
+      }
+      for (const record of records) {
+        const urlSlug = parseNfcRecordUrl(record)
+        if (urlSlug) {
+          const u = findUnitFromSlug(urlSlug)
+          if (u) return u
+        }
+      }
+      if (tagId && state.nfcAssignments) {
+        const key = normalizeNfcStorageKey(tagId)
+        const mapped = key ? state.nfcAssignments[key] : ""
+        if (mapped) {
+          const u = findUnitFromSlug(String(mapped))
+          if (u) return u
+          console.warn("Assignment slug not found for tag:", tagId, mapped)
+        }
+      }
+      return null
+    }
+
+    /**
+     * Compact NFC sheet: phase-first hierarchy only (expand shows full datasheet).
+     * Uses state.phase when spec.phase omitted (not state.game — battle phase lives on state.phase).
+     */
+    function renderPopup(spec) {
+      let ctx = spec
+      if (spec && spec.unit == null && typeof spec === "object") {
+        const u = spec
+        if (typeof u.name === "string" && (u.slug != null || Array.isArray(u.abilities))) {
+          ctx = { unit: u, phase: state.phase, stats: getCoreStats(u) }
+        }
+      }
+
+      if (ctx && ctx.unit) {
+        const unit = ctx.unit
+        const activated = isUnitActivated(unit)
+        const phaseName = ctx.phase != null ? ctx.phase : state.phase
+        const sys = currentSystem()
+        const up = sys.ui && sys.ui.unitPopup
+        const showAbil = !up || up.showAbilities !== false
+
+        const abilities = showAbil ? abilitiesForCurrentPhase(unit, phaseName) : []
+        const fb = showAbil && currentSystem().fallbackActions && currentSystem().fallbackActions[phaseName]
+        const abilityRows =
+          showAbil && Array.isArray(abilities) && abilities.length > 0
+            ? abilities
+            : showAbil && fb && fb.length
+              ? fb.map(f => ({
+                  name: f.name,
+                  priority: f.priority || "medium",
+                  hint: formatScanHintDisplay(f.hintKey, currentSystem())
+                }))
+              : []
+
+        const weapons = nfcCompactPhaseWeapons(unit, phaseName)
+        console.log("WEAPONS:", weapons)
+        const stats = ctx.stats || getCoreStats(unit)
+
+        let abilityBlocks = ""
+        if (showAbil) {
+          if (Array.isArray(abilityRows) && abilityRows.length > 0) {
+            abilityBlocks = abilityRows
+              .map(a => {
+                const name = esc(a.name || a.title || "Unnamed")
+                const hintRaw = a.hint != null ? String(a.hint) : ""
+                const hint = hintRaw ? `<span class="nfc-popup-ability-hint">${esc(hintRaw)}</span>` : ""
+                const pri =
+                  a.priority === "high" || a.priority === "low" || a.priority === "medium"
+                    ? a.priority
+                    : "medium"
+                const priClass =
+                  pri === "high"
+                    ? "nfc-popup-ability--high"
+                    : pri === "low"
+                      ? "nfc-popup-ability--low"
+                      : "nfc-popup-ability--medium"
+                const dimCls = activated ? " nfc-popup-dimmed" : ""
+                return `<div class="nfc-popup-ability ${priClass}${dimCls}"><span class="nfc-popup-ability-name">${name}</span>${hint}</div>`
+              })
+              .join("")
+          } else {
+            abilityBlocks = `<div class="nfc-popup-empty">No abilities for this phase</div>`
+          }
+        }
+
+        const weaponInner =
+          weapons.length > 0
+            ? weapons
+                .map(w => {
+                  const atk = w && w.attacks != null ? String(w.attacks) : "–"
+                  return `<div class="nfc-popup-weapon"><span class="nfc-popup-weapon-name">${esc((w && w.name) || "")}</span><span class="nfc-popup-weapon-meta">${esc(atk)} atk</span></div>`
+                })
+                .join("")
+            : ""
+
+        let mainSections = ""
+        if (abilityBlocks) {
+          mainSections += `<section class="nfc-popup-section nfc-popup-section--primary" aria-label="Phase abilities"><h3 class="nfc-popup-section-title">Abilities</h3><div class="nfc-popup-ability-list">${abilityBlocks}</div></section>`
+        }
+        if (weaponInner) {
+          mainSections += `<section class="nfc-popup-section nfc-popup-section--primary" aria-label="Phase weapons"><h3 class="nfc-popup-section-title">Weapons</h3><div class="nfc-popup-weapons">${weaponInner}</div></section>`
+        }
+        if (!mainSections) {
+          mainSections = `<p class="nfc-popup-empty">No actions this phase</p>`
+        }
+
+        const statsEntries = Object.entries(stats || {}).filter(
+          ([, v]) => v != null && String(v).trim() !== "" && String(v) !== "–"
+        )
+
+        if (!weaponInner && statsEntries.length === 0 && abilityRows.length === 0) {
+          console.warn("Popup empty render for unit:", unit.slug)
+        }
+
+        const statsHtml =
+          statsEntries.length > 0
+            ? `<div class="nfc-popup-stats" aria-label="Core stats">${statsEntries
+                .map(
+                  ([k, v]) =>
+                    `<span class="nfc-popup-stat"><span class="nfc-popup-stat-k">${esc(k)}</span><span class="nfc-popup-stat-v">${esc(String(v))}</span></span>`
+                )
+                .join("")}</div>`
+            : ""
+
+        const factionLine = unit.faction ? `<p class="nfc-popup-faction">${esc(unit.faction)}</p>` : ""
+        const activatedBadge = activated
+          ? `<div class="nfc-popup-activated" role="status">✓ ACTIVATED</div>`
+          : ""
+
+        return `
+      <div class="nfc-popup-compact">
+        <p class="nfc-popup-phase-label">${esc(String(phaseName))}</p>
+        ${activatedBadge}
+        ${factionLine}
+        ${mainSections}
+        ${statsHtml}
+      </div>`
+      }
+
+      const abilities = Array.isArray(spec.abilities) ? spec.abilities : []
+      const stats = spec.stats || {}
+      const phaseLine = spec.phase != null ? `<div class="nfc-popup-phase-label">${esc(String(spec.phase))}</div>` : ""
+      const statsHtml = Object.keys(stats).length
+        ? `<div class="nfc-popup-stats">${Object.entries(stats)
+            .map(
+              ([k, v]) =>
+                `<span class="nfc-popup-stat"><span class="nfc-popup-stat-k">${esc(k)}</span><span class="nfc-popup-stat-v">${esc(String(v))}</span></span>`
+            )
+            .join("")}</div>`
+        : ""
+      const abHtml =
+        abilities.length > 0
+          ? abilities
+              .map(a => {
+                const name = esc((a && (a.name || a.title)) || "Unnamed")
+                const hintRaw = a && a.hint != null ? String(a.hint) : ""
+                const hint = hintRaw ? `<span class="nfc-popup-ability-hint">${esc(hintRaw)}</span>` : ""
+                const pri =
+                  a && (a.priority === "high" || a.priority === "low" || a.priority === "medium")
+                    ? a.priority
+                    : "medium"
+                const priClass =
+                  pri === "high"
+                    ? "nfc-popup-ability--high"
+                    : pri === "low"
+                      ? "nfc-popup-ability--low"
+                      : "nfc-popup-ability--medium"
+                return `<div class="nfc-popup-ability ${priClass}"><span class="nfc-popup-ability-name">${name}</span>${hint}</div>`
+              })
+              .join("")
+          : `<div class="nfc-popup-empty">No abilities for this phase</div>`
+      return `${phaseLine}<section class="nfc-popup-section">${abHtml}</section>${statsHtml}`
+    }
+
+    function renderUnitPopup() {
+      if (!state.ui.activeUnitPopup) return
+      const unit = state.ui.activeUnitPopup
+      const wasVisible = !!(state.nfcOverlay.visible && state.nfcOverlay.unit)
+      state.nfcOverlay.visible = true
+      state.nfcOverlay.unit = unit
+      state.nfcOverlay.unknownSlug = null
+      state.nfcOverlay.expanded = false
+      closeNfcFullSheetUi()
+      showNfcOverlayDom()
+      if (!wasVisible) flashNfcOverlayFeedback()
+      scheduleNfcOverlayContentRender()
+    }
+
+    function render() {
+      if (state.ui.activeUnitPopup) {
+        renderUnitPopup()
+      } else if (state.nfcOverlay.visible) {
+        scheduleNfcOverlayContentRender()
+      }
+    }
+
+    function openUnitPopup(unit) {
+      if (!unit) return
+      const ak = unitActivationKey(unit)
+      if (ak) state.unitActivation[ak] = "activated"
+      state.ui.activeUnitPopup = unit
+      state.ui.popupExpanded = false
+      render()
+    }
+
+    function closePopup() {
+      state.ui.activeUnitPopup = null
+      state.ui.popupExpanded = false
+      closeNfcOverlay()
+      render()
+    }
+
+    function expandPopup() {
+      state.ui.popupExpanded = true
+      openNfcFullSheet()
     }
 
     function unitKey(u) {
@@ -2786,9 +4277,6 @@
           }
         } catch (_) {}
       }
-      try {
-        void buildPhaseRelevantUnitInnerHtml(unit, false)
-      } catch (_) {}
     }
 
     /**
@@ -2859,13 +4347,32 @@
     }
 
     const NFC_ASSIGN_STORAGE_KEY = "aos_nfc_assignments"
-    const NFC_SLUG_SUPPRESS_MS = 1500
 
-    function normalizeTagId(id) {
+    /** Hex string normalization for stored tag keys. */
+    function normalizeHexTagId(id) {
       if (id == null || id === "") return ""
       return String(id)
         .toUpperCase()
         .replace(/[^A-F0-9]/g, "")
+    }
+
+    /** Canonical tag id from native tag UID / serial-like input — use everywhere for compare + duplicate detection. */
+    function normalizeTagId(serial) {
+      return nfcSerialToTagId(serial)
+    }
+
+    let nfcReadLastId = null
+    let nfcReadLastTime = 0
+
+    /** Suppress duplicate native read bursts for the same tag (~1s window). */
+    function isDuplicateNfcReadEvent(tagId) {
+      const now = Date.now()
+      const id = tagId != null ? String(tagId) : ""
+      if (!id) return false
+      if (id === nfcReadLastId && now - nfcReadLastTime < 1000) return true
+      nfcReadLastId = id
+      nfcReadLastTime = now
+      return false
     }
 
     /** Physical tag key normalized; `pending:<slug>` unchanged */
@@ -2873,7 +4380,7 @@
       if (!tagId) return ""
       const s = String(tagId)
       if (s.startsWith("pending:")) return s
-      return normalizeTagId(s)
+      return normalizeHexTagId(s)
     }
 
     function loadNfcAssignments() {
@@ -2923,7 +4430,7 @@
           return ""
         }
       }
-      return normalizeTagId(hex)
+      return normalizeHexTagId(hex)
     }
 
     function upsertNfcAssignment(tagId, row) {
@@ -2968,25 +4475,16 @@
     }
 
     function parseNfcRecordJson(record) {
-      if (!record || !record.data) return null
-      const rt = record.recordType
-      if (rt === "mime") {
-        const mt = String(record.mediaType || "").toLowerCase()
-        if (mt && !mt.includes("json") && mt !== "application/json") return null
-      } else if (rt !== "json") {
-        return null
-      }
       try {
-        const raw = new TextDecoder().decode(record.data)
-        if (!raw || !raw.trim()) return null
-        const obj = JSON.parse(raw)
-        if (!obj || typeof obj !== "object") return null
-        if (obj.type !== "aos-unit") return null
-        if (obj.slug == null || String(obj.slug).trim() === "") return null
-        obj.slug = String(obj.slug)
-        return obj
+        const raw = record.payload ?? record.data ?? record.value
+        if (raw == null || raw === "") return null
+        const text =
+          typeof raw === "string"
+            ? raw
+            : new TextDecoder().decode(raw instanceof Uint8Array ? raw : new Uint8Array(raw))
+        return JSON.parse(text)
       } catch (e) {
-        if (DEBUG) console.warn("[AoS NFC] JSON record parse failed", e)
+        console.warn("JSON parse failed", e)
         return null
       }
     }
@@ -3008,19 +4506,6 @@
       } catch {
         return null
       }
-    }
-
-    function shouldSuppressDuplicateNfcSlug(slug) {
-      const now = Date.now()
-      if (
-        slug === lastNfcDuplicateSlug &&
-        now - lastNfcDuplicateSlugAt < NFC_SLUG_SUPPRESS_MS
-      ) {
-        return true
-      }
-      lastNfcDuplicateSlug = slug
-      lastNfcDuplicateSlugAt = now
-      return false
     }
 
     function showNfcActionBar(slug) {
@@ -3053,176 +4538,286 @@
     }
 
     function resetNfcSelection() {
-      const cards = document.querySelectorAll("#list > article.card.unit-card[data-unit-slug]")
-      cards.forEach(el => {
-        el.classList.remove("unit-card--active", "unit-card--dimmed", "unit-card--returning")
-      })
       state.nfcActiveSlug = null
       hideNfcActionBar()
+      if (state.appMode === "game") refreshList()
     }
 
-    function popOutUnitCard(slug) {
-      if (!slug) return
-      const slugStr = String(slug)
-      const list = document.getElementById("list")
-      if (!list) return
-
-      const safe =
-        typeof CSS !== "undefined" && CSS.escape ? CSS.escape(slugStr) : slugStr.replace(/"/g, '\\"')
-      const cards = list.querySelectorAll(":scope > article.card.unit-card[data-unit-slug]")
-      const active = list.querySelector(`:scope > article.card.unit-card[data-unit-slug="${safe}"]`)
-
-      if (!cards.length || !active) return
-
-      cards.forEach(el => {
-        el.classList.remove("unit-card--active", "unit-card--dimmed", "unit-card--returning")
-      })
-
-      cards.forEach(el => {
-        if (el === active) el.classList.add("unit-card--active")
-        else el.classList.add("unit-card--dimmed")
-      })
-
-      state.nfcActiveSlug = slugStr
-      active.scrollIntoView({ behavior: "smooth", block: "center" })
-      showNfcActionBar(slugStr)
+    function isCapacitorNativeHost() {
+      try {
+        return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform())
+      } catch (_) {
+        return false
+      }
     }
 
-    function handleNfcUnitScan(data) {
-      if (!data || data.type !== "aos-unit" || data.slug == null) return
-      const slug = String(data.slug)
-      if (DEBUG) console.log("NFC READ:", data)
-      if (shouldSuppressDuplicateNfcSlug(slug)) return
-      state.lastScanTs = Date.now()
-      state.nfcScanLockUntil = state.lastScanTs + 1200
-      const unit = state.allUnits.find(
-        u =>
-          (u.slug && String(u.slug) === slug) ||
-          slugify(u.name) === slug ||
-          slugify(u.name) === slugify(slug)
-      )
-      if (unit) {
-        preloadUnitData(unit)
-        const cardSlug = unit.slug != null ? String(unit.slug) : slugFromName(unit.name)
-        if (state.nfcActiveSlug) {
-          resetNfcSelection()
+    function getAosNativeNfc() {
+      return window.__AOS_NFC__ || null
+    }
+
+    function isNativeNfcAvailable() {
+      return isCapacitorNativeHost() && !!getAosNativeNfc()
+    }
+
+    function nativeRecordPayloadBytes(rec) {
+      if (!rec) return new Uint8Array(0)
+      const pl = rec.payload
+      if (pl instanceof Uint8Array) return pl
+      if (Array.isArray(pl)) return new Uint8Array(pl)
+      return new Uint8Array(0)
+    }
+
+    function nativeNdefRecordToWeb(rec) {
+      if (!rec) return { recordType: "empty", data: new Uint8Array(0) }
+      const bytes = nativeRecordPayloadBytes(rec)
+      const t = String(rec.type || "")
+      const tu = t.toUpperCase()
+      if (tu === "U" || tu === "URI") return { recordType: "url", data: bytes }
+      try {
+        const txt = new TextDecoder().decode(bytes).trim()
+        if (txt.startsWith("{")) {
+          const o = JSON.parse(txt)
+          if (o && (o.type === "aos-unit" || o.type === "unit")) return { recordType: "json", data: bytes }
         }
-        popOutUnitCard(cardSlug)
-      } else openNfcOverlayUnknown(slug)
+      } catch (_) {}
+      if (tu.includes("JSON") || t.toLowerCase().includes("json")) {
+        return { recordType: "mime", mediaType: "application/json", data: bytes }
+      }
+      return { recordType: "mime", mediaType: "application/json", data: bytes }
     }
 
-    function onNfcReading(event) {
-      if (state.appMode !== "game") return
+    function buildTagViewFromNative(transformable) {
+      const umsg = transformable.uint8Array()
+      const messages = umsg.messages || []
+      const tagInfo = umsg.tagInfo || {}
+      const uidRaw = tagInfo.uid != null ? String(tagInfo.uid).replace(/\s+/g, "") : ""
+      const tagId = uidRaw ? normalizeHexTagId(uidRaw) : ""
+      const records = []
+      for (const m of messages) {
+        for (const r of m.records || []) {
+          records.push(nativeNdefRecordToWeb(r))
+        }
+      }
+      return {
+        id: tagId || "unknown",
+        serialNumber: tagId,
+        message: { records },
+        tagInfo
+      }
+    }
 
-      const records = event.message && event.message.records ? [...event.message.records] : []
-      if (records.length === 0) {
-        showNfcToast("Empty tag")
-        state.lastScanTs = Date.now()
+    function handleReadFlow(tag) {
+      const unit = getUnitFromTag(tag)
+      if (!unit) {
+        console.warn("No unit resolved from tag", tag)
+        showNfcToast("Unassigned tag")
         return
       }
+      if (!unit.abilities || !unit.weapons) {
+        console.warn("Incomplete unit data:", unit)
+        showNfcToast("Invalid unit data")
+        return
+      }
+      openUnitPopup(unit)
+    }
 
-      const now = Date.now()
-      if (state.lastScanTs && now - state.lastScanTs < 800) return
-      if (now < state.nfcScanLockUntil) return
-
-      const tagId = nfcSerialToTagId(event.serialNumber)
-      if (DEBUG && tagId) console.log("TAG ID:", tagId)
-
+    function onNfcTagDiscovered(tag) {
       try {
-        for (const record of records) {
-          const parsed = parseNfcRecordJson(record)
-          if (parsed) {
-            if (tagId) {
-              removePendingNfcAssignmentForSlug(parsed.slug)
-              upsertNfcAssignment(tagId, {
-                slug: parsed.slug,
-                name: parsed.name,
-                faction: parsed.faction
-              })
-            }
-            handleNfcUnitScan(parsed)
-            return
-          }
-        }
-        for (const record of records) {
-          const urlSlug = parseNfcRecordUrl(record)
-          if (urlSlug) {
-            handleNfcUnitScan({
-              type: "aos-unit",
-              slug: urlSlug,
-              name: "",
-              faction: ""
-            })
-            return
-          }
-        }
+        window.nfcDebug.lastEvent = "TAG_DISCOVERED"
+        window.nfcDebug.lastTagId = tag && tag.id != null ? String(tag.id) : "unknown"
+        window.nfcDebug.lastTimestamp = new Date().toISOString()
+      } catch (_) {}
+      if (state.nfc.flow === "write") {
+        console.log("FORCING WRITE FLOW")
+        void handleWriteFlow(tag)
+        renderNfcDebug()
+        return
+      }
+      try {
+        if (navigator.vibrate) navigator.vibrate(50)
+      } catch (_) {}
+      const tid = normalizeTagId(tag && (tag.serialNumber != null ? tag.serialNumber : tag.id))
+      if (isDuplicateNfcReadEvent(tid)) {
+        renderNfcDebug()
+        return
+      }
+      handleReadFlow(tag)
+      void restartNativeNfcScanAfterForeground()
+      renderNfcDebug()
+    }
+
+    function handleNativeNfcTagDiscovered(data) {
+      console.log("RAW TAG:", data)
+      try {
+        const tag = buildTagViewFromNative(data)
+        console.log("PARSED TAG:", tag)
+        onNfcTagDiscovered(tag)
       } catch (e) {
-        console.warn("NFC reading handler failed", e)
+        console.warn("NFC native tag decode failed", e)
+        if (state.debugNfc) nfcDebugNotify("NATIVE_TAG_DECODE_ERROR", { error: e })
       }
     }
 
-    function stopGameNfcScan() {
-      if (nfcScanAbort) {
-        try {
-          nfcScanAbort.abort()
-        } catch (_) {}
-        nfcScanAbort = null
+    function initNfcListener() {
+      if (nfcListenerInitialized) return
+      if (!window.__AOS_NFC__ && !window.NFC) return
+
+      const NFC = window.__AOS_NFC__ || window.NFC || getAosNativeNfc()
+      if (!NFC || typeof NFC.onRead !== "function") return
+
+      nfcListenerInitialized = true
+      console.log("REGISTERING NFC LISTENER")
+
+      try {
+        nativeNfcUnsubRead = NFC.onRead(event => {
+          try {
+            window.nfcDebug.lastEvent = "NATIVE_TAG_EVENT"
+            window.nfcDebug.lastTimestamp = new Date().toISOString()
+          } catch (_) {}
+
+          console.log("NFC EVENT:", event)
+
+          void handleNativeNfcTagDiscovered(event)
+
+          renderNfcDebug()
+        })
+      } catch (e) {
+        nfcListenerInitialized = false
+        throw e
       }
-      nfcGameReader = null
+
+      try {
+        nativeNfcUnsubError = NFC.onError(err => {
+          const msg = err && err.error ? String(err.error) : String(err)
+          console.warn("NFC native error:", msg)
+          if (state.debugNfc) nfcDebugNotify("NFC_NATIVE_ERROR", { error: new Error(msg) })
+        })
+      } catch (_) {}
+    }
+
+    async function stopGameNfcScan() {
+      if (state.debugNfc && state.nfc && state.nfc.flow === "write") {
+        nfcDebugNotify("SCAN_STOPPED", { clearError: false })
+      }
+      if (nfcWriteNoTagWatchTimer) {
+        clearTimeout(nfcWriteNoTagWatchTimer)
+        nfcWriteNoTagWatchTimer = null
+      }
+      state.nfc.nfcWriteFlowBusy = false
+      state.nfc.writeAwaitingTag = false
+      state.nfc.nativeScanSessionActive = false
+      state.nfc.isListening = false
+      state.nfc.isScanning = false
+      try {
+        const NFC = getAosNativeNfc()
+        if (NFC && typeof NFC.cancelScan === "function") await NFC.cancelScan().catch(() => {})
+      } catch (_) {}
+      try {
+        window.nfcDebug.scanning = false
+      } catch (_) {}
+      renderNfcDebug()
     }
 
     async function ensureGameNfcScan() {
+      if (!isNativeNfcAvailable()) return
+      initNfcListener()
       try {
-        if (!("NDEFReader" in window)) return
-        if (state.appMode !== "game") return
-        if (!state.nfcAutoScanEnabled) return
-        if (nfcGameReader && nfcScanAbort && !nfcScanAbort.signal.aborted) return
+        window.nfcDebug.lastEvent = "WAITING_FOR_TAG"
+        window.nfcDebug.lastTimestamp = new Date().toISOString()
+      } catch (_) {}
+      if (state.nfc.nativeScanSessionActive) return
+      const NFC = getAosNativeNfc()
+      try {
+        const sup = await NFC.isSupported().catch(() => ({ supported: false }))
+        if (!sup.supported) return
 
-        stopGameNfcScan()
-
-        const ndef = new NDEFReader()
-        nfcGameReader = ndef
-        const ac = new AbortController()
-        nfcScanAbort = ac
-
-        ndef.addEventListener("reading", onNfcReading)
-        ndef.addEventListener("readingerror", () => {})
-
-        if (DEBUG) console.log("NFC scan: starting (game mode)")
-
-        await ndef.scan({ signal: ac.signal })
-      } catch (e) {
-        if (e && e.name !== "AbortError") console.warn("NFC scan failed:", e)
-        if (nfcGameReader) {
-          nfcGameReader = null
-          nfcScanAbort = null
+        if (typeof NFC.startScan === "function") {
+          try {
+            await NFC.startScan({ mode: "auto" })
+          } catch (e) {
+            await NFC.startScan().catch(() => {})
+          }
         }
+
+        state.nfc.nativeScanSessionActive = true
+        state.nfc.isListening = true
+        if (DEBUG) console.log("NFC native scan: session started")
+        try {
+          window.nfcDebug.scanning = true
+          window.nfcDebug.lastEvent = "SCAN_STARTED_NATIVE"
+          window.nfcDebug.lastTimestamp = new Date().toISOString()
+        } catch (_) {}
+        if (state.debugNfc) nfcDebugNotify("SCAN_STARTED_NATIVE", { clearError: true })
+        renderNfcDebug()
+      } catch (err) {
+        state.nfc.nativeScanSessionActive = false
+        state.nfc.isListening = false
+        try {
+          window.nfcDebug.lastEvent = "SCAN_START_FAILED"
+          window.nfcDebug.lastError = err && err.message ? String(err.message) : String(err)
+          window.nfcDebug.scanning = false
+        } catch (_) {}
+        if (state.debugNfc) nfcDebugNotify("SCAN_START_FAILED", { error: err })
+        if (err && err.name !== "AbortError") console.warn("ensureGameNfcScan failed:", err)
+        renderNfcDebug()
       }
     }
 
-    async function writeAosPayloadToNfc(ndef, payload) {
-      const jsonStr = JSON.stringify(payload)
-      const buf = new TextEncoder().encode(jsonStr)
+    /** Clear JS session flags and native reader so ensureGameNfcScan can run again after activity resume. */
+    async function restartNativeNfcScanAfterForeground() {
+      if (!isNativeNfcAvailable()) return
+      state.nfc.nativeScanSessionActive = false
+      state.nfc.isListening = false
       try {
-        await ndef.write({
-          records: [
-            {
-              recordType: "mime",
-              mediaType: "application/json",
-              data: buf
-            }
-          ]
-        })
-        return
-      } catch (e1) {
+        const NFC = getAosNativeNfc()
+        if (NFC && typeof NFC.cancelScan === "function") await NFC.cancelScan().catch(() => {})
+      } catch (_) {}
+      await ensureGameNfcScan()
+    }
+
+    function shouldRetryNfcScanAfterForeground() {
+      return !!(state.nfcAutoScanEnabled || state.nfc.writeAwaitingTag)
+    }
+
+    function setupNativeNfcForegroundLifecycle() {
+      document.addEventListener(
+        "resume",
+        () => {
+          console.log("APP RESUME → INIT NFC LISTENER")
+          initNfcListener()
+          if (!isNativeNfcAvailable()) return
+          if (!shouldRetryNfcScanAfterForeground()) return
+          try {
+            window.nfcDebug.lastEvent = "APP_RESUMED_RESTART_SCAN"
+            window.nfcDebug.lastTimestamp = new Date().toISOString()
+          } catch (_) {}
+          renderNfcDebug()
+          void restartNativeNfcScanAfterForeground()
+        },
+        false
+      )
+
+      document.addEventListener("visibilitychange", () => {
         try {
-          await ndef.write({
-            records: [{ recordType: "json", data: buf }]
-          })
-          return
-        } catch (e2) {
-          throw e2 || e1
+          window.nfcDebug.lastEvent = document.hidden ? "APP_HIDDEN" : "APP_VISIBLE"
+          window.nfcDebug.lastTimestamp = new Date().toISOString()
+        } catch (_) {}
+        if (!document.hidden) {
+          initNfcListener()
+          if (isNativeNfcAvailable() && shouldRetryNfcScanAfterForeground()) {
+            void restartNativeNfcScanAfterForeground()
+          }
         }
+        renderNfcDebug()
+      })
+
+      if (isNativeNfcAvailable() && shouldRetryNfcScanAfterForeground()) {
+        setTimeout(() => {
+          console.log("DELAY INIT NFC LISTENER")
+          initNfcListener()
+          if (!shouldRetryNfcScanAfterForeground()) return
+          void ensureGameNfcScan()
+        }, 500)
       }
     }
 
@@ -3230,31 +4825,276 @@
       return new Promise(resolve => setTimeout(resolve, ms))
     }
 
-    async function writeWithTimeout(fn, timeoutMs) {
-      return Promise.race([
-        fn(),
-        new Promise((_, rej) =>
-          setTimeout(() => rej(new Error("NFC write timeout")), timeoutMs)
-        )
-      ])
+    function buildAosNativeNdefWriteOptions(data) {
+      const payload = JSON.stringify(data)
+      console.log("WRITING PAYLOAD:", payload)
+
+      return {
+        records: [
+          {
+            tnf: 2, // MIME type
+            type: new TextEncoder().encode("application/json"),
+            payload: new TextEncoder().encode(payload)
+          }
+        ]
+      }
+    }
+
+    async function writeNdefAndWaitForNativeSuccess(NFC, opts) {
+      if (!NFC) throw new Error("Native NFC plugin not available")
+      console.log("CALLING NFC.writeNDEF")
+
+      try {
+        const result = await NFC.writeNDEF(opts)
+
+        console.log("WRITE RETURNED:", result)
+
+        // Some plugins resolve without firing onWrite
+        console.log("WRITE SUCCESS")
+
+        return true
+      } catch (err) {
+        console.error("WRITE FAILED", err)
+        try {
+          await NFC.cancelWriteAndroid()
+        } catch (_) {}
+        throw err
+      }
     }
 
     async function writePayloadToTagWithRetry(payload, attempts = 2) {
-      const timeoutMs = 2800
+      const NFC = getAosNativeNfc()
+      if (!NFC) throw new Error("Native NFC plugin not available")
+      const opts = buildAosNativeNdefWriteOptions(payload)
       let lastErr
       for (let attempt = 0; attempt <= attempts; attempt++) {
         try {
-          await writeWithTimeout(async () => {
-            const ndef = new NDEFReader()
-            await writeAosPayloadToNfc(ndef, payload)
-          }, timeoutMs)
+          if (state.debugNfc && state.nfc.flow === "write") {
+            nfcDebugNotify(`WRITE_PAYLOAD_TRY_${attempt + 1}`, { clearError: true })
+          }
+          await writeNdefAndWaitForNativeSuccess(NFC, opts)
           return
         } catch (e) {
           lastErr = e
-          if (attempt < attempts) await delay(300)
+          console.error("WRITE FAILED", e)
+          if (state.debugNfc && state.nfc.flow === "write") {
+            nfcDebugNotify(`WRITE_PAYLOAD_TRY_${attempt + 1}_FAILED`, { error: e })
+          }
+          if (attempt < attempts) await delay(350)
         }
       }
       throw lastErr
+    }
+
+    async function runAssignNfcClipboardFallback(tagPayload, assignmentRow, fallbackUrl) {
+      showNfcWriteModal(true, "Hold tag to phone")
+      await delay(80)
+      try {
+        await navigator.clipboard.writeText(fallbackUrl)
+        const r = upsertNfcAssignment(`pending:${tagPayload.slug}`, {
+          slug: tagPayload.slug,
+          name: assignmentRow.name,
+          faction: assignmentRow.faction
+        })
+        showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
+        state.assignWritePhase = "success"
+        scheduleHideNfcWriteModal(1200)
+      } catch (_) {
+        showNfcWriteModal(true, "Write failed. Try again")
+        state.assignWritePhase = "error"
+        scheduleHideNfcWriteModal(2200)
+      }
+    }
+
+    async function handleWriteFlow(tag) {
+      if (state.nfc.nfcWriteFlowBusy) {
+        console.warn("WRITE SKIPPED — BUSY")
+        return
+      }
+      if (state.nfc.flow !== "write") return
+
+      console.log("WRITE FLOW STARTED", tag)
+      state.nfc.nfcWriteFlowBusy = true
+
+      if (nfcWriteNoTagWatchTimer) {
+        clearTimeout(nfcWriteNoTagWatchTimer)
+        nfcWriteNoTagWatchTimer = null
+      }
+      try {
+        try {
+          window.nfcDebug.lastEvent = "WRITE_ATTEMPT"
+          window.nfcDebug.lastTimestamp = new Date().toISOString()
+        } catch (_) {}
+        renderNfcDebug()
+
+        const tagId = normalizeTagId(tag.serialNumber || tag.id)
+        if (!tagId) {
+          if (state.debugNfc) {
+            nfcDebugNotify("WRITE MODE ACTIVE — NO TAG DETECTED", {
+              error: new Error("no tag id from native")
+            })
+          }
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail = "no tag detected"
+          showNfcWriteModal(true, "No tag detected. Try again")
+          scheduleHideNfcWriteModal(2200)
+          try {
+            window.nfcDebug.lastEvent = "WRITE_FAILURE"
+            window.nfcDebug.lastError = "no tag id"
+          } catch (_) {}
+          return
+        }
+
+        if (isDuplicateScan(tagId)) {
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail = "duplicate scan"
+          showNfcToast("Duplicate scan — wait a moment")
+          showNfcWriteModal(false)
+          try {
+            window.nfcDebug.lastEvent = "WRITE_FAILURE"
+            window.nfcDebug.lastError = "duplicate scan"
+          } catch (_) {}
+          return
+        }
+
+        const slug = state.assigningUnitSlug
+        const unit = findUnitByRouteId(slug)
+        if (!unit) {
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail = "pick a valid unit"
+          try {
+            window.nfcDebug.lastEvent = "WRITE_FAILURE"
+            window.nfcDebug.lastError = "invalid unit"
+          } catch (_) {}
+          return
+        }
+
+        const tagWritePayload = {
+          type: "unit",
+          slug: unit.slug || slugify(unit.name)
+        }
+        const assignmentRow = {
+          slug: tagWritePayload.slug,
+          name: unit.name || "",
+          faction: unit.faction || ""
+        }
+        const fallbackUrl = buildTagUrlForSlug(tagWritePayload.slug)
+
+        state.assignWritePhase = "writing"
+        state.assignWriteErrorDetail = ""
+        await renderAssignScreen()
+        showNfcWriteModal(true, "Writing… Keep tag in place")
+
+        state.pendingTagWrite = { tagId, slug: tagWritePayload.slug }
+        const proceed = await maybeConfirmTagOverwrite(tagId, tagWritePayload.slug)
+        state.pendingTagWrite = null
+        if (!proceed) {
+          state.assignWritePhase = "ready"
+          state.assignWriteErrorDetail = ""
+          showNfcWriteModal(false)
+          try {
+            window.nfcDebug.lastEvent = "WRITE_CANCELLED_OVERWRITE_MODAL"
+          } catch (_) {}
+          return
+        }
+
+        const NFC = getAosNativeNfc()
+        if (window.__nfcTestSimpleWrite && NFC) {
+          console.log("RUNNING SIMPLE WRITE TEST")
+
+          await NFC.writeNDEF({
+            records: [
+              {
+                recordType: "text",
+                data: "test"
+              }
+            ]
+          })
+
+          console.log("SIMPLE WRITE SUCCESS")
+          return
+        }
+
+        try {
+          if (DEBUG) console.log("NFC WRITE:", tagWritePayload)
+          if (state.debugNfc) nfcDebugNotify("WRITE_ATTEMPT", { tagId, clearError: true })
+          await writePayloadToTagWithRetry(tagWritePayload, 2)
+          console.log("WRITE SUCCESS — updating assignment")
+          try {
+            removePendingNfcAssignmentForSlug(tagWritePayload.slug)
+            const r = upsertNfcAssignment(tagId, {
+              slug: assignmentRow.slug,
+              name: assignmentRow.name,
+              faction: assignmentRow.faction,
+              ts: Date.now()
+            })
+            recordNfcAssignMirror(tagId, tagWritePayload.slug)
+            showNfcToast(`Assigned ${tagWritePayload.slug} to tag`)
+            showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
+            state.assignWritePhase = "success"
+            scheduleHideNfcWriteModal(1200)
+            try {
+              window.nfcDebug.lastEvent = "WRITE_SUCCESS"
+              window.nfcDebug.lastError = ""
+            } catch (_) {}
+          } catch (e) {
+            console.warn("Persist failed", e)
+          }
+          try {
+            await renderAssignScreen()
+          } catch (e) {
+            console.warn("Render failed", e)
+          }
+          try {
+            refreshList()
+          } catch (e) {
+            console.warn("refreshList failed", e)
+          }
+        } catch (e) {
+          console.error("WRITE FAILED", e)
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail =
+            e && e.name === "AbortError" ? "cancelled" : (e && e.message) || String(e)
+          showNfcWriteModal(true, "Write failed. Try again")
+          scheduleHideNfcWriteModal(2200)
+          try {
+            await navigator.clipboard.writeText(fallbackUrl)
+          } catch (_) {}
+          try {
+            window.nfcDebug.lastEvent = "WRITE_FAILURE"
+            window.nfcDebug.lastError = (e && e.message) || String(e)
+          } catch (_) {}
+        }
+      } catch (e) {
+        console.error("WRITE FAILED", e)
+        console.warn("handleWriteFlow failed", e)
+        state.assignWritePhase = "error"
+        state.assignWriteErrorDetail = (e && e.message) || String(e)
+        try {
+          window.nfcDebug.lastEvent = "WRITE_FAILURE"
+          window.nfcDebug.lastError = (e && e.message) || String(e)
+        } catch (_) {}
+      } finally {
+        state.nfc.nfcWriteFlowBusy = false
+        state.nfc.writeAwaitingTag = false
+        state.nfc.isScanning = false
+        try {
+          window.nfcDebug.writing = false
+        } catch (_) {}
+        if (state.assignWritePhase === "success") {
+          state.nfc.pendingUnitSlug = null
+          state.nfc.mode = "idle"
+        } else if (state.nfc.pendingUnitSlug) {
+          state.nfc.mode = "waiting_for_tap"
+        } else {
+          state.nfc.mode = "idle"
+        }
+        try {
+          window.nfcDebug.lastTimestamp = new Date().toISOString()
+        } catch (_) {}
+        renderNfcDebug()
+        await renderAssignScreen()
+      }
     }
 
     function showNfcWriteModal(visible, message) {
@@ -3296,6 +5136,187 @@
       }, ms)
     }
 
+    function rebuildNfcAssignmentsMirror() {
+      const all = loadNfcAssignments()
+      state.nfcAssignments = {}
+      for (const [k, v] of Object.entries(all)) {
+        if (!k || String(k).startsWith("pending:")) continue
+        if (v && typeof v === "object" && v.slug != null) state.nfcAssignments[k] = String(v.slug)
+      }
+    }
+
+    function setNfcFlow(flow) {
+      if (state.nfc.flow === flow) return
+      if (flow !== "write") {
+        if (nfcWriteNoTagWatchTimer) {
+          clearTimeout(nfcWriteNoTagWatchTimer)
+          nfcWriteNoTagWatchTimer = null
+        }
+        state.nfc.writeAwaitingTag = false
+      }
+      state.nfc.flow = flow
+      state.nfc.pendingUnitSlug = null
+      state.nfc.isScanning = false
+      if (flow !== "write") state.nfc.mode = "idle"
+      if (state.debugNfc) nfcDebugNotify(`FLOW_SET:${flow}`, { clearError: true })
+      if (DEBUG) {
+        if (!["idle", "write", "read"].includes(state.nfc.flow)) {
+          console.error("Invalid NFC flow:", state.nfc.flow)
+        }
+        console.debug("NFC FLOW:", state.nfc.flow)
+      }
+      renderNfcDebug()
+    }
+
+    function enterNfcWriteMode() {
+      const prev = state.nfc.flow
+      setNfcFlow("write")
+      if (prev !== "write") rebuildNfcAssignmentsMirror()
+    }
+
+    function enterNfcIdleMode() {
+      const prev = state.nfc.flow
+      setNfcFlow("idle")
+      if (prev !== "idle") rebuildNfcAssignmentsMirror()
+    }
+
+    function enterNfcReadMode() {
+      if (state.nfc.flow !== "read") setNfcFlow("read")
+      void startNfcListening()
+    }
+
+    async function startNfcListening() {
+      if (!state.nfcAutoScanEnabled) return
+      await ensureGameNfcScan()
+    }
+
+    function onAssignUnit(slug) {
+      if (state.nfc.flow !== "write") return
+      if (!slug) return
+      state.assigningUnitSlug = slug
+      state.nfc.pendingUnitSlug = slug
+      state.nfc.mode = "waiting_for_tap"
+      state.assignWritePhase = "ready"
+      state.assignWriteErrorDetail = ""
+      if (state.debugNfc) nfcDebugNotify("ASSIGN_UNIT_SELECTED", { clearError: true, tagId: "" })
+      showNfcToast(`Tap tag for ${slug}`)
+      void renderAssignScreen()
+    }
+
+    function isDuplicateScan(tagId) {
+      const now = Date.now()
+      const id = tagId != null ? String(tagId) : ""
+      if (!id) return false
+      const sameTag = id === state.nfc.lastTagId
+      const tooSoon = now - state.nfc.lastScanAt < 1200
+      if (sameTag && tooSoon) return true
+      state.nfc.lastTagId = id
+      state.nfc.lastScanAt = now
+      return false
+    }
+
+    function recordNfcAssignMirror(tagId, slug) {
+      const k = normalizeNfcStorageKey(tagId)
+      if (!k || String(k).startsWith("pending:")) return
+      state.nfcAssignments[k] = String(slug || "")
+    }
+
+    function onWriteNfcClick() {
+      console.debug("WRITE CLICK")
+      if (state.debugNfc && state.nfc.flow === "write") {
+        nfcDebugNotify("WRITE_BUTTON_CLICK")
+      }
+      if (state.nfc.flow !== "write") {
+        console.warn("Write blocked: wrong flow", state.nfc.flow)
+        if (state.debugNfc) nfcDebugNotify("WRITE_BLOCKED_WRONG_FLOW", { error: new Error(String(state.nfc.flow)) })
+        return
+      }
+      if (state.nfc.mode !== "waiting_for_tap") {
+        console.warn("Write blocked: not waiting for tap", state.nfc.mode)
+        if (state.debugNfc) nfcDebugNotify("WRITE_BLOCKED_BAD_MODE", { error: new Error(String(state.nfc.mode)) })
+        return
+      }
+      startWriteScan()
+    }
+
+    async function startWriteScan() {
+      console.debug("START WRITE SCAN")
+      if (state.nfc.flow !== "write") return
+      if (state.nfc.mode !== "waiting_for_tap") return
+      const slug = state.nfc.pendingUnitSlug || state.assigningUnitSlug
+      if (!slug) {
+        if (state.debugNfc) nfcDebugNotify("WRITE_SCAN_NO_SLUG", { error: new Error("No unit selected") })
+        return
+      }
+      state.assigningUnitSlug = slug
+
+      if (!isNativeNfcAvailable()) {
+        const unit = findUnitByRouteId(slug)
+        if (!unit) {
+          state.assignWritePhase = "error"
+          state.assignWriteErrorDetail = "pick a valid unit"
+          await renderAssignScreen()
+          return
+        }
+        const payload = {
+          type: "unit",
+          slug: unit.slug || slugify(unit.name)
+        }
+        const assignmentRow = {
+          slug: payload.slug,
+          name: unit.name || "",
+          faction: unit.faction || ""
+        }
+        const fallbackUrl = buildTagUrlForSlug(payload.slug)
+        state.nfc.isScanning = true
+        state.nfc.mode = "scanning"
+        try {
+          await renderAssignScreen()
+          await runAssignNfcClipboardFallback(payload, assignmentRow, fallbackUrl)
+        } finally {
+          state.nfc.isScanning = false
+          if (state.assignWritePhase === "success") {
+            state.nfc.pendingUnitSlug = null
+            state.nfc.mode = "idle"
+          } else if (state.nfc.pendingUnitSlug) {
+            state.nfc.mode = "waiting_for_tap"
+          } else {
+            state.nfc.mode = "idle"
+          }
+          await renderAssignScreen()
+        }
+        return
+      }
+
+      try {
+        window.nfcDebug.writing = true
+        window.nfcDebug.lastEvent = "WRITE_READY_WAITING_FOR_TAG"
+        window.nfcDebug.lastTimestamp = new Date().toISOString()
+      } catch (_) {}
+      if (state.debugNfc) nfcDebugNotify("WRITE_READY_WAITING_FOR_TAG", { clearError: true })
+      state.nfc.writeAwaitingTag = true
+      state.nfc.isScanning = true
+      state.nfc.mode = "scanning"
+      await renderAssignScreen()
+      if (nfcWriteNoTagWatchTimer) {
+        clearTimeout(nfcWriteNoTagWatchTimer)
+        nfcWriteNoTagWatchTimer = null
+      }
+      nfcWriteNoTagWatchTimer = setTimeout(() => {
+        nfcWriteNoTagWatchTimer = null
+        if (state.nfc.writeAwaitingTag) {
+          try {
+            window.nfcDebug.lastEvent = "NO_NATIVE_EVENTS_AFTER_5S"
+            window.nfcDebug.lastTimestamp = new Date().toISOString()
+          } catch (_) {}
+          renderNfcDebug()
+        }
+      }, 5000)
+      initNfcListener()
+      void ensureGameNfcScan()
+      renderNfcDebug()
+    }
+
     function scheduleNfcOverlayContentRender() {
       if (!state.nfcOverlay.visible) return
       if (nfcOverlayContentRaf != null) return
@@ -3305,105 +5326,118 @@
       })
     }
 
-    function readFirstTagIdFromScan(timeoutMs = 3000) {
-      if (!("NDEFReader" in window)) return Promise.resolve("")
-      return new Promise(resolve => {
-        const ac = new AbortController()
-        let settled = false
-        const finish = id => {
-          if (settled) return
-          settled = true
-          clearTimeout(tm)
-          try {
-            ac.abort()
-          } catch (_) {}
-          resolve(id || "")
-        }
-        const tm = setTimeout(() => finish(""), timeoutMs)
-        const ndef = new NDEFReader()
-        const onRead = ev => {
-          ndef.removeEventListener("reading", onRead)
-          finish(nfcSerialToTagId(ev.serialNumber))
-        }
-        ndef.addEventListener("reading", onRead)
-        ndef.scan({ signal: ac.signal }).catch(() => {
-          if (!settled) finish("")
-        })
-      })
+    /** Single renderer for #modal-root — not gated by card signatures or list diff. */
+    function renderModal() {
+      const root = document.getElementById("modal-root")
+      if (!root) return
+
+      if (!state.modal || !state.modal.type) {
+        root.innerHTML = ""
+        root.style.pointerEvents = "none"
+        root.setAttribute("aria-hidden", "true")
+        document.body.classList.remove("global-modal-open")
+        return
+      }
+
+      root.style.removeProperty("pointer-events")
+      document.body.classList.add("global-modal-open")
+      if (state.modal.type === "confirm") {
+        const msg = esc(state.modal.message || "")
+        root.innerHTML = `
+<div class="modal-overlay" data-modal-dismiss tabindex="-1">
+  <div class="modal-panel" role="dialog" aria-modal="true" onclick="event.stopPropagation()">
+    <p class="modal-msg">${msg}</p>
+    <div class="nfc-confirm-actions">
+      <button type="button" class="header-btn modal-cancel">Cancel</button>
+      <button type="button" class="header-btn modal-confirm">Overwrite</button>
+    </div>
+  </div>
+</div>`
+        root.setAttribute("aria-hidden", "false")
+      }
     }
 
-    function verifyNfcWriteReadBack(expectedSlug, timeoutMs = 1500) {
-      if (!("NDEFReader" in window) || !expectedSlug) return Promise.resolve(true)
-      return new Promise(resolve => {
-        const ac = new AbortController()
-        let settled = false
-        const finish = ok => {
-          if (settled) return
-          settled = true
-          clearTimeout(to)
-          try {
-            ac.abort()
-          } catch (_) {}
-          resolve(ok)
+    function openModal(spec) {
+      if (!spec || !spec.type) return
+      if (spec.type === "confirm") {
+        state.modal = {
+          type: "confirm",
+          message: String(spec.message ?? spec.payload?.message ?? "")
         }
-        const to = setTimeout(() => finish(false), timeoutMs)
-        const ndef = new NDEFReader()
-        ndef.addEventListener("reading", ev => {
-          const recs = ev.message && ev.message.records ? [...ev.message.records] : []
-          for (const rec of recs) {
-            const p = parseNfcRecordJson(rec)
-            if (p && String(p.slug) === String(expectedSlug)) {
-              finish(true)
-              return
-            }
-          }
-        })
-        ndef.scan({ signal: ac.signal }).catch(() => {
-          if (!settled) finish(false)
-        })
-      })
+      } else {
+        state.modal = spec
+      }
+      renderModal()
+      scheduleGameView()
     }
 
-    function showNfcConfirmModal(message) {
-      console.log("🚨 CONFIRM MODAL CALLED", message)
-      console.trace("MODAL TRACE")
-      if (!state.bootComplete) {
-        console.log("CONFIRM MODAL BLOCKED (boot incomplete)", message)
+    function settleModal(ok) {
+      state.modal = null
+      renderModal()
+      const r = _modalAwaitResolve
+      _modalAwaitResolve = null
+      if (r) r(!!ok)
+      scheduleGameView()
+    }
+
+    function closeModal() {
+      settleModal(false)
+    }
+
+    function handleGlobalModalClick(e) {
+      const confirmBtn = e.target.closest(".modal-confirm")
+      const cancelBtn = e.target.closest(".modal-cancel")
+      const backdrop = e.target.closest("[data-modal-dismiss]")
+      if (!confirmBtn && !cancelBtn && !(backdrop && e.target === backdrop)) return
+      if (!state.modal || state.modal.type !== "confirm") return
+      const root = document.getElementById("modal-root")
+      if (!root || !root.contains(e.target)) return
+
+      if (backdrop && e.target === backdrop) {
+        e.preventDefault()
+        e.stopPropagation()
+        withClickLock(() => settleModal(false))
+        return
+      }
+      if (confirmBtn) {
+        e.preventDefault()
+        e.stopPropagation()
+        withClickLock(() => settleModal(true))
+        return
+      }
+      if (cancelBtn) {
+        e.preventDefault()
+        e.stopPropagation()
+        withClickLock(() => settleModal(false))
+        return
+      }
+    }
+
+    let globalModalClickBound = false
+    function setupGlobalModalDelegation() {
+      if (globalModalClickBound) return
+      globalModalClickBound = true
+      document.addEventListener("click", handleGlobalModalClick)
+    }
+
+    function openConfirmModalAsync(message) {
+      if (!state.pendingTagWrite && !state.importInProgress) {
         return Promise.resolve(false)
       }
-      console.log("CONFIRM MODAL CALLED", {
-        appMode: state.appMode,
-        phase: state.assignWritePhase,
-        pending: state.pendingTagWrite
-      })
+
+      if (!state.bootComplete) {
+        return Promise.resolve(false)
+      }
+
       return new Promise(resolve => {
-        const el = document.getElementById("nfcConfirmModal")
-        const msg = document.getElementById("nfcConfirmModalMsg")
-        if (!el || !msg) {
-          resolve(false)
-          return
-        }
-        if (nfcConfirmResolver) {
-          const prev = nfcConfirmResolver
-          nfcConfirmResolver = null
+        if (_modalAwaitResolve) {
+          const prev = _modalAwaitResolve
+          _modalAwaitResolve = null
           prev(false)
         }
-        nfcConfirmResolver = resolve
-        msg.textContent = message
-        el.hidden = false
-        el.setAttribute("aria-hidden", "false")
+        _modalAwaitResolve = resolve
+        openModal({ type: "confirm", message: String(message || "") })
       })
-    }
-
-    function resolveNfcConfirm(ok) {
-      const el = document.getElementById("nfcConfirmModal")
-      if (el) {
-        el.hidden = true
-        el.setAttribute("aria-hidden", "true")
-      }
-      const r = nfcConfirmResolver
-      nfcConfirmResolver = null
-      if (r) r(!!ok)
     }
 
     async function maybeConfirmTagOverwrite(tagId, slug) {
@@ -3423,7 +5457,7 @@
       const existing = String(row.slug || "")
       if (!existing || existing === String(slug)) return true
       console.log("OVERWRITE TRIGGERED (NFC)")
-      return showNfcConfirmModal("Overwrite existing tag assignment?")
+      return openConfirmModalAsync("Overwrite existing tag assignment?")
     }
 
     function hideAllModals() {
@@ -3433,16 +5467,7 @@
         nfcWriteModalCloseTimer = null
       }
       hideNfcActionBar()
-      const confirmEl = document.getElementById("nfcConfirmModal")
-      if (confirmEl) {
-        confirmEl.hidden = true
-        confirmEl.setAttribute("aria-hidden", "true")
-      }
-      if (nfcConfirmResolver) {
-        const r = nfcConfirmResolver
-        nfcConfirmResolver = null
-        r(false)
-      }
+      settleModal(false)
       const toast = document.getElementById("nfcToast")
       if (toast) toast.hidden = true
     }
@@ -3450,7 +5475,7 @@
     function updateNfcScanControls() {
       const en = document.getElementById("nfcEnableScanBtn")
       const pause = document.getElementById("nfcPauseScanBtn")
-      const eligible = "NDEFReader" in window && state.appMode === "game"
+      const eligible = isNativeNfcAvailable() && state.appMode === "game"
       if (en) en.hidden = !eligible || state.nfcAutoScanEnabled
       if (pause) pause.hidden = !eligible || !state.nfcAutoScanEnabled
     }
@@ -3532,49 +5557,84 @@
       return true
     }
 
-    function ensureCapacitorAppPlugin() {
-      if (!window.Capacitor?.isNativePlatform?.()) return Promise.resolve(null)
-      if (window.AoSCapApp?.App) return Promise.resolve(window.AoSCapApp.App)
-      return new Promise((resolve, reject) => {
+    /**
+     * Loads capacitor-app-iife.js if needed and invokes consumer(plugin) once.
+     * Never returns the App plugin from any Promise (avoids App.then / thenable misuse on Android).
+     */
+    function runWithCapacitorApp(pluginConsumer) {
+      if (typeof pluginConsumer !== "function") return
+      try {
+        if (!window.Capacitor?.isNativePlatform?.()) return
+
+        const attach = () => {
+          const plugin = window.AoSCapApp?.App
+          if (!plugin) {
+            console.log("Capacitor App plugin missing after load")
+            return
+          }
+          pluginConsumer(plugin)
+        }
+
+        if (window.AoSCapApp?.App) {
+          attach()
+          return
+        }
+
         const s = document.createElement("script")
         s.src = "./capacitor-app-iife.js"
-        s.onload = () => resolve(window.AoSCapApp?.App ?? null)
-        s.onerror = () => reject(new Error("capacitor-app-iife.js failed to load"))
+        s.onload = attach
+        s.onerror = () => console.log("capacitor-app-iife.js failed to load")
         document.head.appendChild(s)
-      })
+      } catch (err) {
+        console.log("Capacitor App loader failed", err)
+      }
     }
 
-    /**
-     * Capacitor App plugin is not a Promise — only call .getLaunchUrl() / .addListener() on it,
-     * never await the plugin object itself.
-     */
     function setupCapacitorDeepLinks() {
-      return ensureCapacitorAppPlugin().then(capApp => {
-        if (!capApp) return
-        capApp
-          .getLaunchUrl()
-          .then(res => {
-            const url = res && res.url
-            if (url) applyCapacitorDeepLinkFromUrlString(url)
-          })
-          .catch(() => {})
+      try {
+        runWithCapacitorApp(function setupDeepLinks(plugin) {
+          void (async function initAppLaunchUrl() {
+            try {
+              if (typeof plugin.getLaunchUrl !== "function") return
+              const res = await plugin.getLaunchUrl()
+              const url = res && res.url
+              if (url) applyCapacitorDeepLinkFromUrlString(url)
+            } catch (e) {
+              console.warn("Capacitor getLaunchUrl failed", e)
+            }
+          })()
 
-        try {
-          const listenerPromise = capApp.addListener("appUrlOpen", data => {
-            if (!data?.url) return
-            const prevFaction =
-              new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
-            applyCapacitorDeepLinkFromUrlString(data.url)
-            const nextFaction =
-              new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
-            if (nextFaction !== prevFaction) void load()
-            else applyDeepLinkFromRoute()
-          })
-          if (listenerPromise != null && typeof listenerPromise.then === "function") {
-            listenerPromise.catch(() => {})
-          }
-        } catch (_) {}
-      })
+          try {
+            plugin.addListener("appUrlOpen", function onAppUrlOpen(data) {
+              if (!data?.url) return
+              const prevFaction =
+                new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+              applyCapacitorDeepLinkFromUrlString(data.url)
+              const nextFaction =
+                new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+              if (nextFaction !== prevFaction) void load()
+              else applyDeepLinkFromRoute()
+            })
+          } catch (_) {}
+
+          try {
+            plugin.addListener("resume", function onCapacitorAppResume() {
+              console.log("APP RESUME → INIT NFC LISTENER")
+              initNfcListener()
+              if (!isNativeNfcAvailable()) return
+              if (!shouldRetryNfcScanAfterForeground()) return
+              try {
+                window.nfcDebug.lastEvent = "APP_RESUMED_RESTART_SCAN"
+                window.nfcDebug.lastTimestamp = new Date().toISOString()
+              } catch (_) {}
+              renderNfcDebug()
+              void restartNativeNfcScanAfterForeground()
+            })
+          } catch (_) {}
+        })
+      } catch (err) {
+        console.log("Deep link setup error", err)
+      }
     }
 
     function findUnitByRouteId(unitId) {
@@ -3669,15 +5729,22 @@
     function initializeGameSession() {
       state.phase = PHASES[0]
       state.turn = 1
-      state.cp = 1
+      state.round = 1
+      const cpR = currentSystem().rules && currentSystem().rules.cp
+      if (cpR && typeof cpR.start === "number") {
+        state.cp = cpR.start
+      } else {
+        state.cp = 0
+      }
       state.selectedUnit = null
       resetPhaseAbilityUsage()
+      resetActivations()
       resetTurnUnitFlags()
       if (state.allUnits.length) initUnitTracking(state.allUnits)
       state.expandedKeys.clear()
       state.activeKeywords.clear()
       if (state.allUnits.length) renderKeywordPills(uniqueSortedKeywords(state.allUnits))
-      updateCPDisplay()
+      syncGameSystemRowUi()
       const desktop = document.getElementById("phaseSelect")
       if (desktop) {
         if ([...desktop.options].some(o => o.value === state.phase)) desktop.value = state.phase
@@ -3704,9 +5771,17 @@
       } else {
         state.phase = PHASES[i + 1]
       }
+      setGamePhase(state.phase)
+    }
+
+    /** Phase change + list render + URL sync + persistence (single entry for viewer phase). */
+    function setGamePhase(phase) {
+      state.phase = phase || PHASES[0]
       resetPhaseAbilityUsage()
+      resetActivations()
       refreshList()
       if (state.selectedUnit) syncUrlToSelection(state.selectedUnit)
+      render()
       saveState()
     }
 
@@ -3736,7 +5811,7 @@
     }
 
     function filterUnits() {
-      const q = document.getElementById("search").value.trim().toLowerCase()
+      const q = state.searchQuery
       let base = state.allUnits
       if (state.gameStarted && Array.isArray(state.armyList) && state.armyList.length) {
         const allowed = new Set(state.armyList.map(u => u.slug).filter(Boolean))
@@ -3748,6 +5823,24 @@
           matchesKeywordFilters(u) &&
           matchesFaction(u, state.faction)
       )
+    }
+
+    /** Next unactivated unit in current list order, wrapping after popup / selection anchor. */
+    function getNextUnactivatedUnit() {
+      const ordered = filterUnits()
+      if (!ordered.length) return null
+      const anchor = state.ui.activeUnitPopup || state.selectedUnit
+      let startIdx = 0
+      if (anchor) {
+        const slug = stableUnitSlug(anchor)
+        const i = ordered.findIndex(u => stableUnitSlug(u) === slug)
+        if (i >= 0) startIdx = i + 1
+      }
+      for (let k = 0; k < ordered.length; k++) {
+        const u = ordered[(startIdx + k) % ordered.length]
+        if (!isUnitActivated(u)) return u
+      }
+      return null
     }
 
     function esc(s) {
@@ -3762,6 +5855,108 @@
         .replace(/&/g, "&amp;")
         .replace(/"/g, "&quot;")
         .replace(/</g, "&lt;")
+    }
+
+    function nfcFormatError(err) {
+      if (err == null || err === "") return ""
+      if (typeof err === "string") return err
+      try {
+        const name = err.name || (err.constructor && err.constructor.name) || ""
+        const msg = err.message || err.msg || String(err)
+        if (name === "CapacitorException" || /Capacitor/i.test(String(name))) return `CapacitorException: ${msg}`
+        return msg || String(err)
+      } catch (_) {
+        return String(err)
+      }
+    }
+
+    function nfcDebugNotify(lastEvent, opts) {
+      opts = opts || {}
+      try {
+        window.nfcDebug.lastEvent = String(lastEvent || "")
+        window.nfcDebug.lastTimestamp = new Date().toISOString()
+        if (opts.clearError) window.nfcDebug.lastError = ""
+        if (opts.error != null) window.nfcDebug.lastError = nfcFormatError(opts.error)
+        if (opts.tagId != null) window.nfcDebug.lastTagId = String(opts.tagId || "")
+      } catch (_) {}
+      renderNfcDebug()
+    }
+
+    function renderNfcDebug() {
+      const root = document.getElementById("nfcDebugPanelRoot")
+      const body = document.getElementById("nfcDebugBody")
+      if (!root || !body) return
+      const visible = !!(state.debugNfc && state.nfc && state.nfc.flow === "write")
+      root.hidden = !visible
+      root.setAttribute("aria-hidden", visible ? "false" : "true")
+      if (!visible) return
+
+      try {
+        window.nfcDebug.enabled = isNativeNfcAvailable()
+        window.nfcDebug.scanning = !!(
+          state.nfc &&
+          (state.nfc.nativeScanSessionActive || state.nfc.isScanning || state.nfc.isListening)
+        )
+        window.nfcDebug.writing = !!(state.nfc && state.nfc.flow === "write")
+      } catch (_) {}
+
+      const tf = on =>
+        on
+          ? '<span class="nfc-debug-line--ok">true</span>'
+          : '<span class="nfc-debug-line--dim">false</span>'
+      const lastEv = esc(window.nfcDebug.lastEvent || "—")
+      const lastTag = esc(window.nfcDebug.lastTagId || "—")
+      const lastTs = esc(window.nfcDebug.lastTimestamp || "—")
+      const phase = esc(String(state.assignWritePhase ?? "—"))
+      const mode = esc(String(state.nfc.mode ?? "—"))
+      const errLine = window.nfcDebug.lastError
+        ? `<div class="nfc-debug-line--err">Last error: ${esc(window.nfcDebug.lastError)}</div>`
+        : '<div class="nfc-debug-line--dim">Last error: —</div>'
+      body.innerHTML = `
+<div>NFC Enabled: ${tf(window.nfcDebug.enabled)}</div>
+<div>Scan Active: ${tf(window.nfcDebug.scanning)}</div>
+<div>Write mode: ${tf(window.nfcDebug.writing)}</div>
+<div class="nfc-debug-line--warn">Phase: ${phase} · mode: ${mode}</div>
+<div class="nfc-debug-line--dim">Last event: <span class="nfc-debug-line--warn">${lastEv}</span></div>
+<div>Last tag ID: ${lastTag}</div>
+${errLine}
+<div class="nfc-debug-line--dim">Callback: ${lastTs}</div>
+      `.trim()
+    }
+
+    async function forceNfcScanRestart() {
+      try {
+        nfcDebugNotify("FORCE_SCAN_RESTART")
+        await stopGameNfcScan()
+        await delay(220)
+        if (state.nfc.flow !== "write") return
+        const slug = state.nfc.pendingUnitSlug || state.assigningUnitSlug
+        if (!slug) {
+          nfcDebugNotify("FORCE_RESTART_NO_UNIT", { error: new Error("No pending unit slug") })
+          return
+        }
+        state.nfc.pendingUnitSlug = slug
+        state.assigningUnitSlug = slug
+        state.nfc.mode = "waiting_for_tap"
+        state.assignWritePhase = "ready"
+        state.nfc.isScanning = false
+        await renderAssignScreen()
+        onWriteNfcClick()
+      } catch (e) {
+        nfcDebugNotify("FORCE_SCAN_RESTART_ERROR", { error: e })
+      }
+    }
+
+    function setupNfcDebugPanel() {
+      window.renderNfcDebug = renderNfcDebug
+      const btn = document.getElementById("nfcDebugForceBtn")
+      if (!btn || btn.dataset.bound === "1") return
+      btn.dataset.bound = "1"
+      btn.addEventListener("click", ev => {
+        ev.preventDefault()
+        ev.stopPropagation()
+        void forceNfcScanRestart()
+      })
     }
 
     function renderCommands() {
@@ -3834,9 +6029,42 @@
       return true
     }
 
+    /** Phase-relevant weapons from system package `compactWeaponPhases` only (no hard-coded phase names). */
+    function nfcCompactPhaseWeapons(unit, phaseName) {
+      const label = phaseName != null ? String(phaseName) : state.phase
+      const sys = currentSystem()
+      const weaponTokens = sys.ui && sys.ui.unitPopup && Array.isArray(sys.ui.unitPopup.showWeapons) ? sys.ui.unitPopup.showWeapons : null
+      if (weaponTokens && weaponTokens.length) {
+        const allow =
+          weaponTokens.some(tok => phaseLabelMatchesWeaponToken(label, tok)) ||
+          weaponTokens.some(tok => String(tok) === String(label))
+        if (!allow) return []
+      }
+      const mode = currentSystem().compactWeaponPhases?.[label]
+      const weapons = (unit && Array.isArray(unit.weapons) ? unit.weapons : []).filter(Boolean)
+
+      if (!mode) return []
+
+      function weaponIsRanged(w) {
+        if (!w) return false
+        if (w.rangeType === "ranged") return true
+        if (w.rangeType === "melee") return false
+        const t = String(w.type || "").toLowerCase()
+        if (t === "ranged") return true
+        if (t === "melee") return false
+        return isRangedWeapon(w)
+      }
+
+      if (mode === "ranged") return weapons.filter(weaponIsRanged)
+      if (mode === "melee") return weapons.filter(w => w && !weaponIsRanged(w))
+      if (mode === "all") return weapons.slice()
+
+      return []
+    }
+
     /** Phase-filtered stats, abilities, weapons; optional keywords (HQ panel includes them). */
     function buildPhaseRelevantUnitInnerHtml(unit, includeKeywords = true) {
-      const abilities = abilitiesForCurrentPhase(unit)
+      const abilities = logic.abilitiesForPhase(unit, state.phase)
       const allWeapons = Array.isArray(unit.weapons) ? unit.weapons : []
       const phaseName = state.phase
       const phase = UI_PHASE_TO_STAT_PHASE[phaseName] ?? "hero"
@@ -4078,11 +6306,18 @@
       return true
     }
 
+    function abilityDomKey(ability, unitSlug) {
+      if (!ability) return `${unitSlug}:`
+      const id = ability.id != null && String(ability.id).trim() !== "" ? String(ability.id) : ""
+      return id || `${unitSlug}:${ability.name || "(unnamed)"}`
+    }
+
     function renderAbility(a, unitSlug) {
       if (!a) return ""
       const name = a.name || "(unnamed)"
       const type = a.type || ""
       const desc = a.description || ""
+      const aKey = abilityDomKey(a, unitSlug)
       const phaseTag = a.phase ? `<span class="type phase-pill">${esc(a.phase)}</span>` : ""
       const usable = isAbilityUsable(unitSlug, a)
       const cls =
@@ -4094,9 +6329,11 @@
       const tag =
         usable === true ? "READY" : usable === "conditional" ? "REACTIVE" : "USED"
       return `
-        <div class="${cls}" data-unit-slug="${escAttr(unitSlug)}" data-ability-name="${escAttr(
-        name
-      )}" data-ability-type="${escAttr(type)}" title="Tap to mark used this phase">
+        <div class="${cls}" data-ability-key="${escAttr(aKey)}" data-unit-slug="${escAttr(
+        unitSlug
+      )}" data-ability-name="${escAttr(name)}" data-ability-type="${escAttr(
+        type
+      )}" title="Tap to mark used this phase">
           ${type ? `<span class="type">${esc(type)}</span>` : ""}
           <span class="ability-tag">${tag}</span>
           ${phaseTag}
@@ -4116,8 +6353,8 @@
       const kws = allKeywords(unit)
       const weapons = Array.isArray(unit.weapons) ? unit.weapons : []
       const abilitiesAll = Array.isArray(unit.abilities) ? unit.abilities : []
-      const slug = unit.slug != null ? String(unit.slug) : slugFromName(unit.name)
-      const abilities = abilitiesForCurrentPhase(unit)
+      const slug = stableUnitSlug(unit)
+      const abilities = logic.abilitiesForPhase(unit, state.phase)
       const hasStructured =
         Object.keys(stats).length > 0 ||
         kws.length > 0 ||
@@ -4147,16 +6384,16 @@
       if (abilities.length) {
         abilitiesHtml = `<div class="abilities-list">${abilities.map(a => renderAbility(a, slug)).join("")}</div>`
       } else if (abilitiesAll.length) {
-        abilitiesHtml = `<p class="empty">No abilities for this phase (Passives and Reactions still apply when present).</p>`
+        abilitiesHtml = `<div class="abilities-list abilities-list--empty"><p class="empty">No abilities for this phase (Passives and Reactions still apply when present).</p></div>`
       } else {
-        abilitiesHtml = `<p class="empty">No abilities in file.</p>`
+        abilitiesHtml = `<div class="abilities-list abilities-list--empty"><p class="empty">No abilities in file.</p></div>`
       }
 
       let fallback = ""
       if (!hasStructured) {
         const preview = warscrollToString(unit.warscroll).slice(0, 400)
         fallback = `
-          <section>
+          <section class="section-fallback">
             <h3>Raw warscroll (preview)</h3>
             <div class="fallback">${esc(preview)}${preview.length >= 400 ? "…" : ""}</div>
           </section>`
@@ -4171,7 +6408,7 @@
       const foughtCls = ut.fought ? " unit-fought" : ""
       const combatPhase = state.phase === "Combat Phase"
       const foughtHidden = combatPhase ? "" : " hidden"
-      const isSelected = !!(state.selectedUnit && state.selectedUnit.slug === slug)
+      const isSelected = !!(state.selectedUnit && stableUnitSlug(state.selectedUnit) === slug)
       const selCls = isSelected ? " selected" : ""
 
       return `
@@ -4216,6 +6453,356 @@
             </div>
           </div>
         </article>`
+    }
+
+    /** Non-empty slug for cards, dom.cardMap keys, and unitState — matches `data-unit-slug` on each card. */
+    function stableUnitSlug(unit) {
+      if (!unit || typeof unit !== "object") return "invalid-unit"
+      const fromField = unit.slug != null && String(unit.slug).trim() !== "" ? String(unit.slug).trim() : ""
+      if (fromField) return fromField
+      const fromName = slugFromName(unit.name || "")
+      if (fromName) return fromName
+      return `u-${encodeURIComponent(unitKey(unit)).replace(/%/g, "").slice(0, 96)}`
+    }
+
+    function unitSlugKey(unit) {
+      return stableUnitSlug(unit)
+    }
+
+    /** Minimal tracking slice that affects ability buttons / Used / Fought in renderCard. */
+    function getTrackingSignature(slug) {
+      const ut = getUnitTracking(slug)
+      const used = [...ut.usedAbilities].sort().join("\x1f")
+      return `${ut.activated ? 1 : 0}:${ut.fought ? 1 : 0}:${used}`
+    }
+
+    /** Shallow fingerprint when structured unit data loads or keywords change (no full unit JSON). */
+    function getUnitRenderFingerprint(unit) {
+      const stats = unit.stats && typeof unit.stats === "object" ? unit.stats : {}
+      const weapons = Array.isArray(unit.weapons) ? unit.weapons : []
+      const abilities = Array.isArray(unit.abilities) ? unit.abilities : []
+      const ws = warscrollToString(unit.warscroll)
+      const kLen = allKeywords(unit).length
+      return [
+        Object.keys(stats).length,
+        weapons.length,
+        abilities.length,
+        kLen,
+        ws.length,
+        String(unit.name || "").length,
+        String(unit.faction || "").length
+      ].join(":")
+    }
+
+    /**
+     * Manual change detection for incremental list updates — must list every renderCard dependency.
+     * If UI drifts, add the missing input here (do not remove this gate).
+     */
+    function getRenderSignature(unit, searchQ) {
+      const slug = unitSlugKey(unit)
+      const q = searchQ !== undefined && searchQ !== null ? String(searchQ) : state.searchQuery
+      const expanded = state.expandedKeys.has(unitKey(unit))
+      const selected = !!(state.selectedUnit && stableUnitSlug(state.selectedUnit) === String(slug))
+      return [
+        state.phase,
+        expanded ? "1" : "0",
+        selected ? "1" : "0",
+        q,
+        getTrackingSignature(slug),
+        getUnitRenderFingerprint(unit)
+      ].join("|")
+    }
+
+    function syncCardSectionReplace(curRoot, nextRoot, selector) {
+      const cur = curRoot.querySelector(selector)
+      const neu = nextRoot.querySelector(selector)
+      if (cur && neu) cur.replaceWith(neu.cloneNode(true))
+    }
+
+    function syncFallbackSection(curInner, nextInner) {
+      const cur = curInner.querySelector(".section-fallback")
+      const neu = nextInner.querySelector(".section-fallback")
+      if (neu) {
+        if (cur) cur.replaceWith(neu.cloneNode(true))
+        else curInner.appendChild(neu.cloneNode(true))
+      } else if (cur) {
+        cur.remove()
+      }
+    }
+
+    function ensureAbilitiesListContainer(el) {
+      const inner = el.querySelector(".card-details-inner")
+      if (!inner) return null
+      let sec = inner.querySelector(".section-abilities")
+      if (!sec) {
+        sec = document.createElement("section")
+        sec.className = "section-abilities"
+        const h = document.createElement("h3")
+        h.textContent = "Abilities"
+        sec.appendChild(h)
+        inner.appendChild(sec)
+      }
+      let list = sec.querySelector(".abilities-list")
+      if (!list) {
+        list = document.createElement("div")
+        list.className = "abilities-list"
+        sec.appendChild(list)
+      }
+      return list
+    }
+
+    function reorderAbilities(container, orderedAbilities, map, unitSlug) {
+      const frag = document.createDocumentFragment()
+      orderedAbilities.forEach(ability => {
+        const key = abilityDomKey(ability, unitSlug)
+        const node = map.get(key)
+        if (node) frag.appendChild(node)
+      })
+      container.appendChild(frag)
+    }
+
+    /** CREATE only — parses same markup as renderAbility (delegation uses .ability[data-ability-name]). */
+    function createAbilityNode(ability, unitSlug) {
+      const tpl = document.createElement("template")
+      tpl.innerHTML = renderAbility(ability, unitSlug).trim()
+      return tpl.content.firstElementChild
+    }
+
+    function updateAbilityNode(node, ability, unitSlug) {
+      if (!ability || !node) return
+      const name = ability.name || "(unnamed)"
+      const type = ability.type || ""
+      const desc = ability.description || ""
+      const usable = isAbilityUsable(unitSlug, ability)
+      const cls =
+        usable === true
+          ? "ability usable"
+          : usable === "conditional"
+            ? "ability conditional"
+            : "ability disabled"
+      node.className = cls
+      node.dataset.unitSlug = unitSlug
+      node.dataset.abilityName = name
+      node.dataset.abilityType = type
+      node.dataset.abilityKey = abilityDomKey(ability, unitSlug)
+      node.title = "Tap to mark used this phase"
+
+      const tag =
+        usable === true ? "READY" : usable === "conditional" ? "REACTIVE" : "USED"
+      const tagEl = node.querySelector(".ability-tag")
+      if (tagEl) tagEl.textContent = tag
+
+      const tagAbility = node.querySelector(".ability-tag")
+      let typeSpan = null
+      for (const s of node.querySelectorAll("span.type")) {
+        if (!s.classList.contains("phase-pill")) {
+          typeSpan = s
+          break
+        }
+      }
+      let phaseSpan = node.querySelector("span.type.phase-pill")
+
+      if (type) {
+        if (typeSpan) typeSpan.textContent = type
+        else {
+          const s = document.createElement("span")
+          s.className = "type"
+          if (tagAbility) node.insertBefore(s, tagAbility)
+          else node.insertBefore(s, node.firstChild)
+          typeSpan = s
+          typeSpan.textContent = type
+        }
+      } else if (typeSpan) {
+        typeSpan.remove()
+        typeSpan = null
+      }
+
+      if (ability.phase) {
+        const pt = ability.phase
+        if (phaseSpan) phaseSpan.textContent = pt
+        else {
+          const s = document.createElement("span")
+          s.className = "type phase-pill"
+          s.textContent = pt
+          if (tagAbility && tagAbility.nextSibling) node.insertBefore(s, tagAbility.nextSibling)
+          else node.appendChild(s)
+          phaseSpan = s
+        }
+      } else if (phaseSpan) {
+        phaseSpan.remove()
+      }
+
+      const titleEl = node.querySelector(".title")
+      const descEl = node.querySelector(".desc")
+      if (titleEl) titleEl.textContent = name
+      if (descEl) descEl.textContent = desc
+    }
+
+    function updateAbilitiesSection(el, unit) {
+      const slug = unit.slug != null ? String(unit.slug) : slugFromName(unit.name)
+      const container = ensureAbilitiesListContainer(el)
+      if (!container) return
+
+      if (!el._abilitiesMap) el._abilitiesMap = new Map()
+
+      const abilitiesAll = Array.isArray(unit.abilities) ? unit.abilities : []
+      const next = logic.abilitiesForPhase(unit, state.phase)
+
+      if (next.length === 0) {
+        for (const [, node] of [...el._abilitiesMap.entries()]) {
+          node.remove()
+        }
+        el._abilitiesMap.clear()
+        while (container.firstChild) container.removeChild(container.firstChild)
+        container.classList.add("abilities-list--empty")
+        const p = document.createElement("p")
+        p.className = "empty"
+        p.textContent = abilitiesAll.length
+          ? "No abilities for this phase (Passives and Reactions still apply when present)."
+          : "No abilities in file."
+        container.appendChild(p)
+        return
+      }
+
+      container.classList.remove("abilities-list--empty")
+      container.querySelectorAll(":scope > p.empty").forEach(n => n.remove())
+
+      const nextKeys = new Set()
+      next.forEach(ability => {
+        const key = abilityDomKey(ability, slug)
+        nextKeys.add(key)
+
+        let node = el._abilitiesMap.get(key)
+        if (!node) {
+          node = createAbilityNode(ability, slug)
+          if (!node) return
+          el._abilitiesMap.set(key, node)
+          container.appendChild(node)
+        }
+        updateAbilityNode(node, ability, slug)
+      })
+
+      for (const [key, node] of [...el._abilitiesMap.entries()]) {
+        if (!nextKeys.has(key)) {
+          node.remove()
+          el._abilitiesMap.delete(key)
+        }
+      }
+
+      reorderAbilities(container, next, el._abilitiesMap, slug)
+    }
+
+    /** Create once per slug; listeners come from delegated #list handler (no per-card binds). */
+    function createCardElement(unit, searchQ) {
+      const tpl = document.createElement("template")
+      tpl.innerHTML = renderCard(unit, searchQ).trim()
+      const el = tpl.content.firstElementChild
+      if (el) {
+        el._abilitiesMap = new Map()
+        el.querySelectorAll(".ability[data-ability-key]").forEach(node => {
+          const k = node.dataset.abilityKey
+          if (k) el._abilitiesMap.set(k, node)
+        })
+        el._aosInner = el.innerHTML
+        el._sig = getRenderSignature(unit, searchQ)
+      }
+      return el
+    }
+
+    function updateCardElement(el, unit, searchQ) {
+      const nextSig = getRenderSignature(unit, searchQ)
+      if (el._sig === nextSig) return
+
+      el._sig = nextSig
+
+      const tpl = document.createElement("template")
+      tpl.innerHTML = renderCard(unit, searchQ).trim()
+      const next = tpl.content.firstElementChild
+      if (!next) return
+      el.className = next.className
+      for (const a of ["data-unit-slug", "data-slug", "data-unit-key"]) {
+        const v = next.getAttribute(a)
+        if (v != null) el.setAttribute(a, v)
+      }
+
+      const curInner = el.querySelector(".card-details-inner")
+      const nextInner = next.querySelector(".card-details-inner")
+      const curSummary = el.querySelector(".card-summary")
+      const nextSummary = next.querySelector(".card-summary")
+      if (curSummary && nextSummary) curSummary.replaceWith(nextSummary.cloneNode(true))
+
+      if (curInner && nextInner) {
+        syncCardSectionReplace(curInner, nextInner, ".section-stats")
+        syncCardSectionReplace(curInner, nextInner, ".section-weapons")
+        syncFallbackSection(curInner, nextInner)
+      }
+
+      if (!el._abilitiesMap) el._abilitiesMap = new Map()
+      updateAbilitiesSection(el, unit)
+
+      el._aosInner = el.innerHTML
+    }
+
+    function reorderGameCards(visible) {
+      const list = ensureDomList()
+      if (!list) return
+      const frag = document.createDocumentFragment()
+      for (let i = 0; i < visible.length; i++) {
+        const el = dom.cardMap.get(unitSlugKey(visible[i]))
+        if (el) frag.appendChild(el)
+      }
+      list.appendChild(frag)
+    }
+
+    function incrementalRenderGameList(vm) {
+      if (!ensureDomList()) return
+      const visible = vm.visible
+      const q = vm.searchQuery
+      const selectedSlug = vm.selectedSlug != null ? String(vm.selectedSlug) : ""
+      const nextSlugs = new Set()
+
+      const hot = []
+      const cold = []
+      for (let i = 0; i < visible.length; i++) {
+        const unit = visible[i]
+        const slug = unitSlugKey(unit)
+        if (selectedSlug && slug === selectedSlug) {
+          hot.push(unit)
+        } else {
+          cold.push(unit)
+        }
+      }
+
+      const updateOrCreate = unit => {
+        const slug = unitSlugKey(unit)
+        nextSlugs.add(slug)
+
+        let el = dom.cardMap.get(slug)
+        if (!el) {
+          el = createCardElement(unit, q)
+          if (el) dom.cardMap.set(slug, el)
+        } else {
+          updateCardElement(el, unit, q)
+        }
+      }
+
+      hot.forEach(updateOrCreate)
+      cold.forEach(updateOrCreate)
+
+      for (const [slug, el] of [...dom.cardMap.entries()]) {
+        if (!nextSlugs.has(slug)) {
+          el.remove()
+          dom.cardMap.delete(slug)
+          delete el._aosInner
+          delete el._sig
+          if (el._abilitiesMap) {
+            el._abilitiesMap.clear()
+            delete el._abilitiesMap
+          }
+        }
+      }
+
+      reorderGameCards(visible)
     }
 
     function uniqueSortedFactions(units) {
@@ -4362,6 +6949,74 @@
     function syncBodyAppModeClass() {
       document.body.classList.remove("app-mode-home", "app-mode-setup", "app-mode-game", "app-mode-assign")
       document.body.classList.add(`app-mode-${state.appMode}`)
+      document.body.classList.toggle(
+        "game-mode",
+        state.appMode === "game" || !!state.gameStarted
+      )
+    }
+
+    /** Army import / external callers: enter game shell + NFC read mode with valid phase. */
+    async function startGame() {
+      state.appMode = "game"
+      const systemKey = state.game || "aos"
+      try {
+        state.system = await loadSystemPackage(systemKey)
+      } catch (e) {
+        console.warn("startGame: system package fallback", e)
+        state.system = SYSTEM_CONFIG[systemKey] || SYSTEM_CONFIG.aos
+      }
+      state.system = state.system || SYSTEM_CONFIG.aos
+      PHASES.length = 0
+      PHASES.push(...state.system.phases)
+      compilePhasePatterns(state.system)
+      compileSignalPatterns(state.system)
+
+      const factionRef = state.sessionFactionSlug || FACTION_CONFIG.gloomspite.slug
+      const ac = new AbortController()
+      try {
+        const { profile, raw } = await loadFaction(factionRef, ac.signal)
+        state.factionProfile = profile
+        await finishFactionLoad(raw, profile.id || factionRef, ac.signal)
+      } catch (e) {
+        console.warn("startGame: faction load", e)
+      }
+
+      if (!PHASES.includes(state.phase)) {
+        state.phase = PHASES[0]
+      }
+      initializeGameSession()
+      console.log("START GAME CALLED →", state.appMode, state.system && state.system.id)
+      syncBodyAppModeClass()
+      requestAnimationFrame(() => {
+        renderRoot()
+      })
+      void ensureGameNfcScan()
+    }
+
+    /** Single visible mode screen: inline display (not body-class-only). */
+    function showOnlyScreen(id) {
+      const ids = ["homeScreen", "setupScreen", "gameScreen", "assignScreen"]
+      ids.forEach(s => {
+        const el = document.getElementById(s)
+        if (!el) return
+        const visible = s === id
+        if (visible) {
+          el.classList.add("active")
+          el.style.pointerEvents = "auto"
+          // Match prior #gameScreen.active (grid) vs .mode-screen.active (flex); not plain "block".
+          el.style.display = s === "gameScreen" ? "grid" : "flex"
+        } else {
+          el.classList.remove("active")
+          el.style.pointerEvents = "none"
+          el.style.display = "none"
+        }
+      })
+      if (typeof DEBUG !== "undefined" && DEBUG) {
+        const activeScreens = document.querySelectorAll(".mode-screen.active")
+        if (activeScreens.length !== 1) {
+          console.warn("Multiple or zero active mode screens:", activeScreens.length, activeScreens)
+        }
+      }
     }
 
     async function ensureFactionManifest() {
@@ -4379,7 +7034,7 @@
 
     function buildFactionOptionsHtml(selectedSlug) {
       const list = factionManifestCache || []
-      const cur = selectedSlug || "daughters-of-khaine"
+      const cur = selectedSlug || FACTION_CONFIG.gloomspite.slug
       return list
         .slice()
         .sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")))
@@ -4399,19 +7054,56 @@
       const facSel = document.getElementById("setupFactionSelect")
       if (gameSel) gameSel.value = state.game || "aos"
       if (facSel && factionManifestCache.length) {
-        const cur = new URLSearchParams(location.search).get("faction") || state.sessionFactionSlug || "daughters-of-khaine"
+        const cur =
+          new URLSearchParams(location.search).get("faction") ||
+          state.sessionFactionSlug ||
+          FACTION_CONFIG.gloomspite.slug
         facSel.innerHTML = buildFactionOptionsHtml(cur)
         if ([...facSel.options].some(o => o.value === cur)) facSel.value = cur
       }
     }
 
+    /** Toggle game chrome from `state.system.ui` / `ui.components` (package-driven visibility). */
+    function applyGameScreenUiFromSystem() {
+      const ui = currentSystem().ui
+      if (!ui) return
+      const hasComp = id => {
+        if (Array.isArray(ui.components)) return ui.components.includes(id)
+        if (id === "cpTracker") return ui.showCP !== false
+        if (id === "roundTracker") return ui.showRound !== false
+        if (id === "nextUnit") return ui.showNextUnit !== false
+        if (id === "phaseBar" || id === "unitList" || id === "popup") return true
+        return true
+      }
+      const show = (id, on) => {
+        const el = document.getElementById(id)
+        if (el) el.hidden = !on
+      }
+      const roundOn = hasComp("roundTracker")
+      show("roundCounter", roundOn)
+      show("nextRoundBtn", roundOn)
+      const cpOn = hasComp("cpTracker")
+      show("cpDisplay", cpOn)
+      show("cpMinus", cpOn)
+      show("cpPlus", cpOn)
+      show("nextUnitBtn", hasComp("nextUnit"))
+      const cpPanel = document.getElementById("cpPanel")
+      if (cpPanel) cpPanel.hidden = !cpOn
+      document.querySelector("#gameScreen .phase-bar")?.toggleAttribute("hidden", !hasComp("phaseBar"))
+      const listRoot = getGameListContainer()
+      if (listRoot) listRoot.hidden = !hasComp("unitList")
+    }
+
     async function startMatchFromSetup() {
       const gameSel = document.getElementById("setupGameSelect")
       const facSel = document.getElementById("setupFactionSelect")
+      const pasteEl = document.getElementById("setupArmyPaste")
       const matchBtn = document.getElementById("startMatchBtn")
+      await ensureFactionManifest()
       state.game = (gameSel && gameSel.value) || "aos"
-      const factionSlug = (facSel && facSel.value) || "daughters-of-khaine"
+      const factionSlug = (facSel && facSel.value) || FACTION_CONFIG.gloomspite.slug
       state.sessionFactionSlug = factionSlug
+      state.factionProfile = resolveFactionProfile(factionSlug)
       state.faction = ""
       const path = getViewerPathname()
       const qs = new URLSearchParams()
@@ -4421,37 +7113,54 @@
       } catch (_) {}
       if (matchBtn) matchBtn.disabled = true
       try {
-        await load()
-        initializeGameSession()
-        state.appMode = "game"
-        renderRoot()
+        const raw = (pasteEl && pasteEl.value) || ""
+        if (raw.trim()) {
+          await load()
+          await importData(raw, { allowInitMerge: false })
+        } else {
+          state.armyList = null
+          state.gameStarted = false
+          await startGame()
+        }
       } finally {
         if (matchBtn) matchBtn.disabled = false
       }
     }
 
     function renderRoot() {
+      const mode = state.appMode
+      console.log("RENDER ROOT MODE:", mode)
       syncBodyAppModeClass()
-      const home = document.getElementById("homeScreen")
-      const setup = document.getElementById("setupScreen")
-      const game = document.getElementById("gameScreen")
-      const assign = document.getElementById("assignScreen")
 
-      if (home) home.classList.toggle("active", state.appMode === "home")
-      if (setup) setup.classList.toggle("active", state.appMode === "setup")
-      if (game) game.classList.toggle("active", state.appMode === "game")
-      if (assign) assign.classList.toggle("active", state.appMode === "assign")
+      if (mode === "game") {
+        showOnlyScreen("gameScreen")
+        renderGameScreen()
+      } else if (mode === "setup") {
+        showOnlyScreen("setupScreen")
+        void renderSetupScreen()
+      } else if (mode === "assign") {
+        showOnlyScreen("assignScreen")
+        void renderAssignScreen()
+      } else {
+        showOnlyScreen("homeScreen")
+        renderHomeScreen()
+      }
 
-      if (state.appMode === "home") renderHomeScreen()
-      else if (state.appMode === "setup") void renderSetupScreen()
-      else if (state.appMode === "game") renderGameScreen()
-      else       if (state.appMode === "assign") void renderAssignScreen()
-      if (state.nfcOverlay.visible) scheduleNfcOverlayContentRender()
-
-      if (state.appMode === "game") void ensureGameNfcScan()
-      else stopGameNfcScan()
+      if (mode === "game") {
+        if (state.nfc.flow !== "read") enterNfcReadMode()
+        else if (state.nfcAutoScanEnabled) void ensureGameNfcScan()
+      } else {
+        if (mode === "assign") {
+          if (state.nfc.flow !== "write") enterNfcWriteMode()
+        } else if (state.nfc.flow !== "idle") {
+          setNfcFlow("idle")
+        }
+        if (state.nfcAutoScanEnabled) void ensureGameNfcScan()
+      }
 
       updateNfcScanControls()
+      renderModal()
+      render()
     }
 
     function renderHomeScreen() {
@@ -4459,7 +7168,23 @@
     }
 
     function renderGameScreen() {
+      const root = document.getElementById("gameScreen")
+      if (!root) {
+        console.error("gameScreen not found")
+        return
+      }
+      console.log("RENDER GAME SCREEN →", root)
+
+      dom.listEl = null
       refreshList()
+      if (gameViewRafId) {
+        cancelAnimationFrame(gameViewRafId)
+        gameViewRafId = 0
+      }
+      flushGameViewFrame()
+
+      applyGameScreenUiFromSystem()
+
       const pt = document.getElementById("pageTitle")
       if (pt && pt.textContent.trim()) document.title = pt.textContent.trim()
       updateNfcScanControls()
@@ -4473,6 +7198,10 @@
 
     async function renderAssignScreen() {
       document.title = "NFC Assignment — AoS Companion"
+      console.log("ASSIGN RENDER:", {
+        faction: state.assignFactionSlug,
+        units: state.allUnits?.length
+      })
       await ensureFactionManifest()
       const gameSel = document.getElementById("assignGameSelect")
       const facSel = document.getElementById("assignFactionSelect")
@@ -4484,18 +7213,21 @@
         const cur =
           state.assignFactionSlug ||
           new URLSearchParams(location.search).get("faction") ||
-          "daughters-of-khaine"
+          FACTION_CONFIG.gloomspite.slug
         facSel.innerHTML = buildFactionOptionsHtml(cur)
         if ([...facSel.options].some(o => o.value === cur)) facSel.value = cur
         state.assignFactionSlug = facSel.value || cur
       }
 
-      if (!listEl) return
+      if (!listEl) {
+        renderNfcDebug()
+        return
+      }
 
-      let units = getUnitsForNfcExport().slice()
+      const units = [...(state.allUnits || [])]
       units.sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")))
 
-      if (!state.allUnits.length) {
+      if (!(state.allUnits || []).length) {
         listEl.innerHTML =
           '<p class="unit-empty" style="margin-top:1rem;text-align:center">Choose a game faction above, or wait for warscrolls to finish loading.</p>'
         if (statusEl) {
@@ -4504,22 +7236,57 @@
           statusEl.classList.remove("assign-nfc-status--writing")
         }
         if (writeBtn) writeBtn.disabled = true
+        const modeBannerEmpty = document.getElementById("nfcAssignModeBanner")
+        if (modeBannerEmpty) {
+          modeBannerEmpty.hidden = true
+          modeBannerEmpty.textContent = ""
+        }
         const qw = document.getElementById("assignNfcQrWrap")
         if (qw) qw.hidden = true
+        renderNfcDebug()
         return
       }
 
-      listEl.innerHTML = units
+      listEl.innerHTML = (units || [])
         .map(u => {
           const slug = u.slug || slugify(u.name)
           const selAttr = state.assigningUnitSlug === slug ? ' data-selected="true"' : ""
-          return `<button type="button" class="assign-unit-btn" data-unit-slug="${escAttr(slug)}"${sel}>${esc(u.name || slug)}</button>`
+          return `<button type="button" class="assign-unit-btn" data-unit-slug="${escAttr(slug)}"${selAttr}>${esc(u.name || slug)}</button>`
         })
         .join("")
 
+      if (
+        state.nfcAssignActive &&
+        state.nfc.flow === "write" &&
+        state.assigningUnitSlug &&
+        state.assignWritePhase === "ready" &&
+        state.nfc.mode === "idle"
+      ) {
+        state.nfc.pendingUnitSlug = state.assigningUnitSlug
+        state.nfc.mode = "waiting_for_tap"
+      }
+
       if (writeBtn) {
         writeBtn.disabled =
-          !state.assigningUnitSlug || state.assignWritePhase === "writing"
+          state.nfc.flow !== "write" ||
+          !state.assigningUnitSlug ||
+          state.assignWritePhase === "writing" ||
+          state.nfc.isScanning ||
+          state.nfc.mode !== "waiting_for_tap"
+      }
+
+      const modeBanner = document.getElementById("nfcAssignModeBanner")
+      if (modeBanner) {
+        if (state.nfc.mode === "waiting_for_tap" && state.assigningUnitSlug) {
+          modeBanner.hidden = false
+          modeBanner.textContent = "Tap “Write to NFC”, then hold your tag to the phone."
+        } else if (state.nfc.mode === "scanning" || state.nfc.isScanning) {
+          modeBanner.hidden = false
+          modeBanner.textContent = "Scanning… hold tag in place."
+        } else {
+          modeBanner.hidden = true
+          modeBanner.textContent = ""
+        }
       }
 
       const qrWrap = document.getElementById("assignNfcQrWrap")
@@ -4556,7 +7323,9 @@
 
       if (qrWrap && qrImg) {
         const showQr =
-          !("NDEFReader" in window) && !!state.assigningUnitSlug && state.allUnits.length > 0
+          !isNativeNfcAvailable() &&
+          !!state.assigningUnitSlug &&
+          (state.allUnits || []).length > 0
         if (showQr) {
           qrWrap.hidden = false
           const u = buildTagUrlForSlug(state.assigningUnitSlug)
@@ -4565,104 +7334,7 @@
           qrWrap.hidden = true
         }
       }
-    }
-
-    async function performAssignNfcWrite() {
-      const slug = state.assigningUnitSlug
-      if (!slug || state.assignWritePhase === "writing") return
-
-      const unit = findUnitByRouteId(slug)
-      if (!unit) {
-        state.assignWritePhase = "error"
-        state.assignWriteErrorDetail = "pick a valid unit"
-        await renderAssignScreen()
-        return
-      }
-
-      const payload = {
-        type: "aos-unit",
-        slug: unit.slug || slugify(unit.name),
-        name: unit.name || "",
-        faction: unit.faction || ""
-      }
-      const fallbackUrl = buildTagUrlForSlug(payload.slug)
-
-      state.assignWritePhase = "writing"
-      state.assignWriteErrorDetail = ""
-      await renderAssignScreen()
-
-      if (!("NDEFReader" in window)) {
-        showNfcWriteModal(true, "Hold tag to phone")
-        await delay(80)
-        try {
-          await navigator.clipboard.writeText(fallbackUrl)
-          const r = upsertNfcAssignment(`pending:${payload.slug}`, payload)
-          showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
-          state.assignWritePhase = "success"
-          scheduleHideNfcWriteModal(1200)
-        } catch (_) {
-          showNfcWriteModal(true, "Write failed. Try again")
-          state.assignWritePhase = "error"
-          scheduleHideNfcWriteModal(2200)
-        }
-        await renderAssignScreen()
-        return
-      }
-
-      showNfcWriteModal(true, "Hold tag near phone")
-      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))
-
-      const tagId = await readFirstTagIdFromScan(3000)
-      if (!tagId) {
-        state.assignWritePhase = "error"
-        state.assignWriteErrorDetail = "no tag detected"
-        showNfcWriteModal(true, "No tag detected. Try again")
-        scheduleHideNfcWriteModal(2200)
-        await renderAssignScreen()
-        return
-      }
-
-      state.pendingTagWrite = { tagId, slug: payload.slug }
-      const proceed = await maybeConfirmTagOverwrite(tagId, payload.slug)
-      state.pendingTagWrite = null
-      if (!proceed) {
-        state.assignWritePhase = "ready"
-        state.assignWriteErrorDetail = ""
-        showNfcWriteModal(false)
-        await renderAssignScreen()
-        return
-      }
-
-      showNfcWriteModal(true, "Writing… Keep tag in place")
-
-      try {
-        if (DEBUG) console.log("NFC WRITE:", payload)
-        await writePayloadToTagWithRetry(payload, 2)
-        showNfcWriteModal(true, "Verifying…")
-        const verified = await verifyNfcWriteReadBack(payload.slug, 1500)
-        if (!verified) {
-          state.assignWritePhase = "error"
-          state.assignWriteErrorDetail = "verify failed"
-          showNfcWriteModal(true, "Write may have failed")
-          scheduleHideNfcWriteModal(3200)
-          await renderAssignScreen()
-          return
-        }
-        const r = upsertNfcAssignment(`pending:${payload.slug}`, payload)
-        showNfcWriteModal(true, r ? "Tag reassigned ✓" : "Tag written ✓")
-        state.assignWritePhase = "success"
-        scheduleHideNfcWriteModal(1200)
-      } catch (e) {
-        state.assignWritePhase = "error"
-        state.assignWriteErrorDetail =
-          e && e.name === "AbortError" ? "cancelled" : (e && e.message) || String(e)
-        showNfcWriteModal(true, "Write failed. Try again")
-        scheduleHideNfcWriteModal(2200)
-        try {
-          await navigator.clipboard.writeText(fallbackUrl)
-        } catch (_) {}
-      }
-      await renderAssignScreen()
+      renderNfcDebug()
     }
 
     function populateMobilePhaseSelect() {
@@ -4681,11 +7353,7 @@
       if (!mobile || !desktop) return
       mobile.addEventListener("change", () => {
         desktop.value = mobile.value
-        state.phase = desktop.value || PHASES[0]
-        resetPhaseAbilityUsage()
-        refreshList()
-        if (state.selectedUnit) syncUrlToSelection(state.selectedUnit)
-        saveState()
+        setGamePhase(desktop.value || PHASES[0])
       })
     }
 
@@ -4716,10 +7384,66 @@
       })
     }
 
-    function refreshList() {
-      if (state.appMode !== "game") return
-      hideNfcActionBar()
-      state.nfcActiveSlug = null
+    /**
+     * READ phase: snapshot everything the game list paint needs (no DOM writes).
+     * Writers use this snapshot in renderGameView(vm) for predictable timing.
+     */
+    function computeGameViewModel() {
+      const appMode = state.appMode
+      if (appMode !== "game") {
+        return {
+          appMode,
+          visible: [],
+          phase: state.phase,
+          turn: state.turn,
+          totalUnits: state.allUnits.length,
+          selectedSlug: state.selectedUnit ? stableUnitSlug(state.selectedUnit) : null,
+          searchQuery: state.searchQuery
+        }
+      }
+      const visible = filterUnits()
+      return {
+        appMode,
+        visible,
+        phase: state.phase,
+        turn: state.turn,
+        totalUnits: state.allUnits.length,
+        selectedSlug: state.selectedUnit ? stableUnitSlug(state.selectedUnit) : null,
+        searchQuery: state.searchQuery
+      }
+    }
+
+    let gameViewRafId = 0
+    let searchDebounceTimer = null
+
+    function scheduleGameView() {
+      if (gameViewRafId) return
+      gameViewRafId = requestAnimationFrame(() => {
+        gameViewRafId = 0
+        flushGameViewFrame()
+      })
+    }
+
+    const scheduleRender = scheduleGameView
+
+    function flushGameViewFrame() {
+      const t0 = performance.now()
+      const vm = computeGameViewModel()
+      renderGameView(vm)
+      const dt = performance.now() - t0
+      if (dt > 16) console.warn("Slow game view frame:", dt.toFixed(1), "ms")
+    }
+
+    /** DOM writes only; consume vm from computeGameViewModel (single read→write boundary per frame). */
+    function renderGameView(vm) {
+      if (vm.appMode !== "game") return
+      const sysInd = document.getElementById("systemIndicator")
+      if (sysInd) {
+        const sysKey = getActiveSystemName()
+        sysInd.textContent = sysKey.toUpperCase()
+        sysInd.className = `system-indicator system-indicator--${sysKey}`
+      }
+      syncGameSystemRowUi()
       const el = document.getElementById("error")
       if (state.allUnits && state.allUnits.length > 0) {
         if (el) {
@@ -4727,8 +7451,7 @@
           el.classList.add("hidden")
         }
       }
-      const q = document.getElementById("search").value.trim().toLowerCase()
-      const visible = filterUnits()
+      const visible = vm.visible
       console.log("Visible units after filtering:", visible.length)
 
       const keysInView = new Set(visible.map(unitKey))
@@ -4736,26 +7459,34 @@
         if (!keysInView.has(k)) state.expandedKeys.delete(k)
       }
 
-      const list = document.getElementById("list")
       const status = document.getElementById("status")
-      status.textContent = `Showing ${visible.length} of ${state.allUnits.length} units`
-      list.innerHTML = visible.map(u => renderCard(u, q)).join("")
+      if (status) status.textContent = `Showing ${visible.length} of ${vm.totalUnits} units`
+
+      incrementalRenderGameList(vm)
+      if (DEBUG && visible.length > 0) {
+        const listEl = getGameListContainer()
+        const n = listEl ? listEl.querySelectorAll("article[data-unit-slug]").length : 0
+        if (n === 0)
+          console.warn("render: VM has visible units but #list has no article[data-unit-slug]")
+      }
       syncCardFocusClasses()
       updatePhaseDisplay()
       renderUnitPanel()
       renderNfcExportTable()
-      if (state.nfcOverlay.visible) scheduleNfcOverlayContentRender()
+      hideNfcActionBar()
+      renderModal()
+      render()
+    }
+
+    function refreshList() {
+      scheduleGameView()
     }
 
     function setupPhaseSelect() {
       const sel = document.getElementById("phaseSelect")
       if (!sel) return
       sel.addEventListener("change", () => {
-        state.phase = sel.value || PHASES[0]
-        resetPhaseAbilityUsage()
-        refreshList()
-        if (state.selectedUnit) syncUrlToSelection(state.selectedUnit)
-        saveState()
+        setGamePhase(sel.value || PHASES[0])
       })
     }
 
@@ -4766,6 +7497,101 @@
         e.stopPropagation()
         advancePhaseTrack()
       })
+    }
+
+    function setupResetActivationsBtn() {
+      const btn = document.getElementById("resetActivationsBtn")
+      if (!btn) return
+      btn.addEventListener("click", () => {
+        resetActivations()
+        render()
+      })
+    }
+
+    function setupNextUnitBtn() {
+      const btn = document.getElementById("nextUnitBtn")
+      if (!btn) return
+      btn.addEventListener("click", () => {
+        const next = getNextUnactivatedUnit()
+        if (next) {
+          state.selectedUnit = next
+          openUnitPopup(next)
+          refreshList()
+        } else {
+          showNfcToast("All units activated")
+        }
+      })
+    }
+
+    function setupGameSystemRowControls() {
+      document.getElementById("nextRoundBtn")?.addEventListener("click", () => {
+        state.round++
+        resetActivations()
+        const cpR = currentSystem().rules && currentSystem().rules.cp
+        if (cpR && cpR.resetEachRound) {
+          const base = typeof cpR.start === "number" ? cpR.start : 0
+          const add = typeof cpR.perRound === "number" ? cpR.perRound : 0
+          state.cp = base + add
+        } else {
+          state.cp = 0
+        }
+        closePopup()
+        syncGameSystemRowUi()
+        render()
+        refreshList()
+        saveState()
+      })
+      document.getElementById("cpPlus")?.addEventListener("click", () => {
+        state.cp++
+        syncGameSystemRowUi()
+        render()
+        saveState()
+      })
+      document.getElementById("cpMinus")?.addEventListener("click", () => {
+        state.cp = Math.max(0, state.cp - 1)
+        syncGameSystemRowUi()
+        render()
+        saveState()
+      })
+    }
+
+    function setupUnitCardLongPress() {
+      const listEl = getGameListContainer()
+      if (!listEl || listEl.dataset.activationLongPress) return
+      listEl.dataset.activationLongPress = "1"
+
+      const clearTimer = () => {
+        if (listLongPressTimer) {
+          clearTimeout(listLongPressTimer)
+          listLongPressTimer = null
+        }
+      }
+
+      const onDown = e => {
+        if (e.target.closest("button")) return
+        const card = e.target.closest("article[data-unit-slug]")
+        if (!card) return
+        const slug = card.dataset.unitSlug || card.getAttribute("data-unit-slug")
+        if (!slug) return
+        clearTimer()
+        listLongPressTimer = setTimeout(() => {
+          listLongPressTimer = null
+          const unit = state.allUnits.find(u => stableUnitSlug(u) === String(slug))
+          if (unit) {
+            toggleUnitActivation(unit)
+            listLongPressSuppressCard = true
+            render()
+            refreshList()
+            saveState()
+          }
+        }, 500)
+      }
+
+      listEl.addEventListener("mousedown", onDown)
+      listEl.addEventListener("touchstart", onDown, { passive: true })
+      document.addEventListener("mouseup", clearTimer, true)
+      document.addEventListener("touchend", clearTimer, { passive: true, capture: true })
+      document.addEventListener("touchcancel", clearTimer, { passive: true, capture: true })
     }
 
     function setupClearSavedStateBtn() {
@@ -4779,13 +7605,30 @@
     }
 
     function syncCardFocusClasses() {
-      const list = document.getElementById("list")
+      const list = ensureDomList()
       if (!list) return
-      const cards = [...list.querySelectorAll(".card")]
-      const anyExpanded = cards.some(c => c.classList.contains("expanded"))
+      const cards = [...list.querySelectorAll("article[data-unit-slug]")]
+      let anyExpanded = false
+      for (const c of cards) {
+        const rawKey = c.getAttribute("data-unit-key")
+        if (!rawKey) continue
+        try {
+          if (state.expandedKeys.has(decodeURIComponent(rawKey))) {
+            anyExpanded = true
+            break
+          }
+        } catch (_) {}
+      }
       list.classList.toggle("has-expanded-card", anyExpanded)
       cards.forEach(c => {
-        c.classList.toggle("is-dimmed", anyExpanded && !c.classList.contains("expanded"))
+        const rawKey = c.getAttribute("data-unit-key")
+        let expanded = false
+        if (rawKey) {
+          try {
+            expanded = state.expandedKeys.has(decodeURIComponent(rawKey))
+          } catch (_) {}
+        }
+        c.classList.toggle("is-dimmed", anyExpanded && !expanded)
       })
     }
 
@@ -4803,101 +7646,24 @@
         const first = state.allUnits.find(u => u.slug === firstSlug)
         if (first) state.selectedUnit = first
       }
-      renderUnitPanel()
+      if (state.appMode === "game") refreshList()
+      else renderUnitPanel()
     }
 
     function setupListClickDelegation() {
-      const listEl = document.getElementById("list")
+      const listEl = getGameListContainer()
       if (!listEl) return
-      listEl.addEventListener("click", e => {
-        const abil = e.target.closest(".ability[data-ability-name]")
-        if (abil) {
-          e.stopPropagation()
-          const slug = abil.getAttribute("data-unit-slug")
-          const aname = abil.getAttribute("data-ability-name")
-          if (!slug || !aname) return
-          markAbilityUsed(slug, aname)
-          refreshList()
-          saveState()
-          return
-        }
-
-        const actBtn = e.target.closest("button.unit-activate-btn")
-        if (actBtn) {
-          e.stopPropagation()
-          const slug = actBtn.getAttribute("data-slug")
-          if (!slug) return
-          toggleUnitActivated(slug)
-          refreshList()
-          saveState()
-          return
-        }
-
-        const foughtBtn = e.target.closest("button.unit-fought-btn")
-        if (foughtBtn) {
-          e.stopPropagation()
-          const slug = foughtBtn.getAttribute("data-slug") || foughtBtn.dataset.slug
-          if (!slug) return
-          const s = getUnitTracking(slug)
-          s.fought = !s.fought
-          refreshList()
-          saveState()
-          return
-        }
-
-        const card = e.target.closest(".card")
-        if (!card) return
-
-        const slug = card.getAttribute("data-slug")
-        if (!slug) return
-
-        const unit = state.allUnits.find(u => u.slug === slug)
-        if (!unit) return
-
-        preloadUnitData(unit)
-
-        state.selectedUnit = unit
-        state.routeUnknownSlug = null
-        syncUrlToSelection(unit)
-        renderUnitPanel()
-
-        const rawKey = card.getAttribute("data-unit-key")
-        if (!rawKey) {
-          refreshList()
-          return
-        }
-        let key
-        try {
-          key = decodeURIComponent(rawKey)
-        } catch {
-          refreshList()
-          return
-        }
-
-        let opened = false
-        if (state.expandedKeys.has(key)) {
-          state.expandedKeys.delete(key)
-        } else {
-          state.expandedKeys.add(key)
-          opened = true
-        }
-
-        refreshList()
-        if (opened) {
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => scrollAndHighlightUnit(slug))
-          })
-        }
-      })
+      listEl.addEventListener("click", handleListClick)
       listEl.addEventListener(
         "pointerenter",
         e => {
-          const card = e.target.closest(".card")
+          if (!e.target || !e.currentTarget.contains(e.target)) return
+          const card = e.target.closest("article[data-unit-slug]")
           if (!card) return
-          const slug = card.getAttribute("data-slug")
-          if (!slug) return
-          const unit = state.allUnits.find(u => u.slug === slug)
-          preloadUnitData(unit)
+          const slug = card.dataset.unitSlug || card.getAttribute("data-unit-slug")
+          if (!slug || !String(slug).trim()) return
+          const unit = state.allUnits.find(u => stableUnitSlug(u) === slug)
+          if (unit) preloadUnitData(unit)
         },
         { passive: true }
       )
@@ -4938,7 +7704,8 @@
     function scrollAndHighlightUnit(slug) {
       if (!slug) return
       const safe = typeof CSS !== "undefined" && CSS.escape ? CSS.escape(slug) : slug.replace(/"/g, '\\"')
-      const el = document.querySelector(`[data-slug="${safe}"]`)
+      const listRoot = getGameListContainer()
+      const el = listRoot?.querySelector(`article[data-unit-slug="${safe}"]`)
       if (!el) {
         console.warn("Deep link: no card for slug:", slug)
         return
@@ -4962,7 +7729,7 @@
         }
         if (state.activeKeywords.has(kw)) state.activeKeywords.delete(kw)
         else state.activeKeywords.add(kw)
-        btn.classList.toggle("active", state.activeKeywords.has(kw))
+        renderKeywordPills(uniqueSortedKeywords(state.allUnits))
         refreshList()
       })
     }
@@ -5013,7 +7780,7 @@
         if (expandBtn) expandBtn.disabled = true
         return
       }
-      const unit = state.nfcOverlay.unit
+      const unit = state.ui.activeUnitPopup || state.nfcOverlay.unit
       if (!unit) {
         titleEl.textContent = ""
         quickEl.innerHTML = ""
@@ -5021,7 +7788,8 @@
         return
       }
       titleEl.textContent = unit.name || "Unit"
-      quickEl.innerHTML = `<div class="unit-faction" style="margin-bottom:0.75rem">${esc(unit.faction || "")}</div>${buildPhaseRelevantUnitInnerHtml(unit, false)}`
+      const inner = renderPopup({ unit })
+      quickEl.innerHTML = inner
       if (expandBtn) expandBtn.disabled = false
     }
 
@@ -5076,27 +7844,17 @@
       }
     }
 
-    function openNfcOverlay(unit) {
-      if (!unit) return
-      state.nfcOverlay.visible = true
-      state.nfcOverlay.unit = unit
-      state.nfcOverlay.unknownSlug = null
-      state.nfcOverlay.expanded = false
-      closeNfcFullSheetUi()
-      scheduleNfcOverlayContentRender()
-      showNfcOverlayDom()
-      flashNfcOverlayFeedback()
-    }
-
     function openNfcOverlayUnknown(slug) {
+      state.ui.activeUnitPopup = null
+      state.ui.popupExpanded = false
       state.nfcOverlay.visible = true
       state.nfcOverlay.unit = null
       state.nfcOverlay.unknownSlug = slug || ""
       state.nfcOverlay.expanded = false
       closeNfcFullSheetUi()
-      scheduleNfcOverlayContentRender()
       showNfcOverlayDom()
       flashNfcOverlayFeedback()
+      render()
     }
 
     function closeNfcOverlay() {
@@ -5104,6 +7862,8 @@
         cancelAnimationFrame(nfcOverlayContentRaf)
         nfcOverlayContentRaf = null
       }
+      state.ui.activeUnitPopup = null
+      state.ui.popupExpanded = false
       state.nfcOverlay.visible = false
       state.nfcOverlay.unit = null
       state.nfcOverlay.unknownSlug = null
@@ -5116,9 +7876,10 @@
     }
 
     function openNfcFullSheet() {
-      const unit = state.nfcOverlay.unit
+      const unit = state.ui.activeUnitPopup || state.nfcOverlay.unit
       if (!unit) return
       state.nfcOverlay.expanded = true
+      state.ui.popupExpanded = true
       const full = document.getElementById("nfcOverlayFullSheet")
       const body = document.getElementById("nfcOverlayFullBody")
       const h = document.getElementById("nfcOverlayFullTitle")
@@ -5129,13 +7890,9 @@
 
     function closeNfcFullSheetUi() {
       state.nfcOverlay.expanded = false
+      state.ui.popupExpanded = false
       const full = document.getElementById("nfcOverlayFullSheet")
       if (full) full.hidden = true
-    }
-
-    function setupNfcConfirmUi() {
-      document.getElementById("nfcConfirmOk")?.addEventListener("click", () => resolveNfcConfirm(true))
-      document.getElementById("nfcConfirmCancel")?.addEventListener("click", () => resolveNfcConfirm(false))
     }
 
     function setupNfcActionBar() {
@@ -5149,7 +7906,7 @@
             slugify(u.name) === slug ||
             slugify(u.name) === slugify(slug)
         )
-        if (unit) openNfcOverlay(unit)
+        if (unit) openUnitPopup(unit)
       })
       document.getElementById("nfcPutBackBtn")?.addEventListener("click", () => {
         resetNfcSelection()
@@ -5157,10 +7914,10 @@
     }
 
     function setupNfcOverlayUi() {
-      document.getElementById("nfcOverlayCloseBtn")?.addEventListener("click", () => closeNfcOverlay())
-      document.getElementById("nfcOverlayExpandBtn")?.addEventListener("click", () => openNfcFullSheet())
+      document.getElementById("nfcOverlayCloseBtn")?.addEventListener("click", () => closePopup())
+      document.getElementById("nfcOverlayExpandBtn")?.addEventListener("click", () => expandPopup())
       document.getElementById("nfcOverlayFullCloseBtn")?.addEventListener("click", () => closeNfcFullSheetUi())
-      document.querySelector(".nfc-overlay-scrim")?.addEventListener("click", () => closeNfcOverlay())
+      document.querySelector(".nfc-overlay-scrim")?.addEventListener("click", () => closePopup())
 
       const sheet = document.getElementById("nfcOverlaySheet")
       let touchY = null
@@ -5177,15 +7934,15 @@
           if (touchY == null) return
           const dy = e.changedTouches[0].clientY - touchY
           touchY = null
-          if (dy > 72) closeNfcOverlay()
+          if (dy > 72) closePopup()
         },
         { passive: true }
       )
 
       document.addEventListener("keydown", e => {
         if (e.key === "Escape" && state.nfcOverlay.visible) {
-          if (state.nfcOverlay.expanded) closeNfcFullSheetUi()
-          else closeNfcOverlay()
+          if (state.nfcOverlay.expanded || state.ui.popupExpanded) closeNfcFullSheetUi()
+          else closePopup()
         }
       })
     }
@@ -5199,7 +7956,7 @@
       }
       const found = findUnitByRouteId(link.unitId)
       if (found) {
-        openNfcOverlay(found)
+        openUnitPopup(found)
       } else {
         openNfcOverlayUnknown(link.unitId)
       }
@@ -5224,6 +7981,7 @@
 
       assignSlugs(state.allUnits)
       initUnitTracking(state.allUnits)
+      console.log("UNITS LOADED:", state.allUnits.length)
 
       const hadPendingImport = !!(localStorage.getItem("aos_import_list") || "").trim()
       if (!hadPendingImport) {
@@ -5235,7 +7993,7 @@
       loadSavedState()
 
       const titleEl = document.getElementById("pageTitle")
-      updateCPDisplay()
+      syncGameSystemRowUi()
 
       state.activeKeywords.clear()
       state.expandedKeys.clear()
@@ -5251,6 +8009,9 @@
       state.routeUnknownSlug = null
       const pendingNfcLink = parseDeepLinkParts()
 
+      const searchElBoot = document.getElementById("search")
+      if (searchElBoot) state.searchQuery = searchElBoot.value.trim().toLowerCase()
+
       ensureDefaultSelectedUnit()
 
       const factionNames = uniqueSortedFactions(state.allUnits)
@@ -5265,7 +8026,19 @@
 
       if (!viewerEventsBound) {
         viewerEventsBound = true
-        document.getElementById("search").addEventListener("input", refreshList)
+        const searchInput = document.getElementById("search")
+        if (searchInput) {
+          state.searchQuery = searchInput.value.trim().toLowerCase()
+          searchInput.addEventListener("input", () => {
+            const value = searchInput.value.trim().toLowerCase()
+            clearTimeout(searchDebounceTimer)
+            searchDebounceTimer = setTimeout(() => {
+              searchDebounceTimer = null
+              state.searchQuery = value
+              scheduleGameView()
+            }, 50)
+          })
+        }
         document.getElementById("factionFilter").addEventListener("change", e => {
           state.faction = e.target.value || ""
           refreshList()
@@ -5276,16 +8049,20 @@
         setupArmyImport()
         setupPhaseSelect()
         setupNextPhaseBtn()
+        setupResetActivationsBtn()
+        setupNextUnitBtn()
+        setupGameSystemRowControls()
+        setupUnitCardLongPress()
         populateMobilePhaseSelect()
         setupMobilePhaseSync()
         setupNfcExport()
         setupNfcOverlayUi()
-        setupNfcConfirmUi()
+        setupGlobalModalDelegation()
         setupNfcActionBar()
         window.addEventListener("hashchange", () => applyDeepLinkFromRoute())
 
         document.getElementById("assignFactionSelect")?.addEventListener("change", e => {
-          const slug = (e.target && e.target.value) || "daughters-of-khaine"
+          const slug = (e.target && e.target.value) || FACTION_CONFIG.gloomspite.slug
           state.assignFactionSlug = slug
           state.assigningUnitSlug = null
           state.assignWritePhase = "idle"
@@ -5309,7 +8086,7 @@
       if (pendingNfcLink.unitId) {
         const found = findUnitByRouteId(pendingNfcLink.unitId)
         if (found) {
-          openNfcOverlay(found)
+          openUnitPopup(found)
         } else {
           openNfcOverlayUnknown(pendingNfcLink.unitId)
         }
@@ -5325,8 +8102,7 @@
     }
 
     function registerServiceWorker() {
-      if (!("serviceWorker" in navigator)) return
-      navigator.serviceWorker.register("./sw.js", { scope: "./" }).catch(() => {})
+      /** Registration disabled during APK hardening; script top unregisters stale workers. */
     }
 
     async function load() {
@@ -5337,9 +8113,7 @@
       const signal = factionLoadAbortController.signal
 
       const params = new URLSearchParams(location.search)
-      const factionSlug = params.get("faction") || "daughters-of-khaine"
-
-      const url = `./structured/factions/${factionSlug}.json`
+      const factionSlug = params.get("faction") || FACTION_CONFIG.gloomspite.slug
 
       const fastData = resolveFactionDataFastPath(factionSlug)
       if (fastData?.units?.length) {
@@ -5357,22 +8131,13 @@
       renderUnitPanel()
 
       try {
-        const res = await fetch(url, { signal })
+        const { raw } = await loadFaction(factionSlug, signal)
 
         if (signal.aborted) return
 
-        if (!res.ok) {
-          if (signal.aborted) return
-          throw new Error("Faction HTTP " + res.status)
-        }
-
-        const data = await res.json()
-
-        if (signal.aborted) return
-
-        setFactionMemory(factionSlug, data, "network")
-        await finishFactionLoad(data, factionSlug, signal)
-        cacheFactionJson(factionSlug, data)
+        setFactionMemory(factionSlug, raw, "network")
+        await finishFactionLoad(raw, factionSlug, signal)
+        cacheFactionJson(factionSlug, raw)
       } catch (e) {
         if (e.name === "AbortError" || signal.aborted) return
         state.factionLoading = false
@@ -5393,6 +8158,8 @@
     }
 
     function goHome() {
+      state.nfcAssignActive = false
+      enterNfcIdleMode()
       state.assigningUnitSlug = null
       state.assignWritePhase = "idle"
       state.assignWriteErrorDetail = ""
@@ -5402,21 +8169,24 @@
 
     async function bootViewer() {
       try {
-        await setupCapacitorDeepLinks()
-      } catch (_) {}
+        setupCapacitorDeepLinks()
+        setupNativeNfcForegroundLifecycle()
+      } catch (e) {
+        console.log("Startup error (non-fatal)", e)
+      }
       warmFactionMemoryFromCache()
       registerServiceWorker()
       try {
         if (localStorage.getItem("aos_nfc_autoscan") === "0") state.nfcAutoScanEnabled = false
       } catch (_) {}
-      const qsFaction = new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+      const qsFaction = new URLSearchParams(location.search).get("faction") || FACTION_CONFIG.gloomspite.slug
       state.assignFactionSlug = qsFaction
       state.sessionFactionSlug = qsFaction
       renderRoot()
       void ensureFactionManifest()
       populateMobilePhaseSelect()
       const factionSlug =
-        new URLSearchParams(location.search).get("faction") || "daughters-of-khaine"
+        new URLSearchParams(location.search).get("faction") || FACTION_CONFIG.gloomspite.slug
       if (!resolveFactionDataFastPath(factionSlug)) {
         const uid = parseDeepLinkParts().unitId
         if (uid) {
@@ -5431,6 +8201,7 @@
     setupCPPanel()
     setupCommandSheet()
     setupClearSavedStateBtn()
+    setupNfcDebugPanel()
 
     function verifyShellDom() {
       const required = [
@@ -5457,32 +8228,62 @@
       }
     }
 
+    window.__testNfc = async function __testNfc() {
+      if (!isNativeNfcAvailable()) {
+        console.error("Native NFC plugin not available (Capacitor + @exxili/capacitor-nfc)")
+        return
+      }
+      initNfcListener()
+      try {
+        await restartNativeNfcScanAfterForeground()
+        console.log("Native NFC listen (TEST) — tap a tag")
+        await delay(8000)
+      } catch (e) {
+        console.error("NFC TEST ERROR", e)
+      }
+    }
+
     function initApp() {
       console.log("INIT")
       state.bootComplete = false
       state.appMode = "home"
+      state.nfcAssignActive = false
+      enterNfcIdleMode()
       state.assignWritePhase = null
       state.pendingTagWrite = null
       hideAllModals()
     }
 
-    function runBootViewer() {
+    async function runBootViewer() {
       initApp()
       try {
         verifyShellDom()
-        void bootViewer().catch(err => {
-          console.error("BOOT ERROR:", err)
-          alert("BOOT ERROR: " + (err && err.message ? err.message : String(err)))
-        })
+        try {
+          const pkg = await loadSystemPackage("aos")
+          state.system = normalizeLoadedSystem(pkg)
+          PHASES.length = 0
+          PHASES.push(...state.system.phases)
+          compilePhasePatterns(state.system)
+          compileSignalPatterns(state.system)
+        } catch (e) {
+          console.warn("Package systems/aos.json unavailable, using embedded SYSTEM_CONFIG.aos", e)
+        }
+        await bootViewer()
       } catch (err) {
         console.error("BOOT ERROR:", err)
         alert("BOOT ERROR: " + (err && err.message ? err.message : String(err)))
       }
     }
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", runBootViewer, { once: true })
+      document.addEventListener(
+        "DOMContentLoaded",
+        () => {
+          void runBootViewer()
+        },
+        { once: true }
+      )
     } else {
-      runBootViewer()
+      void runBootViewer()
     }
   </script>
 </body>

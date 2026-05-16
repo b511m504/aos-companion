@@ -1,0 +1,25 @@
+{
+  "id": "crypt_enemy_revealed",
+  "trigger": "enemy.revealed",
+  "priority": 18,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "trap.triggered",
+      "payload": {
+        "entityId": "crypt-trap-01"
+      }
+    },
+    {
+      "type": "emit_event",
+      "event": "monster.spawned",
+      "payload": {
+        "entityId": "crypt-skeleton-01"
+      }
+    }
+  ]
+}

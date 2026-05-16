@@ -1,0 +1,16 @@
+{
+  "systemId": "aos",
+  "schemaVersion": 1,
+  "translations": {
+    "health": "wounds",
+    "resource": "command points",
+    "event": "phase",
+    "activation": "combat phase",
+    "status": "effects",
+    "entity": "unit",
+    "objective": "objective",
+    "status:inspired": "Inspired",
+    "status:poisoned": "Poisoned",
+    "status:alerted": "On alert"
+  }
+}

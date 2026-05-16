@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "packageId": "warhammer40k",
+  "templates": [
+    {
+      "id": "wh40k-intercessor-01",
+      "name": "Intercessor Squad",
+      "tags": [
+        "unit",
+        "infantry",
+        "ally"
+      ]
+    },
+    {
+      "id": "wh40k-captain-01",
+      "name": "Captain",
+      "tags": [
+        "character",
+        "aura",
+        "ally"
+      ]
+    },
+    {
+      "id": "wh40k-rhino-01",
+      "name": "Rhino",
+      "tags": [
+        "vehicle",
+        "transport",
+        "ally"
+      ]
+    },
+    {
+      "id": "wh40k-obj-01",
+      "name": "Primary Objective",
+      "tags": [
+        "objective"
+      ]
+    }
+  ]
+}

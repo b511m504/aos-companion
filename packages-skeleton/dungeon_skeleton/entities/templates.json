@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "dungeon_skeleton",
+  "templates": [
+    {
+      "id": "sk_dng_00",
+      "name": "room 0",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_dng_01",
+      "name": "hazard 1",
+      "tags": [
+        "skeleton",
+        "hazard"
+      ]
+    },
+    {
+      "id": "sk_dng_02",
+      "name": "encounter 2",
+      "tags": [
+        "skeleton",
+        "encounter"
+      ]
+    },
+    {
+      "id": "sk_dng_03",
+      "name": "chest 3",
+      "tags": [
+        "skeleton",
+        "chest"
+      ]
+    },
+    {
+      "id": "sk_dng_04",
+      "name": "room 4",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_dng_05",
+      "name": "hazard 5",
+      "tags": [
+        "skeleton",
+        "hazard"
+      ]
+    },
+    {
+      "id": "sk_dng_06",
+      "name": "encounter 6",
+      "tags": [
+        "skeleton",
+        "encounter"
+      ]
+    },
+    {
+      "id": "sk_dng_07",
+      "name": "chest 7",
+      "tags": [
+        "skeleton",
+        "chest"
+      ]
+    },
+    {
+      "id": "sk_dng_08",
+      "name": "room 8",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_dng_09",
+      "name": "hazard 9",
+      "tags": [
+        "skeleton",
+        "hazard"
+      ]
+    },
+    {
+      "id": "sk_dng_10",
+      "name": "encounter 10",
+      "tags": [
+        "skeleton",
+        "encounter"
+      ]
+    },
+    {
+      "id": "sk_dng_11",
+      "name": "chest 11",
+      "tags": [
+        "skeleton",
+        "chest"
+      ]
+    }
+  ]
+}

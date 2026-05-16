@@ -1,0 +1,16 @@
+{
+  "id": "warhammer40k_skeleton_11_theme_morale",
+  "trigger": "morale.tested",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "timer.fire",
+      "payload": {}
+    }
+  ]
+}

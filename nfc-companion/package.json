@@ -1,0 +1,32 @@
+{
+  "name": "nfc-tabletop-companion",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sim": "npx tsx scripts/simulation-cli.ts",
+    "import-cert": "npx tsx scripts/import-cert-cli.ts",
+    "nfc-binding-stress": "npx tsx scripts/nfc-binding-stress.ts",
+    "validate:runtime": "npx tsx scripts/runtime-validation-suite.ts --out ../runtime-validation-report.json --turns 300 --export-dir ./tmp/validation-exports",
+    "validate:runtime:soak": "npx tsx scripts/runtime-validation-suite.ts --out ../runtime-validation-report.json --turns 300 --soak-turns 5000",
+    "skeleton:packages": "node ../scripts/generate-skeleton-ecosystem.mjs"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/core": "^8.3.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.1"
+  }
+}

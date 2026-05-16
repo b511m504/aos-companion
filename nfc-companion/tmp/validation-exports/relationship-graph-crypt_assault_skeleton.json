@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "packageId": "crypt_assault_skeleton",
+  "edges": [
+    {
+      "id": "rel_cryp_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_00",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_06",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_12",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_18",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_24",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_inv_30",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_cryp_30",
+      "toInstanceId": "sk_cryp_item_hub"
+    },
+    {
+      "id": "rel_cryp_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_04",
+      "toInstanceId": "sk_cryp_03"
+    },
+    {
+      "id": "rel_cryp_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_08",
+      "toInstanceId": "sk_cryp_07"
+    },
+    {
+      "id": "rel_cryp_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_12",
+      "toInstanceId": "sk_cryp_11"
+    },
+    {
+      "id": "rel_cryp_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_16",
+      "toInstanceId": "sk_cryp_15"
+    },
+    {
+      "id": "rel_cryp_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_20",
+      "toInstanceId": "sk_cryp_19"
+    },
+    {
+      "id": "rel_cryp_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_24",
+      "toInstanceId": "sk_cryp_23"
+    },
+    {
+      "id": "rel_cryp_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_28",
+      "toInstanceId": "sk_cryp_27"
+    },
+    {
+      "id": "rel_cryp_party_32",
+      "kind": "party_member",
+      "fromInstanceId": "sk_cryp_32",
+      "toInstanceId": "sk_cryp_31"
+    },
+    {
+      "id": "rel_cryp_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_cryp_07",
+      "toInstanceId": "sk_cryp_05"
+    },
+    {
+      "id": "rel_cryp_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_cryp_14",
+      "toInstanceId": "sk_cryp_12"
+    },
+    {
+      "id": "rel_cryp_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_cryp_21",
+      "toInstanceId": "sk_cryp_19"
+    },
+    {
+      "id": "rel_cryp_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_cryp_28",
+      "toInstanceId": "sk_cryp_26"
+    }
+  ]
+}

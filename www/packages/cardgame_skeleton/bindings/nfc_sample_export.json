@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.761Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "crd_faction",
+  "listId": "crd-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:70:20:46:50:66",
+      "entityId": "sk_crd_00",
+      "displayName": "deck 0",
+      "entityType": "deck",
+      "assignedAt": "2026-05-14T22:11:25.761Z",
+      "factionId": "crd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "cardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:71:23:46:51:67",
+      "entityId": "sk_crd_01",
+      "displayName": "hand 1",
+      "entityType": "hand",
+      "assignedAt": "2026-05-14T22:11:25.761Z",
+      "factionId": "crd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "cardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:72:26:46:52:68",
+      "entityId": "sk_crd_02",
+      "displayName": "discard 2",
+      "entityType": "discard",
+      "assignedAt": "2026-05-14T22:11:25.761Z",
+      "factionId": "crd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "cardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:73:29:46:53:69",
+      "entityId": "sk_crd_03",
+      "displayName": "deck 3",
+      "entityType": "deck",
+      "assignedAt": "2026-05-14T22:11:25.761Z",
+      "factionId": "crd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "cardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:74:2C:46:54:6A",
+      "entityId": "sk_crd_04",
+      "displayName": "hand 4",
+      "entityType": "hand",
+      "assignedAt": "2026-05-14T22:11:25.761Z",
+      "factionId": "crd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "cardgame_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

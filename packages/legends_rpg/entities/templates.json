@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "packageId": "legends_rpg",
+  "templates": [
+    {
+      "id": "rpg-pc-01",
+      "name": "Kessa",
+      "tags": [
+        "pc",
+        "ally"
+      ]
+    },
+    {
+      "id": "rpg-npc-01",
+      "name": "Magistrate Vorn",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "rpg-quest-01",
+      "name": "Relic of Ashfen",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "rpg-faction-01",
+      "name": "Ashfen Concord",
+      "tags": [
+        "faction"
+      ]
+    }
+  ]
+}

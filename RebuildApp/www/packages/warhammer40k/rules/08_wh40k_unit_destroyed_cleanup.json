@@ -1,0 +1,38 @@
+{
+  "id": "wh40k_unit_destroyed_cleanup",
+  "trigger": "unit.destroyed",
+  "priority": 40,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "remove_status",
+      "target": "triggering_entity",
+      "status": "battle_shocked"
+    },
+    {
+      "type": "upsert_entity",
+      "entity": {
+        "id": "wh40k-spawn-token",
+        "name": "Spawned Servo",
+        "tags": [
+          "summoned",
+          "ally"
+        ],
+        "states": {
+          "health": 1,
+          "owner": "player1"
+        }
+      }
+    },
+    {
+      "type": "emit_event",
+      "event": "summon.unit",
+      "payload": {
+        "entityId": "wh40k-spawn-token"
+      }
+    }
+  ]
+}

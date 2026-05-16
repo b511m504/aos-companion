@@ -1,0 +1,16 @@
+{
+  "id": "age_of_sigmar_skeleton_11_theme_spell",
+  "trigger": "spell.cast",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "summon.unit",
+      "payload": {}
+    }
+  ]
+}

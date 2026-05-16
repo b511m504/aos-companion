@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "age_of_sigmar",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "schemaVersion": 1,
+      "id": "stormcast",
+      "systemId": "age_of_sigmar",
+      "name": "Age of Sigmar (package) (stress)",
+      "listsPath": "lists/age_of_sigmar_stress.json"
+    }
+  ]
+}

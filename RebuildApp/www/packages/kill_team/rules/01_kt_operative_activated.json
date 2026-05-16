@@ -1,0 +1,23 @@
+{
+  "id": "kt_operative_activated",
+  "trigger": "operative.activated",
+  "priority": 25,
+  "appliesToSystems": [
+    "killteam"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "toggle_state",
+      "target": "triggering_entity",
+      "key": "activated"
+    },
+    {
+      "type": "emit_event",
+      "event": "action.spent",
+      "payload": {
+        "entityId": "kt-veteran-01"
+      }
+    }
+  ]
+}

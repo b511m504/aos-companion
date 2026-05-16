@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "age_of_sigmar_skeleton",
+  "templates": [
+    {
+      "id": "sk_aoss_00",
+      "name": "unit 0",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_aoss_01",
+      "name": "spell 1",
+      "tags": [
+        "skeleton",
+        "spell"
+      ]
+    },
+    {
+      "id": "sk_aoss_02",
+      "name": "ward 2",
+      "tags": [
+        "skeleton",
+        "ward"
+      ]
+    },
+    {
+      "id": "sk_aoss_03",
+      "name": "summon 3",
+      "tags": [
+        "skeleton",
+        "summon"
+      ]
+    },
+    {
+      "id": "sk_aoss_04",
+      "name": "unit 4",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_aoss_05",
+      "name": "spell 5",
+      "tags": [
+        "skeleton",
+        "spell"
+      ]
+    },
+    {
+      "id": "sk_aoss_06",
+      "name": "ward 6",
+      "tags": [
+        "skeleton",
+        "ward"
+      ]
+    },
+    {
+      "id": "sk_aoss_07",
+      "name": "summon 7",
+      "tags": [
+        "skeleton",
+        "summon"
+      ]
+    },
+    {
+      "id": "sk_aoss_08",
+      "name": "unit 8",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_aoss_09",
+      "name": "spell 9",
+      "tags": [
+        "skeleton",
+        "spell"
+      ]
+    },
+    {
+      "id": "sk_aoss_10",
+      "name": "ward 10",
+      "tags": [
+        "skeleton",
+        "ward"
+      ]
+    },
+    {
+      "id": "sk_aoss_11",
+      "name": "summon 11",
+      "tags": [
+        "skeleton",
+        "summon"
+      ]
+    }
+  ]
+}

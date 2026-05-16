@@ -1,0 +1,23 @@
+{
+  "id": "wh40k_aura_nested",
+  "trigger": "aura.applied",
+  "priority": 25,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "triggering_entity",
+      "status": "reroll_ones"
+    },
+    {
+      "type": "emit_event",
+      "event": "objective.scored",
+      "payload": {
+        "entityId": "wh40k-obj-01"
+      }
+    }
+  ]
+}

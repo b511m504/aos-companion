@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "description": "Skeleton snippets (not used directly by engine).",
+  "snippets": {
+    "bumpResource": [
+      {
+        "type": "increment_state",
+        "target": "sk_dng_00",
+        "key": "resource",
+        "delta": 1
+      }
+    ]
+  }
+}

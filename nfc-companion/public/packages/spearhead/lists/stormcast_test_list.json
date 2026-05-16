@@ -1,0 +1,30 @@
+{
+  "id": "stormcast_test_list",
+  "name": "Stormcast Test Spearhead",
+  "systemId": "aos_spearhead",
+  "battlepackId": "fire_and_jade",
+  "faction": "stormcast",
+  "battleTrait": "sigmarite_warding",
+  "enhancement": "storm_forged_weapons",
+  "formation": "thunderstrike_echelon",
+  "units": [
+    {
+      "templateId": "spearhead-shockwave",
+      "entityId": "unit_lord_vigilant_proxy_01",
+      "note": "Lord Vigilant proxy — matches spearhead-shockwave slug in structured faction data"
+    },
+    {
+      "templateId": "spearhead-liberators",
+      "entityId": "unit_liberators_01"
+    },
+    {
+      "templateId": "spearhead-prosecutors",
+      "entityId": "unit_prosecutors_01"
+    },
+    {
+      "templateId": "spearhead-judicators",
+      "entityId": "unit_vigilors_proxy_01",
+      "note": "Vigilors proxy — matches spearhead-judicators slug until spearhead-vigilors lands in structured roster"
+    }
+  ]
+}

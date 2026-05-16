@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "wh40k",
+    "factionId": "tyranids"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "tyr_swarm_tide",
+      "name": "Endless Swarm",
+      "factionId": "tyranids",
+      "description": "Swarm style — many small broods.",
+      "units": [
+        { "id": "tys-u01", "name": "Termagants" },
+        { "id": "tys-u02", "name": "Termagants" },
+        { "id": "tys-u03", "name": "Hormagaunts" },
+        { "id": "tys-u04", "name": "Hormagaunts" },
+        { "id": "tys-u05", "name": "Ripper Swarms" },
+        { "id": "tys-u06", "name": "Gargoyles" },
+        { "id": "tys-u07", "name": "Neurothrope" },
+        { "id": "tys-u08", "name": "Tyranid Warriors" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tyr_monster_star",
+      "name": "Monster Star",
+      "factionId": "tyranids",
+      "description": "Low count — big creatures, slow deliberate links.",
+      "units": [
+        { "id": "tym-u01", "name": "Hive Tyrant" },
+        { "id": "tym-u02", "name": "Carnifex" },
+        { "id": "tym-u03", "name": "Tervigon" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tyr_balanced_thorn",
+      "name": "Thornfleet Balanced",
+      "factionId": "tyranids",
+      "description": "Mix of shooters, chaff, and a punch unit.",
+      "units": [
+        { "id": "tyb-u01", "name": "Genestealers" },
+        { "id": "tyb-u02", "name": "Zoanthropes" },
+        { "id": "tyb-u03", "name": "Tyranid Warriors" },
+        { "id": "tyb-u04", "name": "Exocrine" },
+        { "id": "tyb-u05", "name": "Trygon" },
+        { "id": "tyb-u06", "name": "Broodlord" }
+      ]
+    }
+  ]
+}

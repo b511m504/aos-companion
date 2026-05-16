@@ -1,0 +1,39 @@
+export const assignmentsDomain = {
+  name: 'assignments',
+  handles() {
+    return false
+  },
+  guard() {
+    return { ok: false, reason: 'unsupported_action' }
+  },
+  transition() {
+    return { handled: false }
+  },
+  invariants() {
+    return []
+  },
+  selectors: {},
+  replayExpectation(result) {
+    return { handled: Boolean(result?.handled), outcome: String(result?.outcome || '') }
+  },
+  serializeSnapshot(state) {
+    return {
+      assignmentCount: Object.keys(state?.nfcAssignments || {}).length,
+    }
+  },
+  recover({ reason }) {
+    return { reason, patch: { runtimeGateWarning: `Assignments recovery: ${reason}` } }
+  },
+  initialize() {
+    return null
+  },
+  suspend() {
+    return null
+  },
+  resume() {
+    return null
+  },
+  reset() {
+    return null
+  },
+}

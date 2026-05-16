@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "packageId": "age_of_sigmar_skeleton",
+  "entities": [
+    {
+      "instanceId": "sk_aoss_00",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": true,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 0",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_inv_0",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_00",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_01",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 1",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_02",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 2",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_03",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 3",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_04",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 4",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_4",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_04",
+          "toInstanceId": "sk_aoss_03"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_05",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 5",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_06",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 6",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_inv_6",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_06",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_07",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 7",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_tr_7",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_aoss_07",
+          "toInstanceId": "sk_aoss_05"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_08",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 8",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_8",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_08",
+          "toInstanceId": "sk_aoss_07"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_09",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 9",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_10",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 10",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_11",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 11",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_12",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 12",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_12",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_12",
+          "toInstanceId": "sk_aoss_11"
+        },
+        {
+          "id": "rel_aoss_inv_12",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_12",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_13",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 13",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_14",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 14",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_tr_14",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_aoss_14",
+          "toInstanceId": "sk_aoss_12"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_15",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 15",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_16",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 16",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_16",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_16",
+          "toInstanceId": "sk_aoss_15"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_17",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 17",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_18",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 18",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_inv_18",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_18",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_19",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 19",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_20",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 20",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_20",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_20",
+          "toInstanceId": "sk_aoss_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_21",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 21",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_tr_21",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_aoss_21",
+          "toInstanceId": "sk_aoss_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_22",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": true,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 22",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_23",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 23",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_24",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 24",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_24",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_24",
+          "toInstanceId": "sk_aoss_23"
+        },
+        {
+          "id": "rel_aoss_inv_24",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_24",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_25",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 25",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_26",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 26",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_27",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 27",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_28",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 28",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_28",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_28",
+          "toInstanceId": "sk_aoss_27"
+        },
+        {
+          "id": "rel_aoss_tr_28",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_aoss_28",
+          "toInstanceId": "sk_aoss_26"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_29",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 29",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_30",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 30",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_inv_30",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_aoss_30",
+          "toInstanceId": "sk_aoss_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_31",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 31",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_32",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 32",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_party_32",
+          "kind": "party_member",
+          "fromInstanceId": "sk_aoss_32",
+          "toInstanceId": "sk_aoss_31"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_33",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "spell",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "spell 33",
+        "tags": [
+          "skeleton",
+          "spell"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_34",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "ward",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "ward 34",
+        "tags": [
+          "skeleton",
+          "ward"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    },
+    {
+      "instanceId": "sk_aoss_35",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "summon",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "summon 35",
+        "tags": [
+          "skeleton",
+          "summon"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_aoss_tr_35",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_aoss_35",
+          "toInstanceId": "sk_aoss_33"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_aoss_item_hub",
+      "templateId": "basic_template",
+      "packageId": "age_of_sigmar_skeleton",
+      "entityType": "generic",
+      "state": {
+        "health": 1,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "Hub item",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "aoss-default",
+        "sourceListName": "age_of_sigmar_skeleton default roster",
+        "sourceFactionId": "aoss_faction"
+      }
+    }
+  ],
+  "edges": []
+}

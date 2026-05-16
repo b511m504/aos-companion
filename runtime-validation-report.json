@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-14T23:47:19.809Z",
+  "suiteStartedAt": "2026-05-14T23:43:09.782Z",
+  "companionRoot": "nfc-companion",
+  "cli": {
+    "turns": 300,
+    "checkpointEvery": 25,
+    "soakTurns": 5000,
+    "exportDir": null
+  },
+  "phases": {
+    "packageDiscovery": {
+      "registryPath": "nfc-companion\\public\\packages\\package_registry.json",
+      "discoveredPackageCount": 14,
+      "expectedSkeletonPresent": true,
+      "missingSkeleton": [],
+      "manifestLoads": {
+        "warhammer40k_skeleton": true,
+        "age_of_sigmar_skeleton": true,
+        "kill_team_skeleton": true,
+        "crypt_assault_skeleton": true,
+        "legends_rpg_skeleton": true,
+        "boardgame_skeleton": true,
+        "cardgame_skeleton": true,
+        "dungeon_skeleton": true,
+        "strategy_skeleton": true
+      },
+      "dynamicDiscoveryNote": "Runtime Lab uses buildPackageIndex() against packages/package_registry.json (no hardcoded package list in that service)."
+    },
+    "ruleIndex": {
+      "ruleFilesLoaded": 140,
+      "rulesParsed": 140,
+      "loadWarningsCount": 0,
+      "loadWarningsSample": []
+    },
+    "perPackageValidation": {
+      "packages": [
+        {
+          "packageId": "warhammer40k_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\warhammer40k_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\warhammer40k_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 41,
+            "edgeCount": 21,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "unit": 10,
+              "objective": 10,
+              "character": 10,
+              "transport": 10,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 8328,
+            "eventsProcessed": 8142,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "c703640d",
+              "queueHash": "741638a5",
+              "rngHash": "af310e08",
+              "fullStateHash": "fffb9384"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "69ee7bb1",
+            "hashAfter": "69ee7bb1"
+          }
+        },
+        {
+          "packageId": "age_of_sigmar_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\age_of_sigmar_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\age_of_sigmar_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 37,
+            "edgeCount": 19,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "unit": 9,
+              "spell": 9,
+              "ward": 9,
+              "summon": 9,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7611,
+            "eventsProcessed": 7443,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "b75fe877",
+              "queueHash": "741638a5",
+              "rngHash": "af91e8f7",
+              "fullStateHash": "c587d76c"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "2362df9b",
+            "hashAfter": "2362df9b"
+          }
+        },
+        {
+          "packageId": "kill_team_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\kill_team_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\kill_team_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 33,
+            "edgeCount": 17,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "operative": 11,
+              "conceal": 11,
+              "grenade": 10,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7953,
+            "eventsProcessed": 7821,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "f6d3aa43",
+              "queueHash": "741638a5",
+              "rngHash": "d05ad2ed",
+              "fullStateHash": "cd314de5"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "6b1b925a",
+            "hashAfter": "6b1b925a"
+          }
+        },
+        {
+          "packageId": "crypt_assault_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\crypt_assault_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\crypt_assault_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 35,
+            "edgeCount": 18,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "room": 7,
+              "monster": 7,
+              "loot": 7,
+              "door": 7,
+              "trap": 6,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 8614,
+            "eventsProcessed": 8446,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "17ed17e5",
+              "queueHash": "741638a5",
+              "rngHash": "b9d09ca1",
+              "fullStateHash": "3b5648c0"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "e5275ebd",
+            "hashAfter": "e5275ebd"
+          }
+        },
+        {
+          "packageId": "legends_rpg_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\legends_rpg_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\legends_rpg_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 39,
+            "edgeCount": 21,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "pc": 8,
+              "npc": 8,
+              "quest": 8,
+              "item": 7,
+              "faction": 7,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7566,
+            "eventsProcessed": 7380,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "9d03fd03",
+              "queueHash": "741638a5",
+              "rngHash": "6eaf9ff5",
+              "fullStateHash": "120657a9"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "5aee9b45",
+            "hashAfter": "5aee9b45"
+          }
+        },
+        {
+          "packageId": "boardgame_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\boardgame_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\boardgame_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 29,
+            "edgeCount": 14,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "player": 10,
+              "token": 9,
+              "score": 9,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 8943,
+            "eventsProcessed": 8622,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "243020ad",
+              "queueHash": "741638a5",
+              "rngHash": "0decbc03",
+              "fullStateHash": "c1c651b8"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "dfcba5ef",
+            "hashAfter": "dfcba5ef"
+          }
+        },
+        {
+          "packageId": "cardgame_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\cardgame_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\cardgame_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 31,
+            "edgeCount": 16,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "deck": 10,
+              "hand": 10,
+              "discard": 10,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7343,
+            "eventsProcessed": 7121,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "ab7b4bfe",
+              "queueHash": "741638a5",
+              "rngHash": "061cd04d",
+              "fullStateHash": "57b03f22"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "55dbe08b",
+            "hashAfter": "55dbe08b"
+          }
+        },
+        {
+          "packageId": "dungeon_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\dungeon_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\dungeon_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 36,
+            "edgeCount": 18,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "room": 9,
+              "hazard": 9,
+              "encounter": 9,
+              "chest": 8,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7345,
+            "eventsProcessed": 7168,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "b45c2a42",
+              "queueHash": "741638a5",
+              "rngHash": "e8cf404c",
+              "fullStateHash": "a0e2c73c"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "ea25e7e8",
+            "hashAfter": "ea25e7e8"
+          }
+        },
+        {
+          "packageId": "strategy_skeleton",
+          "adapterFile": "nfc-companion\\public\\packages\\strategy_skeleton\\imports\\jsonRosterAdapter.json",
+          "sampleFile": "nfc-companion\\public\\packages\\strategy_skeleton\\sample_lists\\default.json",
+          "import": {
+            "ok": true,
+            "entityCount": 33,
+            "edgeCount": 17,
+            "orphanReferenceMarkers": 0,
+            "orphanSample": [],
+            "deterministicDuplicateRun": true,
+            "entityHistogram": {
+              "territory": 11,
+              "resource": 11,
+              "unit": 10,
+              "generic": 1
+            }
+          },
+          "nfc": {
+            "roundtripParseOk": true,
+            "strictPreviewOk": true,
+            "strictApplyOk": true,
+            "reassignmentStrictOk": true,
+            "duplicateBindingErrors": 0
+          },
+          "simulation": {
+            "haltedReason": "max_turns",
+            "maxQueueDepthObserved": 90,
+            "maxChainDepthReached": 2,
+            "actionsExecuted": 7487,
+            "eventsProcessed": 7292,
+            "warningsGenerated": 0,
+            "snapshotCheckpoints": 12,
+            "containmentTrips": 0,
+            "fifoQueueSanity": true,
+            "integrityEnd": {
+              "entityCanonicalHash": "fa274ae4",
+              "queueHash": "741638a5",
+              "rngHash": "16a58a35",
+              "fullStateHash": "066365aa"
+            }
+          },
+          "replay": {
+            "differentialReplayOk": true,
+            "replayDivergenceCount": 0
+          },
+          "snapshot": {
+            "ok": true,
+            "hashBefore": "c936b5c6",
+            "hashAfter": "c936b5c6"
+          }
+        }
+      ],
+      "crossPackageNfc": {
+        "skipped": false,
+        "fromPackageId": "warhammer40k_skeleton",
+        "toPackageId": "age_of_sigmar_skeleton",
+        "foreignEntityId": "sk_w40ks_00",
+        "rejectedRows": 1,
+        "canApplyStrict": false
+      }
+    },
+    "eventFlowUi": {
+      "automated": false,
+      "manualChecklist": [
+        "RuntimeEventFlowView: tree + timeline modes show FIFO-ordered roots",
+        "Emitted child events nest under correct root grouping",
+        "Chain depth matches engine maxChainDepthReached for heavy packages"
+      ]
+    },
+    "queueAnalytics": {
+      "automatedExports": false,
+      "exportNote": "pass --export-dir for analytics JSON/CSV files",
+      "metricsDescription": "Per-package JSON includes metrics + vizSummary (amplification, max sampled queue/chain) derived from SimulationRunner diagnostics."
+    },
+    "mockPackageWorkbench": {
+      "tmpDir": "nfc-companion\\tmp\\mock-bench-1778802318652",
+      "generateStressExitCode": 0,
+      "generateMalformedExitCode": 0,
+      "stressRulesWritten": true,
+      "malformedRulesWritten": true,
+      "importStress": {
+        "ok": true,
+        "entityCount": 120,
+        "errors": []
+      },
+      "mockSim": {
+        "skipped": false,
+        "haltedReason": "max_turns",
+        "eventsProcessed": 4742,
+        "maxQueueDepthObserved": 25,
+        "fifoQueueSanity": true
+      },
+      "note": "Malformed generator output may still emit parseable rules; engine strictValidation=false in this suite."
+    },
+    "certificationPipeline": {
+      "skeletonPackages": 9,
+      "perPackage": [
+        {
+          "packageId": "warhammer40k_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "age_of_sigmar_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "kill_team_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "crypt_assault_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "legends_rpg_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "boardgame_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "cardgame_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "dungeon_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        },
+        {
+          "packageId": "strategy_skeleton",
+          "importOk": true,
+          "graphOk": true,
+          "nfcOk": true,
+          "simOk": true,
+          "snapshotOk": true,
+          "replayOk": true
+        }
+      ],
+      "mockWorkbench": {
+        "tmpDir": "nfc-companion\\tmp\\mock-bench-1778802318652",
+        "generateStressExitCode": 0,
+        "generateMalformedExitCode": 0,
+        "stressRulesWritten": true,
+        "malformedRulesWritten": true,
+        "importStress": {
+          "ok": true,
+          "entityCount": 120,
+          "errors": []
+        },
+        "mockSim": {
+          "skipped": false,
+          "haltedReason": "max_turns",
+          "eventsProcessed": 4742,
+          "maxQueueDepthObserved": 25,
+          "fifoQueueSanity": true
+        },
+        "note": "Malformed generator output may still emit parseable rules; engine strictValidation=false in this suite."
+      }
+    },
+    "longSoak": {
+      "packageId": "warhammer40k_skeleton",
+      "turnsRequested": 5000,
+      "haltedReason": "max_turns",
+      "eventsProcessed": 125268,
+      "actionsExecuted": 128089,
+      "maxQueueDepthObserved": 90,
+      "maxChainDepthReached": 2,
+      "warningsGenerated": 0,
+      "containmentTrips": 0,
+      "fifoQueueSanity": true
+    },
+    "frontendUx": {
+      "automated": false,
+      "manualChecklist": [
+        "Exercise boardgame_skeleton, cardgame_skeleton, legends_rpg_skeleton, dungeon_skeleton in Runtime Lab",
+        "Confirm copy is entity/simulation oriented (no army-only assumptions in empty states)"
+      ]
+    }
+  },
+  "mergedRuleLoadWarnings": [],
+  "failures": [],
+  "successCriteria": {
+    "allSkeletonsInRegistry": true,
+    "allImportsOk": true,
+    "replayDeterminism": true,
+    "snapshotDeterminism": true,
+    "crossPackageRejectsForeignAssignments": true,
+    "mockImportCanonicalOk": true,
+    "overallPass": true
+  },
+  "performanceSummaries": {
+    "perPackageMaxQueue": {
+      "warhammer40k_skeleton": 90,
+      "age_of_sigmar_skeleton": 90,
+      "kill_team_skeleton": 90,
+      "crypt_assault_skeleton": 90,
+      "legends_rpg_skeleton": 90,
+      "boardgame_skeleton": 90,
+      "cardgame_skeleton": 90,
+      "dungeon_skeleton": 90,
+      "strategy_skeleton": 90
+    }
+  }
+}

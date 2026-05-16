@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "legends_rpg",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "rpg-party-stress",
+      "name": "Ashfen Campaign Party",
+      "factionId": "rpg_default",
+      "description": "Quest graph, XP, equipment, factions — long-horizon persistence shape.",
+      "units": [
+        {
+          "id": "rpg-pc-01",
+          "name": "Kessa",
+          "tags": [
+            "pc",
+            "ally"
+          ]
+        },
+        {
+          "id": "rpg-npc-01",
+          "name": "Magistrate Vorn",
+          "tags": [
+            "npc"
+          ]
+        },
+        {
+          "id": "rpg-quest-01",
+          "name": "Relic of Ashfen",
+          "tags": [
+            "quest"
+          ]
+        },
+        {
+          "id": "rpg-faction-01",
+          "name": "Ashfen Concord",
+          "tags": [
+            "faction"
+          ]
+        }
+      ]
+    }
+  ]
+}

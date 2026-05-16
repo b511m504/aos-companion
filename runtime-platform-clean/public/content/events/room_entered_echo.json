@@ -1,0 +1,10 @@
+{
+  "id": "room_entered_echo",
+  "trigger": "room.entered",
+  "appliesToSystems": ["aos"],
+  "conditions": [],
+  "actions": [
+    { "type": "show_message", "text": "You step into the crypt chamber." },
+    { "type": "emit_event", "event": "trap.awakened", "payload": {} }
+  ]
+}

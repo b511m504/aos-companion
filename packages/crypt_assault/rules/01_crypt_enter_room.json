@@ -1,0 +1,24 @@
+{
+  "id": "crypt_enter_room",
+  "trigger": "room.entered",
+  "priority": 20,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "set_state",
+      "target": "crypt-hero-01",
+      "key": "position",
+      "value": "room_2"
+    },
+    {
+      "type": "emit_event",
+      "event": "enemy.revealed",
+      "payload": {
+        "entityId": "crypt-skeleton-01"
+      }
+    }
+  ]
+}

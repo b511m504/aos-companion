@@ -1,0 +1,13 @@
+{
+  "packageId": "kill_team",
+  "name": "Kill Team",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "killteam",
+  "contentVersion": "1.0.0",
+  "entityTypes": [
+    "operative",
+    "equipment",
+    "token"
+  ]
+}

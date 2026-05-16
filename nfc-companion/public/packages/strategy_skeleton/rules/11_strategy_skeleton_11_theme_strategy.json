@@ -1,0 +1,16 @@
+{
+  "id": "strategy_skeleton_11_theme_strategy",
+  "trigger": "ai.tick",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "simulation.tick",
+      "payload": {}
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "aos",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "schemaVersion": 1,
+      "id": "stormcast",
+      "systemId": "aos",
+      "name": "Stormcast Eternals",
+      "listsPath": "lists/stormcast.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "skaven",
+      "systemId": "aos",
+      "name": "Skaven",
+      "listsPath": "lists/skaven.json"
+    }
+  ]
+}

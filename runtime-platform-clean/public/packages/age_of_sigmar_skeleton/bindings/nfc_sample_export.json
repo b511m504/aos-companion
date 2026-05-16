@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.724Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "aoss_faction",
+  "listId": "aoss-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:20:20:41:50:61",
+      "entityId": "sk_aoss_00",
+      "displayName": "unit 0",
+      "entityType": "unit",
+      "assignedAt": "2026-05-14T22:11:25.724Z",
+      "factionId": "aoss_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "age_of_sigmar_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:21:23:41:51:62",
+      "entityId": "sk_aoss_01",
+      "displayName": "spell 1",
+      "entityType": "spell",
+      "assignedAt": "2026-05-14T22:11:25.724Z",
+      "factionId": "aoss_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "age_of_sigmar_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:22:26:41:52:63",
+      "entityId": "sk_aoss_02",
+      "displayName": "ward 2",
+      "entityType": "ward",
+      "assignedAt": "2026-05-14T22:11:25.724Z",
+      "factionId": "aoss_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "age_of_sigmar_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:23:29:41:53:64",
+      "entityId": "sk_aoss_03",
+      "displayName": "summon 3",
+      "entityType": "summon",
+      "assignedAt": "2026-05-14T22:11:25.724Z",
+      "factionId": "aoss_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "age_of_sigmar_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:24:2C:41:54:65",
+      "entityId": "sk_aoss_04",
+      "displayName": "unit 4",
+      "entityType": "unit",
+      "assignedAt": "2026-05-14T22:11:25.724Z",
+      "factionId": "aoss_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "age_of_sigmar_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

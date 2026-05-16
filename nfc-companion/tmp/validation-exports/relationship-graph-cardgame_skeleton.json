@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "cardgame_skeleton",
+  "edges": [
+    {
+      "id": "rel_crd_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_crd_00",
+      "toInstanceId": "sk_crd_item_hub"
+    },
+    {
+      "id": "rel_crd_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_crd_06",
+      "toInstanceId": "sk_crd_item_hub"
+    },
+    {
+      "id": "rel_crd_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_crd_12",
+      "toInstanceId": "sk_crd_item_hub"
+    },
+    {
+      "id": "rel_crd_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_crd_18",
+      "toInstanceId": "sk_crd_item_hub"
+    },
+    {
+      "id": "rel_crd_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_crd_24",
+      "toInstanceId": "sk_crd_item_hub"
+    },
+    {
+      "id": "rel_crd_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_04",
+      "toInstanceId": "sk_crd_03"
+    },
+    {
+      "id": "rel_crd_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_08",
+      "toInstanceId": "sk_crd_07"
+    },
+    {
+      "id": "rel_crd_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_12",
+      "toInstanceId": "sk_crd_11"
+    },
+    {
+      "id": "rel_crd_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_16",
+      "toInstanceId": "sk_crd_15"
+    },
+    {
+      "id": "rel_crd_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_20",
+      "toInstanceId": "sk_crd_19"
+    },
+    {
+      "id": "rel_crd_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_24",
+      "toInstanceId": "sk_crd_23"
+    },
+    {
+      "id": "rel_crd_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_crd_28",
+      "toInstanceId": "sk_crd_27"
+    },
+    {
+      "id": "rel_crd_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_crd_07",
+      "toInstanceId": "sk_crd_05"
+    },
+    {
+      "id": "rel_crd_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_crd_14",
+      "toInstanceId": "sk_crd_12"
+    },
+    {
+      "id": "rel_crd_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_crd_21",
+      "toInstanceId": "sk_crd_19"
+    },
+    {
+      "id": "rel_crd_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_crd_28",
+      "toInstanceId": "sk_crd_26"
+    }
+  ]
+}

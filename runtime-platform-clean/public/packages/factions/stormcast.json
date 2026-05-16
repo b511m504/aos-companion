@@ -1,0 +1,6 @@
+{
+  "id": "stormcast",
+  "name": "Stormcast Eternals",
+  "system": "aos_spearhead",
+  "data": "./structured/factions/stormcast.json"
+}

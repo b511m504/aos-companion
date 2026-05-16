@@ -1,0 +1,21 @@
+{
+  "id": "wh40k_summon_echo",
+  "trigger": "summon.unit",
+  "priority": 5,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [
+    {
+      "type": "entity_exists",
+      "entityId": "wh40k-spawn-token"
+    }
+  ],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "wh40k-spawn-token",
+      "status": "deep_strike"
+    }
+  ]
+}

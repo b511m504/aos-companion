@@ -1,0 +1,17 @@
+{
+  "id": "crypt_chest_opened",
+  "trigger": "chest.opened",
+  "priority": 10,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "crypt-hero-01",
+      "key": "resource",
+      "delta": 5
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "wh40k_unit_damaged_modstack",
+  "trigger": "unit.damaged",
+  "priority": 30,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [
+    {
+      "type": "entity_exists",
+      "entityId": "wh40k-intercessor-01"
+    }
+  ],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "triggering_entity",
+      "key": "resource",
+      "delta": 1
+    },
+    {
+      "type": "emit_event",
+      "event": "aura.applied",
+      "payload": {
+        "entityId": "wh40k-captain-01"
+      }
+    }
+  ]
+}

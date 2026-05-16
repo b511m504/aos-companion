@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "packageId": "warhammer40k_skeleton",
+  "edges": [
+    {
+      "id": "rel_w40ks_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_00",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_06",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_12",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_18",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_24",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_30",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_30",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_inv_36",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_w40ks_36",
+      "toInstanceId": "sk_w40ks_item_hub"
+    },
+    {
+      "id": "rel_w40ks_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_04",
+      "toInstanceId": "sk_w40ks_03"
+    },
+    {
+      "id": "rel_w40ks_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_08",
+      "toInstanceId": "sk_w40ks_07"
+    },
+    {
+      "id": "rel_w40ks_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_12",
+      "toInstanceId": "sk_w40ks_11"
+    },
+    {
+      "id": "rel_w40ks_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_16",
+      "toInstanceId": "sk_w40ks_15"
+    },
+    {
+      "id": "rel_w40ks_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_20",
+      "toInstanceId": "sk_w40ks_19"
+    },
+    {
+      "id": "rel_w40ks_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_24",
+      "toInstanceId": "sk_w40ks_23"
+    },
+    {
+      "id": "rel_w40ks_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_28",
+      "toInstanceId": "sk_w40ks_27"
+    },
+    {
+      "id": "rel_w40ks_party_32",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_32",
+      "toInstanceId": "sk_w40ks_31"
+    },
+    {
+      "id": "rel_w40ks_party_36",
+      "kind": "party_member",
+      "fromInstanceId": "sk_w40ks_36",
+      "toInstanceId": "sk_w40ks_35"
+    },
+    {
+      "id": "rel_w40ks_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_w40ks_07",
+      "toInstanceId": "sk_w40ks_05"
+    },
+    {
+      "id": "rel_w40ks_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_w40ks_14",
+      "toInstanceId": "sk_w40ks_12"
+    },
+    {
+      "id": "rel_w40ks_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_w40ks_21",
+      "toInstanceId": "sk_w40ks_19"
+    },
+    {
+      "id": "rel_w40ks_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_w40ks_28",
+      "toInstanceId": "sk_w40ks_26"
+    },
+    {
+      "id": "rel_w40ks_tr_35",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_w40ks_35",
+      "toInstanceId": "sk_w40ks_33"
+    }
+  ]
+}

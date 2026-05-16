@@ -1,0 +1,1 @@
+"Placeholder assets — replace with art/audio for production.\n"

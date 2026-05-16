@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.732Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "kts_faction",
+  "listId": "kts-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:30:20:42:50:62",
+      "entityId": "sk_kts_00",
+      "displayName": "operative 0",
+      "entityType": "operative",
+      "assignedAt": "2026-05-14T22:11:25.732Z",
+      "factionId": "kts_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "kill_team_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:31:23:42:51:63",
+      "entityId": "sk_kts_01",
+      "displayName": "conceal 1",
+      "entityType": "conceal",
+      "assignedAt": "2026-05-14T22:11:25.732Z",
+      "factionId": "kts_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "kill_team_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:32:26:42:52:64",
+      "entityId": "sk_kts_02",
+      "displayName": "grenade 2",
+      "entityType": "grenade",
+      "assignedAt": "2026-05-14T22:11:25.732Z",
+      "factionId": "kts_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "kill_team_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:33:29:42:53:65",
+      "entityId": "sk_kts_03",
+      "displayName": "operative 3",
+      "entityType": "operative",
+      "assignedAt": "2026-05-14T22:11:25.732Z",
+      "factionId": "kts_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "kill_team_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:34:2C:42:54:66",
+      "entityId": "sk_kts_04",
+      "displayName": "conceal 4",
+      "entityType": "conceal",
+      "assignedAt": "2026-05-14T22:11:25.732Z",
+      "factionId": "kts_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "kill_team_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

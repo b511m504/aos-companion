@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "crypt_assault",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "crypt-run-stress",
+      "name": "Shattered Vault Run",
+      "factionId": "crypt_default",
+      "description": "Room graph, traps, AI poke — chained environmental events.",
+      "units": [
+        {
+          "id": "crypt-hero-01",
+          "name": "Gravebreaker",
+          "tags": [
+            "hero",
+            "ally"
+          ]
+        },
+        {
+          "id": "crypt-door-01",
+          "name": "Sealed Door",
+          "tags": [
+            "door",
+            "room"
+          ]
+        },
+        {
+          "id": "crypt-trap-01",
+          "name": "Glyph Trap",
+          "tags": [
+            "trap"
+          ]
+        },
+        {
+          "id": "crypt-skeleton-01",
+          "name": "Rattlebone",
+          "tags": [
+            "monster",
+            "enemy"
+          ]
+        },
+        {
+          "id": "crypt-chest-01",
+          "name": "Iron Chest",
+          "tags": [
+            "chest",
+            "loot"
+          ]
+        }
+      ]
+    }
+  ]
+}

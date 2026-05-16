@@ -1,0 +1,1045 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "rpgs-default",
+      "name": "legends_rpg_skeleton default roster",
+      "factionId": "rpgs_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_rpgs_00",
+          "name": "pc 0",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_01",
+          "name": "npc 1",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_02",
+          "name": "quest 2",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_03",
+          "name": "item 3",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_04",
+          "name": "faction 4",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_05",
+          "name": "pc 5",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_06",
+          "name": "npc 6",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_07",
+          "name": "quest 7",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_rpgs_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_08",
+          "name": "item 8",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_09",
+          "name": "faction 9",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_10",
+          "name": "pc 10",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_11",
+          "name": "npc 11",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_12",
+          "name": "quest 12",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_11"
+            },
+            {
+              "id": "rel_rpgs_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_13",
+          "name": "item 13",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_14",
+          "name": "faction 14",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_rpgs_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_15",
+          "name": "pc 15",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_16",
+          "name": "npc 16",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_17",
+          "name": "quest 17",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_18",
+          "name": "item 18",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_19",
+          "name": "faction 19",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_20",
+          "name": "pc 20",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_21",
+          "name": "npc 21",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_rpgs_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_22",
+          "name": "quest 22",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_23",
+          "name": "item 23",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_24",
+          "name": "faction 24",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_23"
+            },
+            {
+              "id": "rel_rpgs_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_25",
+          "name": "pc 25",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_26",
+          "name": "npc 26",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_27",
+          "name": "quest 27",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_28",
+          "name": "item 28",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_28",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_27"
+            },
+            {
+              "id": "rel_rpgs_tr_28",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_rpgs_26"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_29",
+          "name": "faction 29",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_30",
+          "name": "pc 30",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_inv_30",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_31",
+          "name": "npc 31",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_32",
+          "name": "quest 32",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_32",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_31"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_33",
+          "name": "item 33",
+          "tags": [
+            "skeleton",
+            "item"
+          ],
+          "entityType": "item",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_34",
+          "name": "faction 34",
+          "tags": [
+            "skeleton",
+            "faction"
+          ],
+          "entityType": "faction",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_35",
+          "name": "pc 35",
+          "tags": [
+            "skeleton",
+            "pc"
+          ],
+          "entityType": "pc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_tr_35",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_rpgs_33"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_36",
+          "name": "npc 36",
+          "tags": [
+            "skeleton",
+            "npc"
+          ],
+          "entityType": "npc",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_rpgs_party_36",
+              "kind": "party_member",
+              "toInstanceId": "sk_rpgs_35"
+            },
+            {
+              "id": "rel_rpgs_inv_36",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_rpgs_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_rpgs_37",
+          "name": "quest 37",
+          "tags": [
+            "skeleton",
+            "quest"
+          ],
+          "entityType": "quest",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_rpgs_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "legends_rpg_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

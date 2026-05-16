@@ -1,0 +1,36 @@
+{
+  "id": "legends_rpg_skeleton_01_lifecycle_turnstart",
+  "trigger": "turn.start",
+  "priority": 95,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "start_game",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "start_round",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "start_turn",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "timer_tick",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "simulation.tick",
+      "payload": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "packageId": "crypt_assault",
+  "templates": [
+    {
+      "id": "crypt-hero-01",
+      "name": "Gravebreaker",
+      "tags": [
+        "hero",
+        "ally"
+      ]
+    },
+    {
+      "id": "crypt-door-01",
+      "name": "Sealed Door",
+      "tags": [
+        "door",
+        "room"
+      ]
+    },
+    {
+      "id": "crypt-trap-01",
+      "name": "Glyph Trap",
+      "tags": [
+        "trap"
+      ]
+    },
+    {
+      "id": "crypt-skeleton-01",
+      "name": "Rattlebone",
+      "tags": [
+        "monster",
+        "enemy"
+      ]
+    },
+    {
+      "id": "crypt-chest-01",
+      "name": "Iron Chest",
+      "tags": [
+        "chest",
+        "loot"
+      ]
+    }
+  ]
+}

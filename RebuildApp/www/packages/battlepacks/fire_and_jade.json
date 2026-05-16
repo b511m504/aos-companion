@@ -1,0 +1,78 @@
+{
+  "id": "fire_and_jade",
+  "name": "Spearhead — Fire & Jade",
+  "version": 1,
+  "battleLength": {
+    "maxRounds": 5,
+    "description": "Battle ends after five battle rounds or immediately when a victory condition is met."
+  },
+  "roundSequence": [
+    {
+      "id": "battle_round_start",
+      "label": "Battle round begins",
+      "engineHint": "battleRoundStart"
+    },
+    {
+      "id": "priority_roll",
+      "label": "Priority roll",
+      "engineHint": "priorityRoll"
+    },
+    {
+      "id": "twist_card",
+      "label": "Draw twist card",
+      "engineHint": "drawTwistCard"
+    },
+    {
+      "id": "battle_tactic_card",
+      "label": "Draw battle tactic card",
+      "engineHint": "drawBattleTacticCard"
+    }
+  ],
+  "victoryRules": {
+    "primary": [
+      {
+        "id": "control_majority",
+        "label": "Control more objectives than your opponent at end of round",
+        "scoreKinds": ["controlMore"],
+        "points": 2
+      },
+      {
+        "id": "battle_tactic",
+        "label": "Complete your battle tactic",
+        "scoreKinds": ["completedBattleTactic"],
+        "points": 1
+      }
+    ],
+    "secondary": [
+      {
+        "id": "control_one",
+        "label": "Control at least one objective",
+        "scoreKinds": ["controlOne"],
+        "points": 1
+      },
+      {
+        "id": "control_two",
+        "label": "Control at least two objectives",
+        "scoreKinds": ["controlTwo"],
+        "points": 2
+      }
+    ]
+  },
+  "terrainTraits": [
+    {
+      "id": "volcanic_scree",
+      "name": "Volcanic scree",
+      "effect": "Treat vertical distance up across this terrain feature as double."
+    },
+    {
+      "id": "arcane_nexus",
+      "name": "Arcane nexus",
+      "effect": "The first spell cast by each player within 6\" of this terrain uses one less casting roll modifier step (minimum unmodified)."
+    },
+    {
+      "id": "dead_marsh",
+      "name": "Dead marsh",
+      "effect": "Units never count as receiving cover saves from this terrain; worsened save rolls apply instead."
+    }
+  ]
+}

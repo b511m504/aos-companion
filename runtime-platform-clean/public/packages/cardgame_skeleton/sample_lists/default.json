@@ -1,0 +1,832 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "crd-default",
+      "name": "cardgame_skeleton default roster",
+      "factionId": "crd_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_crd_00",
+          "name": "deck 0",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_crd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_01",
+          "name": "hand 1",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_02",
+          "name": "discard 2",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_03",
+          "name": "deck 3",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_04",
+          "name": "hand 4",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_05",
+          "name": "discard 5",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_06",
+          "name": "deck 6",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_crd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_07",
+          "name": "hand 7",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_crd_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_08",
+          "name": "discard 8",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_09",
+          "name": "deck 9",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_10",
+          "name": "hand 10",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_11",
+          "name": "discard 11",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_12",
+          "name": "deck 12",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_11"
+            },
+            {
+              "id": "rel_crd_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_crd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_13",
+          "name": "hand 13",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_14",
+          "name": "discard 14",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_crd_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_15",
+          "name": "deck 15",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_16",
+          "name": "hand 16",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_17",
+          "name": "discard 17",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_18",
+          "name": "deck 18",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_crd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_19",
+          "name": "hand 19",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_20",
+          "name": "discard 20",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_21",
+          "name": "deck 21",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_crd_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_22",
+          "name": "hand 22",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_23",
+          "name": "discard 23",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_24",
+          "name": "deck 24",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_23"
+            },
+            {
+              "id": "rel_crd_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_crd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_25",
+          "name": "hand 25",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_26",
+          "name": "discard 26",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_27",
+          "name": "deck 27",
+          "tags": [
+            "skeleton",
+            "deck"
+          ],
+          "entityType": "deck",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_28",
+          "name": "hand 28",
+          "tags": [
+            "skeleton",
+            "hand"
+          ],
+          "entityType": "hand",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_crd_party_28",
+              "kind": "party_member",
+              "toInstanceId": "sk_crd_27"
+            },
+            {
+              "id": "rel_crd_tr_28",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_crd_26"
+            }
+          ]
+        },
+        {
+          "id": "sk_crd_29",
+          "name": "discard 29",
+          "tags": [
+            "skeleton",
+            "discard"
+          ],
+          "entityType": "discard",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_crd_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "cardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

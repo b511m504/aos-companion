@@ -1,0 +1,16 @@
+{
+  "id": "boardgame_skeleton_11_theme_board",
+  "trigger": "phase.advance",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "objective.scored",
+      "payload": {}
+    }
+  ]
+}

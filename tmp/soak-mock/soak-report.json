@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "gen": "{\"ok\":true,\"outDir\":\"D:\\\\controller project\\\\AOS data\\\\tmp\\\\soak-mock\",\"ruleCount\":800}",
+  "simMetrics": null,
+  "stderr": "n (D:\\controller project\\AOS data\\nfc-companion\\scripts\\simulation-cli.ts:107:46)\n    at <anonymous> (D:\\controller project\\AOS data\\nfc-companion\\scripts\\simulation-cli.ts:155:6)\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  errno: -4058,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: 'D:\\\\controller'\n}\n"
+}

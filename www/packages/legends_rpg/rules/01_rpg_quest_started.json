@@ -1,0 +1,22 @@
+{
+  "id": "rpg_quest_started",
+  "trigger": "quest.started",
+  "priority": 20,
+  "appliesToSystems": [
+    "legends_rpg"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "set_state",
+      "target": "rpg-pc-01",
+      "key": "objective",
+      "value": "find_relic"
+    },
+    {
+      "type": "apply_status",
+      "target": "rpg-pc-01",
+      "status": "quest_active"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "legends_rpg",
+  "name": "Legends RPG",
+  "version": "1.0",
+  "description": "Campaign persistence stand-in — quests, XP, factions.",
+  "factionsPath": "factions/legends_rpg.json"
+}

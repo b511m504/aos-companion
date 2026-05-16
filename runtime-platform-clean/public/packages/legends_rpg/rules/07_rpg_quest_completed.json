@@ -1,0 +1,29 @@
+{
+  "id": "rpg_quest_completed",
+  "trigger": "quest.completed",
+  "priority": 22,
+  "appliesToSystems": [
+    "legends_rpg"
+  ],
+  "conditions": [
+    {
+      "type": "status_present",
+      "target": "rpg-pc-01",
+      "status": "quest_active"
+    }
+  ],
+  "actions": [
+    {
+      "type": "remove_status",
+      "target": "rpg-pc-01",
+      "status": "quest_active"
+    },
+    {
+      "type": "emit_event",
+      "event": "xp.gained",
+      "payload": {
+        "entityId": "rpg-pc-01"
+      }
+    }
+  ]
+}

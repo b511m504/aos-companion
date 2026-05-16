@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "boardgame_skeleton",
+  "templates": [
+    {
+      "id": "sk_brd_00",
+      "name": "player 0",
+      "tags": [
+        "skeleton",
+        "player"
+      ]
+    },
+    {
+      "id": "sk_brd_01",
+      "name": "token 1",
+      "tags": [
+        "skeleton",
+        "token"
+      ]
+    },
+    {
+      "id": "sk_brd_02",
+      "name": "score 2",
+      "tags": [
+        "skeleton",
+        "score"
+      ]
+    },
+    {
+      "id": "sk_brd_03",
+      "name": "player 3",
+      "tags": [
+        "skeleton",
+        "player"
+      ]
+    },
+    {
+      "id": "sk_brd_04",
+      "name": "token 4",
+      "tags": [
+        "skeleton",
+        "token"
+      ]
+    },
+    {
+      "id": "sk_brd_05",
+      "name": "score 5",
+      "tags": [
+        "skeleton",
+        "score"
+      ]
+    },
+    {
+      "id": "sk_brd_06",
+      "name": "player 6",
+      "tags": [
+        "skeleton",
+        "player"
+      ]
+    },
+    {
+      "id": "sk_brd_07",
+      "name": "token 7",
+      "tags": [
+        "skeleton",
+        "token"
+      ]
+    },
+    {
+      "id": "sk_brd_08",
+      "name": "score 8",
+      "tags": [
+        "skeleton",
+        "score"
+      ]
+    },
+    {
+      "id": "sk_brd_09",
+      "name": "player 9",
+      "tags": [
+        "skeleton",
+        "player"
+      ]
+    },
+    {
+      "id": "sk_brd_10",
+      "name": "token 10",
+      "tags": [
+        "skeleton",
+        "token"
+      ]
+    },
+    {
+      "id": "sk_brd_11",
+      "name": "score 11",
+      "tags": [
+        "skeleton",
+        "score"
+      ]
+    }
+  ]
+}

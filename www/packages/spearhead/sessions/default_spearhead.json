@@ -1,0 +1,23 @@
+{
+  "id": "default_spearhead",
+  "gamePackageId": "aos-spearhead",
+  "systemId": "aos_spearhead",
+  "battlepackId": "fire_and_jade",
+  "defaultListId": "stormcast_test_list",
+  "allowedFactions": [
+    "stormcast"
+  ],
+  "defaultRoster": [
+    "spearhead-liberators",
+    "spearhead-prosecutors"
+  ],
+  "runtimeSteps": [
+    { "id": "select_game", "label": "Select Game" },
+    { "id": "select_battlepack", "label": "Select Battlepack" },
+    { "id": "select_faction", "label": "Select Faction" },
+    { "id": "build_list", "label": "Build List" },
+    { "id": "assign_nfc", "label": "Assign NFC" },
+    { "id": "start_session", "label": "Start Session" },
+    { "id": "battle_runtime", "label": "Battle Runtime" }
+  ]
+}

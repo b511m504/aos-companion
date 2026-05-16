@@ -1,0 +1,6 @@
+{
+  "id": "stress_loop_c",
+  "trigger": "runtime.stress_loop_c",
+  "conditions": [],
+  "actions": [{ "type": "emit_event", "event": "runtime.stress_loop_a", "payload": {} }]
+}

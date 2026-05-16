@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.747Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "rpgs_faction",
+  "listId": "rpgs-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:50:20:44:50:64",
+      "entityId": "sk_rpgs_00",
+      "displayName": "pc 0",
+      "entityType": "pc",
+      "assignedAt": "2026-05-14T22:11:25.747Z",
+      "factionId": "rpgs_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "legends_rpg_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:51:23:44:51:65",
+      "entityId": "sk_rpgs_01",
+      "displayName": "npc 1",
+      "entityType": "npc",
+      "assignedAt": "2026-05-14T22:11:25.747Z",
+      "factionId": "rpgs_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "legends_rpg_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:52:26:44:52:66",
+      "entityId": "sk_rpgs_02",
+      "displayName": "quest 2",
+      "entityType": "quest",
+      "assignedAt": "2026-05-14T22:11:25.747Z",
+      "factionId": "rpgs_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "legends_rpg_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:53:29:44:53:67",
+      "entityId": "sk_rpgs_03",
+      "displayName": "item 3",
+      "entityType": "item",
+      "assignedAt": "2026-05-14T22:11:25.747Z",
+      "factionId": "rpgs_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "legends_rpg_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:54:2C:44:54:68",
+      "entityId": "sk_rpgs_04",
+      "displayName": "faction 4",
+      "entityType": "faction",
+      "assignedAt": "2026-05-14T22:11:25.747Z",
+      "factionId": "rpgs_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "legends_rpg_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

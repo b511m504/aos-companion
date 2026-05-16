@@ -1,0 +1,12 @@
+{
+  "systemId": "wh40k",
+  "schemaVersion": 1,
+  "translations": {
+    "health": "wounds",
+    "resource": "command points",
+    "event": "battle round",
+    "activation": "phase",
+    "status": "status",
+    "entity": "model"
+  }
+}

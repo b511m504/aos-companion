@@ -1,0 +1,27 @@
+{
+  "id": "crypt_loot_found",
+  "trigger": "loot.found",
+  "priority": 12,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "set_state",
+      "target": "crypt-hero-01",
+      "key": "inventory",
+      "value": [
+        "rust_key",
+        "healing_kit"
+      ]
+    },
+    {
+      "type": "emit_event",
+      "event": "chest.opened",
+      "payload": {
+        "entityId": "crypt-chest-01"
+      }
+    }
+  ]
+}

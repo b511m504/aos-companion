@@ -1,0 +1,16 @@
+{
+  "id": "aos_spell_denied",
+  "trigger": "spell.denied",
+  "priority": 16,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "triggering_entity",
+      "status": "denied_cast"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "packageId": "crypt_assault",
+  "name": "Crypt Assault",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "crypt_assault",
+  "contentVersion": "1.0.0",
+  "entityTypes": [
+    "hero",
+    "monster",
+    "loot",
+    "room",
+    "trap",
+    "chest"
+  ],
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 24
+  }
+}

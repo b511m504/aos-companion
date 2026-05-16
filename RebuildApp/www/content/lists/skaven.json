@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "aos",
+    "factionId": "skaven"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "skaven_1000",
+      "name": "Skaven 1000 pts",
+      "factionId": "skaven",
+      "description": "Mixed blocks — clanrats, weapons team, characters.",
+      "units": [
+        { "id": "sk1-u01", "name": "Clanrats" },
+        { "id": "sk1-u02", "name": "Clanrats" },
+        { "id": "sk1-u03", "name": "Grey Seer" },
+        { "id": "sk1-u04", "name": "Plagueclaw" },
+        { "id": "sk1-u05", "name": "Gutter Runners" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "skaven_tournament",
+      "name": "Skaven Tournament List",
+      "factionId": "skaven",
+      "description": "Elite skew — stormvermin anchor and tech.",
+      "units": [
+        { "id": "skt-u01", "name": "Stormvermin" },
+        { "id": "skt-u02", "name": "Warlock Engineer" },
+        { "id": "skt-u03", "name": "Deathmaster" },
+        { "id": "skt-u04", "name": "Ratling Gun" },
+        { "id": "skt-u05", "name": "Hell Pit Abomination" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "skaven_tide",
+      "name": "Skaven Tide",
+      "factionId": "skaven",
+      "description": "Swarm style — many small units to stress rapid linking.",
+      "units": [
+        { "id": "skti-u01", "name": "Clanrats" },
+        { "id": "skti-u02", "name": "Clanrats" },
+        { "id": "skti-u03", "name": "Clanrats" },
+        { "id": "skti-u04", "name": "Night Runners" },
+        { "id": "skti-u05", "name": "Night Runners" },
+        { "id": "skti-u06", "name": "Plague Monks" },
+        { "id": "skti-u07", "name": "Plague Monks" },
+        { "id": "skti-u08", "name": "Clawlord" }
+      ]
+    }
+  ]
+}

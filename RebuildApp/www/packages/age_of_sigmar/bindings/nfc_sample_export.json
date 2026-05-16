@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T20:29:48.126Z",
+  "gameSystemId": "aos",
+  "factionId": "stormcast",
+  "listId": "aos-host-stress",
+  "assignments": [
+    {
+      "tagUid": "04age_of_sigmar0",
+      "entityId": "aos-hero-01",
+      "displayName": "Knight-Incantor",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.126Z",
+      "factionId": "stormcast",
+      "gameSystemId": "aos"
+    },
+    {
+      "tagUid": "04age_of_sigmar1",
+      "entityId": "aos-caster-01",
+      "displayName": "Arcane Tome Bearer",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.126Z",
+      "factionId": "stormcast",
+      "gameSystemId": "aos"
+    },
+    {
+      "tagUid": "04age_of_sigmar2",
+      "entityId": "aos-line-01",
+      "displayName": "Vindicators",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.126Z",
+      "factionId": "stormcast",
+      "gameSystemId": "aos"
+    }
+  ]
+}

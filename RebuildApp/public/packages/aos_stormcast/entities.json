@@ -1,0 +1,10 @@
+[
+  {
+    "id": "stormcast_vanguard_01",
+    "type": "unit",
+    "name": "Stormcast Vanguard",
+    "wounds": 5,
+    "keywords": ["stormcast", "infantry"],
+    "runtimeEntityId": "a1"
+  }
+]

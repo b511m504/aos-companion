@@ -1,0 +1,10 @@
+{
+  "systemId": "generic",
+  "name": "Lance Star (demo)",
+  "units": [
+    { "id": "m1", "name": "Atlas", "wounds": 18, "entityType": "VEHICLE" },
+    { "id": "m2", "name": "Hunchback", "wounds": 12, "entityType": "VEHICLE" },
+    { "id": "m3", "name": "Jenner", "wounds": 8, "entityType": "VEHICLE" },
+    { "id": "m4", "name": "Locust Scout", "wounds": 6, "entityType": "VEHICLE" }
+  ]
+}

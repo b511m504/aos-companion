@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": 1,
+  "packageId": "crypt_assault_skeleton",
+  "entities": [
+    {
+      "instanceId": "sk_cryp_00",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": true,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 0",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_inv_0",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_00",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_01",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 1",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_02",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 2",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_03",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 3",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_04",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 4",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_4",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_04",
+          "toInstanceId": "sk_cryp_03"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_05",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 5",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_06",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 6",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_inv_6",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_06",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_07",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 7",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_tr_7",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_cryp_07",
+          "toInstanceId": "sk_cryp_05"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_08",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 8",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_8",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_08",
+          "toInstanceId": "sk_cryp_07"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_09",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 9",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_10",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 10",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_11",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 11",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_12",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 12",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_12",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_12",
+          "toInstanceId": "sk_cryp_11"
+        },
+        {
+          "id": "rel_cryp_inv_12",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_12",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_13",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 13",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_14",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 14",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_tr_14",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_cryp_14",
+          "toInstanceId": "sk_cryp_12"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_15",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 15",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_16",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 16",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_16",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_16",
+          "toInstanceId": "sk_cryp_15"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_17",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 17",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_18",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 18",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_inv_18",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_18",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_19",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 19",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_20",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 20",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_20",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_20",
+          "toInstanceId": "sk_cryp_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_21",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 21",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_tr_21",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_cryp_21",
+          "toInstanceId": "sk_cryp_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_22",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": true,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 22",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_23",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 23",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_24",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 24",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_24",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_24",
+          "toInstanceId": "sk_cryp_23"
+        },
+        {
+          "id": "rel_cryp_inv_24",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_24",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_25",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 25",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_26",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 26",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_27",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 27",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_28",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 28",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_28",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_28",
+          "toInstanceId": "sk_cryp_27"
+        },
+        {
+          "id": "rel_cryp_tr_28",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_cryp_28",
+          "toInstanceId": "sk_cryp_26"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_29",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "trap",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "trap 29",
+        "tags": [
+          "skeleton",
+          "trap"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_30",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 30",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_inv_30",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_cryp_30",
+          "toInstanceId": "sk_cryp_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_31",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "monster",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "monster 31",
+        "tags": [
+          "skeleton",
+          "monster"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_32",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "loot",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "loot 32",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_cryp_party_32",
+          "kind": "party_member",
+          "fromInstanceId": "sk_cryp_32",
+          "toInstanceId": "sk_cryp_31"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_cryp_33",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "door",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "door 33",
+        "tags": [
+          "skeleton",
+          "door"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    },
+    {
+      "instanceId": "sk_cryp_item_hub",
+      "templateId": "basic_template",
+      "packageId": "crypt_assault_skeleton",
+      "entityType": "generic",
+      "state": {
+        "health": 1,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "Hub item",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "cryp-default",
+        "sourceListName": "crypt_assault_skeleton default roster",
+        "sourceFactionId": "cryp_faction"
+      }
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "legends_rpg_skeleton_11_theme_rpg",
+  "trigger": "quest.started",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "xp.gained",
+      "payload": {}
+    }
+  ]
+}

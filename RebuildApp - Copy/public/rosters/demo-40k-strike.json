@@ -1,0 +1,10 @@
+{
+  "systemId": "warhammer40k",
+  "name": "Ultramarines Strike Force",
+  "units": [
+    { "id": "u1", "name": "Captain", "wounds": 6, "entityType": "CHARACTER" },
+    { "id": "u2", "name": "Intercessors", "wounds": 10, "entityType": "UNIT" },
+    { "id": "u3", "name": "Hellblasters", "wounds": 8, "entityType": "UNIT" },
+    { "id": "u4", "name": "Gladiator Tank", "wounds": 14, "entityType": "VEHICLE" }
+  ]
+}

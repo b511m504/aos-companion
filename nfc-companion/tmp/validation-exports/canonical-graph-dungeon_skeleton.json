@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": 1,
+  "packageId": "dungeon_skeleton",
+  "entities": [
+    {
+      "instanceId": "sk_dng_00",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": true,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 0",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_inv_0",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_00",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_01",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 1",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_02",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 2",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_03",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 3",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_04",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 4",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_4",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_04",
+          "toInstanceId": "sk_dng_03"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_05",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 5",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_06",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 6",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_inv_6",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_06",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_07",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 7",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_tr_7",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_dng_07",
+          "toInstanceId": "sk_dng_05"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_08",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 8",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_8",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_08",
+          "toInstanceId": "sk_dng_07"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_09",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 9",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_10",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 10",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_11",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 11",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_12",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 12",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_12",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_12",
+          "toInstanceId": "sk_dng_11"
+        },
+        {
+          "id": "rel_dng_inv_12",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_12",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_13",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 13",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_14",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 14",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_tr_14",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_dng_14",
+          "toInstanceId": "sk_dng_12"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_15",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 15",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_16",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 16",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_16",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_16",
+          "toInstanceId": "sk_dng_15"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_17",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 17",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_18",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 18",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_inv_18",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_18",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_19",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 19",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_20",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 20",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_20",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_20",
+          "toInstanceId": "sk_dng_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_21",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 21",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_tr_21",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_dng_21",
+          "toInstanceId": "sk_dng_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_22",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": true,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 22",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_23",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 23",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_24",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 24",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_24",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_24",
+          "toInstanceId": "sk_dng_23"
+        },
+        {
+          "id": "rel_dng_inv_24",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_24",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_25",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 25",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_26",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 26",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_27",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 27",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_28",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 28",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_28",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_28",
+          "toInstanceId": "sk_dng_27"
+        },
+        {
+          "id": "rel_dng_tr_28",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_dng_28",
+          "toInstanceId": "sk_dng_26"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_29",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 29",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_30",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 30",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_inv_30",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_dng_30",
+          "toInstanceId": "sk_dng_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_31",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "chest",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "chest 31",
+        "tags": [
+          "skeleton",
+          "chest"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_32",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "room",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "room 32",
+        "tags": [
+          "skeleton",
+          "room"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_dng_party_32",
+          "kind": "party_member",
+          "fromInstanceId": "sk_dng_32",
+          "toInstanceId": "sk_dng_31"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_dng_33",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "hazard",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "hazard 33",
+        "tags": [
+          "skeleton",
+          "hazard"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_34",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "encounter",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "encounter 34",
+        "tags": [
+          "skeleton",
+          "encounter"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    },
+    {
+      "instanceId": "sk_dng_item_hub",
+      "templateId": "basic_template",
+      "packageId": "dungeon_skeleton",
+      "entityType": "generic",
+      "state": {
+        "health": 1,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "Hub item",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "dng-default",
+        "sourceListName": "dungeon_skeleton default roster",
+        "sourceFactionId": "dng_faction"
+      }
+    }
+  ],
+  "edges": []
+}

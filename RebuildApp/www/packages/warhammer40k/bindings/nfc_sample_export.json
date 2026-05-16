@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T20:29:48.113Z",
+  "gameSystemId": "wh40k",
+  "factionId": "space_marines",
+  "listId": "wh40k-strike-stress",
+  "assignments": [
+    {
+      "tagUid": "04warhammer40k0F",
+      "entityId": "wh40k-intercessor-01",
+      "displayName": "Intercessor Squad",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.113Z",
+      "factionId": "space_marines",
+      "gameSystemId": "wh40k"
+    },
+    {
+      "tagUid": "04warhammer40k1F",
+      "entityId": "wh40k-captain-01",
+      "displayName": "Captain",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.113Z",
+      "factionId": "space_marines",
+      "gameSystemId": "wh40k"
+    },
+    {
+      "tagUid": "04warhammer40k2F",
+      "entityId": "wh40k-rhino-01",
+      "displayName": "Rhino",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.113Z",
+      "factionId": "space_marines",
+      "gameSystemId": "wh40k"
+    }
+  ]
+}

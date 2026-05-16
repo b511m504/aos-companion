@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "description": "Reusable condition snippets.",
+  "snippets": {
+    "heroExists": [
+      {
+        "type": "entity_exists",
+        "entityId": "crypt-hero-01"
+      }
+    ]
+  }
+}

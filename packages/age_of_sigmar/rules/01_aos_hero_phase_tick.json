@@ -1,0 +1,24 @@
+{
+  "id": "aos_hero_phase_tick",
+  "trigger": "phase.advance",
+  "priority": 20,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [
+    {
+      "type": "entity_has_tag",
+      "entityId": "aos-caster-01",
+      "tag": "wizard"
+    }
+  ],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "spell.cast",
+      "payload": {
+        "entityId": "aos-caster-01"
+      }
+    }
+  ]
+}

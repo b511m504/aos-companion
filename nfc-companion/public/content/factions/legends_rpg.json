@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "legends_rpg",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "schemaVersion": 1,
+      "id": "rpg_default",
+      "systemId": "legends_rpg",
+      "name": "Legends RPG (stress)",
+      "listsPath": "lists/legends_rpg_stress.json"
+    }
+  ]
+}

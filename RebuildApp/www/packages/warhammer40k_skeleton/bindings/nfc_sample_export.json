@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.715Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "w40ks_faction",
+  "listId": "w40ks-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:10:20:40:50:60",
+      "entityId": "sk_w40ks_00",
+      "displayName": "unit 0",
+      "entityType": "unit",
+      "assignedAt": "2026-05-14T22:11:25.715Z",
+      "factionId": "w40ks_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "warhammer40k_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:11:23:40:51:61",
+      "entityId": "sk_w40ks_01",
+      "displayName": "objective 1",
+      "entityType": "objective",
+      "assignedAt": "2026-05-14T22:11:25.715Z",
+      "factionId": "w40ks_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "warhammer40k_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:12:26:40:52:62",
+      "entityId": "sk_w40ks_02",
+      "displayName": "character 2",
+      "entityType": "character",
+      "assignedAt": "2026-05-14T22:11:25.715Z",
+      "factionId": "w40ks_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "warhammer40k_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:13:29:40:53:63",
+      "entityId": "sk_w40ks_03",
+      "displayName": "transport 3",
+      "entityType": "transport",
+      "assignedAt": "2026-05-14T22:11:25.715Z",
+      "factionId": "w40ks_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "warhammer40k_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:14:2C:40:54:64",
+      "entityId": "sk_w40ks_04",
+      "displayName": "unit 4",
+      "entityType": "unit",
+      "assignedAt": "2026-05-14T22:11:25.715Z",
+      "factionId": "w40ks_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "warhammer40k_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

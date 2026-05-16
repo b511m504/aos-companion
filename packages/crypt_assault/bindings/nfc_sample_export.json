@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T20:43:10.500Z",
+  "gameSystemId": "crypt_assault",
+  "factionId": "crypt_default",
+  "listId": "crypt-run-stress",
+  "assignments": [
+    {
+      "tagUid": "04crypt_assault0",
+      "entityId": "crypt-hero-01",
+      "displayName": "Gravebreaker",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.500Z",
+      "factionId": "crypt_default",
+      "gameSystemId": "crypt_assault"
+    },
+    {
+      "tagUid": "04crypt_assault1",
+      "entityId": "crypt-door-01",
+      "displayName": "Sealed Door",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.500Z",
+      "factionId": "crypt_default",
+      "gameSystemId": "crypt_assault"
+    },
+    {
+      "tagUid": "04crypt_assault2",
+      "entityId": "crypt-trap-01",
+      "displayName": "Glyph Trap",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.500Z",
+      "factionId": "crypt_default",
+      "gameSystemId": "crypt_assault"
+    }
+  ]
+}

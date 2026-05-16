@@ -1,0 +1,24 @@
+{
+  "id": "kt_overwatch",
+  "trigger": "overwatch.fired",
+  "priority": 18,
+  "appliesToSystems": [
+    "killteam"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "kt-enemy-01",
+      "key": "health",
+      "delta": -1
+    },
+    {
+      "type": "emit_event",
+      "event": "unit.damaged",
+      "payload": {
+        "entityId": "kt-enemy-01"
+      }
+    }
+  ]
+}

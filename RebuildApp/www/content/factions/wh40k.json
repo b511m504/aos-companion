@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "wh40k",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "schemaVersion": 1,
+      "id": "space_marines",
+      "systemId": "wh40k",
+      "name": "Space Marines",
+      "listsPath": "lists/space_marines.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tyranids",
+      "systemId": "wh40k",
+      "name": "Tyranids",
+      "listsPath": "lists/tyranids.json"
+    }
+  ]
+}

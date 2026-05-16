@@ -1,0 +1,884 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "stg-default",
+      "name": "strategy_skeleton default roster",
+      "factionId": "stg_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_stg_00",
+          "name": "territory 0",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_01",
+          "name": "resource 1",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_02",
+          "name": "unit 2",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_03",
+          "name": "territory 3",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_04",
+          "name": "resource 4",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_05",
+          "name": "unit 5",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_06",
+          "name": "territory 6",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_07",
+          "name": "resource 7",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_stg_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_08",
+          "name": "unit 8",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_09",
+          "name": "territory 9",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_10",
+          "name": "resource 10",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_11",
+          "name": "unit 11",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_12",
+          "name": "territory 12",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_11"
+            },
+            {
+              "id": "rel_stg_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_13",
+          "name": "resource 13",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_14",
+          "name": "unit 14",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_stg_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_15",
+          "name": "territory 15",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_16",
+          "name": "resource 16",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_17",
+          "name": "unit 17",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_18",
+          "name": "territory 18",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_19",
+          "name": "resource 19",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_20",
+          "name": "unit 20",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_21",
+          "name": "territory 21",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_stg_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_22",
+          "name": "resource 22",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_23",
+          "name": "unit 23",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_24",
+          "name": "territory 24",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_23"
+            },
+            {
+              "id": "rel_stg_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_25",
+          "name": "resource 25",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_26",
+          "name": "unit 26",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_27",
+          "name": "territory 27",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_28",
+          "name": "resource 28",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_party_28",
+              "kind": "party_member",
+              "toInstanceId": "sk_stg_27"
+            },
+            {
+              "id": "rel_stg_tr_28",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_stg_26"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_29",
+          "name": "unit 29",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_30",
+          "name": "territory 30",
+          "tags": [
+            "skeleton",
+            "territory"
+          ],
+          "entityType": "territory",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_stg_inv_30",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_stg_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_stg_31",
+          "name": "resource 31",
+          "tags": [
+            "skeleton",
+            "resource"
+          ],
+          "entityType": "resource",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_stg_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "strategy_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

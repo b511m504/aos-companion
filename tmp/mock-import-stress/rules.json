@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mock_rule_0",
+    "trigger": "turn.end",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 0"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_1",
+    "trigger": "simulation.tick",
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 1"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_2",
+    "trigger": "rng.table",
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 2"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_3",
+    "trigger": "turn.start",
+    "priority": 0,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 3"
+      }
+    ]
+  },
+  {
+    "id": "mock_rule_4",
+    "trigger": "turn.end",
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ],
+    "actions": [
+      {
+        "type": "show_message",
+        "text": "mock 4"
+      }
+    ]
+  }
+]

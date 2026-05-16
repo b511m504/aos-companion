@@ -1,0 +1,55 @@
+{
+  "id": "battle_tactic_placeholders",
+  "type": "battle_tactic",
+  "name": "Battle Tactics (placeholders)",
+  "cards": [
+    {
+      "id": "bt_01",
+      "title": "Steel Torrent",
+      "description": "Pick one missile weapon profile — add +1 attack if every model in the unit targets the same enemy.",
+      "flavor": "Volleys align like a marching hymn.",
+      "type": "battle_tactic",
+      "tag": "offensive"
+    },
+    {
+      "id": "bt_02",
+      "title": "Bulwark Doctrine",
+      "description": "Until end of phase, selected infantry rerolls saves of 1 while wholly within 3\" of another friendly infantry.",
+      "flavor": "Shields interlock on shouted cadence.",
+      "type": "battle_tactic",
+      "tag": "defensive"
+    },
+    {
+      "id": "bt_03",
+      "title": "Swift Celestial March",
+      "description": "One unit may run and still shoot once this shooting phase (minimum range weapons only).",
+      "flavor": "Storm Sigmarites skim forward without breaking ranks.",
+      "type": "battle_tactic",
+      "tag": "support"
+    },
+    {
+      "id": "bt_04",
+      "title": "Counter-Leap Protocol",
+      "description": "After an enemy finishes a charge move, one prosecutor unit may redeploy D6\" once.",
+      "flavor": "Hammerfall Prosecutors answer aerial insult in kind.",
+      "type": "battle_tactic",
+      "tag": "reaction"
+    },
+    {
+      "id": "bt_05",
+      "title": "Draconian Denial",
+      "description": "Enemy ward rolls within 9\" of your general suffer −1 this phase (minimum 6+).",
+      "flavor": "Sigmarite scripture crowds hostile souls.",
+      "type": "battle_tactic",
+      "tag": "objective"
+    },
+    {
+      "id": "bt_06",
+      "title": "Hammerstrike Cadence",
+      "description": "Fight-first applies to one Liberator unit if it charged or was charged this phase.",
+      "flavor": "Anvil shields clang down on tempo.",
+      "type": "battle_tactic",
+      "tag": "offensive"
+    }
+  ]
+}

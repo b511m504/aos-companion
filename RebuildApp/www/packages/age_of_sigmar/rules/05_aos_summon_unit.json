@@ -1,0 +1,33 @@
+{
+  "id": "aos_summon_unit",
+  "trigger": "summon.unit",
+  "priority": 30,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "upsert_entity",
+      "entity": {
+        "id": "aos-summoned-skink",
+        "name": "Summoned Skink",
+        "tags": [
+          "summon",
+          "ally"
+        ],
+        "states": {
+          "health": 2,
+          "owner": "player1"
+        }
+      }
+    },
+    {
+      "type": "emit_event",
+      "event": "tactic.completed",
+      "payload": {
+        "entityId": "aos-hero-01"
+      }
+    }
+  ]
+}

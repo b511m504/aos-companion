@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "packageId": "kill_team_skeleton",
+  "entities": [
+    {
+      "instanceId": "sk_kts_00",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": true,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 0",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_inv_0",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_00",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_01",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 1",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_02",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 2",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_03",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 3",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_04",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 4",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_4",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_04",
+          "toInstanceId": "sk_kts_03"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_05",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 5",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_06",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 6",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_inv_6",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_06",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_07",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 7",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_tr_7",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_kts_07",
+          "toInstanceId": "sk_kts_05"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_08",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 8",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_8",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_08",
+          "toInstanceId": "sk_kts_07"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_09",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 9",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_10",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 10",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_11",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 11",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_12",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 12",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_12",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_12",
+          "toInstanceId": "sk_kts_11"
+        },
+        {
+          "id": "rel_kts_inv_12",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_12",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_13",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 13",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_14",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 14",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_tr_14",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_kts_14",
+          "toInstanceId": "sk_kts_12"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_15",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 15",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_16",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 16",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_16",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_16",
+          "toInstanceId": "sk_kts_15"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_17",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 17",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_18",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 18",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_inv_18",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_18",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_19",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 19",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_20",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 20",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_20",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_20",
+          "toInstanceId": "sk_kts_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_21",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 21",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_tr_21",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_kts_21",
+          "toInstanceId": "sk_kts_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_22",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": true,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 22",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_23",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 23",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_24",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 24",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_24",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_24",
+          "toInstanceId": "sk_kts_23"
+        },
+        {
+          "id": "rel_kts_inv_24",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_24",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_25",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 25",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_26",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 26",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_27",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 27",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_28",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 28",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_party_28",
+          "kind": "party_member",
+          "fromInstanceId": "sk_kts_28",
+          "toInstanceId": "sk_kts_27"
+        },
+        {
+          "id": "rel_kts_tr_28",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_kts_28",
+          "toInstanceId": "sk_kts_26"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_29",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "grenade",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "grenade 29",
+        "tags": [
+          "skeleton",
+          "grenade"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_30",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "operative",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "operative 30",
+        "tags": [
+          "skeleton",
+          "operative"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_kts_inv_30",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_kts_30",
+          "toInstanceId": "sk_kts_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_kts_31",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "conceal",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "conceal 31",
+        "tags": [
+          "skeleton",
+          "conceal"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    },
+    {
+      "instanceId": "sk_kts_item_hub",
+      "templateId": "basic_template",
+      "packageId": "kill_team_skeleton",
+      "entityType": "generic",
+      "state": {
+        "health": 1,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "Hub item",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "kts-default",
+        "sourceListName": "kill_team_skeleton default roster",
+        "sourceFactionId": "kts_faction"
+      }
+    }
+  ],
+  "edges": []
+}

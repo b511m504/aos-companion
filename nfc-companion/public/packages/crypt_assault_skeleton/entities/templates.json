@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "crypt_assault_skeleton",
+  "templates": [
+    {
+      "id": "sk_cryp_00",
+      "name": "room 0",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_cryp_01",
+      "name": "monster 1",
+      "tags": [
+        "skeleton",
+        "monster"
+      ]
+    },
+    {
+      "id": "sk_cryp_02",
+      "name": "loot 2",
+      "tags": [
+        "skeleton",
+        "loot"
+      ]
+    },
+    {
+      "id": "sk_cryp_03",
+      "name": "door 3",
+      "tags": [
+        "skeleton",
+        "door"
+      ]
+    },
+    {
+      "id": "sk_cryp_04",
+      "name": "trap 4",
+      "tags": [
+        "skeleton",
+        "trap"
+      ]
+    },
+    {
+      "id": "sk_cryp_05",
+      "name": "room 5",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_cryp_06",
+      "name": "monster 6",
+      "tags": [
+        "skeleton",
+        "monster"
+      ]
+    },
+    {
+      "id": "sk_cryp_07",
+      "name": "loot 7",
+      "tags": [
+        "skeleton",
+        "loot"
+      ]
+    },
+    {
+      "id": "sk_cryp_08",
+      "name": "door 8",
+      "tags": [
+        "skeleton",
+        "door"
+      ]
+    },
+    {
+      "id": "sk_cryp_09",
+      "name": "trap 9",
+      "tags": [
+        "skeleton",
+        "trap"
+      ]
+    },
+    {
+      "id": "sk_cryp_10",
+      "name": "room 10",
+      "tags": [
+        "skeleton",
+        "room"
+      ]
+    },
+    {
+      "id": "sk_cryp_11",
+      "name": "monster 11",
+      "tags": [
+        "skeleton",
+        "monster"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "aos",
+  "name": "Age of Sigmar",
+  "phases": [
+    "Hero Phase",
+    "Movement Phase",
+    "Shooting Phase",
+    "Charge Phase",
+    "Combat Phase",
+    "Battleshock Phase"
+  ],
+  "ui": {
+    "components": [
+      "phaseBar",
+      "unitList",
+      "popup",
+      "cpTracker",
+      "roundTracker",
+      "nextUnit"
+    ],
+    "activationMode": "phase",
+    "unitPopup": {
+      "compact": true,
+      "showAbilities": true,
+      "showWeapons": ["Shooting", "Combat"]
+    }
+  },
+  "rules": {
+    "cp": {
+      "start": 0,
+      "perRound": 1,
+      "resetEachRound": true
+    },
+    "spearhead": {
+      "maxUnits": 5,
+      "maxPoints": 500
+    }
+  },
+  "factions": {
+    "registry": "manifest"
+  },
+  "units": {
+    "registry": "factionPackage"
+  },
+  "listBuilder": {
+    "validation": {
+      "requireNonEmptyList": false,
+      "maxUnits": null,
+      "maxDuplicatesPerUnitId": null
+    },
+    "nfc": {
+      "confirmWhenTagHasPayload": true
+    }
+  },
+  "vocab": {
+    "phaseHints": {
+      "combat": ["fight", "melee"],
+      "shooting": ["shoot", "ranged"],
+      "movement": ["move", "advance", "run"]
+    }
+  },
+  "phaseVocab": {
+    "Hero Phase": ["rally", "inspiring", "command", "cp", "hero"],
+    "Movement Phase": ["move", "run", "advance", "redeploy", "teleport", "retreat"],
+    "Shooting Phase": ["shoot", "ranged", "missile", "volley"],
+    "Charge Phase": ["charge", "charge roll"],
+    "Combat Phase": ["fight", "melee", "pile-in", "strike"],
+    "Battleshock Phase": ["battleshock", "morale", "flee", "leadership"]
+  },
+  "abilityOverrides": {},
+  "hintMap": {
+    "command": "CMD",
+    "reaction": "REACT",
+    "defensive": "DEF",
+    "movement": "MOVE",
+    "shooting": "SHOOT",
+    "charge": "CHG",
+    "combat": "MELEE",
+    "battleshock": "BS",
+    "passive": "PASS"
+  },
+  "signals": {
+    "cpSpend": "all-?out|command\\s+points?|\\bcp\\b",
+    "rally": "rally|inspiring|inspiring\\s+presence",
+    "redeploy": "redeploy",
+    "defensive": "ward|bodyguard|shield|defensive|save\\s+\\+",
+    "movementBlob": "\\bmove\\b|run|advance|teleport|redeploy|retreat|fall back",
+    "shootingBlob": "shoot|missile|shooting|volley|ranged|bolt",
+    "chargeBlob": "\\bcharge\\b|charge roll|declare charges",
+    "combatBlob": "fight|strike|melee|pile-in|allocated attack",
+    "battleshockBlob": "battleshock|morale|broken|flee|leadership"
+  },
+  "fallbackActions": {
+    "Movement Phase": [
+      { "name": "Move", "priority": "medium", "hintKey": "movement" },
+      { "name": "Run", "priority": "medium", "hintKey": "movement" },
+      { "name": "Retreat", "priority": "medium", "hintKey": "movement" }
+    ],
+    "Combat Phase": [
+      { "name": "Pile-in", "priority": "medium", "hintKey": "combat" },
+      { "name": "Attack", "priority": "high", "hintKey": "combat" }
+    ],
+    "Battleshock Phase": [{ "name": "Take battleshock test", "priority": "high", "hintKey": "battleshock" }]
+  },
+  "compactWeaponPhases": {
+    "Shooting Phase": "ranged",
+    "Combat Phase": "melee"
+  }
+}

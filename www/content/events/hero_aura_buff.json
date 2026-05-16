@@ -1,0 +1,11 @@
+{
+  "id": "hero_aura_buff",
+  "trigger": "entity.selected",
+  "priority": 100,
+  "appliesToSystems": ["aos"],
+  "conditions": [{ "type": "entity_has_tag", "tag": "hero" }],
+  "actions": [
+    { "type": "apply_status", "targetGroup": "nearby_allies", "status": "inspired" },
+    { "type": "show_message", "text": "Hero aura applied" }
+  ]
+}

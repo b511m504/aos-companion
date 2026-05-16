@@ -1,0 +1,578 @@
+{
+  "id": "stormcast_spearhead",
+  "slug": "stormcast",
+  "name": "Stormcast Eternals Spearhead",
+  "faction": "stormcast_eternals",
+  "version": 1,
+  "metadata": {
+    "factionTheme": "stormcast",
+    "runtimeTags": ["offensive", "defensive", "reaction", "support", "objective"],
+    "notes": "Spearhead authoring package — warscrolls mirror structured faction slugs where noted; Judicators proxy Vigilors slot until slug parity.",
+    "ui": {
+      "accent": "stormcast",
+      "cardStyle": "order",
+      "icon": "stormcast"
+    }
+  },
+  "battleTraits": [
+    {
+      "id": "sigmarite_warding",
+      "name": "Sigmarite Warding",
+      "description": "Stormcasts endure hostile energies — once per battle phase your heroes may shrug minor morale shocks.",
+      "tag": "defensive",
+      "engine": {
+        "trigger": { "event": "phaseStart", "whenPhase": "hero" },
+        "condition": {},
+        "effects": [
+          {
+            "type": "betaPrompt",
+            "promptType": "support",
+            "title": "Sigmarite Warding",
+            "description": "Once per battle phase — note hero morale shrug timing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "warrior_chamber_discipline",
+      "name": "Warrior Chamber Discipline",
+      "description": "Linked formations coordinate strikes — priority rolls tied to objective claims gain clarity bonuses.",
+      "tag": "support"
+    }
+  ],
+  "regimentAbilities": [
+    {
+      "id": "coordinated_advance",
+      "name": "Coordinated Advance",
+      "description": "Two allied Spearhead units within cohesive spacing may sequence redeploy reminders together.",
+      "tag": "movement"
+    },
+    {
+      "id": "heavenly_countercharge",
+      "name": "Heavenly Countercharge",
+      "description": "Reserve prosecutor wings may intercept rushed lanes — leverage enemyChargeDeclared prompts.",
+      "tag": "reaction"
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "storm_forged_weapons",
+      "name": "Storm-forged Weapons",
+      "description": "+1 rend on one melee weapon profile once per battle round (tracked manually).",
+      "tag": "offensive"
+    },
+    {
+      "id": "aetheric_banner",
+      "name": "Aetheric Banner",
+      "description": "+1 save vs mortal wounds aura bubble — placeholder regiment enhancement.",
+      "tag": "defensive"
+    }
+  ],
+  "formations": [
+    {
+      "id": "thunderstrike_echelon",
+      "name": "Thunderstrike Echelon",
+      "description": "Shooting-focused coordination — linked volleys when spearhead holds overlapping arcs.",
+      "tag": "shooting",
+      "engine": {
+        "trigger": { "event": "phaseStart", "whenPhase": "shooting" },
+        "condition": {},
+        "effects": [
+          {
+            "type": "betaPrompt",
+            "promptType": "support",
+            "title": "Thunderstrike Echelon",
+            "description": "Confirm coordinated volley targets before resolving shots."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shield_wall_vanguard",
+      "name": "Shield-wall Vanguard",
+      "description": "Defensive anchor — brace prompts trigger earlier in combat sequencing.",
+      "tag": "defensive",
+      "engine": {
+        "trigger": { "event": "enemyAttackDeclared" },
+        "condition": { "phase": { "is": "combat" } },
+        "effects": [
+          {
+            "type": "betaPrompt",
+            "promptType": "defensive",
+            "title": "Shield-wall Vanguard",
+            "description": "Resolve defensive sequencing before opponent completes melee allocations."
+          }
+        ]
+      }
+    }
+  ],
+  "prebattleChoices": {
+    "battleTrait": {
+      "required": true,
+      "count": 1
+    },
+    "enhancement": {
+      "required": true,
+      "count": 1
+    },
+    "formation": {
+      "required": true,
+      "count": 1
+    }
+  },
+  "defaultListId": "stormcast_test_list",
+  "roster": [
+    {
+      "templateId": "spearhead-shockwave",
+      "label": "Lord Vigilant (hero proxy — spearhead-shockwave slug)",
+      "count": 1,
+      "defaultEntityCount": 1,
+      "points": 160,
+      "runtimeRole": "hero",
+      "tags": ["objective", "offensive"]
+    },
+    {
+      "templateId": "spearhead-liberators",
+      "label": "Liberators",
+      "count": 1,
+      "defaultEntityCount": 5,
+      "points": 280,
+      "runtimeRole": "battleline",
+      "tags": ["defensive", "objective"]
+    },
+    {
+      "templateId": "spearhead-prosecutors",
+      "label": "Prosecutors",
+      "count": 1,
+      "defaultEntityCount": 3,
+      "points": 260,
+      "runtimeRole": "mobile_threat",
+      "tags": ["offensive", "reaction"]
+    },
+    {
+      "templateId": "spearhead-judicators",
+      "label": "Vigilors (Judicators proxy slug)",
+      "count": 1,
+      "defaultEntityCount": 5,
+      "points": 220,
+      "runtimeRole": "shooting_core",
+      "tags": ["offensive", "support"]
+    }
+  ],
+  "warscrollReferences": [
+    "spearhead-lord-vigilant",
+    "spearhead-liberators",
+    "spearhead-prosecutors",
+    "spearhead-vigilors",
+    "spearhead-judicators",
+    "spearhead-shockwave",
+    "spearhead-battle-rage",
+    "spearhead-discipline-aura"
+  ],
+  "warscrolls": [
+    {
+      "id": "spearhead-lord-vigilant",
+      "slug": "spearhead-lord-vigilant",
+      "name": "Lord Vigilant",
+      "factionSlug": "stormcast",
+      "points": 240,
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY", "HERO"],
+      "stats": {
+        "move": 5,
+        "save": "3+",
+        "health": 14,
+        "control": 3,
+        "attack": 4
+      },
+      "weapons": [
+        {
+          "id": "stormbound_halberd",
+          "name": "Stormbound Halberd",
+          "range": "2\"",
+          "attacks": 5,
+          "toHit": "3+",
+          "toWound": "3+",
+          "rend": 2,
+          "damage": 3
+        },
+        {
+          "id": "astral_gauntlet",
+          "name": "Astral Gauntlet",
+          "range": "1\"",
+          "attacks": 3,
+          "toHit": "3+",
+          "toWound": "3+",
+          "rend": 1,
+          "damage": 2
+        }
+      ],
+      "abilities": [
+        {
+          "id": "priority_sigil",
+          "name": "Priority Sigil",
+          "type": "passive",
+          "phase": "Hero",
+          "description": "Once per hero phase declare one reroll bank — assists objective dice reminders.",
+          "engine": {
+            "trigger": { "event": "phaseStart", "whenPhase": "hero" },
+            "condition": {},
+            "effects": [
+              {
+                "type": "betaPrompt",
+                "promptType": "support",
+                "title": "Priority Sigil",
+                "description": "Declare which battlefield lane gains tactical priority."
+              }
+            ]
+          }
+        },
+        {
+          "id": "shield_wall_lord",
+          "name": "Shield Wall",
+          "type": "reaction",
+          "phase": "Combat",
+          "description": "Brace when an enemy declares melee allocation against friendly infantry.",
+          "trigger": { "event": "enemyAttackDeclared" },
+          "condition": { "phase": { "is": "combat" } },
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "title": "Shield Wall",
+              "description": "Lord Vigilant braces — tighten defensive sequencing.",
+              "promptKind": "defensive"
+            },
+            {
+              "type": "modifyStat",
+              "target": "self",
+              "stat": "save",
+              "delta": -1,
+              "stack": "refresh",
+              "expiresAt": "combat",
+              "effectId": "lord_vigilant_shield_wall_save"
+            }
+          ]
+        },
+        {
+          "id": "arcane_countermeasure",
+          "name": "Arcane Countermeasure",
+          "type": "reaction",
+          "phase": "Charge",
+          "description": "Interrupt hostile surge lanes.",
+          "trigger": { "event": "enemyChargeDeclared" },
+          "condition": { "phase": { "is": "charge" } },
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "reaction",
+              "title": "Arcane Countermeasure",
+              "description": "Resolve defensive redeploy or ward dice before finishing charge distance."
+            }
+          ]
+        },
+        {
+          "id": "aftershock_logging",
+          "name": "Aftershock Logging",
+          "type": "passive",
+          "phase": "Combat",
+          "description": "Track wound sequencing on elite targets.",
+          "trigger": { "event": "woundAssigned" },
+          "condition": {},
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "sequence",
+              "title": "Elite wound chain",
+              "description": "Confirm mortal vs normal wounds before triggered abilities."
+            }
+          ]
+        },
+        {
+          "id": "combat_surge",
+          "name": "Combat Surge",
+          "type": "passive",
+          "phase": "Combat",
+          "description": "Temporary martial swell at combat onset.",
+          "engine": {
+            "trigger": { "event": "phaseStart", "whenPhase": "combat" },
+            "condition": {},
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "attack",
+                "delta": 1,
+                "stack": "refresh",
+                "expiresAt": "combat",
+                "effectId": "lord_vigilant_combat_surge_atk"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "spearhead-liberators",
+      "slug": "spearhead-liberators",
+      "name": "Liberators",
+      "factionSlug": "stormcast",
+      "points": 280,
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "stats": {
+        "move": 5,
+        "save": "4+",
+        "health": 10,
+        "control": 2
+      },
+      "weapons": [
+        {
+          "id": "stormsmite_greatmace",
+          "name": "Stormsmite Greatmace",
+          "range": "1\"",
+          "attacks": 3,
+          "toHit": "3+",
+          "toWound": "3+",
+          "rend": 1,
+          "damage": 2
+        }
+      ],
+      "abilities": [
+        {
+          "id": "shield_wall",
+          "name": "Shield Wall",
+          "type": "reaction",
+          "phase": "Combat",
+          "description": "Brace shields when enemy shots or strikes target this formation.",
+          "trigger": { "event": "enemyAttackDeclared" },
+          "condition": { "phase": { "is": "combat" } },
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "title": "Shield Wall",
+              "description": "Liberators brace against the attack."
+            },
+            {
+              "type": "modifyStat",
+              "target": "self",
+              "stat": "save",
+              "delta": -1,
+              "stack": "refresh",
+              "expiresAt": "combat",
+              "effectId": "liberators_shield_wall_save"
+            }
+          ]
+        },
+        {
+          "id": "stormstrike_line",
+          "name": "Stormstrike Line",
+          "type": "passive",
+          "phase": "Combat",
+          "description": "Maintain cohesion bonuses.",
+          "engine": {
+            "trigger": { "event": "phaseStart", "whenPhase": "combat" },
+            "condition": {},
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "control",
+                "delta": 1,
+                "stack": "refresh",
+                "expiresAt": "combat",
+                "effectId": "liberators_control_surge"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "spearhead-prosecutors",
+      "slug": "spearhead-prosecutors",
+      "name": "Prosecutors",
+      "factionSlug": "stormcast",
+      "points": 260,
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "CAVALRY", "FLY"],
+      "stats": {
+        "move": 12,
+        "save": "4+",
+        "health": 8,
+        "control": 2
+      },
+      "weapons": [
+        {
+          "id": "stormcaller_javelin",
+          "name": "Stormcaller Javelin",
+          "range": "12\"",
+          "attacks": 3,
+          "toHit": "3+",
+          "toWound": "4+",
+          "rend": 1,
+          "damage": 2
+        },
+        {
+          "id": "celestial_hammer",
+          "name": "Celestial Hammer",
+          "range": "1\"",
+          "attacks": 4,
+          "toHit": "3+",
+          "toWound": "3+",
+          "rend": 1,
+          "damage": 2
+        }
+      ],
+      "abilities": [
+        {
+          "id": "skyborne_countercharge",
+          "name": "Skyborne Countercharge",
+          "type": "reaction",
+          "phase": "Movement",
+          "description": "Declare aerial denial against opposing surge declarations.",
+          "trigger": { "event": "enemyChargeDeclared" },
+          "condition": { "phase": { "is": "movement" } },
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "reaction",
+              "title": "Skyborne Countercharge",
+              "description": "Allocate prosecutor intercept dice before finishing enemy charges."
+            }
+          ]
+        },
+        {
+          "id": "tempest_slash",
+          "name": "Tempest Slash",
+          "type": "passive",
+          "phase": "Combat",
+          "description": "Momentum strikes follow wound assignments.",
+          "trigger": { "event": "woundAssigned" },
+          "condition": {},
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "sequence",
+              "title": "Tempest follow-up",
+              "description": "Confirm bonus swings after resolving mortal wounds."
+            }
+          ]
+        },
+        {
+          "id": "windshield_protocol",
+          "name": "Windshield Protocol",
+          "type": "passive",
+          "phase": "Shooting",
+          "description": "Gliding arcs spoil ranged targeting.",
+          "engine": {
+            "trigger": { "event": "enemyAttackDeclared" },
+            "condition": { "phase": { "is": "shooting" } },
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "save",
+                "delta": -1,
+                "stack": "refresh",
+                "expiresAt": "shooting",
+                "effectId": "prosecutors_windshield_save"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "spearhead-vigilors",
+      "slug": "spearhead-vigilors",
+      "name": "Vigilors",
+      "factionSlug": "stormcast",
+      "points": 230,
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY", "SHOOTING"],
+      "stats": {
+        "move": 5,
+        "save": "4+",
+        "health": 10,
+        "control": 2
+      },
+      "weapons": [
+        {
+          "id": "stormblast_crossbow",
+          "name": "Stormblast Crossbow",
+          "range": "18\"",
+          "attacks": 3,
+          "toHit": "3+",
+          "toWound": "4+",
+          "rend": 1,
+          "damage": 1
+        },
+        {
+          "id": "heavy_blade",
+          "name": "Heavy Blade",
+          "range": "1\"",
+          "attacks": 2,
+          "toHit": "3+",
+          "toWound": "4+",
+          "rend": 0,
+          "damage": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "precision_volley",
+          "name": "Precision Volley",
+          "type": "passive",
+          "phase": "Shooting",
+          "description": "Overlay targeting prompts when enemies expose objectives.",
+          "trigger": { "event": "enemyAttackDeclared" },
+          "condition": { "phase": { "is": "shooting" } },
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "save",
+              "promptKind": "save",
+              "title": "Precision Volley response",
+              "description": "Enemy salvos incoming — roll saves or defensive reactions."
+            }
+          ]
+        },
+        {
+          "id": "linked_fireteams",
+          "name": "Linked Fireteams",
+          "type": "passive",
+          "phase": "Shooting",
+          "description": "Volley tempo stacking.",
+          "engine": {
+            "trigger": { "event": "phaseStart", "whenPhase": "shooting" },
+            "condition": {},
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "attack",
+                "delta": 1,
+                "stack": "refresh",
+                "expiresAt": "shooting",
+                "effectId": "vigilors_linked_fireteams_atk"
+              }
+            ]
+          }
+        },
+        {
+          "id": "field_strip_wounds",
+          "name": "Field Strip",
+          "type": "passive",
+          "phase": "Combat",
+          "description": "Track staggered casualties.",
+          "trigger": { "event": "woundAssigned" },
+          "condition": {},
+          "effects": [
+            {
+              "type": "betaPrompt",
+              "promptType": "sequence",
+              "title": "Salvo casualties",
+              "description": "Allocate wounds across models before aura refreshes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

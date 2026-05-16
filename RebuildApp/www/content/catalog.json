@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "systemRefs": [
+    {
+      "path": "systems/aos.json"
+    },
+    {
+      "path": "systems/wh40k.json"
+    },
+    {
+      "path": "systems/killteam.json"
+    },
+    {
+      "path": "systems/crypt_assault.json"
+    },
+    {
+      "path": "systems/legends_rpg.json"
+    },
+    {
+      "path": "systems/age_of_sigmar.json"
+    },
+    {
+      "path": "systems/skeleton_lab.json"
+    }
+  ]
+}

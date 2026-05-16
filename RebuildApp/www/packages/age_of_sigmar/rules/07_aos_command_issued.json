@@ -1,0 +1,16 @@
+{
+  "id": "aos_command_issued",
+  "trigger": "command.issued",
+  "priority": 12,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "aos-line-01",
+      "status": "all_out_attack"
+    }
+  ]
+}

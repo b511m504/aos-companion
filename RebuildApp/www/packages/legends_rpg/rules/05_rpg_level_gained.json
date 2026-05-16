@@ -1,0 +1,17 @@
+{
+  "id": "rpg_level_gained",
+  "trigger": "level.gained",
+  "priority": 12,
+  "appliesToSystems": [
+    "legends_rpg"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "rpg-pc-01",
+      "key": "health",
+      "delta": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "systemId": "generic",
+  "name": "Arcane Duel Grid",
+  "units": [
+    { "id": "c1", "name": "Chronomancer", "wounds": 5, "entityType": "CHARACTER" },
+    { "id": "c2", "name": "Fate Card: Eclipse", "wounds": 0, "entityType": "CARD" },
+    { "id": "c3", "name": "Fate Card: Surge", "wounds": 0, "entityType": "CARD" },
+    { "id": "c4", "name": "Summon: Ember Wisp", "wounds": 2, "entityType": "TOKEN" },
+    { "id": "c5", "name": "Summon: Stone Golem", "wounds": 8, "entityType": "TOKEN" },
+    { "id": "c6", "name": "Grid Totem", "wounds": 0, "entityType": "OBJECTIVE" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "crypt_assault_skeleton_11_theme_crypt",
+  "trigger": "room.entered",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "trap.triggered",
+      "payload": {}
+    }
+  ]
+}

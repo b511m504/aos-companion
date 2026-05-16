@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "aoss-default",
+      "name": "age_of_sigmar_skeleton default roster",
+      "factionId": "aoss_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_aoss_00",
+          "name": "unit 0",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_01",
+          "name": "spell 1",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_02",
+          "name": "ward 2",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_03",
+          "name": "summon 3",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_04",
+          "name": "unit 4",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_05",
+          "name": "spell 5",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_06",
+          "name": "ward 6",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_07",
+          "name": "summon 7",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_aoss_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_08",
+          "name": "unit 8",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_09",
+          "name": "spell 9",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_10",
+          "name": "ward 10",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_11",
+          "name": "summon 11",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_12",
+          "name": "unit 12",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_11"
+            },
+            {
+              "id": "rel_aoss_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_13",
+          "name": "spell 13",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_14",
+          "name": "ward 14",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_aoss_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_15",
+          "name": "summon 15",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_16",
+          "name": "unit 16",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_17",
+          "name": "spell 17",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_18",
+          "name": "ward 18",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_19",
+          "name": "summon 19",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_20",
+          "name": "unit 20",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_21",
+          "name": "spell 21",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_aoss_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_22",
+          "name": "ward 22",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_23",
+          "name": "summon 23",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_24",
+          "name": "unit 24",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_23"
+            },
+            {
+              "id": "rel_aoss_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_25",
+          "name": "spell 25",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_26",
+          "name": "ward 26",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_27",
+          "name": "summon 27",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_28",
+          "name": "unit 28",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_28",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_27"
+            },
+            {
+              "id": "rel_aoss_tr_28",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_aoss_26"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_29",
+          "name": "spell 29",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_30",
+          "name": "ward 30",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_inv_30",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_aoss_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_31",
+          "name": "summon 31",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_32",
+          "name": "unit 32",
+          "tags": [
+            "skeleton",
+            "unit"
+          ],
+          "entityType": "unit",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_party_32",
+              "kind": "party_member",
+              "toInstanceId": "sk_aoss_31"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_33",
+          "name": "spell 33",
+          "tags": [
+            "skeleton",
+            "spell"
+          ],
+          "entityType": "spell",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_34",
+          "name": "ward 34",
+          "tags": [
+            "skeleton",
+            "ward"
+          ],
+          "entityType": "ward",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_aoss_35",
+          "name": "summon 35",
+          "tags": [
+            "skeleton",
+            "summon"
+          ],
+          "entityType": "summon",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_aoss_tr_35",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_aoss_33"
+            }
+          ]
+        },
+        {
+          "id": "sk_aoss_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "age_of_sigmar_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

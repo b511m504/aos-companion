@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "killteam",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "schemaVersion": 1,
+      "id": "veteran_guardsmen",
+      "systemId": "killteam",
+      "name": "Veteran Guardsmen",
+      "listsPath": "lists/veteran_guardsmen.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kommandos",
+      "systemId": "killteam",
+      "name": "Kommandos",
+      "listsPath": "lists/kommandos.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cardgame_skeleton_11_theme_card",
+  "trigger": "rng.table",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "action.spent",
+      "payload": {}
+    }
+  ]
+}

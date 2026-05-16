@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T20:29:48.131Z",
+  "gameSystemId": "killteam",
+  "factionId": "veteran_guardsmen",
+  "listId": "kt-veteran-stress",
+  "assignments": [
+    {
+      "tagUid": "04kill_team0FAKE",
+      "entityId": "kt-veteran-01",
+      "displayName": "Trooper Veteran",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.131Z",
+      "factionId": "veteran_guardsmen",
+      "gameSystemId": "killteam"
+    },
+    {
+      "tagUid": "04kill_team1FAKE",
+      "entityId": "kt-gunner-01",
+      "displayName": "Gunner",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.131Z",
+      "factionId": "veteran_guardsmen",
+      "gameSystemId": "killteam"
+    },
+    {
+      "tagUid": "04kill_team2FAKE",
+      "entityId": "kt-enemy-01",
+      "displayName": "Brood Warrior",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:29:48.131Z",
+      "factionId": "veteran_guardsmen",
+      "gameSystemId": "killteam"
+    }
+  ]
+}

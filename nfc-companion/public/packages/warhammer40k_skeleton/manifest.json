@@ -1,0 +1,26 @@
+{
+  "packageId": "warhammer40k_skeleton",
+  "name": "Skeleton: Warhammer 40k",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "skeleton_lab",
+  "contentVersion": "1.0.0-skeleton",
+  "entityTypes": [
+    "unit",
+    "objective",
+    "character",
+    "transport"
+  ],
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 28,
+    "maxEmitsPerRootDispatch": 8000,
+    "maxSpawnedEntitiesPerTick": 400,
+    "maxQueueLength": 20000
+  },
+  "importAdapters": {
+    "jsonRoster": "imports/jsonRosterAdapter.json"
+  }
+}

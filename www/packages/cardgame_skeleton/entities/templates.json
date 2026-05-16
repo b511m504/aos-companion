@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "cardgame_skeleton",
+  "templates": [
+    {
+      "id": "sk_crd_00",
+      "name": "deck 0",
+      "tags": [
+        "skeleton",
+        "deck"
+      ]
+    },
+    {
+      "id": "sk_crd_01",
+      "name": "hand 1",
+      "tags": [
+        "skeleton",
+        "hand"
+      ]
+    },
+    {
+      "id": "sk_crd_02",
+      "name": "discard 2",
+      "tags": [
+        "skeleton",
+        "discard"
+      ]
+    },
+    {
+      "id": "sk_crd_03",
+      "name": "deck 3",
+      "tags": [
+        "skeleton",
+        "deck"
+      ]
+    },
+    {
+      "id": "sk_crd_04",
+      "name": "hand 4",
+      "tags": [
+        "skeleton",
+        "hand"
+      ]
+    },
+    {
+      "id": "sk_crd_05",
+      "name": "discard 5",
+      "tags": [
+        "skeleton",
+        "discard"
+      ]
+    },
+    {
+      "id": "sk_crd_06",
+      "name": "deck 6",
+      "tags": [
+        "skeleton",
+        "deck"
+      ]
+    },
+    {
+      "id": "sk_crd_07",
+      "name": "hand 7",
+      "tags": [
+        "skeleton",
+        "hand"
+      ]
+    },
+    {
+      "id": "sk_crd_08",
+      "name": "discard 8",
+      "tags": [
+        "skeleton",
+        "discard"
+      ]
+    },
+    {
+      "id": "sk_crd_09",
+      "name": "deck 9",
+      "tags": [
+        "skeleton",
+        "deck"
+      ]
+    },
+    {
+      "id": "sk_crd_10",
+      "name": "hand 10",
+      "tags": [
+        "skeleton",
+        "hand"
+      ]
+    },
+    {
+      "id": "sk_crd_11",
+      "name": "discard 11",
+      "tags": [
+        "skeleton",
+        "discard"
+      ]
+    }
+  ]
+}

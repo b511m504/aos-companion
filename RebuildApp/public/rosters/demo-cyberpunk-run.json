@@ -1,0 +1,11 @@
+{
+  "systemId": "generic",
+  "name": "Night Market Run",
+  "units": [
+    { "id": "r1", "name": "Netrunner", "wounds": 4, "entityType": "CHARACTER" },
+    { "id": "r2", "name": "Solo", "wounds": 8, "entityType": "CHARACTER" },
+    { "id": "r3", "name": "Medtech", "wounds": 5, "entityType": "CHARACTER" },
+    { "id": "r4", "name": "Security Drone", "wounds": 4, "entityType": "TOKEN" },
+    { "id": "r5", "name": "Cargo Bot", "wounds": 6, "entityType": "VEHICLE" }
+  ]
+}

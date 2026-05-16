@@ -1,0 +1,12 @@
+{
+  "systemId": "dnd5e",
+  "schemaVersion": 1,
+  "translations": {
+    "health": "HP",
+    "resource": "spell slots",
+    "event": "encounter",
+    "activation": "turn",
+    "status": "conditions",
+    "entity": "character"
+  }
+}

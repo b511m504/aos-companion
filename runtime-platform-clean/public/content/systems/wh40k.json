@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "wh40k",
+  "name": "Warhammer 40,000",
+  "version": "1.0",
+  "description": "Sci‑fi mass battle — dummy lists for tag linking practice.",
+  "factionsPath": "factions/wh40k.json"
+}

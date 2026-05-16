@@ -1,0 +1,10 @@
+[
+  {
+    "id": "apply_wound",
+    "kind": "mutation",
+    "payload": {
+      "mutation": "APPLY_WOUND",
+      "amount": 1
+    }
+  }
+]

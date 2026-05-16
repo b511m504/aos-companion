@@ -1,0 +1,10 @@
+{
+  "id": "trap_awakens",
+  "trigger": "trap.awakened",
+  "appliesToSystems": ["aos"],
+  "conditions": [],
+  "actions": [
+    { "type": "apply_status", "target": "triggering_entity", "status": "alerted" },
+    { "type": "show_message", "text": "Something stirs in the dark." }
+  ]
+}

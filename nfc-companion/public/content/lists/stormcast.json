@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "aos",
+    "factionId": "stormcast"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "stormcast_vanguard",
+      "name": "Stormcast Vanguard",
+      "factionId": "stormcast",
+      "description": "Elite strike force — heroes and elite infantry.",
+      "units": [
+        { "id": "scv-u01", "name": "Liberators", "tags": ["ally"] },
+        { "id": "scv-u02", "name": "Vindictors", "tags": ["ally"] },
+        { "id": "scv-u03", "name": "Lord-Imperatant", "tags": ["hero"] },
+        { "id": "scv-u04", "name": "Knight-Vexillor", "tags": ["ally"] },
+        { "id": "scv-u05", "name": "Annihilators", "tags": ["ally"] },
+        { "id": "scv-u06", "name": "Praetors", "tags": ["ally"] },
+        { "id": "objective_01", "name": "Shattered Pennant", "tags": ["objective"] },
+        { "id": "crypt-door-01", "name": "Crypt Door", "tags": ["door"] },
+        { "id": "spine-trap-01", "name": "Spine Trap", "tags": ["trap"] }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hammers_sigmar_tourney",
+      "name": "Hammers of Sigmar — tournament",
+      "factionId": "stormcast",
+      "description": "Tight, meta‑leaning list for repeat drill sessions.",
+      "units": [
+        { "id": "hst-u01", "name": "Vindictors" },
+        { "id": "hst-u02", "name": "Vindictors" },
+        { "id": "hst-u03", "name": "Knight-Relictor" },
+        { "id": "hst-u04", "name": "Stormdrake Guard" },
+        { "id": "hst-u05", "name": "Celestant-Prime" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "dracothian_hammer",
+      "name": "Dracothian Hammer",
+      "factionId": "stormcast",
+      "description": "Low model count — heavy hitters on dracoths.",
+      "units": [
+        { "id": "drh-u01", "name": "Lord-Aquilor" },
+        { "id": "drh-u02", "name": "Fulminators" },
+        { "id": "drh-u03", "name": "Tempestors" }
+      ]
+    }
+  ]
+}

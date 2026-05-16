@@ -1,0 +1,20 @@
+{
+  "id": "warhammer40k_skeleton_07_destroy_cleanup",
+  "trigger": "unit.destroyed",
+  "priority": 70,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "entity_removed",
+      "payload": {}
+    },
+    {
+      "type": "show_message",
+      "text": "warhammer40k_skeleton: entity_removed"
+    }
+  ]
+}

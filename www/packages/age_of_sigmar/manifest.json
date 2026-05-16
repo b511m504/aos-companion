@@ -1,0 +1,15 @@
+{
+  "packageId": "age_of_sigmar",
+  "name": "Age of Sigmar",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "aos",
+  "contentVersion": "1.0.0",
+  "entityTypes": [
+    "hero",
+    "unit",
+    "endless_spell",
+    "summon",
+    "objective"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "stormcast_invalid_test_list",
+  "name": "Stormcast Invalid Spearhead",
+  "systemId": "aos_spearhead",
+  "battlepackId": "fire_and_jade",
+  "faction": "stormcast",
+  "units": [
+    {
+      "templateId": "spearhead-liberators",
+      "entityId": "unit_liberators_dup"
+    },
+    {
+      "templateId": "spearhead-prosecutors",
+      "entityId": "unit_liberators_dup"
+    },
+    {
+      "templateId": "spearhead-shockwave"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "poison_trap",
+  "trigger": "nfc.scan",
+  "appliesToSystems": ["aos"],
+  "conditions": [{ "type": "entity_has_tag", "tag": "trap" }],
+  "actions": [
+    { "type": "apply_status", "target": "selected_entity", "status": "poisoned" },
+    { "type": "increment_state", "target": "selected_entity", "key": "health", "amount": -1 },
+    { "type": "show_message", "text": "Poison trap triggered" }
+  ]
+}

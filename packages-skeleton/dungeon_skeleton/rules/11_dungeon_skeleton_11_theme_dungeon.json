@@ -1,0 +1,16 @@
+{
+  "id": "dungeon_skeleton_11_theme_dungeon",
+  "trigger": "enemy.revealed",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "monster.spawned",
+      "payload": {}
+    }
+  ]
+}

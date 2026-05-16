@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "wh40k",
+    "factionId": "space_marines"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "sm_gladius_strike",
+      "name": "Gladius Strike Force",
+      "factionId": "space_marines",
+      "description": "Elite footprint — few units, high impact.",
+      "units": [
+        { "id": "smg-u01", "name": "Captain in Gravis" },
+        { "id": "smg-u02", "name": "Bladeguard Veterans" },
+        { "id": "smg-u03", "name": "Eradicators" },
+        { "id": "smg-u04", "name": "Redemptor Dreadnought" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sm_crusade_battalion",
+      "name": "Crusade Battalion",
+      "factionId": "space_marines",
+      "description": "Balanced combined arms for general drill.",
+      "units": [
+        { "id": "smc-u01", "name": "Intercessors" },
+        { "id": "smc-u02", "name": "Assault Intercessors" },
+        { "id": "smc-u03", "name": "Hellblasters" },
+        { "id": "smc-u04", "name": "Inceptors" },
+        { "id": "smc-u05", "name": "Chaplain on Bike" },
+        { "id": "smc-u06", "name": "Repulsor" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sm_fast_saturation",
+      "name": "Fast Attack Saturation",
+      "factionId": "space_marines",
+      "description": "Many mobile elements — good for lots of quick taps.",
+      "units": [
+        { "id": "smf-u01", "name": "Outriders" },
+        { "id": "smf-u02", "name": "Outriders" },
+        { "id": "smf-u03", "name": "Suppressors" },
+        { "id": "smf-u04", "name": "Storm Speeder" },
+        { "id": "smf-u05", "name": "Storm Speeder" },
+        { "id": "smf-u06", "name": "Attack Bike" },
+        { "id": "smf-u07", "name": "Land Speeder Tornado" }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "wh40k-strike-stress",
+      "name": "Strike Force (package stress)",
+      "factionId": "space_marines",
+      "description": "Mirrors packages/warhammer40k sample list — aura chains, transports, objectives.",
+      "units": [
+        { "id": "wh40k-intercessor-01", "name": "Intercessor Squad", "tags": ["unit", "infantry", "ally"] },
+        { "id": "wh40k-captain-01", "name": "Captain", "tags": ["character", "aura", "ally"] },
+        { "id": "wh40k-rhino-01", "name": "Rhino", "tags": ["vehicle", "transport", "ally"] },
+        { "id": "wh40k-obj-01", "name": "Primary Objective", "tags": ["objective"] }
+      ]
+    }
+  ]
+}

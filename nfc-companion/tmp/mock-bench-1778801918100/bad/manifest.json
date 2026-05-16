@@ -1,0 +1,13 @@
+{
+  "packageId": "mock_bad",
+  "schemaVersion": 1,
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 12,
+    "maxEmitsPerRootDispatch": 50000,
+    "maxSpawnedEntitiesPerTick": 2000,
+    "maxQueueLength": 100000
+  }
+}

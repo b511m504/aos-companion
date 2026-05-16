@@ -1,0 +1,11 @@
+{
+  "systemId": "generic",
+  "name": "Objective Sweep",
+  "units": [
+    { "id": "o1", "name": "Primary Relic", "wounds": 0, "entityType": "OBJECTIVE" },
+    { "id": "o2", "name": "Comms Uplink", "wounds": 0, "entityType": "OBJECTIVE" },
+    { "id": "o3", "name": "Extraction Zone", "wounds": 0, "entityType": "OBJECTIVE" },
+    { "id": "o4", "name": "Hazard Node", "wounds": 0, "entityType": "OBJECTIVE" },
+    { "id": "o5", "name": "Scout Unit", "wounds": 4, "entityType": "UNIT" }
+  ]
+}

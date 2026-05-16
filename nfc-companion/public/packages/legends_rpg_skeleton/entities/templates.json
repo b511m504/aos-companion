@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "legends_rpg_skeleton",
+  "templates": [
+    {
+      "id": "sk_rpgs_00",
+      "name": "pc 0",
+      "tags": [
+        "skeleton",
+        "pc"
+      ]
+    },
+    {
+      "id": "sk_rpgs_01",
+      "name": "npc 1",
+      "tags": [
+        "skeleton",
+        "npc"
+      ]
+    },
+    {
+      "id": "sk_rpgs_02",
+      "name": "quest 2",
+      "tags": [
+        "skeleton",
+        "quest"
+      ]
+    },
+    {
+      "id": "sk_rpgs_03",
+      "name": "item 3",
+      "tags": [
+        "skeleton",
+        "item"
+      ]
+    },
+    {
+      "id": "sk_rpgs_04",
+      "name": "faction 4",
+      "tags": [
+        "skeleton",
+        "faction"
+      ]
+    },
+    {
+      "id": "sk_rpgs_05",
+      "name": "pc 5",
+      "tags": [
+        "skeleton",
+        "pc"
+      ]
+    },
+    {
+      "id": "sk_rpgs_06",
+      "name": "npc 6",
+      "tags": [
+        "skeleton",
+        "npc"
+      ]
+    },
+    {
+      "id": "sk_rpgs_07",
+      "name": "quest 7",
+      "tags": [
+        "skeleton",
+        "quest"
+      ]
+    },
+    {
+      "id": "sk_rpgs_08",
+      "name": "item 8",
+      "tags": [
+        "skeleton",
+        "item"
+      ]
+    },
+    {
+      "id": "sk_rpgs_09",
+      "name": "faction 9",
+      "tags": [
+        "skeleton",
+        "faction"
+      ]
+    },
+    {
+      "id": "sk_rpgs_10",
+      "name": "pc 10",
+      "tags": [
+        "skeleton",
+        "pc"
+      ]
+    },
+    {
+      "id": "sk_rpgs_11",
+      "name": "npc 11",
+      "tags": [
+        "skeleton",
+        "npc"
+      ]
+    }
+  ]
+}

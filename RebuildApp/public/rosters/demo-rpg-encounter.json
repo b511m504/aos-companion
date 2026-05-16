@@ -1,0 +1,11 @@
+{
+  "systemId": "generic",
+  "name": "Roadside Ambush",
+  "units": [
+    { "id": "r1", "name": "Ranger Kael", "wounds": 8, "entityType": "CHARACTER" },
+    { "id": "r2", "name": "Bruiser Mira", "wounds": 10, "entityType": "CHARACTER" },
+    { "id": "r3", "name": "Dire Wolf Pack", "wounds": 12, "entityType": "UNIT" },
+    { "id": "r4", "name": "Highway Ghouls", "wounds": 6, "entityType": "UNIT" },
+    { "id": "r5", "name": "Mystery Traveler", "wounds": 4, "entityType": "CHARACTER" }
+  ]
+}

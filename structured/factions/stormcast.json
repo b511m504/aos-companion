@@ -1,0 +1,243 @@
+{
+  "faction": "Stormcast Eternals",
+  "rules": [],
+  "detachments": [],
+  "units": [
+    {
+      "slug": "spearhead-liberators",
+      "name": "Liberators",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 280,
+      "totalWounds": 10,
+      "stats": {
+        "move": "5\"",
+        "save": "4+",
+        "wounds": "10",
+        "control": "1"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Shield of Azyr",
+          "type": "Passive",
+          "description": "Spearhead test: when this unit suffers damage during combat, refresh a defensive modifier.",
+          "engine": {
+            "id": "spearhead_liberators_shield",
+            "trigger": {
+              "event": "damageApplied",
+              "whenPhase": "combat"
+            },
+            "condition": {
+              "unit": {
+                "remainingHealth": { "gt": 0 }
+              }
+            },
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "save",
+                "delta": -1,
+                "stack": "refresh",
+                "expiresAt": "combat",
+                "effectId": "shield_of_azyr_save"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "spearhead-prosecutors",
+      "name": "Prosecutors",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 260,
+      "totalWounds": 8,
+      "stats": {
+        "move": "12\"",
+        "save": "4+",
+        "wounds": "8",
+        "control": "1"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "CAVALRY", "FLY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Heaven's Rebuttal",
+          "type": "Reaction",
+          "description": "Spearhead test: retaliate against the attacking unit when wounded (damageApplied.source). Nested proc damage is filtered via not(sourceAbilityId).",
+          "engine": {
+            "id": "spearhead_prosecutors_rebuttal",
+            "trigger": {
+              "event": "damageApplied",
+              "kind": "woundPlus"
+            },
+            "condition": {
+              "not": { "sourceAbilityId": "spearhead_prosecutors_rebuttal" }
+            },
+            "effects": [
+              {
+                "type": "applyDamage",
+                "target": "source",
+                "amount": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "spearhead-judicators",
+      "name": "Judicators",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 220,
+      "totalWounds": 10,
+      "stats": {
+        "move": "5\"",
+        "save": "4+",
+        "wounds": "10",
+        "control": "1"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Boltstorm Volley",
+          "type": "Passive",
+          "description": "Placeholder warscroll ability for list-builder coverage."
+        }
+      ]
+    },
+    {
+      "slug": "spearhead-shockwave",
+      "name": "Shockwave",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 160,
+      "totalWounds": 6,
+      "stats": {
+        "move": "5\"",
+        "save": "5+",
+        "wounds": "6",
+        "control": "1",
+        "attack": "3"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Seismic Aftershock",
+          "type": "Passive",
+          "description": "Engine stress: when any damage batch on this warscroll is 3+, chip every unit on the roster.",
+          "engine": {
+            "id": "spearhead_shockwave",
+            "priority": 50,
+            "trigger": { "event": "damageApplied" },
+            "condition": {
+              "amount": { "gte": 3 }
+            },
+            "effects": [
+              {
+                "type": "applyDamage",
+                "target": "allUnits",
+                "amount": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "spearhead-battle-rage",
+      "name": "Battle Rage",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 140,
+      "totalWounds": 8,
+      "stats": {
+        "move": "6\"",
+        "save": "4+",
+        "wounds": "8",
+        "control": "1",
+        "attack": "3"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Battle Rage",
+          "type": "Passive",
+          "description": "Engine stress: +1 attack from combat phase start, stacks, expires end of combat phase.",
+          "engine": {
+            "id": "spearhead_battle_rage",
+            "priority": 40,
+            "trigger": {
+              "event": "phaseStart",
+              "whenPhase": "combat"
+            },
+            "condition": {},
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "attack",
+                "delta": 1,
+                "stack": "stack",
+                "expiresAt": "combat",
+                "effectId": "spearhead_battle_rage_attack"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "spearhead-discipline-aura",
+      "name": "Discipline Aura",
+      "faction": "Stormcast Eternals",
+      "factionSlug": "stormcast",
+      "points": 150,
+      "totalWounds": 8,
+      "stats": {
+        "move": "5\"",
+        "save": "4+",
+        "wounds": "8",
+        "control": "2",
+        "attack": "3"
+      },
+      "keywords": ["ORDER", "STORMCAST ETERNALS", "INFANTRY"],
+      "faction_keywords": ["STORMCAST ETERNALS"],
+      "abilities": [
+        {
+          "name": "Discipline Aura",
+          "type": "Passive",
+          "description": "Engine stress: −1 attack from combat phase start, replace stacking, expires end of combat phase.",
+          "engine": {
+            "id": "spearhead_discipline_aura",
+            "priority": 41,
+            "trigger": {
+              "event": "phaseStart",
+              "whenPhase": "combat"
+            },
+            "condition": {},
+            "effects": [
+              {
+                "type": "modifyStat",
+                "target": "self",
+                "stat": "attack",
+                "delta": -1,
+                "stack": "replace",
+                "expiresAt": "combat",
+                "effectId": "spearhead_discipline_aura_attack"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "legends_rpg_skeleton_04_objective_stub",
+  "trigger": "objective.scored",
+  "priority": 55,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "sk_rpgs_00",
+      "key": "resource",
+      "delta": 1
+    },
+    {
+      "type": "emit_event",
+      "event": "objective_scored",
+      "payload": {}
+    }
+  ]
+}

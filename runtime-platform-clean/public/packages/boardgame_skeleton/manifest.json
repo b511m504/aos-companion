@@ -1,0 +1,25 @@
+{
+  "packageId": "boardgame_skeleton",
+  "name": "Skeleton: Boardgame",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "skeleton_lab",
+  "contentVersion": "1.0.0-skeleton",
+  "entityTypes": [
+    "player",
+    "token",
+    "score"
+  ],
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 28,
+    "maxEmitsPerRootDispatch": 8000,
+    "maxSpawnedEntitiesPerTick": 400,
+    "maxQueueLength": 20000
+  },
+  "importAdapters": {
+    "jsonRoster": "imports/jsonRosterAdapter.json"
+  }
+}

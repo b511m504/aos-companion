@@ -1,0 +1,16 @@
+{
+  "id": "rpg_item_equipped",
+  "trigger": "item.equipped",
+  "priority": 10,
+  "appliesToSystems": [
+    "legends_rpg"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "apply_status",
+      "target": "rpg-pc-01",
+      "status": "iron_skin"
+    }
+  ]
+}

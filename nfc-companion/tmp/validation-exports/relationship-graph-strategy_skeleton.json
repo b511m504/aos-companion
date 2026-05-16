@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "packageId": "strategy_skeleton",
+  "edges": [
+    {
+      "id": "rel_stg_inv_0",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_00",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_inv_6",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_06",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_inv_12",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_12",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_inv_18",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_18",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_inv_24",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_24",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_inv_30",
+      "kind": "inventory_item",
+      "fromInstanceId": "sk_stg_30",
+      "toInstanceId": "sk_stg_item_hub"
+    },
+    {
+      "id": "rel_stg_party_4",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_04",
+      "toInstanceId": "sk_stg_03"
+    },
+    {
+      "id": "rel_stg_party_8",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_08",
+      "toInstanceId": "sk_stg_07"
+    },
+    {
+      "id": "rel_stg_party_12",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_12",
+      "toInstanceId": "sk_stg_11"
+    },
+    {
+      "id": "rel_stg_party_16",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_16",
+      "toInstanceId": "sk_stg_15"
+    },
+    {
+      "id": "rel_stg_party_20",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_20",
+      "toInstanceId": "sk_stg_19"
+    },
+    {
+      "id": "rel_stg_party_24",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_24",
+      "toInstanceId": "sk_stg_23"
+    },
+    {
+      "id": "rel_stg_party_28",
+      "kind": "party_member",
+      "fromInstanceId": "sk_stg_28",
+      "toInstanceId": "sk_stg_27"
+    },
+    {
+      "id": "rel_stg_tr_7",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_stg_07",
+      "toInstanceId": "sk_stg_05"
+    },
+    {
+      "id": "rel_stg_tr_14",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_stg_14",
+      "toInstanceId": "sk_stg_12"
+    },
+    {
+      "id": "rel_stg_tr_21",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_stg_21",
+      "toInstanceId": "sk_stg_19"
+    },
+    {
+      "id": "rel_stg_tr_28",
+      "kind": "transport_passenger",
+      "fromInstanceId": "sk_stg_28",
+      "toInstanceId": "sk_stg_26"
+    }
+  ]
+}

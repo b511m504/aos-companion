@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "wh40k",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "wh40k-strike-stress",
+      "name": "Strike Force Stress",
+      "factionId": "space_marines",
+      "description": "Intercessors, captain, Rhino, objective — modifier stacks and nested emits.",
+      "units": [
+        {
+          "id": "wh40k-intercessor-01",
+          "name": "Intercessor Squad",
+          "tags": [
+            "unit",
+            "infantry",
+            "ally"
+          ]
+        },
+        {
+          "id": "wh40k-captain-01",
+          "name": "Captain",
+          "tags": [
+            "character",
+            "aura",
+            "ally"
+          ]
+        },
+        {
+          "id": "wh40k-rhino-01",
+          "name": "Rhino",
+          "tags": [
+            "vehicle",
+            "transport",
+            "ally"
+          ]
+        },
+        {
+          "id": "wh40k-obj-01",
+          "name": "Primary Objective",
+          "tags": [
+            "objective"
+          ]
+        }
+      ]
+    }
+  ]
+}

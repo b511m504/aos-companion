@@ -1,0 +1,16 @@
+{
+  "id": "aos_tactic_completed",
+  "trigger": "tactic.completed",
+  "priority": 10,
+  "appliesToSystems": [
+    "aos"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "remove_status",
+      "target": "aos-hero-01",
+      "status": "tactic_slotted"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "strategy_skeleton_03_damage_stub",
+  "trigger": "unit.damaged",
+  "priority": 60,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "triggering_entity",
+      "key": "health",
+      "delta": -1
+    },
+    {
+      "type": "emit_event",
+      "event": "entity_damaged",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "entity_healed",
+      "payload": {}
+    }
+  ]
+}

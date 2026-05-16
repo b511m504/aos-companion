@@ -1,0 +1,23 @@
+{
+  "id": "crypt_nfc_scan_door",
+  "trigger": "nfc.scan",
+  "priority": 5,
+  "appliesToSystems": [
+    "crypt_assault"
+  ],
+  "conditions": [
+    {
+      "type": "entity_has_tag",
+      "tag": "door"
+    }
+  ],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "room.entered",
+      "payload": {
+        "entityId": "crypt-door-01"
+      }
+    }
+  ]
+}

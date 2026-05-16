@@ -1,0 +1,24 @@
+{
+  "id": "kt_action_spent_ap",
+  "trigger": "action.spent",
+  "priority": 20,
+  "appliesToSystems": [
+    "killteam"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "kt-veteran-01",
+      "key": "resource",
+      "delta": -1
+    },
+    {
+      "type": "emit_event",
+      "event": "conceal.changed",
+      "payload": {
+        "entityId": "kt-veteran-01"
+      }
+    }
+  ]
+}

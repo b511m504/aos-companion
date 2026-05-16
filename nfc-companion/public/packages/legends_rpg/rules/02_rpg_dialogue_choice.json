@@ -1,0 +1,18 @@
+{
+  "id": "rpg_dialogue_choice",
+  "trigger": "dialogue.choice",
+  "priority": 18,
+  "appliesToSystems": [
+    "legends_rpg"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "reputation.changed",
+      "payload": {
+        "entityId": "rpg-faction-01"
+      }
+    }
+  ]
+}

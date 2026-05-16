@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "packageId": "age_of_sigmar",
+  "templates": [
+    {
+      "id": "aos-hero-01",
+      "name": "Knight-Incantor",
+      "tags": [
+        "hero",
+        "wizard"
+      ]
+    },
+    {
+      "id": "aos-caster-01",
+      "name": "Arcane Tome Bearer",
+      "tags": [
+        "wizard",
+        "ally"
+      ]
+    },
+    {
+      "id": "aos-line-01",
+      "name": "Vindicators",
+      "tags": [
+        "unit",
+        "ally"
+      ]
+    },
+    {
+      "id": "aos-knight-01",
+      "name": "Dracoline Knight",
+      "tags": [
+        "unit",
+        "cavalry"
+      ]
+    },
+    {
+      "id": "aos-endless-01",
+      "name": "Endless Spell: Comet",
+      "tags": [
+        "endless_spell"
+      ]
+    }
+  ]
+}

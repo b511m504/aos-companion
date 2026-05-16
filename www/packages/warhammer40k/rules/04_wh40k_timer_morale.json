@@ -1,0 +1,18 @@
+{
+  "id": "wh40k_timer_morale",
+  "trigger": "timer.fire",
+  "priority": 15,
+  "appliesToSystems": [
+    "wh40k"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "morale.tested",
+      "payload": {
+        "entityId": "wh40k-intercessor-01"
+      }
+    }
+  ]
+}

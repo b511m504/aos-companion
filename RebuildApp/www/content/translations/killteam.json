@@ -1,0 +1,12 @@
+{
+  "systemId": "killteam",
+  "schemaVersion": 1,
+  "translations": {
+    "health": "wounds",
+    "resource": "APL",
+    "event": "turn sequence",
+    "activation": "operative activation",
+    "status": "conditions",
+    "entity": "operative"
+  }
+}

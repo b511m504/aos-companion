@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "strategy_skeleton",
+  "templates": [
+    {
+      "id": "sk_stg_00",
+      "name": "territory 0",
+      "tags": [
+        "skeleton",
+        "territory"
+      ]
+    },
+    {
+      "id": "sk_stg_01",
+      "name": "resource 1",
+      "tags": [
+        "skeleton",
+        "resource"
+      ]
+    },
+    {
+      "id": "sk_stg_02",
+      "name": "unit 2",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_stg_03",
+      "name": "territory 3",
+      "tags": [
+        "skeleton",
+        "territory"
+      ]
+    },
+    {
+      "id": "sk_stg_04",
+      "name": "resource 4",
+      "tags": [
+        "skeleton",
+        "resource"
+      ]
+    },
+    {
+      "id": "sk_stg_05",
+      "name": "unit 5",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_stg_06",
+      "name": "territory 6",
+      "tags": [
+        "skeleton",
+        "territory"
+      ]
+    },
+    {
+      "id": "sk_stg_07",
+      "name": "resource 7",
+      "tags": [
+        "skeleton",
+        "resource"
+      ]
+    },
+    {
+      "id": "sk_stg_08",
+      "name": "unit 8",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    },
+    {
+      "id": "sk_stg_09",
+      "name": "territory 9",
+      "tags": [
+        "skeleton",
+        "territory"
+      ]
+    },
+    {
+      "id": "sk_stg_10",
+      "name": "resource 10",
+      "tags": [
+        "skeleton",
+        "resource"
+      ]
+    },
+    {
+      "id": "sk_stg_11",
+      "name": "unit 11",
+      "tags": [
+        "skeleton",
+        "unit"
+      ]
+    }
+  ]
+}

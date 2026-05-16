@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.769Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "dng_faction",
+  "listId": "dng-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:80:20:47:50:67",
+      "entityId": "sk_dng_00",
+      "displayName": "room 0",
+      "entityType": "room",
+      "assignedAt": "2026-05-14T22:11:25.769Z",
+      "factionId": "dng_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "dungeon_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:81:23:47:51:68",
+      "entityId": "sk_dng_01",
+      "displayName": "hazard 1",
+      "entityType": "hazard",
+      "assignedAt": "2026-05-14T22:11:25.769Z",
+      "factionId": "dng_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "dungeon_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:82:26:47:52:69",
+      "entityId": "sk_dng_02",
+      "displayName": "encounter 2",
+      "entityType": "encounter",
+      "assignedAt": "2026-05-14T22:11:25.769Z",
+      "factionId": "dng_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "dungeon_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:83:29:47:53:6A",
+      "entityId": "sk_dng_03",
+      "displayName": "chest 3",
+      "entityType": "chest",
+      "assignedAt": "2026-05-14T22:11:25.769Z",
+      "factionId": "dng_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "dungeon_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:84:2C:47:54:6B",
+      "entityId": "sk_dng_04",
+      "displayName": "room 4",
+      "entityType": "room",
+      "assignedAt": "2026-05-14T22:11:25.769Z",
+      "factionId": "dng_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "dungeon_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

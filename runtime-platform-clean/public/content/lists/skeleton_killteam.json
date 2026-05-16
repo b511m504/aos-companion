@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "list",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "systemId": "killteam",
+    "factionId": "skeleton_strike"
+  },
+  "lists": [
+    {
+      "schemaVersion": 1,
+      "id": "skt_strike_team",
+      "name": "Skeleton Strike Team",
+      "factionId": "skeleton_strike",
+      "description": "Six operatives — tabletop vertical slice for NFC tap-to-select.",
+      "units": [
+        {
+          "id": "skt-u01",
+          "name": "Sergeant Kade",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 14, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        },
+        {
+          "id": "skt-u02",
+          "name": "Operator Vex",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 10, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        },
+        {
+          "id": "skt-u03",
+          "name": "Operator Morrow",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 10, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        },
+        {
+          "id": "skt-u04",
+          "name": "Gunner Hale",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 12, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        },
+        {
+          "id": "skt-u05",
+          "name": "Medic Reyes",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 9, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        },
+        {
+          "id": "skt-u06",
+          "name": "Scout Tarn",
+          "entityType": "operative",
+          "runtimeStateOverlay": { "maxWounds": 8, "wounds": 0, "activated": false, "statusLabel": "Ready" }
+        }
+      ]
+    }
+  ]
+}

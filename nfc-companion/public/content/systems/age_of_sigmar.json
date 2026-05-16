@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "age_of_sigmar",
+  "name": "Age of Sigmar (package)",
+  "version": "1.0",
+  "description": "Parallel AoS catalog entry wired to generated stress list.",
+  "factionsPath": "factions/age_of_sigmar.json"
+}

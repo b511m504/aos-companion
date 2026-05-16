@@ -1,0 +1,10 @@
+{
+  "id": "open_crypt_door",
+  "trigger": "nfc.scan",
+  "appliesToSystems": ["aos"],
+  "conditions": [{ "type": "entity_has_tag", "tag": "door" }],
+  "actions": [
+    { "type": "show_message", "text": "The crypt door slowly opens…" },
+    { "type": "emit_event", "event": "room.entered", "payload": { "from": "door" } }
+  ]
+}

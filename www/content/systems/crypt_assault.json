@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "crypt_assault",
+  "name": "Crypt Assault",
+  "version": "1.0",
+  "description": "Event-driven dungeon crawl stand-in — rooms, traps, AI ticks.",
+  "factionsPath": "factions/crypt_assault.json"
+}

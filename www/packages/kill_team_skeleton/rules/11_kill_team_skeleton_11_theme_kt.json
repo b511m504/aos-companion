@@ -1,0 +1,16 @@
+{
+  "id": "kill_team_skeleton_11_theme_kt",
+  "trigger": "operative.activated",
+  "priority": 18,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "action.spent",
+      "payload": {}
+    }
+  ]
+}

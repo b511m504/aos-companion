@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "lists",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "lists": [
+    {
+      "id": "brd-default",
+      "name": "boardgame_skeleton default roster",
+      "factionId": "brd_faction",
+      "description": "Lightweight skeleton content for runtime / UI coverage.",
+      "units": [
+        {
+          "id": "sk_brd_00",
+          "name": "player 0",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": true,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_inv_0",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_brd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_01",
+          "name": "token 1",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_02",
+          "name": "score 2",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_03",
+          "name": "player 3",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_04",
+          "name": "token 4",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_4",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_03"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_05",
+          "name": "score 5",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_06",
+          "name": "player 6",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_inv_6",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_brd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_07",
+          "name": "token 7",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_tr_7",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_brd_05"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_08",
+          "name": "score 8",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_8",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_07"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_09",
+          "name": "player 9",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_10",
+          "name": "token 10",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_11",
+          "name": "score 11",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 3,
+            "activated": true,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_12",
+          "name": "player 12",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_12",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_11"
+            },
+            {
+              "id": "rel_brd_inv_12",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_brd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_13",
+          "name": "token 13",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 1,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_14",
+          "name": "score 14",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_tr_14",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_brd_12"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_15",
+          "name": "player 15",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_16",
+          "name": "token 16",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_16",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_15"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_17",
+          "name": "score 17",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_18",
+          "name": "player 18",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 2,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_inv_18",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_brd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_19",
+          "name": "token 19",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_20",
+          "name": "score 20",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_20",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_21",
+          "name": "player 21",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_tr_21",
+              "kind": "transport_passenger",
+              "toInstanceId": "sk_brd_19"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_22",
+          "name": "token 22",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 2,
+            "activated": true,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_23",
+          "name": "score 23",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 6,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_24",
+          "name": "player 24",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 7,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": [
+            {
+              "id": "rel_brd_party_24",
+              "kind": "party_member",
+              "toInstanceId": "sk_brd_23"
+            },
+            {
+              "id": "rel_brd_inv_24",
+              "kind": "inventory_item",
+              "toInstanceId": "sk_brd_item_hub"
+            }
+          ]
+        },
+        {
+          "id": "sk_brd_25",
+          "name": "token 25",
+          "tags": [
+            "skeleton",
+            "token"
+          ],
+          "entityType": "token",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 3,
+            "resource": 1,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_26",
+          "name": "score 26",
+          "tags": [
+            "skeleton",
+            "score"
+          ],
+          "entityType": "score",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 4,
+            "resource": 2,
+            "activated": false,
+            "statuses": [
+              "stub"
+            ],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_27",
+          "name": "player 27",
+          "tags": [
+            "skeleton",
+            "player"
+          ],
+          "entityType": "player",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 5,
+            "resource": 3,
+            "activated": false,
+            "statuses": [],
+            "owner": "player2",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        },
+        {
+          "id": "sk_brd_item_hub",
+          "name": "Hub item",
+          "tags": [
+            "skeleton",
+            "loot"
+          ],
+          "entityType": "generic",
+          "packageId": "boardgame_skeleton",
+          "templateId": "basic_template",
+          "runtime": {
+            "health": 1,
+            "resource": 0,
+            "activated": false,
+            "statuses": [],
+            "owner": "player1",
+            "cooldown": 0,
+            "position": "",
+            "inventory": [],
+            "objective": null
+          },
+          "canonicalRelationships": []
+        }
+      ]
+    }
+  ]
+}

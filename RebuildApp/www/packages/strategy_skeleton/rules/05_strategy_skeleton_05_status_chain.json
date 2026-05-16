@@ -1,0 +1,21 @@
+{
+  "id": "strategy_skeleton_05_status_chain",
+  "trigger": "status.applied",
+  "priority": 30,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "status_applied",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "status_removed",
+      "payload": {}
+    }
+  ]
+}

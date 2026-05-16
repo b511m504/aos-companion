@@ -1,0 +1,2 @@
+import{W as o}from"./index-De4Kfj89.js";import"./index-Bhfi7nDh.js";class s extends o{async isSupported(){return{supported:!1}}async startScan(r){throw new Error("NFC is not supported on web")}async cancelScan(){throw new Error("NFC is not supported on web")}async cancelWriteAndroid(){throw new Error("NFC is not supported on web")}async writeNDEF(r){throw new Error("NFC is not supported on web")}}export{s as NFCWeb};
+//# sourceMappingURL=web-DezhU3xy.js.map

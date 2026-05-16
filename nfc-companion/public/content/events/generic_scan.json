@@ -1,0 +1,6 @@
+{
+  "id": "scan_entity",
+  "trigger": "nfc.scan",
+  "conditions": [{ "type": "entity_exists" }],
+  "actions": [{ "type": "open_entity_panel" }]
+}

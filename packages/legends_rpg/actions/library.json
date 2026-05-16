@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "description": "Reusable action snippets (copy into rules as needed).",
+  "snippets": {
+    "bumpObjective": [
+      {
+        "type": "increment_state",
+        "target": "wh40k-obj-01",
+        "key": "resource",
+        "delta": 1
+      }
+    ],
+    "applyPoison": [
+      {
+        "type": "apply_status",
+        "target": "crypt-hero-01",
+        "status": "poisoned"
+      }
+    ]
+  }
+}

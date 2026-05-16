@@ -1,0 +1,26 @@
+{
+  "id": "cardgame_skeleton_02_turn_end",
+  "trigger": "turn.end",
+  "priority": 40,
+  "appliesToSystems": [
+    "skeleton_lab"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "emit_event",
+      "event": "end_turn",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "end_round",
+      "payload": {}
+    },
+    {
+      "type": "emit_event",
+      "event": "end_game",
+      "payload": {}
+    }
+  ]
+}

@@ -1,0 +1,1282 @@
+{
+  "schemaVersion": 1,
+  "packageId": "warhammer40k_skeleton",
+  "entities": [
+    {
+      "instanceId": "sk_w40ks_00",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": true,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 0",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_inv_0",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_00",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_01",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 1",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_02",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 2",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_03",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 3",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_04",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 4",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_4",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_04",
+          "toInstanceId": "sk_w40ks_03"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_05",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 5",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_06",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 6",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_inv_6",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_06",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_07",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 7",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_tr_7",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_w40ks_07",
+          "toInstanceId": "sk_w40ks_05"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_08",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 8",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_8",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_08",
+          "toInstanceId": "sk_w40ks_07"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_09",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 9",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_10",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 10",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_11",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 11",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_12",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 12",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_12",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_12",
+          "toInstanceId": "sk_w40ks_11"
+        },
+        {
+          "id": "rel_w40ks_inv_12",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_12",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_13",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 13",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_14",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 14",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_tr_14",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_w40ks_14",
+          "toInstanceId": "sk_w40ks_12"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_15",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 15",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_16",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 16",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_16",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_16",
+          "toInstanceId": "sk_w40ks_15"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_17",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 17",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_18",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 18",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_inv_18",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_18",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_19",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 19",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_20",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 3,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 20",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_20",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_20",
+          "toInstanceId": "sk_w40ks_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_21",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 4,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 21",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_tr_21",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_w40ks_21",
+          "toInstanceId": "sk_w40ks_19"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_22",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 5,
+        "resource": 2,
+        "activated": true,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 22",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_23",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 6,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 23",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_24",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 7,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 24",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_24",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_24",
+          "toInstanceId": "sk_w40ks_23"
+        },
+        {
+          "id": "rel_w40ks_inv_24",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_24",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_25",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 3,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 25",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_26",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 4,
+        "resource": 2,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 26",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_27",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 5,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 27",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_28",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 6,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 28",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_28",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_28",
+          "toInstanceId": "sk_w40ks_27"
+        },
+        {
+          "id": "rel_w40ks_tr_28",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_w40ks_28",
+          "toInstanceId": "sk_w40ks_26"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_29",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 7,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 29",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_30",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 3,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 30",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_inv_30",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_30",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_31",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 4,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 31",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_32",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 5,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 32",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_32",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_32",
+          "toInstanceId": "sk_w40ks_31"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_33",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 6,
+        "resource": 1,
+        "activated": true,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 33",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_34",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 7,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 34",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_35",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 3,
+        "resource": 3,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 35",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_tr_35",
+          "kind": "transport_passenger",
+          "fromInstanceId": "sk_w40ks_35",
+          "toInstanceId": "sk_w40ks_33"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_36",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "unit",
+      "state": {
+        "health": 4,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "unit 36",
+        "tags": [
+          "skeleton",
+          "unit"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      },
+      "relationships": [
+        {
+          "id": "rel_w40ks_party_36",
+          "kind": "party_member",
+          "fromInstanceId": "sk_w40ks_36",
+          "toInstanceId": "sk_w40ks_35"
+        },
+        {
+          "id": "rel_w40ks_inv_36",
+          "kind": "inventory_item",
+          "fromInstanceId": "sk_w40ks_36",
+          "toInstanceId": "sk_w40ks_item_hub"
+        }
+      ]
+    },
+    {
+      "instanceId": "sk_w40ks_37",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "objective",
+      "state": {
+        "health": 5,
+        "resource": 1,
+        "activated": false,
+        "statuses": [],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "objective 37",
+        "tags": [
+          "skeleton",
+          "objective"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_38",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "character",
+      "state": {
+        "health": 6,
+        "resource": 2,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "character 38",
+        "tags": [
+          "skeleton",
+          "character"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_39",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "transport",
+      "state": {
+        "health": 7,
+        "resource": 3,
+        "activated": false,
+        "statuses": [
+          "stub"
+        ],
+        "owner": "player2",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "transport 39",
+        "tags": [
+          "skeleton",
+          "transport"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    },
+    {
+      "instanceId": "sk_w40ks_item_hub",
+      "templateId": "basic_template",
+      "packageId": "warhammer40k_skeleton",
+      "entityType": "generic",
+      "state": {
+        "health": 1,
+        "resource": 0,
+        "activated": false,
+        "statuses": [],
+        "owner": "player1",
+        "cooldown": 0,
+        "position": "",
+        "inventory": [],
+        "objective": null
+      },
+      "metadata": {
+        "displayName": "Hub item",
+        "tags": [
+          "skeleton",
+          "loot"
+        ],
+        "sourceListId": "w40ks-default",
+        "sourceListName": "warhammer40k_skeleton default roster",
+        "sourceFactionId": "w40ks_faction"
+      }
+    }
+  ],
+  "edges": []
+}

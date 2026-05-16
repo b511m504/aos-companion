@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "eventRefs": [
+    { "path": "events/hero_aura_buff.json" },
+    { "path": "events/generic_scan.json" },
+    { "path": "events/aos_capture.json" },
+    { "path": "events/open_crypt_door.json" },
+    { "path": "events/poison_trap.json" },
+    { "path": "events/room_entered_echo.json" },
+    { "path": "events/trap_awakened.json" },
+    { "path": "events/stress_loop_a.json" },
+    { "path": "events/stress_loop_b.json" },
+    { "path": "events/stress_loop_c.json" }
+  ]
+}

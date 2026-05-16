@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "packageType": "faction-index",
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0-skeleton",
+    "systemId": "skeleton_lab",
+    "factionId": "*"
+  },
+  "factions": [
+    {
+      "id": "w40ks_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Warhammer 40k",
+      "listsPath": "packages/warhammer40k_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "aoss_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Age of Sigmar",
+      "listsPath": "packages/age_of_sigmar_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "kts_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Kill Team",
+      "listsPath": "packages/kill_team_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "cryp_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Crypt Assault",
+      "listsPath": "packages/crypt_assault_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "rpgs_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Legends RPG",
+      "listsPath": "packages/legends_rpg_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "brd_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Boardgame",
+      "listsPath": "packages/boardgame_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "crd_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Cardgame",
+      "listsPath": "packages/cardgame_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "dng_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Dungeon",
+      "listsPath": "packages/dungeon_skeleton/sample_lists/default.json"
+    },
+    {
+      "id": "stg_faction",
+      "systemId": "skeleton_lab",
+      "name": "Skeleton: Strategy",
+      "listsPath": "packages/strategy_skeleton/sample_lists/default.json"
+    }
+  ]
+}

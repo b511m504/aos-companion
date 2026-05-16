@@ -1,0 +1,21 @@
+{
+  "packageId": "legends_rpg",
+  "name": "Legends RPG",
+  "version": 1,
+  "supportsNFC": true,
+  "systemId": "legends_rpg",
+  "contentVersion": "1.0.0",
+  "entityTypes": [
+    "pc",
+    "npc",
+    "quest",
+    "faction",
+    "item"
+  ],
+  "capabilities": {
+    "spawnEntities": true,
+    "timers": true,
+    "persistentEffects": true,
+    "maxChainDepthOverride": 24
+  }
+}

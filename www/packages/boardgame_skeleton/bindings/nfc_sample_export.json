@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T22:11:25.754Z",
+  "gameSystemId": "skeleton_lab",
+  "factionId": "brd_faction",
+  "listId": "brd-default",
+  "assignments": [
+    {
+      "tagUid": "04:00:60:20:45:50:65",
+      "entityId": "sk_brd_00",
+      "displayName": "player 0",
+      "entityType": "player",
+      "assignedAt": "2026-05-14T22:11:25.754Z",
+      "factionId": "brd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "boardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:61:23:45:51:66",
+      "entityId": "sk_brd_01",
+      "displayName": "token 1",
+      "entityType": "token",
+      "assignedAt": "2026-05-14T22:11:25.754Z",
+      "factionId": "brd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "boardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:62:26:45:52:67",
+      "entityId": "sk_brd_02",
+      "displayName": "score 2",
+      "entityType": "score",
+      "assignedAt": "2026-05-14T22:11:25.754Z",
+      "factionId": "brd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "boardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:63:29:45:53:68",
+      "entityId": "sk_brd_03",
+      "displayName": "player 3",
+      "entityType": "player",
+      "assignedAt": "2026-05-14T22:11:25.754Z",
+      "factionId": "brd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "boardgame_skeleton",
+      "templateId": "basic_template"
+    },
+    {
+      "tagUid": "04:00:64:2C:45:54:69",
+      "entityId": "sk_brd_04",
+      "displayName": "token 4",
+      "entityType": "token",
+      "assignedAt": "2026-05-14T22:11:25.754Z",
+      "factionId": "brd_faction",
+      "gameSystemId": "skeleton_lab",
+      "packageId": "boardgame_skeleton",
+      "templateId": "basic_template"
+    }
+  ]
+}

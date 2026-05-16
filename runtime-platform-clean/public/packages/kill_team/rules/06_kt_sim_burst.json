@@ -1,0 +1,17 @@
+{
+  "id": "kt_sim_burst",
+  "trigger": "simulation.tick",
+  "priority": 1,
+  "appliesToSystems": [
+    "killteam"
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "type": "increment_state",
+      "target": "kt-veteran-01",
+      "key": "cooldown",
+      "delta": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "systemId": "generic",
+  "name": "Spectre Fireteam",
+  "units": [
+    { "id": "s1", "name": "Fireteam Lead", "wounds": 4, "entityType": "CHARACTER" },
+    { "id": "s2", "name": "Operators", "wounds": 8, "entityType": "UNIT" },
+    { "id": "s3", "name": "Recon Drone", "wounds": 3, "entityType": "VEHICLE" },
+    { "id": "s4", "name": "Supply Beacon", "wounds": 2, "entityType": "TOKEN" },
+    { "id": "s5", "name": "Breacher Bot", "wounds": 6, "entityType": "UNIT" }
+  ]
+}

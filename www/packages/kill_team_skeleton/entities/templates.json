@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "packageId": "kill_team_skeleton",
+  "templates": [
+    {
+      "id": "sk_kts_00",
+      "name": "operative 0",
+      "tags": [
+        "skeleton",
+        "operative"
+      ]
+    },
+    {
+      "id": "sk_kts_01",
+      "name": "conceal 1",
+      "tags": [
+        "skeleton",
+        "conceal"
+      ]
+    },
+    {
+      "id": "sk_kts_02",
+      "name": "grenade 2",
+      "tags": [
+        "skeleton",
+        "grenade"
+      ]
+    },
+    {
+      "id": "sk_kts_03",
+      "name": "operative 3",
+      "tags": [
+        "skeleton",
+        "operative"
+      ]
+    },
+    {
+      "id": "sk_kts_04",
+      "name": "conceal 4",
+      "tags": [
+        "skeleton",
+        "conceal"
+      ]
+    },
+    {
+      "id": "sk_kts_05",
+      "name": "grenade 5",
+      "tags": [
+        "skeleton",
+        "grenade"
+      ]
+    },
+    {
+      "id": "sk_kts_06",
+      "name": "operative 6",
+      "tags": [
+        "skeleton",
+        "operative"
+      ]
+    },
+    {
+      "id": "sk_kts_07",
+      "name": "conceal 7",
+      "tags": [
+        "skeleton",
+        "conceal"
+      ]
+    },
+    {
+      "id": "sk_kts_08",
+      "name": "grenade 8",
+      "tags": [
+        "skeleton",
+        "grenade"
+      ]
+    },
+    {
+      "id": "sk_kts_09",
+      "name": "operative 9",
+      "tags": [
+        "skeleton",
+        "operative"
+      ]
+    },
+    {
+      "id": "sk_kts_10",
+      "name": "conceal 10",
+      "tags": [
+        "skeleton",
+        "conceal"
+      ]
+    },
+    {
+      "id": "sk_kts_11",
+      "name": "grenade 11",
+      "tags": [
+        "skeleton",
+        "grenade"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "eventRefs": [
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/01_age_of_sigmar_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/02_age_of_sigmar_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/03_age_of_sigmar_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/04_age_of_sigmar_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/05_age_of_sigmar_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/06_age_of_sigmar_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/07_age_of_sigmar_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/08_age_of_sigmar_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/09_age_of_sigmar_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/10_age_of_sigmar_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/age_of_sigmar_skeleton/rules/11_age_of_sigmar_skeleton_11_theme_spell.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/01_aos_hero_phase_tick.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/02_aos_spell_cast_chain.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/03_aos_spell_denied.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/04_aos_ward_save.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/05_aos_summon_unit.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/06_aos_tactic_completed.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/07_aos_command_issued.json"
+    },
+    {
+      "path": "packages/age_of_sigmar/rules/08_aos_sim_tick.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/01_boardgame_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/02_boardgame_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/03_boardgame_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/04_boardgame_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/05_boardgame_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/06_boardgame_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/07_boardgame_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/08_boardgame_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/09_boardgame_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/10_boardgame_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/boardgame_skeleton/rules/11_boardgame_skeleton_11_theme_board.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/01_cardgame_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/02_cardgame_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/03_cardgame_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/04_cardgame_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/05_cardgame_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/06_cardgame_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/07_cardgame_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/08_cardgame_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/09_cardgame_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/10_cardgame_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/cardgame_skeleton/rules/11_cardgame_skeleton_11_theme_card.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/01_crypt_assault_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/02_crypt_assault_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/03_crypt_assault_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/04_crypt_assault_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/05_crypt_assault_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/06_crypt_assault_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/07_crypt_assault_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/08_crypt_assault_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/09_crypt_assault_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/10_crypt_assault_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/crypt_assault_skeleton/rules/11_crypt_assault_skeleton_11_theme_crypt.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/01_crypt_enter_room.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/02_crypt_enemy_revealed.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/03_crypt_trap_triggered.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/04_crypt_monster_spawned.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/05_crypt_loot_found.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/06_crypt_chest_opened.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/07_crypt_ai_tick.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/08_crypt_nfc_scan_door.json"
+    },
+    {
+      "path": "packages/crypt_assault/rules/09_crypt_sim_persist.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/01_dungeon_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/02_dungeon_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/03_dungeon_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/04_dungeon_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/05_dungeon_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/06_dungeon_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/07_dungeon_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/08_dungeon_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/09_dungeon_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/10_dungeon_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/dungeon_skeleton/rules/11_dungeon_skeleton_11_theme_dungeon.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/01_kill_team_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/02_kill_team_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/03_kill_team_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/04_kill_team_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/05_kill_team_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/06_kill_team_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/07_kill_team_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/08_kill_team_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/09_kill_team_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/10_kill_team_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/kill_team_skeleton/rules/11_kill_team_skeleton_11_theme_kt.json"
+    },
+    {
+      "path": "packages/kill_team/rules/01_kt_operative_activated.json"
+    },
+    {
+      "path": "packages/kill_team/rules/02_kt_action_spent_ap.json"
+    },
+    {
+      "path": "packages/kill_team/rules/03_kt_conceal_changed.json"
+    },
+    {
+      "path": "packages/kill_team/rules/04_kt_overwatch.json"
+    },
+    {
+      "path": "packages/kill_team/rules/05_kt_turn_end_churn.json"
+    },
+    {
+      "path": "packages/kill_team/rules/06_kt_sim_burst.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/01_legends_rpg_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/02_legends_rpg_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/03_legends_rpg_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/04_legends_rpg_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/05_legends_rpg_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/06_legends_rpg_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/07_legends_rpg_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/08_legends_rpg_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/09_legends_rpg_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/10_legends_rpg_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/legends_rpg_skeleton/rules/11_legends_rpg_skeleton_11_theme_rpg.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/01_rpg_quest_started.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/02_rpg_dialogue_choice.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/03_rpg_reputation_changed.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/04_rpg_xp_gained.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/05_rpg_level_gained.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/06_rpg_item_equipped.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/07_rpg_quest_completed.json"
+    },
+    {
+      "path": "packages/legends_rpg/rules/08_rpg_sim_campaign.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/01_strategy_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/02_strategy_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/03_strategy_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/04_strategy_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/05_strategy_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/06_strategy_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/07_strategy_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/08_strategy_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/09_strategy_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/10_strategy_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/strategy_skeleton/rules/11_strategy_skeleton_11_theme_strategy.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/01_warhammer40k_skeleton_01_lifecycle_turnstart.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/02_warhammer40k_skeleton_02_turn_end.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/03_warhammer40k_skeleton_03_damage_stub.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/04_warhammer40k_skeleton_04_objective_stub.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/05_warhammer40k_skeleton_05_status_chain.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/06_warhammer40k_skeleton_06_spawn_stub.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/07_warhammer40k_skeleton_07_destroy_cleanup.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/08_warhammer40k_skeleton_08_timer_bridge.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/09_warhammer40k_skeleton_09_nfc_scan_pulse.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/10_warhammer40k_skeleton_10_ai_tick.json"
+    },
+    {
+      "path": "packages/warhammer40k_skeleton/rules/11_warhammer40k_skeleton_11_theme_morale.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/01_wh40k_unit_damaged_modstack.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/02_wh40k_aura_nested.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/03_wh40k_objective_chain.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/04_wh40k_timer_morale.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/05_wh40k_morale_battleshock.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/06_wh40k_transport_embark.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/07_wh40k_transport_disembark.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/08_wh40k_unit_destroyed_cleanup.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/09_wh40k_summon_echo.json"
+    },
+    {
+      "path": "packages/warhammer40k/rules/10_wh40k_sim_tick_decay.json"
+    }
+  ]
+}

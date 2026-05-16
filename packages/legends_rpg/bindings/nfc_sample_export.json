@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-14T20:43:10.505Z",
+  "gameSystemId": "legends_rpg",
+  "factionId": "rpg_default",
+  "listId": "rpg-party-stress",
+  "assignments": [
+    {
+      "tagUid": "04legends_rpg0FA",
+      "entityId": "rpg-pc-01",
+      "displayName": "Kessa",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.505Z",
+      "factionId": "rpg_default",
+      "gameSystemId": "legends_rpg"
+    },
+    {
+      "tagUid": "04legends_rpg1FA",
+      "entityId": "rpg-npc-01",
+      "displayName": "Magistrate Vorn",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.505Z",
+      "factionId": "rpg_default",
+      "gameSystemId": "legends_rpg"
+    },
+    {
+      "tagUid": "04legends_rpg2FA",
+      "entityId": "rpg-quest-01",
+      "displayName": "Relic of Ashfen",
+      "entityType": "entity",
+      "assignedAt": "2026-05-14T20:43:10.505Z",
+      "factionId": "rpg_default",
+      "gameSystemId": "legends_rpg"
+    }
+  ]
+}

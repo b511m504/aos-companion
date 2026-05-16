@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "description": "Skeleton condition snippets.",
+  "snippets": {
+    "always": [
+      {
+        "type": "random_below",
+        "threshold": 1
+      }
+    ]
+  }
+}

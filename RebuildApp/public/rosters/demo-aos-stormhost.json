@@ -1,0 +1,10 @@
+{
+  "systemId": "aos",
+  "name": "Stormhost Vanguard",
+  "units": [
+    { "id": "a1", "name": "Lord-Arcanum", "wounds": 6, "entityType": "CHARACTER" },
+    { "id": "a2", "name": "Vindictors", "wounds": 10, "entityType": "UNIT" },
+    { "id": "a3", "name": "Castigators", "wounds": 12, "entityType": "UNIT" },
+    { "id": "a4", "name": "Soulburst Choir", "wounds": 5, "entityType": "UNIT" }
+  ]
+}
